@@ -17,7 +17,7 @@
 		      <a class="logo" href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
 	      </div>
 
-	      <div class="collapse navbar-collapse" id="navbar">
+	      <div class="collapse navbar-collapse menu-align-bottom" id="navbar">
 		      <ul class="nav navbar-nav navbar-right">
 			      <li class="dropdown">
 				      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
@@ -25,7 +25,7 @@
 				           {% for service in site.services %}
       					   {% if service.menutitle %}
       					   <li><a href="{{ service.url | relative_url }}">{{ service.menutitle | escape }}</a></li>
-                   {% endif %}
+                           {% endif %}
       					   {% endfor %}
       			  </ul>
 			      </li>

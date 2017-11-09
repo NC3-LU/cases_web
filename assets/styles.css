@@ -7,7 +7,7 @@ Template Name: cases.lu
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
 html, body {
-	font-family: 'Lato', myriad pro, tahoma, sans-serif;
+	font-family: Helvetica,Arial,sans-serif
 	font-weight: 400;
 	font-size: 100%;
 }
@@ -50,6 +50,9 @@ hr {
 }
 ul {
 	margin-left: 35px;
+}
+.menu-align-bottom {
+    margin-top: 48px;
 }
 .tocnavsection {
 	padding: 0 0 0 20px;
@@ -171,7 +174,7 @@ a.glossary{
 
 .content-text > ul{
     color: rgb(127, 127, 127);
-    font-size: 14px;
+    font-size: 16px;
     list-style-image: url("/templates/frontoffice/casesv3/images/list-4.png");
     margin: 15px 5px;
     padding: 0 0 0 15px;
