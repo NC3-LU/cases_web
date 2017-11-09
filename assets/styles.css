@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 a {
 	color: #0066b2;
 }
+p {
+    word-wrap: normal;
+    padding: 5px;
+}
 a:hover {
 	color: #0087e0;
 	text-decoration: none;

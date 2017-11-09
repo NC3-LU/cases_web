@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: articlesmall
 title:  "Trainings"
 menutitle:  "Trainings"
-date:   2017-11-06 21:47:55 +0100
-categories: services
+logo: "/assets/img/services/trainings.png"
+short: "La formation CASES apportera Les connaissances et les bons réflexes en matière de sécurité adaptés à vos équipes"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

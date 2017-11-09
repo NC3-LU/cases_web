@@ -2,8 +2,6 @@
 layout: article
 title:  "Clever Downloads"
 toc: true
-date:   2017-11-06 21:47:55 +0100
-categories: publications
 ---
 
 ## En bref

@@ -2,8 +2,6 @@
 layout: post
 title:  "Clever Clicks"
 menutitle:  "Clever Clicks"
-date:   2017-11-06 21:47:55 +0100
-categories: publications
 ---
 L'informatique est un élément essentiel à l'activité commerciale de toutes les entreprises.
 
