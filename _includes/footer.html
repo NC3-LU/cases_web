@@ -19,13 +19,14 @@
 				<div class="footer-credits text-right">
 					<ul>
 																					<li>
-																			<a title="About us" href="https://securitymadein.lu/about-us/">About us</a>
+																			<a title="About us" href="{% link contact.md %}">About us</a>
 																	</li>
 															<li>
-																			<a title="Legal" href="{{ sites.legal.url | relative_url }}">Legal</a>
+
+																			<a title="Legal" href="{% link legal.md %}">Legal</a>
 																	</li>
 															<li>
-																			<a title="Privacy" href="https://securitymadein.lu/legal/#privacy">Privacy</a>
+																			<a title="Privacy" href="{% link legal.md %}#privacy">Privacy</a>
 																	</li>
 																		</ul>
 				</div>

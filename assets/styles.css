@@ -48,6 +48,22 @@ a:hover {
 hr {
 	margin: 0;
 }
+ul {
+	margin-left: 35px;
+}
+.tocnavsection {
+	padding: 0 0 0 20px;
+  border: 1px solid #E8E8E8;
+  border-radius: 3px;
+	float: right;
+	margin: 0 0 30px 30px;
+}
+.section-nav {
+	padding: 10px 30px;
+  background-color: #FFF;
+  margin: 5px 0;
+}
+
 .txtright{
 	text-align: right;
 }
