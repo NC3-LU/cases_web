@@ -5,20 +5,41 @@ layout: default
 
 <div class="row">
 
+	<div class="col-md-7">
+		<div class="well">
+	    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2585.632730831921!2d6.135316!3d49.604675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479548ce12418fa9%3A0xbb87d355ca4f5108!2s16+Boulevard+d&#39;Avranches%2C+1160+Luxembourg!5e0!3m2!1sde!2slu!4v1510220550757" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+  </div>
+
+	<div class="col-md-5">
+
+
+				<div class="container-fluid">
+						<h1>{{ page.title | escape }}</h1>
+
+						{{ content }}
+
+						<br /><br />
+
+						{% if page.email %}
+							  Twitter: <a class="btn btn-link" href="https://twitter.com/{{ page.twitter }}"><span class="icon icon--ios-email-outline">{% include ios-email-outline.svg %}</span><span>@{{ page.twitter }}</span></a>
+						{% endif %}
+						<br /><br />
+						{% if page.twitter %}
+							Twitter: <a class="btn btn-link" href="https://twitter.com/{{ page.twitter }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span>@{{ page.twitter }}</span></a>
+						{% endif %}
+						<br /><br />
+						{% if page.github %}
+							Github:
+							<div class="btn-group">
+							{% for user in page.github %}
+							<a class="btn btn-link" href="https://github.com/{{ user }}"><span class="icon icon--github">{% include icon-github.svg %}</span><span>{{ user }}</span></a>
+							{% endfor %}
+							</div>
+						{% endif %}
+
+				</div>
+	</div>
+
+
 </div>
-
-<div style="float:right">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.632726628145!2d6.133121852254206!3d49.60467507926639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479548ce12418fa9%3A0xbb87d355ca4f5108!2s16+Boulevard+d&#39;Avranches%2C+1160+Luxembourg!5e0!3m2!1sde!2slu!4v1510006258782" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-
-<article class="post">
-
-	  <header class="post-header">
-		      <h1 class="post-title">{{ page.title | escape }}</h1>
-		        </header>
-
-			  <div class="post-content">
-				      {{ content }}
-				        </div>
-
-</article>
