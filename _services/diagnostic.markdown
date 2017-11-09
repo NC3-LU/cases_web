@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Diagnostic CASES"
+menutitle:  "Diagnostic CASES"
 date:   2017-11-06 21:47:55 +0100
 categories: services
 ---

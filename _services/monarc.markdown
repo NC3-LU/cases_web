@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "MONARC"
+menutitle:  "MONARC"
 date:   2017-11-06 21:47:55 +0100
 categories: services
 ---

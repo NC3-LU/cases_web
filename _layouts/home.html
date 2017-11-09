@@ -2,14 +2,11 @@
 layout: default
 ---
 
-<div style="float: right">
-<a class="twitter-timeline" data-width="300" data-height="700" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-</div>
-<div class="home">
+<div class="row">
+<div class="col-md-9">
 
   <h1 class="page-heading">Posts</h1>
-  
+
   {{ content }}
 
   <ul class="post-list">
@@ -28,4 +25,8 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
-
+<div class="col-md-3">
+  <h2>latest news</h2>
+  <a class="twitter-timeline" data-width="300" data-height="700" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>

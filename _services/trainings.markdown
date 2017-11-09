@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "trainigs"
+title:  "Trainings"
+menutitle:  "Trainings"
 date:   2017-11-06 21:47:55 +0100
 categories: services
 ---
