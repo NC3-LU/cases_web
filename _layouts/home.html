@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row-fluid row-fluid--padding">
 <div class="col-md-9">
-    
-    <div class="row">
+
+    <div class="row-fluid">
     <h1>Our Services</h1>
     {% if site.services %}
     <div class="text-center">
@@ -13,21 +13,21 @@ layout: default
     {% for service in site.services %}
         {% if counter==false %}
         <div class="row">
-        <div class="col-md-1">
-        </div>
-        {% endif %}
-        <a href="{{ service.url }}" alt="{{ service.title }}">
-        <div class="col-md-5">
-            {% if service.logo %}
-                <img src="{{ service.logo }}" alt="{{ service.title }}" /><br>
-            {% endif %}
-            <h4>{{ service.title }}</h4>
-            {% if service.short %}
-            {{ service.short }}
-            {% endif %}
-        </div>
-        </a>
-        {% if counter==true %}
+          <div class="col-md-1">
+          </div>
+          {% endif %}
+          <a href="{{ service.url }}" alt="{{ service.title }}">
+          <div class="col-md-5">
+              {% if service.logo %}
+                  <img src="{{ service.logo }}" alt="{{ service.title }}" /><br>
+              {% endif %}
+              <h4>{{ service.title }}</h4>
+              {% if service.short %}
+              {{ service.short }}
+              {% endif %}
+          </div>
+          </a>
+          {% if counter==true %}
         </div>
         {% assign counter=false %}
         {% else %}
@@ -58,7 +58,7 @@ layout: default
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     </div>
 </div>
-<div class="col-md-3 well">
+<div class="col-md-3 well well--blue">
   <h2>Latest Tweets</h2>
   <a class="twitter-timeline" data-width="300" data-height="700" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>

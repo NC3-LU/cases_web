@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #565656;
 }
-a {
-	color: #0066b2;
+a btn btn-link {
+	color: rgb(0,114,184);
 }
 p {
     word-wrap: normal;
@@ -54,6 +54,18 @@ hr {
 }
 ul {
 	margin-left: 35px;
+}
+.row-fluid--padding {
+	padding: 5px 0 5px 5px;
+}
+.well--blue {
+	background-image: none;
+	background-color: rgb(0,114,184);
+	border-color: #0066B2;
+	color: white;
+}
+.well--blue h2 {
+	color: white;
 }
 .menu-align-bottom {
     margin-top: 48px;
@@ -2256,7 +2268,7 @@ div.map-popup > h6 {
 #footer {
 	width: 100%;
 	height: auto;
-	background-color: #343434;
+	background-color: rgb(0,114,184);
 	border-top: 1px solid #414141;
 	padding: 18px 0;
 	margin-top: 30px;
@@ -2441,15 +2453,15 @@ END ALERTE--> .footer-col-nav {
 	color: #868686;
 }
 /* CREDIT*/
-#credits-section {
-	background-color: rgb(17, 17, 17);
+.credits-section {
+	background-color: rgb(0,114,184);
 	color: white;
 }
-#credits-section .col-md-3:nth-child(3) {
+.credits-section .col-md-3:nth-child(3) {
 	padding-right: 0;
 	text-align: right;
 }
-#credits-section .col-md-5:nth-child(2) {
+.credits-section .col-md-5:nth-child(2) {
 	text-align: center;
 }
 .footer-credits {
