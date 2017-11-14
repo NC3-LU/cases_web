@@ -55,6 +55,13 @@ hr {
 ul {
 	margin-left: 35px;
 }
+.menubarpadding{
+	padding-bottom: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #ffffff;
+	border-bottom: 1px solid rgb(0,114,184);
+}
 .row-fluid--padding {
 	padding: 5px 0 5px 5px;
 }
@@ -2454,7 +2461,11 @@ END ALERTE--> .footer-col-nav {
 }
 /* CREDIT*/
 .credits-section {
+	padding-top: 5px;
+	padding-right: 10px;
 	background-color: rgb(0,114,184);
+	border: 1px solid rgb(0,114,184);
+	border-radius: 4px;
 	color: white;
 }
 .credits-section .col-md-3:nth-child(3) {
