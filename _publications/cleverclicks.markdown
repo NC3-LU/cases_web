@@ -2,6 +2,7 @@
 layout: post
 title:  "Clever Clicks"
 menutitle:  "Clever Clicks"
+short: "Le dossier spécial \"Clever clicks for safer business\" vous aide à adopter les bons réflexes dans tous les cas de figure rencontrés au quotidien"
 ---
 L'informatique est un élément essentiel à l'activité commerciale de toutes les entreprises.
 
