@@ -132,7 +132,7 @@ layout: default
             </div>
           </div>
 
-        {% for publication in site.publications %}
+        {% for publication in site.publications limit:6 %}
           {% if publication.menutitle %}
           <div class="row-fluid row-fluid--padding">
             <a class="post-link" href="{{ publication.url | relative_url }}">
@@ -155,6 +155,6 @@ layout: default
 </div>
 <div class="col-md-3 well well--blue">
   <h2>Latest Tweets</h2>
-  <a class="twitter-timeline" data-width="300" data-height="700" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </div>

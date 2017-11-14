@@ -2,25 +2,44 @@
 layout: post
 title:  "SOS - Need help?"
 menutitle:  "SOS"
+logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
+short: "Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter"
 categories: knowhow
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# En quelques mots
+Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Demandes d'informations
+Un collègue connaît mon mot de passe
 
-Jekyll also offers powerful support for code snippets:
+Un collègue me demande de lui prêter ma carte LuxTrust
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Quelqu'un me demande des informations confidentielles
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+On me demande la raison d'absence de mon collègue ou de mon chef
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+# Courriers électroniques
+Comment reconnaître un courrier électronique suspect ?
+
+J'ai ouvert une pièce jointe d'un courrier électronique
+
+Je suspecte que quelqu'un utilise ma boîte aux lettres électronique
+
+Quelqu'un me demande des informations confidentielles
+
+Comment procéder avec les cartes de vœux électroniques
+
+# Codes malicieux
+Je crois que mon ordinateur est infecté
+
+# Pannes de matériel
+Puis-je donner mon matériel en réparation ?
+
+Comment me défaire de mon ancien matériel ?
+
+# Vol d'informations
+Que faire si mes données de connexion ont été compromises ou même divulguées?
+
+# Vol de matériel
+Que faire si votre matériel est volé, perdu, saisi?

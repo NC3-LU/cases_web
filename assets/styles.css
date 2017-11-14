@@ -67,9 +67,8 @@ ul {
 .menubarpadding{
 	padding-bottom: 5px;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 	background-color: #ffffff;
-	border-bottom: 1px solid rgb(0,114,184);
 }
 .row-fluid--padding {
 	padding: 5px 0 5px 5px;
