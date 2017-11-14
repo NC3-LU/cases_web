@@ -55,8 +55,11 @@ hr {
 ul {
 	margin-left: 35px;
 }
-.col-delimiter {
-	border-right: 1px solid rgb(0,114,184);
+.section-header-line {
+	margin-top: 40px;
+	border: 0;
+	border-bottom: 1px solid rgb(0,114,184);
+	width: 100%;
 }
 .row-top-delimiter {
 	border-top: 1px solid rgb(0,114,184);
