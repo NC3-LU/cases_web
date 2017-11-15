@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+  <div class="well well--blue text-center">CASES is an awesome departement that needs a summary here</div>
+</div>
+<div class="col-md-1"></div>
+</div>
+
 <div class="row row-fluid--padding">
 <div class="col-md-9">
 <div class="row row-fluid--padding">
@@ -79,7 +88,7 @@ layout: default
         {% endif %}
 
 
-          <div class="col-md-3">
+          <div class="col-md-4">
             <a href="{{ article.url }}" alt="{{ article.title | escape }}">
 
                 {% if article.logo %}
@@ -94,7 +103,7 @@ layout: default
           </div>
 
         {% assign counter = counter | plus: 1 %}
-        {% if counter==4 %}
+        {% if counter==3 %}
         </div>
         {% assign counter=0 %}
         {% endif %}
@@ -102,7 +111,7 @@ layout: default
 
 
       {% endfor %}
-      {% assign modulo_counter = counter | modulo: 4 %}
+      {% assign modulo_counter = counter | modulo: 3 %}
       {% if modulo_counter != 0 %}
        </div>
       {% endif %}
