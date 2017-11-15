@@ -55,6 +55,9 @@ hr {
 ul {
 	margin-left: 35px;
 }
+.contact-left-col-item {
+	padding: 7px 0 0 20px;
+}
 .section-header-line {
 	margin-top: 40px;
 	border: 0;

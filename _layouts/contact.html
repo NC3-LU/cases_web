@@ -22,20 +22,34 @@ layout: default
 						<br /><br />
 
 						{% if page.email %}
-							  Email: <a class="btn btn-link" href="amilto:{{ page.email }}"><span class="icon icon--ios-email-outline">{% include ios-email-outline.svg %}</span><span>{{ page.email }}</span></a>
+							<div class="row">
+							  <div class="col-md-2 contact-left-col-item">Email:</div>
+								<div class="col-md-10">
+									<a class="btn btn-link" href="amilto:{{ page.email }}"><span class="icon icon--ios-email-outline">{% include ios-email-outline.svg %}</span><span>{{ page.email }}</span></a>
+								</div>
+							</div>
 						{% endif %}
 						<br /><br />
 						{% if page.twitter %}
-							Twitter: <a class="btn btn-link" href="https://twitter.com/{{ page.twitter }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span>@{{ page.twitter }}</span></a>
+						<div class="row">
+							<div class="col-md-2 contact-left-col-item">Twitter:</div>
+							<div class="col-md-10">
+								<a class="btn btn-link" href="https://twitter.com/{{ page.twitter }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span><span>@{{ page.twitter }}</span></a>
+							</div>
+						</div>
 						{% endif %}
 						<br /><br />
 						{% if page.github %}
-							Github:
-							<div class="btn-group">
+						<div class="row">
+							<div class="col-md-2 contact-left-col-item">Github:</div>
+							<div class="col-md-10">
 							{% for user in page.github %}
-							<a class="btn btn-link" href="https://github.com/{{ user }}"><span class="icon icon--github">{% include icon-github.svg %}</span><span>{{ user }}</span></a>
+							<div class="row-fluid">
+								<a class="btn btn-link" href="https://github.com/{{ user }}"><span class="icon icon--github">{% include icon-github.svg %}</span><span>{{ user }}</span></a>
+							</div>
 							{% endfor %}
 							</div>
+						</div>
 						{% endif %}
 
 				</div>
