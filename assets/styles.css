@@ -52,7 +52,7 @@ a:hover {
 hr {
 	margin: 0;
 }
-ul {
+ul,ol {
 	margin-left: 35px;
 }
 .menuwithpic {
@@ -83,6 +83,9 @@ ul {
 }
 .row-fluid--padding {
 	padding: 5px 0 5px 5px;
+}
+.col--height {
+	height: 30px;
 }
 .well--blue {
 	background-image: none;
