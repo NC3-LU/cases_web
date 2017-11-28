@@ -838,6 +838,11 @@ div.banner p{
   font-weight: 700;
 
 }
+.icon--middle {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 5px;
+}
 .icon-service {
   padding-top: 40px;
 }
