@@ -145,9 +145,15 @@ layout: default
           {% if post.isVisible %}
           <div class="row-fluid row-fluid--padding">
             <a class="post-link" href="{{ post.url | relative_url }}">
-              <div class="row-fluid"><h5>
-                {{ post.title | escape }}
-              </h5></div>
+              <div class="col-md-10">
+                <h5>{{ post.title | escape }}</h5>
+              </div>
+              <div class="col-md-2 text-right" style="padding-top:12px;">
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                  {{ post.date | date: date_format }}
+                </time>
+              </div>
               <div class="row-fluid col-md-12 small">
                 {{ post.short | escape }}
               </div>
