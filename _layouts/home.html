@@ -148,7 +148,7 @@ layout: default
               <div class="col-md-10">
                 <h5>{{ post.title | escape }}</h5>
               </div>
-              <div class="col-md-2 text-right" style="padding-top:12px;">
+              <div class="col-md-2 text-right col-md-2--date">
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                   {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                   {{ post.date | date: date_format }}

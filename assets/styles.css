@@ -55,6 +55,9 @@ hr {
 ul,ol {
 	margin-left: 35px;
 }
+.col-md-2--date {
+	padding-top: 12px;
+}
 .menuwithpic {
 	height: 72px;
 	padding: 4px;
