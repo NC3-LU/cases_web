@@ -5,22 +5,26 @@ menutitle:  "Trainings"
 logo: "/assets/img/services/trainings.png"
 short: "La formation CASES apportera Les connaissances et les bons réflexes en matière de sécurité adaptés à vos équipes"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Pourquoi ?
+La sécurité de l’information est un travail d’équipe. Pour que chacun y contribue en connaissance de cause, il doit être conscient des enjeux et des dangers potentiels. Il doit acquérir les bons réflexes.
+La **formation CASES** apportera ces connaissances et ces réflexes à vos équipes. Elle s’adaptera à leurs contextes particuliers. Elle suscitera des échanges d’expériences et renforcera la motivation du personnel à faire preuve de vigilance et à partager les bonnes pratiques.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+## Comment ?
+Le catalogue de formations CASES s'adresse aux différents publics professionnels
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+* [Initiation à la sécurité de l'information]({% link _services/trainings/initiation.markdown %})
+* [Formation direction et décideurs]({% link _services/trainings/directordecisionmakers.markdown %})
+* [Formation cadres et managers]({% link _services/trainings/managers.markdown %})
+* [Formation personnel IT]({% link _services/trainings/itpersonel.markdown %})
+* [Formation des formateurs]({% link _services/trainings/trainthetrainer.markdown %}})
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Avantages
+Les formations CASES vous apportent:
+
+* des gains de productivité (moins de temps perdu à "réparer" les dégâts);
+* une dynamique positive au sein de vos équipes;
+* une adaptation à votre métier.
+
+**N'hésitez plus** ! [Contactez-nous](mailto:info@cases.lu?subject=Formations%20CASES).
