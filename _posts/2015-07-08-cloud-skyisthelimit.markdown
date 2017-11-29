@@ -19,7 +19,7 @@ Selon une étude de Rackspace (fournisseur de solutions cloud), 56% des entrepri
 Une entreprise qui stocke sa base de données clients sur le cloud au lieu de le faire sur ses propres serveurs économise des investissements dans une infrastructure propre. Les coûts pourront être réduits au minimum dans un 1er temps, et ils évolueront en fonction des besoins et de l’utilisation effective du service.
 
 ###### Évolutivité
-La location d’espace sur le net peut être très flexible et permet de réagir rapidement pour augmenter ou diminuer l’espace voulu, en fonction des besoins du moment. Le cloud est donc une opportunité réelle pour les startups qui veulent se développer rapidement sans devoir consentir de gros investissements IT. Le Start-up Security Kit de CASES les aidera à assurer leur sécurité.
+La location d’espace sur le net peut être très flexible et permet de réagir rapidement pour augmenter ou diminuer l’espace voulu, en fonction des besoins du moment. Le cloud est donc une opportunité réelle pour les startups qui veulent se développer rapidement sans devoir consentir de gros investissements IT. Le [Start-up Security Kit]({% link _services/startupkit.markdown %}) de CASES les aidera à assurer leur sécurité.
 
 ###### Facilité
 Avec le cloud, l’installation et la mise à jour des serveurs ne sont plus un problème. Les coûts d’administration sont ainsi réduits au minimum… Mais les possibilités de configuration personnalisée sont souvent moindres.
