@@ -5,22 +5,12 @@ menutitle:  "Startup Kit"
 logo: "/assets/img/services/startupkit.png"
 short: "C'est un outil en ligne guidant les entrepreneurs vers une meilleure stratégie de cybersécurité."
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<img src="{{ 'assets/img/services/startupkit.jpg' | relative_url }}" style="float:right; width:450px; margin-left: 15px;" />
+Le [Start-up Security Kit](http://startup.cases.lu/fr/), développé par les experts de CASES, est un outil en ligne guidant les entrepreneurs vers une meilleure stratégie de cybersécurité.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+À travers 3 niveaux (START, FIT et TOP), l’outil comporte quatre catégories de mesures de protection :
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+* les bons réflexes;
+* la protection du matériel;
+* la protection des données;
+* l’organisation
