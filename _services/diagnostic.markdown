@@ -5,22 +5,30 @@ menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"
 short: "Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## Pourquoi?
+Votre organisation traite quotidiennement des données sensibles. En tant que responsable, vous avez des obligations spécifiques concernant la protection de ces données. Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Comment?
+Grâce à un questionnaire dédié, les experts CASES :
 
-Jekyll also offers powerful support for code snippets:
+* identifient les vulnérabilités,
+* évaluent le niveau de sécurité des systèmes d'information,
+* émettent des recommandations.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Le diagnostic aide à :
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+* assurer la sécurité des données internes et des informations relatives aux clients,
+* mettre la structure en conformité avec les lois luxembourgeoises,
+* préserver la réputation de l'entreprise.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+<div class="well well--blue-outline">
+Avantages:
+
+<ul>
+<li>GRATUIT et sans engagement.</li>
+<li>RAPIDE À RÉALISER : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables.</li>
+</ul>
+N'attendez plus! Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous</a>.
+</div>

@@ -96,6 +96,11 @@ ul,ol {
 	border-color: #0066B2;
 	color: white;
 }
+.well--blue-outline {
+	background-image: none;
+	background-color: white;
+	border-color: #0066B2;
+}
 .well--blue h2 {
 	color: white;
 }
