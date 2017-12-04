@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cloud: the sky is the limit?"
-date:   2016-10-19 10:00:00 +0100
+date:   2015-07-08 10:00:00 +0100
 categories: gdpr
 isVisible: True
 short: "56% des entreprises estiment que le cloud leur a permis d’augmenter leurs profits. Et vous?"
