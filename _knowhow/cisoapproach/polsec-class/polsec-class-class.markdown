@@ -1,12 +1,12 @@
 ---
-layout: articlesmall
+layout: article
 title:  "Classification"
 menutitle:  
 logo:
 date:   2017-11-06 00:00:00 +0100
 short: "Renforcez vos défenses. Organisez votre protection."
 categories: knowhow
-toc: false
+toc: trus
 ---
 L'identification et la classification des actifs font partie intégrante de la gestion des risques et représentent des composantes importantes pour la gestion de la sécurité de l'information (encore appelé: système de management de la sécurité de l'information - SMSI, voir ISO/IEC 27001). Elles définissent les besoins de sécurité en termes de confidentialité, disponibilité et intégrité.
 
