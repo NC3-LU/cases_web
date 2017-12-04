@@ -17,7 +17,7 @@ Le catalogue de formations CASES s'adresse aux différents publics professionnel
 * [Formation direction et décideurs]({% link _services/trainings/directordecisionmakers.markdown %})
 * [Formation cadres et managers]({% link _services/trainings/managers.markdown %})
 * [Formation personnel IT]({% link _services/trainings/itpersonel.markdown %})
-* [Formation des formateurs]({% link _services/trainings/trainthetrainer.markdown %}})
+* [Formation des formateurs]({% link _services/trainings/trainthetrainer.markdown %})
 
 
 ## Avantages
