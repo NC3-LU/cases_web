@@ -28,21 +28,22 @@ La mise en place d'une charte doit absolument être accompagnée d'une présenta
 
 # Politique de sécurité
 
+<img src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
 Après l'identificaton des risques majeurs pour l'organisme (gestion des risques), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
 
 La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
 
 Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré des mesures de sécurité, évalués en fonction des impacts les plus redoutés, les menaces les plus probables et les vulnérabilités les plus importantes.
 
-## CONCEPTION
+## Conception
 
 Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer l'analyse des risques qui doit être effectuée au préalable).
 
-## RÉALISATION
+## Réalisation
 
 L'étape de réalisation consiste principalement à appliquer la politique de sécurité créée à l'étape précédente. Les mesures organisationnelles et techniques sont mises en place, les mesures comportementales sont appliquées par le personnel.
 
-## ÉVALUATION ET CONTRÔLE
+## Évaluation et contrôle
 
 Les systèmes d’évaluation doivent avoir été décrits dans le manuel de sécurité. L’objectif consiste à s’assurer que les procédures  mises en place fonctionnent comme prévu.
 Ces évaluations peuvent être de plusieurs types :
@@ -59,7 +60,7 @@ révision par la direction.
 
 Si les évaluations et les contrôles révèlent des inadéquations de certaines procédures, il faut de suite entreprendre des corrections.
 
-## AMÉLIORATION
+## Amélioration
 
 Les actions qui auront été décidées à l’étape précédente devront être mises en oeuvre, soit :
 
@@ -73,12 +74,12 @@ au niveau des outils, comme par exemple par l’achat d’un outil antivirus.
 
 La politique de sécurité devrait contenir les documents suivants :
 
-## SECTION 1. POLITIQUE DE SÉCURITÉ
+## Section 1. politique de sécurité
 
 1. Engagement de la direction
 2. Revue et évaluation
 
-## SECTION 2. ORGANISATION DE LA SÉCURITÉ
+## Section 2. organisation de la sécurité
 
 1. Attribution des responsabilités
 2. Procédure d’autorisation pour l’ajout d’outils de traitement de l’information
@@ -86,17 +87,17 @@ La politique de sécurité devrait contenir les documents suivants :
 4. Revue indépendante de la sécurité de l’information
 5. Accès par des tiers et sous-traitance
 
-## SECTION 3. CLASSIFICATION ET MAÎTRISE DES RESSOURCES
+## Section 3. classification et maîtrise des ressources
 
 1. Classification et responsabilité des ressources
 
-## SECTION 4. ASPECTS HUMAINS
+## Section 4. aspects humains
 
 1. La sécurité comme mission
 2. La formation et l’information
 3. La réponse aux incidents et dysfonctionnements de sécurité
 
-## SECTION 5. SÉCURITÉ PHYSIQUE ET ENVIRONNEMENTALE
+## Section 5. sécurité physique et environnementale
 
 1. Périmètre de sécurité physique
 2. Règles dans le périmètre
@@ -106,7 +107,7 @@ La politique de sécurité devrait contenir les documents suivants :
 6. Mise au rebut ou ré-utilisation des équipements
 7. Bureaux en ordre
 
-## SECTION 6. ASPECTS OPÉRATIONNELS ET COMMUNICATIONS
+## Section 6. aspects opérationnels et communications
 
 1. Procédures documentées
 2. Séparation des environnements de développement et de production
@@ -116,7 +117,7 @@ La politique de sécurité devrait contenir les documents suivants :
 6. Sécurité des médias pendant les transports
 7. Courrier électronique
 
-## SECTION 7. CONTRÔLE D’ACCÈS
+## Section 7. contrôle d’accès
 
 1. Politique de contrôle d’accès
 2. Gestion des droits d’accès
@@ -126,22 +127,22 @@ La politique de sécurité devrait contenir les documents suivants :
 6. Séparation de réseaux
 7. Procédure de connexion
 
-## SECTION 8. DÉVELOPPEMENT ET MAINTENANCE DES SYSTÈMES
+## Section 8. développement et maintenance des systèmes
 
 1. Utilisation de l’encryption
 2. La signature électronique
 
-## SECTION 9. GESTION DES INCIDENTS LIÉS À LA SÉCURITÉ
+## Section 9. gestion des incidents liés à la sécurité
 
 1. Signalement des événements liés à la sécurité de l’information
 2. Gestion des incidents et des améliorations de la sécurité de l’information
 3. Analyse des manquements avec obligations
 
-## SECTION 10. GESTION DE LA CONTINUITÉ DE L’ENTREPRISE
+## Section 10. gestion de la continuité de l’entreprise
 
 1. La continuité de fonctionnement
 
-## SECTION 11. CONFORMITÉ
+## Section 11. conformité
 
 1. Identification de la législation applicable
 2. Propriété intellectuelle
