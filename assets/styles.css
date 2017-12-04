@@ -55,6 +55,31 @@ hr {
 ul,ol {
 	margin-left: 35px;
 }
+
+.classification {
+	width: 100%;
+}
+.classification--small {
+	width: 50%;
+}
+.classification th, td {
+	border: solid 1px #999999;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.classification th {
+	background-color: #BBBBBB;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.classification td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.classification--small td {
+	text-align: center;
+}
 .col-md-2--date {
 	padding-top: 12px;
 }

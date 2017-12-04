@@ -58,7 +58,7 @@ Les éléments considérés comme « importants » sont ceux qui pourraient caus
 
 ### Mesures techniques
 
-* la classification
+* [la classification]({% link _knowhow/cisoapproach/polsec-class/polsec-class-class.markdown %})
 
 
 ## Inventaire des actifs
