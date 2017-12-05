@@ -1803,8 +1803,9 @@ div.slider_property div.content-text{
 	margin: 0 10px 10px 0;
 }
 .post-title {
-	padding: 5px 0 5px 0;
+	padding: 5px 0 5px 15px;
 	width: 100%;
+	color: white;
 }
 .tags, .archives {
 	margin-top: 0;
