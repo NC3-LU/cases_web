@@ -1,7 +1,6 @@
 ---
 layout: contact
 title: Contact
-menutitle: Contact
 permalink: /contact/
 email: info@cases.lu
 twitter: cases_lu
