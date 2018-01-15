@@ -5,30 +5,31 @@ menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"
 short: "Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT"
 ---
-## Pourquoi?
-Votre organisation traite quotidiennement des données sensibles. En tant que responsable, vous avez des obligations spécifiques concernant la protection de ces données. Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT.
+## Why?
+Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.
 
-## Comment?
-Grâce à un questionnaire dédié, les experts CASES :
+## How?
+Using a dedicated questionnaire, CASES's experts will:
 
-* identifient les vulnérabilités,
-* évaluent le niveau de sécurité des systèmes d'information,
-* émettent des recommandations.
+* identify vulnerabilities,
+* evaluate the level of maturity of the security of your IT systems,
+* issue recommendations.
 
-Le diagnostic aide à :
+The diagnostic can help to:
 
-* assurer la sécurité des données internes et des informations relatives aux clients,
-* mettre la structure en conformité avec les lois luxembourgeoises,
-* préserver la réputation de l'entreprise.
+* ensure the security of internal data and information about customers,
+* ensure that the business complies with the laws of Luxembourg,
+* protect the company's reputation.
 
+The diagnostic will help you in both technical and organisational terms. The questions are devised to cover the most frequent information risks in Luxembourg. A CASES expert will visit your company and will ask you the necessary questions, while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
 
 
 <div class="well well--blue-outline">
-Avantages:
+Advantages:
 
 <ul>
-<li>GRATUIT et sans engagement.</li>
-<li>RAPIDE À RÉALISER : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables.</li>
+<li>Free, with no commitment – for Luxembourg only.</li>
+<li>Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days.</li>
 </ul>
-N'attendez plus! Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous</a>.
+<b>Why wait any longer?</b> Get the CASES diagnostic. <a href="mailto:info@cases.lu?subject=Diagnostic">Get in touch!</a>.
 </div>

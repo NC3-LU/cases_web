@@ -6,11 +6,11 @@ logo: "/assets/img/services/startupkit.png"
 short: "C'est un outil en ligne guidant les entrepreneurs vers une meilleure stratégie de cybersécurité."
 ---
 <img src="{{ 'assets/img/services/startupkit.jpg' | relative_url }}" style="float:right; width:450px; margin-left: 15px;" />
-Le [Start-up Security Kit](http://startup.cases.lu/fr/), développé par les experts de CASES, est un outil en ligne guidant les entrepreneurs vers une meilleure stratégie de cybersécurité.
+The [Start-up Security Kit](http://startup.cases.lu/fr/), developed by CASES experts, is an online tool to help business owners implement a better cybersecurity strategy. 
 
-À travers 3 niveaux (START, FIT et TOP), l’outil comporte quatre catégories de mesures de protection :
+The tool operates at 3 levels (START, FIT and TOP) and covers four categories of protection measures:
 
-* les bons réflexes;
-* la protection du matériel;
-* la protection des données;
-* l’organisation
+* the right reflexes;
+* hardware protection;
+* data protection;
+* the organisation.
