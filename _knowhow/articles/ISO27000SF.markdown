@@ -1,0 +1,57 @@
+---
+layout: article
+title:  "ISO/IEC 27000 standards family"
+menutitle:
+logo:
+date:  2017-11-06 00:00:00 +0100
+short:
+categories: knowhow
+toc: true
+---
+## Introduction
+The standards in the ISO/IEC 27000 family constitute an internationally recognised set of methods, measures and best practice in the information security domain. They are applicable to all types of company, regardless of their size, the sector in which they are active, or their country of origin. The purpose of these standards is to describe the objectives to be obtained in terms of IT security, not the exact way in which to obtain them. This normally depends on the individual context of each organisation.
+
+On an international level, it’s sub-committee 27 of the ISO and IEC joint committee number 1, abbreviated to ISO/IEC JTC 1/SC 27, that manages and publishes its flagship standards in the information security domain. ISO and IEC standards are created by volunteer experts. It is also possible to participate in Luxembourg. For more information, please visit the ILNAS (Luxembourg Institute for Standardisation, Accreditation, Security and Quality for Products and Services) website
+
+Standards numbered 27000 to 27010 are reserved for the general documentation of an ISMS (Information Security Management System). In addition to the aforementioned standards, other standards which are currently in development will be added at a later date.
+
+Numbers 27011 to 27019 are dedicated to the specification of an ISMS for specific economic sectors (e.g. ISO/IEC 27015 for the financial sector, ISO/IEC 27011 for the telecommunications sector).
+
+## ISO/IEC 27000
+ISO/IEC 27000 2009 provides an overview of information security management systems (ISMS); this overview is the subject of the ISMS standards family and sets out the associated terms. Following the implementation of ISO/IEC 27000 2009, all types of organisations (for example, commercial enterprises, public organisations and not-for-profit organisations) are supposed to obtain
+
+1. an overview of the ISMS standards family,
+2. an introduction to ISMSs,
+3. a brief description of the “Plan, Do, Check, Act” (PDCA) process, and
+4. the terms and definitions used within the ISMS standards family.
+
+ISO/IEC 27000 2009 aims to provide terms and definitions, as well as an introduction to the ISMS standards family which
+
+1. sets out the requirements for an ISMS and for bodies that certify such systems,
+2. provides direct support, detailed recommendations and/or an interpretation of the processes and general requirements in accordance with the Plan, Do, Check, Act (PDCS) model,
+3. recommends specific guidelines in terms of ISMS for individual sectors, and
+4. assesses the compliance of an ISMS.
+
+## ISO/IEC 27001
+**ISO/IEC 27001**: "ISMS requirements". The ISO 27001 standard is an updated version of the BS7799-2 standard, making the latter obsolete. It was published in October 2005 and amended in 2013. It provides the basis of an ISMS’s certification, just like its equivalents ISO 9001 for quality and ISO 14001 for the environment.
+
+## ISO/IEC 27002
+**ISO/IEC 27002**: "Code of practice for information security management".
+
+## ISO/IEC 27003
+**ISO/IEC 27003**: ISMS implementation guidance. The ISO 27003 standard aims to provide a guide to help with the implementation of an ISMS’s requirements. This is more specifically based on the use of the PDCA cycle and the various requirements needed at each stage of the cycle.
+
+## ISO/IEC 27004
+**ISO/IEC 27004**: "Information security management measurements". The purpose of this standard is to help organisations measure and document the effectiveness of the implementation of their ISMS.
+
+## ISO/IEC 27005
+**ISO/IEC 27005**: "Information security risk management". The ISO 27005 standard is a continuation of ISO 13335. It reprises parts 3 and 4 of the latter, setting out the techniques to be introduced as part of a risk management procedure.
+
+## ISO/IEC 27006
+**ISO/IEC 27006**: "Requirements for the accreditation of bodies providing certification of ISMS." The purpose of this standard is to assist the certification bodies with the necessary requirements to become accredited as an ISMS certification body.
+
+## ISO/IEC 27007
+**ISO/IEC 27007**: "Auditor guidelines". This standard is used as a specific guide for ISMS audits, notably in support of ISO 27006.
+
+## Literature
+BILLOIS, G., HUMBERT, J-P., MAYER, N. ISO 2700x: a standards family for security governance. MISC(30). Sélestat Cedex – France: Les Éditions Diamond. File: [GBI-JPH-NMA MISC30.pdf](-)
