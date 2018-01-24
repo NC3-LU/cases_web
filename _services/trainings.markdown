@@ -3,7 +3,7 @@ layout: articlesmall
 title:  "Trainings"
 menutitle:  "Trainings"
 logo: "/assets/img/services/trainings.png"
-short: "La formation CASES apportera Les connaissances et les bons réflexes en matière de sécurité adaptés à vos équipes"
+short: "The CASES Trainings will teach information security knowledge and good practices to you and your teams."
 ---
 ## Why?
 Information security requires team work. For everybody to be able to make an informed contribution, they must be aware of the challenges and potential dangers. They must develop good reflexes.

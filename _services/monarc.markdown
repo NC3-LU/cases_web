@@ -3,7 +3,7 @@ layout: articlesmall
 title:  "MONARC"
 menutitle:  "MONARC"
 logo: "/assets/img/services/monarc.png"
-short: "Méthode Optimisée d'Analyse de Risques - Vous serez plus efficaces et complet!"
+short: "Optimized Risk Analysis Method - You will be more efficient and complete!"
 ---
 ## Why?
 

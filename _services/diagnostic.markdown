@@ -3,7 +3,7 @@ layout: articlesmall
 title:  "Diagnostic CASES"
 menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"
-short: "Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT"
+short: "The Diagnostic CASES helps you to reduce your exposure common IT risks."
 ---
 ## Why?
 Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.
