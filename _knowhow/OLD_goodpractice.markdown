@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Best Practices"
-menutitle:  "Best Practices"
+menutitle:  
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
 short: "Apprenez les gestes qui sauvent"

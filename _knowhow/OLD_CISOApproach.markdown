@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "The CISO Approach"
-menutitle:  "The CISO Approach"
+menutitle:  
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 00:00:00 +0100
 short: "Renforcez vos défenses. Organisez votre protection."
