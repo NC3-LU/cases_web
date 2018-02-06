@@ -4,7 +4,7 @@ title:  "Scams through downloads"
 menutitle:
 logo:
 date:   2017-11-06 00:00:00 +0100
-short: 
+short:
 categories: knowhow
 toc: true
 ---
@@ -25,9 +25,9 @@ The virus is the oldest and most traditional form of malicious program. Viruses 
 
 False alerts exploit our fear of infection by a real virus. A malicious site may, for example, display an alert that makes us believe that our computer is infected. If we click on the alert, we will be advised to download a pretend antivirus which is actually a malicious program such as a "Trojan horse". If this program is downloaded, it will hide on our computer and will probably have no visible effect. However, the perpetrator will be able to take control of our computer, possibly for unlawful purposes.
 
-Secuser has compiled a list of fake viruses: http://www.secuser.com/hoax
+Secuser has compiled a list of fake viruses: [Secuser](http://www.secuser.com/hoax)
 
-Microsoft 's advice for thwarting false alerts: http://www.microsoft.com/fr-fr/security/pc-security/antivirus-rogue.aspx
+Microsoft 's advice for thwarting false alerts: [Microsoft Blog - Real vs. Rogue Security Software – Can You Tell The Difference?](https://cloudblogs.microsoft.com/microsoftsecure/2013/01/03/real-vs-rogue-security-software-can-you-tell-the-difference/)
 
 ##### Videos and players
 
