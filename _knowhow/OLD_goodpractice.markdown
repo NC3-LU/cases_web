@@ -8,7 +8,7 @@ short: "Apprenez les gestes qui sauvent"
 categories: knowhow
 ---
 # En quelques mots
-Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
+Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous [contacter](mailto:info@cases.lu?subject=best%20bractice%20missing).
 
 # Demandes d'informations
 Un collègue connaît mon mot de passe
