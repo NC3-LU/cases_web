@@ -8,7 +8,7 @@ short: "Learn the reflexes that can save you"
 categories: knowhow
 ---
 ## In brief
-Most companies have important or vital data (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of confidentiality), falsification (loss of integrity) and even destruction (loss of availability).
+Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of confidentiality), falsification (loss of integrity) and even destruction (loss of availability).
 
 Company managers usually only realise the true value of their assets after a serious incident occurs. It is then often too late to take curative or protective measures.
 
@@ -24,7 +24,7 @@ It is very important to introduce preventive and protective measures as early as
 Regardless of the strategy chosen, it is always of benefit to identify “quick wins” (such as update management, encrypted wifi networks, password management, etc.) that can be set up rapidly. These guarantee immediate results and are often suitable to resolve certain urgent issues or to persuade the management of the importance of security issues.
 
 ## A gradual strategy
-The best way to protect a company consists of opting for continuous improvement, taking into consideration the company's real security needs. This strategy is more time-consuming than a more general strategy, but at the end of the day, it will be better suited to the company’s actual needs, and will therefore be more effective and less expensive, but certainly longer to implement. (See article [protecting your company](-))
+The best way to protect a company consists of opting for continuous improvement, taking into consideration the company's real security needs. This strategy is more time-consuming than a more general strategy, but at the end of the day, it will be better suited to the company’s actual needs, and will therefore be more effective and less expensive, but certainly longer to implement. (See article [protecting your company]({% link _publications/ProtectingYourCompany.markdown %}}))
 
 ## Risk analysis
 To be able to protect important and vital data and assets, they must first of all be identified through at least a rudimentary risk analysis.
@@ -54,47 +54,48 @@ Alongside the gradual strategy to improve its level of security, a company also 
 ## Best practices
 Some best practices guides are available on the CASES website:
 
-* e-banking and e-commerce
-* email
-* malicious software (malware)
-* business trips
-Draw up a charter for users.
+* [e-banking and e-commerce]({% link _publications/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
+* [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* [malicious software (malware)]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %})
+* [business trips]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %})
+
+Draw up a [charter for users]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %}).
 
 ## Common methods
 These checklists have been drawn up by analysing the most common threats and by proposing organisational, technical or behavioural security measures in order to reduce existing vulnerabilities.
 
-* Threats to infrastructure
-  * Fire
-  * Service interruption
-  * Denial of service/distributed service
-  * Disrupted transmission of wireless communications
-  * Wireless network tapping
-  * Interception of communications
-  * Network unavailability
-  * Power cut
-  * Discontinuity of service providers
-  * Infiltrating the premises
-* Threats to hardware
-  * Hardware damaged during transport
-  * Failure of IT or communications equipment
-  * Unusable backups
-  * Addition or removal of hardware
-  * Device recovery
-  * Aggravated theft
-* Threats to software
-  * Unsuitable software environment
-  * Use of unapproved software
-  * Unavailability of administrators
+* [Threats](-toadd-) to infrastructure
+  * [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Denial of service/distributed service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Wireless network tapping]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Network unavailability]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+  * [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
+* [Threats](-toadd-) to hardware
+  * [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
+  * [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
+  * [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
+  * [Addition or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
+  * [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
+  * [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
+* [Threats](-toadd-) to software
+  * [Unsuitable software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
+  * [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
+  * [Unavailability of administrators]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
 * Legal aspects
-  * Unauthorised processing of personal data – Employee monitoring
-  * Invalid or non-existent licence
-  * Lack of traceability of operations
-  * Regulatory requirements
-* Threats to people
-  * Manipulation of people
-  * Human error: prevention measures
-  * Misuse of IT resources
-  * Staff absences
-  * The administrator
-  * Spam / Phishing
-  * Use of limited access by a third party
+  * [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
+  * [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
+  * [Lack of traceability of operations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
+  * [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
+* [Threats](-toadd-) to people
+  * [Manipulation of people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+  * [Human error: prevention measures]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+  * [Misuse of IT resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+  * [Staff absences]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+  * [The administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+  * [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+  * [Use of limited access by a third party]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})

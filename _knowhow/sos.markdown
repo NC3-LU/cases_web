@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "SOS - Need help?"
-menutitle:  
+menutitle: "SOS - Need help?"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
-short: "Comment réagir en cas d'accident."
+short: "TODO: TRANSLATE - Comment réagir en cas d'accident."
 categories: knowhow
 ---
 # En quelques mots

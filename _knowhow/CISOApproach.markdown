@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "The CISO Approach"
-menutitle:  
+menutitle: "The CISO Approach"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 00:00:00 +0100
-short: "Renforcez vos défenses. Organisez votre protection."
+short: "TODO: TRANSLATE - Renforcez vos défenses. Organisez votre protection."
 categories: knowhow
 toc: true
 ---
@@ -68,22 +68,22 @@ Les actions qui auront été décidées à l’étape précédente devront être
 
 La politique de sécurité devrait contenir les documents suivants :
 
-### [Section 1. politique de sécurité]({% link _knowhow/cisoapproach/polsec.markdown %})
+### [Section 1. politique de sécurité](-)
 
-1. [Engagement de la direction]({% link _knowhow/cisoapproach/polsec.markdown %})
-2. [Revue et évaluation]({% link _knowhow/cisoapproach/polsec.markdown %})
+1. [Engagement de la direction](-)
+2. [Revue et évaluation](-)
 
-### [Section 2. organisation de la sécurité]({% link _knowhow/cisoapproach/polsec-org.markdown %})
+### [Section 2. organisation de la sécurité](-)
 
-1. [Attribution des responsabilités]({% link _knowhow/cisoapproach/polsec-org.markdown %})
-2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information]({% link _knowhow/cisoapproach/polsec-org.markdown %})
-3. [Conseils d’un spécialiste]({% link _knowhow/cisoapproach/polsec-org.markdown %})
-4. [Revue indépendante de la sécurité de l’information]({% link _knowhow/cisoapproach/polsec-org.markdown %})
-5. [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/polsec-org.markdown %})
+1. [Attribution des responsabilités](-)
+2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information](-)
+3. [Conseils d’un spécialiste](-)
+4. [Revue indépendante de la sécurité de l’information](-)
+5. [Accès par des tiers et sous-traitance](-)
 
-### [Section 3. classification et maîtrise des ressources]({% link _knowhow/cisoapproach/polsec-class.markdown %})
+### [Section 3. classification et maîtrise des ressources](-)
 
-1. [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/polsec-class.markdown %})
+1. [Classification et responsabilité des ressources](-)
 
 ### Section 4. aspects humains
 

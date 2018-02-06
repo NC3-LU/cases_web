@@ -8,7 +8,7 @@ short:
 categories: knowhow
 ---
 ## In brief
-The ISO 27001 standard encourages the adoption of a process approach to the implementation, operation, monitoring, re-examination, updating and improvement of a company’s information security management system. Annex A of the standard is [ISO/IEC 27002]({% link _knowhow/glossary/ISO27002-CodeBestPractices4ISM.markdown %}).
+The ISO 27001 standard encourages the adoption of a process approach to the implementation, operation, monitoring, re-examination, updating and improvement of a company’s information security management system. Annex A of the standard is [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %}).
 
 The company must identify and manage a number of activities to ensure it is operating efficiently. Any activity involving the use of resources in such a way as to transform input elements into output elements may be considered as a process.
 
