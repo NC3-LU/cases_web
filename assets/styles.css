@@ -242,9 +242,33 @@ ul,ol {
 a.glossary{
 	color: rgb(11, 66, 115);
 }
+
+
+/* Dropdown menu background color*/
+
+.nav-navbar > ul > .dropdown {     background-color: #e7e7e7;  }
+
+/* Dropdown menu font color*/ 
+
+ .nav-navbar > ul > .dropdown a{   color: #555555;  }
+
+/*Menu font color*/
+
+ .navbar-right > li > a{	color: #FFFFFF;	font-size: 120%;	}
+
+ .navbar-right > li >a:hover{color: #565656; background-color: #ffffff; }
+
+ /*Header text font */
+
+ .navbar-header > div > p{text-align: center; margin: 30px 0 0 30px;}
+
+ 
+
+
 /*--------------------------------------------------------------------------------*/
 /*	Body/Main */
 /*--------------------------------------------------------------------------------*/
+
 #wrapper {
 	width: 100%;
 	margin: 0;
@@ -269,6 +293,7 @@ a.glossary{
     	margin: 0 0 9px;
     }
 
+.carousel{border: 15px solid #565656; border-radius: 25px;}
 /*--------------------------------------------------------------------------------*/
 /*	Header */
 /*--------------------------------------------------------------------------------*/

@@ -48,3 +48,6 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Ideal image slider
+iis_slider_array: []
