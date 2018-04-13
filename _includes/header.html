@@ -3,6 +3,22 @@
 <div class="wrapper">-->
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
+<div class="media-top-right">
+          <ul class="media-top-2 clearfix">
+            <li>
+                  <a href="/fr/accueil.html">
+
+                    <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/flag_fr.png" | relative_url }}" alt="francais" title="francais">
+                  </a>
+                   <a href="/de/homede.html">
+                    <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/flag_de.png" | relative_url }}" alt="Deutsch" title="Deutsch">
+                  </a>
+                                          </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+
+
 <div class="menubarpadding">
 {% if page_paths %}
 <nav class="navbar">
@@ -16,7 +32,7 @@
 		      </button>
 		      <a class="logo" href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
 
-          <div class=""><p>CASES (Cyberworld Awareness and Security Enhancement Services) is a part of Securitymadein.lu and is specialized in the field of risk assessment, information security trainings and documents to support your quest to a more secure business</p></div>
+          <div class=""><p><i>CASES (Cyberworld Awareness and Security Enhancement Services) is a part of Securitymadein.lu and is specialized in the field of risk assessment, information security trainings and documents to support your quest to a more secure business</i></p></div>
 
 
 	      </div>

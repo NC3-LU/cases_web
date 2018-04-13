@@ -5,22 +5,22 @@ menutitle:  "MONARC"
 logo: "/assets/img/services/monarc.png"
 short: "Optimized Risk Analysis Method - You will be more efficient and complete!"
 ---
-## Why?
+<h3 class="titre-page">Why?</h3>
 
 The processing of sensitive information and personal data is crucial, not only for the degree of trust that your customers place in your services, but also for the sustainability of your business.
 
 CASES has developed an analysis method to produce a comprehensive risk report on this matter, with suggested solutions. You will therefore be able to take the appropriate measures to enhance information security within your organisation and meet your legal obligations.
 
-## How?
+<h3 class="titre-page">How?</h3>
 CASES optimised risk analysis method (MONARC):
 
-* thoroughly evaluates the risks involved;
-* determines their level of criticality;
-* describes the possible consequences for your organisation;
+* thoroughly **evaluates** the risks involved;
+* **determines** their level of criticality;
+* **describes** the possible consequences for your organisation;
  
 It is based on CASES expertise and regularly updated prior knowledge of the business processes used within your professional organisation.
 
-<img src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
+<img class="img-service" src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
 
 #### Stage 1: Context Establishment
 This stage is used to set establish the context of the risk analysis and to produce:
@@ -43,7 +43,7 @@ This step involves the estimation, evaluation and processing of risks. Its outpu
 #### Stage 4: Implementation and monitoring
 This involves the implementation of the risk treatment plan.
 
-## Advantages
+<h3 class="titre-page">Advantages</h3>
 MONARC delivers more in-depth results than the CASES Diagnostic.
 
 You will benefit from:

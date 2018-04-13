@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: article
 title:  "Best Practices - Protecting yourself"
 menutitle:  "Best Practices"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
 short: "Learn the reflexes that can save you"
 categories: knowhow
+toc: true
 ---
 ## In brief
 Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of confidentiality), falsification (loss of integrity) and even destruction (loss of availability).

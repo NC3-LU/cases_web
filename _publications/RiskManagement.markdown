@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Risk management"
-menutitle:
+menutitle: "Risk management"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Comment procede-t-on a une analyse de risques? Quels sont les differents criteres? Ou comment estime-t-on les risques?"
 categories: knowhow
 toc: true
 ---

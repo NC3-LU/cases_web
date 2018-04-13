@@ -6,6 +6,12 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
+
+.carousel-inner {width: 60%; height: 60%;}
+
+.carousel .item {text-align: center;}
+
+
 html, body {
 	font-family: Helvetica,Arial,sans-serif
 	font-weight: 400;
@@ -55,6 +61,9 @@ hr {
 ul,ol {
 	margin-left: 35px;
 }
+
+li{ display : list-item;
+  list-style-image : url(/assets/img/list-4.png);}
 
 .classification {
 	width: 100%;
@@ -115,12 +124,26 @@ ul,ol {
 .col--height {
 	height: 30px;
 }
+
 .well--blue {
 	background-image: none;
 	background-color: rgb(0,114,184);
 	border-color: #0066B2;
 	color: white;
+	}
+
+.well--bluee {
+	background-image: none;
+	background-color: rgb(0,114,184);
+	border-color: #0066B2;
+	color: white;
+	border-radius: 20px;
+	margin-top: 3%;
 }
+
+.well--bluee > h2{color: white;}
+
+
 .well--blue-padding {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -142,11 +165,13 @@ ul,ol {
 }
 .tocnavsection {
 	padding: 0 0 0 20px;
-  border: 1px solid #E8E8E8;
+  border: 3px solid rgb(0,114,184);
   border-radius: 3px;
 	float: right;
-	margin: 0 0 30px 30px;
+	margin: 0 0 30px 100px;
 }
+
+
 .section-nav {
 	padding: 10px 30px;
   background-color: #FFF;
@@ -256,11 +281,12 @@ a.glossary{
 
  .navbar-right > li > a{	color: #FFFFFF;	font-size: 120%;	}
 
- .navbar-right > li >a:hover{color: #565656; background-color: #ffffff; }
+ .navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black; background-color: rgb(0,114,184);}
 
  /*Header text font */
 
- .navbar-header > div > p{text-align: center; margin: 30px 0 0 30px;}
+ .navbar-header > div > p{text-align: center; margin: 30px 0 0 30px; }
+
 
  
 
@@ -294,9 +320,44 @@ a.glossary{
     }
 
 .carousel{border: 15px solid #565656; border-radius: 25px;}
+
+
+
+.btn-carousel{position: relative;
+			 margin: 2% 0 0 50%;
+			 border: 0;
+			 border-radius: 0;
+    		background: none;
+			}
+
+/*----Page--Service--MONARC-------------------------------------------------------*/
+
+ .img-service{border: 2px solid rgb(0,114,184);}
+
+ /*-------------------------------------------------------------------------------*/
+
+
+ /*----Page--Service---------------------------------------------------------------*/
+.titre-page{color: rgb(0,114,184); border-bottom: 3px solid darkblue;}
 /*--------------------------------------------------------------------------------*/
+
+/*----Page--Publications----------------------------------------------------------*/
+.titre-article{color: rgb(0,114,184); border: 10px solid rgb(0,114,184);}
+
+/*----Titre-Publications-Home-----------------------------------------------------*/
+
+.em{background-color: rgb(239,239,239); padding: 5px; }
+
+/*--------------------------------------------------------------------------------*/
+
+.description-article{
+  	border: 3px solid rgb(0,114,184);
+  	padding: 1% 1% 1% 1%;
+}}
 /*	Header */
 /*--------------------------------------------------------------------------------*/
+
+
 #header {
 	width: 100%;
 	min-height: 100px;

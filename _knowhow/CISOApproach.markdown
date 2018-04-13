@@ -70,28 +70,28 @@ La politique de sécurité devrait contenir les documents suivants :
 
 ### [Section 1. politique de sécurité](-)
 
-1. [Engagement de la direction](-)
-2. [Revue et évaluation](-)
+1. Engagement de la direction
+2. Revue et évaluation
 
 ### [Section 2. organisation de la sécurité](-)
 
-1. [Attribution des responsabilités](-)
-2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information](-)
-3. [Conseils d’un spécialiste](-)
-4. [Revue indépendante de la sécurité de l’information](-)
-5. [Accès par des tiers et sous-traitance](-)
+1. Attribution des responsabilités
+2. Procédure d’autorisation pour l’ajout d’outils de traitement de l’information
+3. Conseils d’un spécialiste
+4. Revue indépendante de la sécurité de l’information
+5. Accès par des tiers et sous-traitance
 
 ### [Section 3. classification et maîtrise des ressources](-)
 
-1. [Classification et responsabilité des ressources](-)
+1. Classification et responsabilité des ressources
 
-### Section 4. aspects humains
+### [Section 4. aspects humains](-)
 
 1. La sécurité comme mission
 2. La formation et l’information
 3. La réponse aux incidents et dysfonctionnements de sécurité
 
-### Section 5. sécurité physique et environnementale
+### [Section 5. sécurité physique et environnementale](-)
 
 1. Périmètre de sécurité physique
 2. Règles dans le périmètre
@@ -101,7 +101,7 @@ La politique de sécurité devrait contenir les documents suivants :
 6. Mise au rebut ou ré-utilisation des équipements
 7. Bureaux en ordre
 
-### Section 6. aspects opérationnels et communications
+### [Section 6. aspects opérationnels et communications](-)
 
 1. Procédures documentées
 2. Séparation des environnements de développement et de production
@@ -111,7 +111,7 @@ La politique de sécurité devrait contenir les documents suivants :
 6. Sécurité des médias pendant les transports
 7. Courrier électronique
 
-### Section 7. contrôle d’accès
+### [Section 7. contrôle d’accès](href="cisoapproach/SecurityPolicy-SecurityPolicy.html")
 
 1. Politique de contrôle d’accès
 2. Gestion des droits d’accès
@@ -121,22 +121,22 @@ La politique de sécurité devrait contenir les documents suivants :
 6. Séparation de réseaux
 7. Procédure de connexion
 
-### Section 8. développement et maintenance des systèmes
+### [Section 8. développement et maintenance des systèmes](-)
 
 1. Utilisation de l’encryption
 2. La signature électronique
 
-### Section 9. gestion des incidents liés à la sécurité
+### [Section 9. gestion des incidents liés à la sécurité](-)
 
 1. Signalement des événements liés à la sécurité de l’information
 2. Gestion des incidents et des améliorations de la sécurité de l’information
 3. Analyse des manquements avec obligations
 
-### Section 10. gestion de la continuité de l’entreprise
+### [Section 10. gestion de la continuité de l’entreprise](-)
 
 1. La continuité de fonctionnement
 
-### Section 11. conformité
+### S[ection 11. conformité](-)
 
 1. Identification de la législation applicable
 2. Propriété intellectuelle

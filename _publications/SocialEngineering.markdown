@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Social Engineering"
-menutitle:
+menutitle: "Social Engineering"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "How criminals take advantage of your kindness? Who might be a victim?"
 categories: knowhow
 toc: true
 ---

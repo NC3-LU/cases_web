@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Filing a complaint"
-menutitle:
+menutitle: "Remplir une plainte"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Si vous avez ete victime d'une cyber-attaque, il vous est possible de deposer une plainte. Voici un guide resumant les differentes etapes a suivre."
 categories: knowhow
 toc: true
 ---

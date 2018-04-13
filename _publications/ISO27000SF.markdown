@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "ISO/IEC 27000 standards family"
-menutitle:
+menutitle: "ISO/IEC 27000 standards family"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "La famille de normes ISO 27000 aide les organisations à assurer la sécurité de leurs informations. Decouvrez en quoi consistent ces normes"
 categories: knowhow
 toc: true
 ---

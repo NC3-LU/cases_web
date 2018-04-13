@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Protecting your company"
-menutitle:
+menutitle: "Protecting your company"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Anticiper les risques, proteger ses donnees, quels sont les bons conseils pour proteger son entreprie?"
 categories: knowhow
 toc: true
 ---

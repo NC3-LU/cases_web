@@ -12,16 +12,9 @@ layout: default
         {% assign page_paths = site.header_pages | default: default_paths %}
      
         {% if page_paths %}
-        <nav class="navbar">
-      <div class="container-fluid">
+    
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-trigger="collapse" data-target="#navbar" aria-expended="false">
-          <span class="sr-only">Toggle Navigation Menu</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-
+       
       
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
@@ -93,16 +86,19 @@ layout: default
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://image.noelshack.com/fichiers/2018/15/4/1523525950-diagnostic-cmyk.jpg">
+
+         <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/diagnostic-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/diagnostic.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Read More About It</button></a></a>
+
       </div>
       <div class="item">
-        <img src="https://image.noelshack.com/fichiers/2018/15/4/1523525950-monarc-cmyk.jpg">
+        <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/monarc-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/monarc.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Read More About It</button></a></a>
       </div>
       <div class="item">
-        <img src="https://image.noelshack.com/fichiers/2018/15/4/1523525950-start-up-cmyk.jpg">
+        <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/start-up-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/startupkit.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Read More About It</button></a></a>
       </div>
       <div class="item">
-        <img src="https://image.noelshack.com/fichiers/2018/15/4/1523525950-training-cmyk.jpg">
+        <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/training-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/trainings.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Read More About It</button></a></a>
+
       </div>
     </div>
 
@@ -189,7 +185,7 @@ layout: default
  {% if site.publications %}
     <div class="row">
       <div class="col-md-3">
-        <h2>Nos Publications</h2>
+        <h2><a href="/publications/">Publications</a></h2>
       </div>
       <div class="col-md-9">
         <hr class="section-header-line" />
@@ -197,7 +193,7 @@ layout: default
     </div>
     <div class="text-center">
     {% assign counter=0 %}
-    {% for publication in site.publications %}
+    {% for publication in site.publications limit: 4 %}
     {% if publication.menutitle %}
 
       {% if counter==0 %}
@@ -209,9 +205,9 @@ layout: default
           <a href="{{ publication.url }}" alt="{{ publication.title | escape }}">
 
              
-              <h6>{{ publication.title }}</h6>
+              <h6><em class="em">{{ publication.title }}</em></h6>
               {% if publication.short %}
-              <p class="small">{{ publication.short | escape }}</p>
+              {{ publication.short | escape }}
               {% endif %}
 
           </a>
@@ -290,7 +286,7 @@ layout: default
 
 
 </div>
-<div class="col-md-3 well well--blue">
+<div class="col-md-3 well well--bluee">
   <h2>Latest Tweets</h2>
   <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
