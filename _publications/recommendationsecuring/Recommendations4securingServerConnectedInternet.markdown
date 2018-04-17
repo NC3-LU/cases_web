@@ -1,10 +1,10 @@
 ---
 layout: articlesmall
 title:  "Security measures for small and medium-sized enterprises – Legal aspects"
-menutitle:
+menutitle: "Security measures for small and medium-sized enterprises – Legal aspects"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Security measures"
 categories: knowhow
 ---
 ## In brief

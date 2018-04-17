@@ -17,22 +17,22 @@ Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas d
 
 ### <a href="/knowhow/sos/SOS-IOpenedEmailAttachment.html">J'ai ouvert une pièce jointe d'un courrier électronique</a>
 
-### <a href="/knowhow/sos/SOS-Je suspecte que quelqu'un utilise ma boîte aux lettres électronique
+### <a href="/knowhow/sos/SOS-OnlineIdentityTheft.html">Je suspecte que quelqu'un utilise ma boîte aux lettres électronique</a>
 
 ### <a href="/knowhow/sos/SOS-IamAskedForConfidentialInformation.html">Quelqu'un me demande des informations confidentielles</a>
 
 ### <a href="/knowhow/sos/SOS-ElectronicGreetingsCards.html">Comment procéder avec les cartes de vœux électroniques
 
 # Codes malicieux
-### <a href="/knowhow/sos/SOS-Je crois que mon ordinateur est infecté
+### <a href="/knowhow/sos/SOS-IThinkMyComputerInfected.html">Je crois que mon ordinateur est infecté</a>
 
 # Pannes de matériel
-### <a href="/knowhow/sos/SOS-Puis-je donner mon matériel en réparation ?
+### <a href="/knowhow/sos/SOS-HandoverToRepairs.html">Puis-je donner mon matériel en réparation ?</a>
 
-### <a href="/knowhow/sos/SOS-Comment me défaire de mon ancien matériel ?
+### <a href="/knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.html">Comment me défaire de mon ancien matériel ?</a>
 
 # Vol d'informations
-### <a href="/knowhow/sos/SOS-CompromisedData.html">Que faire si mes données de connexion ont été compromises ou même divulguées?
+### <a href="/knowhow/sos/SOS-CompromisedData.html">Que faire si mes données de connexion ont été compromises ou même divulguées?</a>
 
 # Vol de matériel
-### Que faire si votre matériel est volé, perdu, saisi?
+### <a href="/knowhow/sos/SOS-StolenHardware.html">Que faire si votre matériel est volé, perdu, saisi?</a>

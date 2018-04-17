@@ -5,7 +5,7 @@ layout: default-ext
 <div class="row-fluid row-fluid--padding">
 
 
-{% if site.posts %}
+{% if site.publications %}
   <div class="row-fluid row-fluid--padding">
     {{ content }}
   </div>
@@ -21,15 +21,14 @@ layout: default-ext
           </div>
         </div>
 
-      {% for post in site.posts %}
+      {% for publication in site.publications %}
         <div class="row-fluid row-fluid--padding">
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link" href="{{ publication.url | relative_url }}">
             <div class="row-fluid"><h5>
-              <br/>
-              {{ post.title | escape }}
+              {{ publication.title | escape }}
             </h5></div>
             <div class="row-fluid col-md-12 small">
-              {{ post.short | escape }}
+              {{ publication.short | escape }}
             </div>
           </a>
         </div>
@@ -39,7 +38,7 @@ layout: default-ext
   </div>
 {% else %}
 <div class="row-fluid row-fluid--padding">
-  There are currently no articles available.
+  There are currently no publications available.
 </div>
 {% endif %}
 

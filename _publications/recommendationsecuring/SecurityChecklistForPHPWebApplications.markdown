@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Security checklist for PHP web applications"
-menutitle:
+menutitle: "Security checklist for PHP web applications"
 logo:
 date:   2017-11-06 00:00:00 +0100
-short:
+short: "the most common vulnerabilities of web applications and applicable PHP solutions and best practices"
 categories: knowhow
 toc: true
 ---

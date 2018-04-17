@@ -2,79 +2,12 @@
 layout: default
 ---
 
-<div class="row-fluid well--blue well--blue-padding well--blue-margin text-center">
-  <div class="container">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
 
-      
-        {% assign default_paths = site.pages | map: "path" %}
-        {% assign page_paths = site.header_pages | default: default_paths %}
-     
-        {% if page_paths %}
-    
-        <div class="navbar-header">
-       
-      
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                   {% for service in site.services %}
-                   {% if service.menutitle %}
-                   <li class="menuwithpic"><a href="{{ service.url | relative_url }}"><img src="{{ service.logo }}" class="menulogo" /> {{ service.menutitle | escape }}</a></li>
-                   {% endif %}
-                   {% endfor %}
-              </ul>
-            </li>
-
-            <!--<li><a href="{{ _posts/index.md | relative_url }}">Articles</a></li>-->
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                   {% for publication in site.publications limit:8 %}
-                   {% if publication.menutitle %}
-                   <li><a href="{{ publication.url | relative_url }}">{{ publication.menutitle | escape }}</a></li>
-                   {% endif %}
-                   {% endfor %}
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Savoir-faire <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                   {% for category in site.knowhow %}
-                   {% if category.menutitle %}
-                   <li><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
-                   {% endif %}
-                   {% endfor %}
-              </ul>
-            </li>
-
-            {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.menutitle %}
-            <li><a href="{{ my_page.url | relative_url }}">{{ my_page.menutitle | escape }}</a></li>
-            {% endif %}
-            {% endfor %}
-            <li><a href="{% link contact.md %}">Contact</a></li>
-
-          </ul>
-       </div>
-     </div>
-</nav>
-{% endif %}
-</div>
-
-
-  </div>
-</div>
 
 
 
 <div class="container" aria-label="Content">
-   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"  style="text-align: center;">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -185,7 +118,7 @@ layout: default
  {% if site.publications %}
     <div class="row">
       <div class="col-md-3">
-        <h2><a href="/publications/">Publications</a></h2>
+        <h2><a href="{% link publications.md %}">Publications</a></h2>
       </div>
       <div class="col-md-9">
         <hr class="section-header-line" />

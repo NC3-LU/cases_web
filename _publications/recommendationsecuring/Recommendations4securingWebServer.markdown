@@ -1,10 +1,10 @@
 ---
 layout: articlesmall
 title:  "Recommendations for securing a web server"
-menutitle:
+menutitle: "Recommendations for securing a web server"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Security measures for securing a web server"
 categories: knowhow
 ---
 ## Basic considerations

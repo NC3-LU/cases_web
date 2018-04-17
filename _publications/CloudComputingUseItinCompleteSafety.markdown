@@ -1,10 +1,10 @@
 ---
 layout: article
-title:  "Cloud computing: how to use it in complete safety"
-menutitle: "Cloud computing: How to use it in complete safety"
+title:  "Cloud computing"
+menutitle: "Cloud computing"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "Ce dossier aborde les points cles du cloud computing, grace a lui vous maitriserez ce sujet"
+short: "This file addresses the key points of cloud computing, thanks to him you will master this subject"
 categories: knowhow
 toc: true
 ---

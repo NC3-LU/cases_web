@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Malicious software: best practice"
-menutitle:
+menutitle: "Malicious software: best practice"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Behavioural measures to prevent from infection"
 categories: knowhow
 toc: true
 ---

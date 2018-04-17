@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Scams through downloads"
-menutitle:
+menutitle: "Scams through downloads"
 logo:
 date:   2017-11-06 00:00:00 +0100
-short:
+short: "Overview of threats and measures to protect ourselves"
 categories: knowhow
 toc: true
 ---

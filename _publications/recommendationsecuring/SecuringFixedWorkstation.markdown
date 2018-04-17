@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Securing a fixed workstation"
-menutitle:
+menutitle: "Securing a fixed workstation"
 logo:
 date:   2017-11-06 00:00:00 +0100
-short:
+short: "Basic measures"
 categories: knowhow
 toc: true
 ---

@@ -62,7 +62,7 @@ ul,ol {
 	margin-left: 35px;
 }
 
-li{ display : list-item;
+li:not(.navbar) { display : list-item;
   list-style-image : url(/assets/img/list-4.png);}
 
 .classification {

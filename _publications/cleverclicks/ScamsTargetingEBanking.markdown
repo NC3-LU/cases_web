@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Scams targeting E-Banking"
-menutitle:
+menutitle: "Scams targeting E-Banking"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "What is a e-banking scams and how to avoid it?"
 categories: knowhow
 toc: true
 ---

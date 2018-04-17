@@ -22,7 +22,7 @@ The CASES training catalogue targets different professional audiences.
 
 
 <h3 class="titre-page">Benefits</h3>
-CASES offers you:
+CASES offers **you**:
 
 * productivity gains (less time wasted in "repairing" damage);
 * a positive dynamic in your teams;

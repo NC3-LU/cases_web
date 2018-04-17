@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Email: good practices"
-menutitle:
+menutitle: "Email: good practices"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Behavioural and technical measures to prevent risks related to sending emails"
 categories: knowhow
 toc: true
 ---

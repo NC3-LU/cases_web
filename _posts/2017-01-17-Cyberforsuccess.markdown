@@ -12,7 +12,7 @@ Certains seraient tentés de croire qu’étant « petits » et peu visibles, il
 
 Il est donc primordial de protéger correctement son système d’information et les données qui y sont stockées. Le gouvernement luxembourgeois a développé différents outils que les PME peuvent utiliser pour progresser dans ce domaine.
 
-### VOICI LES 4 MOUSQUETAIRES DE LA CYBERSÉCURITÉ :
+<h4 class="titre-page">VOICI LES 4 MOUSQUETAIRES DE LA CYBERSÉCURITÉ :</h4>
 1. Start-up Security Kit
 2. Diagnostic CASES
 3. Analyse des risques

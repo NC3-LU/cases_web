@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "Patches"
-menutitle:
+menutitle: "Patches"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "The “golden rules” of IT security"
 categories: knowhow
 toc: true
 ---

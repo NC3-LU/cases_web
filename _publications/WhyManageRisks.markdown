@@ -4,7 +4,7 @@ title:  "Why manage risks?"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Why manage risks?"
 categories: knowhow
 ---
 <div styles="border: 1px solid #000000; float:right; padding: 10px;">

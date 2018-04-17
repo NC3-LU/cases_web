@@ -4,7 +4,7 @@ title:  "Risk management"
 menutitle: "Risk management"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "Comment procede-t-on a une analyse de risques? Quels sont les differents criteres? Ou comment estime-t-on les risques?"
+short: "How is a risk analysis conducted? What are the different criteria? Or how are the risks estimated"
 categories: knowhow
 toc: true
 ---

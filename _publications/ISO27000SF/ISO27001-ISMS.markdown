@@ -1,10 +1,10 @@
 ---
 layout: articlesmall
 title:  "ISO/IEC 27001 – Information security management system"
-menutitle:
+menutitle: "ISO/IEC 27001 – Information security management system"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "What is ISO-IEC 27001?"
 categories: knowhow
 ---
 ## In brief

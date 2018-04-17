@@ -4,7 +4,7 @@ title:  "Virtually Stolen"
 menutitle: "Virtually Stolen"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "A little remimder about a few pieces of avice relating to the protection of your IT equipment and data security"
+short: "A little reminder about a few pieces of avice relating to the protection of your IT equipment and data security"
 categories: knowhow
 ---
 

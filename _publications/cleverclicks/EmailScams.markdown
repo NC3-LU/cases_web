@@ -1,10 +1,10 @@
 ---
 layout: article
 title:  "E-Mail Scams"
-menutitle:
+menutitle: "E-Mail Scams"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "What is an email scams and how to avoid it?"
 categories: knowhow
 toc: true
 ---

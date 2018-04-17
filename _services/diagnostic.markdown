@@ -14,7 +14,7 @@ Using a dedicated questionnaire, CASES's experts will:
 
 * **identify** vulnerabilities,
 * **evaluate** the level of maturity of the security of your IT systems,
-* issue recommendations.
+* **issue** recommendations.
 
 The diagnostic can help to:
 
@@ -22,7 +22,8 @@ The diagnostic can help to:
 * **ensure** that the business complies with the laws of Luxembourg,
 * **protect** the company's reputation.
 
-The diagnostic will help you in both technical and organisational terms. The questions are devised to cover the most frequent information risks in Luxembourg. A CASES expert will visit your company and will ask you the necessary questions, while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
+The diagnostic will help you in both technical and organisational terms. The questions are devised to cover the most frequent information risks in Luxembourg. 
+A CASES expert will visit your company and will ask you the necessary questions, while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
 
 
 <div class="well well--blue-outline">
