@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: page
 title:  "Formation cadres et managers"
 menutitle:
 logo:

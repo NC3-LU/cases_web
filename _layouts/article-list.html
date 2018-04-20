@@ -2,16 +2,20 @@
 layout: default-ext
 ---
 
-<div class="row-fluid row-fluid--padding">
+<div class="col-md-2">
+
+</div>
 
 
-{% if site.posts %}
-  <div class="row-fluid row-fluid--padding">
-    {{ content }}
-  </div>
+  <div class="col-md-8">
+  {% if site.posts %}
+    <div class="row-fluid row-fluid--padding">
+      {{ content }}
+    </div>
 
-  <div class="row-fluid row-fluid--padding">
-    <div class="col-md-12">
+
+    <div class="row-fluid row-fluid--padding">
+      <div class="col-md-12">
         <div class="row">
           <div class="col-md-2">
 
@@ -25,9 +29,9 @@ layout: default-ext
         <div class="row-fluid row-fluid--padding">
           <a class="post-link" href="{{ post.url | relative_url }}">
             <div class="row-fluid"><h5>
-              <br/>
               {{ post.title | escape }}
-            </h5></div>
+            </h5>
+            </div>
             <div class="row-fluid col-md-12 small">
               {{ post.short | escape }}
             </div>
@@ -35,12 +39,17 @@ layout: default-ext
         </div>
       {% endfor %}
 
-    </div>
+      </div>
   </div>
 {% else %}
 <div class="row-fluid row-fluid--padding">
   There are currently no articles available.
 </div>
 {% endif %}
-
 </div>
+
+
+<div class="col-md-2">
+
+  </div>
+

@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: page
 title:  "Initiation à la sécurité de l'information"
 menutitle:
 logo:

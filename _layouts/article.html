@@ -1,17 +1,43 @@
 ---
 layout: default-ext
 ---
-<div class="row">
-<div class="container-fluid">
 
-  <div class="tocnavsection">
-    <h2 >Contents</h2>
-    {{ content | toc_only }}
+<div class="col-md-2">
+  {% if page.url contains "download" %}
+  <div class="row-fluid row-fluid--padding">
   </div>
 
-  <div>
-    {{ content | inject_anchors }}
+  {% else %}
+  <div class="row-fluid row-fluid--padding">
+    <h2>Publications</h2>
+    {% for publication in site.publications %}
+    <a href="{{publication.url | relative_url}}" alt="{{ publication.title | escape }}">
+      <h6>{{ publication.title }}</h6>
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+
+
+<div class="col-md-8">
+	<div class="row-fluid row-fluid--padding">
+
+    <div>
+      {{ content | inject_anchors }}
+    </div>
+
   </div>
 
 </div>
+
+<div class="tocnavsection col-md-2">
+  <div class="row-fluid row-fluid--padding">
+   <div class="blocantiscroll row-fluid col-md-2">
+     {% if page.layout == "article" %}
+     {{content | toc_only}}
+     {% endif %}
+   </div>
+ </div>
 </div>

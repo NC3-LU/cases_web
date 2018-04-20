@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: page
 title:  "Formation directions et décideurs"
 menutitle:
 logo:

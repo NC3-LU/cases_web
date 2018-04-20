@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: page
 title:  "Startup Kit"
 menutitle:  "Startup Kit"
 logo: "/assets/img/services/startupkit.png"

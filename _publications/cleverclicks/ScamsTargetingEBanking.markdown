@@ -5,7 +5,7 @@ menutitle: "Scams targeting E-Banking"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What is a e-banking scams and how to avoid it?"
-categories: knowhow
+categories: scams
 toc: true
 ---
 ## In brief

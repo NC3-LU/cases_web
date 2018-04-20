@@ -5,7 +5,7 @@ menutitle:
 logo:
 date:   2017-11-06 00:00:00 +0100
 short: "Renforcez vos défenses. Organisez votre protection."
-categories: knowhow
+categories: f-ciso
 toc: trus
 ---
 Asset identification and classification are integral to risk management and are key elements of information security management (also called Information Security Management System – WSIS, see ISO/IEC 27001). They define security needs in terms of confidentiality, availability and integrity.

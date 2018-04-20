@@ -5,7 +5,7 @@ menutitle: "Protecting your company"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Anticipate risks, protect your data, what are the good tips for protecting your business?"
-categories: knowhow
+categories: securing
 toc: true
 ---
 ## Prevent risks

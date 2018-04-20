@@ -5,7 +5,7 @@ menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short:
-categories: knowhow
+categories: f-sos
 ---
 
 ## In brief

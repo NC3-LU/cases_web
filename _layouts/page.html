@@ -1,10 +1,41 @@
 ---
 layout: default-ext
 ---
-<article class="post">
+<div class="col-md-2">
+	<div class="row-fluid row-fluid--padding">
+		<div class="blocantiscroll row-fluid col-md-2">
+			<h2>Services</h2>
+			{% for service in site.services %}
+			<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
+				<h6>{{ service.title }}</h6>
+			</a>
+			{% endfor %}
+		</div>
+	</div>
+</div>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+<div class="col-md-8">
+	<div class="row-fluid row-fluid--padding">
 
-</article>
+
+
+
+
+
+
+		<div>
+			{{ content | inject_anchors }}
+		</div>
+
+	</div>
+
+</div>
+
+<div class="tocnavsection col-md-2">
+	<div class="row-fluid row-fluid--padding">
+		{% if page.layout == "article" %}
+		{{content | toc_only}}
+		{% endif %}
+	</div>
+</div>
+

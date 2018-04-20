@@ -5,7 +5,7 @@ menutitle: "Malicious software: best practice"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Behavioural measures to prevent from infection"
-categories: knowhow
+categories: bestpractice
 toc: true
 ---
 ## In brief

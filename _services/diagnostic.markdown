@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: page
 title:  "Diagnostic CASES"
 menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"

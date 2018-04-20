@@ -1,8 +1,37 @@
 ---
 layout: default-ext
 ---
-<div class="row">
-<div class="container-fluid">
+
+{% assign default_paths = site.pages | map: "path" %}
+{% assign page_paths = site.header_pages | default: default_paths %}
+
+<!--<div class="tableofcontent col-md-2 container-fluid">
+
+    <h2>Articles</h2>
+    {% for post in posts %}
+      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+      <h6>{{ post.title }}</h6>
+      </a>
+    {% endfor %}
+  </div>
+-->
+<!--
+    <div class="row-fluid row-fluid--padding ">
+      <div class="col-md-2">
+    
+    <h2>Articles</h2>
+      {% for post in site.posts %}
+      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+      <h6>{{ post.title }}</h6>
+      </a>
+     {% endfor %}
+
+    </div>
+</div>
+
+<div class="row-fluid row-fluid--padding">
+
+<div class="container-fluid col-md-8">
     <p class="post-meta">
       <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -17,4 +46,86 @@ layout: default-ext
   </div>
 
 </div>
+</div>
+
+
+
+  <div class="row-fluid row-fluid--padding">
+<div class="col-md-2">
+
+
+    <h2>Articles</h2>
+    {% for post in site.posts %}
+      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+      <h6>{{ post.title }}</h6>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+    <div class="row-fluid row-fluid--padding">
+<div class="col-md-8">
+
+
+      <p class="post-meta">
+      <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time></i>
+      {% if page.author %}
+        • <span>{{ page.author }}</span>
+      {% endif %}</p>
+
+      <div>
+      {{ content }}
+      </div>
+
+    </div>
+</div>
+
+-->
+
+
+
+
+
+<div class="col-md-2">
+  <div class="row-fluid row-fluid--padding">
+
+    <div class="blocantiscroll row-fluid col-md-2">
+      <h2>Articles</h2>
+      {% for post in site.posts %}
+      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+        <h6>{{ post.title }}</h6>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-8">
+  <p class="post-meta">
+    <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      {{ page.date | date: date_format }}
+    </time></i>
+    {% if page.author %}
+    • <span>{{ page.author }}</span>
+  {% endif %}</p>
+
+  <div>
+    {{ content }}
+  </div>
+</div>
+
+
+<div class="tocnavsection col-md-2">
+  <div class="row-fluid row-fluid--padding">
+    <div class="blocantiscroll col-md-2 row-fluid row-fluid--padding ">
+      {% if page.layout == "post" %}
+      {{content | toc_only}}
+      {% endif %}
+    </div>
+  </div>
 </div>

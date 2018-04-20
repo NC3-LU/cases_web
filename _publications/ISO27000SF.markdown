@@ -5,7 +5,7 @@ menutitle: "ISO/IEC 27000 standards"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "The ISO 27000 family of standards helps organizations ensure the security of their information. Discover what these standards consist of"
-categories: knowhow
+categories: iso
 toc: true
 ---
 ## Introduction

@@ -5,7 +5,7 @@ menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short:
-categories: knowhow
+categories: f-bestpract
 toc: true
 ---
 Infrastructure includes all the essential assets and services on which the information system is based, such as the supply of power, communication or processing services. These services are therefore critical to the operation of the information system and exposed to certain threats. The section below describes the most common threats in this area and suggests appropriate protective measures for a small or medium-sized enterprise.

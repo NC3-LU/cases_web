@@ -5,7 +5,7 @@ menutitle: "Patches"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "The “golden rules” of IT security"
-categories: knowhow
+categories: bestpractice
 toc: true
 ---
 ## In brief

@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: page
 title:  "MONARC"
 menutitle:  "MONARC"
 logo: "/assets/img/services/monarc.png"

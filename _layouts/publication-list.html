@@ -1,45 +1,206 @@
 ---
 layout: default-ext
 ---
+{% assign categ = site.publications %}
 
-<div class="row-fluid row-fluid--padding">
+<div class="col-md-2">
+
+</div>
 
 
-{% if site.publications %}
+<div class="col-md-8">
+  {% if site.publications %}
   <div class="row-fluid row-fluid--padding">
     {{ content }}
   </div>
 
+
   <div class="row-fluid row-fluid--padding">
     <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-2">
-
-          </div>
-          <div class="col-md-10">
-
-          </div>
+      <div class="row">
+        <div class="col-md-2">
         </div>
+        <div class="col-md-12">
 
-      {% for publication in site.publications %}
-        <div class="row-fluid row-fluid--padding">
-          <a class="post-link" href="{{ publication.url | relative_url }}">
-            <div class="row-fluid"><h5>
-              {{ publication.title | escape }}
-            </h5></div>
-            <div class="row-fluid col-md-12 small">
-              {{ publication.short | escape }}
-            </div>
-          </a>
         </div>
-      {% endfor %}
+      </div>
 
+
+      <!--<div class="row">
+        <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-iso" aria-expanded="false" aria-controls="collapseExample-iso">
+          <h6 class="kh-title">ISO/IEC 2700</h6>
+        </button>
+        <div class="collapse-iso row-md-3" id="collapseExample-box-iso">
+         {% for page in categ %}
+         {% if page.categories contains "iso" %}
+         <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+           <h6 class="data-box">{{ page.title }}</h6>
+         </a>
+         {% endif %}
+         {% endfor %}
+       </div>
+     </div>
+
+     <div class="row">
+      <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
+        <h6 class="kh-title">Good Practice</h6>
+      </button>
+      <div class="collapse-gp row-md-3" id="collapseExample-box-gp">
+       {% for page in categ %}
+       {% if page.categories contains "bestpractice" %}
+       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+         <h6 class="data-box">{{ page.title }}</h6>
+       </a>
+       {% endif %}
+       {% endfor %}
+     </div>
+   </div>
+
+   <div class="row">
+    <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-scams" aria-expanded="false" aria-controls="collapseExample-scams">
+      <h6 class="kh-title">Scams</h6>
+    </button>
+    <div class="collapse-scams row-md-3" id="collapseExample-box-scams">
+     {% for page in categ %}
+     {% if page.categories contains "scams" %}
+     <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+       <h6 class="data-box">{{ page.title }}</h6>
+     </a>
+     {% endif %}
+     {% endfor %}
+   </div>
+ </div>
+
+ <div class="row">
+  <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-sd" aria-expanded="false" aria-controls="collapseExample-sd">
+    <h6 class="kh-title">Securing Devices</h6>
+  </button>
+  <div class="collapse-sd row-md-3" id="collapseExample-box-sd">
+   {% for page in categ %}
+   {% if page.categories contains "securing" %}
+   <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+     <h6 class="data-box">{{ page.title }}</h6>
+   </a>
+   {% endif %}
+   {% endfor %}
+ </div>
+</div>-->
+
+
+</div>
+</div>
+
+
+<!---------------------------------------------------------------------------------->
+
+
+<div class="row clearfix">
+  <div class="col-md-4">
+    <div class="cat-savoir">
+      <h3>Categories</h3>
+      <div class="cat-spacer"></div>
+
+
+
+
+
+      <button type="button" style="width: 100%; margin-bottom: 30px;" data-toggle="collapse" data-target="#collapseExample-box-iso" aria-expanded="false" aria-controls="collapseExample-iso">
+        <h6>ISO/IEC 2700</h6>
+      </button>
+
+
+      <button type="button" style="width: 100%; margin-bottom: 30px;" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
+        <h6 class="kh-title">Good Practice</h6>
+      </button>
+      
+
+
+      <button type="button" style="width: 100%; margin-bottom: 30px;"  data-toggle="collapse" data-target="#collapseExample-box-scams" aria-expanded="false" aria-controls="collapseExample-scams">
+        <h6 class="kh-title">Scams</h6>
+      </button>
+
+      <button type="button" style="width: 100%; margin-bottom: 30px;" data-toggle="collapse" data-target="#collapseExample-box-sd" aria-expanded="false" aria-controls="collapseExample-sd">
+        <h6 class="kh-title">Securing Devices</h6>
+      </button>
+
+
+
+
+
+
+
+      <div class="step-spacer"></div>
     </div>
   </div>
+
+
+
+  <div class="col-md-4">
+    <div class="cat-service">
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="cat-did">
+      <h3>Links of Publications</h3>
+
+      <div class="collapse-iso" id="collapseExample-box-iso">
+       {% for page in categ %}
+       {% if page.categories contains "iso" %}
+       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+         <h6>{{ page.title }}</h6>
+       </a>
+       {% endif %}
+       {% endfor %}
+     </div>
+
+
+     <div class="collapse-gp " id="collapseExample-box-gp">
+       {% for page in categ %}
+       {% if page.categories contains "bestpractice" %}
+       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+         <h6>{{ page.title }}</h6>
+       </a>
+       {% endif %}
+       {% endfor %}
+     </div>
+
+     <div class="collapse-scams" id="collapseExample-box-scams">
+       {% for page in categ %}
+       {% if page.categories contains "scams" %}
+       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+         <h6>{{ page.title }}</h6>
+       </a>
+       {% endif %}
+       {% endfor %}
+     </div>
+     <div class="collapse-sd" id="collapseExample-box-sd">
+       {% for page in categ %}
+       {% if page.categories contains "securing" %}
+       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+         <h6>{{ page.title }}</h6>
+       </a>
+       {% endif %}
+       {% endfor %}
+     </div>
+   </div>
+ </div>
+
+</div>
+</div>
+</div>
+
+
+
+
 {% else %}
 <div class="row-fluid row-fluid--padding">
   There are currently no publications available.
 </div>
 {% endif %}
+</div>
+
+
+<div class="col-md-2">
 
 </div>
+

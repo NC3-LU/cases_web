@@ -5,7 +5,7 @@ menutitle: "Virtually Stolen"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "A little reminder about a few pieces of avice relating to the protection of your IT equipment and data security"
-categories: knowhow
+categories: securing
 ---
 
 Hi! If you have landed on this page, it’s because you have very probably found a “virtually stolen” sticker on your computer screen, mobile phone or tablet. Well done! You’ve dodged a bullet! A dishonest person would have been able to steal your electronic device in the blink of an eye. So for CASES, the aim was to remind you about a few pieces of advice relating to the protection of your IT equipment and data security:

@@ -5,7 +5,7 @@ menutitle: "Smartphone Scams"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "A few cases with loss of either data or moneym and how to protect ourselves"
-categories: knowhow
+categories: scams
 toc: true
 ---
 ## In brief

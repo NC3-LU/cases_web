@@ -1,11 +1,11 @@
 ---
-layout: article
+layout: knowhow
 title:  "The CISO Approach"
 menutitle: "The CISO Approach"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 00:00:00 +0100
 short: "TODO: TRANSLATE - Renforcez vos défenses. Organisez votre protection."
-categories: knowhow
+categories: ciso
 toc: true
 ---
 ## En quelques mots

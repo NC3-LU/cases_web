@@ -5,7 +5,7 @@ menutitle: "Risk management"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "How is a risk analysis conducted? What are the different criteria? Or how are the risks estimated"
-categories: knowhow
+categories: goodpractice
 toc: true
 ---
 General guidelines regarding risk management as used by CASES are taken from the ISO/IEC 27005 standard, part of the ISO/IEC 27000 family of standards. ISO/IEC 27001 governs the implementation of an information security management system which must include a risk management procedure. Risk management is the approach specified in ISO/IEC 27001 which forms the basis of the security policy for the organisation concerned.

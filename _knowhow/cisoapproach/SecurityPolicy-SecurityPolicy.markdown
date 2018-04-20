@@ -5,7 +5,7 @@ menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short:
-categories: knowhow
+categories: f-ciso
 ---
 ## Management commitment
 “The organisation” certifies that, through its director, the security of information systems and networks is vital to its operation, and even its survival. Indeed, the availability of certain data or certain tools, the non-disclosure of certain information to third parties or the impossibility of modifying certain data is crucial for “the organisation”.

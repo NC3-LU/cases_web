@@ -5,7 +5,7 @@ menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short:
-categories: knowhow
+categories: f-bestpract
 toc: true
 ---
 Software is the user interface most commonly used by hackers who wish to manipulate data. It is subject to a number of restrictions and threats which may place an organisation’s operation in jeopardy. This section is specifically dedicated to malicious software (or ‘malware’).

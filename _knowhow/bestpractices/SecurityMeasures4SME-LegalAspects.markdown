@@ -5,7 +5,7 @@ menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short:
-categories: knowhow
+categories: f-bestpract
 toc: true
 ---
 Specific legal and regulatory provisions must be respected by organisations. These provisions notably cover respect for privacy, copyright, and regulatory provisions specific to each activity sector. (See also legal aspects)

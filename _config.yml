@@ -51,3 +51,13 @@ collections:
 
 # Ideal image slider
 iis_slider_array: []
+
+#defaults:
+#  - scope:
+#      path: "_knowhow/cisoapproach"
+#    values: 
+#      static: "true"
+
+
+      
+      

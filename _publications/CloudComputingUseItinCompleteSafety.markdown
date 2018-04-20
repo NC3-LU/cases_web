@@ -5,7 +5,7 @@ menutitle: "Cloud computing"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "This file addresses the key points of cloud computing, thanks to him you will master this subject"
-categories: knowhow
+categories: securing
 toc: true
 ---
 ## In brief

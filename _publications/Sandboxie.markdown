@@ -5,7 +5,7 @@ menutitle: "Sandboxie"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What's Sandboxie? How do we use it? And, why?"
-categories: knowhow
+categories: securing
 toc: true
 ---
 ## Why try out a web browser in a protected space?

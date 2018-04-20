@@ -5,6 +5,7 @@ date:   2016-10-19 10:00:00 +0100
 categories: gdpr
 isVisible: True
 short: "Données personnelles: le changement, c'est maintenant!"
+toc: true
 ---
 Lors de la conférence organisée à la Maison du Savoir, dans le cadre de l’initiative Digital Lëtzebuerg, des centaines de personnes sont venues pour découvrir le nouveau règlement sur la protection des données personnelles, qui est entré en vigueur le 24 mai 2016.
 
