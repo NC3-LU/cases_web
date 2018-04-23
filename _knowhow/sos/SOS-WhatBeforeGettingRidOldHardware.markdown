@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "SOS – What to do before getting rid of my old hardware"
 menutitle:
 logo:

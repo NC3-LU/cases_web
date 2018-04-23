@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: knowhow
 title:  "Security Policy – Managing business continuity"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
+toc: true
 ---
 ## Operational continuity
 The operational continuity of the organisation implies that resources deemed to be important or vital (see Classification and control of resources) should be in good working order under all circumstances.

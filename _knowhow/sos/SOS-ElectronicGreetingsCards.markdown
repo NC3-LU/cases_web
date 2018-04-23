@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "SOS – Electronic greetings cards"
 menutitle:
 logo:

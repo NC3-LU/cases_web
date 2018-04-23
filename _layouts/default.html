@@ -1,47 +1,44 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-    <!-- Latest compiled and minified JavaScript -->
+<!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
 
-  {% include head.html %}
+<script language="JavaScript" type="text/javascript" >
+  $(".carousel").swipe({
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+      if (direction == 'left') $(this).carousel('next');
+      if (direction == 'right') $(this).carousel('prev');
+    },
+    allowPageScroll:"vertical"
+  });
+</script>
 
-  <body>
+{% include head.html %}
 
-    <div class="container-fluid">
+<body>
+
+  <div class="container-fluid">
     {% include header.html %}
 
-    </div>
+  </div>
 
-    {{ content }}
+  {{ content }}
 
-    <div class="container" aria-label="Content">
-      	<div class="col-md-12 col--height">
+  <div class="container" aria-label="Content">
+   <div class="col-md-12 col--height">
 
-      	</div>
-    </div>
-    <div class="row-fluid well--blue">
-      <div class="container">
-
-
-        <script language="JavaScript" type="text/javascript" >
-          $(".carousel").swipe({
-
-            swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-
-              if (direction == 'left') $(this).carousel('next');
-              if (direction == 'right') $(this).carousel('prev');
-
-              },
-        allowPageScroll:"vertical"
-
-        });
+   </div>
+ </div>
+ <div class="row-fluid well--blue">
+  <div class="container">
 
 
-
-      </script>
+    {% include footer.html %}
+  </div>
+</div>
 
 
 
@@ -49,18 +46,8 @@
 
 
 
-        {% include footer.html %}
-      </div>
-    </div>
 
 
-
-    
-     
-
-
-
-
-  </body>
+</body>
 
 </html>

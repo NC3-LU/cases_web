@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security Policy – Classification and control of resources"
 menutitle:
 logo:

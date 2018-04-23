@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security measures for small and medium-sized enterprises – Threats to hardware"
 menutitle:
 logo:

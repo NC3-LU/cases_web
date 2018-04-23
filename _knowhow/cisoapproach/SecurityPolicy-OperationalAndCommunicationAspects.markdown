@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security Policy – Operational and communication aspects"
 menutitle:
 logo:

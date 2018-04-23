@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security Policy – Organisation of security"
 menutitle:
 logo:

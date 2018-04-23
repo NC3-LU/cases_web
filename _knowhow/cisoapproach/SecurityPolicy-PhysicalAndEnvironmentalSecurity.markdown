@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security Policy – Physical and environmental security"
 menutitle:
 logo:

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security Policy - Human factors"
 menutitle:
 logo:

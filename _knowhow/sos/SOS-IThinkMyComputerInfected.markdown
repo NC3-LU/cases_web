@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "SOS – I think my computer is infected"
 menutitle:
 logo:

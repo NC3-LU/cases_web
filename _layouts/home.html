@@ -9,12 +9,7 @@ layout: default
 <div class="container" aria-label="Content">
  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  </ol>
+ 
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -137,7 +132,7 @@ layout: default
     <div class="col-md-3">
       <a href="{{ publication.url }}" alt="{{ publication.title | escape }}">
 
-       
+
         <h6><em class="em">{{ publication.title }}</em></h6>
         {% if publication.short %}
         {{ publication.short | escape }}

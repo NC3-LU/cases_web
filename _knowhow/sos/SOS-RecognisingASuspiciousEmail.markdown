@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "SOS – Recognising a suspicious email"
 menutitle:
 logo:

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "SOS – Online identity theft"
 menutitle:
 logo:

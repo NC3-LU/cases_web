@@ -1,47 +1,47 @@
 <!--<header class="site-header" role="banner">
 
-<div class="wrapper">-->
+  <div class="wrapper">-->
 
 
 
 
-<div class="row">
-<div class="well--blue text-center ">
-  <div class="container">
+    <div class="row">
+      <div class="well--blue text-center ">
+        <div class="container">
 
 
-      
-        {% assign default_paths = site.pages | map: "path" %}
-        {% assign page_paths = site.header_pages | default: default_paths %}
-     
-        {% if page_paths %}
-       
-        <div class="col-md-4" style="background-color: #FFFFFF; padding: 20px 30px;">
+
+          {% assign default_paths = site.pages | map: "path" %}
+          {% assign page_paths = site.header_pages | default: default_paths %}
+
+          {% if page_paths %}
+
+          <div class="col-md-4" style="background-color: #FFFFFF; padding: 20px 30px;">
            <div ><!-- logo -->
-          <a   href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
+            <a   href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
+          </div>
         </div>
-      </div>
         <!-- logo -->
         <!-- Main Navigation -->
-         
-          <nav>
-            <ul class="menu">
-    
-        <div class="navbar-header" style="padding-left: 30px;">
-        
-       
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                   {% for service in site.services %}
-                   {% if service.menutitle %}
-                   <li class="menuwithpic"><a href="{{ service.url | relative_url }}"><img src="{{ service.logo }}" class="menulogo" /> {{ service.menutitle | escape }}</a></li>
-                   {% endif %}
-                   {% endfor %}
-              </ul>
-            </li>
 
-            <!--<li><a href="{{ _posts/index.md | relative_url }}">Articles</a></li>-->
+        <nav>
+          <ul class="menu">
+
+            <div class="navbar-header" style="padding-left: 30px;">
+
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 {% for service in site.services %}
+                 {% if service.menutitle %}
+                 <li class="menuwithpic"><a href="{{ service.url | relative_url }}"><img src="{{ service.logo }}" class="menulogo" /> {{ service.menutitle | escape }}</a></li>
+                 {% endif %}
+                 {% endfor %}
+               </ul>
+             </li>
+
+             <!--<li><a href="{{ _posts/index.md | relative_url }}">Articles</a></li>-->
 <!--
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
@@ -53,35 +53,35 @@
                    {% endfor %}
               </ul>
             </li>
--->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Savoir-faire <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                   {% for category in site.knowhow %}
-                   {% if category.menutitle %}
-                   <li class="test"><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
-                   {% endif %}
-                   {% endfor %}
-              </ul>
-            </li>
+          -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+             {% for category in site.knowhow %}
+             {% if category.menutitle %}
+             <li class="test"><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
+             {% endif %}
+             {% endfor %}
+           </ul>
+         </li>
 
-            {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.menutitle %}
-            <li><a href="{{ my_page.url | relative_url }}">{{ my_page.menutitle | escape }}</a></li>
-            {% endif %}
-            {% endfor %}
-            <li class="test"><a href="{% link contact.md %}">Contact</a></li>
+         {% for path in page_paths %}
+         {% assign my_page = site.pages | where: "path", path | first %}
+         {% if my_page.menutitle %}
+         <li><a href="{{ my_page.url | relative_url }}">{{ my_page.menutitle | escape }}</a></li>
+         {% endif %}
+         {% endfor %}
+         <li class="test"><a href="{% link contact.md %}">Contact</a></li>
 
-          </ul>
-       </div>
+       </ul>
      </div>
-</nav>
-{% endif %}
+   </div>
+ </nav>
+ {% endif %}
 </div>
 
 
-  </div>
+</div>
 </div>
 
 </ul>
@@ -95,85 +95,3 @@
 </div>
 
 </div>
-
-
-<!--
-                                                <li>
-                                                                  <a title="Services">Services</a>
-                                            <ul class="sub-menu">
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/startup-kit.html" target="_blank">Start-up Security Kit</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/diagnostic.html">Diagnostic</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/monarc.html">MONARC</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/formation.html">Formation</a>
-                          </li>
-                                              </ul>
-                                      </li>
-                                  <li>
-                                                                  <a title="Savoir-faire">Savoir-faire</a>
-                                            <ul class="sub-menu">
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/besoin-d-aide.html">SOS</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/se-proteger.html">Les bons réflexes</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/maitriser-la-securite.html">L'approche RSSI</a>
-                          </li>
-                                              </ul>
-                                      </li>
-                                  <li>
-                                                                  <a title="Toolbox">Toolbox</a>
-                                            <ul class="sub-menu">
-                                                  <li class="sousmenu">
-                            <a href="https://securitymadein.lu/fr/news/mots-de-passe-des-outils-pour-eviter-les-post-it/">Mots de passe</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://securitymadein.lu/en/news/url-abuse/">URL abuse</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://securitymadein.lu/en/news/circlean/">CIRCLean</a>
-                          </li>
-                                              </ul>
-                                      </li>
-                                  <li>
-                                                                  <a title="News" href="https://www.cases.lu/news.html">News</a>
-                                                            </li>
-                                  <li>
-                                                                  <a title=" DOSSIERS"> DOSSIERS</a>
-                                            <ul class="sub-menu">
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/arnaques.html">Clever clicks</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/cloud-computing-pour-PME.html">Cloud computing</a>
-                          </li>
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/proteger-son-entreprise.html">Protéger son entreprise</a>
-                          </li>
-                                              </ul>
-                                      </li>
-                                  <li>
-                                                                  <a title="Internship / Stage" href="https://www.cases.lu/internship-offres-de-stage.html">Internship / Stage</a>
-                                                            </li>
-                                  <li>
-                                                                  <a title="Contact">Contact</a>
-                                            <ul class="sub-menu">
-                                                  <li class="sousmenu">
-                            <a href="https://www.cases.lu/helpline.html">Helpline / contact</a>
-                          </li>
-                                              </ul>
-                                      </li>
-                                          </ul>
-          </nav>
-        </div>
-      </div>
-
-      -->

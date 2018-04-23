@@ -26,11 +26,11 @@ layout: default-ext
           {% if page.categories contains "ciso" %}
           <button class="btn-category" type="button" data-toggle="collapse" data-target="#collapseExample-ciso" aria-expanded="false" aria-controls="collapseExample-ciso">
             <!--<a data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample-ciso" class="categorie1" href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">-->
-              <h6 class="kh-title">{{ page.title }}</h6>
+             <h6>{{ page.title }}</h6>
             </button>
             <div class="collapse-ciso" id="collapseExample-ciso">
               {% for page in site.knowhow %}
-              
+
               {% if page.categories contains "f-ciso" %}
               <li>
                 <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
@@ -38,7 +38,7 @@ layout: default-ext
                 </a>
               </li>
               {% endif %}
-              
+
               {% endfor %}
             </div>
             {% endif %}
@@ -51,7 +51,7 @@ layout: default-ext
             {% if page.categories contains "sos" %}
             <button class="btn-category" type="button" data-toggle="collapse" data-target="#collapseExample-sos" aria-expanded="false" aria-controls="collapseExample-sos">
               <!--<a data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample-sos" class="categorie2" href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">-->
-                <h6 class="kh-title">{{ page.title }}</h6>
+                <h6>{{ page.title }}</h6>
               </a></button>
               <div class="collapse-sos" id="collapseExample-sos">
                 {% for page in site.knowhow %}
@@ -65,7 +65,7 @@ layout: default-ext
                 {% endfor %}
               </div>
               {% endif %}
-              
+
             </ol>
             <ol class="test">
 
@@ -86,7 +86,7 @@ layout: default-ext
                   {% endfor %}
                 </div>
                 {% endif %}
-                
+
                 {% endfor %}
               </ol>
             </div>
@@ -102,7 +102,7 @@ layout: default-ext
           </div>
 
         </div>
-        
+
       </div>
 
       <div class="tocnavsection col-md-2">

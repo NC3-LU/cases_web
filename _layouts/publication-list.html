@@ -96,7 +96,7 @@ layout: default-ext
 
 <div class="row clearfix">
   <div class="col-md-4">
-    <div class="cat-savoir">
+    <div class="cat-savoir" style="border-radius: 3%;">
       <h3>Categories</h3>
       <div class="cat-spacer"></div>
 
@@ -104,28 +104,24 @@ layout: default-ext
 
 
 
-      <button type="button" style="width: 100%; margin-bottom: 30px;" data-toggle="collapse" data-target="#collapseExample-box-iso" aria-expanded="false" aria-controls="collapseExample-iso">
-        <h6>ISO/IEC 2700</h6>
+      <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-iso" aria-expanded="false" aria-controls="collapseExample-iso">
+        ISO/IEC 2700
       </button>
 
 
-      <button type="button" style="width: 100%; margin-bottom: 30px;" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
-        <h6 class="kh-title">Good Practice</h6>
+      <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
+        Good Practice
       </button>
       
 
 
-      <button type="button" style="width: 100%; margin-bottom: 30px;"  data-toggle="collapse" data-target="#collapseExample-box-scams" aria-expanded="false" aria-controls="collapseExample-scams">
-        <h6 class="kh-title">Scams</h6>
+      <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-scams" aria-expanded="false" aria-controls="collapseExample-scams">
+        Scams
       </button>
 
-      <button type="button" style="width: 100%; margin-bottom: 30px;" data-toggle="collapse" data-target="#collapseExample-box-sd" aria-expanded="false" aria-controls="collapseExample-sd">
-        <h6 class="kh-title">Securing Devices</h6>
+      <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-sd" aria-expanded="false" aria-controls="collapseExample-sd">
+        Securing Devices
       </button>
-
-
-
-
 
 
 
@@ -143,41 +139,41 @@ layout: default-ext
     <div class="cat-did">
       <h3>Links of Publications</h3>
 
-      <div class="collapse-iso" id="collapseExample-box-iso">
+      <div class="collapse-pub" id="collapseExample-box-iso">
        {% for page in categ %}
        {% if page.categories contains "iso" %}
        <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-         <h6>{{ page.title }}</h6>
+         <li>{{ page.title }}</li>
        </a>
        {% endif %}
        {% endfor %}
      </div>
 
 
-     <div class="collapse-gp " id="collapseExample-box-gp">
+     <div class="collapse-pub " id="collapseExample-box-gp">
        {% for page in categ %}
        {% if page.categories contains "bestpractice" %}
        <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-         <h6>{{ page.title }}</h6>
+         <li>{{ page.title }}</li>
        </a>
        {% endif %}
        {% endfor %}
      </div>
 
-     <div class="collapse-scams" id="collapseExample-box-scams">
+     <div class="collapse-pub" id="collapseExample-box-scams">
        {% for page in categ %}
        {% if page.categories contains "scams" %}
        <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-         <h6>{{ page.title }}</h6>
+         <li>{{ page.title }}</li>
        </a>
        {% endif %}
        {% endfor %}
      </div>
-     <div class="collapse-sd" id="collapseExample-box-sd">
+     <div class="collapse-pub" id="collapseExample-box-sd">
        {% for page in categ %}
        {% if page.categories contains "securing" %}
        <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-         <h6>{{ page.title }}</h6>
+        <li> {{ page.title }}</li>
        </a>
        {% endif %}
        {% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: knowhow
+layout: knowhow2
 title:  "The CISO Approach"
 menutitle: "The CISO Approach"
 logo: "/assets/img/services/trainings.png"
@@ -8,7 +8,7 @@ short: "TODO: TRANSLATE - Renforcez vos défenses. Organisez votre protection."
 categories: ciso
 toc: true
 ---
-## En quelques mots
+<h2 class="titre-page">En quelques mots</h2>
 
 Sécuriser les informations est loin d'être une question d'ordre technique pour un organisme. En effet les activités techniques représentent seulement un aspect d'une démarche qui, pour réussir, se doit de couvrir les activités de l'entreprise dans son ensemble.
 Avant de mettre en place des procédures ou des mesures techniques visant à augmenter la sécurité d'un organisme, il importe de procéder à une analyse des risques (gestion des risques) et de rédiger une politique de sécurité.
@@ -20,13 +20,13 @@ Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un cô
 
 Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la criticité des actifs et de la maturité de l'organisme.
 
-## Charte de sécurité
+<h2 class="titre-page">Charte de sécurité</h2>
 
 La définition et l'application d'une charte de sécurité est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une analyse de risques, même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels actifs  protéger en priorité. Afin de pouvoir prévenir les impacts les plus redoutés, la direction doit identifier les menaces les plus probables, ainsi que les vulnérabilités dont l'exploitation est la plus aisée.
 
 La mise en place d'une charte doit absolument être accompagnée d'une présentation aux employés qui devront vivre avec les mesures proposées au quotidien. Sans formation de leur part, toute charte risque d'être ignorée, et donc de perdre son utilité.
 
-## Politique de sécurité
+<h2 class="titre-page">Politique de sécurité</h2>
 
 <img src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
 Après l'identificaton des risques majeurs pour l'organisme (gestion des risques), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
@@ -35,15 +35,15 @@ La mise en place d'une politique de sécurité, même rudimentaire, permettra à
 
 Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré des mesures de sécurité, évalués en fonction des impacts les plus redoutés, les menaces les plus probables et les vulnérabilités les plus importantes.
 
-### Conception
+<h3 class="titre-page">Conception</h3>
 
 Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer l'analyse des risques qui doit être effectuée au préalable).
 
-### Réalisation
+<h3 class="titre-page"></h3>
 
 L'étape de réalisation consiste principalement à appliquer la politique de sécurité créée à l'étape précédente. Les mesures organisationnelles et techniques sont mises en place, les mesures comportementales sont appliquées par le personnel.
 
-### Évaluation et contrôle
+<h3 class="titre-page">Évaluation et contrôle</h3>
 
 Les systèmes d’évaluation doivent avoir été décrits dans le manuel de sécurité. L’objectif consiste à s’assurer que les procédures  mises en place fonctionnent comme prévu.
 Ces évaluations peuvent être de plusieurs types :
@@ -56,7 +56,7 @@ Ces évaluations peuvent être de plusieurs types :
 
 Si les évaluations et les contrôles révèlent des inadéquations de certaines procédures, il faut de suite entreprendre des corrections.
 
-### Amélioration
+<h3 class="titre-page">Amélioration</h3>
 
 Les actions qui auront été décidées à l’étape précédente devront être mises en oeuvre, soit :
 
@@ -64,7 +64,7 @@ Les actions qui auront été décidées à l’étape précédente devront être
 * au niveau des procédures opérationnelles qui en auront été déduites, comme par exemple par la mise en oeuvre d’une procédure de sauvegarde de données différente (et évidemment plus adaptée) ;
 * au niveau des outils, comme par exemple par l’achat d’un outil antivirus.
 
-## Contenu de la politique de sécurité
+<h2 class="titre-page">Contenu de la politique de sécurité</h2>
 
 La politique de sécurité devrait contenir les documents suivants :
 

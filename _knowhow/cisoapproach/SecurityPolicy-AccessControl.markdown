@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Security policy – Access control"
 menutitle:
 logo:

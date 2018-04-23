@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "SOS – I am being asked for confidential information"
 menutitle:
 logo:
