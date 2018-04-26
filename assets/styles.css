@@ -6,7 +6,8 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
-
+.section-nav > .toc-entry > a {text-decoration: underline; font-style: italic;
+ color: #565656;}
 /*-----CAROUSEL--------------------------*/
 
 .carousel-control.left, .carousel-control.right {
@@ -20,22 +21,41 @@ Template Name: cases.lu
 	width: 70%; height: 70%;}
 
 	.btn-carousel{ text-decoration: none;
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;
-  border-radius: 30px;
-  padding: 12px 53px 12px 23px;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: bold;
-  position: relative;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  display: inline-block;
-  outline-style: none;
+		-moz-border-radius: 30px;
+		-webkit-border-radius: 30px;
+		border-radius: 30px;
+		padding: 12px 53px 12px 23px;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: sans-serif;
+		font-weight: bold;
+		position: relative;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+		display: inline-block;
+		outline-style: none;
+	}
 
+	.btn-carousel:hover {
+		text-decoration: none;
+		-moz-border-radius: 30px;
+		-webkit-border-radius: 30px;
+		border-radius: 30px;
+		padding: 12px 53px 12px 23px;
+		color: #fff;
+		background-color: #d2c9ca;
+		text-transform: uppercase;
+		font-family: sans-serif;
+		font-weight: bold;
+		position: relative;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+		display: inline-block;
+		outline-style: none;
 	}
 
 	/*----------------------------------------*/
@@ -53,6 +73,7 @@ Template Name: cases.lu
 
 	/*-------------PUBLICATION-LIST------------*/
 	/*----Display, with a button, publications*/
+
 	.collapse-pub{
 		display:none;
 	}
@@ -89,7 +110,6 @@ Template Name: cases.lu
 
 
 
-
 		.btn-pub:focus {outline-style:none;}
 
 		/*----------ARTICLES-LIST------------------*/
@@ -119,12 +139,28 @@ Template Name: cases.lu
 
 		.blocantiscroll
 		{
-			position:fixed;
-			overflow: auto;
-			height: 80%;
+			position: sticky;
+			top: 0px;
+
+			background: none;
+			overflow-y: auto;
+			padding-bottom: 50px;
 
 		}
 
+		/*.row {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display:         flex;
+			flex-wrap: wrap;
+		}
+		.row > [class*='col-'] {
+			display: flex;
+			flex-direction: column;
+		}*/
+
+		.blocantiscroll > h2 {text-align: center;}
 
 		.c-article{ color: rgb(0,114,184); }
 

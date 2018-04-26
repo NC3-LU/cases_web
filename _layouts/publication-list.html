@@ -2,6 +2,9 @@
 layout: default-ext
 ---
 {% assign categ = site.publications %}
+{% assign list-cat = "iso, bestpractice, scams, securing"|split: ", "%}
+{% assign list-name = "ISO/IEC 27000, Good Practice, Scams, Securing Devices"|split: ", "%}
+{% assign size-name = list-name.size|minus: 1 %}
 
 <div class="col-md-2">
 
@@ -26,90 +29,37 @@ layout: default-ext
       </div>
 
 
-      <!--<div class="row">
-        <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-iso" aria-expanded="false" aria-controls="collapseExample-iso">
-          <h6 class="kh-title">ISO/IEC 2700</h6>
-        </button>
-        <div class="collapse-iso row-md-3" id="collapseExample-box-iso">
-         {% for page in categ %}
-         {% if page.categories contains "iso" %}
-         <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-           <h6 class="data-box">{{ page.title }}</h6>
-         </a>
-         {% endif %}
-         {% endfor %}
-       </div>
-     </div>
+      
 
-     <div class="row">
-      <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
-        <h6 class="kh-title">Good Practice</h6>
-      </button>
-      <div class="collapse-gp row-md-3" id="collapseExample-box-gp">
-       {% for page in categ %}
-       {% if page.categories contains "bestpractice" %}
-       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-         <h6 class="data-box">{{ page.title }}</h6>
-       </a>
-       {% endif %}
-       {% endfor %}
-     </div>
-   </div>
-
-   <div class="row">
-    <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-scams" aria-expanded="false" aria-controls="collapseExample-scams">
-      <h6 class="kh-title">Scams</h6>
-    </button>
-    <div class="collapse-scams row-md-3" id="collapseExample-box-scams">
-     {% for page in categ %}
-     {% if page.categories contains "scams" %}
-     <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-       <h6 class="data-box">{{ page.title }}</h6>
-     </a>
-     {% endif %}
-     {% endfor %}
-   </div>
- </div>
-
- <div class="row">
-  <button type="button" class="box-iso" data-toggle="collapse" data-target="#collapseExample-box-sd" aria-expanded="false" aria-controls="collapseExample-sd">
-    <h6 class="kh-title">Securing Devices</h6>
-  </button>
-  <div class="collapse-sd row-md-3" id="collapseExample-box-sd">
-   {% for page in categ %}
-   {% if page.categories contains "securing" %}
-   <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-     <h6 class="data-box">{{ page.title }}</h6>
-   </a>
-   {% endif %}
-   {% endfor %}
- </div>
-</div>-->
+    </div>
+  </div>
 
 
-</div>
-</div>
+  <!---------------------------------------------------------------------------------->
 
 
-<!---------------------------------------------------------------------------------->
+  <div class="row clearfix">
+    <div class="col-md-4">
+      <div class="cat-savoir" style="border-radius: 3%;">
+        <h3>Categories</h3>
+        <div class="cat-spacer"></div>
 
 
-<div class="row clearfix">
-  <div class="col-md-4">
-    <div class="cat-savoir" style="border-radius: 3%;">
-      <h3>Categories</h3>
-      <div class="cat-spacer"></div>
+        {% for i in (0..size-name) %}
 
 
 
 
+        {% assign f-cat = "f-"|append: list-cat[i] %}
+        {% assign data-cat = "#collapseExample-box-"|append: list-cat[i] %}
+        {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
 
-      <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-iso" aria-expanded="false" aria-controls="collapseExample-iso">
-        ISO/IEC 2700
-      </button>
+        <button class="btn-pub" type="button" data-toggle="collapse" data-target="{{ data-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">{{ list-name[i] }}</button>
+
+        {% endfor %}
 
 
-      <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
+      <!--<button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-gp" aria-expanded="false" aria-controls="collapseExample-gp">
         Good Practice
       </button>
       
@@ -121,7 +71,7 @@ layout: default-ext
 
       <button type="button" class="btn-pub" data-toggle="collapse" data-target="#collapseExample-box-sd" aria-expanded="false" aria-controls="collapseExample-sd">
         Securing Devices
-      </button>
+      </button>-->
 
 
 
@@ -139,17 +89,22 @@ layout: default-ext
     <div class="cat-did">
       <h3>Links of Publications</h3>
 
-      <div class="collapse-pub" id="collapseExample-box-iso">
+      {% for i in (0..size-name) %}
+      {% assign data-cat = "collapseExample-box-"|append: list-cat[i] %}
+      {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
+
+      <div class="collapse-pub" id="{{ data-cat }}">
        {% for page in categ %}
-       {% if page.categories contains "iso" %}
+       {% if page.categories contains list-cat[i] %}
        <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
          <li>{{ page.title }}</li>
        </a>
        {% endif %}
+
        {% endfor %}
      </div>
-
-
+     {% endfor %}
+<!--
      <div class="collapse-pub " id="collapseExample-box-gp">
        {% for page in categ %}
        {% if page.categories contains "bestpractice" %}
@@ -174,12 +129,15 @@ layout: default-ext
        {% if page.categories contains "securing" %}
        <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
         <li> {{ page.title }}</li>
-       </a>
-       {% endif %}
-       {% endfor %}
-     </div>
-   </div>
- </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>-->
+
+
+  </div>
+
+</div>
 
 </div>
 </div>

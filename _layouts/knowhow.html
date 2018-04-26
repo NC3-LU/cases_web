@@ -1,117 +1,80 @@
 ---
-layout: default-ext
+layout: default
 ---
 {% assign knowhow = site.knowhow %}
+{% assign list-cat = "ciso, bestpract, sos"|split: ", "%}
+{% assign i = 0 %}
 
 
-
-<div class="col-md-2 ">
-	<div class="row-fluid row-fluid--padding">
-
-    <div class="blocantiscroll row-fluid col-md-2">
-		<!--<h2>Knowhow</h2>
-        {% for knowhow in site.knowhow %}
-        <a href="{{knowhow.url | relative_url}}" alt="{{ knowhow.title | escape }}">
-        <h6>{{ knowhow.title }}</h6>
-        </a>
-        {% endfor %}-->
+<div class="blocantiscroll col-md-2">
 
 
-
-        <!-- Loop to display the 3 categories and theirs pages --> 
-        <h2>Knowhow</h2>
-        <ol class="test">
-          {% for page in knowhow %}
-
-          {% if page.categories contains "ciso" %}
-          <button class="btn-category" type="button" data-toggle="collapse" data-target="#collapseExample-ciso" aria-expanded="false" aria-controls="collapseExample-ciso">
-            <!--<a data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample-ciso" class="categorie1" href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">-->
-             <h6>{{ page.title }}</h6>
-            </button>
-            <div class="collapse-ciso" id="collapseExample-ciso">
-              {% for page in site.knowhow %}
-
-              {% if page.categories contains "f-ciso" %}
-              <li>
-                <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-                  <h6 class="c-article">{{ page.title }}</h6>
-                </a>
-              </li>
-              {% endif %}
-
-              {% endfor %}
-            </div>
-            {% endif %}
+      <!-- Loop to display the 3 categories and theirs pages --> 
+      <h2>Knowhow</h2>
+      <ol class="test">
+        {% for i in (0..list-cat.size) %}
+        {% for page in knowhow %}
 
 
-          </ol>
+        {% if page.categories contains list-cat[i] %}
+        {% assign f-cat = "f-"|append: list-cat[i] %}
+        {% assign id-cat = "#"|append: list-cat[i] %}
+        {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
+        {% assign class-cat = "collapse-"|append: list-cat[i] %}
+        <button class="btn-category" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">
+         <h6>{{ page.title }}</h6>
+       </button>
+       <div class="{{ class-cat }}" id="{{ aria-cat }}">
+        {% for page in site.knowhow %}
 
-          <ol class="test">
+        {% if page.categories contains f-cat %}
+        <li>
+          <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+            <h6 class="c-article">{{ page.title }}</h6>
+          </a>
+        </li>
+        {% endif %}
 
-            {% if page.categories contains "sos" %}
-            <button class="btn-category" type="button" data-toggle="collapse" data-target="#collapseExample-sos" aria-expanded="false" aria-controls="collapseExample-sos">
-              <!--<a data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample-sos" class="categorie2" href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">-->
-                <h6>{{ page.title }}</h6>
-              </a></button>
-              <div class="collapse-sos" id="collapseExample-sos">
-                {% for page in site.knowhow %}
-                {% if page.categories contains "f-sos" %}
-                <li>
-                  <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-                    <h6 class="c-article">{{ page.title }}</h6>
-                  </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-              </div>
-              {% endif %}
-
-            </ol>
-            <ol class="test">
-
-              {% if page.categories contains "bestpract" %}
-              <button class="btn-category" type="button" data-toggle="collapse" data-target="#collapseExample-bestpract" aria-expanded="false" aria-controls="collapseExample-bestpract">
-                <!--<a data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample-bestpract" class="categorie3" href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">-->
-                  <h6 class="kh-title">{{ page.title }}</h6>
-                </a></button>
-                <div class="collapse-bestpract" id="collapseExample-bestpract">
-                  {% for page in site.knowhow %}
-                  {% if page.categories contains "f-bestpract" %}
-                  <li>
-                    <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-                      <h6 class="c-article">{{ page.title }}</h6>
-                    </a>
-                  </li>
-                  {% endif %}
-                  {% endfor %}
-                </div>
-                {% endif %}
-
-                {% endfor %}
-              </ol>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-md-8">
-         <div class="row-fluid row-fluid--padding">
-
-          <div>
-            {{ content | inject_anchors }}
-          </div>
-
-        </div>
-
+        {% endfor %}
       </div>
+      {% endif %}
 
-      <div class="tocnavsection col-md-2">
-        <div class="row-fluid row-fluid--padding">
-          <div class="blocantiscroll col-md-2 row-fluid row-fluid--padding ">
-            <h2>Table of Content</h2>
-            {% if page.layout == "knowhow" %}
-            {{content | toc_only}}
-            {% endif %}
-          </div>
-        </div>
-      </div>
+      {% endfor %}
+      {% endfor %}
+
+    </ol>
+
+
+  </div>
+
+<!--<div class="col-md-2 ">
+  <div class="row-fluid row-fluid--padding">
+
+    
+</div>
+
+</div>-->
+
+<div class="col-md-8">
+ <div class="row-fluid row-fluid--padding">
+
+  <div>
+    {{ content | inject_anchors }}
+  </div>
+
+</div>
+
+</div>
+<!--
+<div class="tocnavsection col-md-2">
+  <div class="row-fluid row-fluid--padding">
+    
+  </div>
+</div>
+-->
+<div class=" blocantiscroll col-md-2">
+      <h2>Table of Content</h2>
+      {% if page.layout == "knowhow" %}
+      {{content | toc_only}}
+      {% endif %}
+    </div>

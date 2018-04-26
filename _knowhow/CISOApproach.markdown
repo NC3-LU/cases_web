@@ -1,5 +1,5 @@
 ---
-layout: knowhow2
+layout: knowhow
 title:  "The CISO Approach"
 menutitle: "The CISO Approach"
 logo: "/assets/img/services/trainings.png"

@@ -1,35 +1,30 @@
 
 <div class="credits-section row">
-			<div class="col-md-2">
-				<div class="footer-credits txtleft">
-					{% comment %}
-					<!--<a href="https://securitymadein.lu/" class="milu-btn">
-						<span style="text-transform:uppercase; color:#fff;">security<br>
-							<span style="color:#00FFF6">made</span>in.
-							<span style="color:#00FFF6">lu</span>
-						</span>
-					</a>-->
-					{% endcomment %}
-					<a class="logo" href="{{ "/" | relative_url }}">CASES.lu</a>
-				</div>
-			</div>
-			<div class="col-md-7">
-				<div class="footer-credits txtcenter">Copyright © <a href="https://securitymadein.lu">SMILE</a> g.i.e. 2017 | <a href="https://c-3.lu">c-3.lu</a> | <a href="https://cases.lu">cases.lu</a> | <a href="https://circl.lu">circl.lu</a></div>
-			</div>
-			<div class="col-md-3">
-				<div class="footer-credits text-right">
-					<ul>
-																					<li>
-																			<a title="About us" href="{% link contact.md %}">About us</a>
-																	</li>
-															<li>
+	<div class="col-md-2">
+		<div class="footer-credits txtleft">
+			{% comment %}
 
-																			<a title="Legal" href="{% link legal.md %}">Legal</a>
-																	</li>
-															<li>
-																			<a title="Privacy" href="{% link legal.md %}#privacy">Privacy</a>
-																	</li>
-																		</ul>
-				</div>
-			</div>
+			{% endcomment %}
+			<a class="logo" href="{{ "/" | relative_url }}">CASES.lu</a>
+		</div>
+	</div>
+	<div class="col-md-7">
+		<div class="footer-credits txtcenter">Copyright © <a href="https://securitymadein.lu">SMILE</a> g.i.e. {{ 'now' | date: "%Y" }} | <a href="https://c-3.lu">c-3.lu</a> | <a href="https://cases.lu">cases.lu</a> | <a href="https://circl.lu">circl.lu</a></div>
+	</div>
+	<div class="col-md-3">
+		<div class="footer-credits text-right">
+			<ul>
+				<li>
+					<a title="About us" href="{% link contact.md %}">About us</a>
+				</li>
+				<li>
+
+					<a title="Legal" href="{% link legal.md %}">Legal</a>
+				</li>
+				<li>
+					<a title="Privacy" href="{% link legal.md %}#privacy">Privacy</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
