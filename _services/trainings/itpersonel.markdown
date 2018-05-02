@@ -4,6 +4,7 @@ title:  "Formation personnel IT"
 menutitle:
 logo:
 short:
+group: trainingpage
 ---
 Parce que le personnel IT se retrouve au cœur des enjeux informationnels il est important qu’il puisse recevoir une formation à la sécurité de l’information spécifique.
 

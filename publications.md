@@ -3,5 +3,6 @@ layout: publication-list
 title: Publications
 menutitle: Publications
 permalink: /publications/
+toc: true
 ---
-<h4 class="description-article">We have The following Publications at your disposal !</h4>
+<i class="description-article">We have The following Publications at your disposal !</i>

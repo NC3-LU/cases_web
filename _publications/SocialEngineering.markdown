@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Social Engineering"
 menutitle: "Social Engineering"
 logo:

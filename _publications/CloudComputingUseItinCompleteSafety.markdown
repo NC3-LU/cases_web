@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Cloud computing"
 menutitle: "Cloud computing"
 logo:

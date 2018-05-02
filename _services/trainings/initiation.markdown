@@ -4,6 +4,7 @@ title:  "Initiation à la sécurité de l'information"
 menutitle:
 logo:
 short: 
+group: trainingpage
 ---
 Les nouvelles technologies nous offrent de multiples possibilités, mais nous obligent, de l'autre côté, d'affronter une multitude de risques liés à la société de l'information. Chaque jour, nous sommes exposés à des impacts, vulnérabilités et menaces capables à mettre à genoux les TIC et ceci tant dans nos vies professionnelles que privées. Reconnaître les menaces et savoir comment les traiter ou, mieux encore, les éviter est essentiel.
 

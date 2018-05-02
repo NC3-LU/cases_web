@@ -1,28 +1,21 @@
 ---
 layout: default-ext
 ---
-<div class="col-md-2">
-	<div class="row-fluid row-fluid--padding">
-		<div class="blocantiscroll row-fluid col-md-2">
-			<h2>Services</h2>
-			{% for service in site.services %}
-			<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
-				<h6>{{ service.title }}</h6>
-			</a>
-			{% endfor %}
-		</div>
-	</div>
+<div class="blocantiscroll col-md-2">
+	<h2>Services</h2>
+	{% for service in site.services %}
+	{% unless service.group contains "training" %}
+	
+	<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
+		<h6 class="btn-category"><img src="{{ service.logo }}" class="menulogo" | relative_url }}/>{{ service.title }}</h6>
+	</a>
+	{% endunless %}
+	{% endfor %}
+
 </div>
 
 <div class="col-md-8">
 	<div class="row-fluid row-fluid--padding">
-
-
-
-
-
-
-
 		<div>
 			{{ content | inject_anchors }}
 		</div>
@@ -31,11 +24,9 @@ layout: default-ext
 
 </div>
 
-<div class="tocnavsection col-md-2">
-	<div class="row-fluid row-fluid--padding">
-		{% if page.layout == "article" %}
-		{{content | toc_only}}
-		{% endif %}
-	</div>
+<div class="blocantiscroll col-md-2">
+	{% if page.layout == "article" %}
+	{{content | toc_only}}
+	{% endif %}
 </div>
 

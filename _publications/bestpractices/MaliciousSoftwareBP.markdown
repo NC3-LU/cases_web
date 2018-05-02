@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Malicious software: best practice"
 menutitle: "Malicious software: best practice"
 logo:

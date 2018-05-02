@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Social Network Scams"
 menutitle: "Social Network Scams"
 logo:

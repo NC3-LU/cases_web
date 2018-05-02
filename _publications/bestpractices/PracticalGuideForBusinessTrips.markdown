@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Be Safe: a practical guide for business trips"
 menutitle: "Be Safe: a practical guide for business trips"
 logo:

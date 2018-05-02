@@ -6,25 +6,70 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
-.section-nav > .toc-entry > a {text-decoration: underline; font-style: italic;
- color: #565656;}
-/*-----CAROUSEL--------------------------*/
 
-.carousel-control.left, .carousel-control.right {
-	background-image:none !important;
-	filter:none !important;
-	color: #ffff4d;
+/******* Projet Final*****/
+.
+/*------boutons service----*/
+/*.sss{
+	border: solid 3px #fff;
+	background-color: #fff;
+	padding: 18px 23px 18px 23px;
+	color: rgb(0,114,184);
+	width:100%;text-align: left;
 }
 
-.carousel {text-align: center;
-	margin: 30px auto 30px auto;
-	width: 70%; height: 70%;}
+.sss:hover{
+	border: solid 3px #ffff4d;
+	background-color: #fff;
+	padding: 18px 23px 18px 23px;
+	color: rgb(0,114,184);
+	width:100%;text-align: left;
+}*/
+
+	.marg-top {margin-top: 50px;}
+
+/*------------------------*/
+
+
+
+/*****Color of the list in the TOC****/
+.section-nav > .toc-entry > a {text-decoration: underline; font-style: italic;
+	color: #565656;}
+
+
+	/*-----CAROUSEL--------------------------*/
+
+	.carousel-control.left, .carousel-control.right {
+		background-image:none !important;
+		filter:none !important;
+		color: #ffff4d;
+	}
+
+	.carousel {text-align: center;
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+		margin-right: 40px;
+
+	}
+
+
+.carousel .carousel-control {
+  visibility: hidden;
+}
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+
 
 	.btn-carousel{ text-decoration: none;
 		-moz-border-radius: 30px;
 		-webkit-border-radius: 30px;
 		border-radius: 30px;
-		padding: 12px 53px 12px 23px;
+		width:100%;
+		padding: 10px;
+		background-color: rgb(0,114,184);
 		color: #fff;
 		text-transform: uppercase;
 		font-family: sans-serif;
@@ -43,9 +88,10 @@ Template Name: cases.lu
 		-moz-border-radius: 30px;
 		-webkit-border-radius: 30px;
 		border-radius: 30px;
-		padding: 12px 53px 12px 23px;
-		color: #fff;
-		background-color: #d2c9ca;
+		padding: 10px;
+		width: 50%;
+		color: #ffff4d;
+		background-color: rgb(0,114,184);
 		text-transform: uppercase;
 		font-family: sans-serif;
 		font-weight: bold;
@@ -64,7 +110,7 @@ Template Name: cases.lu
 		width: 25%;
 	}
 
-	
+
 
 
 	.data-box {
@@ -74,45 +120,28 @@ Template Name: cases.lu
 	/*-------------PUBLICATION-LIST------------*/
 	/*----Display, with a button, publications*/
 
-	.collapse-pub{
-		display:none;
-	}
+	.collapse-iso {display: none;}
 
-	.collapse-pub.show{
-		display:block;
+	.collapse-iso.show {display: block;}
 
-	}
+	.collapse-bestpractice {display: none;}
 
-	.collapse-pub > a {
-		font-weight: 400;
-		color: #565656;}
+	.collapse-bestpractice.show {display: block;}
+
+	.collapse-scams {display: none;}
+
+	.collapse-scams.show {display: block;}
+
+	.collapse-securing {display: none;}
+
+	.collapse-securing.show {display: block;}
 
 		/*---------Design of the button--------*/
-		.btn-pub {
-			width: 100%; margin-bottom: 30px;
-			-webkit-border-radius: 60;
-			border-radius: 60px;
-			text-shadow: 0px 1px 7px #666666;
-			color: #ffffff;
-			font-size: 1.2em;
-			background: rgb(0,114,184);
-			padding: 10px 20px 10px 20px;
-			border: solid # 3px;
-			text-decoration: none;
 
-		}
-
-		.btn-pub:hover {
-			background: #ffff4d;
-			text-decoration: none;
-		}
-
-
-
-
-		.btn-pub:focus {outline-style:none;}
 
 		/*----------ARTICLES-LIST------------------*/
+
+/******Layout of the button and collapse event to show posts in knowhow******/
 
 		.collapse-ciso {display: none;}
 
@@ -131,8 +160,18 @@ Template Name: cases.lu
 
 
 
-		.btn-category {border: none;
+		.btn-category {border: 3px solid #fff;
 			background-color: #ffffff;
+			width: 100%;
+			text-align: left;
+			outline: none;
+		}
+
+		.btn-category:hover {
+				border: 3px solid #ffff4d;
+				background-color: #ffffff;
+				width: 100%;
+				text-align: left;
 		}
 
 		/*---------------------------------------------------*/
@@ -141,369 +180,364 @@ Template Name: cases.lu
 		{
 			position: sticky;
 			top: 0px;
-
 			background: none;
 			overflow-y: auto;
 			padding-bottom: 50px;
 
 		}
 
-		/*.row {
-			display: -webkit-box;
-			display: -webkit-flex;
-			display: -ms-flexbox;
-			display:         flex;
-			flex-wrap: wrap;
-		}
-		.row > [class*='col-'] {
-			display: flex;
-			flex-direction: column;
-		}*/
-
-		.blocantiscroll > h2 {text-align: center;}
-
-		.c-article{ color: rgb(0,114,184); }
-
-		.c-article:hover{color: #565656;}
-
-		.date-italic{
-			color: rgb(0,114,184);
-			font-style: italic;
-			font-size: 1.2em;
-			padding-left: 50%;
-		}
 
 
+	/*******TOC position "sticky", it keeps the TOC on top of the page when we scroll*****/
 
-		html, body {
-			font-family: Helvetica,Arial,sans-serif
-			font-weight: 400;
-			font-size: 100%;
-		}
-		h1 {
-			font-size: 36px;
-		}
-		h2 {
-			font-size: 30px;
-		}
-		h3 {
-			color: #565656;
-			font-size: 22px;
-			font-weight: 400;
-			margin: 20px 0;
-			text-transform: uppercase;
-		}
-		h4 {
-			font-size: 24px;
-		}
-		h5 {
-			font-size: 20px;
-		}
-		h6 {
-			font-size: 16px;
-		}
-		h1, h2, h3, h4, h5, h6 {
-			font-family: 'Lato', tahoma, sans-serif;
-			font-weight: 400;
-			color: #565656;
-		}
-		a btn btn-link {
-			color: rgb(0,114,184);
-		}
-		p {
-			word-wrap: normal;
-			padding: 5px;
-		}
-		a:hover {
-			color: #0087e0;
-			text-decoration: none;
-		}
-		hr {
-			margin: 0;
-		}
-		ul,ol:not(.test) {
-			margin-left: 35px;
-		}
+			.blocantiscroll > h2 {text-align: center;}
 
+	/***************************************************/
 
+	/********Layout of the list in TOC******************/
+			.title-blue{ color: rgb(0,114,184); }
 
-		li:not(.navbar) { display : list-item;
-			list-style-image : url(/assets/img/list-4.png);}
+	/***************************************************/
 
-
-			.classification {
-				width: 100%;
-			}
-			.classification--small {
-				width: 50%;
-			}
-			.classification th, td {
-				border: solid 1px #999999;
-				padding-left: 8px;
-				padding-right: 8px;
-			}
-			.classification th {
-				background-color: #BBBBBB;
-				text-align: center;
-				padding-top: 15px;
-				padding-bottom: 15px;
-			}
-			.classification td {
-				padding-top: 8px;
-				padding-bottom: 8px;
-			}
-			.classification--small td {
-				text-align: center;
-			}
-			.col-md-2--date {
-				padding-top: 12px;
-			}
-			.menuwithpic {
-				height: 72px;
-				padding: 4px;
-			}
-			.menulogo {
-				width: 64px;
-				vertical-align: middle;
-			}
-			.contact-left-col-item {
-				padding: 7px 0 0 20px;
-			}
-			.section-header-line {
-				margin-top: 40px;
-				border: 0;
-				border-bottom: 1px solid rgb(0,114,184);
-				width: 100%;
-			}
-			.row-top-delimiter {
-				border-top: 1px solid rgb(0,114,184);
-			}
-			.menubarpadding{
-				padding-bottom: 5px;
-				margin-top: 25px;
-				margin-bottom: 0px;
-				background-color: #ffffff;
-			}
-			.row-fluid--padding {
-				padding: 5px 0 5px 5px;
-			}
-			.col--height {
-				height: 30px;
+    /*******Date of posts in italic with color*******************/
+			.date-italic{
+				color: rgb(0,114,184);
+				font-style: italic;
+				font-size: 1.2em;
+				padding-left: 50%;
 			}
 
-			.well--blue {
-				background-image: none;
-				background-color: rgb(0,114,184);
-				border-color: #0066B2;
-				color: white;
-			}
+    /***********************************************************/
 
-			.well--bluee {
-				background-image: none;
-				background-color: rgb(0,114,184);
-				border-color: #0066B2;
-				color: white;
-				border-radius: 20px;
-				margin-top: 3%;
+			html, body {
+				font-family: Helvetica,Arial,sans-serif
+				font-weight: 400;
+				font-size: 100%;
 			}
-
-			.well--bluee > h2{color: white;}
-
-
-			.well--blue-padding {
-				padding-top: 20px;
-				padding-bottom: 20px;
+			h1 {
+				font-size: 36px;
 			}
-			.well--blue-margin {
-				margin-top: 30px;
-				margin-bottom: 30px;
+			h2 {
+				font-size: 30px;
 			}
-			.well--blue-outline {
-				background-image: none;
-				background-color: white;
-				border-color: #0066B2;
-			}
-			.well--blue h2 {
-				color: white;
-			}
-			.menu-align-bottom {
-				margin-top: 48px;
-			}
-
-
-
-			.section-nav {
-				padding: 10px 30px;
-				background-color: #FFF;
-				margin: 5px 0;
-			}
-
-			.txtright{
-				text-align: right;
-			}
-			.txtleft{
-				text-align: left;
-			}
-			.txtcenter{
-				text-align: center;
-			}
-			.font-boldcap {
-				font-weight: 800;
+			h3 {
+				color: #565656;
+				font-size: 22px;
+				font-weight: 400;
+				margin: 20px 0;
 				text-transform: uppercase;
 			}
-
-			.zone-archive .content-text{
-				padding-left: 0px;
+			h4 {
+				font-size: 24px;
 			}
-
-			.style-list-1 {
-				list-style-image: url(/templates/frontoffice/casesv3/images/list-1.png);
-				margin: 15px 0;
-				padding: 0 0 0 15px;
-				font-size: 14px;
-				color: #7f7f7f;
+			h5 {
+				font-size: 20px;
 			}
-			.style-list-2 {
-				list-style-image: url(/templates/frontoffice/casesv3/images/list-2.png);
-				margin: 15px 0;
-				padding: 0 0 0 15px;
-				font-size: 14px;
-				color: #7f7f7f;
+			h6 {
+				font-size: 16px;
 			}
-			.style-list-3 {
-				list-style-image: url(/templates/frontoffice/casesv3/images/list-3.png);
-				margin: 15px 5px;
-				padding: 0 0 0 15px;
-				font-size: 14px;
-				color: #7f7f7f;
+			h1, h2, h3, h4, h5, h6 {
+				font-family: 'Lato', tahoma, sans-serif;
+				font-weight: 400;
+				color: #565656;
 			}
-
-			.style-list-4 {
-				list-style-image: url(/templates/frontoffice/casesv3/images/list-4.png);
-				margin: 15px 5px;
-				padding: 0 0 0 15px;
-				font-size: 14px;
-				color: #7f7f7f;
+			a btn btn-link {
+				color: rgb(0,114,184);
 			}
-
-			.style-list-4 li a.today{
-				font-weight: bold;
+			p {
+				word-wrap: normal;
+				padding: 5px;
 			}
-			.style-list-4 li.selected a{
-				color: rgb(66, 139, 202);
-			}
-
-			.style-list-4 li.no-archive{
-				color: #D8D8D8 !important;
-			}
-
-
-			.style-list-4.archives {
-				text-transform: uppercase;
-			}
-			.style-list-3 a, .style-list-4 a {
-				color: #7f7f7f;
-			}
-			.style-list-3 a:hover, .style-list-4 a:hover {
+			a:hover {
 				color: #0087e0;
 				text-decoration: none;
 			}
-			.style-list-1 li {
-				margin: 0 0 5px 0;
-			}
-			.style-list-2 li {
-				margin: 0 0 9px 0;
-			}
-			.style-list-3 li {
-				margin: 0 0 9px 0;
-			}
-			.style-list-4 li {
-				margin: 0 0 9px 0;
-			}
-
-			.glossary::after{
-				content:"*";
-			}
-			a.glossary{
-				color: rgb(11, 66, 115);
-			}
-
-
-			/* Dropdown menu background color*/
-
-			.nav-navbar > ul > .dropdown {     background-color: #e7e7e7;  }
-
-			/* Dropdown menu font color*/ 
-
-			.nav-navbar > ul > .dropdown a{   color: #555555;  }
-
-			/*Menu font color*/
-
-			.navbar-right > li > a{	color: #FFFFFF;	font-size: 120%;	}
-
-			.navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black; background-color: rgb(0,114,184);}
-
-			/*Header text font */
-
-			.navbar-header > div > p{text-align: center; margin: 30px 0 0 30px; }
-
-
-
-
-
-			/*--------------------------------------------------------------------------------*/
-			/*	Body/Main */
-			/*--------------------------------------------------------------------------------*/
-
-			#wrapper {
-				width: 100%;
+			hr {
 				margin: 0;
-				padding: 0;
-				overflow: hidden;
 			}
-			.container {
-				padding: 0;
-			}
-			#page-content {
-				background: #ffffff;
-			}
-
-			.content-text > ul{
-				color: rgb(127, 127, 127);
-				font-size: 16px;
-				list-style-image: url("/templates/frontoffice/casesv3/images/list-4.png");
-				margin: 15px 5px;
-				padding: 0 0 0 15px;
-			}
-			.content-text > ul > li{
-				margin: 0 0 9px;
+			ul,ol:not(.test) {
+				margin-left: 35px;
 			}
 
 
+			/******Bullet of the list, except for the navbar******/
+			li:not(.navbar) { display : list-item;
+				list-style-image : url(/assets/img/list-4.png);}
+
+			/*****************************************************/
+				.classification {
+					width: 100%;
+				}
+				.classification--small {
+					width: 50%;
+				}
+				.classification th, td {
+					border: solid 1px #999999;
+					padding-left: 8px;
+					padding-right: 8px;
+				}
+				.classification th {
+					background-color: #BBBBBB;
+					text-align: center;
+					padding-top: 15px;
+					padding-bottom: 15px;
+				}
+				.classification td {
+					padding-top: 8px;
+					padding-bottom: 8px;
+				}
+				.classification--small td {
+					text-align: center;
+				}
+				.col-md-2--date {
+					padding-top: 12px;
+				}
+				.menuwithpic {
+					height: 72px;
+					padding: 4px;
+				}
+				.menulogo {
+					width: 64px;
+					vertical-align: middle;
+				}
+				.contact-left-col-item {
+					padding: 7px 0 0 20px;
+				}
+				.section-header-line {
+					margin-top: 40px;
+					border: 0;
+					border-bottom: 1px solid rgb(0,114,184);
+					width: 100%;
+				}
+				.row-top-delimiter {
+					border-top: 1px solid rgb(0,114,184);
+				}
+				.menubarpadding{
+					padding-bottom: 5px;
+					margin-top: 25px;
+					margin-bottom: 0px;
+					background-color: #ffffff;
+				}
+				.row-fluid--padding {
+					padding: 5px 0 5px 5px;
+				}
+				.col--height {
+					height: 30px;
+				}
+
+				.well--blue {
+					background-image: none;
+					background-color: rgb(0,114,184);
+					border-color: #0066B2;
+					color: white;
+				}
+
+				.well--bluee {
+					background-image: none;
+					background-color: rgb(0,114,184);
+					border-color: #0066B2;
+					color: white;
+					border-radius: 20px;
+					margin-top: 3%;
+				}
+
+				.well--bluee > h2{color: white;}
+
+
+				.well--blue-padding {
+					padding-top: 20px;
+					padding-bottom: 20px;
+				}
+				.well--blue-margin {
+					margin-top: 30px;
+					margin-bottom: 30px;
+				}
+				.well--blue-outline {
+					background-image: none;
+					background-color: white;
+					border-color: #0066B2;
+				}
+				.well--blue h2 {
+					color: white;
+				}
+				.menu-align-bottom {
+					margin-top: 48px;
+				}
 
 
 
-			/*----Page--Service--MONARC-------------------------------------------------------*/
+				.section-nav {
+					padding: 10px 30px;
+					background-color: #FFF;
+					margin: 5px 0;
+				}
 
-			.img-service{border: 2px solid rgb(0,114,184);}
+				.txtright{
+					text-align: right;
+				}
+				.txtleft{
+					text-align: left;
+				}
+				.txtcenter{
+					text-align: center;
+				}
+				.font-boldcap {
+					font-weight: 800;
+					text-transform: uppercase;
+				}
 
-			/*-------------------------------------------------------------------------------*/
+				.zone-archive .content-text{
+					padding-left: 0px;
+				}
+
+				.style-list-1 {
+					list-style-image: url(/templates/frontoffice/casesv3/images/list-1.png);
+					margin: 15px 0;
+					padding: 0 0 0 15px;
+					font-size: 14px;
+					color: #7f7f7f;
+				}
+				.style-list-2 {
+					list-style-image: url(/templates/frontoffice/casesv3/images/list-2.png);
+					margin: 15px 0;
+					padding: 0 0 0 15px;
+					font-size: 14px;
+					color: #7f7f7f;
+				}
+				.style-list-3 {
+					list-style-image: url(/templates/frontoffice/casesv3/images/list-3.png);
+					margin: 15px 5px;
+					padding: 0 0 0 15px;
+					font-size: 14px;
+					color: #7f7f7f;
+				}
+
+				.style-list-4 {
+					list-style-image: url(/templates/frontoffice/casesv3/images/list-4.png);
+					margin: 15px 5px;
+					padding: 0 0 0 15px;
+					font-size: 14px;
+					color: #7f7f7f;
+				}
+
+				.style-list-4 li a.today{
+					font-weight: bold;
+				}
+				.style-list-4 li.selected a{
+					color: rgb(66, 139, 202);
+				}
+
+				.style-list-4 li.no-archive{
+					color: #D8D8D8 !important;
+				}
 
 
-			/*----Page--Service---------------------------------------------------------------*/
-			.titre-page{color: rgb(0,114,184); border-bottom: 3px solid darkblue;}
-			/*--------------------------------------------------------------------------------*/
+				.style-list-4.archives {
+					text-transform: uppercase;
+				}
+				.style-list-3 a, .style-list-4 a {
+					color: #7f7f7f;
+				}
+				.style-list-3 a:hover, .style-list-4 a:hover {
+					color: #0087e0;
+					text-decoration: none;
+				}
+				.style-list-1 li {
+					margin: 0 0 5px 0;
+				}
+				.style-list-2 li {
+					margin: 0 0 9px 0;
+				}
+				.style-list-3 li {
+					margin: 0 0 9px 0;
+				}
+				.style-list-4 li {
+					margin: 0 0 9px 0;
+				}
 
-			/*----Page--Publications----------------------------------------------------------*/
-			.titre-article{color: rgb(0,114,184); border: 10px solid rgb(0,114,184);}
+				.glossary::after{
+					content:"*";
+				}
+				a.glossary{
+					color: rgb(11, 66, 115);
+				}
 
-			/*----Titre-Publications-Home-----------------------------------------------------*/
 
-			.em{background-color: rgb(239,239,239); padding: 5px; }
+				/* Dropdown menu background color*/
 
-			/*--------------------------------------------------------------------------------*/
+				.nav-navbar > ul > .dropdown {     background-color: #e7e7e7;  }
 
-			.description-article{
+				/* Dropdown menu font color*/ 
+
+				.nav-navbar > ul > .dropdown a{   color: #555555;  }
+
+				/*Menu font color*/
+
+				.navbar-right > li > a{	color: #FFFFFF;	font-size: 120%;	}
+
+				.navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black; background-color: rgb(0,114,184);}
+
+				/*Header text font */
+
+				.navbar-header > div > p{text-align: center; margin: 30px 0 0 30px; }
+
+
+
+
+
+				/*--------------------------------------------------------------------------------*/
+				/*	Body/Main */
+				/*--------------------------------------------------------------------------------*/
+
+				#wrapper {
+					width: 100%;
+					margin: 0;
+					padding: 0;
+					overflow: hidden;
+				}
+				.container {
+					padding: 0;
+				}
+				#page-content {
+					background: #ffffff;
+				}
+
+				.content-text > ul{
+					color: rgb(127, 127, 127);
+					font-size: 16px;
+					list-style-image: url("/templates/frontoffice/casesv3/images/list-4.png");
+					margin: 15px 5px;
+					padding: 0 0 0 15px;
+				}
+				.content-text > ul > li{
+					margin: 0 0 9px;
+				}
+
+
+
+
+
+				/*----Page--Service--MONARC-------------------------------------------------------*/
+
+				.img-service{border: 2px solid rgb(0,114,184);}
+
+				/*-------------------------------------------------------------------------------*/
+
+
+				/*----Page--Service---------------------------------------------------------------*/
+				.titre-page{color: rgb(0,114,184); border-bottom: 3px solid darkblue;}
+				/*--------------------------------------------------------------------------------*/
+
+				/*----Page--Publications----------------------------------------------------------*/
+				.titre-article{color: rgb(0,114,184); border: 10px solid rgb(0,114,184);}
+
+				/*----Titre-Publications-Home-----------------------------------------------------*/
+
+				.em{background-color: rgb(239,239,239); padding: 5px; }
+
+				/*--------------------------------------------------------------------------------*/
+
+				.description-article{
   	/*border: 3px solid rgb(0,114,184);
   	padding: 1% 1% 1% 1%;*/
   	font-style: italic;

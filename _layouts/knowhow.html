@@ -22,7 +22,7 @@ layout: default
         {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
         {% assign class-cat = "collapse-"|append: list-cat[i] %}
         <button class="btn-category" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">
-         <h6>{{ page.title }}</h6>
+         <h6 class="title-blue">{{ page.title }}</h6>
        </button>
        <div class="{{ class-cat }}" id="{{ aria-cat }}">
         {% for page in site.knowhow %}
@@ -30,7 +30,7 @@ layout: default
         {% if page.categories contains f-cat %}
         <li>
           <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-            <h6 class="c-article">{{ page.title }}</h6>
+            <h6>{{ page.title }}</h6>
           </a>
         </li>
         {% endif %}

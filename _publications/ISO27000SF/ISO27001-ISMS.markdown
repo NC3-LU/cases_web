@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "ISO/IEC 27001 – Information security management system"
 menutitle: "ISO/IEC 27001 – Information security management system"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What is ISO-IEC 27001?"
 categories: iso
+toc: true
 ---
 ## In brief
 The ISO 27001 standard encourages the adoption of a process approach to the implementation, operation, monitoring, re-examination, updating and improvement of a company’s information security management system. Annex A of the standard is [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %}).

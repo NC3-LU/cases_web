@@ -1,10 +1,11 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "Clever Clicks"
 menutitle:  "Clever Clicks"
 date: 2017-11-06 00:00:00 +0100
 short: "Le dossier spécial \"Clever clicks for safer business\" vous aide à adopter les bons réflexes dans tous les cas de figure rencontrés au quotidien"
-categories: goodpractice
+categories: bestpractice
+toc: true
 ---
 Information Technology is an essential element for the commercial activities of entreprises:
 

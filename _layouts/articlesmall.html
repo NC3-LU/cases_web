@@ -3,39 +3,26 @@ layout: default-ext
 ---
 <div class="col-md-2">
 	<div class="row-fluid row-fluid--padding">
-		<h2>Publications</h2>
-        {% for publication in site.publications %}
-        <a href="{{publication.url | relative_url}}" alt="{{ publication.title | escape }}">
-        <h6>{{ publication.title }}</h6>
-        </a>
-        {% endfor %}
-  	</div>
+		
+ </div>
 </div>
-
-
 
 <div class="col-md-8">
 	<div class="row-fluid row-fluid--padding">
 
+    <div>
+      {{ content | inject_anchors }}
+    </div>
 
-	
-
-
- 
-
-  		<div>
-   	 	{{ content | inject_anchors }}
-  		</div>
-
-	</div>
- 
+  </div>
+  
 </div>
 
 <div class="tocnavsection col-md-2">
-     	<div class="row-fluid row-fluid--padding">
+  <div class="row-fluid row-fluid--padding">
   	{% if page.layout == "article" %}
   	{{content | toc_only}}
   	{% endif %}
-  	</div>
   </div>
+</div>
 

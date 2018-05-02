@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "ISO/IEC 27000 standards"
 menutitle: "ISO/IEC 27000 standards"
 logo:

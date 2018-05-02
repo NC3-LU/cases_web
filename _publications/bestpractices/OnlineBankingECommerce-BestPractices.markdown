@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Patches"
 menutitle: "Patches"
 logo:

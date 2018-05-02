@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "Why pool risk analysis?"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Why pool risk analysis?"
 categories: securing
+toc: true
 ---
 Risk analysis consists of identifying the attack scenarios which would cause the most serious impacts, and putting forward a treatment to reduce their consequences.
 

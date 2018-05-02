@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: articlesmall
 title: Downloads
 menutitle: Downloads
 permalink: /downloads/

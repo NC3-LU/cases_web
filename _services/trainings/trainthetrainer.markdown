@@ -4,6 +4,7 @@ title:  "Formation des formateurs"
 menutitle:
 logo:
 short:
+group: trainingpage
 ---
 Connaître les bases de la sécurité de l’information est une chose. Les transmettre en est une autre…
 

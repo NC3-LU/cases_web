@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Smartphone Scams"
 menutitle: "Smartphone Scams"
 logo:

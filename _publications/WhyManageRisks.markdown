@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "Why manage risks?"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Why manage risks?"
 categories: securing
+toc: true
 ---
 <div styles="border: 1px solid #000000; float:right; padding: 10px;">
 <strong>Impact</strong>: negative consequence arising from a <strong>threat</strong> exploiting a <strong>vulnerability</strong> of an <strong>asset</strong>.<br /><br />

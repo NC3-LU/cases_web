@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Scams through downloads"
 menutitle: "Scams through downloads"
 logo:

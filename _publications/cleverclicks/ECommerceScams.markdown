@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "E-Commerce Scams"
 menutitle: "E-Commerce Scams"
 logo: 

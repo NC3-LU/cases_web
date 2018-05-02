@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Scams targeting E-Banking"
 menutitle: "Scams targeting E-Banking"
 logo:

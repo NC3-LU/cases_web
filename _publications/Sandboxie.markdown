@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Sandboxie"
 menutitle: "Sandboxie"
 logo:

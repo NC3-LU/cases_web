@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Protecting your company"
 menutitle: "Protecting your company"
 logo:

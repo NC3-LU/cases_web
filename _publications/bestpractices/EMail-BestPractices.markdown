@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: publication-list
 title:  "Email: good practices"
 menutitle: "Email: good practices"
 logo:
