@@ -9,7 +9,7 @@ categories: f-sos
 toc: true
 ---
 
-## In brief
+<h3 class="titre-page">In brief</h3>
 A number of measures have been defined to diminish the risks relating to this type of problem. In the event that a device is not returned, it is recommended to perform the following operations:
 
 * **Step 1**: If the device has access to your accounts (email, social media), please remove this authentication from all your accounts. All you have to do is log in to your accounts online and change the authentications.

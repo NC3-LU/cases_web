@@ -9,7 +9,7 @@ layout: default
 
 
 <div class="col-md-4">
- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="12000">
   <!-- Indicators -->
 
 
@@ -17,17 +17,17 @@ layout: default
   <div class="carousel-inner" role="listbox">
     <div class="item active">
 
-     <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/diagnostic-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/diagnostic.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
+     <a  href="{{ "/services/diagnostic.html" | relative_url }}"><img src="{{ "/assets/img/services/diagnostic-CMYK.jpg" | relative_url }}"/><div class="carousel-text">Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.</div><a href="{{ "/services/diagnostic.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
 
    </div>
    <div class="item">
-    <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/monarc-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/monarc.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
+    <a  href="{{ "/services/monarc.html" | relative_url }}"><img src="{{ "/assets/img/services/monarc-CMYK.jpg" | relative_url }}"/><div class="carousel-text">CASES has developed an analysis method to produce a comprehensive risk report on this matter, with suggested solutions. You will therefore be able to take the appropriate measures to enhance information security within your organisation and meet your legal obligations.</div><a href="{{ "/services/monarc.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
   </div>
   <div class="item">
-    <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/start-up-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/startupkit.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
+    <a  href="{{ "/services/startupkit.html" | relative_url }}"><img src="{{ "/assets/img/services/start-up-CMYK.jpg" | relative_url }}"/><div class="carousel-text">The Start-up Security Kit business owners implement a better cybersecurity strategy.</div><a href="{{ "/services/startupkit.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
   </div>
   <div class="item">
-    <a  href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/services/training-CMYK.jpg" | relative_url }}"/><a href="{{ "/services/trainings.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
+    <a  href="{{ "/services/trainings.html" | relative_url }}"><img src="{{ "/assets/img/services/training-CMYK.jpg" | relative_url }}"/><div class="carousel-text">CASES training provides the knowledge and reflexes that your teams require. It is fully adapted to your specific situation. It will encourage staff to communicate their experiences and strengthen the motivation of staff to be vigilant and share best practice.</div><a href="{{ "/services/trainings.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
 
   </div>
 </div>
@@ -43,27 +43,7 @@ layout: default
 </a>
 
 
-
-<div class="marg-top">
-<div class="col-md-3">
-  <img  src="{{ "/assets/img/GitHub-Mark-120px-plus.png" | relative_url }}"/>
 </div>
-<div class="col-md-3">
-  <img style="width: 120px; height: 120px;" src="{{ "/assets/img/yt.png" | relative_url }}"/></div>
-  <div class="col-md-3">
-  <img style="width: 120px; height: 120px;" src="{{ "/assets/img/smile-logo.png" | relative_url }}"/></div>
-
-
-</div>
-</div>
-
-
-
-<!----- ajouter le reste du contenu ici- -->
-
-
-
-
 
 </div>
 
@@ -71,19 +51,19 @@ layout: default
 <div class="col-md-4">
   <h2><a href="{% link articles.md %}">Articles</a></h2>
   <a class="post-link" href="{{ post.url | relative_url }}">
-    <img src="{{ "/assets/img/pub.png" | relative_url }}"/>
+    <img src="{{ "/assets/img/logo-cases-home.png" | relative_url }}"/>
     <h5><i>We have the following articles at your disposal.</i></h5>
   </a>
 
   <h2><a href="{% link publications.md %}">Publications</a></h2>
   <a class="post-link" href="{{ post.url | relative_url }}">
-    <img src="{{ "/assets/img/pub.png" | relative_url }}"/>
+    <img src="{{ "/assets/img/logo-cases-home.png" | relative_url }}"/>
     <h5><i>Here is the list of our publications that will help you to know more about information security.</i></h5>
   </a>
 
   <h2><a href="{% link articles.md %}">Knowhow</a></h2>
   <a class="post-link" href="{{ post.url | relative_url }}">
-    <img src="{{ "/assets/img/pub.png" | relative_url }}"/>
+    <img src="{{ "/assets/img/logo-cases-home.png" | relative_url }}"/>
     <h5><i>We put our skills at your disposal.</i></h5>
   </a>
 

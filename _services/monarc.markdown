@@ -20,7 +20,7 @@ CASES optimised risk analysis method (MONARC):
  
 It is based on CASES expertise and regularly updated prior knowledge of the business processes used within your professional organisation.
 
-<img class="img-service" src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
+<img class="img-border" src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
 
 <h4 class="title2-page">Stage 1: Context Establishment</h4>
 This stage is used to set establish the context of the risk analysis and to produce:

@@ -9,7 +9,7 @@ categories: f-sos
 toc: true
 ---
 
-## In brief
+<h3 class="titre-page">In brief</h3>
 A password is used to authenticate a person and to grant them access to the resources which they have a right to access. Passwords are strictly private. If someone else knows your password, they could commit offences under your identity. On top of this, operations carried out by a user may be recorded (they must be recorded under certain circumstances as detailed by the CNPD) and the user may be held responsible for their actions.
 
 If another user knows your password, try and proceed as follows:

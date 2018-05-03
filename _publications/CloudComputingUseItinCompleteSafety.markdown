@@ -8,7 +8,7 @@ short: "This file addresses the key points of cloud computing, thanks to him you
 categories: securing
 toc: true
 ---
-## In brief
+<h3 class="titre-page">In brief</h3>
 Cloud computing covers different ways for companies to outsource their IT resources and access them through a network.
 Generally these services, especially if they are managed by a third party, are hosted in data centres over which the user has little control.
 
@@ -18,7 +18,7 @@ The infrastructure of e-commerce sites is a good example of cloud computing. The
 
 It is no coincidence that one of the biggest players cloud in computing is Amazon, which decided to lease and extend its infrastructure to third parties.
 
-## Types of cloud
+<h3 class="titre-page">Types of cloud</h3>
 Cloud computing generally involves the provision of several types of service:
 
 **IaaS**: Infrastructure as a Service: The cloud provider provides an infrastructure, i.e. a means of communication, a predefined number of processors, RAM and storage space. The customer must install and manage its own operating systems and applications. If required, the application can request more speed, processors, RAM or storage space. The customer therefore has the advantage of an infrastructure that can react dynamically to peak needs without funding the infrastructure year-round. Generally the customer only pays for what is needed – the famous "pay as you go".
@@ -27,7 +27,7 @@ Cloud computing generally involves the provision of several types of service:
 
 **SaaS**: Software as a service: The cloud provider supplies the customer with the application to be used. The customer therefore does not need to manage anything and can focus on just using the application provided.
 
-##Distinctive features of the cloud
+<h3 class="titre-page">Distinctive features of the cloud</h3>
  
 Legislation
 There is no specific legislative framework for cloud computing in Europe or Luxembourg. As noted in the introduction, Cloud Computing is a convergence of several online services existing elsewhere. These services themselves are for the most part covered by specific legislative aspects (e-commerce, personal data protection, archiving, etc.), so Cloud Computing is at the confluence of a host of regulations and laws.
@@ -36,7 +36,7 @@ Obviously, any obligations existing in Luxembourg for certain industries, such a
 
 Finally, intellectual property should be mentioned. Whether it is to comply with confidentiality commitments to third parties or the secrecy of methods developed within the company, subcontracting IT activity potentially means exposing the company to risks in terms of confidentiality compliance and monitoring. There are technical solutions such as encryption, which are discussed later in this document. They should not be underestimated.
 
-## Data security
+<h3 class="titre-page">Data security</h3>
 
 ### Data transmission:
 It should be confirmed that data sent to the cloud is protected against any loss of confidentiality. An encrypted connection (SSL) must therefore be used or data must be encrypted before being transferred to the cloud.
@@ -64,7 +64,7 @@ Based on the classification level of data stored in the cloud, it must be confir
 ### Data destruction
 At the end of the contract when you want to delete old backups, it is important to ensure that your data is destroyed and no longer accessible to unauthorised persons. The best way to guarantee this is to encrypt the data again.
 
-## Availability
+<h3 class="titre-page">Availability</h3>
 Some providers guarantee a specific level of availability, while others do not make any specific commitment, except "best effort".
 
 So, a provider offering availability of 98.5% can have 5.5 days' downtime a year (including 5.5 consecutive days) without violating the contracts. It is essential to perform this calculation to assess whether or not you can survive such a failure. Of course, higher availability costs more than average or low availability.  The best data centres guarantee up to 99.99% availability (less than one hour of downtime a year).
@@ -72,7 +72,7 @@ So, a provider offering availability of 98.5% can have 5.5 days' downtime a year
 The availability of cloud solutions is also conditioned by connectivity. A loss of connectivity at your company, ISP or cloud provider renders these services unavailable. Distributed denial of service (DDOS) attacks can also jeopardise an entire cloud infrastructure and affect you if one of your provider's customers becomes the target.
 
 The availability of an asset within an entity is defined by the assurance that it is usable in terms of time and expected performance. Also think about the time needed to retrieve backups from an online service. This time-scale can become very long, even prohibitive, because of the lower speed allocated to you.
-## Connectivity
+<h3 class="titre-page">Connectivity</h3>
 ### Speed
 Most cloud services guarantee a data speed to their customers. It is imperative that companies check that these speeds are sufficient for the use that will be made of them.
 
@@ -87,17 +87,17 @@ For a backup service, it is therefore vital to check the upstream speed and calc
 ### The amount of data transferred
 Some cloud providers charge by the amount of data transferred. Check if this model is suitable for your needs.
 
-## The most used services
+<h3 class="titre-page">The most used services</h3>
 > TO complete
 
-## Backups
+<h3 class="titre-page">Backups</h3>
 Backups should not be confused with storage. Indeed, Luxembourg recently enacted a law on PSDCs, Digitisation and Archiving Service Providers, service providers in the field of electronic archiving.
 
 Cloud backups are nothing more than the relocation of backed up data to another data centre. It is therefore necessary to check the security of the data during transmission, storage and, finally, destruction in the event of contract termination, deletion by users or bankruptcy of the cloud provider.
 
 A backup can take all night, without disrupting production. Data must be restored as quickly as possible. So, make sure you have sufficient bitrate to download the data in a reasonable amount of time. To keep this time short, be sure to choose a good backup strategy involving local data storage and keeping data in the cloud for disasters like fire.
 
-## Synchronisation
+<h3 class="titre-page">Synchronisation</h3>
 The synchronisation of different work tools is a recurring need. Instead of sending documents by unsecured email or using removable media, it is best to synchronise the data using a central service accessible to all.
 
 There are many services offering these forms of collaboration for synchronisation. The required bitrate and the amount of data exchanged are generally lower than for backup services.
@@ -106,7 +106,7 @@ Documents are thus always available on the various synchronised work tools, beca
 
 Confidentiality needs are, however, very real since this generally involves current data, which could attract the interest of competitors or other malicious individuals. Encryption during transmission and storage on the cloud server is required. It is preferable for customers only to hold encryption keys to prevent unauthorised access through the cloud.
 
-## Collaborative platform
+<h3 class="titre-page">Collaborative platform</h3>
 When several people collaborate on the same documents, it is usually via a file server or a similar server within a company.
 
 If the company does not want to maintain a file server or if several people from different companies, without access to the same file server, need to collaborate, online collaboration platforms can be used.
@@ -124,14 +124,14 @@ These collaboration platforms also offer other benefits such as calendars, mailb
 
 Often it is not possible to check data access logs.
 
-## Other services
+<h3 class="titre-page">Other services</h3>
 These include online services such as hosting of web sites or mailboxes, but it is also possible to go as far as virtualising the entire work environment. Some providers of virtual desktops can be accessed through a common browser.
 
 The cloud offers tremendous opportunities and transforms IT into a service that can be rented according to need, thus making it possible for even small businesses to access technologies hitherto restricted to large businesses.
 
 All these options obviously have a price and it is essential to evaluate the value of your data properly to ensure that the appropriate security measures are put in place.
 
-## Summary
+<h3 class="titre-page">Summary</h3>
 
 | Technical specifications | | | | |
 | Features | Authentication | Encryption | Availability | Bitrate |

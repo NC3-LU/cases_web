@@ -12,23 +12,23 @@ Asset identification and classification are integral to risk management and are 
 
 Draft and enforce a sectoral policy on classification and control of resources
 
-## Classification principles
+<h3 class="titre-page">Classification principles</h3>
 
 * The greater the impact of a disclosure, the higher the confidentiality classification will need to be.
 * The greater the impact of a loss due to the compromise of an asset, the higher the integrity classification will need to be.
 * The longer the impact of a prolonged disruption to legitimate access to the asset, the higher the availability classification will need to be.
 
-## Importance of classification
+<h3 class="titre-page">Importance of classification</h3>
 Asset classification is primarily used to perform risk analysis. Such classification requires that the criticality of an asset (= classification level – potential impact) be associated with the associated threats and vulnerabilities.
 
 The classification will enable risks to be assessed as objectively as possible and a plan to be established to respond to them. The beneficiary will therefore be able to ensure that major risks are reduced, given the available investment.
 
-## Classification scheme
+<h3 class="titre-page">Classification scheme</h3>
 Each company has assets that are more or less critical to ensuring that it runs smoothly. These assets include business processes, people, information and of course machines. In order to implement efficient and effective security measures, it is necessary to define a level of protection to be provided for each asset.
 
 This means it is important to classify assets and determine their criticality in terms of the level of confidentiality, integrity and availability.
 
-## Confidentiality
+<h3 class="titre-page">Confidentiality</h3>
 The following diagram shows the official abbreviation, the name, and a description of the confidentiality classes. It also refers to the classes of the "Traffic Light protocol" schema, defined by the English administration NISCC. These classes define distribution rules for information used to protect critical infrastructure.
 
 <table class="classification">
@@ -139,7 +139,7 @@ Unlimited, subject to standard copyright rules, WHITE information may be distrib
 </tr>
 </table>
 
-## Integrity
+<h3 class="titre-page">Integrity</h3>
 The following diagram shows the official abbreviation, the name, and a description of the integrity classes.
 
 <table class="classification">
@@ -190,7 +190,7 @@ NOR, Normal
 </tr>
 </table>
 
-## Availability
+<h3 class="titre-page">Availability</h3>
 Availability is expressed in terms of estimated time to recover from any failure.
 
 <table class="classification classification--small">

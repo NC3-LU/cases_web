@@ -11,7 +11,7 @@ toc: true
 
 > Check to verify the completeness of this article.
 
-## Introduction
+<h3 class="titre-page">Introduction</h3>
 The protection of intangible capital has become an increasingly important concern for businesses:
 
 * commercial or strategic data
@@ -32,7 +32,7 @@ When going on a business trip, take precautions:
 * During the trip
 * After the trip
 
-## Before the trip
+<h3 class="titre-page">Before the trip</h3>
 Before going on a business trip, we advise you to familiarise yourself with the local social, economic and cultural situation.
 
 Travellers may also be exposed to significant physical risks abroad. It is necessary to take precautions. Visit the website of the Ministry of Foreign Affairs "Travel Advice" section (safety tips for travellers).
@@ -67,7 +67,7 @@ Sensitive information on electronic media must be encrypted.
 ### Social networks
 You are advised not to announce a business trip on social networks like Facebook, Twitter or LinkedIn. It would also be very ill-advised to post information such as the reason for the trip, your destination, hotel, schedule, any contacts and accompanying persons on these networks.
 
-## During the trip
+<h3 class="titre-page">During the trip</h3>
 During your trip, you should apply the following rules:
 
 1. Always **secure data** by avoiding leaving laptops and mobile phones unguarded. Anti-theft cables are recommended for laptops, especially when attending trade shows.
@@ -95,7 +95,7 @@ Also [inform your employer](-) and your IT department if computer equipment and/
 
 [Inform the embassy](-) or consulate of your country if your passport has been stolen.
 
-## After the trip
+<h3 class="titre-page">After the trip</h3>
 Did you adhere to all the security instructions before and during the trip? Well done. On your return, a final check-up is required, along with some precautionary measures:
 
 * start with an inventory of all your data and removable media;

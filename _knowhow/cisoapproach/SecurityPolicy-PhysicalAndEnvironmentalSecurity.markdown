@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Physical security perimeter
+<h3 class="titre-page">Physical security perimeter</h3>
 Physical security relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: Infiltrating the premises and Insertion or removal of hardware and Device recovery and Aggravated theft).
 
 Always be aware of the actual value of a resource (see classification) in order to be able to plan suitable protection.
@@ -43,7 +43,7 @@ All the elements listed as important or vital for “the organisation” must be
 
 Physical security
 
-## Rules within the perimeter
+<h3 class="titre-page">Rules within the perimeter</h3>
 
 ### The premises within the security perimeter should be:
 
@@ -86,7 +86,7 @@ Physical security
 ### Technical measures
 Physical security
 
-## Electrical equipment safety
+<h3 class="titre-page">Electrical equipment safety</h3>
 The electricity power supply for vital equipment must be made safe:
 
 * by a power supply for 2 different sources (2 fuses on 2 circuits) where equipment has 2 power supplies (SMEs: see Service interruption and Power cut and Discontinuity of service providers);
@@ -113,7 +113,7 @@ The electricity power supply for vital equipment must be made safe:
 ### Technical measures
 Physical security
 
-## Maintenance
+<h3 class="titre-page">Maintenance</h3>
 For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see Invalid or non-existent licence and Administration impossible). Maintenance is an important criterion in optimising the availability of resources.
 
 When a piece of equipment leaves “the organisation” for maintenance, or when it is discarded, it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see Hardware damaged during transport and Device recovery)
@@ -145,7 +145,7 @@ See also: [SOS – handover to repairs](-)
 
 Physical security
 
-## Off-site equipment security
+<h3 class="titre-page">Off-site equipment security</h3>
 The equipment used for processing information off the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk. (SMEs: see Hardware damaged during transport; Aggravated theft; Basic security measures for laptop computers)
 
 ### Applying security measures to:
@@ -173,7 +173,7 @@ The equipment used for processing information off the site of “the organisatio
 * Physical security
 * Prevent physical theft
 
-## Disposal and reuse of equipment
+<h3 class="titre-page">Disposal and reuse of equipment</h3>
 Any equipment that is discarded or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see Device recovery).
 
 Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
@@ -207,7 +207,7 @@ Whichever method is chosen, please be respectful of the environment.
 * Disposal
 * Physical security
 
-## Tidy office policy
+<h3 class="titre-page">Tidy office policy</h3>
 Follow a tidy office policy, i.e.:
 
 * tidy away papers and removable data storage media (CD-ROMs, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;

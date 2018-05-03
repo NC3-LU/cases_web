@@ -28,7 +28,7 @@ La mise en place d'une charte doit absolument être accompagnée d'une présenta
 
 <h2 class="titre-page">Politique de sécurité</h2>
 
-<img src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
+<img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
 Après l'identificaton des risques majeurs pour l'organisme (gestion des risques), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
 
 La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
@@ -39,7 +39,7 @@ Il est à  ce stade inutile de commencer par la réalisation d'une politique de 
 
 Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer l'analyse des risques qui doit être effectuée au préalable).
 
-<h3 class="titre-page"></h3>
+<!--<h3 class="titre-page"></h3>-->
 
 L'étape de réalisation consiste principalement à appliquer la politique de sécurité créée à l'étape précédente. Les mesures organisationnelles et techniques sont mises en place, les mesures comportementales sont appliquées par le personnel.
 

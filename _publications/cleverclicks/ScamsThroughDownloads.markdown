@@ -8,7 +8,7 @@ short: "Overview of threats and measures to protect ourselves"
 categories: scams
 toc: true
 ---
-## In brief
+<h3 class="titre-page" id="in-brief">In brief</h3>
 
 The Web is a source of all kinds of inexhaustible treasures, for browsing or download.
 
@@ -16,7 +16,7 @@ Increased bit rates have made downloads faster and easier. An information docume
 
 The problem arises when some websites offer file downloads that will result in unwanted or even harmful effects on our computer. Healthy programs downloaded a long time ago can also be problematic if they contain flaws that have not subsequently been corrected.
 
-## Overview of threats
+<h3 class="titre-page" id="overview-of-threats">Overview of threats</h3>
 
 ##### Viruses
 The virus is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
@@ -55,7 +55,7 @@ Some types of downloaded malware can turn your PC into a "zombie" that can be us
 
 Other malicious files have the effect of encrypting the data stored on your hard drive. You then no longer have access to it and have to pay a substantial sum to decrypt your own data to regain access to it. This is the supreme scam!
 
-## How can we protect ourselves
+<h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves</h3>
 
 The slogan "Clever Klicken" is more relevant than ever for addressing the download risks. The following responses and measures should be adopted.
 

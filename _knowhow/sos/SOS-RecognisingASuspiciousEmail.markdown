@@ -9,36 +9,36 @@ categories: f-sos
 toc: true
 ---
 
-## In brief
+<h3 class="titre-page">In brief</h3>
 Email is one of the favourite means of communication of cybercriminals. It is cheap to use, it doesn’t require any identification on the part of the sender and the service is very quick.
 
 Email can be used as a tool for many forms of attacks. This chapter will deal with analysing email to find out how to recognise a suspicious email without opening the links it contains or its attachments.
 
-## Email from a bank
+<h3 class="titre-page">Email from a bank</h3>
 Be aware that Luxembourg retail banks do not send emails. To communicate with their customers, they instead send letters by post and communicate via their ‘e-banking’ platforms, or call their customers using an account manager known to them.
 
-## Spam
+<h3 class="titre-page">Spam</h3>
 Spam is another name for unsolicited emails. These can be advertising, hoaxes (fake messages) or phishing-type attacks. Your service provider or your email client should have the ability to recognise and flag spam.
 
 Do not open spam unless you are sure an email flagged as spam is actually legitimate. Under no circumstances respond to spam. That will confirm to the sender that your email address is valid.
 
-## Impersonal email
+<h3 class="titre-page">Impersonal email</h3>
 If you receive an email that does not mention you by name, be careful – it is probably spam mail.
 
 A legitimate correspondent who knew your email address would have your identifying information and use it to address you as appropriate.
 
 Handle this type of email with great care. If the email contains any of the elements detailed in the sections below, do not respond.
 
-## Email implying urgency
+<h3 class="titre-page">Email implying urgency</h3>
 If the email does not address you by name and it implies urgency, it is very probably a hoax or phishing. Do not respond to the request. Ignore this email. (See: Email – best practices).
 
-## Email containing a link
+<h3 class="titre-page">Email containing a link</h3>
 If the email does not address you by name and it contains a link, it is very probably trying to lure you to a malicious website (phishing or infection by malicious code exploiting technical vulnerabilities). Whatever you do, do not click on that link. (See: Email – best practices).
 
-## Email with attachment
+<h3 class="titre-page">Email with attachment</h3>
 If the email does not address you by name and it includes an attachment, it is very probably an attempt to infect your machine with malware. Any type of file could include malicious code. Whatever you do, do not open the file. A lot of social engineering type attacks operate based on infected files attached to emails exploiting human vulnerabilities. (See: Email – best practices)
 
-## Personal email
+<h3 class="titre-page">Personal email</h3>
 Even if the email is properly addressed to you, still take care and check the following elements:
 
 ### Known sender

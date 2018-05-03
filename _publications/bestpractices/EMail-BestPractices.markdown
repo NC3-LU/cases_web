@@ -8,7 +8,7 @@ short: "Behavioural and technical measures to prevent risks related to sending e
 categories: bestpractice
 toc: true
 ---
-## In brief
+<h3 class="titre-page">In brief</h3>
 Email is one of the primary forms of private and professional communication. It’s a user-friendly, fast and inexpensive tool. Despite its advantages, there are still some precautions to be taken into consideration when both sending and receiving messages.
 
 While it is true that sending company emails internally does not carry the same risk of interception when the company has its own internal mail server, it is nevertheless important to remember that the information sent is not just saved on the company’s secure server. It can also be found in the sender and recipient’s mailboxes. Most of the time, these computers are both physically and logically significantly less well protected than the servers – and are therefore more vulnerable to attack – while containing, in some cases, the exact same information, with the same classification levels, as the servers.
@@ -19,7 +19,7 @@ The problem with loss of information is also made worse by the use of laptop com
 
 For the company’s security, it is also important to set up, amongst other things, specific disposal procedures for IT equipment.
 
-## Risks
+<h3 class="titre-page">Risks</h3>
 Risks related to sending emails
 
 * Loss of confidentiality as a result of:
@@ -46,7 +46,7 @@ Risks related to receiving emails
   * due to the presence of spam;
   * due to hoaxes.
 
-## Behavioural measures
+<h3 class="titre-page">Behavioural measures</h3>
 
 * Make sure you don’t reveal any confidential information when replying to emails. Check the legitimacy of the request and be careful not to divulge too much information when you respond;
 * the majority of emails containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this isn’t the case, be very careful when you receive an email with an attachment, as this attachment may contain malicious codes;
@@ -56,7 +56,7 @@ Risks related to receiving emails
 * never click on links in emails where you don’t know the sender, or in particular, if there are signs the email may be malicious, as it could be a phishing email or a link towards a fake website;
 * never answer suspicious emails. By answering, you are confirming to the sender that the email address is active.
 
-## Organisational practices
+<h3 class="titre-page">Organisational practices</h3>
 
 * staff training in the classification of data and associated rules;
 * staff training in risks related to social engineering;
@@ -67,7 +67,7 @@ Risks related to receiving emails
 * call the person who sent you a suspicious email and ask them if they did indeed send it. Tell them why you thought the email was suspicious;
 * avoid opening emails on critical assets or those which have access to critical assets, such as confidential information or indispensable assets.
 
-## Applicable sectoral policies
+<h3 class="titre-page">Applicable sectoral policies</h3>
 Draw up and enforce the following sectoral policies:
 
 * Classification and monitoring of resources
@@ -92,7 +92,7 @@ Draw up and enforce the following sectoral policies:
   * Protection of operational data
   * Personal data protection
 
-## Technical measures
+<h3 class="titre-page">Technical measures</h3>
 
 * Make sure your antivirus software is always up to date. Normally, updates are downloaded automatically;
 * Do not use the same antivirus software on both the email server and on the workstations. This increases the likelihood of discovering malicious software. No antivirus detects more than 80% of existing malicious codes;

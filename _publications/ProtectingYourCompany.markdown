@@ -8,7 +8,7 @@ short: "Anticipate risks, protect your data, what are the good tips for protecti
 categories: securing
 toc: true
 ---
-## Prevent risks
+<h3 class="titre-page">Prevent risks</h3>
 The best way to secure your company is to set up a risk management process. This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: “Why manage risks?” and “Why pool risk analysis?”
 
 Risk can be defined using the following calculation: risk = vulnerability * threat * impact. It is made up of a ‘probability’ factor (arising from the threat) and a ‘damage’ factor (arising from the value of the compromised asset, or corresponding to the value of the indirect damage suffered). The vulnerability used in this function takes into consideration the security measures that have been implemented.
@@ -28,7 +28,7 @@ The “impact” is the result of the exploitation of a vulnerability by a threa
 
 The combination of these three factors make up the “risk”.
 
-## Protecting data
+<h3 class="titre-page">Protecting data</h3>
 As with data, business processes are known as primary assets (Classification of assets; risk management). The first priority for making an IT setup secure relates to the protection of these primary assets.
 
 All entities have a particular interest in protecting their corporate data, especially with regard to information about the performance of their economic plan. Legal requirements, and even client expectations, also represent reasons which lead companies to protect specific data.
@@ -42,7 +42,7 @@ Different types of data that should be protected:
 
 Loss of data generally has harmful consequences for any entity.
 
-## Classification of data
+<h3 class="titre-page">Classification of data</h3>
 Before implementing protective measures, the entity should carry out at least a summary classification exercise over the data it processes. This classification is important to gain an awareness of the true value (confidentiality, integrity and availability) of the data. Depending on the value of the data, with regard to the expected impact in the event that data becomes compromised, the entity will be able to decide on the investment to set aside for data security.
 
 > Note: the classification applied to information should also be applied to the containers, meaning the physical locations and media holding the information. The term container should be understood in its broadest sense.
@@ -52,7 +52,7 @@ SME security policy:
 * Classification and monitoring of resources
 * Access control -- Access control policy and Access rights management
 
-## Data backups
+<h3 class="titre-page">Data backups</h3>
 All data identified within a company as having an availability requirement must be backed up. By creating a backup copy, the loss or destruction of primary data can easily be offset. However, backing up data can become more problematic when the data to be backed up has confidentiality or integrity issues.
 
 Data with a confidentiality requirement needs to be protected against any illicit access, regardless of the media on which it is found, and regardless of the location in which it is stored.
@@ -65,7 +65,7 @@ SME security policy:
 * Physical and environmental security --- Physical security perimeter and Perimeter rules
 * Access control -- Access control policy and Access rights management
 
-## Data destruction
+<h3 class="titre-page">Data destruction</h3>
 Data no longer required by the company, meaning data which has to be deleted, must be destroyed in such a way that its confidentiality is not infringed.
 
 The definitive and secure destruction of data must respect certain security criteria. There are methods which enable disks, or even the computer, to be reused.
@@ -76,7 +76,7 @@ SME security policy
 
 * Physical and environmental security --- Disposal and reuse of equipment
 
-## Transmission of data
+<h3 class="titre-page">Transmission of data</h3>
 The technology used to transmit data must respect confidentiality and data integrity criteria (and more infrequently availability criteria).
 
 The use of cryptographic measures is strongly recommended to protect the data to be transmitted against loss of confidentiality and integrity.
@@ -93,7 +93,7 @@ SOS:
 
 * I am being asked for confidential information
 
-## Data transport
+<h3 class="titre-page">Data transport</h3>
 The technology used to transport data must respect confidentiality, integrity and data availability requirements (especially for originals).
 
 The use of cryptographic measures is strongly recommended, along with physical security to protect transported data against loss of confidentiality, integrity and availability.
@@ -104,14 +104,14 @@ SME security policy:
 * Physical and environmental security --- Off-site equipment security
 * System development and maintenance --- Use of encryption
 
-## Protecting a machine
+<h3 class="titre-page">Protecting a machine</h3>
 The machines used to perform business processes and to process organisation information are known as secondary assets, or support assets (see: classification of assets; risk analysis). To protect business processes, or information, the support assets used to process such information must be protected.
 
 If a computer or a server is compromised, this could obviously lead to a loss of confidentiality, availability and integrity in the processes or information they use.
 
 For secondary assets, risk treatment measures should therefore be introduced to prevent harmful impacts.
 
-## Computers
+<h3 class="titre-page">Computers</h3>
 Most organisations have at least one office computer for the management of the organisation. This computer must be protected against the commonest threats. Basic security measures are strongly advised.
 
 Depending on the criticality of the data being processed, or the business processes supported, the protective measures should naturally be expanded.
@@ -121,7 +121,7 @@ SME security policy:
 * Operational and communications aspects – protection against malware and Data backup
 * access control
 
-## Laptop computers
+<h3 class="titre-page">Laptop computers</h3>
 
 Some organisations also use laptop computers as support assets for business processes or to process certain types of data. These laptop computers are often taken outside the secure office area and carried on private and public transport, and even used in private or public places. They are often connected to networks outside the organisation.
 The potential threats to laptop computers are many, and any organisation wishing to use laptop computers should at least follow basic security measures.
@@ -134,7 +134,7 @@ SME security policy:
 * Classification and monitoring of resources
 * System development and maintenance – Use of encryption
 
-## File servers
+<h3 class="titre-page">File servers</h3>
 Some organisations use file servers to facilitate cooperation between different agents or to increase the level of resilience of stored data. Like other machines used by the organisation, file servers are support assets for business processes. But they often represent the single point of failure for a small or medium-sized company.
 
 Requirements in terms of confidentiality, availability and integrity in file servers are therefore much greater than for other support assets owned by the organisation. It is therefore crucial to apply basic security measures on this type of machine.
@@ -147,7 +147,7 @@ SME security policy:
 * Classification and monitoring of resources
 * Physical and environmental security – Physical security perimeter; Rules within the perimeter; Maintenance and Disposal and reuse of equipment; Electrical equipment safety
 
-## Email servers
+<h3 class="titre-page">Email servers</h3>
 Mail servers are always connected to the Internet. There is a large probability of being exposed to a threat, and is often easy to exploit new vulnerabilities. Securing the mail server requires a degree of care, and sometimes even monitoring on the part of the organisation. Email is often the leading means of communication within a company (integrity) and very often contains files with sensitive content (confidentiality).
 
 Small-scale organisations rarely have mail servers. It is too complex to manage and protect them within small operations.
@@ -160,13 +160,13 @@ SME security policy:
 * Classification and monitoring of resources
 * System development and maintenance – Use of encryption
 
-## Web server
+<h3 class="titre-page">Web server</h3>
 Web servers do not always contain confidential data. Because of this, they are less affected by confidentiality issues. They are, however, supposed to operate constantly (availability) and must be able to withstand potential attacks or infection. Because of this, it is recommended to follow the recommendations for securing web servers.
 
-## Protecting the network
+<h3 class="titre-page">Protecting the network</h3>
 The network is a secondary asset supporting the business processes of the organisation, and transmitting the information processed within this organisation. It plays an essential role, as when compromised it often leads to machines connected to it also being compromised.
 
-## Local (fixed) network
+<h3 class="titre-page">Local (fixed) network</h3>
 Most organisations connect their network, or part of their network, to the Internet. This exposes it to a huge number of potential threats. But the network can also be endangered by threats coming from within the organisation.
 
 The installation of a firewall is an essential protective measure for the network, as it enables certain parts of the network to be partitioned.
@@ -178,7 +178,7 @@ SME security policy:
 * Access control – Connection procedures and Access rights management; Use of external networks and External connections; Separation of networks
 * Physical and environmental security – Physical security perimeter and Perimeter rules
 
-## Wifi network
+<h3 class="titre-page">Wifi network</h3>
 Many organisations set up a wifi network. It presents a number of benefits, but one major downside is that wifi waves travel through the air and are usually also accessible from outside the organisation.
 
 Basic security measures for wifi networks are therefore strongly advised.
@@ -189,7 +189,7 @@ SME security policy:
 * IT systems management – Use of encryption
 * Physical and environmental security – Physical security perimeter and Perimeter rules
 
-## Remote working
+<h3 class="titre-page">Remote working</h3>
 Enabling secure access from outside the organisation can be done in different ways, based on the needs of the employees.
 
 A mail access server is often enough and is easy to set up.
@@ -201,7 +201,7 @@ SME security policy:
 * Access control – Connection procedures and Access rights management; Use of external networks and Separation of networks
 * IT systems management – Use of encryption
 
-## Training and awareness
+<h3 class="titre-page">Training and awareness</h3>
 Training and awareness-raising in relation to the security of information and communications systems is crucial to ensuring that security becomes a reality within our society.
 
 SME security policy:
@@ -212,7 +212,7 @@ Measures:
 
 * Awareness and training
 
-## Getting organised
+<h3 class="titre-page">Getting organised</h3>
 The security of a company in large part depends on its business processes. It is very difficult to apply security rules to a process that hasn’t been designed with security in mind. Because of this, it is easier – and therefore cheaper – to keep security in mind from the very creation of the company structure.
 
 Analyse processes and try to change or eliminate those which are sub-optimal – for example those requiring a password to be shared.
@@ -223,7 +223,7 @@ SME security policy:
 
 * Organisation of security – Attribution of responsibilities and Specialist advice; Access by third-parties and sub-contracting; Independent review of information security; Authorisation procedure for the addition of tools
 
-## Protecting the premises
+<h3 class="titre-page">Protecting the premises</h3>
 Most organisations have their own premises or establishment to host their offices, warehouses, archives and IT rooms. They may therefore limit certain risks arising from threats that are environmental in origin, deliberate and accidental, compromising confidentiality, integrity or availability needs over important or vital assets.
  
 The introduction of secure areas, as well as restricted access to these areas, and therefore to assets found within them, significantly reduces the risk arising from deliberate or accidental threats.
@@ -237,7 +237,7 @@ The more important the asset, the more physical access must be controlled. The o
 
 So a file server containing critical documents for the organisation should not be located in a room with open access. The probability of malicious actions or accidents would be too high. (SMEs: see Aggravated theft and Infiltrating the premises).
 
-## Communications and social networks
+<h3 class="titre-page">Communications and social networks</h3>
 **Social networks** now form a part of our daily life. For companies and organisations, they present previously unheard of opportunities. Many companies have already turned them into an effective **communications and marketing** lever.
 
 Although they present many **benefits**, it is important not to ignore the **risks**, including:
@@ -251,7 +251,7 @@ Some simple measures can be set up to prevent this.
 
 Find out how to develop your presence on social networks without taking any pointless risks: Social networks, applications and web services: to be checked regularly.
 
-## Business trips
+<h3 class="titre-page">Business trips</h3>
 Business data (commercial or strategic data, search results, expertise, etc.) must also be protected during any business trips which may take place.
 
 If laptop computers, removable media or paper media holding this type of data leave the secure enclosure of the company, specific precautions must be taken.

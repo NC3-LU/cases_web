@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Access control policy
+<h3 class="titre-page">Access control policy</h3>
 Access to applications and data (files, databases) that have been classified as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation”.
 
 The right to access each of these resources is granted by the data manager, as defined in Section 2 “Attribution of responsibilities”. It also sets out the type of access to the information: read-only, editing or deletion rights.
@@ -47,7 +47,7 @@ Access rights are created on a technical level by the IT manager.
 
 * authentication
 
-## Access rights management
+<h3 class="titre-page">Access rights management</h3>
 Before creating a personal account for a user, the IT manager ensures that the data manager has given their approval for access to the different user groups, drives, directories and applications. S/he also takes this opportunity to review the group members and their rights.
 
 ### Applying security measures to:
@@ -77,7 +77,7 @@ Before creating a personal account for a user, the IT manager ensures that the d
 
 * authentication
 
-## Password management
+<h3 class="titre-page">Password management</h3>
 
 ### Applying security measures to:
 
@@ -103,7 +103,7 @@ Before creating a personal account for a user, the IT manager ensures that the d
 * authentication
 * passwords
 
-## Use of external networks
+<h3 class="titre-page">Use of external networks</h3>
 Connection to external networks and, in particular, the Internet must take place under the appropriate conditions.
 
 Here are a few possible scenarios:
@@ -148,7 +148,7 @@ Here are a few possible scenarios:
 * company firewall
 * web filter
 
-## External connections
+<h3 class="titre-page">External connections</h3>
 Connections from external networks to the “organisation’s” systems must be restricted to a need-only basis. On such occasions, this connection is preferably made via VPN.
 
 ### Applying security measures to:
@@ -187,7 +187,7 @@ Connections from external networks to the “organisation’s” systems must be
 * company firewall
 * VPN
 
-## Separation of networks
+<h3 class="titre-page">Separation of networks</h3>
 In the case of more complex networks with different security zones, a firewall is used to separate these different networks.
 
 The firewall is configured so that only the authorised flows and users can pass through.
@@ -206,7 +206,7 @@ See also network segmentation
 * computers connected to the Internet
 * laptop computers
 
-## Connection procedures
+<h3 class="titre-page">Connection procedures</h3>
 The home screens of the various systems are configured in such a way as to:
 
 * give the least amount of information possible, and preferably nothing about the system, application or “organisation” until the user has been correctly identified;

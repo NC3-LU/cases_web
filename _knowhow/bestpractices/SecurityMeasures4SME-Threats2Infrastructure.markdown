@@ -10,7 +10,7 @@ toc: true
 ---
 Infrastructure includes all the essential assets and services on which the information system is based, such as the supply of power, communication or processing services. These services are therefore critical to the operation of the information system and exposed to certain threats. The section below describes the most common threats in this area and suggests appropriate protective measures for a small or medium-sized enterprise.
 
-## Fire
+<h3 class="titre-page">Fire</h3>
 A fire can be a totally destructive threat, both to physical media (paper files) and to data stored on electronic devices (loss of availability). The source of this threat may be internal or external, deliberate or accidental. In order to prevent it, the following instructions should be followed:
 
 * Keep a separate premises specifically for IT equipment and for the most sensitive physical devices (Draft and enforce a sectoral policy on physical and environmental security – Physical security  perimeter and Rules within the perimeter)
@@ -24,7 +24,7 @@ A fire can be a totally destructive threat, both to physical media (paper files)
 * Introduce a backup policy, including decentralisation. (Draft and enforce a Sectoral policy on Operational and communication aspects – Backups)
 * The organisation could potentially fall back on a disaster recovery site in downgraded mode based on a business continuity plan (BCP)
 
-## Service interruption
+<h3 class="titre-page">Service interruption</h3>
 Service interruption means the inability of the IT system to provide the desired service and/or the requested data and therefore entails at least temporary loss of availability. There are specific measures you can use to protect against it:
 
 * appropriate sizing of IT equipment (processor, network, storage), in particular for systems that operate in real time, and therefore a previous assessment of requirements (Draft and enforce a Sectoral policy on the classification and control of resources – Classification and responsibilities for resources)
@@ -35,7 +35,7 @@ Service interruption means the inability of the IT system to provide the desired
 * monitoring of the systems’ performances
 * installation of redundant systems
 
-## Denial of service/distributed service
+<h3 class="titre-page">Denial of service/distributed service</h3>
 DoS (Denial of Service) or DDoS (Distributed DoS) attacks cause the IT system to overload, notably blocking web or network services. They are usually the result of a deliberate and malicious act. How can you protect yourself?
 
 * Set up advanced filtering rules for routers and firewalls, segment the network (Draft and enforce a Sectoral policy on Access control – External connections and Network separation).
@@ -43,14 +43,14 @@ DoS (Denial of Service) or DDoS (Distributed DoS) attacks cause the IT system to
 
 Please consult the CIRCL file for more information in case of DDoS attacks: [https://www.circl.lu/pub/dfak/DDoSMitigation/](https://www.circl.lu/pub/dfak/DDoSMitigation/)
 
-## Disrupted transmission of wireless communications
+<h3 class="titre-page">Disrupted transmission of wireless communications</h3>
 Disrupted transmission of wireless (WiFi) communications may be the results of a DoS attack (botnets, for example), or of a radio wave transmission problem (loss of availability). To avoid these problems, make sure that:
 
 * the physical environment does not block communications (e.g. reinforced concrete, lead)
 * the wireless access points are located in places with a lot of traffic, but remain inaccessible (e.g. located high up). (Draft and enforce a Sectoral policy on Physical and environmental security – Physical security perimeter and Rules within the perimeter)
 * the signal given out from the access points is not disturbed by waves from other electromagnetic sources in the surrounding areas (radio antenna, GSM, TV)
 
-## Wireless network tapping
+<h3 class="titre-page">Wireless network tapping</h3>
 Wireless (WiFi) networks do not rely on any physical media. They are transmitted through the air, meaning they can be tapped with a simple passive sensor. This may result in loss of confidentiality for your data. You can avoid this risk by making sure the following security measures are applied:
 
 * communications must be encrypted using a secure protocol (e.g. WPA2 for WiFi) (Draft and enforce a Sectoral policy on systems development and maintenance – Use of encryption)
@@ -60,7 +60,7 @@ Wireless (WiFi) networks do not rely on any physical media. They are transmitted
 
 See also Securing the internal WiFi network and Securing the customer WiFi network.
 
-## Interception of communications
+<h3 class="titre-page">Interception of communications</h3>
 A third party may intercept, corrupt or delete transmitted data (man-in-the-middle attacks) and thereby compromise the confidentiality, integrity or availability of the data. You can protect the transmission of your communications and: 
 
 * put in place the protective measures described in “wireless network tapping”
@@ -71,10 +71,10 @@ A third party may intercept, corrupt or delete transmitted data (man-in-the-midd
 
 Please consult the CIRCL file for more information about secure communication: [https://www.circl.lu/pub/dfak/SecureCommunication/](https://www.circl.lu/pub/dfak/SecureCommunication/)
 
-## Network unavailability
+<h3 class="titre-page">Network unavailability</h3>
 Loss of telecommunications (loss of availability) paralyses IT systems. It is advisable to have access to a redundant source point, if possible with a second telecommunications provider using different connection equipment tested on a regular basis.
 
-## Power cut
+<h3 class="titre-page">Power cut</h3>
 A power cut may cause a loss of availability for the whole IT system. Energy supply is especially vital for organisations that run ‘real-time’ operations. Guard against this threat by having:
 
 * an alarm that sounds whenever a failure is detected in the electricity network
@@ -83,14 +83,14 @@ A power cut may cause a loss of availability for the whole IT system. Energy sup
 * circuit breakers to protect equipment against power surges
 * a power-down procedure for IT equipment (Draft and enforce a Sectoral policy on physical and environmental security – Electrical equipment safety.)
 
-## Discontinuity of service providers
+<h3 class="titre-page">Discontinuity of service providers</h3>
 An entity depends on its providers. Unavailability at service provider level can consequently have serious repercussions on its own operations. It is therefore preferable to provide for:
 
 * availability (SLA service level) in the service agreement. (Draft and enforce a Sectoral policy on Physical and environmental security – Maintenance)
 * service provider redundancy for downgraded modes
 * the provision, by the service provider, of information (procedures, source code, technical documentation) needed to maintain activity
 
-## Infiltrating the premises
+<h3 class="titre-page">Infiltrating the premises</h3>
 A violation of the secure perimeters may have serious consequences on confidentiality, integrity and availability for any organisation. An ill-intentioned person with access to assets within the company could steal, sabotage or make copies of these assets, causing a lot of damage in the process. Ensure that:
 
 * individuals’ identities can be checked on the way into and out of the building. (Draft and enforce a Sectoral policy on Physical and environmental security – Physical security perimeter and Rules within the perimeter)

@@ -8,10 +8,10 @@ short: "The “golden rules” of IT security"
 categories: bestpractice
 toc: true
 ---
-## In brief
+<h3 class="titre-page">In brief</h3>
 Now you can shop and bank from the comfort of your own home, with no need to queue at tills and counters. E-commerce and online banking are making life much simpler. If comfort and security are what you’re looking for, you need look no further: Let CASES show you how! Nowadays, secure e-commerce is available to everyone thanks to the simple guidelines, fact sheets, “step by step” procedures and comprehensive case files offered by CASES. To assess your knowledge at the start or end of your training session, all you need to do is take the BEE PASS+ [https://beepassplus.bee-secure.lu/](https://beepassplus.bee-secure.lu/) quiz on online banking / e-commerce.
 
-## The “golden rules” of IT security
+<h3 class="titre-page">The “golden rules” of IT security</h3>
 
 To keep yourself safe online, make sure you follow the “golden rules” below:
 
@@ -48,7 +48,7 @@ Your software contains a large number of security flaws. They are corrected over
 * Useful: Secunia PSI (for non-professional use only)
 * Patches
 
-## Rules specific to online banking/e-commerce security
+<h3 class="titre-page">Rules specific to online banking/e-commerce security</h3>
 Before logging in to online services, it is very important to read about and apply good habits:
 
 ### Emails: beware of appearances

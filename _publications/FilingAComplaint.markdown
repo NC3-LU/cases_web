@@ -8,12 +8,12 @@ short: "If you have been the victim of a cyber attack, you may file a complaint.
 categories: bestpractice
 toc: true
 ---
-## In brief
+<h3 class="titre-page">In brief</h3>
 The victim of a computer attack can file a complaint against the attacker, even if the latter is not known.
 
 The first thing the victim must do is gather evidence for the judicial proceedings that s/he intends to pursue for the attack of which s/he was the target. If the victim uses a specialist company to repair the damage (e.g. to recover destroyed files), a report on this work could prove invaluable during the court proceedings. It should therefore be as detailed as possible.
 
-## Proof of a computer attack
+<h3 class="titre-page">Proof of a computer attack</h3>
 Evidence of a computer attack includes the items (logs, damage) that document the illegal actions of the attacker. For them to be valid in court, these traces must be recovered in a specific way. In Luxembourg, the victim can inform the Grand Ducal Police ('New Technologies' service).  S/he can also make a "voluntary surrender" of the evidence to CIRCL, a government initiative dedicated to incident responses.
 
 As the traces left on the hard disk or in the log files of the infected machine are often minimal, the machine's memory must be backed up. When you notice an attack on your computer tool, leave it running and ask the CIRCL to help you perform the backup. This is called a "voluntary surrender" of information, which may subsequently be admissible in court.
@@ -24,7 +24,7 @@ After collecting evidence, the victim may consider taking legal action. S/he has
 2. bringing a civil action seeking compensation for the damage suffered;
 3. taking a private prosecution against the perpetrators themselves (if known).
 
-## Making a complaint
+<h3 class="titre-page">Making a complaint</h3>
 To make a complaint, it is sufficient for the victim to go to a police station or to send a letter to the state prosecutor informing the latter of the place where the offence was committed.
 
 >For the court district of Luxembourg (cantons of Luxembourg, Capellen, Esch, Grevenmacher, Mersch and Remich):
@@ -39,7 +39,7 @@ To make a complaint, it is sufficient for the victim to go to a police station o
     B.P. 164
     L-9202 Diekirch
 
-## Drafting a complaint
+<h3 class="titre-page">Drafting a complaint</h3>
 The complaint must:
 
 1. clearly state the facts in chronological order;
@@ -52,7 +52,7 @@ Nor is a legal appraisal of the facts required, i.e. detailing the offences comm
 
 Finally, to make a complaint it is not necessary to know the identity of the perpetrator of the attack, or even to have suspicions about any particular person. Under the principle of discretionary prosecution, it is then up to the public prosecutor to decide whether an investigation and prosecution should be initiated. The Public Prosecutor may decide not to pursue the case.
 
-## Civil action
+<h3 class="titre-page">Civil action</h3>
 A civil action is a formal act by which the victim manifests their intention to claim compensation for damages suffered in connection with an offence. This may be the case, for example, when a hacker has been able to destroy data on a company's computer system and the company has been harmed by it. A claimant who alleges harm due to a computer attack and wishes to get the authorities to investigate the acts of which they have been the victim may file a civil action.
 
 Filing a civil action differs from making a complaint in that:
@@ -63,7 +63,7 @@ Filing a civil action differs from making a complaint in that:
 
 > Article 56 of the Code of Criminal Investigation: A civil action must be filed with the investigating magistrate.
 
-## Private prosecution
+<h3 class="titre-page">Private prosecution</h3>
 Private prosecution is the procedure whereby the victim triggers the prosecution and directly petitions the trial court. In a private prosecution, the victim pursues the alleged perpetrator of an offence in court without any inquiry or preliminary investigation by the Public Prosecutor or the investigating magistrate. An important practical consequence of the lack of investigation into the case is that the claimant must bring all the evidence to the court. It is therefore important to prepare a complete and convincing case and this can be complex.
 
 Obviously, private prosecution is only possible when the alleged perpetrator of the attack is known. It is important to note that a private prosecution is no longer possible when a civil action has already been filed.

@@ -11,7 +11,7 @@ toc: true
 
 Most people receive greetings cards over the winter period – many of them by email. Although many of these electronic greetings cards are perfectly inoffensive, others could be genuine risks to the private data and computers of their recipients. Remember these safety tips when you get an electronic greetings card and enjoy peace of mind over the festive period.
 
-## Electronic greetings cards
+<h3 class="titre-page">Electronic greetings cards</h3>
 These are sent by either by “traditional” email or by another messaging system, such as private messaging on forums, for example, or by websites specialising in the design and sending of electronic greetings cards.
 
 There are several types of electronic cards:
@@ -20,7 +20,7 @@ There are several types of electronic cards:
 * Greetings cards directly in the message – these are directly visible by opening the message (no user interaction necessary to execute a file),
 * Greetings cards on a website accessed via a link in a message – the user has to click on a link which redirects them to a website to view the card. It is possible that, in order to view the message, the user has to enter the identifiers contained in the message they received, but this is not always required, as the specific URL for the greetings card would be difficult to guess (interaction necessary with the user to execute the file).
 
-## Sending greetings cards
+<h3 class="titre-page">Sending greetings cards</h3>
 If you want to send electronic greetings, there are a few rules you should follow so that you don’t end up getting conned.
 
 #### Site reliability
@@ -31,7 +31,7 @@ Firstly, if you want to subscribe to a pay service, look out for site security. 
 
 In case of any doubt, please read through the page: e-commerce – best practices
 
-## Receiving greetings cards
+<h3 class="titre-page">Receiving greetings cards</h3>
 As with all emails, there are a few rules that should be respected when you receive virtual greetings cards. Even if someone you know sends you a greetings card with the best of intentions, the card could contain something more than good wishes.
 
 #### Beware of phishing

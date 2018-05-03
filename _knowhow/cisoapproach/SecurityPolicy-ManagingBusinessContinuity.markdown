@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Operational continuity
+<h3 class="titre-page">Operational continuity</h3>
 The operational continuity of the organisation implies that resources deemed to be important or vital (see Classification and control of resources) should be in good working order under all circumstances.
 
 Depending on their type, these resources may suffer the following damage:

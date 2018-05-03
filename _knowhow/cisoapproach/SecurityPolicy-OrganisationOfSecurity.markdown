@@ -8,10 +8,10 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Attribution of responsibilities
+<h3 class="titre-page">Attribution of responsibilities</h3>
 As part of the security of IT systems and networks, all responsibilities must be clearly defined in the organisation. The board of management appoints the officers, along with their areas of competence. Each officer looks after the implementation of security policies within their own area. These officers also take part in the annual review.
 
-## Definition of roles
+<h3 class="titre-page">Definition of roles</h3>
 ### Board of management:
 
 * approves the general security policy, strategies and directives
@@ -37,7 +37,7 @@ The respective managers of the organisation’s assets should:
 * ensure that suitable security measures are implemented, applied and periodically verified
 * take part in promoting awareness among users.
 
-## Security coordination
+<h3 class="titre-page">Security coordination</h3>
 The CS and CSSI positions specifically relate to security management for the organisation. The CS and the CSSI draw up, organise and maintain security. They are the coordinators and the in-house contacts in this area.
 
 They are permanent members of the Security Committee and it is their responsibility to treat all security incidents with the requisite level of care.
@@ -48,12 +48,12 @@ They are invited to management discussions when opinions in the field of securit
 
 They also represent the main contact point for external authorities and for various specialist groups.
 
-## Authorising the addition of tools
+<h3 class="titre-page">Authorising the addition of tools</h3>
 The security policy should define a procedure to be followed for the addition of any information processing tool.
 
 The addition of new hardware or software (SMEs: see Use of unapproved software and Insertion or removal of hardware and Invalid or non-existent licence and Misuse of organisation's resources) within the company must be approved by the relevant officer (see definition of responsibilities in point 1 of this chapter). The installation of software downloaded from the Internet falls into this category. This procedure should also be applied for the use of private tools within “the organisation”, especially if they are connected to a network.
 
-## Specialist advice
+<h3 class="titre-page">Specialist advice</h3>
 “The organisation” should be in contact with a IT technology security specialist. This will be the favoured contact for all aspects of IT security. They will especially play a role in:
 
 * the definition of security policies and their annual review;
@@ -64,12 +64,12 @@ The addition of new hardware or software (SMEs: see Use of unapproved software a
 
 The director appoints a specialist company to take charge of this activity.
 
-## Independent review of information security
+<h3 class="titre-page">Independent review of information security</h3>
 The organisation can decide to appoint an external specialist to conduct an annual review of the security policy. The aim of this review is to check that the policies are suitable to the business of “the organisation” and that they are properly implemented on the ground.
 
 > THIS POINT IS OPTIONAL
 
-## Third party access and outsourcing
+<h3 class="titre-page">Third party access and outsourcing</h3>
 Access – be it physical or logical (access management) – to the resources and information belonging to “the organisation” by third parties should be granted within a strict framework. Their access must be formally approved by a manager. The relevant parties should work under the direct supervision of a member of “the organisation”, or sign the document given in appendix: “Security compliance agreement for sub-contractors of “the organisation”” (SMEs: see Infiltrating the premises; Aggravated theft; Device recovery; Insertion or removal of hardware).
 
 In any event, the service agreements relating to the sensitive resources of “the organisation” must include provisions relating to the protection of these resources.

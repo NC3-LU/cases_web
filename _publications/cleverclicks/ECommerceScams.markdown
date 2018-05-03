@@ -8,7 +8,7 @@ short: "The most widespread scams and advices to avoid them"
 categories: scams
 toc: true
 ---
-## In brief
+<h3 class="titre-page">In brief</h3>
 
 E-commerce is convenient and fast. The well-known platforms are growing rapidly while still leaving a small space for new platforms to develop. However, the Internet seems to be a lucrative market for a growing number of criminals.          
 
@@ -21,7 +21,7 @@ Classic online scams include the following:     
 
 Each of these basic situations can give rise to different scenarios. The following are among the most common:
 
-## 1. Fake shops: the goods never arrive
+<h3 class="titre-page">1. Fake shops: the goods never arrive</h3>
 
 There are online shops that look very professional with a perfectly good website but offering fictional products. Likewise, some scammers publish real estate ads or ads for cars at unbeatable prices. But, in reality, the goods are not available.
 
@@ -52,7 +52,7 @@ This type of scam uses a third party as the "logistics partner". This "partner" 
 ##### False logos, labels and evaluations
 Quality labels, professional photos of products, well-known company logos, positive comments ... A host of signs of trust that encourage customers to buy, but are sometimes malicious or falsified.
 
-## 2. Real shops – False products
+<h3 class="titre-page">2. Real shops – False products</h3>
 Long distances and the display of virtual products allow fraudsters to use the Internet to sell fake products. A professional photo of the item can make the description even more credible. But what you see is not necessarily what you get.
 
 **Result:** Loss of money, security risks, goods blocked at customs.
@@ -67,7 +67,7 @@ The online market is flooded with counterfeit products of famous brands. These p
 ##### Falsified or absent CE labelling
 For an order from abroad, confirm that the product has a valid CE label. This is particularly important for multimedia devices, electronics, toys, telecommunications accessories, light bulbs, etc. Absent or false CE labelling is illegal and is a major safety risk. Customs will seize imports where CE marking is absent.
 
-## 3. Trustworthy shops... But with a catch.
+<h3 class="titre-page">3. Trustworthy shops... But with a catch.</h3>
 
 Legitimate online stores can also be very expensive for the user, even if they do not engage in scams.
 
@@ -92,7 +92,7 @@ Irritating consequence for the buyer: extremely long delivery time ...
 **Compromised shops**
 E-commerce sites are very popular with online hackers. When an e-commerce site is compromised, customer data may be stolen, including logins, passwords, and credit card numbers. Vendors and customers don't realise until it is too late.
 
-## What if this happens?
+<h3 class="titre-page">What if this happens?</h3>
 * If you have been the victim of fraud through an online shop in Luxembourg, contact ULC (Union of Consumers of Luxembourg).
 * If you have been the victim of fraud through an online shop in the EU, contact the CEC (European Consumer Centre).
 

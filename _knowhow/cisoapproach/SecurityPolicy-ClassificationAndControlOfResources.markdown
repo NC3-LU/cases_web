@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Classification and responsibility for resources
+<h3 class="titre-page">Classification and responsibility for resources</h3>
 An inventory of the “organisation’s” vital and important resources should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The classification of assets is an extremely important task.
 
 The level of importance of the resource for the company is also specified:
@@ -58,7 +58,7 @@ Elements considered as "**important**" are those that could cause serious conseq
 
 * classification
 
-## Inventory of assets
+<h3 class="titre-page">Inventory of assets</h3>
 
 An inventory of the “organisation’s” major resources (assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. Each asset should be classified according to confidentiality, integrity and availability requirements.
 

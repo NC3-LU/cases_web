@@ -8,7 +8,7 @@ short: "A few cases with loss of either data or moneym and how to protect oursel
 categories: scams
 toc: true
 ---
-## In brief
+<h3 class="titre-page">In brief</h3>
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
 The best known smartphone risks can be assigned to two categories:
@@ -18,7 +18,7 @@ The best known smartphone risks can be assigned to two categories:
 
 The following cases are described, with loss of either data or money as a consequence.
 
-## 1. Result = loss of data
+<h3 class="titre-page">1. Result = loss of data</h3>
 Data such as personal information, business data, contact information, photos, login information and passwords are all sought by fraudsters and can cause enormous damage if they get their hands on it.
 
 ##### Theft / loss of unsecured data
@@ -58,7 +58,7 @@ Prudence is particularly required for QR codes added later on their media. Only 
 * Do not open files sent to you without thinking, even if they come from a known sender
 * Do not be fooled by [social engineering](-)
 
-## 2. Result = loss of money
+<h3 class="titre-page">2. Result = loss of money</h3>
 Since the advent of mobile phones in our society there are methods at the limit of legality which make it possible to pick the pockets of users. These methods are now increasingly professional and malicious.
 
 ##### Subscription traps, premium SMS, premium-rate numbers

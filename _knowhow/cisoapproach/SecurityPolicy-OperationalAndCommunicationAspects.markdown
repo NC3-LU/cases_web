@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Documentation of procedures
+<h3 class="titre-page">Documentation of procedures</h3>
 All operations concerning the processing of information must be documented. This applies to planned processing (batches), system shut-downs and restarts and data backup procedures.
 
 In addition to the everyday operations to be carried out, these procedures must specify:
@@ -33,7 +33,7 @@ The attached section is optional, but important for organisations that use serve
 * Organisation of security
   * Attribution of responsibilities
 
-## Separation of environments
+<h3 class="titre-page">Separation of environments</h3>
 It is preferable to separate devices that deal with software development activities or test activities from those on which products in production are installed.
 
 This separation aims to limit the risk of modifications to actual data.
@@ -54,7 +54,7 @@ In particular if critical data (from the point of view of confidentiality), trad
   * Protection of operational data
   * Personal data protection
 
-## Outsourcing of resource management
+<h3 class="titre-page">Outsourcing of resource management</h3>
 With regard to resources managed by external companies, it is important to first assess the organisation’s critical security points and indicate the specific management measures in the service agreement.
 
 Here, we talk about “outsourcing” or “facilities management”.
@@ -62,7 +62,7 @@ Here, we talk about “outsourcing” or “facilities management”.
 ### Applying security measures to:
 * Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see External connections).
 
-## Protection against malware
+<h3 class="titre-page">Protection against malware</h3>
 An attack by a virus or other malicious software is one of the most likely risks for any computer user. They can infiltrate the “organisation” through removable devices, such as, in particular, CD-ROMs,
 
 The “organisation’s” computers and servers must be equipped with antivirus software. The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see security measures for file servers and security measures for email servers).
@@ -119,7 +119,7 @@ Incoming email verification tools deal not only with viruses, but can also elimi
 * Backups
 * Cryptography
 
-## Data backups
+<h3 class="titre-page">Data backups</h3>
 It is essential for an organisation to back up their data and their specific, or specifically configured, software. A disaster (fire, flood) or, more commonly, a hard drive problem could easily destroy all of this information. (SMEs: see Fire and Failure of IT or communications equipment and Hardware damaged during transport).
 
 In the event of a large disaster, equipment that has been destroyed can usually be replaced; however, it is often impossible to reproduce lost data, which may lead to a company’s closure.
@@ -163,7 +163,7 @@ Data backups can also be useful in the event of human error (SMEs: see Human err
 
 * Data backups
 
-## Device security during transport
+<h3 class="titre-page">Device security during transport</h3>
 When transporting or sending devices containing the “organisation’s” data, it is important to take the following measures into account, depending on the level of importance of the data (SMEs: see Hardware damaged during transport):
 
 * use specific packaging (which leaves traces of forced opening)
@@ -187,7 +187,7 @@ When transporting or sending devices containing the “organisation’s” data,
 ### Technical measures:
 * encryption
 
-## Email
+<h3 class="titre-page">Email</h3>
 Email that is transmitted across the Internet can in no way be considered a secure means of communication. This is because the email may be accidentally sent to the wrong recipients, or be edited or read by a third party. As a result, any operation for which the “organisation” is responsible would be better confirmed by an additional means (telephone, letter, fax, etc.). This would prevent recipient error or changes to prices or quantities on orders, for example. (good email practices)
 
 Avoid sending confidential information by email. If applicable, use an approved encryption tool with your correspondents.

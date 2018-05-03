@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Encryption
+<h3 class="titre-page">Encryption</h3>
 Encryption consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during email communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see Interception of communications).
 
 ### Applying security measures to:
@@ -43,7 +43,7 @@ Encryption consists of making data illegible to an unauthorised third party and 
 
 * encryption
 
-## Implementation
+<h3 class="titre-page">Implementation</h3>
 Some examples of free encryption tools:
 
 ### VeraCrypt
@@ -54,7 +54,7 @@ Some examples of free encryption tools:
 
 It is a symmetrical encryption tool like truecrypt, so you need to exchange the encryption key securely with the recipient. Use a channel that is safe but different to the one used for the transfer of data. You can, for example, send the key by post, fax or SMS, or hand it to them in person.
 
-## Deposit of encryption keys
+<h3 class="titre-page">Deposit of encryption keys</h3>
 
 ### Responsibility
 The CSSI and the key administrator are responsible for the encryption process.
@@ -98,7 +98,7 @@ On written request by the author and validated by the manager of the information
 
 The inventory is updated, keeping the destruction request as proof of legitimisation.
 
-## Electronic signatures
+<h3 class="titre-page">Electronic signatures</h3>
 An electronic signature is a method used to guarantee the authenticity of the source of a message (sender), and the integrity of its contents.
 
 This technology should be implemented during dialogue via email with external entities which may represent a commitment for the “organisation”. It is the responsibility of the IT manager to implement this technology for users.
@@ -124,7 +124,7 @@ Electronic signatures can be affixed to documents and to emails. The signature g
 
 * encryption
 
-## Managing technical vulnerabilities
+<h3 class="titre-page">Managing technical vulnerabilities</h3>
 All types of organisation need to monitor risks relating to the exploitation of technical vulnerabilities which have been subject to publication.
 
 To do this, they should introduce an effective and systematic management of technical vulnerabilities for all their operating systems and network equipment. This is done through the application of corrective or other tools designed to prevent the exploitation of technical vulnerabilities. Monitoring the measures undertaken will enable their actual effectiveness to be gauged.

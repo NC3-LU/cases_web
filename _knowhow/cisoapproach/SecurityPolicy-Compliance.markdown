@@ -8,13 +8,13 @@ short:
 categories: f-ciso
 toc: true
 ---
-## Comply with legislation
+<h3 class="titre-page">Comply with legislation</h3>
 Non-compliance with information technology legislation may put the *organisation* in a delicate situation (impacts) with regard to its customers (brand image). It can also result in financial (fines) or penal (liability of legal persons) consequences. The *organisation* must therefore respect the law, notably with regard to:
 
 * intellectual property and copyright
 * protection of mandatory operational data and personal data. (SMEs: see Regulatory requirements and Lack of traceability of operations).
 
-## Intellectual property
+<h3 class="titre-page">Intellectual property</h3>
 The *organisation* must also ensure the respect of copyright and licences. Sanctions for non-compliance with these laws may threaten the *organisation* (SMEs: see Invalid or non-existent licence). This particularly applies to copyright on original literary and artistic works, which includes databases and computer programs, as set out in the Law of 18 April 2001.
 
 The IT team is expected to check the requirements for both programs used and data owned by the organisation. In case of doubt, they can consult Luxembourg law at http://www.eco.public.lu/dpi (in French), or contact a legal expert.
@@ -27,7 +27,7 @@ The basic principles on this matter are as follows:
 * patents must be respected;
 * brands, designs and models must be respected;
 
-## Protection of operational data
+<h3 class="titre-page">Protection of operational data</h3>
 Depending on the nature of the data processed, the *organisation* is bound by the Law of 2 August 2002 to implement appropriate measures to prevent any unauthorised person from accessing the data processing facilities (see legal aspects).
 
 Data corresponding to commercial activity must be kept, in one form or another, for ten years from the end of the financial year to which it applies.
@@ -63,7 +63,7 @@ Data corresponding to commercial activity must be kept, in one form or another, 
 * Encryption
 * Backups
 
-## Personal data protection
+<h3 class="titre-page">Personal data protection</h3>
 Any file or database created must comply with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data, as well as the new GDPR legislation. The same applies to processing involving both newly created data and pre-existing data. (SMEs: see Unauthorised processing of personal data – Employee monitoring)
 
 In order to work within the confines of the laws, the IT manager and the legal manager, having obtained the applicable texts from the National Commission for Data Protection (hereinafter the *Commission*) ensure the adequacy of the structure, notably in the following areas:
