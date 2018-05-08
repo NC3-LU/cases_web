@@ -8,7 +8,7 @@ short: "A few cases with loss of either data or moneym and how to protect oursel
 categories: scams
 toc: true
 ---
-<h3 class="titre-page">In brief</h3>
+<h3 class="titre-page" id="in-brief">In brief</h3>
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
 The best known smartphone risks can be assigned to two categories:
@@ -18,19 +18,19 @@ The best known smartphone risks can be assigned to two categories:
 
 The following cases are described, with loss of either data or money as a consequence.
 
-<h3 class="titre-page">1. Result = loss of data</h3>
+<h3 class="titre-page" id="1-result-loss-of-data">1. Result = loss of data</h3>
 Data such as personal information, business data, contact information, photos, login information and passwords are all sought by fraudsters and can cause enormous damage if they get their hands on it.
 
 ##### Theft / loss of unsecured data
-If you lose your phone or if it is [stolen](-) and if you have not secured the data it holds, it will all be available to whoever finds or stole your phone.
+If you lose your phone or if it is [stolen](/knowhow/sos/SOS-StolenHardware.html) and if you have not secured the data it holds, it will all be available to whoever finds or stole your phone.
 
-Make regular [backups](-) of your data. [Encrypt](-) all sensitive data on your smartphone and set up a screen lock. In this way, you save a little time and you can lock your device remotely or delete content before an unauthorised person can access it.
+Make regular [backups](/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html) of your data. [Encrypt](-) all sensitive data on your smartphone and set up a screen lock. In this way, you save a little time and you can lock your device remotely or delete content before an unauthorised person can access it.
 
 ##### Lack of precautions during archiving
 Do you leave documents on a server or on the cloud? By using data encryption and strong [passwords](-), you can prevent them from falling into the wrong hands.
 
 ##### Failure to clean before disposal
-When you [get rid](-)  of your telephone, you must first delete all the data it holds. Even using the "Restore Factory Settings" function there is a residual risk that data can be retrieved. It is therefore advisable to encrypt all data before deletion. For even better protection, irrelevant data can be entered on the device after deletion of the encrypted data, followed by a second restore factory settings.
+When you [get rid](/knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.html)  of your telephone, you must first delete all the data it holds. Even using the "Restore Factory Settings" function there is a residual risk that data can be retrieved. It is therefore advisable to encrypt all data before deletion. For even better protection, irrelevant data can be entered on the device after deletion of the encrypted data, followed by a second restore factory settings.
 
 ##### Applications that access sensitive data
 Special attention should be paid to data accessed by free applications. Ask yourself whether access to the data is justified by the benefits that the application provides.
@@ -58,7 +58,7 @@ Prudence is particularly required for QR codes added later on their media. Only 
 * Do not open files sent to you without thinking, even if they come from a known sender
 * Do not be fooled by [social engineering](-)
 
-<h3 class="titre-page">2. Result = loss of money</h3>
+<h3 class="titre-page" id="2-resuly-loss-of-money">2. Result = loss of money</h3>
 Since the advent of mobile phones in our society there are methods at the limit of legality which make it possible to pick the pockets of users. These methods are now increasingly professional and malicious.
 
 ##### Subscription traps, premium SMS, premium-rate numbers

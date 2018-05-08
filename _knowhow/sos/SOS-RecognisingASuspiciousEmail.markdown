@@ -36,7 +36,7 @@ If the email does not address you by name and it implies urgency, it is very pro
 If the email does not address you by name and it contains a link, it is very probably trying to lure you to a malicious website (phishing or infection by malicious code exploiting technical vulnerabilities). Whatever you do, do not click on that link. (See: Email – best practices).
 
 <h3 class="titre-page">Email with attachment</h3>
-If the email does not address you by name and it includes an attachment, it is very probably an attempt to infect your machine with malware. Any type of file could include malicious code. Whatever you do, do not open the file. A lot of social engineering type attacks operate based on infected files attached to emails exploiting human vulnerabilities. (See: Email – best practices)
+If the email does not address you by name and it includes an attachment, it is very probably an attempt to infect your machine with malware. Any type of file could include malicious code. Whatever you do, do not open the file. A lot of social engineering type attacks operate based on infected files attached to emails exploiting human vulnerabilities. ([See: Email – best practices](-))
 
 <h3 class="titre-page">Personal email</h3>
 Even if the email is properly addressed to you, still take care and check the following elements:

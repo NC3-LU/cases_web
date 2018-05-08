@@ -1,10 +1,3 @@
-<!--<header class="site-header" role="banner">
-
-  <div class="wrapper">-->
-
-
-
-
     <div class="row">
       <div class="well--blue text-center ">
         <div class="container">
@@ -27,6 +20,7 @@
         <nav>
           <ul class="menu">
 
+
             <div class="navbar-header" style="padding-left: 30px;">
 
 
@@ -41,29 +35,17 @@
                </ul>
              </li>
 
-             <!--<li><a href="{{ _posts/index.md | relative_url }}">Articles</a></li>-->
-<!--
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                   {% for publication in site.publications limit:8 %}
-                   {% if publication.menutitle %}
-                   <li class="test"><a href="{{ publication.url | relative_url }}">{{ publication.menutitle | escape }}</a></li>
-                   {% endif %}
-                   {% endfor %}
-              </ul>
-            </li>
-          -->
+             
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
             <ul class="dropdown-menu">
              {% for category in site.knowhow %}
              {% if category.menutitle %}
-             <li class="test"><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
+             <li><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
              {% endif %}
              {% endfor %}
            </ul>
-         </li>
+          </li>
 
          {% for path in page_paths %}
          {% assign my_page = site.pages | where: "path", path | first %}
@@ -71,7 +53,8 @@
          <li><a href="{{ my_page.url | relative_url }}">{{ my_page.menutitle | escape }}</a></li>
          {% endif %}
          {% endfor %}
-         <li class="test"><a href="{% link contact.md %}">Contact</a></li>
+         <li><a href="/articles-list/index.html">Articles</a></li>
+         <li><a href="{% link contact.md %}">Contact</a></li>
 
        </ul>
      </div>

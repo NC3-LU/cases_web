@@ -37,7 +37,7 @@ The **impacts** are also often specific to different contexts. These can even be
 
 The **pooling** of this strategy not only makes risk analyses **more objective and accurate, but also accessible to non-experts**. Pooling also has the knock-on effect of substantially reducing costs, as it enables the implementation of effective and efficient security measures, thereby minimising the budget invested in security while simultaneously ensuring an acceptable level of security.
 
-Pooling also lowers the **legal risk** (see [legal aspects](-)) for different organisations, as this strategy proves that the organisation manages security with due diligence, using state-of-the-art methods and tools as required by the Law of 2 August 2002 on data privacy.
+Pooling also lowers the **legal risk** (see [legal aspects](/knowhow/BestPractices-ProtectingYourself.html#common-methods)) for different organisations, as this strategy proves that the organisation manages security with due diligence, using state-of-the-art methods and tools as required by the Law of 2 August 2002 on data privacy.
 
 This risk analysis strategy has to be more than a “one shot” measure. To be effective, the **development of threats**, **vulnerabilities** and **impacts** have to be taken into consideration. The risk analysis has to be repeated if any of these parameters change.
 

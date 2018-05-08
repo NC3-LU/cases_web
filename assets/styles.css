@@ -8,13 +8,59 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 
 /******* Projet Final*****/
+/*******Highlighted text Homepage**************************/
+.txt-hightlight {
+	background-color: #f2f3f4;
+	padding: 5px;
+}
+/**********************************************************/
+/******Display two columns for the page articles-list******/
+.two-col-display {
+	-webkit-column-count: 2;
+	 -moz-column-count: 2;
+	  column-count: 2;
+	  margin-top: 50px;
+	  -webkit-column-gap: 4em;
+	  -moz-column-gap: 4em;
+	  column-gap: 4em;
+}
+/**********************************************************/
 
+/********Display a border-left for the event :hover********/;
+.underline-title {
+	-webkit-transition: ease-out 0.1s;
+	-o-transition: ease-out 0.1s;
+	-moz-transition: ease-out 0.1s;
+	transition: ease-out 0.1s;
+}
 
+.underline-title:hover {
+	padding-left: 5px;
+	border-left: 3px solid rgb(0,114,184);
+	-webkit-transition: ease-out 0.1s;
+	-o-transition: ease-out 0.1s;
+	-moz-transition: ease-out 0.1s;
+	transition: ease-out 0.1s;
+}
+/*********************************************************/
+
+/*****Defines the height and width of the footer's logo*/
 .logo-footer {
 	height: 32px;
 	width: 32px;
 }
 
+/*********************************************************/
+
+/*******Layout download's page****************************/
+
+.title-border-left {
+		border-left: solid 3px rgb(0,114,184);
+		padding-left: 5px;
+}
+
+
+/****Display a margin-left if the cursor hovers the item**/
 .list-select {
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -22,6 +68,7 @@ Template Name: cases.lu
 	transition: all 0.3s;
 	outline: none;
 }
+
 .list-select:hover {
 	margin-left: 10px;
 	-webkit-transition: ease 0.3s;
@@ -31,29 +78,26 @@ Template Name: cases.lu
 	outline: none;
 }
 
-
+/***********************************************************/
 
 .marg-top {margin-top: 50px;}
 
-/*------------------------*/
-
-
 
 /*****Color of the list in the TOC****/
-.section-nav > .toc-entry > a {text-decoration: underline; font-style: italic;
+.section-nav > .toc-entry > a {
+	text-decoration: underline;
+	font-style: italic;
 	color: #565656;}
-
-
 	/*-----CAROUSEL--------------------------*/
 
 	.carousel-text {
-			height: 200px;
-			line-height: 1cm;
-			margin-top: 40px;
-			font-family: 'Lato', tahoma;
-			font-weight: 600;
-			font-size: 1.2em;
-			font-style: italic;
+		height: 200px;
+		line-height: 1cm;
+		margin-top: 40px;
+		font-family: 'Lato', tahoma;
+		font-weight: 600;
+		font-size: 1.2em;
+		font-style: italic;
 	}
 
 	.carousel-control.left, .carousel-control.right {
@@ -70,15 +114,12 @@ Template Name: cases.lu
 
 	}
 
-
 	.carousel .carousel-control {
 		visibility: hidden;
 	}
 	.carousel:hover .carousel-control {
 		visibility: visible;
 	}
-
-
 
 	.btn-carousel{ text-decoration: none;
 		-moz-border-radius: 30px;
@@ -128,9 +169,6 @@ Template Name: cases.lu
 		height: 150px;
 		width: 25%;
 	}
-
-
-
 
 	.data-box {
 		width: 25%;
@@ -200,19 +238,16 @@ Template Name: cases.lu
 
 	/*---------------------------------------------------*/
 
+	/*******TOC position "sticky", it keeps the TOC on top of the page when we scroll*****/
 	.blocantiscroll
 	{
 		position: sticky;
 		top: 0px;
 		background: none;
 		overflow-y: auto;
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 
 	}
-
-
-
-	/*******TOC position "sticky", it keeps the TOC on top of the page when we scroll*****/
 
 	.blocantiscroll > h2 {text-align: center;}
 
@@ -276,6 +311,11 @@ Template Name: cases.lu
 		color: #0087e0;
 		text-decoration: none;
 	}
+
+	a:focus {
+		text-decoration: none;
+		outline: 0;
+	}
 	hr {
 		margin: 0;
 	}
@@ -285,8 +325,16 @@ Template Name: cases.lu
 
 
 	/******Bullet of the list, except for the navbar******/
+
 	li:not(.navbar) { display : list-item;
 		list-style-image : url(/assets/img/list-4.png);}
+
+		/*****Bullets of the pagination in articles***********/
+
+		nav > ul > .page-item {
+			list-style: none;
+			display: inline;
+		}
 
 		/*****************************************************/
 		.classification {
@@ -486,7 +534,7 @@ Template Name: cases.lu
 			color: rgb(11, 66, 115);
 		}
 
-
+/**************************Navbar*************************************************/
 		/* Dropdown menu background color*/
 
 		.nav-navbar > ul > .dropdown {     background-color: #e7e7e7;  }
@@ -497,18 +545,21 @@ Template Name: cases.lu
 
 		/*Menu font color*/
 
-		.navbar-right > li > a{	color: #FFFFFF;	font-size: 120%;	}
 
-		.navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black; background-color: rgb(0,114,184);}
+
+		.navbar-right > li > a{	color: #FFFFFF;	font-size: 120%; 	}
+
+		.navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black; 
+			background-color: rgb(0,114,184); }
 
 		/*Header text font */
 
-		.navbar-header > div > p{text-align: center; margin: 30px 0 0 30px; }
+		.navbar-header > div > p{text-align: center; margin: 30px 0 0 30px;}
 
 
 
 
-
+/********************************************************************************/
 		/*--------------------------------------------------------------------------------*/
 		/*	Body/Main */
 		/*--------------------------------------------------------------------------------*/
@@ -552,22 +603,18 @@ Template Name: cases.lu
 		.titre-page{color: rgb(0,114,184); border-bottom: 3px solid darkblue;}
 		/*--------------------------------------------------------------------------------*/
 
-		/*----Page--Publications----------------------------------------------------------*/
-		.titre-article{color: rgb(0,114,184); border: 10px solid rgb(0,114,184);}
 
 		/*----Titre-Publications-Home-----------------------------------------------------*/
 
 		.em{background-color: rgb(239,239,239); padding: 5px; }
 
-		/*--------------------------------------------------------------------------------*/
+		/*--------------------------------------------------------------------------------*/ 
 
 		.description-article{
-  	/*border: 3px solid rgb(0,114,184);
-  	padding: 1% 1% 1% 1%;*/
-  	font-style: italic;
-  	font-size: 1.4em;
-  	margin-top: 30px;
-  }
+	  	font-style: italic;
+	  	font-size: 1.4em;
+	  	margin-left: 25%;
+	  }
   /*	Header */
   /*--------------------------------------------------------------------------------*/
 
@@ -678,10 +725,18 @@ Template Name: cases.lu
   	display: block;
   	padding: 15px 5px;
   	color: #ffffff;
+  	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
   }
   .menu li a:hover, .menu li:hover > a {
   	color: #ffff1a;
   	font-style: italic;
+	-webkit-transition: ease 0.3s;
+	-o-transition: ease 0.3s;
+	-moz-transition: ease 0.3s;
+	transition: ease 0.3s;
   }
   .menu ul {
   	display: none;
@@ -796,90 +851,7 @@ Template Name: cases.lu
   	z-index: 2;
   	margin-left: -17px;
   }
-  .banner {
-  	position: relative;
-  	width: 100%;
-  	overflow: auto;
-  	font-size: 18px;
-  	line-height: 24px;
-  	text-align: center;
-  	color: rgba(255,255,255,.6);
-  	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
-  	background: #FFFFFF;
-  	box-shadow: 0 1px 2px rgba(0,0,0,.25);
-  }
-  .banner ul {
-  	list-style: none;
-  	width: 300%;
-  	padding: 0px;
-  }
-  .banner ul li {
-  	display: block;
-  	float: left;
-  	width: 35%;
-  	padding:0;
-  	min-height: 250px;
-  	/*		-webkit-background-size: 100% 100%;*/
-  	-moz-background-size: 100% 100%;
-  	-o-background-size: 100% 100%;
-  	-ms-background-size: 100% 100%;
-  	/*		background-size: 100% 100%;*/
-
-  	box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
-  }
-  .banner .btn {
-  	display: inline-block;
-  	margin: 25px 0 0;
-  	padding: 9px 22px 7px;
-  	clear: both;
-  	color: #fff;
-  	font-size: 12px;
-  	font-weight: bold;
-  	text-transform: uppercase;
-  	text-decoration: none;
-  	border: 2px solid rgba(255,255,255,.4);
-  	border-radius: 5px;
-  }
-  .banner .btn:hover {
-  	background: rgba(255,255,255,.3);
-  }
-  .banner .btn:active {
-  	-webkit-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
-  	-moz-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
-  	-ms-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
-  	-o-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
-  	filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
-  }
-  .banner .btn, .banner .dot {
-  	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
-  	-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
-  	-ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
-  	-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
-  	filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
-  }
-  .banner .dots {
-  	position: absolute;
-  	left: 0;
-  	right: 0;
-  	bottom: -10px;
-  	background-color: rgba(0, 0, 0, 0.8);
-  }
-  .banner .dots li {
-  	display: inline-block;
-  	width: 10px;
-  	height: 10px;
-  	line-height: 10px;
-  	margin: 10px 4px 0;
-  	text-indent: -999em;
-  	border: 2px solid #fff;
-  	border-radius: 6px;
-  	cursor: pointer;
-  	opacity: .4;
-  	-webkit-transition: background .5s, opacity .5s;
-  	-moz-transition: background .5s, opacity .5s;
-  	transition: background .5s, opacity .5s;
-
-  }
+  
   .banner .dots li.active {
   	background: #fff;
   	opacity: 1;
@@ -984,9 +956,6 @@ Template Name: cases.lu
   	padding: 0 0 0 8px;
   }
   .input-search {
-	/*background-image: url("/templates/frontoffice/casesv3/images/magnifying-glass.png");
-	background-position: right center;
-	background-repeat: no-repeat;*/
 	border: 1px solid #9b9b9b;
 	border-radius: 5px;
 	color: #565656;
@@ -1179,136 +1148,7 @@ Template Name: cases.lu
   .intro-service {
   	padding-top: 20px;
   }
-  .icon-service .cat-spacer {
-  	clear: both;
-  	height: 60px;
-  }
-  .cat-services {
-  	background-color: #ecf0f1;
-  	height: auto;
-  	padding: 10px 0;
-  	width: 100%;
-  }
-  .cat-services h1 {
-  	text-align: center;
-  	margin: 72px 0 25px 0;
-  	color: #565656;
-  }
-  .cat-services p {
-  	text-align: center;
-  	font-size: 14px;
-  	color: #959595;
-  }
-  #cat-image {
-  	background-color: #d9dfe2;
-  	height: 1px;
-  	margin-bottom: 50px;
-  	margin-top: 50px;
-  	max-width: 100%;
-  	position: relative;
-  }
-  #cat-image > div {
-  	display: inline-block;
-  	position: absolute;
-  }
-  .cat-box-container {
-  	margin-top: -60px;
-  	width: 100%;
-  }
-  .cat-box {
-  	color: #565656;
-  	float: left;
-  	font-size: 14px;
-  	margin-right: 112px;
-  	text-align: center;
-  	width: 110px;
-  }
-  .cat-box:first-child {
-  	/*  margin-left: 20px;*/
-  }
-  .cat-box:last-child {
-  	margin-right: 0px;
-  }
-  .cat-box h5 {
-  	color: #565656;
-  	font-size: 14px;
-  	font-weight: 700;
-  	margin-top: 0;
-  	text-transform: uppercase;
-  }
-  .cat-box h5 a{
-  	color: rgb(51, 51, 51);
-  }
-  .cat-service > h3 {
-  	margin-top: 25px;
-  }
-  .cat-box-inner {
-  	background: #fff none repeat scroll 0 0;
-  	cursor: pointer;
-  	margin: 0 auto;
-  	max-height: 140px;
-  	max-width: 150px;
-  	padding: 20px 30px 20px 15px;
-  }
-  .cat-box-inner-img {
-  	background-color: #ffffff;
-  	border: medium none;
-  	border-radius: 5px;
-  	padding: 0;
-  }
-  .cat-box-inner-img img {
-  	border-radius: 5px;
-  }
-  .cat-box-inner-img.diagnostic {
-  	background-image: url("/templates/frontoffice/casesv3/images/diagnostic.png");
-  	background-size: 100% auto;
-  	height: 80px;
-  	width: 80px;
-  }
-/*.cat-box-inner-img.diagnostic:hover {
-	background-image: url(/templates/frontoffice/casesv3/images/hover-diagnostic.png);
-	background-size: 100% auto;
-  height: 80px;
-  width: 80px;
-  }*/
-  .cat-box-inner-img.monarc {
-  	background-image: url(/templates/frontoffice/casesv3/images/monarc.png);
-  	background-size: 100% auto;
-  	height: 80px;
-  	width: 80px;
-  }
-/*.cat-box-inner-img.monarc:hover {
-	background-image: url(/templates/frontoffice/casesv3/images/hover-monarc.png);
-	background-size: 100% auto;
-  height: 80px;
-  width: 80px;
-  }*/
-  .cat-box-inner-img.secu {
-  	background-image: url(/templates/frontoffice/casesv3/images/startupkit.png);
-  	background-size: 100% auto;
-  	height: 80px;
-  	width: 80px;
-  }
-/*.cat-box-inner-img.secu:hover {
-	background-image: url(/templates/frontoffice/casesv3/images/hover-securite.png);
-	background-size: 100% auto;
-  height: 80px;
-  width: 80px;
-  }*/
-
-  .cat-box-inner-img.formation {
-  	background-image: url(/templates/frontoffice/casesv3/images/formation.png);
-  	background-size: 100% auto;
-  	height: 80px;
-  	width: 80px;
-  }
-/*.cat-box-inner-img.formation:hover {
-	background-image: url(/templates/frontoffice/casesv3/images/hover-formation.png);
-	background-size: 100% auto;
-  height: 80px;
-  width: 80px;
-  }*/
-
+  
   .cat-spacer {
   	height: 10px;
   	clear: both;
@@ -1884,108 +1724,7 @@ Template Name: cases.lu
   .rd-container a.read-more:hover {
   	color: #FFD500;
   }
-  /* ---------- carousel -------------- */
 
-  div.slider_property div.content-text{
-  	padding-left: 0px !important;
-  }
-
-  #event-slider {
-  	max-width: 100%;
-  	margin: 0 auto;
-  }
-  #event-slider .owl-page {
-  	display: none;
-  }
-  .event-slider-top {
-  	position: relative;
-  	margin: 30px 0 18px 0;
-  }
-  .event-slider-top > h3 {
-  	margin: 30px 0 0;
-  }
-  .event-slider {
-  	border: 1px solid #e3e3e3;
-  	background-color: #FFF;
-  	margin-bottom: 35px;
-  }
-  .event-slider-nav {
-  	float: right;
-  }
-  .event-title a {
-  	color: #0066b2;
-  	font-weight: 400;
-  	margin: 10px 0 0 0;
-  	text-transform: uppercase;
-  }
-  .event-title a:hover {
-  	color: #0087E0;
-  }
-  .prev, .next {
-  	width: 33px;
-  	height: 39px;
-  	border: 1px solid #e3e3e3;
-  	border-radius: 0;
-  	float: left;
-  }
-  .prev {
-  	background: url(/templates/frontoffice/casesv3/images/event-nav-prev.png)no-repeat;
-  	margin-left: -1px;
-  }
-  .next {
-  	background: url(/templates/frontoffice/casesv3/images/event-nav-next.png)no-repeat;
-  	margin-left: -1px;
-  }
-  .event-slider-content {
-  	font-size: 14px;
-  	color: #565656;
-  	padding: 20px 30px;
-  }
-  .event-slider-content p {
-  	color: #929191;
-  }
-  .event-slider-meta {
-  	border-top: 1px solid #e3e3e3;
-  	background-color: #f0f0f0;
-  	width: 100%;
-  	color: #bebebe;
-  	font-size: 14px;
-  	text-align: center;
-  }
-  .meta-block {
-  	width: 50%;
-  	float: left;
-  }
-  .meta-block i {
-  	margin: 0 10px 0 0;
-  }
-  .meta-event-location {
-  	border-right: 1px solid #e3e3e3;
-  	padding: 13px 0;
-  }
-  .meta-event-date {
-  	padding: 13px 0;
-  	background: #fafafa;
-  }
-  .rd-event a {
-  	background-color: #0066b2;
-  	border-radius: 4px;
-  	bottom: 0;
-  	color: white;
-  	cursor: pointer;
-  	font-size: 0.7rem;
-  	font-weight: 400;
-  	height: 30px;
-  	left: 45%;
-  	line-height: 30px;
-  	margin: 0 auto;
-  	padding: 3px 15px;
-  	text-align: center;
-  	text-transform: none;
-  	transition: color 0s ease 0s, all 0.2s ease 0s;
-  	width: 10%;
-  }
-  /* ---------- end-carousel -------------- */
   /* ----------partner -------------- */
   .milu {
   	border-bottom: 1px solid #656565;
@@ -2046,125 +1785,7 @@ Template Name: cases.lu
   /*	Sidebar */
   /*--------------------------------------------------------------------------------*/
 
-  #sidebar {
-  	padding: 0;
-  }
-  .sidebar-wrap {
-  	background: none repeat scroll 0 0 #f3f5f6;
-  	border-radius: 5px;
-  	margin: 0 0 20px;
-  	padding: 20px 25px;
-  	width: 100%;
-  }
-  .search-form {
-  	border: 1px solid #e3e3e3;
-  	height: 43px;
-  	background: #fafafa url(/templates/frontoffice/casesv3/images/search-icon.png)no-repeat;
-  	padding: 0 10px 0 35px;
-  	box-shadow: none;
-  }
-  .sidebar-widget-title {
-  	font-size: 20px;
-  	font-weight: 600;
-  	margin: 0 0 30px 10px;
-  	text-transform: uppercase;
-  }
-  .recent-post-content {
-  	border-bottom: 1px solid #e3e3e3;
-  }
-  .recent-post-widget a {
-  	color: #7f7f7f;
-  }
-  .recent-post-widget a:hover {
-  	color: #0087e0;
-  }
-  .recent-post-widget p {
-  	font-weight: 300;
-  	font-size: 14px;
-  	color: #828282;
-  	line-height: 1.5em;
-  }
-  .recent-post-widget h6 {
-  	margin: 10px 0 15px 10px;
-  }
-  .recent-post-widget img {
-  	max-width: 100px;
-  	float: left;
-  	margin: 0 10px 10px 0;
-  }
-  .post-title {
-  	padding: 5px 0 5px 15px;
-  	width: 100%;
-  	color: white;
-  }
-  .tags, .archives {
-  	margin-top: 0;
-  }
-  .tag-cloud {
-  	color: #0066b2;
-  	padding: 0 25px;
-  }
-  .diagnostic-call .container {
-  	width: 100%;
-  	position: relative;
-  	text-align: center;
-  }
-  /*--*/
-  .diagnostic-call .container {
-  	margin: 0;
-  	position: relative;
-  }
-  .diag-icon-bg {
-  	background: #0066b2 none repeat scroll 0 0;
-  	height: 20%;
-  	margin: 0 0 -69px;
-  	width: 20%;
-  }
-  .diag-icon-bg:after {
-  	content: url(/templates/frontoffice/casesv3/images/diagnostic-btn-yellow.png);
-  	display: block;
-  	padding: 9px 10px 5px 15px;
-  }
-  .diag-bg {
-  	background: #0087e0 none repeat scroll 0 0;
-  	display: block;
-  	height: 69px;
-  	margin: 0 0 30px 74px;
-  	width: 80%;
-  }
-  .diag-bg::after {
-  	color: #fff;
-  	content: "demandez votre diagnostic maintenant!";
-  	font-family: "Oswald", sans-serif;
-  	height: 37px;
-  	position: relative;
-  	text-transform: uppercase;
-  	top: 22%;
-  	width: 41px;
-  }
-  .diag-bg:hover {
-  	cursor: pointer;
-  }
-  .diag-bg:active {
-  	background: #00355d;
-  }
-  /*--*/
-  .news-post-content .contact-btn {
-  	background-color: #bebebe;
-  	border-radius: 4px;
-  	bottom: 0;
-  	cursor: pointer;
-  	font-size: 14px;
-  	font-weight: 400;
-  	height: 30px;
-  	line-height: 30px;
-  	margin-top: 20px;
-  	padding: 0 15px;
-  	text-align: center;
-  	text-transform: uppercase;
-  	transition: color 0s ease 0s, all 0.2s ease 0s;
-  	z-index: 1;
-  }
+ 
   /*--------------------------------------------------------------------------------*/
   /*	News PAGE */
   /*--------------------------------------------------------------------------------*/
@@ -2234,107 +1855,8 @@ Template Name: cases.lu
   	font-weight: 800;
   	padding-right: 10px;
   }
-  /*--------------------------------------------------------------------------------*/
-  /*	Article PAGE */
-  /*--------------------------------------------------------------------------------*/
-  #content-article-page .news-title {
-  	font-size: 24px;
-  	text-indent: -22px;
-  }
-  #content-article-page p {
-  	padding-left:;
-  }
-  #content-article-page p {
-  	margin:;
-  }
-  .content-text {
-  	margin-top: 20px;
-  	padding-left: 20px;
-  }
-  #content-article-page h2 {
-  	color: #0066b2;
-  }
-  .divider {
-  	color: #ccc;
-  	line-height: 1.2em;
-  	margin: 50px 0 20px;
-  	overflow: hidden;
-  	text-align: left;
-  	width: 100%;
-  }
-  .divider::after {
-  	border-bottom: 4px double #ccc;
-  	content: "";
-  	display: inline-block;
-  	height: 0.75em;
-  	margin: 0 2% 0 -55%;
-  	vertical-align: top;
-  	width: 70%;
-  }
-  .divider:after {
-  	margin: 0 -55% 0 2%;
-  }
 
-  div.cadre_bleu{
-  	border: 1px solid #0066B2;
-  	float: left;
-  }
-  /*--------------------------------------------------------------------------------*/
-  /*	Alerte PAGE */
-  /*--------------------------------------------------------------------------------*/
-  span.level_alert {
-  	border-radius: 8px;
-  	display: inline-block;
-  	height: 10px;
-  	margin-bottom: 2px;
-  	margin-right: 10px;
-  	width: 10px;
-  }
-  span.middle_gravity {
-  	background-color: orange;
-  }
-  span.low_gravity {
-  	background-color: green;
-  }
-  span.high_gravity {
-  	background-color: red;
-  }
-  .alert-post-content .post-alert {
-  	color: #0066b2;
-  	font-size: 18px;
-  	font-weight: 400;
-  	margin: 15px 0 0;
-  	padding-bottom: 5px;
-  	padding-left: 20px;
-  	padding-top: 5px;
-  	text-transform: uppercase;
-  }
-  .alert-post-content p {
-  	padding-left: 20px;
-  }
-  .recent-post-widget .post-title::before {
-  	color: #ffd500;
-  	content: ">";
-  	font-weight: 800;
-  	padding-right: 10px;
-  }
-  .recent-post-widget .post-title {
-  	color: #0066b2;
-  	font-weight: 400;
-  	margin: 10px 0 0 5px;
-  	padding-left: 20px;
-  	text-indent: -20px;
-  	text-transform: uppercase;
-  }
-  /*--------------------------------------------------------------------------------*/
-  /*	Service page */
-  /*--------------------------------------------------------------------------------*/
-
-  .avantage {
-  	border: 1px solid #0066b2;
-  	margin-top: 40px;
-  	padding: 0 20px;
-  }
+ 
   /*--------------------------------------------------------------------------------*/
   /*	FAQ */
   /*--------------------------------------------------------------------------------*/
@@ -2686,7 +2208,7 @@ Template Name: cases.lu
   .contact-btn a:hover {
   	color: rgb(87%, 87%, 87%);
   }
-  <!--ALERTE-->
+
 
   div.recent-alert > div > div{
   	float: none !important;
@@ -2742,8 +2264,7 @@ Template Name: cases.lu
   .high_gravity {
   	border-color: red;
   }
-  <!--
-  END ALERTE--> .footer-col-nav {
+   .footer-col-nav {
   	text-transform: uppercase;
   	font-size: 13px;
   }

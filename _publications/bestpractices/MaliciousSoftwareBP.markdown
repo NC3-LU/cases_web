@@ -8,7 +8,7 @@ short: "Behavioural measures to prevent from infection"
 categories: bestpractice
 toc: true
 ---
-<h3 class="titre-page">In brief</h3>
+<h3 class="titre-page" id="in-brief">In brief</h3>
 Malicious software represents one of the greatest threats to the whole IT system, regardless of its size. All types of operating systems are at risk, and all administrations, municipalities and companies can succumb to it.
 
 Since they first came into existence, cybercriminals have become significantly more sophisticated in the way they work and target their victims; malicious software or malware, one of their main tools, has naturally benefited from this. Nowadays, you’ll no longer find malicious software written for purely entertainment purposes. Currently, the most widely used malicious codes on the market are variations on the Trojan horse, which grant access to devices so they can be used either for illicit purposes or to steal confidential information.
@@ -23,7 +23,7 @@ Today, these malicious codes are primarily used to:
 
 They present a large and omnipresent threat. Without preventative measures, protective measures and curative measures, an entity risks being considerably impacted.
 
-<h3 class="titre-page">Infection vectors</h3>
+<h3 class="titre-page" id="infection-vectors">Infection vectors</h3>
 There are a number of ways to infect a computer. The most commonly used include:
 
 * infecting genuine websites (preferably those with high visitor counts). These suffer from opportunistic or targeted attacks. The attacker will take advantage of the website’s technical vulnerabilities, often the result of bad management, by trying to access the website management system either by exploiting default passwords or as a result of weak security. They then install tools so they can exploit technical vulnerabilities in the visitors’ browsers, or incite users to install the malicious codes themselves (e.g. fake antiviruses or fake video players).
@@ -34,7 +34,7 @@ There are a number of ways to infect a computer. The most commonly used include:
 * emails with infected attachments. This technique is used for both targeted and opportunistic attacks. Social engineering methods are used to manipulate the victims into opening the infected files.
 * removable devices containing infected files. Malicious codes exploit the technical vulnerabilities of the targeted computers. This method is primarily used for targeted attacks, using social engineering techniques.
 
-<h3 class="titre-page">Impacts</h3>
+<h3 class="titre-page" id="impacts">Impacts</h3>
 As there are malicious codes all over the Internet, the chances of encountering one are extremely high (EBIOS threats, remote listening, software trap).
 
 The impacts caused are usually:
@@ -52,16 +52,16 @@ The impacts caused are usually:
 * Impact on “time”
   * Analysing the compromised system, as well as getting the infected machines up and running again, may result in a significant loss of time.
 
-<h3 class="titre-page">Behavioural measures</h3>
+<h3 class="titre-page" id="behavioural-measures">Behavioural measures</h3>
 Whether the attack is targeted or opportunistic, a large number of malicious codes infiltrate their victims’ devices via infection vectors that play on human vulnerabilities.
 
-Before publishing malicious software, its authors check to see if it can be detected via websites such as www.virtest.com.
+Before publishing malicious software, its authors check to see if it can be detected via websites such as [www.virtest.com](https://www.virtest.com).
 
 The codes then often remain invisible to antivirus software for at least the first few days of the attack, which is enough time for the antivirus to collect the updated signatures. 
 
 It is therefore vital for any organisation to train their employees and make them aware of the risks incurred by malicious codes and of commonly used infection vectors.
 
-<h3 class="titre-page">Preventing infection</h3>
+<h3 class="titre-page" id="preventing-infection">Preventing infection</h3>
 Infection with malicious codes can be prevented through responsible and careful behaviour when using email, removable devices and when surfing the Internet.
 
 Make sure you::
@@ -84,14 +84,14 @@ When travelling or on business trips, make sure you: 
 
 You should also remember that even equipment located within the organisation can be easily infected if ill-intentioned people gain access to it. (SMEs see: Infiltrating the premises and insertion or removal of hardware and Use of unapproved software).
 
-<h3 class="titre-page">Minimise the impacts</h3>
+<h3 class="titre-page" id="minimise-the-impacts">Minimise the impacts</h3>
 Each employee should know how to act in case of infection:  
 
 * the infected device must be isolated and removed from the network;
 * it must not be used again until the virus has been removed;
 * it must be reported to the managers responsible for this type of incident immediately.
 
-<h3 class="titre-page">Organisational practices</h3>
+<h3 class="titre-page" id="organisational-practices">Organisational practices</h3>
 To prevent infection by malicious codes, organisational measures must be implemented. Draft and enforce the following sectoral policies:
 
 * Classification and monitoring of resources
@@ -118,7 +118,7 @@ To prevent infection by malicious codes, organisational measures must be impleme
 * Managing business continuity
   * Operational continuity
  
-<h3 class="titre-page">Technical measures</h3>
+<h3 class="titre-page" id="technical-measures">Technical measures</h3>
 In addition to behavioural and organisational measures, it is important to put in place technical measures to help prevent infections and reduce the impact of a potential infection.
 
 The installation of the following technical measures is recommended:
@@ -138,5 +138,5 @@ The installation of the following technical measures is recommended:
 * encryption<br />
   Encryption can help reduce the likelihood of loss of confidentiality for highly confidential information in the event of infection.
 
-<h3 class="titre-page">Virus removal</h3>
-See: [SOS – I think my computer is infected](-)
+<h3 class="titre-page" id="virus-removal">Virus removal</h3>
+See: [SOS – I think my computer is infected](/knowhow/sos/SOS-IThinkMyComputerInfected.html)

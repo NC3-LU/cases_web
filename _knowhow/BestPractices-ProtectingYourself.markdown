@@ -25,7 +25,7 @@ It is very important to introduce preventive and protective measures as early as
 Regardless of the strategy chosen, it is always of benefit to identify “quick wins” (such as update management, encrypted wifi networks, password management, etc.) that can be set up rapidly. These guarantee immediate results and are often suitable to resolve certain urgent issues or to persuade the management of the importance of security issues.
 
 <h3 class="titre-page"></h3>
-The best way to protect a company consists of opting for continuous improvement, taking into consideration the company's real security needs. This strategy is more time-consuming than a more general strategy, but at the end of the day, it will be better suited to the company’s actual needs, and will therefore be more effective and less expensive, but certainly longer to implement. (See article [protecting your company]({% link _publications/ProtectingYourCompany.markdown %}}))
+The best way to protect a company consists of opting for continuous improvement, taking into consideration the company's real security needs. This strategy is more time-consuming than a more general strategy, but at the end of the day, it will be better suited to the company’s actual needs, and will therefore be more effective and less expensive, but certainly longer to implement.(See article <a href="/publications/ProtectingYourCompany.html">protecting your company</a>)
 
 <h3 class="titre-page">Risk analysis</h3>
 To be able to protect important and vital data and assets, they must first of all be identified through at least a rudimentary risk analysis.

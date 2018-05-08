@@ -1,0 +1,86 @@
+---
+layout: default-ext
+---
+
+{% assign articles = site.posts |sort: 'date' |reverse %}
+
+
+<div class="blocantiscroll col-md-2">
+  <h2>Articles</h2>
+  {% for post in articles %}
+  <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+    <h6 class="list-select">{{ post.title }}</h6>
+  </a>
+  {% endfor %}
+</div>
+
+
+<div class="col-md-8">
+  <div class="two-col-display">
+  {% for post in paginator.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%d %b, %Y" }}</span>
+
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <div class="row-fluid"><h5>
+        {{ post.title | escape }}
+      </h5>
+    </div>
+    <div class="small" style="margin-bottom: 15px;">
+      {{ post.short | escape }}
+    </div>
+  </a>
+
+  {% assign tag = post.tags | sort %}
+  {% for category in tag %}
+  <span><a href="{{ site.baseurl }}/category/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %},{% endif %}</span>{% endfor %}
+  {% assign tag = nil %}
+
+</li>
+{% endfor %}
+</div>
+
+<nav aria-label="Page navigation example" class="txtcenter">
+  <ul class="pagination">
+    <li class="page-item">
+      {% if paginator.previous_page %}
+      <a class="page-link" href="{{ paginator.previous_page_path }}" aria-label="Previous">Previous
+        {% else %}
+        <span aria-hidden="true">Previous</span>
+        <!--<span class="sr-only">Previous</span>-->
+        </a>
+        {% endif %}
+      
+    </li>
+    <li class="page-item">
+      {% if paginator.next_page %}
+      <a class="page-link" href="{{ paginator.next_page_path }}" aria-label="Next">Next
+        {% else %}
+        <span aria-hidden="true">Next</span>
+        <!--<span class="sr-only">Next</span>-->
+        {% endif %}
+      </a>
+    </li>
+  </ul>
+</nav>
+
+  <!--{% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous txtcenter">&laquo;</a>
+  {% else %}
+    <span class="previous txtcenter">&laquo;</span>
+    {% endif %}-->
+
+    <!--<span class="page_number ">Page: {{ paginator.page }} sur {{ paginator.total_pages }}</span>-->
+    <!--{% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next txtcenter">&raquo;</a>
+    {% else %}
+    <span class="next txtcenter">&raquo;</span>
+    {% endif %}
+    -->
+  </div>
+
+
+  <div class="col-md-2">
+
+  </div>
+

@@ -22,7 +22,7 @@ It is based on CASES expertise and regularly updated prior knowledge of the busi
 
 <img class="img-border" src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
 
-<h4 class="title2-page">Stage 1: Context Establishment</h4>
+<h4 class="title-border-left">Stage 1: Context Establishment</h4>
 This stage is used to set establish the context of the risk analysis and to produce:
 
 * a trend evaluation;
@@ -30,17 +30,17 @@ This stage is used to set establish the context of the risk analysis and to prod
 * the risk management context;
 * definition of the assessment, acceptance and impact criteria
 
-<h4 class="title2-page">Stage 2: Context Modelling</h4>
+<h4 class="title-border-left">Stage 2: Context Modelling</h4>
 This step involves
 
 * identification of assets, vulnerabilities
 * impact assessment
 * summary of assets/impacts
 
-<h4 class="title2-page">Stage 3: Evaluation and treatment of risks</h4>
+<h4 class="title-border-left">Stage 3: Evaluation and treatment of risks</h4>
 This step involves the estimation, evaluation and processing of risks. Its output is a risk management plan.
 
-<h4 class="title2-page">Stage 4: Implementation and monitoring</h4>
+<h4 class="title-border-left">Stage 4: Implementation and monitoring</h4>
 This involves the implementation of the risk treatment plan.
 
 <h3 class="titre-page">Advantages</h3>

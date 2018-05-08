@@ -50,7 +50,7 @@ Some examples of free encryption tools:
 [VeraCrypt](https://veracrypt.codeplex.com/) is a free encryption software program with which you can encrypt a whole hard drive or create encrypted containers into which you can place sensitive files. These containers can be located on a hard drive, a file server or even on removable devices. It is easy to use and reliable from a security point of view.
 
 ### 7Z
-[7Z](www.7-zip.org) is a free tool used to compress and archive files. This tool also has a AES 256-bit strong encryption option. It can therefore be used to transfer confidential encrypted files on removable devices or by email since the files are located in a compressed archive.
+[7Z](https://www.7-zip.org/) is a free tool used to compress and archive files. This tool also has a AES 256-bit strong encryption option. It can therefore be used to transfer confidential encrypted files on removable devices or by email since the files are located in a compressed archive.
 
 It is a symmetrical encryption tool like truecrypt, so you need to exchange the encryption key securely with the recipient. Use a channel that is safe but different to the one used for the transfer of data. You can, for example, send the key by post, fax or SMS, or hand it to them in person.
 
@@ -103,7 +103,7 @@ An electronic signature is a method used to guarantee the authenticity of the so
 
 This technology should be implemented during dialogue via email with external entities which may represent a commitment for the “organisation”. It is the responsibility of the IT manager to implement this technology for users.
 
-[LuxTrust](www.luxtrust.lu) provides electronic signature solutions. OpenPGP is a free alternative for signatures and encryption.
+[LuxTrust](https://www.luxtrust.lu) provides electronic signature solutions. OpenPGP is a free alternative for signatures and encryption.
 
 Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the integrity of the contents of the file relating to the message.
 

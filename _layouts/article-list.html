@@ -1,9 +1,16 @@
 ---
 layout: default-ext
 ---
+{% assign articles = site.posts |sort: 'date' |reverse %}
 
-<div class="col-md-2">
 
+<div class="blocantiscroll col-md-2">
+  <h2>Articles</h2>
+  {% for post in articles %}
+  <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+    <h6 class="list-select">{{ post.title }}</h6>
+  </a>
+  {% endfor %}
 </div>
 
 
@@ -26,8 +33,27 @@ layout: default-ext
       </div>
 
       {% for post in site.posts limit: 2  %}
+      
       <div class="row">
         <div class="col-md-4">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <div class="row-fluid"><h5>
+              {{ post.title | escape }}
+            </h5>
+          </div>
+          <div class="small" style="margin-bottom: 15px;">
+            {{ post.short | escape }}
+          </div>
+        </a>
+      </div>
+
+
+      <div class="col-md-4">
+
+      </div>
+
+
+      <div class="col-md-4">
           <a class="post-link" href="{{ post.url | relative_url }}">
             <div class="row-fluid"><h5>
               {{ post.title | escape }}
@@ -46,18 +72,18 @@ layout: default-ext
 
   </div>
 
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
+  <nav aria-label="Page navigation example" class="txtcenter">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
       <a class="page-link" href="#" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
         <span class="sr-only">Next</span>

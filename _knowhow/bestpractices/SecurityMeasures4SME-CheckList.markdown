@@ -69,4 +69,4 @@ See the article "Threats to people":
 * Third-party use of access reserved for a single user
 
 <h3 class="titre-page">Handling malicious codes</h3>
-[Recommended security measures for countering malicious codes.](-)
+[Recommended security measures for countering malicious codes.](/knowhow/sos/SOS-IThinkMyComputerInfected.html)
