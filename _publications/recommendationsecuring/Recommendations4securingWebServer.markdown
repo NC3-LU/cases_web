@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "Recommendations for securing a web server"
 menutitle: "Recommendations for securing a web server"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security measures for securing a web server"
-categories: knowhow
+categories: securing
+toc: true
 ---
 ## Basic considerations
 A web server is a server that is constantly connected to the Internet. It is therefore advisable to follow the recommendations to secure servers connected to the Internet.

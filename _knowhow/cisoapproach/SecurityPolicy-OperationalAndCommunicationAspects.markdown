@@ -40,7 +40,7 @@ This separation aims to limit the risk of modifications to actual data.
 
 The use of production data located in test environments (which tend to be less well protected) is, in fact, not recommended.
 
-In particular if critical data (from the point of view of confidentiality), trade secrets or personal data is processed there.
+In particular if critical data (from the point of view of [confidentiality]({{site.url}})), trade secrets or personal data is processed there.
 
 ### Applying security measures to:
 
@@ -63,61 +63,62 @@ Here, we talk about “outsourcing” or “facilities management”.
 * Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see External connections).
 
 <h3 class="titre-page">Protection against malware</h3>
-An attack by a virus or other malicious software is one of the most likely risks for any computer user. They can infiltrate the “organisation” through removable devices, such as, in particular, CD-ROMs,
+An attack by a virus or other [malicious software]({{site.url}}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html), such as, in particular, CD-ROMs,
 
-The “organisation’s” computers and servers must be equipped with antivirus software. The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see security measures for file servers and security measures for email servers).
+The “organisation’s” computers and servers must be equipped with [antivirus software]({{site.url}}/knowhow/glossary/AntiVirus.html). The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see [security measures for file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html) and [security measures for email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)).
 
 On the other hand, a large number of measures must be respected by the users to avoid compromising security. It is prohibited to:
 
 * prevent the antivirus tools from running (deactivating them, reconfiguring them, turning off updates, etc.);
-* install software that has not been approved by the IT manager (SMEs: see Use of unapproved software);
-* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: see Social engineering/Inadequate communication and Handling malicious codes). Such emails must be destroyed and advice may be requested from the IT manager.
+* install software that has not been approved by the IT manager (SMEs: see [Use of unapproved software]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#use-of-unapproved-software));
+* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: [see Social engineering/Inadequate communication]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#manipulation-of-people) and [Handling malicious codes]({{site.url}}/knowhow/glossary/MaliciousWebsites.html)). Such emails must be destroyed and advice may be requested from the IT manager.
 
 Incoming email verification tools deal not only with viruses, but can also eliminate potentially dangerous attachments (executables, scripts, macros).
 
 ### Applying security measures to:
 
-* File servers
-* Email servers
-* Computers connected to the Internet
-* Laptop computers
+* [File servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [Email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
+* [Computers connected to the Internet]({{site.url}}/publications/recommendationsecuring/SecuringFixedWorkstation.html)
+* [Laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html)
 
 ### Behavioural measures:
 
-* Malicious software – best practice
-* Emails
-* Removable devices
-* Malicious websites
+* [Malicious software – best practice]({{site.url}}/publications/bestpractices/MaliciousSoftwareBP.html)
+* [Emails]({{site.url}}/publications/bestpractices/EMail-BestPractices.html)
+* [Removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html)
+* [Malicious websites]({{site.url}}/knowhow/glossary/MaliciousWebsite.html)
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Human factors
-  * Training and information
-  * Response to incidents and security malfunctions
-* Operational and communications aspects
-  * Email
-* Access control
-  * Access control policy
-  * Use of external networks
-  * Separation of networks
-* Development and maintenance of systems
-  * Management of technical vulnerabilities
-* Management of security incidents
-  * Reporting information security events
-  * Incident management and improvements information security
-* Managing business continuity
-  * Operational continuity
+* [Classification and monitoring of resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html)
+  * [Classification of and responsibility for resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#classification-and-responsibility-for-resources)
+* [Human factors]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html)
+  * [Training and information]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#training-and-information)
+  *[ Response to incidents and security malfunctions]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#response-to-incidents-and-malfunctions)
+* [Operational and communications aspects]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html)
+  * [Email]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#email)
+* [Access control]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html)
+  * [Access control policy]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-control-policy)
+  * [Use of external networks]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#use-of-external-networks)
+  * [Separation of networks]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#separation-of-networks)
+* [Development and maintenance of systems]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html)
+  * [Management of technical vulnerabilities]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#managing-technical-vulnerabilities)
+* [Management of security incidents]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html)
+  * [Reporting information security events]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#reporting-information-security-events)
+  * [Incident management and improvements information security]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#incident-management-and-improvements-information-security)
+*[Managing business continuity]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.html)
+  * [Operational continuity]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.html#operational-continuity)
+
 
 ### Technical measures:
 
-* Antivirus
-* Firewall
-* Network segmentation
-* Patches
-* Backups
-* Cryptography
+* [Antivirus]({{site.url}}/knowhow/glossary/AntiVirus.html)
+* [Firewall]({{site.url}})
+* [Network segmentation]({{site.url}}/knowhow/glossary/NetworkSegmentation.html)
+* [Patches]({{site.url}}/knowhow/glossary/Patches.html)
+* [Backups]({{site.url}}/publications/ProtectingYourCompany.html#data-backups)
+* [Cryptography]({{site.url}}/knowhow/glossary/Cryptography.html)
 
 <h3 class="titre-page">Data backups</h3>
 It is essential for an organisation to back up their data and their specific, or specifically configured, software. A disaster (fire, flood) or, more commonly, a hard drive problem could easily destroy all of this information. (SMEs: see Fire and Failure of IT or communications equipment and Hardware damaged during transport).

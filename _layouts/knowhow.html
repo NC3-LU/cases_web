@@ -2,16 +2,25 @@
 layout: default
 ---
 {% assign knowhow = site.knowhow %}
-{% assign list-cat = "ciso, bestpract, sos"|split: ", "%}
+
 {% assign i = 0 %}
 
 
-<div class="blocantiscroll col-md-2">
+<div class="blocantiscroll col-md-2" style="overflow: visible;">
 
 
       <!-- Loop to display the 3 categories and theirs pages --> 
       <h2>Knowhow</h2>
       <ol class="test">
+       <!-- {% for i in knowhow %}
+          {% assign list-cat2 = i.categories %}
+        {% endfor %}-->
+
+        {% assign list-cat = knowhow |map: 'main-categ' |uniq %}
+
+
+
+
         {% for i in (0..list-cat.size) %}
         {% for page in knowhow %}
 

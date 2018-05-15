@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "Security Policy – Classification and control of resources"
+title:  "Security Policy – Compliance"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100

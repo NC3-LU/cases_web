@@ -29,7 +29,7 @@ The CS (head of security) and the CSSI (information systems security officer) ac
 * to assist personnel in respecting the security rules.
 
 ### Managers
-The respective managers of the organisation’s assets should:
+The respective managers of the organisation’s [assets]({{site.urll}}) should:
 
 * inventory and classify the goods and the information for which they are responsible
 * provide security management for said goods and information
@@ -51,14 +51,14 @@ They also represent the main contact point for external authorities and for vari
 <h3 class="titre-page">Authorising the addition of tools</h3>
 The security policy should define a procedure to be followed for the addition of any information processing tool.
 
-The addition of new hardware or software (SMEs: see Use of unapproved software and Insertion or removal of hardware and Invalid or non-existent licence and Misuse of organisation's resources) within the company must be approved by the relevant officer (see definition of responsibilities in point 1 of this chapter). The installation of software downloaded from the Internet falls into this category. This procedure should also be applied for the use of private tools within “the organisation”, especially if they are connected to a network.
+The addition of new hardware or software (SMEs: see [Use of unapproved software]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#use-of-unapproved-software) and [Insertion or removal of hardware]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#addition-or-removal-of-hardware) and [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence) and [Misuse of organisation's resources]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#misuse-of-it-resources)) within the company must be approved by the relevant officer (see definition of responsibilities in point 1 of this chapter). The installation of software downloaded from the Internet falls into this category. This procedure should also be applied for the use of private tools within “the organisation”, especially if they are connected to a network.
 
 <h3 class="titre-page">Specialist advice</h3>
 “The organisation” should be in contact with a IT technology security specialist. This will be the favoured contact for all aspects of IT security. They will especially play a role in:
 
 * the definition of security policies and their annual review;
 * audit activities;
-* meetings to monitor security measures;
+* meetings to monitor [security measures]({{site.url}}/publications/ProtectingYourCompany.html);
 * activities for the installation of selected technologies;
 * technology watch, keeping the organisation informed of any changes which may have an effect on the level of security.
 
@@ -70,6 +70,6 @@ The organisation can decide to appoint an external specialist to conduct an annu
 > THIS POINT IS OPTIONAL
 
 <h3 class="titre-page">Third party access and outsourcing</h3>
-Access – be it physical or logical (access management) – to the resources and information belonging to “the organisation” by third parties should be granted within a strict framework. Their access must be formally approved by a manager. The relevant parties should work under the direct supervision of a member of “the organisation”, or sign the document given in appendix: “Security compliance agreement for sub-contractors of “the organisation”” (SMEs: see Infiltrating the premises; Aggravated theft; Device recovery; Insertion or removal of hardware).
+Access – be it physical or logical (access management) – to [the resources and information]({{site.url}}) belonging to “the organisation” by third parties should be granted within a strict framework. Their access must be formally approved by a manager. The relevant parties should work under the direct supervision of a member of “the organisation”, or sign the document given in appendix: “Security compliance agreement for sub-contractors of “the organisation”” (SMEs: see [Infiltrating the premises]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#infiltrating-the-premises); [Aggravated theft]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#aggravated-theft); [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery); [Insertion or removal of hardware]({{site.url}}/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#addition-or-removal-of-hardware)).
 
 In any event, the service agreements relating to the sensitive resources of “the organisation” must include provisions relating to the protection of these resources.

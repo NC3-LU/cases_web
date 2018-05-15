@@ -7,6 +7,7 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+
 ---
 <h3 class="titre-page">Reporting information security events</h3>
 The security policy sets out a notification method for events and [vulnerabilities](-) relating to IT security, to enable the implementation of corrective actions as rapidly as possible. Formal procedures for phased feedback and flagging should be drawn up and staff made aware that they should flag up various types of events and vulnerabilities liable to have an effect on security. These events should be flagged up to the designated person as quickly as possible. This will usually be the person responsible for IT systems security or the Chief Executive Officer of the organisation.

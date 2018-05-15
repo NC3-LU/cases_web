@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "Securing laptops"
 menutitle: "Securing laptops"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Recommendations"
-categories: knowhow
+categories: securing
+toc: true
 ---
 ## In brief
 Laptops are special computers in that they can not only be transported outside the company, but they can also connect to other networks, some of which may have little protection, such as hotel networks.

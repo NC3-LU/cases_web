@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: knowhow
 title:  "Vulnerabilities"
 menutitle:
 logo:

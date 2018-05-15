@@ -1,11 +1,12 @@
 ---
-layout: articlesmall
+layout: publication-list
 title:  "Security measures for small and medium-sized enterprises – Legal aspects"
 menutitle: "Security measures for small and medium-sized enterprises – Legal aspects"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security measures"
-categories: knowhow
+categories: securing
+toc: true
 ---
 ## In brief
 Security measures are behavioural, organisational or technical measures seeking to ensure the confidentiality, integrity and availability of an asset. Security measures seek to reduce the vulnerabilities exploited by threats and thereby lower the impacts. They are defined during the risk treatment phase in the risk management process.

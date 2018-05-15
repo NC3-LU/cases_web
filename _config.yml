@@ -21,7 +21,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cases_lu
 github_username:  cases-lu
-
 # Build settings
 markdown: kramdown
 #theme: minima
@@ -58,11 +57,7 @@ paginate_path: "/articles-list/page:num/"
 # Ideal image slider
 iis_slider_array: []
 
-#defaults:
-#  - scope:
-#      path: "_knowhow/cisoapproach"
-#    values: 
-#      static: "true"
+
 
 
       
