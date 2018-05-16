@@ -10,17 +10,17 @@ toc: true
 ---
 
 <h3 class="titre-page">In brief</h3>
-These days, it is very difficult to tell if a machine is infected. Cybercriminals try to use Trojan horses to extract data (spying), or use the computer for larger scale attacks (distributed denial of service), to send spam or other illicit reasons.
+These days, it is very difficult to tell if a machine is infected. [Cybercriminals]({{site.url}}/knowhow/glossary/Cybercriminals.html) try to use [Trojan horses]({{site.url}}) to extract data (spying), or use the computer for larger scale attacks (distributed denial of service), to send [spam]({{site.url}}/knowhow/glossary/SPAM-UnwantedEmails.html) or other illicit reasons.
 
 Some infections have no real aim, and many initial infections only load installation software. In this case, access to the infected computers is sold to the highest bidder, who then uses the installer (Trojan loader) to install the final Trojan horse.
 
 The most common vectors for infection are:
 
-* malicious websites (popular websites that have been infected, or malicious websites on which victims are tricked by advertising displayed on the sites or in emails, or links included in emails);
+* [malicious websites]({{site.url}}/knowhow/glossary/MaliciousWebsites.html) (popular websites that have been infected, or malicious websites on which victims are tricked by advertising displayed on the sites or in emails, or links included in [emails]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#email));
 * infected attachments;
-* removable storage media.
+* [removable storage media]({{site.url}}/knowhow/glossary/RemovablesDevices.html).
 
-Use best practices to avoid malware.
+Use [best practices]({{site.url}}/publications/bestpractices/MaliciousSoftwareBP.html) to avoid malware.
 
 <h3 class="titre-page">Risk analysis</h3>
 Try to perform a risk analysis to check whether you have fallen victim to a targeted or opportunistic attack. These questions might help you:
@@ -41,24 +41,24 @@ Another way to determine whether this is a targeted or opportunistic attack is t
 Some cybercriminals try to infect as many machines as possible through opportunistic attacks. These criminals specialise in the “acquisition” of machines and only install software enabling remote access. They often try to distribute their victims by country, categorising individuals and companies, and they sometimes even try to identify the infected victim. (The profiling quality of the infected machines increases their sale price). They go on to sell access to these machines to the highest bidder. This person will then install specialist malware using the remote access software, based on their objectives:
 
 * stealing log-in data or other confidential data (e-banking, e-commerce, social networking, emails, etc);
-* using the infected machine to send spam;
-* using the infected machine to host malicious web servers, or servers with illegal content;
+* using the infected machine to send [spam]({{site.url}}/knowhow/glossary/SPAM-UnwantedEmails.html);
+* using the infected machine to host [malicious web servers]({{site.url}}/knowhow/glossary/MaliciousWebsites.html), or servers with illegal content;
 * using machines to carry out denial of service attacks, as a proxy, to click on links;
 * targeted attacks.
 
-opportunistic attacks are usually quite large scale, with malicious code used to provide remote access – in the best case scenario, this code will only be detected days later by the supplier's anti-virus software. Generally speaking, the resident anti-virus never detects malware after detection and you need to use a live CD anti-virus for better detection.
+opportunistic attacks are usually quite large scale, with malicious code used to provide remote access – in the best case scenario, this code will only be detected days later by the supplier's [anti-virus]({{site.url}}/knowhow/glossary/AntiVirus.html) software. Generally speaking, the resident anti-virus never detects malware after detection and you need to use a live CD anti-virus for better detection.
 
 <h3 class="titre-page">Victim of a targeted attack</h3>
-As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. Malicious code is specially designed for this type of attack, and in most cases slips through anti-virus checks. Targeted attacks can be used as a vector for infection:
+As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. [Malicious code]({{site.url}}/publications/bestpractices/MaliciousSoftwareBP.html) is specially designed for this type of attack, and in most cases slips through [anti-virus]({{site.url}}/knowhow/glossary/AntiVirus.html) checks. Targeted attacks can be used as a vector for infection:
 
 * buying access to a machine belonging to a specific organisation from a criminal carrying out opportunistic attacks;
-* social engineering by email, with infected files (SMEs: see Spam / Phishing, Social engineering / Inadequate communication);
-* social engineering by physical access and infection of targeted machines (SMEs: see Infiltrating the premises, Insertion or removal of hardware, Use of unapproved software, Third-party use of access reserved for a single user);
-* social engineering  by physical access and deposit of infected removable storage media (SMEs: see Infiltrating the premises, Insertion or removal of hardware);
+* [social engineering]({{site.url}}/knowhow/glossary/SocialEngineering.html) by email, with infected files (SMEs: see [Spam / Phishing]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#spam--phishing), [Social engineering / Inadequate communication]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#manipulation-of-people));
+* social engineering by physical access and infection of targeted machines (SMEs: see [Infiltrating the premises]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#infiltrating-the-premises), {Insertion or removal of hardware]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#addition-or-removal-of-hardware), [Use of unapproved software]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#use-of-unapproved-software), [Third-party use of access reserved for a single user]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#use-of-limited-access-by-a-third-party));
+* social engineering  by physical access and deposit of infected [removable storage media]({{site.url}}/knowhow/glossary/RemovableDevices.html) (SMEs: see [Infiltrating the premises]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#infiltrating-the-premises), [Insertion or removal of hardware]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#addition-or-removal-of-hardware));
 * social engineering by sending physical post containing infected removable storage media;
 * social engineering by offering an infected gift (during a conference, a trade fair, etc.);
-* social engineering by attracting the victim to a malicious website;
-* infection of digital hardware left unattended (airports, hotels, conference halls, etc.) (SMEs: see Infiltrating the premises, Insertion or removal of hardware, Use of unapproved software, Use of access reserved for a user by a third party, Spam / Phishing, social engineering / inadequate communication).
+* social engineering by attracting the victim to a [malicious website]({{site.url}}/knowhow/glossary/MaliciousWebsites.html);
+* infection of digital hardware left unattended (airports, hotels, conference halls, etc.) (SMEs: see [Infiltrating the premises]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#infiltrating-the-premises), [Insertion or removal of hardware]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#addition-or-removal-of-hardware), [Use of unapproved software]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#use-of-unapproved-software), [Use of access reserved for a user by a third party]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#use-of-limited-access-by-a-third-party), [Spam / Phishing]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#spam--phishing), [social engineering / inadequate communication]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#manipulation-of-people)).
 
 It is very difficult to recognise an attack of this type. These codes make no “noise”, because they do not spread, or they only spread very slowly. They do everything to remain unnoticed so as to extract confidential information for as long as possible.
 
@@ -68,7 +68,7 @@ Malware activity may eventually be identified in firewall or proxy logs.
 It is often difficult to tell whether a machine is infected, and it is even more difficult to clean it. The effort made and the method chosen need to be sufficient to match the criticality of the machine concerned.
 
 * If it was an opportunistic attack and the machine does not hold any confidential data and is not used for critical operations, such as e-banking, you can try to clean the machine:
-  * your anti-virus probably won’t detect the infection, because if it knew the malicious code used, it would have prevented infection in the first place. Remove the machine from the network and try to disinfect the machine using a live CD from another anti-virus retailer. Even better, wait four or five days before cleaning – recent malicious code slips through the anti-virus net for the first few days, until anti-virus manufacturers catch up and enter it into their anti-virus signature. Please note: disinfection by anti-virus may delete infected system files. The machine therefore risks not working properly after disinfection. The system should then be repaired using an installation disk, or the operating system may need a full reinstall.
+  * your anti-virus probably won’t detect the infection, because if it knew the malicious code used, it would have prevented infection in the first place. Remove the machine from the network and try to [disinfect the machine using a live CD from another anti-virus retailer]({{site.url}}). Even better, wait four or five days before cleaning – recent malicious code slips through the anti-virus net for the first few days, until anti-virus manufacturers catch up and enter it into their anti-virus signature. Please note: disinfection by anti-virus may delete infected system files. The machine therefore risks not working properly after disinfection. The system should then be repaired using an installation disk, or the operating system may need a full reinstall.
 * If you know exactly when your machine was infected and you have backups of your hard disk made from an earlier time, you can try to restore the backup. Don’t forget to reinstall all the necessary updates after the system restore.
 * In other cases, we recommend a full reinstallation:
   * backup your data on an external hard drive;

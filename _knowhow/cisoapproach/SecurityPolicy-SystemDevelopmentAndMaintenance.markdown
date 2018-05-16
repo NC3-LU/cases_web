@@ -9,45 +9,45 @@ categories: f-ciso
 toc: true
 ---
 <h3 class="titre-page">Encryption</h3>
-Encryption consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during email communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see Interception of communications).
+[Encryption]({{site.url}}) consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during [email]({{site.url}}) communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see [Interception of communications]({{site.url}})).
 
 ### Applying security measures to:
 
-* file servers
-* email servers
-* fixed network
-* internal WiFi network
-* customer WiFi network
-* computers connected to the Internet
-* laptop computers
+* [File servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [Email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
+* [Fixed network]({{site.url}}/publications/recommendationsecuring/SecuringFixedNetwork.html)
+* [Internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
+* [Customer WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-visitorsexternal-users)
+* [Computers connected to the Internet]({{site.url}}/publications/recommendationsecuring/SecuringFixedWorkstation.html)
+* [Laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html)
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Physical and environmental security
-  * Off-site equipment security
-* Operational and communications aspects
-  * Documented procedures
-  * Data backups
-  * Device security during transport
-  * Email
-* Development and maintenance of systems
-  * Electronic signatures
-* Compliance
-  * Intellectual property
-  * Protection of operational data
-  * Personal data protection
+* [Classification and monitoring of resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html)
+  * [Classification of and responsibility for resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html)
+  * [Off-site equipment security]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#off-site-equipment-security)
+* [Operational and communications aspects]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html)
+  * [Documented procedures]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#documentation-of-procedures)
+  * [Data backups]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#data-backups)
+  * [Device security during transport]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#device-security-during-transport)
+  * [Email]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#email)
+* [Development and maintenance of systems]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html)
+  * [Electronic signatures]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#electronic-signatures)
+* [Compliance]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html)
+  * [Intellectual property]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#intellectual-property)
+  * [Protection of operational data]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#protection-of-operational-data)
+  * [Personal data protection]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#personal-data-protection)
 
 ### Technical measures:
 
-* encryption
+* [encryption]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#encryption)
 
 <h3 class="titre-page">Implementation</h3>
 Some examples of free encryption tools:
 
 ### VeraCrypt
-[VeraCrypt](https://veracrypt.codeplex.com/) is a free encryption software program with which you can encrypt a whole hard drive or create encrypted containers into which you can place sensitive files. These containers can be located on a hard drive, a file server or even on removable devices. It is easy to use and reliable from a security point of view.
+[VeraCrypt](https://veracrypt.codeplex.com/) is a free encryption software program with which you can encrypt a whole hard drive or create encrypted containers into which you can place sensitive files. These containers can be located on a hard drive, a file server or even on [removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html). It is easy to use and reliable from a security point of view.
 
 ### 7Z
 [7Z](https://www.7-zip.org/) is a free tool used to compress and archive files. This tool also has a AES 256-bit strong encryption option. It can therefore be used to transfer confidential encrypted files on removable devices or by email since the files are located in a compressed archive.
@@ -60,13 +60,13 @@ It is a symmetrical encryption tool like truecrypt, so you need to exchange the 
 The CSSI and the key administrator are responsible for the encryption process.
 
 ### Deposit creation
-The CSSI defines a secure location (typically a safety-deposit box classified as SECRET) in which copies of the keys made available to users are kept. The deposit has no backup. In the event they are destroyed, the key administrators should deposit their cases again.
+The CSSI defines a secure location (typically a safety-deposit box [classified]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html) as SECRET) in which copies of the keys made available to users are kept. The deposit has no backup. In the event they are destroyed, the key administrators should deposit their cases again.
 
 ### “Paper” deposit of keys classified as SECRET in a safety-deposit box.
 
 Applicable security measures:
 
-* Two people are necessary (“four eyes” principle; separate authentication);
+* Two people are necessary (“four eyes” principle; separate [authentication]({{site.url}}/knowhow/glossary/Authentication.html));
 * Protocol for opening and access to keys;
 * Keys in sealed envelopes;
 * Contents inventory stating:
@@ -99,13 +99,13 @@ On written request by the author and validated by the manager of the information
 The inventory is updated, keeping the destruction request as proof of legitimisation.
 
 <h3 class="titre-page">Electronic signatures</h3>
-An electronic signature is a method used to guarantee the authenticity of the source of a message (sender), and the integrity of its contents.
+An electronic signature is a method used to guarantee the authenticity of the source of a message (sender), and the [integrity]({{site.url}}) of its contents.
 
 This technology should be implemented during dialogue via email with external entities which may represent a commitment for the “organisation”. It is the responsibility of the IT manager to implement this technology for users.
 
-[LuxTrust](https://www.luxtrust.lu) provides electronic signature solutions. OpenPGP is a free alternative for signatures and encryption.
+[LuxTrust](https://www.luxtrust.lu) provides electronic signature solutions. [OpenPGP](https://www.openpgp.org/) is a free alternative for signatures and encryption.
 
-Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the integrity of the contents of the file relating to the message.
+Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the [integrity]({{site.url}}) of the contents of the file relating to the message.
 
 ### Applying security measures to:
 
@@ -114,46 +114,46 @@ Electronic signatures can be affixed to documents and to emails. The signature g
 
 ### Organisational measures:
 
-* Operational and communications aspects
-  * Documented procedures
-* Development and maintenance of systems
-  * Use of encryption
-  * Management of technical vulnerabilities
+* [Operational and communications aspects]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html)
+  * [Documented procedures]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#documentation-of-procedures)
+* [Development and maintenance of systems]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html)
+  * [Use of encryption]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#encryption)
+  * [Management of technical vulnerabilities]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#managing-technical-vulnerabilities)
 
 ### Technical measures:
 
-* encryption
+* [encryption]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#encryption)
 
 <h3 class="titre-page">Managing technical vulnerabilities</h3>
-All types of organisation need to monitor risks relating to the exploitation of technical vulnerabilities which have been subject to publication.
+All types of organisation need to monitor risks relating to the exploitation of [technical vulnerabilities]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#managing-technical-vulnerabilities) which have been subject to publication.
 
-To do this, they should introduce an effective and systematic management of technical vulnerabilities for all their operating systems and network equipment. This is done through the application of corrective or other tools designed to prevent the exploitation of technical vulnerabilities. Monitoring the measures undertaken will enable their actual effectiveness to be gauged.
+To do this, they should introduce an effective and systematic management of technical vulnerabilities for all their operating systems and network equipment. This is done through the application of [corrective]({{site.url}}/knowhow/glossary/Patches.html) or other tools designed to prevent the exploitation of technical vulnerabilities. Monitoring the measures undertaken will enable their actual effectiveness to be gauged.
 
 ### Applying security measures to:
 
-* file servers
-* email servers
-* computers connected to the Internet
-* laptop computers
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
+* [computers connected to the Internet]({{site.url}}/publications/recommendationsecuring/SecuringFixedWorkstation.html)
+* [laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html)
 
 ### Behavioural measures:
 
-* malicious websites
-* malicious code
+* [malicious websites]({{site.url}}/knowhow/glossary/MaliciousWebsites.html)
+* [malicious code]({{site.url}}/knowhow/sos/SOS-IThinkMyComputerInfected.html)
 
 ### Directly associated organisational measures:
 
-* Organisation of security
-  * Attribution of responsibilities
-* Human factors
-  * Response to incidents and security malfunctions
-* Operational and communications aspects
-  * Documented procedures
-  * Separation of development and production environments
-* Management of security incidents
-  * Incident management and improvements information security
+* [Organisation of security]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html)
+  *[ Attribution of responsibilities]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html#attribution-of-responsibilities)
+* [Human factors]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html)
+  * [Response to incidents and security malfunctions]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#response-to-incidents-and-malfunctions)
+* [Operational and communications aspects]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html)
+  * [Documented procedures]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#documentation-of-procedures)
+  * [Separation of development and production environments]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#separation-of-environments)
+* [Management of security incidents]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html)
+  * [Incident management and improvements information security]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#incident-management-and-improvements-information-security)
 
 ### Technical measures:
-* corrections
-* firewall
-* network segmentation
+* [corrections]({{site.url}}/knowhow/glossary/Patches.html)
+* [firewall]({{site.url}})
+* [network segmentation]({{site.url}}/knowhow/glossary/NetworkSegmentation.html)

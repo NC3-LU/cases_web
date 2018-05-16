@@ -18,12 +18,12 @@ Generally speaking, identity theft arises from the theft of the victim’s authe
 To defend yourself against identity theft, it is important to find out how your authentication data was lost:
 
 * a computer that was being used was infected with malware, which sent your identification data to the attacker;
-  * your computer is infected;
+  * [your computer is infected]({{site.url}}/knowhow/sos/IThinkMyComputerInfected.html);
   * you used your password on a public computer or a computer that could not be trusted;
 * you were a victim of phishing;
 * someone guessed your password;
 * the online application you were using is compromised;
-* you authenticated yourself on a potentially hostile network (open wifi, for example) without using encrypted communications.
+* you authenticated yourself on a potentially hostile network (open wifi, for example) without using [encrypted]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#encryption) communications.
 
 However, there are also ways to steal someone’s identity temporarily without stealing the authentication data:
 
@@ -32,7 +32,7 @@ However, there are also ways to steal someone’s identity temporarily without s
 
 <h3 class="titre-page">Measures to take</h3>
 
-* If you still have access to your account, change your password immediately, observing best practices, on a trustworthy computer (a computer which is not infected).
+* If you still have access to your account, change your [password immediately]({{site.url}}/knowhow/glossary/Passwords.html), observing best practices, on a trustworthy computer (a computer which is not infected).
 * If you no longer have access to your account, contact the administrators of the application you used. Most online applications offer a service for the retrieval of stolen accounts.
 * Do not use computers that do not belong to you and follow best practices with regard to malware.
-* Make sure you check that the website on which you enter your log-in information is properly secure, with “https”.
+* Make sure you check that the [website]({{site.url}}/knowhow/glossary/MaliciousWebsites.html) on which you enter your log-in information is properly secure, with “https”.

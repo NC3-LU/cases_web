@@ -23,7 +23,7 @@ Furthermore, since the introduction of the GDPR in Luxembourg, it is important t
 * the processing of personal data is inventoried
 * the CNPD is notified of the processing of personal data
 * the processing is secure (Art. 22 of the above mentioned law)
-* you stop any unauthorised processing or request authorisation. (Draft and enforce a Sectoral policy on compliance – Protection of personal data)
+* you stop any unauthorised processing or request authorisation. (Draft and enforce a Sectoral policy on compliance – [Protection of personal data]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#personal-data-protection))
 
 <h3 class="titre-page">Invalid or non-existent licence</h3>
 The Law of 18 April 2004 on copyright, related rights, databases and patents includes “computer programs” and “databases” within its framework. To be able to use these legally, an end user licence agreement must be provided with the software. This user licence must be valid for the period of use. Different types of licence exist: postal, global, rental, free, etc.
@@ -36,7 +36,7 @@ You therefore need to:
 * acquire new licences or uninstall unlicensed or inappropriate software
 * introduce a software restriction policy for users’ workstations
 * securely safeguard all software-containing media (e.g. in a locked cabinet)
-* ensure that the administrators are the only ones to install new software. (Draft and enforce a Sectoral policy on compliance – Intellectual property)
+* ensure that the administrators are the only ones to install new software. (Draft and enforce a Sectoral policy on compliance – [Intellectual property]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#intellectual-property))
 
 <h3 class="titre-page">Lack of traceability of operations</h3>
 An organisation may be asked, by its partners or by the legal system, to prove or disprove its actions. This particularly concerns email communications and those with commercial or legal pertinence (e-business transactions, financial orders, etc.).
@@ -59,4 +59,4 @@ It is therefore important to
 
 * be aware of and adhere to these regulations and ensure the organisation’s compliance
 
-Draft and enforce a Sectoral policy on compliance – Identification of applicable legislation and Intellectual property and Protection of operational data and Protection of personal data.
+Draft and enforce a Sectoral policy on compliance – [Identification of applicable legislation]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#comply-with-legislation) and [Intellectual property]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#intellectual-property) and [Protection of operational data]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#protection-of-operational-data) and [Protection of personal data]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#personal-data-protection).
