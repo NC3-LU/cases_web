@@ -10,7 +10,7 @@ toc: true
 ---
 <h3 class="titre-page" id="in-brief">In brief</h3>
 
-Antivirus is software for the identification and blocking of [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
+Antivirus is software for the identification and blocking of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
 It does this using two key resources:
 
@@ -27,7 +27,7 @@ No system is invulnerable to malicious code attacks, particularly because machin
 
 * Users who detect suspicious files should not open them, whether they arrive by [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email) or on [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}).
 * If a file needs to be opened and it is believed to contain non-confidential data, the user can upload it to the [virustotal](https://virustotal.com/#/home/upload) site, which will analyse the file for free using a wide range of software.
-* It is also sensible to wait 3 or 4 days before opening it. In fact, if it is new [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}), this wait will be needed to enable the production of the antivirus software to detect the code, analyse it and update the antivirus signature databases.
+* It is also sensible to wait 3 or 4 days before opening it. In fact, if it is new [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}), this wait will be needed to enable the production of the antivirus software to detect the code, analyse it and update the antivirus signature databases.
 
 ### Organisational practices
 

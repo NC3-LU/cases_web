@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: article
 title:  "SSL/TLS – encryption technologies on the web"
 menutitle:
 logo:

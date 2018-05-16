@@ -20,13 +20,13 @@ There are faults which have a direct effect on a physical element of the system 
 #### Environment
 In many cases, the inoperability of the IT elements is due to the lack of suitable conditions for them to work correctly. The environment in which the IT equipment is located may be affected by external factors, such as:
 
-* Power cuts
+* [Power cuts]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#power-cut)
 * Problems with the air conditioning, resulting in overheating
-* Fire
-* Service interruption
-* Disrupted transmission of wireless communications 
-* Network unavailability 
-* Discontinuity of service providers
+* [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#fire)
+* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#service-interruption)
+* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#disrupted-transmission-of-wireless-communications)
+* [Network unavailability ]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#network-unavailability)
+* [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#discontinuity-of-service-providers)
 
 The environment may lead to the unavailability of the system, but may also cause physical faults at component level.
 

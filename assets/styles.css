@@ -26,22 +26,6 @@ Template Name: cases.lu
 }
 /**********************************************************/
 
-/********Displays a border-left for the event :hover********/;
-.underline-title {
-	-webkit-transition: ease-out 0.1s;
-	-o-transition: ease-out 0.1s;
-	-moz-transition: ease-out 0.1s;
-	transition: ease-out 0.1s;
-}
-
-.underline-title:hover {
-	padding-left: 5px;
-	border-left: 3px solid rgb(0,114,184);
-	-webkit-transition: ease-out 0.1s;
-	-o-transition: ease-out 0.1s;
-	-moz-transition: ease-out 0.1s;
-	transition: ease-out 0.1s;
-}
 /*********************************************************/
 
 /*****Defines the height and width of the footer's logo*/
@@ -61,21 +45,12 @@ Template Name: cases.lu
 
 /*********************************************************/
 
-/****Display a margin-left if the cursor hovers the item**/
+/****Display a color if the cursor hovers the item**/
 .list-select {
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
 	outline: none;
 }
 
 .list-select:hover {
-	margin-left: 10px;
-	-webkit-transition: ease 0.1s;
-	-o-transition: ease 0.1s;
-	-moz-transition: ease 0.1s;
-	transition: ease 0.1s;
 	outline: none;
 	color: rgb(0,114,184);
 }
@@ -135,10 +110,6 @@ Template Name: cases.lu
 		font-family: sans-serif;
 		font-weight: bold;
 		position: relative;
-		-moz-transition: ease 0.3s;
-		-o-transition: ease 0.3s;
-		-webkit-transition: ease 0.3s;
-		transition: ease 0.3s;
 		display: inline-block;
 		outline-style: none;
 	}
@@ -149,17 +120,13 @@ Template Name: cases.lu
 		-webkit-border-radius: 30px;
 		border-radius: 30px;
 		padding: 10px;
-		width: 50%;
+		width: 100%;
 		color: #ffff4d;
 		background-color: rgb(0,114,184);
 		text-transform: uppercase;
 		font-family: sans-serif;
 		font-weight: bold;
 		position: relative;
-		-moz-transition: ease 0.3s;
-		-o-transition: ease 0.3s;
-		-webkit-transition: ease 0.3s;
-		transition: ease 0.3s;
 		display: inline-block;
 		outline-style: none;
 	}

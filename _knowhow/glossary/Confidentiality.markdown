@@ -15,7 +15,7 @@ Assurer le caractère confidentiel des données, c'est garantir que seul les per
 
 <h3 class="titre-page" id="menaces-mettant-en-peril-la-confidentialite">Menaces mettant en péril la confidentialité</h3>
 
-Voici une liste, non exhaustive, des [menaces](-) qui peuvent mettre en péril la confidentialité d'un actif:
+Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.markdown %}) qui peuvent mettre en péril la confidentialité d'un actif:
 
 * **COMPROMISSION D'INFORMATIONS**
   * Interceptions de signaux parasites compromettants

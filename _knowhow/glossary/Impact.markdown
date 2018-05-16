@@ -10,9 +10,9 @@ toc: true
 ---
 
 <h3 class="titre-page" id="in-brief">In brief</h3>
-L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities.markdown %}) d'un actif par une [menace](-). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
+L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities.markdown %}) d'un actif par une [menace]({% link _knowhow/glossary/Threat.markdown %}). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
 
-L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité](-) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) de l'[actif](-) en termes de confidentialité, intégrité et disponibilité.
+L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) de l'[actif]({% link _knowhow/glossary/Assets.markdown %}) en termes de confidentialité, intégrité et disponibilité.
 
 [Il est important de protéger son ordinateur - les raisons en sont nombreuses]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer.markdown %}).
 

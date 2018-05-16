@@ -27,7 +27,7 @@ All organisations must implement a security policy based on:
 * the state of the art (which implies an obligation to keep itself updated and informed);
 * costs relating to implementation.
 
-Draft and enforce a Sectoral policy on compliance.
+Draft and enforce a [Sectoral policy on compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#comply-with-legislation).
 
 <h3 class="titre-page" id="in-brief">Intellectual property</h3>
 Copyright on original literary and artistic works, which include databases and computer programs, as defined in the amended Law of 18 April 2001, must be respected. For example, the following basic principles can be cited:

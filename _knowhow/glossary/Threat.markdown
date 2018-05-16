@@ -156,7 +156,7 @@ EBIOS 2010 se divise selon les axes suivants :
 
   * Délibéré malveillant
 
-    *Source (humaine) interne
+  * Source (humaine) interne
 
 		* Capacités faibles
 

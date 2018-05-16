@@ -1,8 +1,8 @@
 ---
 layout: articlesmall
-title: Downloads
-menutitle: Downloads
-permalink: /downloads/
+title: Media
+menutitle: Media
+permalink: /media/
 toc: true
 ---
 <h6 class="txtcenter">This is the download page, where you can download the files (usually in PDF).</h6>

@@ -59,7 +59,7 @@ One common modus operandi for cybercriminals at the moment is to infect their vi
 
 If you have visited problematic content, such as pornographic websites, or engaged in intimate conversations via webcam, criminals could have a record of your activities and demand money to avoid them publishing this information. If you are in the public eye, you need to be doubly careful to avoid this type of criminality.
 
-<h3 class="titre-page" id="how-can-i-tell-if-my-computer-has-been-hacked">How can I tell if my computer has been hacked?
+<h3 class="titre-page" id="how-can-i-tell-if-my-computer-has-been-hacked">How can I tell if my computer has been hacked?</h3>
 It is difficult, if not impossible, for non-specialists to tell if their computer is infected once the malware has been well written. But there are still some clues to watch out for: perhaps your computer is running slower than usual? Has your anti-virus software flagged something up? When searching on Google, do you get redirected to other search engines? Have your friends mentioned any strange emails or messages they have received from you? Has your email account or any social network profile been blocked because it is distributing spam? Does your webcam come on automatically? Does advertising appear within your operating system, independently of any websites visited? Does your computer suddenly freeze while updating software? These are just a few examples of strange behaviour which should alert you to the possibility that your computer may be infected.
 
 If possible, you should use a Live CD to scan your device. This process enables your computer to be analysed without starting up the main system, and is therefore perfect for anti-virus operations.

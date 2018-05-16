@@ -21,7 +21,7 @@ It would be foolhardy to believe that preventive measures could prevent all inci
 
 The scope of the protective measures that are necessary is inversely proportional to the protective measures already implemented.
 
-<h3 class="titre-page" id="computer-room">Computer/IT room</h3>
+<h3 class="titre-page" id="computer-it-room">Computer/IT room</h3>
 For various reasons relating to the type of equipment, its operating equipment, its criticality, noise and heat produced, etc, it is prudent to use dedicated IT/computer rooms separated from the working areas used by employees.
 
 There are different types of IT/computer room:
@@ -103,7 +103,7 @@ This type of incident can arise for various reasons, including:
 This point is all the more critical given that most IT/computer rooms are fitted with false ceilings which prevent the easy detection of an incident. Cable routing between floors also provides an easy route for water to pass, making it easy for water to disperse through all types of “online” rooms.
 
 #### Consequences
-The [consequences](-) will naturally depend on the scope of the incident, but the areas likely to be affected are:
+The [consequences]({% link _knowhow/glossary/Impact.markdown %}) will naturally depend on the scope of the incident, but the areas likely to be affected are:
 
 * short-circuits leading to equipment service breakdown,
 * electrocution hazards,
@@ -158,7 +158,7 @@ There are different types of damage usually experienced in this way, such as:
 * draw up and practice a disaster plan, including a fallback to a specific computer centre,
 * use fireproof cabinets to store digital storage media (make sure these cabinets are kept locked).
 
-SMEs: see Fire
+SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#fire)
 
 <h3 class="titre-page" id="damage-relating-to-electricity">Damage relating to electricity
 
@@ -202,8 +202,8 @@ The effects of a power cut often continue upon restarting. When attempting to re
 
 SMEs: see
 
-* Service interruption
-* Power cut
+* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#service-interruption)
+* [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#power-cut)
 
 <h3 class="titre-page" id="electrical-faults">Electrical faults</h3>
 
@@ -273,24 +273,23 @@ The impact obviously depends on the usage that is made of the services affected 
 
 SMEs: see
 
-* Service interruption
-* Denial of service attacks and distributed denial of service attacks
-* Disrupted transmission of wireless communications
-* Network access unavailable
-* Service interruption
-* Failure of IT or communications equipment
+* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#service-interruption)
+* [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#denial-of-servicedistributed-service)
+* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#disrupted-transmission-of-wireless-communications)
+* [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#network-unavailability)
+* [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#failure-of-it-or-communications-equipment)
 
 <h3 class="titre-page" id="physical-intrusions">Physical intrusions</h3>
 
 #### Incidents
 The entry of unauthorised people in IT/computer rooms (and in the company’s premises) can lead to a number of unwanted situations, including:
 
-* [theft of hardware](-),
+* [theft of hardware]({% link _knowhow/glossary/PhysicalTheft.markdown %}),
 * loss of confidentiality,
 * sabotage.
 
 #### Consequences
-The [consequences](-) can be as follows:
+The [consequences]({% link _knowhow/glossary/Impact.markdown %}) can be as follows:
 
 * loss of reputation (credibility damaged in the event of the disclosure of highly confidential information, etc.),
 * direct financial losses (destruction of crucial data, computer systems disabled, etc.),

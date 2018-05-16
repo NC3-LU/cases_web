@@ -21,7 +21,7 @@ Basic security measures for web servers.
 
 To protect against defacement and certain types of semantic attack, there are several preventive measures, including:
 
-* the use of an integrity controller or anti-intrusion devices, in particular application [firewalls](-) that prevent a fault on a web application being exploited;
+* the use of an integrity controller or anti-intrusion devices, in particular application [firewalls]({% link _knowhow/glossary/Firewall.markdown %}) that prevent a fault on a web application being exploited;
 * installing [patches]({% link _knowhow/glossary/Patches.markdown %}) on the web server. These can reduce the number of vulnerabilities and thus the likelihood of intrusion on the server;
 * verification and regular monitoring of the website to be protected by trusted persons, inside or outside the organisation. For example, a daily content integrity check.
 

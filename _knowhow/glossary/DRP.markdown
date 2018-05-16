@@ -172,7 +172,7 @@ A hacker, motivated by financial gain, has the IT resources and expert knowledge
 
 Key ingredients in this scenario:
 
-* Sources of the [threat](-): A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
+* Sources of the [threat]({% link _knowhow/glossary/Threat.markdown %}): A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
 * Threat: A hacker breaks into the network via a WiFi connection to corrupt data. The hacker has the means and the skills.
 * Vulnerabilities exploited: Poorly protected WiFi (weak and widely-known WPA key).
 * IT system affected: Network + server.

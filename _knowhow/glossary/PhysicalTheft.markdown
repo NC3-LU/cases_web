@@ -9,12 +9,12 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief
+<h3 class="titre-page" id="in-brief">In brief</h3>
 A thief takes other people’s property by force or without them knowing. A theft can take place on all the items making up the stock of computer equipment. Such thefts may be committed in the premises of a company or while computer hardware is in transit.
 
 Alongside theft, the loss of computer equipment can have a sizeable impact on the person involved.
 
-<h3 class="titre-page" id="what-items-are-we-talking-about">What items are we talking about?
+<h3 class="titre-page" id="what-items-are-we-talking-about">What items are we talking about?</h3>
 There are many items that can be stolen or lost, and it is almost impossible to draw up an exhaustive list.
 
 The equipment that is stolen most often are:
@@ -30,7 +30,7 @@ The theft of magnetic storage media (tapes, hard drives), optical storage media 
 #####Mobile phones
 All the synchronisation functionalities between “GSM” and IT solutions clearly indicates that these items should be considered as part of the data processing chain.
 
-<h3 class="titre-page" id="what-are-the-impacts">What are the impacts?
+<h3 class="titre-page" id="what-are-the-impacts">What are the impacts?</h3>
 The theft of IT equipment can lead to serious consequences. The damage suffered can be:
 
 ##### The value of the equipment or storage media
@@ -56,7 +56,7 @@ The lack of availability of this equipment often makes it impossible for the vic
 ##### Identity theft
 It is highly likely that the person responsible for the theft, if they have any computer expertise, is able to use software such as email or e-banking type software while impersonating the legal owner. It is clear that in this case the financial damage can quickly reach considerable sums.
 
-<h3 class="titre-page" id="what-are-the-vulnerabilities-exploited">What are the vulnerabilities exploited?
+<h3 class="titre-page" id="what-are-the-vulnerabilities-exploited">What are the vulnerabilities exploited?</h3>
 Unfortunately, it is not possible to do away with all vulnerabilities, but we have to try to limit the potential impacts through checks, preventive measures and detection mechanisms.
 
 ##### Physical security
@@ -65,7 +65,7 @@ Effective access control for offices and computer rooms must be introduced. Remo
 ##### Human errors
 It is statistically proven that human error, lack of foresight, negligence or losses and omissions remain the biggest source of the loss of computer equipment.
 
-<h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves?
+<h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves?</h3>
 It is worth pointing out the difference between preventive measures, whose role is to prevent this type of event from arising, and other measures, the aim of which is to detect and monitor this type of event, or even to limit the impact.
 
 ##### Procedures
@@ -95,7 +95,7 @@ It is strongly advisable to use specialist software to [encrypt]({% link _knowho
 
 As always, make sure you use “strong” passwords.
 
-[Encryption]({% link _knowhow/glossary/Cryptography.markdown %}) is an effective protection against loss of [confidentiality](-) in the event of theft.
+[Encryption]({% link _knowhow/glossary/Cryptography.markdown %}) is an effective protection against loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) in the event of theft.
 
 *This countermeasure can be qualified as preventive.*
 

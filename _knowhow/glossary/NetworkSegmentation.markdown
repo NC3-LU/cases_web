@@ -14,7 +14,7 @@ Segmenting your network is a useful exercise that not only noticeably improves t
 If segmentation is done well, it doesn’t just contain potential threats in pre-determined areas, it also provides additional security tools.
 
 <h3 class="titre-page" id="red-zone-internet">Red zone – Internet</h3>
-Nowadays, the idea of a company IT system that is not connected to the Internet is unthinkable. The red zone is a zone over which we have no control, and this is where most threats come from. This zone should be separated from the rest of the internal network by a firewall or, at the very least, by an NAT router (as is the case for most households in Luxembourg). As a [firewall](-) is a computer that acts as filter for communications between the zones, the filtering rules must be defined by the firewall’s operator but, generally speaking, connections initiated on the Internet will at least be blocked.
+Nowadays, the idea of a company IT system that is not connected to the Internet is unthinkable. The red zone is a zone over which we have no control, and this is where most threats come from. This zone should be separated from the rest of the internal network by a firewall or, at the very least, by an NAT router (as is the case for most households in Luxembourg). As a [firewall]({% link _knowhow/glossary/Firewall.markdown %}) is a computer that acts as filter for communications between the zones, the filtering rules must be defined by the firewall’s operator but, generally speaking, connections initiated on the Internet will at least be blocked.
 
 Only the services exposed directly to the Internet must be identified and isolated in the orange zone.
 
@@ -37,18 +37,18 @@ You should pay particular attention to file servers, intranet server or other se
 
 Installing the servers directly in the green zone might be more convenient, but should be avoided due to any possible dangers that might arise.
 
-<h3 class="titre-page" id="blue-zone-nomads-and-visitors">Blue zone – Nomads and visitors
+<h3 class="titre-page" id="blue-zone-nomads-and-visitors">Blue zone – Nomads and visitors</h3>
 The blue zone gives restricted access (often to the Internet only) to visitors or to the staff’s private devices (iPads or telephones). This is typically the WiFi area. Internal services should only be accessible from this zone by taking certain precautions.
 
-<h3 class="titre-page" id="practical">Practical
+<h3 class="titre-page" id="practical">Practical</h3>
 Effective segmentation of the network can only be done using the appropriate tools. Firewalls, switches and, if necessary, WiFi antennae make up the heart of a segmented network, through which it should be possible to get good results even at low cost using free products. Network segmentation is within everyone’s grasp and is very practical for small businesses.
 
-<h3 class="titre-page" id="comments">Comments
+<h3 class="titre-page" id="comments">Comments</h3>
 As mentioned above, it is important not to consider the green zone a safe zone since this is where a large number of attacks can come from. The balance between ensuring the availability of services and security can be difficult to find, which is why it can’t be properly assessed without prior risk analysis.
 
 Proper segmentation of the network does not offer total protection and should never be considered as such. You should instead think of it as a necessary tool for the introduction of other security measures, such as intrusion detection systems, filters, antiviruses, etc.
 
-<h3 class="titre-page" id="examples">Examples
+<h3 class="titre-page" id="examples">Examples</h3>
 	
 ### Small network
 Case of a very small business. Segmentation can be limited to the use of an NAT router to separate the internal Internet network.

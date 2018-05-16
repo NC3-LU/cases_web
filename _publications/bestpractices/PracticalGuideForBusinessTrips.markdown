@@ -18,7 +18,7 @@ The protection of intangible capital has become an increasingly important concer
 * search results
 * expertise…
 
-All these assets will normally be managed by the [security policy]({% link _knowhow/CISOApproach.markdown %}\#politique-de-sécurité) implemented in the company. But what happens when such data moves beyond the walls of the company? Business trips involve particular danger for the information security of these types of data. Specific precautions need to be taken.
+All these [assets]({% link _knowhow/glossary/Assets.markdown %}) will normally be managed by the [security policy]({% link _knowhow/CISOApproach.markdown %}\#politique-de-sécurité) implemented in the company. But what happens when such data moves beyond the walls of the company? Business trips involve particular danger for the information security of these types of data. Specific precautions need to be taken.
 
 Once on the road, it is important to be aware of the risks and threats associated, for example, with the use of laptops and mobile phones.
 

@@ -21,7 +21,7 @@ Today, the word “spam” is commonly used to mean unsolicited [emails]({% link
 Such emails cost practically nothing to send. However, they can be very expensive for the recipients, in terms of connection costs and the volume of data transferred. This is a real waste of bandwidth and storage space for network administrators and email servers, and a huge waste of time for the recipients of spam (individuals and companies) in downloading, sorting and deleting spam received, with the added risk of mistakenly deleting an email that is not spam.
 
 <h3 class="titre-page" id="in-brief">Who does this spamming?</h3>
-Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) and the distribution of [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
+Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) and the distribution of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
 Spam should not be confused with advertising emails which are, contrary to spam, regulated through:
 
