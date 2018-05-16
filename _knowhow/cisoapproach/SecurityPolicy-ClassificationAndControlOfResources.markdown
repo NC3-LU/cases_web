@@ -9,7 +9,7 @@ categories: f-ciso
 toc: true
 ---
 <h3 class="titre-page">Classification and responsibility for resources</h3>
-An [inventory of the “organisation’s” vital and important resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#inventory-of-assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The [classification]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html) of [assets]({{site.url}}) is an extremely important task.
+An [inventory of the “organisation’s” vital and important resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#inventory-of-assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The [classification]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html) of [assets]({% link _knowhow/glossary/Assets.markdown %}) is an extremely important task.
 
 The level of importance of the resource for the company is also specified:
 
@@ -31,36 +31,36 @@ Elements considered as "**important**" are those that could cause serious conseq
 
 #### Security measures:
 
-* file servers
-* email servers
-* fixed network
-* internal WiFi network
-* customer WiFi network
-* computers connected to the Internet
-* laptop computers
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}\#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}\#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
 #### Directly associated organisational measures:
 
-* Organisation of security
-  * Attribution of responsibilities
-* Operational and communications aspects
-  * Documented procedures
-* Access control
-  * Access control policy
-  * Access rights management
-* Compliance
-  * Identification of applicable legislation
-  * Intellectual property
-  * Protection of operational data
-  * Personal data protection
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Identification of applicable legislation]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#comply-with-legislation)
+  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#intellectual-property)
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
 
 #### Technical measures:
 
-* classification
+* [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
 
 <h3 class="titre-page">Inventory of assets</h3>
 
-An inventory of the “organisation’s” major resources ([assets]({{site.url}})) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. Each asset should be [classified]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html)) according to [confidentiality]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-CheckList.html)), [integrity]({{site.url}})) and [availability]({{site.url}})) requirements.
+An inventory of the “organisation’s” major resources ([assets]({% link _knowhow/glossary/Assets.markdown %})) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. Each asset should be [classified]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html)) according to [confidentiality]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-CheckList.html)), [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and [availability]({% link _knowhow/glossary/Availability.markdown %})) requirements.
 
 Elements classified as “vital” are those that could compromise the “organisation’s” existence if they disappear, are disclosed externally or become defective. Elements considered as “important” are those that could cause serious consequences for the company under the same conditions.
 
@@ -71,7 +71,7 @@ The management and classification of properties is based on the following princi
 3. Ensure the correct use of assets in accordance with the security rules for the different classes.
 4. Regular review by the manager.
 5. Classification based on 3 criteria: confidentiality, integrity and availability.
-6. Classification depending on [impact]({{site.url}})).
+6. Classification depending on [impact]({% link _knowhow/glossary/Impact.markdown %})).
 7. Confidentiality classification legacy.
 8. Qualification of contents to simplify management rules.
 9. Default classification.

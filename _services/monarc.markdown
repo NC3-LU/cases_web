@@ -26,7 +26,7 @@ It is based on CASES expertise and regularly updated prior knowledge of the busi
 This stage is used to set establish the context of the risk analysis and to produce:
 
 * a trend evaluation;
-* a threats assessment;
+* a [threats]({% link _knowhow/glossary/Threat.markdown %}) assessment;
 * the risk management context;
 * definition of the assessment, acceptance and impact criteria
 

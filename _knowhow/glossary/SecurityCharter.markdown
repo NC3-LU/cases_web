@@ -40,7 +40,7 @@ Proof is sometimes considered to be the fourth pillar of information security.
 2. **Protect your passwords**
   Never disclose your [passwords]({% link _knowhow/glossary/Password.markdown %}).If someone asks you for them, refuse. Our security means never giving out passwords.
 3. **Know how to keep a secret**
-  Never disclose [confidential](-) data in any circumstances.
+  Never disclose [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) data in any circumstances.
   Do not publicly discuss matters that should be kept secret.
 4. **Block access to your computer**
   If you leave your office, block access to your computer.
@@ -49,7 +49,7 @@ Proof is sometimes considered to be the fourth pillar of information security.
 6. **Resist "[social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})" methods**
   During an email or telephone conversation, make sure that you know the identity of the person you are communicating with. Be careful whenever you are asked for personal or confidential information or information that is important to the company. [Social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) exploits [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#human-vulnerabilities) to gain access to confidential information.
 7. **Keep a close watch on your emails**
-  Emails can be a [threat](-) to your computer and for the whole IT network. Never reply to emails asking for personal and/or confidential information. Check the provenance, safety and [integrity](-) of all attachments.
+  Emails can be a [threat]({% link _knowhow/glossary/Threat.markdown %}) to your computer and for the whole IT network. Never reply to emails asking for personal and/or confidential information. Check the provenance, safety and [integrity]({% link _knowhow/glossary/Integrity.markdown %}) of all attachments.
 8. **Use the internet intelligently**
   Internet use is limited for security reasons. Access is restricted ([web filter](% link _knowhow/glossary/WebFilterProxy.markdown %})), but sufficient for your professional use. Only download the files you need for your work, never for leisure, and be attentive to the files obtained.
 9. **Use an antivirus program**
@@ -70,7 +70,7 @@ Once you start to use a computer tool, please respect the following "golden rule
 2. **Antivirus: vaccinate your computer**
   Just like you, your computer needs to be vaccinated to stay healthy and protected from viruses and worms. Install an [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) and keep it up-to-date – this is an indispensable reflex for computer security.
 3. **The firewall: protection against attacks**
-  Install a [firewall](-) and configure it correctly. This will not only enable you to block suspicious attacks or logins which may be viruses, worms or Trojans, but also to prevent the leak of your personal and confidential information.
+  Install a [firewall]({% link _knowhow/glossary/Firewall.markdown %}) and configure it correctly. This will not only enable you to block suspicious attacks or logins which may be viruses, worms or Trojans, but also to prevent the leak of your personal and confidential information.
 4. **Antispyware: thwart organised spying**
   Secure your e-banking/e-commerce transactions by installing antispyware that regularly scans the computer to detect [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) that may be there.
 5. **Security patches: closing gaps**

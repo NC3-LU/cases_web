@@ -8,7 +8,7 @@ short:
 categories: f-bestpract
 toc: true
 ---
-Software is the user interface most commonly used by hackers who wish to manipulate data. It is subject to a number of restrictions and [threats]({{site.url}}) which may place an organisation’s operation in jeopardy. This section is specifically dedicated to malicious software (or ‘malware’).
+Software is the user interface most commonly used by hackers who wish to manipulate data. It is subject to a number of restrictions and [threats]({% link _knowhow/glossary/Threat.markdown %}) which may place an organisation’s operation in jeopardy. This section is specifically dedicated to malicious software (or ‘malware’).
 
 <h3 class="titre-page">Unsuitable software environment</h3>
 In order to run correctly and fulfil its roles, IT hardware must have the appropriate software. To do so involves:

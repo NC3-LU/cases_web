@@ -20,18 +20,19 @@ Additionally, any person with technological responsibilities must ensure that th
 
 ### Applying security measures for:
 
-* computers connected to the Internet
-* laptop computers
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
 ### See also:
 
-* Protecting your business – Training your employees
-* Awareness and training
-* Human errors
+* [Protecting your business – Training your employees]({% link _publications/ProtectingYourCompany.markdown %})
+* [Awareness and training]({% link _publications/ProtectingYourCompany.markdown %}\#training-and-awareness)
+* [Human errors]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}\#human-error-prevention-measures)
 
 <h3 class="titre-page">Human Resources management</h3>
+
 ### Prior to recruitment
-The aim of the [security policy]({{site.url}}/knowhow/CISOApproach.html)  is to ensure that all agents are aware of their responsibilities and that agents are chosen in view of their suitability for the responsibilities allocated to them. This principle avoids the risk of error or incorrect use of the organisation’s [property]({{site.url}}) .
+The aim of the [security policy]({{site.url}}/knowhow/CISOApproach.html)  is to ensure that all agents are aware of their responsibilities and that agents are chosen in view of their suitability for the responsibilities allocated to them. This principle avoids the risk of error or incorrect use of the organisation’s property .
 
 To this effect, the organisation must ensure that it mentions security-related responsibilities in job descriptions. The candidates, especially for sensitive posts, are chosen taking this element into consideration. The chosen candidates are asked to sign an agreement on their security-related roles and responsibilities.
 
@@ -39,8 +40,8 @@ To this effect, the organisation must ensure that it mentions security-related r
 The aim of the security policy is to ensure each agent is aware of:
 
 * the usefulness of knowing and understanding the **security policy**,
-* the [threats]({{site.url}})  that are most likely to affect the security of their activity,
-* the worst [case]({{site.url}})  scenarios,
+* the [threats]({% link _knowhow/glossary/Threat.markdown %})  that are most likely to affect the security of their activity,
+* the worst [case]({% link _knowhow/glossary/Impact.markdown %})  scenarios,
 * their own responsibility in terms of security, and
 * the necessity of contributing to **risk reduction**, particularly in relation to human errors.
 

@@ -10,12 +10,12 @@ toc: true
 ---
 
 <h3 class="titre-page" id="in-brief">In brief</h3>
-Un serveur de fichiers est un serveur spécial dans le sens que celui-ci n'est que rarement connecté à l'Internet mais est en général directement ou au travers d'un firewall connecté au réseau interne. Il sert de lieu de stockage commun à tous les fichiers de l'entreprise et fait de ce fait office de lien entre tous les ordinateurs, facilitant la communication en interne mais aussi la propagation de [logiciels malveillants](-).
-Malgré le fait que ce serveur ne soit pas connecté à l'Internet en général il est important de suivre les mêmes recommandations que pour un [serveur connecté à l'Internet](-).
+Un serveur de fichiers est un serveur spécial dans le sens que celui-ci n'est que rarement connecté à l'Internet mais est en général directement ou au travers d'un firewall connecté au réseau interne. Il sert de lieu de stockage commun à tous les fichiers de l'entreprise et fait de ce fait office de lien entre tous les ordinateurs, facilitant la communication en interne mais aussi la propagation de [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
+Malgré le fait que ce serveur ne soit pas connecté à l'Internet en général il est important de suivre les mêmes recommandations que pour un [serveur connecté à l'Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet.markdown %}).
 
 <h3 class="titre-page" id="Security Measures">Mesures de sécurité</h3>
 
-1. Il est fortement recommandé de protéger le serveur de fichiers contre les [logiciels malveillants](-). Le logiciel d'analyse [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) doit être régulièrement mis à jour pour pouvoir reconnaître les derniers codes malicieux et les supprimer. Rédigez et faites respecter une Politique sectorielle sur Aspects opérationnels et communications - [protection contre les logiciels malicieux]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#protection-against-malware).
+1. Il est fortement recommandé de protéger le serveur de fichiers contre les [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes.markdown %}). Le logiciel d'analyse [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) doit être régulièrement mis à jour pour pouvoir reconnaître les derniers codes malicieux et les supprimer. Rédigez et faites respecter une Politique sectorielle sur Aspects opérationnels et communications - [protection contre les logiciels malicieux]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#protection-against-malware).
 
 2. Il est fortement recommandé d’utiliser un logiciel **antivirus différent** pour le serveur de fichiers que pour les postes des agents. Ainsi la chance de détection d’un virus est plus grande.
 

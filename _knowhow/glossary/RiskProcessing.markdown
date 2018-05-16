@@ -10,7 +10,7 @@ toc: true
 ---
 
 <h3 class="titre-page" id="in-brief">In brief</h3>
-A company that seeks to protect itself will try to deal with any risks ([threat](-) – [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) – [impact](-)) confronting it. To do this, the company could work along fairly formal lines:
+A company that seeks to protect itself will try to deal with any risks ([threat]({% link _knowhow/glossary/Threat.markdown %}) – [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) – [impact]({% link _knowhow/glossary/Impact.markdown %})) confronting it. To do this, the company could work along fairly formal lines:
 
 * formal risk management process, catering for the important and vital assets of the company
 * the application of best practices for the various types of assets, without carrying out a formal risk analysis
@@ -40,7 +40,7 @@ It could also prove disadvantageous in terms of costs for companies with low sec
 The adoption of best practices is recommended in the following fields:
 
 * best practices relating to the protection of company data; how to classify data, backups, transfer, transportation and definitive destruction
-* best practices relating to the protection of company machines; [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %}), [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}), [file servers](-), [mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}), [web servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %})
+* best practices relating to the protection of company machines; [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %}), [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}), [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %}), [mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}), [web servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %})
 * best practices relating to the protection of networks; [fixed networks]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %}), [wifi networks]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}), remote working
 * [best practices relating to employee and/or client awareness and training]({% link _services/trainings.markdown %})
 * [best practices relating to the organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
@@ -51,14 +51,14 @@ The adoption of best practices is recommended in the following fields:
 The adoption of best practices in the following fields is also advisable:
 
 * best practices: [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
-* best practices: [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %})
+* best practices: [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %})
 * best practices: [e-banking, e-commerce]({% link _publications/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
 * Security [checklist for web applications in PHP]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications.markdown %})
 
 <h3 class="titre-page" id="non-exhaustive-strategies">Non-exhaustive strategies</h3>
 To deal with risks, a company may therefore decide to implement a [risk management]({% link _publications/WhyManageRisks.markdown %}) process and implement best practices for the different types of assets.
 
-Alongside these more or less exhaustive strategies, which all focus on the protection of different important and vital assets of the company, each company could start thinking about [threats](-) and [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}). This approach is not exhaustive and should not be deemed to be sufficient, as it does not focus on the important or vital assets of the company.
+Alongside these more or less exhaustive strategies, which all focus on the protection of different important and vital assets of the company, each company could start thinking about [threats]({% link _knowhow/glossary/Threat.markdown %}) and [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}). This approach is not exhaustive and should not be deemed to be sufficient, as it does not focus on the important or vital assets of the company.
 
 <h3 class="titre-page" id="threat-analysis">Threat analysis</h3>
 A threat analysis can be treated as an optional approach enabling a more detailed study of certain threats, and ensures that no threat has been overlooked in the risk management strategy or the strategy based on best practices.
@@ -73,7 +73,7 @@ See: [Check list of security measures for SMEs]({% link _knowhow/bestpractices/S
 
 The most widespread threats are:
 
-* [malicious software (malware)]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %})
+* [malicious software (malware)]({% link _knowhow/glossary/MaliciousCodes.markdown %})
 * [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %})
 * [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
 * [phishing]({% link _knowhow/glossary/Phishing.markdown %})

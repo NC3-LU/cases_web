@@ -10,7 +10,7 @@ toc: true
 ---
 
 <h3 class="titre-page">In brief</h3>
-These days, it is very difficult to tell if a machine is infected. [Cybercriminals]({{site.url}}/knowhow/glossary/Cybercriminals.html) try to use [Trojan horses]({{site.url}}) to extract data (spying), or use the computer for larger scale attacks (distributed denial of service), to send [spam]({{site.url}}/knowhow/glossary/SPAM-UnwantedEmails.html) or other illicit reasons.
+These days, it is very difficult to tell if a machine is infected. [Cybercriminals]({{site.url}}/knowhow/glossary/Cybercriminals.html) try to use [Trojan horses]({% link _knowhow/glossary/MaliciousCodes.markdown %}\#cheval-de-troie) to extract data (spying), or use the computer for larger scale attacks (distributed denial of service), to send [spam]({{site.url}}/knowhow/glossary/SPAM-UnwantedEmails.html) or other illicit reasons.
 
 Some infections have no real aim, and many initial infections only load installation software. In this case, access to the infected computers is sold to the highest bidder, who then uses the installer (Trojan loader) to install the final Trojan horse.
 

@@ -12,7 +12,7 @@ toc: true
 > Check to verify the completeness of this article.
 
 <h3 class="titre-page">Risk Management and Security Policy</h3>
-**[Risk management]({{site.url}}/knowhow/glossary/RiskProcessing.html)** requires analysis of the security requirement for each [asset]({{site.url}}) (**[classification]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html)** according to the feared **impact**), assesses the likelihood of threats for these assets and quantifies the ease with which the vulnerabilities of these assets can be exploited.
+**[Risk management]({{site.url}}/knowhow/glossary/RiskProcessing.html)** requires analysis of the security requirement for each [asset]({% link _knowhow/glossary/Assets.markdown %}) (**[classification]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html)** according to the feared **impact**), assesses the likelihood of threats for these assets and quantifies the ease with which the vulnerabilities of these assets can be exploited.
 
 For very small businesses, this risk analysis is not easy to perform. As a result, this section provides a non-exhaustive list of potential threats and responses to reduce their impact.
 

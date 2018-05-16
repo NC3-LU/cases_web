@@ -40,7 +40,7 @@ This separation aims to limit the risk of modifications to actual data.
 
 The use of production data located in test environments (which tend to be less well protected) is, in fact, not recommended.
 
-In particular if critical data (from the point of view of [confidentiality]({{site.url}})), trade secrets or personal data is processed there.
+In particular if critical data (from the point of view of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %})), trade secrets or personal data is processed there.
 
 ### Applying security measures to:
 
@@ -63,7 +63,7 @@ Here, we talk about “outsourcing” or “facilities management”.
 * Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see External connections).
 
 <h3 class="titre-page">Protection against malware</h3>
-An attack by a virus or other [malicious software]({{site.url}}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html), such as, in particular, CD-ROMs,
+An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html), such as, in particular, CD-ROMs,
 
 The “organisation’s” computers and servers must be equipped with [antivirus software]({{site.url}}/knowhow/glossary/AntiVirus.html). The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see [security measures for file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html) and [security measures for email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)).
 
@@ -114,7 +114,7 @@ Incoming email verification tools deal not only with viruses, but can also elimi
 ### Technical measures:
 
 * [Antivirus]({{site.url}}/knowhow/glossary/AntiVirus.html)
-* [Firewall]({{site.url}})
+* [Firewall]({% link _knowhow/glossary/Firewall.markdown %})
 * [Network segmentation]({{site.url}}/knowhow/glossary/NetworkSegmentation.html)
 * [Patches]({{site.url}}/knowhow/glossary/Patches.html)
 * [Backups]({{site.url}}/publications/ProtectingYourCompany.html#data-backups)

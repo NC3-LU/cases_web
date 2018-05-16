@@ -9,7 +9,7 @@ categories: f-ciso
 toc: true
 ---
 <h3 class="titre-page">Encryption</h3>
-[Encryption]({{site.url}}) consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during [email]({{site.url}}) communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see [Interception of communications]({{site.url}})).
+[Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during [email]({ % link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email) communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#interception-of-communications)).
 
 ### Applying security measures to:
 
@@ -99,13 +99,13 @@ On written request by the author and validated by the manager of the information
 The inventory is updated, keeping the destruction request as proof of legitimisation.
 
 <h3 class="titre-page">Electronic signatures</h3>
-An electronic signature is a method used to guarantee the authenticity of the source of a message (sender), and the [integrity]({{site.url}}) of its contents.
+An electronic signature is a method used to guarantee the authenticity of the source of a message (sender), and the [integrity]({% link _knowhow/glossary/Integrity.markdown %}) of its contents.
 
 This technology should be implemented during dialogue via email with external entities which may represent a commitment for the “organisation”. It is the responsibility of the IT manager to implement this technology for users.
 
 [LuxTrust](https://www.luxtrust.lu) provides electronic signature solutions. [OpenPGP](https://www.openpgp.org/) is a free alternative for signatures and encryption.
 
-Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the [integrity]({{site.url}}) of the contents of the file relating to the message.
+Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the [integrity]({% link _knowhow/glossary/Integrity.markdown %}) of the contents of the file relating to the message.
 
 ### Applying security measures to:
 
@@ -139,7 +139,7 @@ To do this, they should introduce an effective and systematic management of tech
 ### Behavioural measures:
 
 * [malicious websites]({{site.url}}/knowhow/glossary/MaliciousWebsites.html)
-* [malicious code]({{site.url}}/knowhow/sos/SOS-IThinkMyComputerInfected.html)
+* [malicious code]({% link _knowhow/glossary/MaliciousCodes.markdown %})
 
 ### Directly associated organisational measures:
 
@@ -153,7 +153,8 @@ To do this, they should introduce an effective and systematic management of tech
 * [Management of security incidents]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html)
   * [Incident management and improvements information security]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#incident-management-and-improvements-information-security)
 
+
 ### Technical measures:
 * [corrections]({{site.url}}/knowhow/glossary/Patches.html)
-* [firewall]({{site.url}})
+* [firewall]({% link _knowhow/glossary/Firewall.markdown %})
 * [network segmentation]({{site.url}}/knowhow/glossary/NetworkSegmentation.html)

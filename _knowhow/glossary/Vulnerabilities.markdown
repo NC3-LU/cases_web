@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-Vulnerabilities are all the flaws in corporate [assets](-) that could be exploited by [threats](-), with the aim of compromising them. This exploitation can cause significant [impacts](-). New vulnerabilities are regularly discovered.
+Vulnerabilities are all the flaws in corporate [assets]({% link _knowhow/glossary/Assets.markdown %}) that could be exploited by [threats]({% link _knowhow/glossary/Threat.markdown %}), with the aim of compromising them. This exploitation can cause significant [impacts]({% link _knowhow/glossary/Impact.markdown %}). New vulnerabilities are regularly discovered.
 
 It is possible to gather vulnerabilities together into a number of families.
 
@@ -31,7 +31,7 @@ These would include:
 
 * the presence of vulnerabilities in operating systems or software that could be exploited by [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}), simply by visiting [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %});
 * the interoperability of IT and communications systems: to enable easy communications between different systems, additional layers of communication are often implemented, which can lead to the appearance of fresh vulnerabilities;
-* the complexity of rules on [firewalls](-) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
+* the complexity of rules on [firewalls]({% link _knowhow/glossary/Firewall.markdown %}) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
 
 <h3 class="physical-vulnerabilities">Physical vulnerabilities</h3>
 This family includes all vulnerabilities relating to unforeseeable events such as breakdowns, accidents or even intentional damage to hardware.

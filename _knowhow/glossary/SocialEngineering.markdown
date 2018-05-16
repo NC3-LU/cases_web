@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 <h3 class="titre-page" id="in-brief">In brief</h3>
-Social engineering is a technique that aims to access [confidential](-) information or certain [assets](-) by manipulating people who have direct or indirect access to it. One example of social engineering is [phishing]({% link _knowhow/glossary/Phishing.markdown %}).
+Social engineering is a technique that aims to access [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information or certain [assets]({% link _knowhow/glossary/Assets.markdown %}) by manipulating people who have direct or indirect access to it. One example of social engineering is [phishing]({% link _knowhow/glossary/Phishing.markdown %}).
 
 Social engineering doesn't just apply to the IT domain, it can also occur in daily life and, in particular, at the workplace. As soon assets of a certain interest are at stake, attacks like this type may appear.
 
@@ -52,5 +52,5 @@ The attacker may also adopt a completely different strategy, for example, by put
 * Never leave paper documents containing sensitive information in plain view. Likewise for documents thrown in the bin. Make any documents you no longer need illegible.
 
 <h3 class="titre-page" id="further-information">Further information</h3>
-* [Detailed article on social engineering](-)
+* [Detailed article on social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
 * [SMEs: Threats to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})

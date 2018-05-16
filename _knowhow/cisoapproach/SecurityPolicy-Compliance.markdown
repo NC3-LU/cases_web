@@ -9,13 +9,13 @@ categories: f-ciso
 toc: true
 ---
 <h3 class="titre-page">Comply with legislation</h3>
-Non-compliance with information technology legislation may put the *organisation* in a delicate situation ([impacts]({{site.url}})) with regard to its customers (brand image). It can also result in financial (fines) or penal (liability of legal persons) consequences. The *organisation* must therefore respect the law, notably with regard to:
+Non-compliance with information technology legislation may put the *organisation* in a delicate situation ([impacts]({% link _knowhow/glossary/Impact.markdown %})) with regard to its customers (brand image). It can also result in financial (fines) or penal (liability of legal persons) consequences. The *organisation* must therefore respect the law, notably with regard to:
 
 * intellectual property and copyright
 * protection of mandatory operational data and personal data. (SMEs: see [Regulatory requirements]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#regulatory-requirements) and [Lack of traceability of operations]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#lack-of-traceability-of-operations)).
 
 <h3 class="titre-page">Intellectual property</h3>
-The *organisation* must also ensure the respect of [copyright]({{site.url}}) and licences. Sanctions for non-compliance with these laws may threaten the *organisation* (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence)). This particularly applies to copyright on original literary and artistic works, which includes databases and computer programs, as set out in the Law of 18 April 2001.
+The *organisation* must also ensure the respect of [copyright]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#intellectual-property) and licences. Sanctions for non-compliance with these laws may threaten the *organisation* (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence)). This particularly applies to copyright on original literary and artistic works, which includes databases and computer programs, as set out in the Law of 18 April 2001.
 
 The IT team is expected to check the requirements for both programs used and data owned by the organisation. In case of doubt, they can consult Luxembourg law at http://www.eco.public.lu/dpi (in French), or contact a legal expert.
 
@@ -42,26 +42,27 @@ Data corresponding to commercial activity must be kept, in one form or another, 
 
 ### Directly associated organisational measures:
 
-* Organisation of security
-  * Attribution of responsibilities
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Operational and communications aspects
-  * Documented procedures
-* Access control
-  * Access control policy
-  * Access rights management
-* Management of security incidents
-  * Reporting information security events
-* Managing business continuity
-  * Operational continuity
-* Compliance
-  * Personal data protection
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
+  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}\#reporting-information-security-events)
+*[ Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}\#operational-continuity)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
+
 
 ### Technical measures:
 
-* Encryption
-* Backups
+* [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
+* [Backups]({% link _publications/ProtectingYourCompany.markdown %}\#data-backups)
 
 <h3 class="titre-page">Personal data protection</h3>
 Any file or database created must comply with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data, as well as the new GDPR legislation. The same applies to processing involving both newly created data and pre-existing data. (SMEs: see [Unauthorised processing of personal data – Employee monitoring]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#unauthorised-processing-of-personal-data--employee-monitoring))
@@ -77,11 +78,11 @@ In order to work within the confines of the laws, the IT manager and the legal m
 ### Applying security measures to:
 
 * all vital or important data processing systems
-* See also legal aspects
+* See also [legal aspects]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
 
 ### Behavioural measures:
 
-* Best practice concerning email
+* [Best practice concerning email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
 
 ### Directly associated organisational measures:
 

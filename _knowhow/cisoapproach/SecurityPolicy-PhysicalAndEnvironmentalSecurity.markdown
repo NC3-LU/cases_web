@@ -17,27 +17,28 @@ All the elements listed as important or vital for “the organisation” must be
 
 ### Applying security measures to:
 
-* computers
-* laptops
-* file servers
-* email servers
-* fixed network
-* internal WiFi network
-* customer WiFi network
-* protect the premises
+* [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
+* [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}\#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}\#wifi-for-visitorsexternal-users)
+* [protect the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#infiltrating-the-premises)
 
 ### Directly associated organisational measures:
 
-* Physical and environmental security
-  * Rules within the perimeter
-  * Clean desk
-* Access control
-  * Access control policy
-  * Access rights management
-* Management of security incidents
-  * Reporting information security events
-* Managing business continuity
-  * Operational continuity
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#rules-within-the-perimeter)
+  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#tidy-office-policy)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
+  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}\#reporting-information-security-events)
+*[ Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}\#operational-continuity)
+
 
 ### Technical measures:
 
@@ -60,28 +61,30 @@ Physical security
 
 ### To be applied in security measures for:
 
-* computers
-* laptops
-* file servers
-* email servers
-* fixed network
-* internal wifi network
-* wifi network for clients
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
+* [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
+* [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
+* [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
+* [customer WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({{site.url}}/publications/recommendationsecuring/SecuringFixedWorkstation.html)
+* [laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html)
+
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Human factors
-  * Training and information
-  * Response to incidents and security malfunctions
-* Physical and environmental security
-  * Physical security perimeter
-  * Clean desk
-* Operational and communications aspects
-  * Documented procedures
-* Management of security incidents
-  * Reporting information security events
+* [Classification and monitoring of resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html)
+  * [Classification of and responsibility for resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
+  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
+  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#response-to-incidents-and-malfunctions)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter)
+  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#tidy-office-policy)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
+  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}\#reporting-information-security-events)
+
 
 ### Technical measures
 Physical security
@@ -95,23 +98,23 @@ The electricity power supply for vital equipment must be made safe:
 
 ### To be applied in security measures for:
 
-* file servers
-* email servers
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Physical and environmental security
-  * Physical security perimeter
-  * Maintenance
-* Operational and communications aspects
-  * Documented procedures
-* Managing business continuity
-  * Operational continuity
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter)
+  * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#maintenance)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}\#operational-continuity)
 
 ### Technical measures
-Physical security
+[Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 <h3 class="titre-page">Maintenance</h3>
 For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence) and [Administration impossible}({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({{site.url}}) of [resources]({{site.url}}).
@@ -122,56 +125,57 @@ See also: [SOS – handover to repairs]({{site.url}}/knowhow/sos/SOS-HandoverToR
 
 ### To be applied in security measures for:
 
-* file servers
-* email servers
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 
 ### Directly associated organisational measures:
 
-* Organisation of security
-  * Attribution of responsibilities
-  * Third party access and outsourcing
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Physical and environmental security
-  * Electrical equipment safety
-* Operational and communications aspects
-  * Documented procedures
-* Development and maintenance of systems
-  * Management of technical vulnerabilities
-* Managing business continuity
-  * Operational continuity
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
+  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#third-party-access-and-outsourcing)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#electrical-equipment-safety)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  *[Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
+  * [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#managing-technical-vulnerabilities)
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+
 
 ### Technical measures
 
-Physical security
+[Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 <h3 class="titre-page">Off-site equipment security</h3>
 The equipment used for processing information off the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk. (SMEs: see [Hardware damaged during transport]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#hardware-damaged-during-transport); [Aggravated theft]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#aggravated-theft); [Basic security measures for laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html#recommendations))
 
 ### Applying security measures to:
 
-* laptops
+* [laptops]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.markdown %)
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Access control
-  * Access control policy
-  * Access rights management
-* Development and maintenance of systems
-  * Use of encryption
-  * Management of technical vulnerabilities
-* Management of security incidents
-  * Reporting information security events
-* Compliance
-  * Protection of operational data
-  * Personal data protection
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
+  * [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
+  * [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#managing-technical-vulnerabilities)
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
+  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}\#reporting-information-security-events)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
 
 ### Technical measures:
 
-* Physical security
-* Prevent physical theft
+* [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+* [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#tidy-office-policy)
 
 <h3 class="titre-page">Disposal and reuse of equipment</h3>
 Any equipment that [is discarded]({{site.url}}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery)).

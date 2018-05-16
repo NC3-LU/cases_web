@@ -10,14 +10,14 @@ toc: true
 main-categ: bestpract
 ---
 <h3 class="titre-page">In brief</h3>
-Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({{ site.url }}/knowhow/bestpractices/SecurityMeasures4SME-CheckList.html)), falsification (loss of [integrity]({{ site.url }})) and even destruction (loss of [availability]({{ site.url }})).
+Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), falsification (loss of [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and even destruction (loss of [availability]({% link _knowhow/glossary/Availability.markdown %})).
 
 Company managers usually only realise the true value of their [assets]() after a serious incident occurs. It is then often too late to take curative or protective measures.
 
 <h3 class="titre-page">Incidents and impacts</h3>
 There are many reasons why it is important to [protect your computer]({{ site.url }}/knowhow//glossary/WhyImportant2ProtectYourComputer.html).
 
-Many incidents are very difficult to detect. How can you find out that someone has stolen your [passwords]({{ site.url }}/knowhow/glossary/Password.html) and has been reading the communications you have had with your suppliers, clients or employees via [email]({{ site.url }})?  How do you know no-one is directly spying on your computer, or is using your documents server or your web server to host illegal files? Many incidents remain undetected and most [impacts]({{ site.url }}) are vastly underestimated.
+Many incidents are very difficult to detect. How can you find out that someone has stolen your [passwords]({{ site.url }}/knowhow/glossary/Password.html) and has been reading the communications you have had with your suppliers, clients or employees via [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email)?  How do you know no-one is directly spying on your computer, or is using your documents server or your web server to host illegal files? Many incidents remain undetected and most [impacts]({% link _knowhow/glossary/Impact.markdown %}) are vastly underestimated.
 
 <h3 class="titre-page">Choosing the right strategy</h3>
 It is very important to introduce preventive and protective measures as early as possible. The way forward may differ between a “gradual” or a “general” strategy. It can be more or less methodological, going from the introduction of best practices and specific measures, all the way up to the deployment of a full [ISMS]({{ site.url }}/publications/ISO27000SF/ISO27001-ISMS.html). The company should choose the solution that suits it best – a solution that is ready and able to be implemented.
@@ -31,7 +31,7 @@ The best way to protect a company consists of opting for continuous improvement,
 <h3 class="titre-page">Risk analysis</h3>
 To be able to protect important and vital data and assets, they must first of all be identified through at least [a rudimentary risk analysis]({{ site.url }}).
 
-To do this, the data and assets that are essential to the company should be identified, along with the [threats]({{ site.url }}) and the probability that such threats may arise. Also to be identified are the scope of [human and technical vulnerabilities]({{ site.url }}/knowhow/glossary/Vulnerabilities.html) and a quantification of the potential [impacts]({{ site.url }}). This exercise can be more or less formal in nature, and can be supported by a specific method or tool.
+To do this, the data and assets that are essential to the company should be identified, along with the [threats]({% link _knowhow/glossary/Threat.markdown %}) and the probability that such threats may arise. Also to be identified are the scope of [human and technical vulnerabilities]({{ site.url }}/knowhow/glossary/Vulnerabilities.html) and a quantification of the potential [impacts]({% link _knowhow/glossary/Impact.markdown %}). This exercise can be more or less formal in nature, and can be supported by a specific method or tool.
 
 <h3 class="titre-page">Protecting data</h3>
 Data protection is the next practical step. Once [classified]({{ site.url }}/publications/ProtectingYourCompany.html#classification-of-data), consideration should be given on how to protect data through [backups]({{ site.url }}/publications/ProtectingYourCompany.html#data-backups), during [transportation]({{ site.url }}/publications/ProtectingYourCompany.html#data-transport) or even during [transmission]({{ site.url }}/publications/ProtectingYourCompany.html#transmission-of-data). Measures for the secure [destruction]({{ site.url }}/publications/ProtectingYourCompany.html#data-destruction) of data should also be set up.
@@ -58,7 +58,7 @@ Some best practices guides are available on the CASES website:
 
 * [e-banking and e-commerce]({% link _publications/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
 * [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
-* [malicious software (malware)]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %})
+* [malicious software (malware)]({% link _knowhow/glossary/MaliciousCodes.markdown %})
 * [business trips]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %})
 
 Draw up a [charter for users]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %}).

@@ -12,6 +12,7 @@ toc: true
 As part of the security of IT systems and networks, all responsibilities must be clearly defined in the organisation. The board of management appoints the officers, along with their areas of competence. Each officer looks after the implementation of security policies within their own area. These officers also take part in the annual review.
 
 <h3 class="titre-page">Definition of roles</h3>
+
 ### Board of management:
 
 * approves the general security policy, strategies and directives
@@ -29,7 +30,7 @@ The CS (head of security) and the CSSI (information systems security officer) ac
 * to assist personnel in respecting the security rules.
 
 ### Managers
-The respective managers of the organisation’s [assets]({{site.urll}}) should:
+The respective managers of the organisation’s [assets]({% link _knowhow/glossary/Assets.markdown %}) should:
 
 * inventory and classify the goods and the information for which they are responsible
 * provide security management for said goods and information

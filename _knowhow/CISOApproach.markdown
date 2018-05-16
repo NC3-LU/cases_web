@@ -19,11 +19,11 @@ La rédaction d'une politique de sécurité est une tâche fastidieuse. Nous dé
 
 Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques ([ISO/IEC 27001](/publications/ISO27000SF/ISO27001-ISMS.html) et [ISO/IEC 27002](/publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.html)), et de l'autre dans l'analyse et [l'évaluation des risques](-). En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
 
-Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la [criticité](/knowhow/cisoapproach/SecurityPolicy-Classification.html) des [actifs](-) et de la maturité de l'organisme.
+Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la [criticité](/knowhow/cisoapproach/SecurityPolicy-Classification.html) des [actifs]({% link _knowhow/glossary/Assets.markdown %}) et de la maturité de l'organisme.
 
 <h2 class="titre-page">Charte de sécurité</h2>
 
-La définition et l'application d'une [charte de sécurité](-) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques](-), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs](-)  protéger en priorité. Afin de pouvoir prévenir les [impacts](-) les plus redoutés, la direction doit identifier les [menaces](-) les plus probables, ainsi que les [vulnérabilités](/knowhow/glossary/Vulnerabilities.html) dont l'exploitation est la plus aisée.
+La définition et l'application d'une [charte de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques](-), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs]({% link _knowhow/glossary/Assets.markdown %})  protéger en priorité. Afin de pouvoir prévenir les [impacts](-) les plus redoutés, la direction doit identifier les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables, ainsi que les [vulnérabilités](/knowhow/glossary/Vulnerabilities.html) dont l'exploitation est la plus aisée.
 
 La mise en place d'une charte doit absolument être accompagnée d'une présentation aux employés qui devront vivre avec les mesures proposées au quotidien. Sans formation de leur part, toute charte risque d'être ignorée, et donc de perdre son utilité.
 
@@ -34,7 +34,7 @@ Après l'identificaton des risques majeurs pour l'organisme ([gestion des risque
 
 La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
 
-Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré [des mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}), évalués en fonction des [impacts](-) les plus redoutés, les [menaces](-) les plus probables et les [vulnérabilités](/knowhow/glossary/Vulnerabilities.html) les plus importantes.
+Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré [des mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}), évalués en fonction des [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables et les [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}) les plus importantes.
 
 <h3 class="titre-page">Conception</h3>
 
@@ -63,7 +63,7 @@ Les actions qui auront été décidées à l’étape précédente devront être
 
 * au niveau du système de sécurité proprement dit, comme par exemple en nommant un (nouveau) responsable pour tout ou partie du système ;
 * au niveau des procédures opérationnelles qui en auront été déduites, comme par exemple par la mise en oeuvre d’une procédure de sauvegarde de données différente (et évidemment plus adaptée) ;
-* au niveau des outils, comme par exemple par l’achat d’un outil [antivirus](/knowhow/glossary/AntiVirus.html).
+* au niveau des outils, comme par exemple par l’achat d’un outil [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}).
 
 <h2 class="titre-page">Contenu de la politique de sécurité</h2>
 

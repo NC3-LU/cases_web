@@ -19,7 +19,7 @@ Access rights are created on a technical level by the IT manager.
 
 ### Applying security measures to:
 
-* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
 * [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
 * [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
 * [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
@@ -53,7 +53,7 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 ### Applying security measures to:
 
 
-* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
 * [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
 * [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
 * [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
@@ -82,7 +82,7 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 
 ### Applying security measures to:
 
-* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
 * [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
 * [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
 * [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
@@ -112,7 +112,7 @@ Here are a few possible scenarios:
 
 ### Applying security measures for:
 
-* [file servers](](-){{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [file servers](](-){{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
 * [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
 * [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
 * [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
@@ -147,8 +147,8 @@ Here are a few possible scenarios:
 ### Technical measures:
 
 * [antivirus]({{site.url}}/knowhow/glossary/AntiVirus.html)
-* [firewall]({{site.url}})
-* [company firewall]({{site.url}})
+* [firewall]({% link _knowhow/glossary/Firewall.markdown %})
+* [company firewall]({% link _knowhow/glossary/Firewall.markdown %})
 * [web filter]({{site.url}}/knowhow/glossary/WebFilterProxy.html)
 
 <h3 class="titre-page">External connections</h3>
@@ -156,7 +156,7 @@ Connections from external networks to the “organisation’s” systems must be
 
 ### Applying security measures to:
 
-* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingWebServer.html)
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
 * [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
 * [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringFixedNetwork.html)
 * [computers connected to the Internet]({{site.url}}/publications/recommendationsecuring/SecuringFixedWorkstation.html)
@@ -187,7 +187,7 @@ Connections from external networks to the “organisation’s” systems must be
 
 ### Technical measures:
 
-* [company firewall](-)
+* [company firewall]({% link _knowhow/glossary/Firewall.markdown %})
 * [VPN]({{site.url}}/knowhow/glossary/VPN.html)
 
 <h3 class="titre-page">Separation of networks</h3>

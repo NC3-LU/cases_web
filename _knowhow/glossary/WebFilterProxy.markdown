@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 <h3 class="titre-page" id="in-brief">In brief</h3>
-A large number of websites, both legal and illegal, that can be freely accessed online have content that is malicious, inappropriate, prohibited or bad for productivity. Accessing [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) may result in the installation of [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) without the user’s knowledge. The organisation may also be held [liable](-) for access to prohibited or illegal content.
+A large number of websites, both legal and illegal, that can be freely accessed online have content that is malicious, inappropriate, prohibited or bad for productivity. Accessing [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) may result in the installation of [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) without the user’s knowledge. The organisation may also be held [liable]({% link _knowhow/glossary/Impact.markdown %}) for access to prohibited or illegal content.
 
 To prevent employees accessing such websites, the organisation can install a web filter as a means of protection.
 
