@@ -56,6 +56,7 @@ If you make a list of the commonest surnames and first names and another list of
 **IMAGE MISSING HERE**
 
 <h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves?</h3>
+
 #### First and foremost, do not reply to a spam email.
 Spammers generally use false sending email addresses. It is therefore completely pointless to respond. Also, if the sender address is correct, all you will be doing is confirming the validity of your email address and you will only end up receiving more spam.
 
