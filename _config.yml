@@ -37,7 +37,7 @@ collections:
   knowhow:
     output: true
 
-paginate: 4
+paginate: 1
 
 
 paginate_path: "/articles-list/page:num/"

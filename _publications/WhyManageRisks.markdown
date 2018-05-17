@@ -9,8 +9,8 @@ categories: securing
 toc: true
 ---
 <div styles="border: 1px solid #000000; float:right; padding: 10px;">
-<strong>Impact</strong>: negative consequence arising from a <strong>threat</strong> exploiting a <strong>vulnerability</strong> of an <strong>asset</strong>.<br /><br />
-<strong>Asset</strong>: any element representing value for an organisation/company
+<strong>[Impact](-)</strong>: negative consequence arising from a <strong>[threat](-)</strong> exploiting a <strong>[vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %})</strong> of an <strong>asset</strong>.<br /><br />
+<strong>[Asset](-)</strong>: any element representing value for an organisation/company
 </div>
 
 Generally speaking, security aims to reduce both the number and the scope of these impacts:
@@ -26,7 +26,7 @@ Most impacts, except for financial impacts, cannot be covered by any form of ins
 
 As it is **not possible**, or at least not immediately possible, **to address all vulnerabilities**, it is preferable to address vulnerabilities whose exploitation could lead to significant or even critical impacts. We need to introduce the concept of **priorities** and a “road map”.
 
-Standard ISO/IEC 27005 (risk management) puts forward a methodological strategy aimed at identifying existing risks, quantifying them, assessing them and ultimately proposing a way to deal with them. The standard proposes four types of treatment:
+Standard ISO/IEC 27005 ([risk management]({% link _publications/WhyManageRisks.markdown %})) puts forward a methodological strategy aimed at identifying existing risks, quantifying them, assessing them and ultimately proposing a way to deal with them. The standard proposes four types of treatment:
 
 * **reduction**, by implementing the measures identified in ISO/IEC 27002,
 * **transferring** the risk to a specialist (sub-contracting),

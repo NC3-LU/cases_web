@@ -9,12 +9,12 @@ categories: bestpractice
 toc: true
 ---
 <h3 class="titre-page" id="in-brief">In brief</h3>
-The victim of a computer attack can file a complaint against the attacker, even if the latter is not known.
+The victim of a [computer attack]({% link _knowhow/glossary/ComputerHacks.markdown %}) can file a complaint against the [attacker]({% link _knowhow/glossary/Cybercriminals.markdown %}), even if the latter is not known.
 
 The first thing the victim must do is gather evidence for the judicial proceedings that s/he intends to pursue for the attack of which s/he was the target. If the victim uses a specialist company to repair the damage (e.g. to recover destroyed files), a report on this work could prove invaluable during the court proceedings. It should therefore be as detailed as possible.
 
 <h3 class="titre-page" id="proof-of-a-computer-attack">Proof of a computer attack</h3>
-Evidence of a computer attack includes the items (logs, damage) that document the illegal actions of the attacker. For them to be valid in court, these traces must be recovered in a specific way. In Luxembourg, the victim can inform the Grand Ducal Police ('New Technologies' service).  S/he can also make a "voluntary surrender" of the evidence to CIRCL, a government initiative dedicated to incident responses.
+Evidence of a computer attack includes the items (logs, damage) that document the illegal actions of the attacker. For them to be valid in court, these traces must be recovered in a specific way. In Luxembourg, the victim can inform the Grand Ducal Police ('New Technologies' service).  S/he can also make a "voluntary surrender" of the evidence to [CIRCL]( https://www.circl.lu), a government initiative dedicated to incident responses.
 
 As the traces left on the hard disk or in the log files of the infected machine are often minimal, the machine's memory must be backed up. When you notice an attack on your computer tool, leave it running and ask the CIRCL to help you perform the backup. This is called a "voluntary surrender" of information, which may subsequently be admissible in court.
 

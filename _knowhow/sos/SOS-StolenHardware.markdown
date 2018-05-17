@@ -23,3 +23,4 @@ If the owner is able to retrieve their device, they should treat it as untrustwo
 Prevention remains key in order to lessen the risks when a device is lost, stolen or seized. Simple actions are recommended in order to protect data, such as [encryption]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#encryption), [passwords]({{site.url}}/knowhow/glossary/Password.html), locking with a PIN code for telephone [backups]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#data-backups), tools that enable data to be deleted remotely, the installation of theft alarm software.
 
 [Please read through the full article on the CIRCL website](https://www.circl.lu/pub/dfak/DevicesSeized/).
+

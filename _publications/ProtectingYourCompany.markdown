@@ -9,9 +9,9 @@ categories: securing
 toc: true
 ---
 <h3 class="titre-page" id="prevent-risks">Prevent risks</h3>
-The best way to secure your company is to set up a risk management process. This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: “Why manage risks?” and “Why pool risk analysis?”
+The best way to secure your company is to set up [a risk management process]({% link _publications/RiskManagement.markdown %}). This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: “[Why manage risks?]({% link _publications/WhyManageRisks.markdown %})” and “[Why pool risk analysis?]({% link _publications/WhyPoolRisksAnalysis.markdown %})”
 
-Risk can be defined using the following calculation: risk = vulnerability * threat * impact. It is made up of a ‘probability’ factor (arising from the threat) and a ‘damage’ factor (arising from the value of the compromised asset, or corresponding to the value of the indirect damage suffered). The vulnerability used in this function takes into consideration the security measures that have been implemented.
+Risk can be defined using the following calculation: risk = vulnerability * [threat](-) * impact. It is made up of a ‘probability’ factor (arising from the threat) and a ‘damage’ factor (arising from the value of the compromised asset, or corresponding to the value of the indirect damage suffered). The vulnerability used in this function takes into consideration the security measures that have been implemented.
 
 It is practically impossible to prevent a risk by acting on existing threats. We can, however, act on the risk by reducing the ‘vulnerability’ and ‘impact’ factors:
 
@@ -29,7 +29,7 @@ The “impact” is the result of the exploitation of a vulnerability by a threa
 The combination of these three factors make up the “risk”.
 
 <h3 class="titre-page" id="protecting-data">Protecting data</h3>
-As with data, business processes are known as primary assets (Classification of assets; risk management). The first priority for making an IT setup secure relates to the protection of these primary assets.
+As with data, business processes are known as primary assets ([Classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of [assets](-); [risk management]({% link _publications/RiskManagement.markdown %}). The first priority for making an IT setup secure relates to the protection of these primary assets.
 
 All entities have a particular interest in protecting their corporate data, especially with regard to information about the performance of their economic plan. Legal requirements, and even client expectations, also represent reasons which lead companies to protect specific data.
 
@@ -40,17 +40,17 @@ Different types of data that should be protected:
 * client data
 * process data, such as logistical, accounting, supplier data, etc.
 
-Loss of data generally has harmful consequences for any entity.
+[Loss of data]({% link _knowhow/glossary/DataLoss.markdown %}) generally has harmful consequences for any entity.
 
 <h3 class="titre-page" id="classificaion-of-data">Classification of data</h3>
-Before implementing protective measures, the entity should carry out at least a summary classification exercise over the data it processes. This classification is important to gain an awareness of the true value (confidentiality, integrity and availability) of the data. Depending on the value of the data, with regard to the expected impact in the event that data becomes compromised, the entity will be able to decide on the investment to set aside for data security.
+Before implementing protective measures, the entity should carry out at least a summary classification exercise over the data it processes. This classification is important to gain an awareness of the true value ([confidentiality](-), [integrity](-) and [availability](-)) of the data. Depending on the value of the data, with regard to the expected [impact](-) in the event that data becomes compromised, the entity will be able to decide on the investment to set aside for data security.
 
 > Note: the classification applied to information should also be applied to the containers, meaning the physical locations and media holding the information. The term container should be understood in its broadest sense.
 
 SME security policy:
 
-* Classification and monitoring of resources
-* Access control -- Access control policy and Access rights management
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) -- [Access control policy]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-control-policy) and [Access rights management]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-rights-management)
 
 <h3 class="titre-page" id="data-backups">Data backups</h3>
 All data identified within a company as having an availability requirement must be backed up. By creating a backup copy, the loss or destruction of primary data can easily be offset. However, backing up data can become more problematic when the data to be backed up has confidentiality or integrity issues.
