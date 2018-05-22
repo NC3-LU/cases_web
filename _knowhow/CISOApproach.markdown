@@ -34,7 +34,7 @@ Après l'identificaton des risques majeurs pour l'organisme ([gestion des risque
 
 La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
 
-Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré [des mesures de sécurité](-), évalués en fonction des [impacts](-) les plus redoutés, les [menaces](-) les plus probables et les [vulnérabilités](/knowhow/glossary/Vulnerabilities.html) les plus importantes.
+Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré [des mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}), évalués en fonction des [impacts](-) les plus redoutés, les [menaces](-) les plus probables et les [vulnérabilités](/knowhow/glossary/Vulnerabilities.html) les plus importantes.
 
 <h3 class="titre-page">Conception</h3>
 
@@ -112,16 +112,16 @@ La politique de sécurité devrait contenir les documents suivants :
 6. [Sécurité des médias pendant les transports]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#device-security-during-transport)
 7. [Courrier électronique]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#email)
 
-### [Section 7. contrôle d’accès]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.html)
+### [Section 7. contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
 
 
-1. [Politique de contrôle d’accès]({{ site.url }})
-2. [Gestion des droits d’accès]({{ site.url }})
-3. [Gestion des mots de passe]({{ site.url }})
-4. [Utilisation de réseaux externes]({{ site.url }})
-5. [Connexion de l’extérieur]({{ site.url }})
-6. [Séparation de réseaux]({{ site.url }})
-7. [Procédure de connexion]({{ site.url }})
+1. [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+2. [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+3. [Gestion des mots de passe]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#password-management)
+4. [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
+5. [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#external-connections)
+6. [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
+7. [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures)
 
 ### [Section 8. développement et maintenance des systèmes]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html)
 

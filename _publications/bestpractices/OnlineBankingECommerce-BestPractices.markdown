@@ -16,12 +16,12 @@ Now you can shop and bank from the comfort of your own home, with no need to que
 To keep yourself safe online, make sure you follow the “golden rules” below:
 
 ### Password: lock the safe
-Passwords are the keys that grant direct access to your information and your online accounts. But it’s very tempting to choose a password that means something to us and is easy to remember, such as the name of one of our children or our date of birth: in other words, a password that can easily be discovered by someone with bad intentions. The challenge therefore lies in creating a password that you’re not likely to forget, but which can’t be easily guessed by others.
+[Passwords]({% link _knowhow/glossary/Password.markdown %}) are the keys that grant direct access to your information and your online accounts. But it’s very tempting to choose a password that means something to us and is easy to remember, such as the name of one of our children or our date of birth: in other words, a password that can easily be discovered by someone with bad intentions. The challenge therefore lies in creating a password that you’re not likely to forget, but which can’t be easily guessed by others.
 
-* Make sure you choose and use your password wisely
+* [Make sure you choose and use your password wisely]({% link _knowhow/glossary/Password.markdown %}\#in-brief)
 
 ### Multi-factor authentication
-Many online services now offer multi-factor authentication. In addition to needing a password to log in, you’ll also need to add a code sent to you by SMS from the service in question. Nowadays, using a password as the sole means of authentication is often not enough.
+Many online services now offer [multi-factor authentication]({% link _knowhow/glossary/Authentication.markdown %}\#multi-factor-authentication). In addition to needing a password to log in, you’ll also need to add a code sent to you by SMS from the service in question. Nowadays, using a password as the sole means of authentication is often not enough.
 
 This authentication is based both on something we know (the password) and something we own (GSM).
 
@@ -33,40 +33,40 @@ Logging in with a LuxTrust tool involves entering a password (something you know
 ### Antivirus: vaccinate your computer
 Just like you, your computer needs to be vaccinated to remain in good health and guard against viruses and worms. Having an antivirus installed and updated regularly is a must in terms of Internet security. However, don’t forget that an antivirus doesn’t offer full protection; it works like a seatbelt, offering essential protection, but its effectiveness will depend on how you use it.
 
-* Antivirus
+* [Antivirus]({% link _knowhow/glossary/AntiVirus.markdown %})
 
 ### Firewall and other security software: additional barriers
 Other security tools can also provide effective protection. For example, a pre-configured firewall that comes with your antivirus program or anti-spyware software may be used. You must nevertheless bear in mind that while each security program offers a layer of protection, none of them provide full and total coverage against threats.
 
-* Firewall and network segmentation
-* Spyware
-* Useful: Sandboxie
+* [Firewall](-) and [network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %})
+* [Spyware](-)
+* [Useful: Sandboxie]({% link _publications/Sandboxie.markdown %})
 
 ### Security patches: plugging the breaches
 Your software contains a large number of security flaws. They are corrected over time and new versions of your software are published regularly. To protect your computer against online threats, it’s not only important to update your operating system, you also need to update your other software and, in particular, your browser.
 
-* Useful: Secunia PSI (for non-professional use only)
-* Patches
+* [Useful: Secunia PSI (for non-professional use only)](-)
+* [Patches]({% link _knowhow/glossary/Patches.markdown %})
 
 <h3 class="titre-page" id="rules-specific-to-online-bankinge-commerce-security">Rules specific to online banking/e-commerce security</h3>
 Before logging in to online services, it is very important to read about and apply good habits:
 
 ### Emails: beware of appearances
-One of the best-known scams involves a criminal sending an email that fools you into thinking it was sent by a trustworthy online company. Using social engineering, this email asks you to enter personal information (passwords, bank card numbers, etc.) or invites you to click on a link that takes you to a page designed to look like an official website. The aim is to be able to access your accounts and use them at your expense to commit criminal acts. In this case, your best protection is to learn to recognise these fraudulent emails.
+One of the best-known scams involves a criminal sending an email that fools you into thinking it was sent by a trustworthy online company. Using [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}), this email asks you to enter personal information (passwords, bank card numbers, etc.) or invites you to click on a link that takes you to a page designed to look like an official website. The aim is to be able to access your accounts and use them at your expense to commit criminal acts. In this case, your best protection is to learn to recognise these fraudulent emails.
 
-* Phishing
-* Protect yourself against social engineering
-* Emails
+* [Phishing]({% link _knowhow/glossary/Phishing.markdown %})
+* Protect yourself against social [engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
+* [Emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email)
 
-Apply good practices relating to both emails and malicious software.
+Apply [good practices relating to both emails]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) and [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
 
 ### Encrypted web: spot the signs
 When you perform an online payment or banking transaction, you should always check to make sure the website address begins with “https”. This guarantees that nobody will be able to intercept your communications or any authentication passwords you enter.
 
-* HTTPS
+* [HTTPS]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %})
 
 ### Web site reputations
-Check the reputation of a website before visiting it or purchasing any products or services from it. Phishing attempts, spam or suspicious adverts try to lure in Internet users to scam websites or websites that try to infect their visitors’ computers with malicious software. You can use http://www.webutation.net and web of trust (see our article on WOT) to check the reputation of a website by entering its URL. CIRCL has published an abusive URL service to check if a malicious website might be hiding behind a URL.
+Check the reputation of a website before visiting it or purchasing any products or services from it. [Phishing]({% link _knowhow/glossary/Phishing.markdown %}) attempts, [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) or suspicious adverts try to lure in Internet users to [scam websites]({% link _publications/cleverclicks/ECommerceScams.markdown %}) or websites that try to infect their visitors’ computers with [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}). You can use [http://www.webutation.net](http://www.webutation.net) and web of trust (see our article on WOT) to check the reputation of a website by entering its URL. CIRCL has published an [abusive URL](https://www.circl.lu/services/urlabuse/) service to check if a malicious website might be hiding behind a URL.
 
 ### Suspicious log-in: let your bank know immediately
 If, during your online banking / e-commerce session you notice a security risk or anomaly, let your bank know right away. Examples of possible anomalies:
