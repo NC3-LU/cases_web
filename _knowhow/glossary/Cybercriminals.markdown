@@ -8,10 +8,10 @@ short:
 categories: knowhow
 toc: true
 ---
-## In brief
+<h3 class="titre-page" id="in-brief">In brief</h3>
 A cybercriminal is a person who attempts an illegal attack on a particular computer system or who commits a conventional offence or crime using a computer tool or system.
 
-## Cybercrime in the past and present
+<h3 class="titre-page" id="cybercrime-in-the-past-ans-present">Cybercrime in the past and present</h3>
 Over the past decade, we have witnessed a shift in the world of cybercrime. In the 1980s and 1990s this was still an amateur activity on the part of computer enthusiasts eager for recognition. Malware was apparent, it displayed animations on the screen or destroyed data on infected computers.
 
 With the Internet proliferation of more and more economic activities, such as e-commerce or e-banking, the challenges have changed and more and more criminals have become interested in technology. Over the past decade, we have seen increasingly stealthy malware seeking to control computers for as long as possible.
@@ -20,7 +20,7 @@ A degree of specialisation has also developed: keyboard virtuosos have become ex
 
 This phenomenon is exacerbated by the very low risk and the possibility of very high gains. From the smallest Nigerian scammer to the godfather who runs an entire organisation, the market has enough capacity for everyone and some reports today claim that cybercrime is one of the most lucrative criminal activities.
 
-## Domain actors
+<h3 class="titre-page" id="domain-actors">Domain actors</h3>
 In general the press talks about pirates or "hackers", although the latter term should basically be reserved for enthusiasts who try to use existing technology for fun or useful purposes, deviating them from their primary use. In many insider circles, the term "hacker" has a positive and creative connotation, even if nowadays it is often used pejoratively.
 
 To be more precise, it would be necessary to speak of:

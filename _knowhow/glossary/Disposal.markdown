@@ -8,14 +8,15 @@ short:
 categories: knowhow
 toc: true
 ---
-## In brief
-Data that belongs to you or which you process using your computer has different levels of confidentiality. You probably don’t treat data you post on social networks and that which you keep solely on your hard drive in the same way. Customer information, your company’s strategic data, texts, letters or emails constitute only the visible part of your behaviour on the computer. In addition to that, a certain amount of data is generated as a secondary product during such use: temporary files, browser history, user profiles and saved passwords are just a few examples. You therefore need to bear in mind that when you use a computer, you leave behind a trace, like a snail, of everything you have done.
+<h3 class="titre-page" id="in-brief">In brief</h3>
+Data that belongs to you or which you process using your computer has different levels of [confidentiality](-). You probably don’t treat data you post on [social networks](-) and that which you keep solely on your hard drive in the same way. Customer information, your company’s strategic data, texts, letters or [emails](-) constitute only the visible part of your behaviour on the computer. In addition to that, a certain amount of data is generated as a secondary product during such use: temporary files, browser history, user profiles and saved passwords are just a few examples. You therefore need to bear in mind that when you use a computer, you leave behind a trace, like a snail, of everything you have done.
 
-If you would like to scrap your computer or pass it on to someone else, it is important to get rid of these traces entirely. Simply deleting the files or reformatting the hard drive is not enough. The section below will tell you what you need to know in advance.
+If you would like to scrap your computer or pass it on to someone else, it is important [to get rid of these traces](-) entirely. Simply deleting the files or reformatting the hard drive is not enough. The section below will tell you what you need to know in advance.
 
 For classified data, such as confidential data, we recommend total physical destruction by a crusher or a demagnetiser. Passing on this equipment to someone else is out of the question.
 
-## Total destruction of your data
+<h3 class="titre-page" id="total-destruction-of-your-data">Total destruction of your data</h3>
+
 ### Objective
 You want to resell or scrap your PC. The hard drives containing your data are going to fall into unknown hands. You need to delete everything.
 
@@ -44,7 +45,8 @@ Effective process which requires little interaction.
 ### Disadvantages
 Lengthy process. For a company looking to destroy a lot of hard drives, physical destruction will be the fastest (and possibly cheapest) route.
 
-## Targeted destruction of data
+<h3 class="titre-page" id="targeted-destruction-of-data">Targeted destruction of data</h3>
+
 ### Objective
 You want to give your PC to someone you trust, perhaps one of your children. The method described above is particularly applicable if you have lost your PC’s re-installation disk and you would like to give them an operational computer. The aim is to delete confidential data while leaving the operating system intact.
 
@@ -95,7 +97,7 @@ Process doesn’t require a system re-installation.
 ### Disadvantages
 Process doesn’t guarantee the total destruction of data. Additionally, if the computer has previously been infected by malware, this won’t have been removed from the system.
 
-## Conclusion
+<h3 class="titre-page" id="conclusion">Conclusion</h3>
 We have given you two ways of removing data from a PC. We strongly recommend you use the first method, which guarantees:
 
 1. the total removal of data;

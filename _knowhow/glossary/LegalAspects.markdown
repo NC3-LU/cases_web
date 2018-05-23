@@ -8,10 +8,10 @@ short:
 categories: knowhow
 toc: true
 ---
-## In brief
+<h3 class="titre-page" id="in-brief">In brief</h3>
 Failure to comply with legislation in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).
 
-The legal aspects and responsibilities and obligations of companies with regard to the protection of personal data were presented during Internet Security Day 2007 by Maître Cyril Pierre-Beausse on computer crime: Repression and legal risks for companies relating to personal data.
+The legal aspects and responsibilities and obligations of companies with regard to the [protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection) were presented during Internet Security Day 2007 by Maître Cyril Pierre-Beausse on computer crime: Repression and legal risks for companies relating to personal data.
 
 Thus, the law punishes organisations from which information is stolen even more severely than the thieves themselves due to breach of their obligation to protect personal and/or sensitive data.
 
@@ -29,7 +29,7 @@ All organisations must implement a security policy based on:
 
 Draft and enforce a Sectoral policy on compliance.
 
-## Intellectual property
+<h3 class="titre-page" id="in-brief">Intellectual property</h3>
 Copyright on original literary and artistic works, which include databases and computer programs, as defined in the amended Law of 18 April 2001, must be respected. For example, the following basic principles can be cited:
 
 * any reproduction, communication to the public or distribution to the public must be authorised by the author; this also applies to Internet distribution, except where otherwise required by law;
@@ -39,7 +39,7 @@ Copyright on original literary and artistic works, which include databases and c
 
 For any other question, please contact the Office of Intellectual Property.
 
-## Personal data protection
+<h3 class="titre-page" id="in-brief">Personal data protection</h3>
 All files or databases must be created in accordance with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data. The same applies to processing involving both newly created data and pre-existing data.
 
 To ensure compliance with this law, the IT manager and the legal officer must obtain the applicable texts from the National Commission for Data Protection (CNPD) and ensure that the structure is suitable, particularly in respect of:
@@ -86,7 +86,7 @@ Deviation from one or more of these principles is punishable by law.
 
 Furthermore, the individuals involved must be fully aware of the collection of their personal information and must give their prior consent to any collection and processing of their personal information.
 
-## Image rights
+<h3 class="titre-page" id="in-brief">Image rights</h3>
 The right to privacy, a basic principle in terms of image rights, is enshrined in a number of legal texts, including:
 
 1. Article 8 of the European Convention on Human Rights;

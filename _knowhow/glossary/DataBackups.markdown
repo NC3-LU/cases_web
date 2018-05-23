@@ -8,10 +8,10 @@ short:
 categories: knowhow
 toc: true
 ---
-## In brief
+<h3 class="titre-page" id="in-brief">In brief</h3>
 Backing up data is essential for any IT system. However, digital storage media are only reliable for certain period of time. Just as the stone tablets used in antiquity were subject to the effects of bad weather, natural disasters and wear, any modern IT system is also fallible. For a company, the loss of data can result in a definitive halt to business. If you want to keep your essential data (availability), sooner or later you will have to think about backup strategies for it.
 
-## Preliminary thoughts
+<h3 class="titre-page" id="preliminary-thoughts">Preliminary thoughts</h3>
 Before choosing a backup solution, it may be of use to carry out a risk analysis. The main risks facing most people are as follows (threats affecting the availability or integrity of data):
 
 1. loss of data by deletion (human error or malicious software) (SMEs: see Human error);
@@ -21,7 +21,7 @@ Before choosing a backup solution, it may be of use to carry out a risk analysis
 
 Thinking about the various risks listed above will point you towards the backup strategy to follow. For points 1 and 2 (the most common), it is enough to backup data onto an external hard drive, a network drive or removable storage media. For points 3 and 4 (rare events, but highly destructive), it is essential to have off-site backup.
 
-## Choice of storage media
+<h3 class="titre-page" id="choice-of-a-storage-media">Choice of storage media</h3>
 The issue of choosing backup storage media is at least as important as the choosing the strategy. The most common storage media are:
 
 * removable media (CD, DVD); very inexpensive, but have limited capacity and are quickly destroyed over time; these days it is no longer recommended to make backups using this type of storage media (except in very small volumes).
@@ -32,7 +32,7 @@ The issue of choosing backup storage media is at least as important as the choos
 
 In any event, storage space will often be a determining factor, along with price and also backup feasibility. This leads us to the concept of organising a data repository.
 
-## Backup repository and rotation
+<h3 class="titre-page" id="backup-repository-and-rotation">Backup repository and rotation</h3>
 The backup frequency will indicate the amount of data lost in the event of an incident. If you back up your data once a week, you stand to lose a maximum of one week’s worth of data. Are you prepared to accept such a loss? Would it be more prudent to increase the backup frequency to once a day, for example? The answer to these questions will depend on each individual case.
 
 Another problem is if you perform one backup per week and some malware destroys part of your documents one month previously without you realising it, you will lose data despite having a backup policy. This is why it is recommended to keep a record of numerous backups in your repository. As storage space is limited, it is best to choose a backup rotation method, determining which past backups to delete to make way for new backups. In the above example of one backup per week, it would be possible to keep the six last backups and therefore cover more than one month.
@@ -41,7 +41,7 @@ A more suitable solution for larger structures would be to make daily backups an
 
 The classification level for the backups should correspond to that of the backed up data. If the data is highly confidential, the backups should also be highly confidential.
 
-## Types of backup
+<h3 class="titre-page" id="types-of-backup">Types of backup</h3>
 To save space – which in the past was often very expensive – different types of backups are offered by most software in addition to data compression:
 
 #### Full backup
@@ -58,27 +58,27 @@ Your files are important and it is crucial to keep them backed up in the event y
 
 To avoid this type of issue, some software enables not only files to be backed up, but also the entire disk. This software uses what we call an “image” of the disk, enabling the entire image to be copied to a new disk in the event of any breakdown, thereby saving a lot of time and effort.
 
-## Comments
+<h3 class="titre-page" id="comments">Comments</h3>
 
 * If you opt for a backup system using an online service with a third party company, make sure you check that your data is properly encrypted before sending it to the service provider servers; you should be the only party to hold the encryption key – your supplier should not be able to see your data.
 * The most suitable digital storage media for very small companies from a price, space and durability standpoint are external hard disks or online cloud service backups.
 
-## Security policy
+<h3 class="titre-page" id="security-policy">Security policy</h3>
 Write and apply the following sectoral policies:
 
-* Organisation of security
-  * Attribution of responsibilities
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Physical and environmental security
-  * Physical security perimeter
-  * Off-site equipment security
-* Operational and communications aspects
-  * Documented procedures
-  * [Data backups](-)
-  * Device security during transport
-* Access control
-  * Access control policy
-  * Access rights management
-* Managing business continuity
-  * Operational continuity
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter)
+  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#off-site-equipment-security)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+  * [[Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
+  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#device-security-during-transport)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management})
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}\#operational-continuity)

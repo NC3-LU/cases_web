@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-## In brief
+<h3 class="titre-page" id="in-brief">In brief</h3>
 The purpose of a Disaster Recovery Plan (DRP) aims to plan for the timely re-establishment of an IT infrastructure. It aims to enable the operational recovery of services in the event of a disaster.
 
 A disaster recovery plan differs from a business continuity plan.
@@ -20,7 +20,7 @@ A disaster recovery plan must allow a switchover to an "alternative" IT infrastr
 
 Disaster recovery plans are designed and updated according to business needs.
 
-## RTO and RPO
+<h3 class="titre-page" id="rto-and-rpo">RTO and RPO</h3>
 Any DRP must be based on the following two concepts:
 
 **RTO: Return Time on Objective – RTO**
@@ -29,7 +29,7 @@ Any DRP must be based on the following two concepts:
 
 Any entity wishing to develop a disaster recovery plan will initially need to define security goals based on these basic needs (see Risk Management).
 
-## RTO
+<h3 class="titre-page" id="rto">RTO</h3>
 The RTO defines the maximum acceptable time during which an IT resource may be down due to a disaster.
 
 This downtime takes account of:
@@ -41,10 +41,10 @@ This downtime takes account of:
   * Data restoration,
   * Quality control and service level control (in degraded or fully functional mode).
 
-## RPO
+<h3 class="titre-page" id="rpo">RPO</h3>
 The RPO defines the maximum amount of data that can be lost as a result of a computer disaster. This value is the difference between the last backup and the incident. It is expressed in most cases in minutes / hours.
 
-## Incident diagram
+<h3 class="titre-page" id="incident-diagram">Incident diagram</h3>
 The diagram below shows service level changes according to incident. It aims to model the concepts of RPO and RTO to show how they differ, but also how they are complementary.
 
 Depending on the size of the disaster, a recovery plan must be able to take account of many recovery scenarios, ranging from simple actions to complex mechanisms.
@@ -67,7 +67,8 @@ The above examples are variable in terms of the RPO and RTO concepts and demonst
 
 Overall, the implementation of a recovery plan is based on 12 key points.
 
-## 12 key points for a successful DRP
+<h3 class="titre-page" id="12-key-points-for-a-successful-drp">12 key points for a successful DRP</h3>
+
 ### 1. Inventory of IT assets
 Any asset that is part of the infrastructure’s IT system must be clearly identified and listed in a Configuration Management DataBase (CMDB).
 
@@ -161,7 +162,7 @@ In concrete terms, a scenario stages a risk to which the “company” has been 
 A scenario must be put together “simply”. Here are two examples of a scenario:
 
 **Scenario 1: Exploitation of a WiFi weakness by a malicious entity**
-=>Risk analysis has previously detected a vulnerability in the WiFi infrastructure that gives access to the internal network. The WPA key has not been changed for 2 years, the “password” is weak and it is known by all staff members, including “persons” who no longer work for the company.
+=>Risk analysis has previously detected a vulnerability in the WiFi infrastructure that gives access to the internal network. The WPA key has not been changed for 2 years, the “[password]({% link _knowhow/glossary/Password.markdown %})” is weak and it is known by all staff members, including “persons” who no longer work for the company.
 
 **General theme**: A hacker is hired by competitors to corrupt customer data.
 
@@ -171,7 +172,7 @@ A hacker, motivated by financial gain, has the IT resources and expert knowledge
 
 Key ingredients in this scenario:
 
-* Sources of the threat: A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
+* Sources of the [threat](-): A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
 * Threat: A hacker breaks into the network via a WiFi connection to corrupt data. The hacker has the means and the skills.
 * Vulnerabilities exploited: Poorly protected WiFi (weak and widely-known WPA key).
 * IT system affected: Network + server.

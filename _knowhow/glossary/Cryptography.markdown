@@ -11,7 +11,7 @@ toc: true
 
 > Check to verify the completeness of this article.
 
-## History
+<h3 class="titre-page" id="history">History</h3>
 Humans have always tried to keep certain information or data secret or, failing this, to restrict access to certain people. One of the oldest examples of cryptographic use comes from Julius Caesar.
 
 The Roman emperor used a specific method to communicate with his general staff. As messages in those days were carried by messengers, Julius Caesar wanted to protect their confidentiality. His transcription method was to replace one letter by an offset of three. For example, 'A' was replaced with 'D', 'B' with 'E', and so on. In this way, only those who knew the ruse were able to decode the information.
@@ -22,7 +22,7 @@ It was only during the Second World War, with the advent of advanced communicati
 
 Since then, but especially with the advent of the DES algorithm and the advent of asymmetric cryptography, the use of cryptography has exploded. The needs of military applications have mingled with the needs of civilian applications and encryption techniques have become an engine of progress. (banking applications, telecommunications, IT, online banking, etc.)
 
-## Definitions
+<h3 class="titre-page" id="definitions">Definitions</h3>
 
 ### Cryptography
 This is the science of the mathematical principles and methods applied for purposes such as data confidentiality or integrity. It therefore tends to develop techniques for the storage of sensitive information and its transmission via insecure networks (such as the Internet) so that the data can only be read or altered by authorised individuals.
@@ -76,7 +76,7 @@ The main private key algorithms are:
 * RC2, RC5, RC6
 * Rijndael/AES
 
-## Asymmetric cryptography
+<h3 class="titre-page" id="asymetric-cryptography">Asymmetric cryptography</h3>
 Public key cryptography is a response to the problem of key transmission in private key encryption. The concept was devised by Whitfield Diffie and Martin Hellman in 1975, although it is commonly accepted that the British secret service had already made the same discovery several years earlier, but that it was protected as a military secret.
 
 ### Basic principle
@@ -97,32 +97,32 @@ The sender and recipient no longer need to share secret keys via a secure transm
 
 Public key encryption is a technological revolution offering every citizen the opportunity to use robust cryptography. Indeed, symmetric cryptography was previously the only method for the transmission of secret information. The costs of the transmission and secure distribution of keys had limited its use to institutions with sufficient means, such as governments and banks.
 
-## Examples of public key cryptography
+<h3 class="titre-page" id="examples-of-a-public-key-cryptography">Examples of public key cryptography</h3>
 Elgamal (from the name of its inventor, Taher Elgamal), RSA (from the names of its inventors, Ron Rivest, Adi Shamir and Leonard Adleman), Diffie-Hellman (also named after its inventors) and DSA, the digital signature algorithm (developed by David Kravitz), are examples of public key cryptography systems.
 
 A practical example of public key cryptography is OpenPGP for email encryption or TLS (https) for web communications encryption; TLS uses public-key cryptography for key exchange and then symmetric cryptography for encryption of communication.
 
-## Security policy
+<h3 class="titre-page" id="security-policy">Security policy</h3>
 Draft and enforce a sectoral policy on:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Human factors
-  * Training and information
-* Physical and environmental security
-  * Off-site equipment security
-* Operational and communications aspects
-  * Documented procedures
-  * Data backups
-  * Device security during transport
-  * Email
-* Access control
-  * Access control policy
-  * Use of external networks
-  * External connections
-* Development and maintenance of systems
-  * **Use of encryption**
-  * Electronic signatures
-* Compliance
-  * Protection of operational data
-  * Personal data protection
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
+  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#off-site-equipment-security)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+  * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
+  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#device-security-during-transport)
+  * [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
+  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
+  * [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#external-connections)
+* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
+  * **[Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)**
+  * [Electronic signatures]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#electronic-signatures)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
