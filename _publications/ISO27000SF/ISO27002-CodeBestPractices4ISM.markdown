@@ -11,13 +11,13 @@ toc: true
 <h3 class="titre-page">In brief</h3>
 The ISO/IEC 27001 standard describes a process approach for the implementation of an ISMS (information security management system). But although it sets the objective to be obtained, it does not specify exactly how to go about it. The ISO 27002 standard presents a series of concrete specifications that cover both technical and organisational aspects.
 
-The standard sets out a code of best practice intended for use by the managers responsible for implementing or maintaining an information security management system. Information security is defined as being “the preservation of [confidentiality](-), [integrity](-) and [availability](-) of information”.
+The standard sets out a code of best practice intended for use by the managers responsible for implementing or maintaining an information security management system. Information security is defined as being “the preservation of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}) and [availability]({% link _knowhow/glossary/Availability.markdown %}) of information”.
 
 The standard suggests **11 primary domains** for security, including **133 security objectives** (controls):
 
 * [Information security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %})
 * [Organisation of information security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-* [Asset management](-)
+* [Asset management]({% link _knowhow/glossary/Assets.markdown %})
 * [Security related to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
 * [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 * [Use and management of communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})

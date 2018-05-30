@@ -9,9 +9,9 @@ categories: bestpractice
 toc: true
 ---
 <h3 class="titre-page" id="in-brief">In brief</h3>
-Malicious software represents one of the greatest [threats](-) to the whole IT system, regardless of its size. All types of operating systems are at risk, and all administrations, municipalities and companies can succumb to it.
+Malicious software represents one of the greatest [threats]({% link _knowhow/glossary/Threat.markdown %}) to the whole IT system, regardless of its size. All types of operating systems are at risk, and all administrations, municipalities and companies can succumb to it.
 
-Since they first came into existence, [cybercriminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) have become significantly more sophisticated in the way they work and target their victims; malicious software or malware, one of their main tools, has naturally benefited from this. Nowadays, you’ll no longer find malicious software written for purely entertainment purposes. Currently, the most widely used malicious codes on the market are variations on the [Trojan horse](-), which grant access to devices so they can be used either for illicit purposes or to steal confidential information.
+Since they first came into existence, [cybercriminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) have become significantly more sophisticated in the way they work and target their victims; malicious software or malware, one of their main tools, has naturally benefited from this. Nowadays, you’ll no longer find malicious software written for purely entertainment purposes. Currently, the most widely used malicious codes on the market are variations on the [Trojan horse]({% link _knowhow/glossary/MaliciousCodes.markdown %}\#cheval-de-troie), which grant access to devices so they can be used either for illicit purposes or to steal confidential information.
 
 Today, these malicious codes are primarily used to:
 
@@ -21,7 +21,7 @@ Today, these malicious codes are primarily used to:
 * carry out denial of service type attacks (SMEs: see [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#denial-of-servicedistributed-service)),
 * host illicit content
 
-They present a large and omnipresent [threat](-). Without preventative measures, protective measures and curative measures, an entity risks being considerably [impacted](-).
+They present a large and omnipresent [threat]({% link _knowhow/glossary/Threat.markdown %}). Without preventative measures, protective measures and curative measures, an entity risks being considerably [impacted]({% link _knowhow/glossary/Impact.markdown %}).
 
 <h3 class="titre-page" id="infection-vectors">Infection vectors</h3>
 There are a number of ways to infect a computer. The most commonly used include:
@@ -35,9 +35,9 @@ There are a number of ways to infect a computer. The most commonly used include:
 * [removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %}) containing infected files. Malicious codes exploit the technical vulnerabilities of the targeted computers. This method is primarily used for targeted attacks, using social engineering techniques.
 
 <h3 class="titre-page" id="impacts">Impacts</h3>
-As there are malicious codes all over the Internet, the chances of encountering one are extremely high (EBIOS [threats](-), remote listening, software trap).
+As there are malicious codes all over the Internet, the chances of encountering one are extremely high (EBIOS [threats]({% link _knowhow/glossary/Threat.markdown %}), remote listening, software trap).
 
-The [impacts](-) caused are usually:
+The [impacts]({% link _knowhow/glossary/Impact.markdown %}) caused are usually:
 
 * Financial
   * Access to online banking may result in a loss of money. Pay particular attention to multi-line applications, as transactions are frequently made from company accounts and procedures often aren’t noticed until days, or even weeks, afterwards.
@@ -80,7 +80,7 @@ When surfing the Internet: 
 
 When travelling or on business trips, make sure you: 
 
-* keep an eye on your IT equipment. Ill-intentioned persons could try to ambush it or install malicious codes. ([Threats[(-): see equipment traps, software traps). 
+* keep an eye on your IT equipment. Ill-intentioned persons could try to ambush it or install malicious codes. ([Threats]({% link _knowhow/glossary/Threat.markdown %}): see equipment traps, software traps). 
 
 You should also remember that even equipment located within the organisation can be easily infected if ill-intentioned people gain access to it. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}]#addition-or-removal-of-hardware) and [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}\#use-of-unapproved-software)).
 
@@ -125,7 +125,7 @@ The installation of the following technical measures is recommended:
 
 * [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %})<br />
   Antiviruses can detect a large number of malicious codes and prevent infection. Each computer within your organisation, as well as the file servers and email servers should have an antivirus installed. If possible, use a different antivirus for computers and for servers to increase the likelihood of malicious codes being detected. Update these antiviruses on a regular basis. Make sure users cannot deactivate the antivirus.
-* [firewall](-)<br />
+* [firewall]({% link _knowhow/glossary/Firewall.markdown %})<br />
   A firewall set up on a device can both prevent the device being infected as a result of [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#technical-vulnerabilities) and help detect a possible infection.
 * [network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) firewall<br />
   A ‘company firewall’ may help prevent a virus from spreading throughout the whole company network. It can also prevent the exploitation of certain technical vulnerabilities thanks to the filtering of connection attempts via specific ports.

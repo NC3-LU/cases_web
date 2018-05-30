@@ -18,16 +18,16 @@ To produce a risk analysis, it is first important to specify the basic criteria 
 The risk **assessment criteria** notably include:
 
 * the strategic values of the processes
-* [asset](-) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
+* [asset]({% link _knowhow/glossary/Assets.markdown %}) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
 * legal and contractual requirements
-* the importance of CAI ([confidentiality](-), [availability](-), [integrity](-))
+* the importance of CAI ([confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [availability]({% link _knowhow/glossary/Availability.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}))
 * the expectations of the invested parties and the reputation
 
 So for a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, there are risks that must be avoided at all costs. In others, there are assets that must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
 
 The **[basic criteria](-)** must also be determined:
 
-* [Impact](-) criteria:
+* [Impact]({% link _knowhow/glossary/Impact.markdown %}) criteria:
   * how to express the degree of damage and the associated costs, how to express damage in terms of reputation or damage caused by legal consequences.
   * qualitative and quantitative scale
 * Risk acceptance criteria:
@@ -55,13 +55,13 @@ Then, the **organisation** of the risk analysis must be defined:
 <h3 class="titre-page" id="risk-identification">Risk identification</h3>
 The purpose of risk identification is to determine the causes of impacts and understand how, where and why this damage can occur. This is the preparation phase for the risk estimation itself. It proceeds as follows:
 
-* Identification of [assets](-):
+* Identification of [assets]({% link _knowhow/glossary/Assets.markdown %}):
   * primary assets, such as business line processes and information
   * secondary assets or support assets
-* Identification of [threats](-)
+* Identification of [threats]({% link _knowhow/glossary/Threat.markdown %})
 * Identification of existing [security measures]({% link _publications/ProtectingYourCompany.markdown %})
 * Identification of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) (inherent to the identification of risk specifics)
-* Identification of [impacts](-) (consideration of impact criteria: see also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}))
+* Identification of [impacts]({% link _knowhow/glossary/Impact.markdown %}) (consideration of impact criteria: see also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}))
 
 As a result, it is possible to draw up a list of assets which require risk management.
 
@@ -69,7 +69,7 @@ As a result, it is possible to draw up a list of assets which require risk manag
 Risk estimation is comprised of several phases:
 
 1. the choice of methodology
-2. estimation of the [impacts](-)
+2. estimation of the [impacts]({% link _knowhow/glossary/Impact.markdown %})
 3. estimation of likelihood of occurrence
 4. estimation of risk level
 
@@ -79,7 +79,7 @@ It involves calculating a value, in other words an approximative level for ident
 During this stage, you’ll need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
 The estimated risks are prioritised in order of importance, based on the decisions made when defining the context of the risk analysis.
 
-<h3 class="titre-page" id="risk-treatment"> Risk treatment</h3>
+<h3 class="titre-page" id="risk-treatment">Risk treatment</h3>
 This final stage suggests the measures to be put in place. For this, the security measures need to be organised depending on:
 
 * the measures to be considered;
@@ -114,7 +114,7 @@ This is a continuous process that allows for the exchange and sharing of informa
 This process consists of monitoring and re-examining elements of the risk:
 
 * asset values and categories
-* impacts, [threats](-), vulnerabilities, likelihoods of occurrence
+* impacts, [threats]({% link _knowhow/glossary/Threat.markdown %}), vulnerabilities, likelihoods of occurrence
 * external elements (legal or environmental context)
 * modification of the risk assessment approach (impact, assessment, risk acceptance criteria)
 * etc.

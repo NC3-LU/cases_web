@@ -22,8 +22,8 @@ For the company’s security, it is also important to set up, amongst other thin
 <h3 class="titre-page" id="risks">Risks</h3>
 Risks related to sending emails
 
-* Loss of [confidentiality](-) as a result of:
-  * sending [confidential](-) information by email (interception or [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}));
+* Loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) as a result of:
+  * sending [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information by email (interception or [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}));
   * sending confidential information to the wrong recipient;
   * adding new recipients during a discussion that previously contained confidential information;
   * due to a recipient in the same company forwarding their emails to an external mailbox to receive ‘push’ notifications on their smartphones;
@@ -38,9 +38,9 @@ Risks related to sending emails
 
 <h3 class="titre-page" id="risks-related-to-receiving-emails">Risks related to receiving emails</h3>
 
-* Risk of loss of [confidentiality](-), [integrity](-) or [availability](-) as a result of:
-  * infection by [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) through linked files;
-  * infection by [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) through links provided in emails;
+* Risk of loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}) or [availability]({% link _knowhow/glossary/Availability.markdown %}) as a result of:
+  * infection by [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) through linked files;
+  * infection by [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) through links provided in emails;
 * risk of loss of confidentiality due to being tricked into disclosing confidential information by [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) techniques;
 * risk of loss of availability:
   * due to the presence of [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %});
@@ -49,7 +49,7 @@ Risks related to sending emails
 <h3 class="titre-page" id="behavioural-measures">Behavioural measures</h3>
 
 * Make sure you don’t reveal any confidential information when replying to emails. Check the legitimacy of the request and be careful not to divulge too much information when you respond;
-* the majority of [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}]\#email) containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this isn’t the case, be very careful when you receive an email with an attachment, as this attachment may contain [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %});
+* the majority of [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}]\#email) containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this isn’t the case, be very careful when you receive an email with an attachment, as this attachment may contain [malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %});
 * ill-intentioned people often try to exploit human [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}), such as curiosity, pity, fear, the lure of rewards, or even libido. If you receive an email that makes allusion to any of these things, it is highly likely it is a malicious email;
   * there are many types of malicious emails, including hoaxes, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) emails, spear phishing emails (a highly targeted type of phishing), Nigerian scams, [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}), and [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %});
 * check if the email resembles those you have previously received from the supposed sender. The language used, way of writing, spelling, style, etc. may all be clues. If something seems odd, it’s probably a malicious email;
@@ -65,7 +65,7 @@ Risks related to sending emails
   * wait 4 days before opening attachments. Waiting this long gives the [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) a chance to detect [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}). A minimum of 3 to 4 days is necessary to detect a new virus when it first appears and add it to the signature database for the corresponding [antiviruses]({% link _knowhow/glossary/AntiVirus.markdown %}).
 * equip PCs used to open attachments with a less common operating system that is therefore subject to fewer attacks, e.g. ‘Linux’;
 * call the person who sent you a suspicious email and ask them if they did indeed send it. Tell them why you thought the email was suspicious;
-* avoid opening emails on critical [assets](-) or those which have access to critical assets, such as [confidential](-) information or indispensable assets.
+* avoid opening emails on critical [assets]({% link _knowhow/glossary/Assets.markdown %}) or those which have access to critical assets, such as [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information or indispensable assets.
 
 <h3 class="titre-page" id="applicable-sectoral-policies">Applicable sectoral policies</h3>
 Draw up and enforce the following sectoral policies:

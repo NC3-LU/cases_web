@@ -10,10 +10,10 @@ toc: true
 main-categ: sos
 ---
 
-# En quelques mots
+<h3 class="titre-page" id="in-brief">In brief</h3>
 Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
 
-# Courriers électroniques
+<h3 class="titre-page" id="email">Email</h3>
 ### <a href="/knowhow/sos/SOS-RecognisingASuspiciousEmail.html">Comment reconnaître un courrier électronique suspect ?</a>
 
 ### <a href="/knowhow/sos/SOS-IOpenedEmailAttachment.html">J'ai ouvert une pièce jointe d'un courrier électronique</a>

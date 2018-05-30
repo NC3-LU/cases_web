@@ -17,7 +17,7 @@ Assurer le caractère confidentiel des données, c'est garantir que seul les per
 
 Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.markdown %}) qui peuvent mettre en péril la confidentialité d'un actif:
 
-* **COMPROMISSION D'INFORMATIONS**
+* **Compromission d'informations**
   * Interceptions de signaux parasites compromettants
 
   * Espionnage à distance (PME: voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#interception-of-communications) et [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}\#spam--phishing) et [Mesures contre les codes malicieux]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}))
@@ -39,7 +39,7 @@ Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.
 
   * Géolocalisation
 
-* **DÉFAILLANCES TECHNIQUES**
+* **Defaillances techniques**
 
   *Panne matérielle (PME: voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#failure-of-it-or-communications-equipment) et [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#hardware-damaged-during-transport))
 

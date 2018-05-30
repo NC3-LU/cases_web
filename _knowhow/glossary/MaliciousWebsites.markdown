@@ -28,7 +28,7 @@ Drive-by-download is a method of infecting computers using malicious code, explo
 * Find out how to recognise messages from your own antivirus software. Many malicious sites trick internet users into downloading fake antivirus software by claiming that the user's machine is infected.
 
 #### Technical measures
-* Use a navigation filter such as [WOT](-) or enable your browser filters:
+* Use a navigation filter such as [WOT]({% link _knowhow/glossary/WOT.markdown %}) or enable your browser filters:
   * [Microsoft Smart Screen](https://www.microsoft.com/en-us/security/default.aspx)
   * [Mozilla Firefox phishing filter](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
   * [Google Chrome and browser safety](https://support.google.com/chrome/answer/114836?hl=fr&ref_topic=7437824)

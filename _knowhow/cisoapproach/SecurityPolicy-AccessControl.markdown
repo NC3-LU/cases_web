@@ -112,7 +112,7 @@ Here are a few possible scenarios:
 
 ### Applying security measures for:
 
-* [file servers](](-){{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
+* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
 * [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
 * [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
 * [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)

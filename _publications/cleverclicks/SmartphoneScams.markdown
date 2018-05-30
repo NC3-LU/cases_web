@@ -11,7 +11,7 @@ toc: true
 <h3 class="titre-page" id="in-brief">In brief</h3>
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
-The best known smartphone [risks](-) can be assigned to two categories:
+The best known smartphone [risks]({% link _knowhow/glossary/Threat.markdown %}) can be assigned to two categories:
 
 1. [Data loss]({% link _knowhow/glossary/DataLoss.markdown %})
 2. Loss of money

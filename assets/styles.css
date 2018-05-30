@@ -7,7 +7,9 @@ Template Name: cases.lu
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
 
-
+.row-spacer {
+		margin-top: 120px;
+}
 /*******Highlighted text Homepage**************************/
 .txt-hightlight {
 	background-color: #f2f3f4;
@@ -83,7 +85,8 @@ Template Name: cases.lu
 		color: #ffff4d;
 	}
 
-	.carousel {text-align: center;
+	.carousel {
+		text-align: center;
 		width: 100%;
 		height: auto;
 		margin-top: 50px;
@@ -202,6 +205,8 @@ Template Name: cases.lu
 		transition: linear 0.3s;
 	}
 
+
+
 	/*---------------------------------------------------*/
 
 	/*******TOC position "sticky", it keeps the TOC on top of the page when we scroll*****/
@@ -288,6 +293,7 @@ Template Name: cases.lu
 		margin-left: 35px;
 	}
 
+	
 
 	/******Bullet of the list, except for the navbar******/
 

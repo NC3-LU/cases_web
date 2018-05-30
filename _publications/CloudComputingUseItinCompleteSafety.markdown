@@ -65,14 +65,15 @@ Based on the [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Class
 At the end of the contract when you want to delete old backups, it is important to ensure that your data is destroyed and no longer accessible to unauthorised persons. The best way to guarantee this is to encrypt the data again.
 
 <h3 class="titre-page" id="availability">Availability</h3>
-Some providers guarantee a specific level of [availability]({{site.url}}), while others do not make any specific commitment, except "best effort".
+Some providers guarantee a specific level of [availability]({% link _knowhow/glossary/Availability.markdown %}), while others do not make any specific commitment, except "best effort".
 
 So, a provider offering availability of 98.5% can have 5.5 days' downtime a year (including 5.5 consecutive days) without violating the contracts. It is essential to perform this calculation to assess whether or not you can survive such a [failure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#failure-of-it-or-communications-equipment). Of course, higher availability costs more than average or low availability.  The best data centres guarantee up to 99.99% availability (less than one hour of downtime a year).
 
 The availability of cloud solutions is also conditioned by connectivity. A loss of connectivity at your company, ISP or cloud provider renders these services unavailable. Distributed denial of service (DDOS) attacks can also jeopardise an entire cloud infrastructure and affect you if one of your provider's customers becomes the target.
 
-The availability of an [asset]({{site.url}}) within an entity is defined by the assurance that it is usable in terms of time and expected performance. Also think about the time needed to retrieve backups from an online service. This time-scale can become very long, even prohibitive, because of the lower speed allocated to you.
+The availability of an [asset]({% link _knowhow/glossary/Assets.markdown %}) within an entity is defined by the assurance that it is usable in terms of time and expected performance. Also think about the time needed to retrieve backups from an online service. This time-scale can become very long, even prohibitive, because of the lower speed allocated to you.
 <h3 class="titre-page" id="connectivity">Connectivity</h3>
+
 ### Speed
 Most cloud services guarantee a data speed to their customers. It is imperative that companies check that these speeds are sufficient for the use that will be made of them.
 
@@ -102,9 +103,9 @@ The synchronisation of different work tools is a recurring need. Instead of send
 
 There are many services offering these forms of collaboration for synchronisation. The required bitrate and the amount of data exchanged are generally lower than for [backup]({% link _knowhow/glossary/DataBackups.markdown %}) services.
 
-Documents are thus always [available]({{site.url}}) on the various synchronised work tools, because a complete copy is found on all platforms. Loss of availability of the cloud service does not result in all the data being lost, but in loss of the synchronisation option. Manual synchronisation via secure email or removable media is always possible.
+Documents are thus always [available]({% link _knowhow/glossary/Availability.markdown %}) on the various synchronised work tools, because a complete copy is found on all platforms. Loss of availability of the cloud service does not result in all the data being lost, but in loss of the synchronisation option. Manual synchronisation via secure email or removable media is always possible.
 
-[Confidentiality]({{site.url}}) needs are, however, very real since this generally involves current data, which could attract the interest of competitors or other [malicious individuals]({% link _knowhow/glossary/Cybercriminals.markdown %}). [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) during transmission and storage on the cloud server is required. It is preferable for customers only to hold encryption keys to prevent unauthorised access through the cloud.
+[Confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) needs are, however, very real since this generally involves current data, which could attract the interest of competitors or other [malicious individuals]({% link _knowhow/glossary/Cybercriminals.markdown %}). [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) during transmission and storage on the cloud server is required. It is preferable for customers only to hold encryption keys to prevent unauthorised access through the cloud.
 
 <h3 class="titre-page" id="collaborative-platform">Collaborative platform</h3>
 When several people collaborate on the same documents, it is usually via a file server or a similar server within a company.
@@ -114,9 +115,9 @@ If the company does not want to maintain a file server or if several people from
 Everybody working on the same project has access to the same project space and can work on shared documents. There are two ways to do this:
 
 * by downloading the document from the cloud server to the work tool and returning once the work is finished. In this case it is possible to use [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) controlled by the customers and unknown to the cloud operator.
-* by using online tools provided for document processing. In this case the use of encryption resources by customers is not possible. This way of working, therefore, does not guarantee a high level of [confidentiality]({{site.url}}).
+* by using online tools provided for document processing. In this case the use of encryption resources by customers is not possible. This way of working, therefore, does not guarantee a high level of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}).
 
-Collaboration on a cloud platform can also pose a risk of [availability](-). If the cloud is not accessible, the work documents are no longer available. If there is disaster in the cloud or during a downtime, there is a risk that all data will be lost. It is therefore vital to provide timely [backup]({% link _knowhow/glossary/DataBackups.markdown %}) solutions outside the cloud, at the premises of one of the partners.
+Collaboration on a cloud platform can also pose a risk of [availability]({% link _knowhow/glossary/Availability.markdown %}). If the cloud is not accessible, the work documents are no longer available. If there is disaster in the cloud or during a downtime, there is a risk that all data will be lost. It is therefore vital to provide timely [backup]({% link _knowhow/glossary/DataBackups.markdown %}) solutions outside the cloud, at the premises of one of the partners.
 
 Managing access rights between rights holders can often be a problem. Check the granularity of the rights granted when choosing the supplier.
 
@@ -134,10 +135,10 @@ All these options obviously have a price and it is essential to evaluate the val
 <h3 class="titre-page" id="summary">Summary</h3>
 
 | Technical specifications | | | | |
-| Features | [Authentication]({% link _knowhow/glossary/Authentication.markdown %}) | [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) | [Availability](-) | Bitrate |
+| Features | [Authentication]({% link _knowhow/glossary/Authentication.markdown %}) | [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) | [Availability]({% link _knowhow/glossary/Availability.markdown %}) | Bitrate |
 -------------------------------------------------------------------
 | Non-critical [data backups]({% link _knowhow/glossary/DataBackups.markdown %}) | Strong [password]({% link _knowhow/glossary/Password.markdown %}) | SSL connection | Medium to strong | According to data volume and backup frequency |
 | Critical data backups | 2-factor authentication / strong authentication | SSL connection | AND data encryption | Strong, especially if the data is urgent | High, if rapid data recovery is required |
 | Synchronisation | According to the criticality of the data (see Backups) | According to the [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of the data (see Backups) | Low or Medium | According to the volume of data to be  synchronised |
-| File sharing | According to the criticality of the data (see Backups) | SSL connection | Shared key encryption if the data is critical | Medium to strong | According to the number of users and the volume of files to be shared |
-| Collaborative work | According to the criticality of the data (see Backups) | SSL connection | Strong, to avoid data loss. Provide for local backups? | High, to allow simultaneous access to multiple users |
+| File sharing | According to the criticality of the data (see [Backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups})) | SSL connection | Shared key encryption if the data is critical | Medium to strong | According to the number of users and the volume of files to be shared |
+| Collaborative work | According to the criticality of the data (see [Backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups})) | SSL connection | Strong, to avoid data loss. Provide for local backups? | High, to allow simultaneous access to multiple users |

@@ -38,14 +38,14 @@ Just like you, your computer needs to be vaccinated to remain in good health and
 ### Firewall and other security software: additional barriers
 Other security tools can also provide effective protection. For example, a pre-configured firewall that comes with your antivirus program or anti-spyware software may be used. You must nevertheless bear in mind that while each security program offers a layer of protection, none of them provide full and total coverage against threats.
 
-* [Firewall](-) and [network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %})
-* [Spyware](-)
+* [Firewall]({% link _knowhow/glossary/Firewall.markdown %}) and [network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %})
+* [Spyware]({% link _knowhow/glossary/MaliciousCodes.markdown %})
 * [Useful: Sandboxie]({% link _publications/Sandboxie.markdown %})
 
 ### Security patches: plugging the breaches
 Your software contains a large number of security flaws. They are corrected over time and new versions of your software are published regularly. To protect your computer against online threats, it’s not only important to update your operating system, you also need to update your other software and, in particular, your browser.
 
-* [Useful: Secunia PSI (for non-professional use only)](-)
+* [Useful: Secunia PSI (for non-professional use only)]({% link _knowhow/glossary/SecuniaPSI.markdown %})
 * [Patches]({% link _knowhow/glossary/Patches.markdown %})
 
 <h3 class="titre-page" id="rules-specific-to-online-bankinge-commerce-security">Rules specific to online banking/e-commerce security</h3>

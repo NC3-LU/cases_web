@@ -8,10 +8,12 @@ short: "Why manage risks?"
 categories: securing
 toc: true
 ---
-<div styles="border: 1px solid #000000; float:right; padding: 10px;">
-<strong>[Impact](-)</strong>: negative consequence arising from a <strong>[threat](-)</strong> exploiting a <strong>[vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %})</strong> of an <strong>asset</strong>.<br /><br />
-<strong>[Asset](-)</strong>: any element representing value for an organisation/company
-</div>
+<!-- <div style="border: 1px solid #000000; padding: 10px;"> -->
+
+[Impact]({% link _knowhow/glossary/Impact.markdown %}): negative consequence arising from a [threat]({% link _knowhow/glossary/Threat.markdown %}) exploiting a [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) of an asset.<br /><br />
+[Asset]({% link _knowhow/glossary/Assets.markdown %}): any element representing value for an organisation/company
+
+<!-- </div> -->
 
 Generally speaking, security aims to reduce both the number and the scope of these impacts:
 

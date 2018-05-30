@@ -16,7 +16,7 @@ La 'disponibilité' d'un actif au sein d'une entité,  c'est l'assurance que cel
 
 Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril la disponibilité d'un actif :
 
-### **DOMMAGES PHYSIQUES**
+### **Dommages physiques**
 
 * Incendie (PME: voir [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#fire))
 
@@ -30,7 +30,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Poussière, corrosion, gel
 
-### **ÉVÉNEMENTS NATURELS**
+### **Evenements naturels**
 
 * Phénomène climatique
 
@@ -42,7 +42,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Crue
 
-### **PERTE DE SERVICES ESSENTIELS**
+### **Perte de services essentiels**
 
 * Défaillance de la climatisation
 
@@ -50,7 +50,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Perte des moyens de télécommunication (PME: voir [Accès au réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#network-unavailability) et [Interruption des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#network-unavailability) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#discontinuity-of-service-providers))
 
-### **DISTRIBUTION DUES AUX RADIATIONS**
+### **Distribution dues aux radiations**
 
 * Rayonnements électromagnétiques
 
@@ -58,13 +58,13 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Impulsions électromagnétiques (IEM)
 
-### **COMPROMISSION D'INFORMATIONS**
+### **Compromission d'informations**
 
 * Vol de supports ou de documents (PME: voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#infiltrating-the-premises))
 
 * Vol de matériels (PME: voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#infiltrating-the-premises))
 
-### **DÉFAILLANCES TECHNIQUES**
+### **Defaillances techniques**
 
 * Panne matérielle (PME: voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#failure-of-it-or-communications-equipment) et [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#hardware-damaged-during-transport))
 
@@ -76,7 +76,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Atteinte à la maintenabilité du système d'information (PME: voir [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#unusable-backups) et [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}\#unavailability-of-administrators) et [Environnement logiciel inapproprié]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}\#unsuitable-software-environment))
 
-### **ACTIONS NON AUTORISÉES**
+### **Actions non autorisees**
 
 * Utilisation illicite des matériels (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}\#misuse-of-it-resources))
 
@@ -84,7 +84,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Traitement illicite des données (PME: voir [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}\#unauthorised-processing-of-personal-data--employee-monitoring) et [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}\#regulatory-requirements))
 
-### **COMPROMISSION DE FONCTIONS**
+### **Compromission de fonctions**
 
 * Erreur d'utilisation (PME: voir [Erreur humaine]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}\#human-error-prevention-measures))
 

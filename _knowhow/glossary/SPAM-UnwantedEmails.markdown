@@ -53,7 +53,8 @@ By placing an order on an electronic commerce website, by subscribing to service
 If you make a list of the commonest surnames and first names and another list of ISPs, using all possible combinations (firstname.surname, surname.firstname, firstname, etc..), you can generate hundreds of thousands of email addresses with a strong chance that they exist! And this is what some spammers do.
 
 #### Example of spam
-**IMAGE MISSING HERE**
+
+<img class="txtcenter" src="{{ "/assets/img/spam.gif" | relative_url }}" alt="{{ site.title | escape }}" />
 
 <h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves?</h3>
 

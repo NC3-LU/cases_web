@@ -44,5 +44,5 @@ The following technical measures can be implemented:
   * [Google Chrome and browser safety](https://support.google.com/chrome/answer/114836?hl=fr&ref_topic=7437824)
   * [Mozilla Firefox phishing filter](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
   * [Microsoft Smart Screen](https://www.microsoft.com/en-us/security/default.aspx)
-* Use the Web of Trust ([WOT](-)) add-on
+* Use the Web of Trust ([WOT]({% link _knowhow/glossary/WOT.markdown %})) add-on
 * Use a [web filter]({% link _knowhow/glossary/WebFilterProxy.markdown %}) (proxy)

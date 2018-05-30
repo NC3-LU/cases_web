@@ -10,7 +10,7 @@ toc: true
 ---
 [Risk analysis]({% link _publications/WhyManageRisks.markdown %}) consists of identifying the attack scenarios which would cause the most serious impacts, and putting forward a treatment to reduce their consequences.
 
-The problem with this exercise lies in the need to be **as exhaustive and precise as possible**. If there are any oversights in terms of [assets](-) or any **incorrect estimates** of the probability of a given [threat](-), any errors in assessing the ease of exploitation of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) or even of the impacts caused, this will lead to incorrect conclusions...and to **inappropriate security measures**.
+The problem with this exercise lies in the need to be **as exhaustive and precise as possible**. If there are any oversights in terms of [assets](-) or any **incorrect estimates** of the probability of a given [threat]({% link _knowhow/glossary/Threat.markdown %}), any errors in assessing the ease of exploitation of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) or even of the impacts caused, this will lead to incorrect conclusions...and to **inappropriate security measures**.
 
 If this were to occur, the best thing that could happen would be to end up with excessively severe measures, while the worst case scenario would be to end up with measures that are poorly targeted and therefore ineffective. To be effective in carrying out a risk analysis, it is necessary to have a good view of the primary assets of the organisation – to fully understand the business processes, the information and their values.
 

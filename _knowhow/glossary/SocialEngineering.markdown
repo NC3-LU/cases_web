@@ -52,5 +52,5 @@ The attacker may also adopt a completely different strategy, for example, by put
 * Never leave paper documents containing sensitive information in plain view. Likewise for documents thrown in the bin. Make any documents you no longer need illegible.
 
 <h3 class="titre-page" id="further-information">Further information</h3>
-* [Detailed article on social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
+* [Detailed article on social engineering]({% link _publications/SocialEngineering.markdown %})
 * [SMEs: Threats to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})

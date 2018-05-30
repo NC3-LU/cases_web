@@ -9,60 +9,47 @@ layout: default
 <div class="blocantiscroll col-md-2" style="overflow: visible;">
 
 
-      <!-- Loop to display the 3 categories and theirs pages --> 
-      <h2>Knowhow</h2>
-      <ol class="test">
-       <!-- {% for i in knowhow %}
-          {% assign list-cat2 = i.categories %}
-        {% endfor %}-->
+  <!-- Loop to display the 3 categories and theirs pages --> 
+  <h2>Knowhow</h2>
+  <ol class="test">
 
-        {% assign list-cat = knowhow |map: 'main-categ' |uniq %}
+    {% assign list-cat = knowhow |map: 'main-categ' |uniq %}
 
-
+    {% for i in (0..list-cat.size) %}
+    {% for page in knowhow %}
 
 
-        {% for i in (0..list-cat.size) %}
-        {% for page in knowhow %}
+    {% if page.categories contains list-cat[i] %}
+    {% assign f-cat = "f-"|append: list-cat[i] %}
+    {% assign id-cat = "#"|append: list-cat[i] %}
+    {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
+    {% assign class-cat = "collapse-"|append: list-cat[i] %}
+    <button class="btn-category" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">
+     <h6 class="title-blue">{{ page.title }}</h6>
+   </button>
+   <div class="{{ class-cat }}" id="{{ aria-cat }}">
+    {% for page in site.knowhow %}
 
+    {% if page.categories contains f-cat %}
+    <li>
+      <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
+        <h6 class="list-select">{{ page.title }}</h6>
+      </a>
+    </li>
+    {% endif %}
 
-        {% if page.categories contains list-cat[i] %}
-        {% assign f-cat = "f-"|append: list-cat[i] %}
-        {% assign id-cat = "#"|append: list-cat[i] %}
-        {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
-        {% assign class-cat = "collapse-"|append: list-cat[i] %}
-        <button class="btn-category" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">
-         <h6 class="title-blue">{{ page.title }}</h6>
-       </button>
-       <div class="{{ class-cat }}" id="{{ aria-cat }}">
-        {% for page in site.knowhow %}
-
-        {% if page.categories contains f-cat %}
-        <li>
-          <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-            <h6 class="list-select">{{ page.title }}</h6>
-          </a>
-        </li>
-        {% endif %}
-
-        {% endfor %}
-      </div>
-      {% endif %}
-
-      {% endfor %}
-      {% endfor %}
-
-    </ol>
-
-
+    {% endfor %}
   </div>
+  {% endif %}
 
-<!--<div class="col-md-2 ">
-  <div class="row-fluid row-fluid--padding">
+  {% endfor %}
+  {% endfor %}
 
-    
+</ol>
+
+
 </div>
 
-</div>-->
 
 <div class="col-md-8">
  <div class="row-fluid row-fluid--padding">
@@ -74,16 +61,10 @@ layout: default
 </div>
 
 </div>
-<!--
-<div class="tocnavsection col-md-2">
-  <div class="row-fluid row-fluid--padding">
-    
-  </div>
-</div>
--->
+
 <div class="blocantiscroll col-md-2">
-      <h2>Table of Content</h2>
-      {% if page.layout == "knowhow" %}
-      {{content | toc_only}}
-      {% endif %}
-    </div>
+  <h2>Table of Content</h2>
+  {% if page.layout == "knowhow" %}
+  {{content | toc_only}}
+  {% endif %}
+</div>

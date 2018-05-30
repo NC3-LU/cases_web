@@ -32,5 +32,5 @@ The organisation must draft and enforce a sectoral policy on systems development
 
 <h3 class="titre-page" id="technical-measures">Technical measures</h3>
 * It is important to test patches before deploying them on key systems. It is practical to keep a test computer for this purpose.
-* You can use the Secunia online service to check for patches for your operating system or your installed software. Alternatively, download a [Secunia application](-) (note that their PSI version must not be used in a professional context). These services will tell you which software to update.
+* You can use the Secunia online service to check for patches for your operating system or your installed software. Alternatively, download a [Secunia application]({% link _knowhow/glossary/SecuniaPSI.markdown %}) (note that their PSI version must not be used in a professional context). These services will tell you which software to update.
 * In a Microsoft infrastructure it is advisable to set up a WSUS update server, if possible with extensions enabling updates to all software on workstations.

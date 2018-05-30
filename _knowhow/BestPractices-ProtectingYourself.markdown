@@ -12,7 +12,7 @@ main-categ: bestpract
 <h3 class="titre-page">In brief</h3>
 Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), falsification (loss of [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and even destruction (loss of [availability]({% link _knowhow/glossary/Availability.markdown %})).
 
-Company managers usually only realise the true value of their [assets]() after a serious incident occurs. It is then often too late to take curative or protective measures.
+Company managers usually only realise the true value of their [assets]({% link _knowhow/glossary/Assets.markdown %}) after a serious incident occurs. It is then often too late to take curative or protective measures.
 
 <h3 class="titre-page">Incidents and impacts</h3>
 There are many reasons why it is important to [protect your computer]({{ site.url }}/knowhow//glossary/WhyImportant2ProtectYourComputer.html).
@@ -29,7 +29,7 @@ Regardless of the strategy chosen, it is always of benefit to identify “quick 
 The best way to protect a company consists of opting for continuous improvement, taking into consideration the company's real security needs. This strategy is more time-consuming than a more general strategy, but at the end of the day, it will be better suited to the company’s actual needs, and will therefore be more effective and less expensive, but certainly longer to implement.(See article <a href="/publications/ProtectingYourCompany.html">protecting your company</a>)
 
 <h3 class="titre-page">Risk analysis</h3>
-To be able to protect important and vital data and assets, they must first of all be identified through at least [a rudimentary risk analysis]({{ site.url }}).
+To be able to protect important and vital data and assets, they must first of all be identified through at least [a rudimentary risk analysis]({% link _publications/ProtectingYourCompany.markdown %}\#prevent-risks).
 
 To do this, the data and assets that are essential to the company should be identified, along with the [threats]({% link _knowhow/glossary/Threat.markdown %}) and the probability that such threats may arise. Also to be identified are the scope of [human and technical vulnerabilities]({{ site.url }}/knowhow/glossary/Vulnerabilities.html) and a quantification of the potential [impacts]({% link _knowhow/glossary/Impact.markdown %}). This exercise can be more or less formal in nature, and can be supported by a specific method or tool.
 
@@ -48,7 +48,7 @@ Make sure you raise [awareness and train]({{ site.url }}/publications/Protecting
 Tell your staff about the risks linked to [the use of social networks]({{ site.url }}/publications/ProtectingYourCompany.html#communications-and-social-networks) as well as the risks associated with “[social engineering]({{ site.url }})”. Teach them how to behave appropriately [when on business trips]({{ site.url }}/publications/ProtectingYourCompany.html#business-trips).
 
 <h3 class="titre-page">Physical security</h3>
-Finally, do not lose sight of the [physical security]({{ site.url }}/publications/ProtectingYourCompany.html#protecting-the-premises) of your company. Many [threats]({{ site.url }}) can exploit physical [vulnerabilities]({{ site.url }}/knowhow/glossary/Vulnerabilities.html), be they human, natural or environmental threats.
+Finally, do not lose sight of the [physical security]({{ site.url }}/publications/ProtectingYourCompany.html#protecting-the-premises) of your company. Many [threats]({% link _knowhow/glossary/Threat.markdown %}) can exploit physical [vulnerabilities]({{ site.url }}/knowhow/glossary/Vulnerabilities.html), be they human, natural or environmental threats.
 
 <h3 class="titre-page">General strategy</h3>
 Alongside the gradual strategy to improve its level of security, a company also has the option of following “best practices” or setting out more commonplace security measures. The general strategy is quicker to implement than the gradual strategy, and requires less expertise within the company. However, it does not necessarily take into account the real needs of the company.

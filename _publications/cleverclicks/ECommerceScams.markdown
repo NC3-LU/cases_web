@@ -38,7 +38,7 @@ Beware of:
 * difficult or impossible to contact,     
 * an invitation to make payment to an account abroad that does not match the country from which the item is to be shipped.
 
-Check the reliability of the online shop (for example, use [WOT](-)) and read the testimonials of other customers.
+Check the reliability of the online shop (for example, use [WOT]({% link _knowhow/glossary/WOT.markdown %})) and read the testimonials of other customers.
 
 ##### Advance fee fraud
 Advance fee fraud has countless variations involving all types of products. But the scam is always the same: you are asked to pay before you receive the purchased item. The justifications are more or less reasonable, such as insurance for unforeseen transport costs or advances for "logistic brokers".

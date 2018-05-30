@@ -26,7 +26,7 @@ For example:
 * with online banking sites to steal money from your account
 * on your online server to access data you have [saved]({% link _knowhow/glossary/DataBackups.markdown %})
 * on your online store to purchase items in your name and which will be billed to you
-* on your [social media](-) accounts, your email account or your chat programs in order to steal your online identity and use it for improper purposes
+* on your [social media]({% link _publications/ProtectingYourCompany.markdown %}\#communications-and-social-networks) accounts, your email account or your chat programs in order to steal your online identity and use it for improper purposes
 
 <h3 class="titre-page" id="private-contacts">Private contacts</h3>
 Cybercriminals collect names, email addresses and telephone numbers from people in your contacts list to sell them to third parties. These third parties will go on to use this data to send spam or [phishing]({% link _knowhow/glossary/Phishing.markdown %}) emails, thereby widening the scope of their [criminal]({% link _knowhow/glossary/Cybercriminals.markdown %}) endeavours.
