@@ -30,8 +30,8 @@ The attached section is optional, but important for organisations that use serve
 
 ### Directly associated organisational measures:
 
-* Organisation of security
-  * Attribution of responsibilities
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
 
 <h3 class="titre-page">Separation of environments</h3>
 It is preferable to separate devices that deal with software development activities or test activities from those on which products in production are installed.
@@ -48,11 +48,11 @@ In particular if critical data (from the point of view of [confidentiality]({% l
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Compliance
-  * Protection of operational data
-  * Personal data protection
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
 
 <h3 class="titre-page">Outsourcing of resource management</h3>
 With regard to resources managed by external companies, it is important to first assess the organisation’s critical security points and indicate the specific management measures in the service agreement.
@@ -60,7 +60,7 @@ With regard to resources managed by external companies, it is important to first
 Here, we talk about “outsourcing” or “facilities management”.
 
 ### Applying security measures to:
-* Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see External connections).
+* Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#external-connections)).
 
 <h3 class="titre-page">Protection against malware</h3>
 An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html), such as, in particular, CD-ROMs,
@@ -71,7 +71,7 @@ On the other hand, a large number of measures must be respected by the users to 
 
 * prevent the antivirus tools from running (deactivating them, reconfiguring them, turning off updates, etc.);
 * install software that has not been approved by the IT manager (SMEs: see [Use of unapproved software]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#use-of-unapproved-software));
-* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: [see Social engineering/Inadequate communication]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#manipulation-of-people) and [Handling malicious codes]({{site.url}}/knowhow/glossary/MaliciousWebsites.html)). Such emails must be destroyed and advice may be requested from the IT manager.
+* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: [see Social engineering/Inadequate communication]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.html#manipulation-of-people) and [Handling malicious codes]({{site.url}}/knowhow/glossary/MaliciousCodes.html)). Such emails must be destroyed and advice may be requested from the IT manager.
 
 Incoming email verification tools deal not only with viruses, but can also eliminate potentially dangerous attachments (executables, scripts, macros).
 
@@ -84,10 +84,10 @@ Incoming email verification tools deal not only with viruses, but can also elimi
 
 ### Behavioural measures:
 
-* [Malicious software – best practice]({{site.url}}/publications/bestpractices/MaliciousSoftwareBP.html)
+* [Malicious software – best practice]({{site.url}}/knowhow/glossary/MaliciousCodes.html)
 * [Emails]({{site.url}}/publications/bestpractices/EMail-BestPractices.html)
 * [Removable devices]({{site.url}}/knowhow/glossary/RemovableDevices.html)
-* [Malicious websites]({{site.url}}/knowhow/glossary/MaliciousWebsite.html)
+* [Malicious websites]({{site.url}}/knowhow/glossary/MaliciousWebsites.html)
 
 ### Directly associated organisational measures:
 
@@ -95,7 +95,7 @@ Incoming email verification tools deal not only with viruses, but can also elimi
   * [Classification of and responsibility for resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#classification-and-responsibility-for-resources)
 * [Human factors]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html)
   * [Training and information]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#training-and-information)
-  *[ Response to incidents and security malfunctions]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#response-to-incidents-and-malfunctions)
+  * [Response to incidents and security malfunctions]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#response-to-incidents-and-malfunctions)
 * [Operational and communications aspects]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html)
   * [Email]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#email)
 * [Access control]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html)

@@ -8,7 +8,7 @@ short:
 categories: f-bestpract
 toc: true
 ---
-Specific legal and regulatory provisions must be respected by organisations. These provisions notably cover respect for privacy, copyright, and regulatory provisions specific to each activity sector. (See also legal aspects)
+Specific legal and regulatory provisions must be respected by organisations. These provisions notably cover respect for privacy, copyright, and regulatory provisions specific to each activity sector. (See also [legal aspects]({% link _knowhow/glossary/LegalAspects.markdown %}))
 
 <h3 class="titre-page">Unauthorised processing of personal data – Employee monitoring</h3>
 The Luxembourg Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data aims to: “protect the fundamental freedoms and rights of physical persons [...] with regard to the processing of data of a personal nature”.

@@ -54,7 +54,7 @@ If you make a list of the commonest surnames and first names and another list of
 
 #### Example of spam
 
-<img class="txtcenter" src="{{ "/assets/img/spam.gif" | relative_url }}" alt="{{ site.title | escape }}" />
+<img class="txtcenter img-border" src="{{ "/assets/img/spam.gif" | relative_url }}" alt="{{ site.title | escape }}" />
 
 <h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves?</h3>
 

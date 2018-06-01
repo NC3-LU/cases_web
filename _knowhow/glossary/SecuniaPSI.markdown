@@ -1,5 +1,5 @@
 ---
-layout: publication-list
+layout: article
 title:  "Update softwares with Secunia PSI"
 menutitle:
 logo:

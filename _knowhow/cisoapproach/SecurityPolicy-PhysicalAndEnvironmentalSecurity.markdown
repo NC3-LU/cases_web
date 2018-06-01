@@ -119,7 +119,7 @@ The electricity power supply for vital equipment must be made safe:
 <h3 class="titre-page">Maintenance</h3>
 For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence) and [Administration impossible}({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({{site.url}}) of [resources]({{site.url}}).
 
-When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({{site.url}}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#hardware-damaged-during-transport) and [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery))
+When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#hardware-damaged-during-transport) and [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery))
 
 See also: [SOS – handover to repairs]({{site.url}}/knowhow/sos/SOS-HandoverToRepairs.html)
 
@@ -193,23 +193,23 @@ Whichever method is chosen, please be respectful of the environment.
 
 ### Directly associated organisational measures:
 
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Human factors
-  * Training and information
-* Physical and environmental security
-  * Maintenance
-* Operational and communications aspects
-  * Documented procedures
-* Compliance
-  * Intellectual property
-  * Protection of operational data
-  * Personal data protection
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
+  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#maintenance)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#intellectual-property)
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
 
 ### Technical measures:
 
-* Disposal
-* Physical security
+* [Disposal]({% link _knowhow/glossary/Discarded.markdown %})
+* [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
 <h3 class="titre-page">Tidy office policy</h3>
 Follow a tidy office policy, i.e.:
@@ -225,21 +225,21 @@ Follow a tidy office policy, i.e.:
 
 ### Directly associated organisational measures:
 
-* Organisation of security
-  * Attribution of responsibilities
-  * Third party access and outsourcing
-* Classification and monitoring of resources
-  * Classification of and responsibility for resources
-* Physical and environmental security
-  * Physical security perimeter
-  * Rules within the perimeter
-* Operational and communications aspects
-  * Documented procedures
-* Compliance
-  * Intellectual property
-  * Protection of operational data
-  * Personal data protection
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
+  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#third-party-access-and-outsourcing)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter)
+  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#rules-within-the-perimeter)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
+  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#intellectual-property)
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
 
 ### Technical measures:
 
-Physical security
+[Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})

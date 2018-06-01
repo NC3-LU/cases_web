@@ -212,7 +212,8 @@ Template Name: cases.lu
 	/*******TOC position "sticky", it keeps the TOC on top of the page when we scroll*****/
 	.blocantiscroll
 	{
-		position: sticky;
+
+		height: 100vh;
 		top: 0px;
 		background: none;
 		overflow-y: auto;
@@ -221,6 +222,10 @@ Template Name: cases.lu
 
 	.blocantiscroll > h2 {text-align: center;}
 
+	::-webkit-scrollbar {
+			width: 0px;
+			background: transparent;
+		}
 	/***************************************************/
 
 	/********Layout of the list in TOC******************/
