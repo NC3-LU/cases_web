@@ -18,7 +18,7 @@ Selon une étude de Rackspace (fournisseur de solutions cloud), 56% des entrepri
 
 <h4 class="titre-page">Les avantages et les inconvénients du cloud</h4>
 
-<img src="{{ '/assets/img/201507/stats.png' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
+<img class="img-border" src="{{ '/assets/img/201507/stats.png' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
 
 <h6 class="title3-page">Coûts</h6>
 Une entreprise qui stocke sa base de données clients sur le cloud au lieu de le faire sur ses propres serveurs économise des investissements dans une infrastructure propre. Les coûts pourront être réduits au minimum dans un 1er temps, et ils évolueront en fonction des besoins et de l’utilisation effective du service.

@@ -36,7 +36,7 @@ La question de la rétroactivité du nouveau règlement a été posée par la sa
 <h4 class="titre-page">Nouvelles responsabilités</h4>
 Le nouveau règlement impose des responsabilités accrues pour les responsables de traitement et sous-traitants.Données personnelles, big datat et vie privée...
 
-<img src="{{ '/assets/img/201610/pascal-steichen-7.jpg' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
+<img class="img-border" src="{{ '/assets/img/201610/pascal-steichen-7.jpg' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
 Le responsable traitement doit limiter le traitement aux données strictement nécessaires à la délivrance du service. Conséquence : la « pseudonymisation » des données doit être utilisée pour leur faire perdre leur caractère nominatif ce caractère n’est pas nécessaire.
 
 Ensuite, les principes « **Privacy by design** » et « **by default** » sont à appliquer dès le choix du moyen de traitement.
@@ -64,7 +64,7 @@ Pour les entreprises traitant des données, la check-list minimale serait la sui
 <h4 class="titre-page">Droits du patient et patience du droit</h4>
 La plateforme nationale eSanté a été présentée par Mme Violaine Langlet, de l’agence eSantéLe nouveau réglement sur la protection des données personnelles
 
-<img src="{{ '/assets/img/201610/pascal-steichen-10.jpg' | relative_url }}" style="float:left; width:380px; margin-right: 15px;" />
+<img class="img-border" src="{{ '/assets/img/201610/pascal-steichen-10.jpg' | relative_url }}" style="float:left; width:380px; margin-right: 15px;" />
 Le **dossier de santé électronique gratuit**, personnel et sécurisé, qui regroupe les données de santé essentielles pour le suivi du patient. Il permet au patient de voir par qui et pour quelle raison son dossier a été consulté.
 
 La mise en place de ce dossier de santé électronique a requis une Analyse d’impact approfondie, eu égard aux risques sur les droits et libertés des personnes physiques.
