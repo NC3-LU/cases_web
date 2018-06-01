@@ -7,16 +7,21 @@ Template Name: cases.lu
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
 
+/*****Space between categories on HomePage*****************/
+
 .row-spacer {
 		margin-top: 120px;
 }
+
 /*******Highlighted text Homepage**************************/
+
 .txt-hightlight {
 	background-color: #f2f3f4;
 	padding: 5px;
 }
+
 /**********************************************************/
-/******Displays two columns for the page articles-list******/
+/******Displays two columns for the page articles-list/index******/
 .two-col-display {
 	-webkit-column-count: 2;
 	 -moz-column-count: 2;
@@ -26,11 +31,21 @@ Template Name: cases.lu
 	  -moz-column-gap: 4em;
 	  column-gap: 4em;
 }
+
+	/*******Date of posts in italic with color*******************/
+	.date-italic{
+		color: rgb(0,114,184);
+		font-style: italic;
+		font-size: 1.2em;
+		padding-left: 50%;
+	}
+
+	/***********************************************************/
+
 /**********************************************************/
 
-/*********************************************************/
-
 /*****Defines the height and width of the footer's logo*/
+
 .logo-footer {
 	height: 32px;
 	width: 32px;
@@ -38,7 +53,7 @@ Template Name: cases.lu
 
 /*********************************************************/
 
-/*******Layout download's page****************************/
+/*******Display a border on the left of the title****************************/
 
 .title-border-left {
 		border-left: solid 3px rgb(0,114,184);
@@ -47,7 +62,7 @@ Template Name: cases.lu
 
 /*********************************************************/
 
-/****Display a color if the cursor hovers the item**/
+/****Display a blue color if the cursor hovers the item**/
 .list-select {
 	outline: none;
 }
@@ -67,7 +82,8 @@ Template Name: cases.lu
 	text-decoration: underline;
 	font-style: italic;
 	color: #565656;}
-	/*-----CAROUSEL--------------------------*/
+
+/*-----CAROUSEL--------------------------*/
 
 	.carousel-text {
 		height: 200px;
@@ -101,6 +117,7 @@ Template Name: cases.lu
 		visibility: visible;
 	}
 
+	/**** Button of the carousel where "Services" is written****/
 	.btn-carousel{ text-decoration: none;
 		-moz-border-radius: 30px;
 		-webkit-border-radius: 30px;
@@ -136,7 +153,7 @@ Template Name: cases.lu
 
 	
 
-	/*----------------------------------------*/
+/*----------------------------------------*/
 	.box-iso {
 		height: 150px;
 		width: 25%;
@@ -147,7 +164,9 @@ Template Name: cases.lu
 	}
 
 	/*-------------PUBLICATION-LIST------------*/
-	/*----Display, with a button, publications*/
+	/*----Display, with a button, publications
+
+	If we click on the button, it displays the list*/
 
 	.collapse-iso {display: none;}
 
@@ -166,12 +185,15 @@ Template Name: cases.lu
 	.collapse-securing.show {display: block;}
 
 
+/********************Knowhow***********************************/
+	/*----Display, with a button, knowhow
 
-	/******Layout of the button and collapse event to show posts in knowhow******/
+	If we click on the button, it displays the list*/
 
 	.collapse-ciso {display: none;}
 
 	.collapse-ciso.show {display: block;}
+
 
 
 	.collapse-sos {display: none;}
@@ -185,7 +207,7 @@ Template Name: cases.lu
 	.collapse-bestpract.show {display: block;}
 
 
-
+/***********Layout of the categories's button in knowhow, publications, services****/
 	.btn-category {border: 3px solid #fff;
 		background-color: #ffffff;
 		width: 100%;
@@ -205,11 +227,11 @@ Template Name: cases.lu
 		transition: linear 0.3s;
 	}
 
-
+	
 
 	/*---------------------------------------------------*/
 
-	/*******TOC position "sticky", it keeps the TOC on top of the page when we scroll*****/
+	/*******TOC on the left and right, scroll only the TOC, not the content page in the middle*****/
 	.blocantiscroll
 	{
 
@@ -229,19 +251,12 @@ Template Name: cases.lu
 	/***************************************************/
 
 	/********Layout of the list in TOC******************/
+
 	.title-blue{ color: rgb(0,114,184); }
 
 	/***************************************************/
 
-	/*******Date of posts in italic with color*******************/
-	.date-italic{
-		color: rgb(0,114,184);
-		font-style: italic;
-		font-size: 1.2em;
-		padding-left: 50%;
-	}
 
-	/***********************************************************/
 
 	html, body {
 		font-family: Helvetica,Arial,sans-serif
@@ -451,8 +466,6 @@ Template Name: cases.lu
 
 		/*Menu font color*/
 
-
-
 		.navbar-right > li > a{	color: #FFFFFF;	font-size: 120%; 	}
 
 		.navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black; 
@@ -498,7 +511,7 @@ Template Name: cases.lu
 
 
 
-		/*----Page--Service--MONARC-------------------------------------------------------*/
+		/*----Border around images-------------------------------------------------------*/
 
 		.img-border{border: 2px solid rgb(0,114,184);}
 

@@ -4,7 +4,8 @@ layout: default-ext
 
 {% assign articles = site.posts |sort: 'date' |reverse %}
 
-
+<!--
+TOC on the left, list of all articles       -->
 <div class="blocantiscroll col-md-2">
   <h2>Articles</h2>
   {% for post in articles %}
@@ -13,6 +14,7 @@ layout: default-ext
   </a>
   {% endfor %}
 </div>
+
 
 
 <div class="col-md-8">
