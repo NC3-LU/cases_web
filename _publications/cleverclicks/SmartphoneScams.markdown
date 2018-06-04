@@ -11,7 +11,7 @@ toc: true
 <h3 class="titre-page" id="in-brief">In brief</h3>
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
-The best known smartphone [risks]({% link _knowhow/glossary/Threat.markdown %}) can be assigned to two categories:
+The best known smartphone [risks]({% link _knowhow/glossary/BasicCriteria.markdown %}) can be assigned to two categories:
 
 1. [Data loss]({% link _knowhow/glossary/DataLoss.markdown %})
 2. Loss of money
@@ -41,7 +41,7 @@ A malicious person can create a WiFi or GSM hotspot that resembles a legitimate 
 Disable automatic network connection and your WiFi connection if you do not use them. In restaurants, hotels, cafés, etc. ask if a WiFi connection exists and, if so, what is its name and if a password is needed. Only secure WiFi networks using strong passwords that change regularly are relatively safe.
 
 ##### Spyware and malware attacks
-Smartphones are not immune to [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %})! For example, an attacker can steal login data or credit card numbers by sending smartphone users infected apps or malicious attachments in messages which, at first glance, are not recognisable as such. If spyware has been downloaded to your smartphone, it can read or even change most of your data.
+Smartphones are not immune to [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %})! For example, an attacker can steal login data or credit card numbers by sending smartphone users infected apps or malicious attachments in messages which, at first glance, are not recognisable as such. If spyware has been downloaded to your smartphone, it can read or even change most of your data.
 
 ##### QR-Codes that lead to infected sites
 Prudence is particularly required for QR codes added later on their media. Only scan QR codes from a trusted source.
@@ -77,3 +77,8 @@ The call-back trap is a scam that is gradually resurfacing. Someone calls from a
 * Do not download apps from non-official platforms
 * Read user reviews before installing an app  
 * Check additional charges on monthly bills
+
+Video :
+
+Network Spoofing
+<iframe  scrolling="no" src="https://www.youtube.com/embed/GBUiBEv-cM0?list=UUIaFqVXykNrg0FA6vFjrEvA?rel=0" title="YouTube video player" frameborder="0" height="200" width="200"></iframe>

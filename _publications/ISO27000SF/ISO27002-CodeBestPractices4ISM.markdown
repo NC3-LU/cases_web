@@ -1,7 +1,7 @@
 ---
 layout: publication-list
-title:  "ISO/IEC 27001 Best Practice for Information Management System"
-menutitle: "ISO/IEC 27001 Best Practice for Information Management System"
+title:  "ISO/IEC 27002 Best Practice for Information Management System"
+menutitle: "ISO/IEC 27002 Best Practice for Information Management System"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "A few information about this standard"

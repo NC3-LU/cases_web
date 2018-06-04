@@ -25,7 +25,7 @@ The risk **assessment criteria** notably include:
 
 So for a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, there are risks that must be avoided at all costs. In others, there are assets that must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
 
-The **[basic criteria](-)** must also be determined:
+The **[basic criteria]({% link _knowhow/glossary/BasicCriteria.markdown %})** must also be determined:
 
 * [Impact]({% link _knowhow/glossary/Impact.markdown %}) criteria:
   * how to express the degree of damage and the associated costs, how to express damage in terms of reputation or damage caused by legal consequences.
@@ -75,9 +75,138 @@ Risk estimation is comprised of several phases:
 
 It involves calculating a value, in other words an approximative level for identified risks, based on the method used (which must guarantee repeatability), by estimating the impacts as well as the likelihood of occurrence. (For example, an approximate impact (qualitative scale) is multiplied by the likelihood of occurrence (qualitative scale) to determine the risk estimation).
 
+
+<table class="tg">
+  <tr>
+    <th class="tg-us36 color-table-grey">Numero actif</th>
+    <th class="tg-us36 color-table-grey">Libelle actif</th>
+    <th class="tg-us36 color-table-grey">Type d'actif</th>
+    <th class="tg-us36 color-table-grey">Niv. Imp.</th>
+    <th class="tg-us36 color-table-grey">Menace</th>
+    <th class="tg-us36 color-table-grey">Libelle menace</th>
+    <th class="tg-us36 color-table-grey">Niv men.</th>
+    <th class="tg-us36 color-table-grey">Vulnerabilite</th>
+    <th class="tg-us36 color-table-grey">Libelle vulnerabilite</th>
+    <th class="tg-us36 color-table-grey">Niv vulne.</th>
+    <th class="tg-us36 color-table-grey">Niv. risque</th>
+    <td class="tg-us36 color-table-grey">Commentaire</td>
+  </tr>
+  <tr>
+    <td class="tg-us36" rowspan="5">ASB01</td>
+    <td class="tg-us36" rowspan="5">Locaux de l"admin.</td>
+    <td class="tg-us36" rowspan="5">Locaux batiments</td>
+    <td class="tg-us36" rowspan="5">2</td>
+    <td class="tg-us36" rowspan="3">ME11</td>
+    <td class="tg-us36" rowspan="3">Incendie</td>
+    <td class="tg-us36" rowspan="3">1</td>
+    <td class="tg-us36">V001</td>
+    <td class="tg-us36">Absence de plan de secours (evacuation, possibilite DRP, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-grey">4</td>
+    <td class="tg-us36"></td>
+
+  </tr>
+  <tr>
+    <td class="tg-us36">V002</td>
+    <td class="tg-us36">Batiments vetustes (plancher, electricitem plomberie, etc.)</td>
+    <td class="tg-us36">1</td>
+    <td class="tg-us36 color-table-grey">2</td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36">V003</td>
+    <td class="tg-us36">Absence de moyens pour combattre le feu (extincteurs, sprinklers, gaz, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-grey">4</td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36" rowspan="2">ME12</td>
+    <td class="tg-us36" rowspan="2">Dommage cree par l'eau ou zone inondable</td>
+    <td class="tg-us36" rowspan="2">2</td>
+    <td class="tg-us36">V002</td>
+    <td class="tg-us36">Batiments vetustes (plancher, electricitem plomberie, etc.)</td>
+    <td class="tg-us36">1</td>
+    <td class="tg-us36 color-table-grey">4</td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36">V007</td>
+    <td class="tg-us36">Zone inondable (riviere, vallee, crue historique, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-grey">8</td>
+    <td class="tg-us36"></td>
+  </tr>
+</table>
+
+
 <h3 class="titre-page" id="risk-assessment">Risk assessment</h3>
 During this stage, you’ll need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
 The estimated risks are prioritised in order of importance, based on the decisions made when defining the context of the risk analysis.
+
+<table class="tg">
+  <tr>
+    <th class="tg-us36 color-table-grey">Numero actif</th>
+    <th class="tg-us36 color-table-grey">Libelle actif</th>
+    <th class="tg-us36 color-table-grey">Type d'actif</th>
+    <th class="tg-us36 color-table-grey">Niv. Imp.</th>
+    <th class="tg-us36 color-table-grey">Menace</th>
+    <th class="tg-us36 color-table-grey">Libelle menace</th>
+    <th class="tg-us36 color-table-grey">Niv men.</th>
+    <th class="tg-us36 color-table-grey">Vulnerabilite</th>
+    <th class="tg-us36 color-table-grey">Libelle vulnerabilite</th>
+    <th class="tg-us36 color-table-grey">Niv vulne.</th>
+    <th class="tg-us36 color-table-grey">Niv. risque</th>
+    <td class="tg-us36 color-table-grey">Commentaire</td>
+  </tr>
+  <tr>
+    <td class="tg-us36" rowspan="5">ASB01</td>
+    <td class="tg-us36" rowspan="5">Locaux de l"admin.</td>
+    <td class="tg-us36" rowspan="5">Locaux batiments</td>
+    <td class="tg-us36" rowspan="5">2</td>
+    <td class="tg-us36" rowspan="3">ME11</td>
+    <td class="tg-us36" rowspan="3">Incendie</td>
+    <td class="tg-us36" rowspan="3">1</td>
+    <td class="tg-us36">V001</td>
+    <td class="tg-us36">Absence de plan de secours (evacuation, possibilite DRP, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-green">4</td>
+    <td class="tg-us36"></td>
+
+  </tr>
+  <tr>
+    <td class="tg-us36">V002</td>
+    <td class="tg-us36">Batiments vetustes (plancher, electricitem plomberie, etc.)</td>
+    <td class="tg-us36">1</td>
+    <td class="tg-us36 color-table-green">2</td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36">V003</td>
+    <td class="tg-us36">Absence de moyens pour combattre le feu (extincteurs, sprinklers, gaz, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-green">4</td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36" rowspan="2">ME12</td>
+    <td class="tg-us36" rowspan="2">Dommage cree par l'eau ou zone inondable</td>
+    <td class="tg-us36" rowspan="2">2</td>
+    <td class="tg-us36">V002</td>
+    <td class="tg-us36">Batiments vetustes (plancher, electricitem plomberie, etc.)</td>
+    <td class="tg-us36">1</td>
+    <td class="tg-us36 color-table-green">4</td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36">V007</td>
+    <td class="tg-us36">Zone inondable (riviere, vallee, crue historique, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-orange">8</td>
+    <td class="tg-us36"></td>
+  </tr>
+</table>
+
 
 <h3 class="titre-page" id="risk-treatment">Risk treatment</h3>
 This final stage suggests the measures to be put in place. For this, the security measures need to be organised depending on:
@@ -97,6 +226,88 @@ There are 4 risk treatment options:
 4. “Risk transfer” to a third party, by means of insurance coverage, for example.
 
 Any resulting residual risk must be approved by the management board of the entity concerned.
+
+<table class="tg">
+  <tr>
+    <th class="tg-us36 color-table-grey">Numero actif</th>
+    <th class="tg-us36 color-table-grey">Libelle actif</th>
+    <th class="tg-us36 color-table-grey">Type d'actif</th>
+    <th class="tg-us36 color-table-grey">Niv. Imp.</th>
+    <th class="tg-us36 color-table-grey">Menace</th>
+    <th class="tg-us36 color-table-grey">Libelle menace</th>
+    <th class="tg-us36 color-table-grey">Niv men.</th>
+    <th class="tg-us36 color-table-grey">Vulnerabilite</th>
+    <th class="tg-us36 color-table-grey">Libelle vulnerabilite</th>
+    <th class="tg-us36 color-table-grey">Niv vulne.</th>
+    <th class="tg-us36 color-table-grey">Niv. risque</th>
+    <td class="tg-us36 color-table-grey">Commentaire</td>
+    <td class="tg-us36 color-table-grey">Type de traitement</td>
+    <td class="tg-us36 color-table-grey">Mesure 27002</td>
+    <td class="tg-us36 color-table-grey">Risque vise</td>
+  </tr>
+  <tr>
+    <td class="tg-us36" rowspan="5">ASB01</td>
+    <td class="tg-us36" rowspan="5">Locaux de l"admin.</td>
+    <td class="tg-us36" rowspan="5">Locaux batiments</td>
+    <td class="tg-us36" rowspan="5">2</td>
+    <td class="tg-us36" rowspan="3">ME11</td>
+    <td class="tg-us36" rowspan="3">Incendie</td>
+    <td class="tg-us36" rowspan="3">1</td>
+    <td class="tg-us36">V001</td>
+    <td class="tg-us36">Absence de plan de secours (evacuation, possibilite DRP, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36">4</td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+
+  </tr>
+  <tr>
+    <td class="tg-us36">V002</td>
+    <td class="tg-us36">Batiments vetustes (plancher, electricitem plomberie, etc.)</td>
+    <td class="tg-us36">1</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36">V003</td>
+    <td class="tg-us36">Absence de moyens pour combattre le feu (extincteurs, sprinklers, gaz, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36">4</td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36" rowspan="2">ME12</td>
+    <td class="tg-us36" rowspan="2">Dommage cree par l'eau ou zone inondable</td>
+    <td class="tg-us36" rowspan="2">2</td>
+    <td class="tg-us36">V002</td>
+    <td class="tg-us36">Batiments vetustes (plancher, electricitem plomberie, etc.)</td>
+    <td class="tg-us36">1</td>
+    <td class="tg-us36">4</td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36"></td>
+  </tr>
+  <tr>
+    <td class="tg-us36">V007</td>
+    <td class="tg-us36">Zone inondable (riviere, vallee, crue historique, etc.)</td>
+    <td class="tg-us36">2</td>
+    <td class="tg-us36 color-table-orange">8</td>
+    <td class="tg-us36"></td>
+    <td class="tg-us36">T001</td>
+    <td class="tg-us36">x.y.z</td>
+    <td class="tg-us36 color-table-green">4</td>
+  </tr>
+</table>
+
 
 <h3 class="titre-page" id="risk-acceptance">Risk acceptance</h3>
 Risk acceptance is the approval given by the management board of choices made during the risk treatment. The management board therefore agrees to the treatment plan, as well as to the residual risks.

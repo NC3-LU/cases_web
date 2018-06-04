@@ -6,7 +6,66 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
+/*****Layout of the table in /glossary/BasicCriteria, created via a table/s generator***/
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+}
 
+.tg td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:black;
+}
+
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:10px 5px;
+	border-style:solid;
+	border-width:1px;
+	overflow:hidden;
+	word-break:normal;
+	border-color:black;
+}
+
+.tg .tg-6ibf{
+	font-size:24px;
+	border-color:inherit;
+	text-align:center;
+	vertical-align:top
+}
+
+.tg .tg-us36{
+	border-color:inherit;
+	vertical-align:top
+}
+
+.color-table-grey {
+	background-color:rgb(204,204,204);
+	text-align: center;
+}
+
+.color-table-green {
+	background-color: rgb(51,255,0);
+	text-align: center;
+}
+
+.color-table-orange {
+	background-color: rgb(255,204,0);
+	text-align: center;
+}
+
+.color-table-red {
+	background-color:rgb(255,0,0);
+	text-align:center;
+}
 /*****Space between categories on HomePage*****************/
 
 .row-spacer {
@@ -234,7 +293,7 @@ Template Name: cases.lu
 	/*******TOC on the left and right, scroll only the TOC, not the content page in the middle*****/
 	.blocantiscroll
 	{
-
+		position: sticky;
 		height: 100vh;
 		top: 0px;
 		background: none;
@@ -244,6 +303,7 @@ Template Name: cases.lu
 
 	.blocantiscroll > h2 {text-align: center;}
 
+	/******Scrollbar transparent************************/
 	::-webkit-scrollbar {
 			width: 0px;
 			background: transparent;

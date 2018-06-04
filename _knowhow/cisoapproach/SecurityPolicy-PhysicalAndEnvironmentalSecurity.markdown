@@ -42,7 +42,7 @@ All the elements listed as important or vital for “the organisation” must be
 
 ### Technical measures:
 
-Physical security
+[Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
 <h3 class="titre-page">Rules within the perimeter</h3>
 
@@ -117,7 +117,7 @@ The electricity power supply for vital equipment must be made safe:
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 <h3 class="titre-page">Maintenance</h3>
-For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence) and [Administration impossible}({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({{site.url}}) of [resources]({{site.url}}).
+For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence) and [Administration impossible}({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
 
 When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#hardware-damaged-during-transport) and [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery))
 
@@ -178,7 +178,7 @@ The equipment used for processing information off the site of “the organisatio
 * [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#tidy-office-policy)
 
 <h3 class="titre-page">Disposal and reuse of equipment</h3>
-Any equipment that [is discarded]({{site.url}}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery)).
+Any equipment that [is discarded]({% link _knowhow/glossary/Discarded.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery)).
 
 Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
 
@@ -186,10 +186,10 @@ Whichever method is chosen, please be respectful of the environment.
 
 ### Applying security measures to:
 
-* computers
-* laptops
-* file servers
-* email servers
+* [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
+* [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 
 ### Directly associated organisational measures:
 

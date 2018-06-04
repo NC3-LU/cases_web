@@ -6,6 +6,7 @@ layout: default
 <!-- assign 0 to i in order to start the string from the beginning --> 
 {% assign i = 0 %}
 
+
 <!-- Layout of the left's TOC -->
 <div class="blocantiscroll col-md-2">
   <h2>Knowhow</h2>
@@ -28,7 +29,11 @@ layout: default
 <!-- then we add each categorie to "collapseExample-" ans "collapse-" in order to have the right event -->
     {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
     {% assign class-cat = "collapse-"|append: list-cat[i] %}
-    <button class="btn-category" id="btncat" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}" onclick="document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML = '&#8681';">
+
+
+
+
+    <button class="btn-category" id="btncat" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}" onclick="document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML = '&#8681'">
 
 
      <h6 class="title-blue"><b id="arrow-bullet{{ aria-cat }}">&#8680;</b>{{ page.title }}</h6>
@@ -75,3 +80,4 @@ layout: default
   {{content | toc_only}}
   {% endif %}
 </div>
+

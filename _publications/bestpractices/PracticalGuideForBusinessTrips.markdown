@@ -89,11 +89,11 @@ Hotels and taxis offer no guarantees; confidential conversations should be avoid
 ### How to deal with theft
 If you have to deal with such a situation, immediately list what has been stolen and [file a complaint](/publications/FilingAComplaint.html) with the local police authorities.
 
-Also [inform your employer](-) and your IT department if computer equipment and/or media containing confidential information have been stolen.
+Also **inform your employer** and your IT department if computer equipment and/or media containing confidential information have been stolen.
 
-[Contact your insurance company](-) and declare the theft against you and immediately instruct your bank to cancel your bank cards.
+**Contact your insurance company** and declare the theft against you and immediately instruct your bank to cancel your bank cards.
 
-[Inform the embassy](-) or consulate of your country if your passport has been stolen.
+**Inform the embassy** or consulate of your country if your passport has been stolen.
 
 <h3 class="titre-page" id="after-the-trip">After the trip</h3>
 Did you adhere to all the security instructions before and during the trip? Well done. On your return, a final check-up is required, along with some precautionary measures:
