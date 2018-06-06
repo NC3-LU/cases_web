@@ -11,53 +11,81 @@ layout: default
 <div class="blocantiscroll col-md-2">
   <h2>Knowhow</h2>
   <ol class="test">
-  <!-- Sort the pages with the tag "main-categ", add each keyword to the string "list-cat" --> 
+    <!-- Sort the pages with the tag "main-categ", add each keyword to the string "list-cat" --> 
     {% assign list-cat = knowhow |map: 'main-categ' |uniq %}
 
-<!-- loop through the size of the list -->
+    <!-- loop through the size of the list -->
     {% for i in (0..list-cat.size) %}
-    {% for page in knowhow %}
+    {% for ipage in knowhow %}
 
-<!-- if page.categories match a "main-page", in order to display the button with the correct Headline , they are BestPractices-ProtectingYouself, CISOApproach & SOS -->
-    {% if page.categories contains list-cat[i] %}
+    <!-- if page.categories match a "main-page", in order to display the button with the correct Headline , they are BestPractices-ProtectingYouself, CISOApproach & SOS -->
+    {% if ipage.categories contains list-cat[i] %}
 
 <!-- the other pages have a F-"list-cat" as a categorie to recognize them
   We add each categorie to a "F-" -->
-    {% assign f-cat = "f-"|append: list-cat[i] %}
-<!-- then we add each categorie to "#" in order to have the right ID -->
-    {% assign id-cat = "#"|append: list-cat[i] %}
-<!-- then we add each categorie to "collapseExample-" ans "collapse-" in order to have the right event -->
-    {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
-    {% assign class-cat = "collapse-"|append: list-cat[i] %}
+  {% assign f-cat = "f-"|append: list-cat[i] %}
+  <!-- then we add each categorie to "#" in order to have the right ID -->
+  {% assign id-cat = "#"|append: list-cat[i] %}
+  <!-- then we add each categorie to "collapseExample-" ans "collapse-" in order to have the right event -->
+  {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
+  {% assign class-cat = "collapse-"|append: list-cat[i] %}
 
 
+  {% if page.categories contains f-cat or page.categories contains list-cat[i] %}
+  <button class="btn-category show" id="btncat{{ aria-cat }}" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="true" aria-controls="{{ aria-cat }}">
+    <h6 class="title-blue"><span id="arrow-bullet{{ aria-cat }}">&#9662;</span>
+
+      {% else %} 
+
+      <button class="btn-category" id="btncat{{ aria-cat }}" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">
+        <h6 class="title-blue"><span id="arrow-bullet{{ aria-cat }}">&#9656;</span>
+
+          {% endif %}
+          <i class="title-blue">{{ ipage.title }}</i></h6>
+        </button>
+
+        <script>
+
+//change bullet if it's event "show" or not 
+document.getElementById("btncat{{ aria-cat }}").onclick = function () 
+{
+  if (document.getElementById('btncat{{ aria-cat }}').classList.toggle("show"))
+  {
+    document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML ='&#9662;';
+  }
+  else
+  {
+    document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML ='&#9656;';
+  }  
+}
+
+</script>
+<span>
+  {% if page.categories contains f-cat or page.categories contains list-cat[i] %}
+  <div class="{{ class-cat }} collapse in"  id="{{ aria-cat }}" expanded="true">
+    {% else %}
+    <div class="{{ class-cat }} collapse"  id="{{ aria-cat }}" expanded="false">
+      {% endif %}
+      {% for ipage in site.knowhow %}
 
 
-    <button class="btn-category" id="btncat" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}" onclick="document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML = '&#8681'">
+      <!-- if page.categories equals "f-cat" it means that it isn't a button, so it displays the right page-->
+      {% if ipage.categories contains f-cat %}
+      <li style="list-style: none;">
+        <a href="{{ipage.url | relative_url}}">
+          <h6 class="list-select">&#9657; {{ ipage.title }}</h6>
+        </a>
+      </li>
+      {% endif %}
 
-
-     <h6 class="title-blue"><b id="arrow-bullet{{ aria-cat }}">&#8680;</b>{{ page.title }}</h6>
-   </button>
-   <div class="{{ class-cat }}" id="{{ aria-cat }}">
-    {% for page in site.knowhow %}
-
-<!-- if page.categories equals "f-cat" it means that it isn't a button, so it displays the right page-->
-    {% if page.categories contains f-cat %}
-    <li>
-      <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-        <h6 class="list-select">{{ page.title }}</h6>
-      </a>
-    </li>
+      {% endfor %}
+    </div></span>
     {% endif %}
 
     {% endfor %}
-  </div>
-  {% endif %}
+    {% endfor %}
 
-  {% endfor %}
-  {% endfor %}
-
-</ol>
+  </ol>
 
 
 </div>
@@ -80,4 +108,5 @@ layout: default
   {{content | toc_only}}
   {% endif %}
 </div>
+
 

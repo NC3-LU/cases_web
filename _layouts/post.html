@@ -1,7 +1,6 @@
 ---
-layout: default-ext
+layout: default
 ---
-
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
 {% assign articles = site.posts |sort: 'date' |reverse %}
@@ -21,6 +20,7 @@ layout: default-ext
 
 
 <div class="col-md-8">
+
   <p class="post-meta">
     <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -37,9 +37,11 @@ layout: default-ext
 
 
 
+
 <div class="blocantiscroll col-md-2">
   <h2>Table of Content</h2>
   {% if page.layout == "post" %}
   {{content | toc_only}}
   {% endif %}
 </div>
+</body>

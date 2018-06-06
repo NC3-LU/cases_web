@@ -1,8 +1,14 @@
 ---
-layout: legal
+layout: default
 title: Legal information
 permalink: /legal/
 ---
+<div class="col-md-2">
+
+</div>
+
+<div class="col-md-8">
+
 Securitymadein.lu (SMILE GIE) alimente ce site en vue de promouvoir l'accès du public aux informations relatives à ses activités. Notre objectif est de diffuser des informations actualisées et exactes. Nous nous efforcerons de corriger les erreurs qui nous seront signalées.
 
 Toutefois, les informations diffusées sur www.cases.lu n'engagent pas la responsabilité de Securitymadein.lu (SMILE GIE).
@@ -17,12 +23,19 @@ La présente clause de non responsabilité n'a pas pour but de contourner les ex
 
 Tout litige relatif à l'utilisation de ce site et de ses Services sera soumis à la loi luxembourgeoise et sera de la compétence exclusive des juridictions du Grand-Duché de Luxembourg.
 
-## Law and Jurisdiction
+<h3 class="titre-page">Law and Jurisdiction</h3>
 
 By connecting and using this site, you agree that any dispute concerning the use of this site is subject to Luxembourg law and is the exclusive jurisdiction of Luxembourg courts.
 
-## Protection of Personal Data
+<h3 class="titre-page">Protection of Personal Data</h3>
 
 Your personal data will only be collected if you give it to SMILE yourself. Such an action will always be explicit, and the place where you will register will explain how the collected data will be used by SMILE. In any means, SMILE will not make any further use of your personal data.
 
 According to the law of 2 August 2002 on the Protection of Individuals with regard to the processing of personal data, you have the right to access, rectify and oppose to our collection of your personal information. To exercise this right, you can contact SMILE using the contact page.
+
+</div>
+
+
+<div class="col-md-2">
+
+</div>
