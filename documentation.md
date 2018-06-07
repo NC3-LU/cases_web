@@ -9,13 +9,13 @@ This is the new website of the company CASES.
 
 This website is developed in HTML/CSS, Markdown, Liquid, with the framework Jekyll and Bootstrap 3.3.7., and a bit of Javascript.
 
-To install it, please visit this [page] (https://jekyllrb.com/docs/installation) 
+To install it, please visit this page https://jekyllrb.com/docs/installation 
 
-To see more about [Liquid] : (https://shopify.github.io/liquid)
+To see more about Liquid : https://shopify.github.io/liquid
 
-To see more about [Markdown] (https://blog.ghost.org/markdown/)
+To see more about Markdown https://blog.ghost.org/markdown/
 
-And finally to know more about [Boostrap] (https://getbootstrap.com/docs/3.3/)
+And finally to know more about Bostrap https://getbootstrap.com/docs/3.3/
 
 
 <h2>A new website, but what for ?</h2>
@@ -50,7 +50,7 @@ On the top we have "default", then every layouts add something to "default", in 
 
 This is the arborescence of the layouts.
 
-
+```
 default
 |
 |------contact
@@ -70,7 +70,7 @@ default
 |------post
 |
 |------index
-
+```
 
 <h4>Default</h4>
 
@@ -173,6 +173,7 @@ Folder : /includes/
 In this folder, we have all the pages which are included in the page "**default**".
 
 This is the arborescence of the "include" pages and how they work.
+```
 
 head.html 		header.html 		footer.html
 	|				|					|
@@ -193,6 +194,7 @@ icon-github.svg 		icon-twitter.svg 		ios-email-outline.svg
 								|
 								/layouts/contact.html
 
+```
 
 <h4>Header</h4>
 
@@ -332,13 +334,13 @@ Subfolder:
 
 * /assets/img :
 		
-		* /201507
+	* /201507
 
-		* /201610
+	* /201610
 
-		* /services
+	* /services
 
-		In this folder we have all pictures for services. 
+	In this folder we have all pictures for services. 
 
 At the root, there are all scripts from Bootstrap and JQuery.
 
@@ -368,4 +370,25 @@ If we want to add a new category, we have to add the new name in "**list-name**"
 Then, we add a tag-name to the new page from the new category. This tag must be added to "**list-cat**". 
 
 
+<h4>Bootstrap</h4>
+
+Download the version 3.3.7.x from https://getbootstrap.com/docs/3.3/getting-started/#download
+
+Put all the files in the folder "**/assets**", except fontsm they'll go to the root
+
+Put the file in the folder "/assets" with the right name
+
+Change paths from :
+
+* /includes/head.html :
+	
+	* bootstrap.min.css
+
+	* bootstrap-theme.min.css
+
+* /layout/default.html :
+
+	* jquery-1.12.4.min.js
+
+	* bootstrap.min.js
 
