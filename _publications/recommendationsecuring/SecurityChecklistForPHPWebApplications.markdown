@@ -58,7 +58,7 @@ Injection of malicious code that will be executed by the application.
 * in php.ini, set ```allow_url_fopen``` to ```off``` if the function is not required.
 * avoid variables in ```preg_replace``` type functions.
 
-<h3 class="titre-page" id="injection-of-instructions">Injection of instructions
+<h3 class="titre-page" id="injection-of-instructions">Injection of instructions</h3>
 Some functions can be used to run system instructions.
 
 * avoid variables in instructions such as ```shell_exec```, ```exec```, ```system```, ```passthru```, ```popen```;

@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<!-- Latest compiled and minified JavaScript -->
+{% comment %} Latest compiled and minified JavaScript {% endcomment %}
 <!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-<script src="/assets/jquery-1.12.4.min.js"></script>
-<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-<script src="/assets/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+  <script src="/assets/jquery-1.12.4.min.js"></script>
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+  <script src="/assets/bootstrap.min.js"></script>
+ <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>-->
+ <script src="/assets/jquery.touchSwipe.min.js"
 
 
-<script language="JavaScript" type="text/javascript" >
-  $(".carousel").swipe({
-    swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-      if (direction == 'left') $(this).carousel('next');
-      if (direction == 'right') $(this).carousel('prev');
-    },
-    allowPageScroll:"vertical"
-  });
-</script>
+  <script language="JavaScript" type="text/javascript" >
+    $(".carousel").swipe({
+      swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+        if (direction == 'left') $(this).carousel('next');
+        if (direction == 'right') $(this).carousel('prev');
+      },
+      allowPageScroll:"vertical"
+    });
+  </script>
 
 
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
 
-  <div class="container-fluid">
-    {% include header.html %}
+    <div class="container-fluid">
+      {% include header.html %}
 
-  </div>
+    </div>
 
-      <h1 style="margin-left: 18%; color:rgb(0,114,184);">{{page.title}}</h1>
-  {{ content }}
+    <h1 style="margin-left: 18%; color:rgb(0,114,184);">{{page.title}}</h1>
+    {{ content }}
 
-  <div class="container" aria-label="Content">
-   <div class="col-md-12 col--height">
+    <div class="container" aria-label="Content">
+     <div class="col-md-12 col--height">
+     </div>
    </div>
- </div>
- <div class="row-fluid well--blue">
-  <div class="container">
-    {% include footer.html %}
+   <div class="row-fluid well--blue">
+    <div class="container">
+      {% include footer.html %}
+    </div>
   </div>
-</div>
 </body>
 </html>

@@ -1,5 +1,3 @@
-Documentation 
-
 <h2>Documentation of the website CASES</h2>
 
 This is the new website of the company CASES.
@@ -7,9 +5,9 @@ This is the new website of the company CASES.
 
 <h2>Languages</h2>
 
-This website is developed in HTML/CSS, Markdown, Liquid, with the framework Jekyll and Bootstrap 3.3.7., and a bit of Javascript.
+This website is developed in HTML/CSS, Markdown, Liquid, with the framework Jekyll and Bootstrap 3.3.7, and Javascript.
 
-To install it, please visit this page https://jekyllrb.com/docs/installation 
+To install Jekyll, please visit this page https://jekyllrb.com/docs/installation 
 
 To see more about Liquid : https://shopify.github.io/liquid
 
@@ -17,12 +15,6 @@ To see more about Markdown https://blog.ghost.org/markdown/
 
 And finally to know more about Bostrap https://getbootstrap.com/docs/3.3/
 
-
-<h2>A new website, but what for ?</h2>
-
-The old website hasn't an ergonomic design, now information (publications, articles, knowhow, services) 
-
-are displayed in order to be easy to find.
 
 
 <h2>Summary</h2>
@@ -69,14 +61,14 @@ default
 |
 |------post
 |
-|------index
+|------/publication-list/index
 ```
 
 <h4>Default</h4>
 
 The main design is the page "**default**".
 
-On this page, we have the imports (The compiled and minified javascript) :
+On this page, we have imports (The compiled and minified javascript) :
 
 * /assets/jquery-1.12.4.min.js
 
@@ -84,7 +76,9 @@ On this page, we have the imports (The compiled and minified javascript) :
 
 * jquery.touchSwipe.min.js
 
-Under the imports, there is a **script** for the carousel on the homepage. Without this script, it won't swipe to the left or to the right.    
+Under the imports, there is a **script** for the carousel on the homepage. Without this script, it won't swipe to the 
+
+left or to the right.    
 
 On this page, we have to include some other pages, "**head.html**", **header.html**" and "**footer.html**". 
 
@@ -94,12 +88,14 @@ On the page "head.html" there are a few imports :
 
 * bootstrap-theme.min.css
 
+* jquery.touchSwipe.min.js
+
 
 <h4>Home</h4>
 
 This layout is for the page "**Home**". This page displays a carousel, the list of the different categories, as 
 
-Articles, Publications, Knowhow, and on the left we have a Twitter plugin. 
+Articles, Publications, Knowhow, and on the right we have a Twitter plugin. 
 
 <h4>Page</h4>
 
@@ -122,7 +118,7 @@ For the left TOC, if we want to add another category or page, we have nothing to
 
 because the file's addition is dynamic. 
 
-There is also a script which change the bullet of the article's list.
+There is also a script which change the bullet of the article's list when we open a category.
 
 
 <h4>Post & index</h4>
@@ -150,7 +146,7 @@ On the right, we have a TOC with the titles and subtitles.
 
 If we want to add a new category, we need to add a "tag" to "**list-cat**" and it's name to "**list-name**".
 
-On this page there is also a script which change the bullet of the publication's list.
+On this page there is also a script which change the bullet of the publication's list when we open a category.
 
 
 <h4>Legal</h4>
@@ -170,29 +166,34 @@ It displays a Google Maps widget with the company's address and some information
 
 Folder : /includes/
 
-In this folder, we have all the pages which are included in the page "**default**".
+In this folder, we have all the pages which are included in the page "**default**" and "**contact**".
 
 This is the arborescence of the "include" pages and how they work.
+
 ```
 
-head.html 		header.html 		footer.html
-	|				|					|
-	|				|					|
-	-------------------------------------
-					|
-					|
-					/layouts/default.html
+head.html 		
+	|------------
+				|
+header.html 	|	
+	|-----------|--/layouts/default.html
+				|
+footer.html 	|
+	|-----------|
 
 
 
+icon-github.svg 		
+	|------------
+				|
+icon-twitter.svg 	
+	|-----------|--/layouts/contact.html
+				|
+				|
+	|-----------|			
+ios-email-outline.svg 	
+	
 
-icon-github.svg 		icon-twitter.svg 		ios-email-outline.svg
-		|						|						|
-		|						|						|
-		-------------------------------------------------
-								|
-								|
-								/layouts/contact.html
 
 ```
 
@@ -200,7 +201,7 @@ icon-github.svg 		icon-twitter.svg 		ios-email-outline.svg
 
 On this page we have the menu's layout, with all categories.
 
-if we want to change a color or a design, it's on this page.
+If we want to change a color or a design, it's on this page.
 
 <h4>Head</h4>
 
@@ -374,7 +375,7 @@ Then, we add a tag-name to the new page from the new category. This tag must be 
 
 Download the version 3.3.7.x from https://getbootstrap.com/docs/3.3/getting-started/#download
 
-Put all the files in the folder "**/assets**", except fontsm they'll go to the root
+Put all the files in the folder "**/assets**", except Fonts, they'll go to the root
 
 Put the file in the folder "/assets" with the right name
 
@@ -391,4 +392,6 @@ Change paths from :
 	* jquery-1.12.4.min.js
 
 	* bootstrap.min.js
+
+	* jquery.touchSwipe.min.js
 

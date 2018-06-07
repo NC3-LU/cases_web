@@ -17,31 +17,31 @@ Un des moyens pour définir les critères de base au niveau des menaces est de d
 
 Critères de base des menaces:
 
-<table class="tg">
+<table class="table">
   <tr>
-    <th class="tg-us36">Niveau</th>
-    <th class="tg-us36">Commentaire</th>
-    <th class="tg-us36">Périodicité</th>
+    <th class="t-cell">Niveau</th>
+    <th class="t-cell">Commentaire</th>
+    <th class="t-cell">Périodicité</th>
   </tr>
   <tr>
-    <td class="tg-us36">1</td>
-    <td class="tg-us36">Très improbable : jamais arrivé, nécessité d'un haut niveau d'expertise, ou très coûteux à mettre en oeuvre.</td>
-    <td class="tg-us36">> 30 ans</td>
+    <td class="t-cell">1</td>
+    <td class="t-cell">Très improbable : jamais arrivé, nécessité d'un haut niveau d'expertise, ou très coûteux à mettre en oeuvre.</td>
+    <td class="t-cell">> 30 ans</td>
   </tr>
   <tr>
-    <td class="tg-us36">2</td>
-    <td class="tg-us36">Improbable : Peut déjà être survenu, phénomène rare ou nécessitée d'un bon niveau d'expertise ou coûteux à mettre en oeuvre.</td>
-    <td class="tg-us36">> 10 ans</td>
+    <td class="t-cell">2</td>
+    <td class="t-cell">Improbable : Peut déjà être survenu, phénomène rare ou nécessitée d'un bon niveau d'expertise ou coûteux à mettre en oeuvre.</td>
+    <td class="t-cell">> 10 ans</td>
   </tr>
   <tr>
-    <td class="tg-us36">3</td>
-    <td class="tg-us36">Peut arriver de temps à autre</td>
-    <td class="tg-us36">> 5 ans</td>
+    <td class="t-cell">3</td>
+    <td class="t-cell">Peut arriver de temps à autre</td>
+    <td class="t-cell">> 5 ans</td>
   </tr>
   <tr>
-    <td class="tg-us36">4</td>
-    <td class="tg-us36">Très probable facile à mettre en œuvre, pas d'investissement ou d'expertise particulière</td>
-    <td class="tg-us36">au moins tous les ans</td>
+    <td class="t-cell">4</td>
+    <td class="t-cell">Très probable facile à mettre en œuvre, pas d'investissement ou d'expertise particulière</td>
+    <td class="t-cell">au moins tous les ans</td>
   </tr>
 </table>
 		
@@ -54,22 +54,22 @@ En définissant les critères de base des vulnérabilités, on détermine l'aisa
 
 Critères de base des vulnérabilités:
 
-<table class="tg">
+<table class="table">
   <tr>
-    <th class="tg-us36">Niveau</th>
-    <th class="tg-us36">Commentaire</th>
+    <th class="t-cell">Niveau</th>
+    <th class="t-cell">Commentaire</th>
   </tr>
   <tr>
-    <td class="tg-us36">0</td>
-    <td class="tg-us36">Faible vulnérabilité, des mesures efficaces sont en place</td>
+    <td class="t-cell">0</td>
+    <td class="t-cell">Faible vulnérabilité, des mesures efficaces sont en place</td>
   </tr>
   <tr>
-    <td class="tg-us36">1</td>
-    <td class="tg-us36">Vulnérabilité moyenne, des mesures sont en places mais peuvent être insuffisantes</td>
+    <td class="t-cell">1</td>
+    <td class="t-cell">Vulnérabilité moyenne, des mesures sont en places mais peuvent être insuffisantes</td>
   </tr>
   <tr>
-    <td class="tg-us36">2</td>
-    <td class="tg-us36">Vulnérabilité élevée, pas de mesure de protection efficace en place, ou elles sont mal adaptées</td>
+    <td class="t-cell">2</td>
+    <td class="t-cell">Vulnérabilité élevée, pas de mesure de protection efficace en place, ou elles sont mal adaptées</td>
   </tr>
 </table>
 	

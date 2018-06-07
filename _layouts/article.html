@@ -9,9 +9,9 @@ layout: default
     {% for page in site.knowhow %}
     {% if page.url contains "glossary" %}
 
-    <li>
+    <li style="list-style: none;">
       <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-        <h6 class="list-select">{{ page.title }}</h6>
+        <h6 class="list-select">&#9657; {{ page.title }}</h6>
       </a>
     </li>
     {% endif %}
