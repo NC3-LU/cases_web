@@ -13,7 +13,7 @@ To see more about Liquid : https://shopify.github.io/liquid
 
 To see more about Markdown https://blog.ghost.org/markdown/
 
-And finally to know more about Bostrap https://getbootstrap.com/docs/3.3/
+And finally to know more about Bootstrap https://getbootstrap.com/docs/3.3/
 
 
 
@@ -170,32 +170,7 @@ In this folder, we have all the pages which are included in the page "**default*
 
 This is the arborescence of the "include" pages and how they work.
 
-```
-
-head.html 		
-	|------------
-				|
-header.html 	|	
-	|-----------|--/layouts/default.html
-				|
-footer.html 	|
-	|-----------|
-
-
-
-icon-github.svg 		
-	|------------
-				|
-icon-twitter.svg 	
-	|-----------|--/layouts/contact.html
-				|
-				|
-	|-----------|			
-ios-email-outline.svg 	
-	
-
-
-```
+<img src="arborescence_includes.png">
 
 <h4>Header</h4>
 
