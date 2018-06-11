@@ -8,7 +8,7 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 
 
-/*****Layout of the table in /glossary/BasicCriteria, created via a table/s generator***/
+/*****Layout of the table in /glossary/BasicCriteria***/
 .table  {
 	border-collapse:collapse;
 	border-spacing:0;
@@ -36,8 +36,6 @@ Template Name: cases.lu
 	word-break:normal;
 	border-color:black;
 }
-
-
 
 .table .t-cell{
 	border-color:inherit;

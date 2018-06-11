@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: articlesmall
 title:  "Cybersecurity4success: l’état aide les entreprises à se protéger"
 date:   2017-01-17 10:00:00 +0100
 categories: Cybersecurity4Success
 isVisible: True
 short: "Les entreprises qui feront appel à des experts en matière de sécurité de l’information pourront recevoir des aides allant jusqu’à 50% des frais."
 toc: true
+group: post
 ---
 Les entreprises sont toutes concernées par la sécurité de l’information. La digitalisation de l’économie est porteuse de grandes opportunités mais aussi de nouveaux risques. Les menaces contre la sécurité de nos informations se développent constamment. Chaque semaine nous apporte son lot de révélations sur des fuites de données ou autres incidents informatiques impliquant des grandes marques.
 

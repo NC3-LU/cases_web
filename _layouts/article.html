@@ -18,8 +18,6 @@ layout: default
 
     {% endfor %}
 
-
-
   </ol>
 
 </div>
@@ -38,8 +36,9 @@ layout: default
 
 
 <div class="blocantiscroll col-md-2">
-  <h2>Table of Content</h2>
+
   {% if page.layout == "article" %}
+  <h2>Table of Content</h2>
   {{content | toc_only}}
   {% endif %}
 </div>

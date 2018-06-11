@@ -1,11 +1,40 @@
 ---
 layout: default
 ---
-<div class="col-md-2">
+{% assign default_paths = site.pages | map: "path" %}
+{% assign page_paths = site.header_pages | default: default_paths %}
+{% assign articles = site.posts |sort: 'date' |reverse %}
 
+
+<div class="blocantiscroll col-md-2">
+{% if page.group contains "post" %}
+<h2>Articles</h2>
+  {% for post in articles %}
+  <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+    <h6 class="list-select">{{ post.title }}</h6>
+  </a>
+  {% endfor %}
+  {% endif %}
 </div>
 
+{% if page.group contains "post" %}
 <div class="col-md-8">
+	
+	<p class="post-meta">
+    <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      {{ page.date | date: date_format }}
+    </time></i>
+    {% if page.author %}
+     <span>{{ page.author }}</span>
+  {% endif %}</p>
+
+  <div>
+    {{ content }}
+  </div>
+</div>
+  {% else %}
+  <div class="col-md-8">
 	<div class="row-fluid row-fluid--padding">
 
     <div>
@@ -15,6 +44,8 @@ layout: default
   </div>
   
 </div>
+
+{% endif %}
 
 <div class="col-md-2">
 

@@ -62,6 +62,12 @@ default
 |------post
 |
 |------/publication-list/index
+|
+|------/404
+|
+|------articlesmall
+
+
 ```
 
 <h4>Default</h4>
@@ -106,6 +112,13 @@ On the left, we have a **Table of Content** (**TOC**) composed by a few buttons.
 We loop through the folder "services" and link the buttons to the correct pages. 
 
 On the right, we have another TOC, with all the titles and subtitles.
+
+
+<h4>Article</h4>
+
+This layout is for the page "**Glossary**". This page displays a glossary of the website.
+
+On the left and on the right there is a TOC.
 
 
 <h4>Knowhow</h4>
@@ -159,6 +172,22 @@ This layout displays just a few lines about legal information, the protection of
 This layout is for the page "**Contact**".
 
 It displays a Google Maps widget with the company's address and some information as Twitter or GitHub. 
+
+
+<h4>404</h4>
+
+This layout is for the page "**404 error**".
+
+It displays an error page when the page doesn't exist.
+
+
+<h4>Articlesmall</h4>
+
+This layout is for the page "**Media**" and "**Articles**".
+
+It displays ressources from the wesite, as PDF or Charter Help in Media, and for the other category it displays an 
+
+article without Table of content.
 
 
 
@@ -299,7 +328,7 @@ There are 2 PDF files.
 
 <h4>Glyphicon for carousel</h4>
 
-Subfolder: /assets/fonts
+Subfolder: /fonts
 
 In this subfolder there are glyphicons for the Bootstrap's carousel.
 
@@ -343,7 +372,11 @@ In the same way, we can add a new page.
 
 If we want to add a new category, we have to add the new name in "**list-name**".
 
-Then, we add a tag-name to the new page from the new category. This tag must be added to "**list-cat**". 
+Then, we add a tag-name to the new page from the new category. This tag must be added to "**list-cat**".
+
+On the page /publications.md there is the first category opened because of the category's page which is "iso", the 
+
+first from the list.
 
 
 <h4>Bootstrap</h4>

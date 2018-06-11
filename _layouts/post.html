@@ -39,9 +39,11 @@ layout: default
 
 
 <div class="blocantiscroll col-md-2">
-  <h2>Table of Content</h2>
+
   {% if page.layout == "post" %}
+  <h2>Table of Content</h2>
   {{content | toc_only}}
   {% endif %}
+
 </div>
 </body>
