@@ -115,9 +115,21 @@ document.getElementById("btncat{{ aria-cat }}").onclick = function ()
 </div>
 
 
+{% comment %}
+  if the page equals to the main page Publications there is no TOC on the right
+{% endcomment %} 
+
+{% if page.title == "Publications" %}
+<div class="col-md-2">
+
+</div>
+
+{% else %}
+
 <div class="blocantiscroll col-md-2">
       {% if page.layout == "publication-list" %}
       <h2>Table of Content</h2>
       {{content | toc_only}}
       {% endif %}
     </div>
+{% endif %}
