@@ -205,18 +205,6 @@ Template Name: cases.lu
 		outline-style: none;
 	}
 
-	
-
-/*----------------------------------------*/
-	.box-iso {
-		height: 150px;
-		width: 25%;
-	}
-
-	.data-box {
-		width: 25%;
-	}
-
 	/*-------------PUBLICATION-LIST------------*/
 	/*----Display, with a button, publications
 
@@ -425,9 +413,7 @@ Template Name: cases.lu
 		.classification--small td {
 			text-align: center;
 		}
-		.col-md-2--date {
-			padding-top: 12px;
-		}
+		
 		.menuwithpic {
 			height: 72px;
 			padding: 4px;

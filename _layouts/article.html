@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+
+{% comment %}
+  TOC on the left
+  with a bullet before the name
+{% endcomment %}
+
 <div class="blocantiscroll col-md-2"> 
   <h2>Glossary</h2>
   <ol class="test">
@@ -35,6 +41,7 @@ layout: default
 </div>
 
 
+{% comment %} TOC on the right {% endcomment %}
 <div class="blocantiscroll col-md-2">
 
   {% if page.layout == "article" %}

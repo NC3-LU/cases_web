@@ -4,8 +4,10 @@ layout: default
 
 {% assign articles = site.posts |sort: 'date' |reverse %}
 
-<!--
-TOC on the left, list of all articles       -->
+{% comment %}
+    TOC on the left, list of all articles
+{% endcomment %}
+
 <div class="blocantiscroll col-md-2">
   <h2>Articles</h2>
   {% for post in articles %}
@@ -16,6 +18,9 @@ TOC on the left, list of all articles       -->
 </div>
 
 
+{% comment %}
+   Pagination made by Jekyll
+{% endcomment %}
 
 <div class="col-md-8">
   <div class="two-col-display">
@@ -77,19 +82,25 @@ TOC on the left, list of all articles       -->
 
 </nav>
 
-  <!--{% if paginator.previous_page %}
+  {% comment %}
+    {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous txtcenter">&laquo;</a>
   {% else %}
     <span class="previous txtcenter">&laquo;</span>
-    {% endif %}-->
+    {% endif %}
+  {% endcomment %}
 
-    <!--<span class="page_number ">Page: {{ paginator.page }} sur {{ paginator.total_pages }}</span>-->
-    <!--{% if paginator.next_page %}
+
+    {% comment %}
+    <span class="page_number ">Page: {{ paginator.page }} sur {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next txtcenter">&raquo;</a>
     {% else %}
     <span class="next txtcenter">&raquo;</span>
     {% endif %}
-  -->
+    {% endcomment %}
+
+
 </div>
 
 

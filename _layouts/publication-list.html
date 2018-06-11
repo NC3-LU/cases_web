@@ -2,9 +2,17 @@
 layout: default
 ---
 {% assign categ = site.publications %}
-<!--Insert categories in list-cat-->
+
+{% comment %}
+    Insert categories in list-cat
+{% endcomment %}
+
 {% assign list-cat = "iso, bestpractice, scams, securing"|split: ", " %}
-<!--Insert categories's name (Button)-->
+
+{% comment %}
+  Insert categories's name (Button)
+{% endcomment %}
+
 {% assign list-name = "ISO/IEC 27000, Good Practice, Scams, Securing Devices"|split: ", "%}
 {% assign i = 0 %}
 
@@ -13,8 +21,17 @@ layout: default
 <div class="blocantiscroll col-md-2">
   <h2>Publications</h2>
   
+{% comment %} 
+    list.cat minus 1 to not have an empty category 
+{% endcomment %}
+
 
 {% assign listlen = list-cat.size | minus: 1%}
+
+{% comment %}
+   loop for 0 to the length of the list
+{% endcomment %}
+
 
   {% for i in (0..listlen) %}
 
@@ -99,8 +116,8 @@ document.getElementById("btncat{{ aria-cat }}").onclick = function ()
 
 
 <div class="blocantiscroll col-md-2">
-      <h2>Table of Content</h2>
       {% if page.layout == "publication-list" %}
+      <h2>Table of Content</h2>
       {{content | toc_only}}
       {% endif %}
     </div>

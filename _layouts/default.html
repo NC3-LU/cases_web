@@ -2,14 +2,26 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {% comment %} Latest compiled and minified JavaScript {% endcomment %}
-<!--
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-  <script src="/assets/jquery-1.12.4.min.js"></script>
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-  <script src="/assets/bootstrap.min.js"></script>
- <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>-->
- <script src="/assets/jquery.touchSwipe.min.js"
+{% comment %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+{% endcomment %}
 
+  <script src="/assets/jquery-1.12.4.min.js"></script>
+
+{% comment %}
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+{% endcomment %}
+  <script src="/assets/bootstrap.min.js"></script>
+
+{% comment %}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+{% endcomment %}
+ <script src="/assets/jquery.touchSwipe.min.js"></script>
+
+
+{% comment %}
+  function for carousel in home
+{% endcomment %}
 
   <script language="JavaScript" type="text/javascript" >
     $(".carousel").swipe({

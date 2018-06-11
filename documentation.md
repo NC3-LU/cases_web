@@ -365,7 +365,11 @@ We can change the **url** of articles with "**paginate_path**".
 
 If we want to add a new category, we have to add this new page ,with the right title, in the folder. 
 
-In the same way, we can add a new page.
+It means that the new button must have a "main-categ" tag and a category, which are the same name.
+
+You need also to add the right event in the stylesheet.
+
+In the same way, we can add a new page, but there is no "main-categ" tag.
 
 
 <h4>Publications</h4>
@@ -373,6 +377,8 @@ In the same way, we can add a new page.
 If we want to add a new category, we have to add the new name in "**list-name**".
 
 Then, we add a tag-name to the new page from the new category. This tag must be added to "**list-cat**".
+
+You need also to add the right event in the stylesheet.
 
 On the page /publications.md there is the first category opened because of the category's page which is "iso", the 
 
