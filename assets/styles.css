@@ -72,7 +72,6 @@ Template Name: cases.lu
 /*******Highlighted text Homepage**************************/
 
 .txt-hightlight {
-	background-color: #f2f3f4;
 	padding: 5px;
 }
 
@@ -134,7 +133,6 @@ Template Name: cases.lu
 /*****Color of the list in the TOC****/
 .section-nav > .toc-entry > a {
 	text-decoration: underline;
-	font-style: italic;
 	color: #565656;}
 
 /*-----CAROUSEL--------------------------*/
@@ -596,7 +594,6 @@ Template Name: cases.lu
   }
   .menu li a:hover, .menu li:hover > a {
   	color: #ffff1a;
-  	font-style: italic;
 	-webkit-transition: ease 0.3s;
 	-o-transition: ease 0.3s;
 	-moz-transition: ease 0.3s;
