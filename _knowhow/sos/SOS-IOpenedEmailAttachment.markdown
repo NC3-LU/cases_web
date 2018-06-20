@@ -9,5 +9,5 @@ categories: f-sos
 toc: true
 ---
 
-<h3 class="titre-page">In brief</h3>
-If the attachment was attached to a suspicious email, your computer may now be contaminated with malicious software (malware). [Check whether your computer is infected]({{site.url}}/knowhow/sos/SOS-IThinkMyComputerInfected.html).
+In brief
+If the attachment was attached to a suspicious email, your computer may now be contaminated with malicious software (malware). [Check whether your computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}).
