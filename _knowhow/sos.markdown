@@ -14,26 +14,26 @@ main-categ: sos
 Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
 
 ## Email
-<a href="/knowhow/sos/SOS-RecognisingASuspiciousEmail.html">Comment reconnaître un courrier électronique suspect ?</a>
+[Comment reconnaître un courrier électronique suspect ?]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
 
-<a href="/knowhow/sos/SOS-IOpenedEmailAttachment.html">J'ai ouvert une pièce jointe d'un courrier électronique</a>
+[J'ai ouvert une pièce jointe d'un courrier électronique]({% link _knowhow/sos/SOS-IOpenedEmailAttachment.markdown %})
 
-<a href="/knowhow/sos/SOS-OnlineIdentityTheft.html">Je suspecte que quelqu'un utilise ma boîte aux lettres électronique</a>
+[Je suspecte que quelqu'un utilise ma boîte aux lettres électronique]({% link _knowhow/sos/SOS-OnlineIdentityTheft.markdown %})
 
-<a href="/knowhow/sos/SOS-IamAskedForConfidentialInformation.html">Quelqu'un me demande des informations confidentielles</a>
+[Quelqu'un me demande des informations confidentielles]({% link _knowhow/sos/SOS-IamAskedForConfidentialInformation.markdown %})
 
-<a href="/knowhow/sos/SOS-ElectronicGreetingsCards.html">Comment procéder avec les cartes de vœux électroniques
+[Comment procéder avec les cartes de vœux électroniques]({% link _knowhow/sos/SOS-ElectronicGreetingsCards.markdown %})
 
 ## Codes malicieux
-<a href="/knowhow/sos/SOS-IThinkMyComputerInfected.html">Je crois que mon ordinateur est infecté</a>
+[Je crois que mon ordinateur est infecté]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %})
 
 ## Pannes de matériel
-<a href="/knowhow/sos/SOS-HandoverToRepairs.html">Puis-je donner mon matériel en réparation ?</a>
+[Puis-je donner mon matériel en réparation ?]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown %})
 
-<a href="/knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.html">Comment me défaire de mon ancien matériel ?</a>
+[Comment me défaire de mon ancien matériel ?]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %})
 
 ## Vol d'informations
-<a href="/knowhow/sos/SOS-CompromisedData.html">Que faire si mes données de connexion ont été compromises ou même divulguées?</a>
+[Que faire si mes données de connexion ont été compromises ou même divulguées?]({% link _knowhow/sos/SOS-CompromisedData.markdown %})
 
 ## Vol de matériel
-<a href="/knowhow/sos/SOS-StolenHardware.html">Que faire si votre matériel est volé, perdu, saisi?</a>
+[Que faire si votre matériel est volé, perdu, saisi?]({% link _knowhow/sos/SOS-StolenHardware.markdown %})

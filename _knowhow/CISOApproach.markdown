@@ -17,13 +17,13 @@ Avant de mettre en place des procédures ou des mesures techniques visant à aug
 La politique de sécurité sert à formaliser et à coordonner toutes les démarches organisationnelles et techniques de sécurité de l'organisme.
 La rédaction d'une politique de sécurité est une tâche fastidieuse. Nous déconseillons aux petites entreprises de s'y atteler d'entrée et recommandons plutôt d'avancer dans une optique d'amélioration continue, un document court et concis à la fois, pour développer peu à peu les procédures et politiques sectorielles dont elles ont le plus besoin.
 
-Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques ([ISO/IEC 27001](/publications/ISO27000SF/ISO27001-ISMS.html) et [ISO/IEC 27002](/publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.html)), et de l'autre dans l'analyse et [l'évaluation des risques]({% link _publications/RiskManagement.markdown %}\#risk-estimation). En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
+Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques ([ISO/IEC 27001](% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) et [ISO/IEC 27002](% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %})), et de l'autre dans l'analyse et [l'évaluation des risques]({% link _publications/RiskManagement.markdown %}#risk-estimation). En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
 
-Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la [criticité](/knowhow/cisoapproach/SecurityPolicy-Classification.html) des [actifs]({% link _knowhow/glossary/Assets.markdown %}) et de la maturité de l'organisme.
+Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la [criticité](% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) des [actifs]({% link _knowhow/glossary/Assets.markdown %}) et de la maturité de l'organisme.
 
 ## Charte de sécurité
 
-La définition et l'application d'une [charte de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques]({% link _publications/RiskManagement.markdown %}), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs]({% link _knowhow/glossary/Assets.markdown %})  protéger en priorité. Afin de pouvoir prévenir les [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, la direction doit identifier les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables, ainsi que les [vulnérabilités](/knowhow/glossary/Vulnerabilities.html) dont l'exploitation est la plus aisée.
+La définition et l'application d'une [charte de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques]({% link _publications/RiskManagement.markdown %}), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs]({% link _knowhow/glossary/Assets.markdown %})  protéger en priorité. Afin de pouvoir prévenir les [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, la direction doit identifier les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables, ainsi que les [vulnérabilités](% link _knowhow/glossary/Vulnerabilities.markdown %}) dont l'exploitation est la plus aisée.
 
 La mise en place d'une charte doit absolument être accompagnée d'une présentation aux employés qui devront vivre avec les mesures proposées au quotidien. Sans formation de leur part, toute charte risque d'être ignorée, et donc de perdre son utilité.
 
@@ -67,48 +67,48 @@ Les actions qui auront été décidées à l’étape précédente devront être
 
 La politique de sécurité devrait contenir les documents suivants :
 
-#### [Section 1. politique de sécurité]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.html)
+#### [Section 1. politique de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %})
 
-1. [Engagement de la direction]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.html#management-commitment)
-2. [Revue et évaluation]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.html#review-and-assessment)
+1. [Engagement de la direction]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#management-commitment)
+2. [Revue et évaluation]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#review-and-assessment)
 
-#### [Section 2. organisation de la sécurité]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html)
+#### [Section 2. organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
 
-1. [Attribution des responsabilités]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html#attribution-of-responsibilities)
-2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html#authorising-the-addition-of-tools)
-3. [Conseils d’un spécialiste]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html#specialist-advice)
-4. [Revue indépendante de la sécurité de l’information]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html#independent-review-of-information-security)
-5. [Accès par des tiers et sous-traitance]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.html#third-party-access-and-outsourcing)
+1. [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities)
+2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#authorising-the-addition-of-tools)
+3. [Conseils d’un spécialiste]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#specialist-advice)
+4. [Revue indépendante de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#independent-review-of-information-security)
+5. [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 
-#### [Section 3. classification et maîtrise des ressources]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html)
+#### [Section 3. classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
 
-1. [Classification et responsabilité des ressources]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#classification-and-responsibility-for-resources)
+1. [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 
-#### [Section 4. aspects humains]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html)
+#### [Section 4. aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
 
-1. [La sécurité comme mission]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#security-as-a-mission)
-2. [La formation et l’information]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#training-and-information)
-3. [La réponse aux incidents et dysfonctionnements de sécurité]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-HumanFactors.html#response-to-incidents-and-malfunctions)
+1. [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
+2. [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
+3. [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
 
-#### [Section 5. sécurité physique et environnementale]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html)
+#### [Section 5. sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
-1. [Périmètre de sécurité physique]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#physical-security-perimeter)
-2. [Règles dans le périmètre]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#rules-within-the-perimeter)
-3. [Sécurité électrique des équipements]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#electrical-equipment-safety)
-4. [Maintenance]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#maintenance)
-5. [Sécurité des équipements hors des locaux]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#off-site-equipment-security)
-6. [Mise au rebut ou ré-utilisation des équipements]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#disposal-and-reuse-of-equipment)
-7. [Bureaux en ordre]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.html#tidy-office-policy)
+1. [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
+2. [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
+3. [Sécurité électrique des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety)
+4. [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#maintenance)
+5. [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
+6. [Mise au rebut ou ré-utilisation des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)
+7. [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
 
-#### [Section 6. aspects opérationnels et communications]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html)
+#### [Section 6. aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
 
-1. [Procédures documentées]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#documentation-of-procedures)
-2. [Séparation des environnements de développement et de production]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#separation-of-environments)
-3. [Gestion de ressources par des externes]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#outsourcing-of-resource-management)
-4. [Protection contre les logiciels malveillants]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#protection-against-malware)
-5. [Sauvegarde des données]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#data-backups)
-6. [Sécurité des médias pendant les transports]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#device-security-during-transport)
-7. [Courrier électronique]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.html#email)
+1. [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
+2. [Séparation des environnements de développement et de production]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#separation-of-environments)
+3. [Gestion de ressources par des externes]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#outsourcing-of-resource-management)
+4. [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
+5. [Sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
+6. [Sécurité des médias pendant les transports]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#device-security-during-transport)
+7. [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
 
 #### [Section 7. contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
 
@@ -121,24 +121,24 @@ La politique de sécurité devrait contenir les documents suivants :
 6. [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
 7. [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures)
 
-#### [Section 8. développement et maintenance des systèmes]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html)
+#### [Section 8. développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
 
-1. [Utilisation de l’encryption]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#encryption)
-2. [La signature électronique]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.html#electronic-signatures)
+1. [Utilisation de l’encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
+2. [La signature électronique]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#electronic-signatures)
 
-#### [Section 9. gestion des incidents liés à la sécurité]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html)
+#### [Section 9. gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
 
-1. [Signalement des événements liés à la sécurité de l’information]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#reporting-information-security-events)
-2. [Gestion des incidents et des améliorations de la sécurité de l’information]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#incident-management-and-improvements-information-security)
-3. [Analyse des manquements avec obligations]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.html#analysis-of-non-fulfilment-of-obligations)
+1. [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
+2. [Gestion des incidents et des améliorations de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
+3. [Analyse des manquements avec obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
 
-#### [Section 10. gestion de la continuité de l’entreprise]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.html)
+#### [Section 10. gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
 
-1. [La continuité de fonctionnement]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.html#operational-continuity)
+1. [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
-#### [Section 11. conformité]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-Compliance.html)
+#### [Section 11. conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
 
-1. [Identification de la législation applicable]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#comply-with-legislation)
-2. [Propriété intellectuelle]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#intellectual-property)
-3. [Protection des données opérationnelles]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#protection-of-operational-data)
-4. [Protection des données à caractère personnel]({{ site.url }}/knowhow/cisoapproach/SecurityPolicy-Compliance.html#personal-data-protection)
+1. [Identification de la législation applicable]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#comply-with-legislation)
+2. [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property)
+3. [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
+4. [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
