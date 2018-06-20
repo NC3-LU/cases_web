@@ -277,11 +277,10 @@ Template Name: cases.lu
 	.blocantiscroll
 	{
 		position: sticky;
-		height: 100vh;
+		max-height: 100vh;
 		top: 0px;
 		background: none;
 		overflow-y: auto;
-		padding-bottom: 200px;
 	}
 
 	.blocantiscroll > h2 {text-align: center;}
