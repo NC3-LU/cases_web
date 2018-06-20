@@ -8,10 +8,10 @@ short:
 categories: f-ciso
 toc: true
 ---
-<h3 class="titre-page">Physical security perimeter</h3>
-[Physical security]({{site.url}}knowhow/glossary/Physicalecurity.html) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#infiltrating-the-premises) and [Insertion or removal of hardware]({{site.url}}/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#addition-or-removal-of-hardware) and [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery) and [Aggravated theft]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#aggravated-theft)).
+## Physical security perimeter
+[Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %}) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)).
 
-Always be aware of the actual value of a resource (see [classification]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html)) in order to be able to plan suitable protection.
+Always be aware of the actual value of a resource (see [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) in order to be able to plan suitable protection.
 
 All the elements listed as important or vital for “the organisation” must be installed in secure premises. These premises constitute the security perimeter.
 
@@ -44,12 +44,12 @@ All the elements listed as important or vital for “the organisation” must be
 
 [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
-<h3 class="titre-page">Rules within the perimeter</h3>
+## Rules within the perimeter
 
 ### The premises within the security perimeter should be:
 
-* protected against access by unauthorised persons, and therefore especially by persons not from “the organisation”. (SMEs see: [Infiltrating the premises]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#infiltrating-the-premises) and [Insertion or removal of hardware]({{site.url}}) and [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery) and [Aggravated theft]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#aggravated-theft)). Access should be through a single door and authorised by the IT manager,
-* protected against fire. The doors should be fire doors and fire alarms should be fitted. (SMEs see: [Fire]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#fire))
+* protected against access by unauthorised persons, and therefore especially by persons not from “the organisation”. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)). Access should be through a single door and authorised by the IT manager,
+* protected against fire. The doors should be fire doors and fire alarms should be fitted. (SMEs see: [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
 
 ### The following rules should also be respected:
 
@@ -61,19 +61,19 @@ All the elements listed as important or vital for “the organisation” must be
 
 ### To be applied in security measures for:
 
-* [file servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingFileServer.html)
-* [email servers]({{site.url}}/publications/recommendationsecuring/Recommendations4securingEmailServer.html)
-* [fixed network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html)
-* [internal WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-employees)
-* [customer WiFi network]({{site.url}}/publications/recommendationsecuring/SecuringWifiNetwork.html#wifi-for-visitorsexternal-users)
-* [computers connected to the Internet]({{site.url}}/publications/recommendationsecuring/SecuringFixedWorkstation.html)
-* [laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html)
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
 
 ### Directly associated organisational measures:
 
-* [Classification and monitoring of resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html)
-  * [Classification of and responsibility for resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
 * [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
   * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
   * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#response-to-incidents-and-malfunctions)
@@ -89,10 +89,10 @@ All the elements listed as important or vital for “the organisation” must be
 ### Technical measures
 Physical security
 
-<h3 class="titre-page">Electrical equipment safety</h3>
+## Electrical equipment safety
 The electricity power supply for vital equipment must be made safe:
 
-* by a power supply for 2 different sources (2 fuses on 2 circuits) where equipment has 2 power supplies (SMEs: see [Service interruption]({{site.url}}/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#service-interruption) and [Power cut]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#power-cut) and [Discontinuity of service providers]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.html#discontinuity-of-service-providers));
+* by a power supply for 2 different sources (2 fuses on 2 circuits) where equipment has 2 power supplies (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers));
 * by an uninterrupted power unit which ensures a supply of electricity during brief power cuts for a sufficient length of time to fully power off the equipment;
 * by a backup generator.
 
@@ -116,12 +116,12 @@ The electricity power supply for vital equipment must be made safe:
 ### Technical measures
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
-<h3 class="titre-page">Maintenance</h3>
-For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.html#invalid-or-non-existent-licence) and [Administration impossible}({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.html#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
+## Maintenance
+For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible}({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
 
-When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#hardware-damaged-during-transport) and [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery))
+When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
 
-See also: [SOS – handover to repairs]({{site.url}}/knowhow/sos/SOS-HandoverToRepairs.html)
+See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown %})
 
 ### To be applied in security measures for:
 
@@ -149,12 +149,12 @@ See also: [SOS – handover to repairs]({{site.url}}/knowhow/sos/SOS-HandoverToR
 
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
-<h3 class="titre-page">Off-site equipment security</h3>
-The equipment used for processing information off the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk. (SMEs: see [Hardware damaged during transport]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#hardware-damaged-during-transport); [Aggravated theft]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#aggravated-theft); [Basic security measures for laptop computers]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.html#recommendations))
+## Off-site equipment security
+The equipment used for processing information off the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft); [Basic security measures for laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}#recommendations))
 
 ### Applying security measures to:
 
-* [laptops]({{site.url}}/publications/recommendationsecuring/SecuringLaptops.markdown %)
+* [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
 ### Directly associated organisational measures:
 
@@ -177,8 +177,8 @@ The equipment used for processing information off the site of “the organisatio
 * [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 * [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#tidy-office-policy)
 
-<h3 class="titre-page">Disposal and reuse of equipment</h3>
-Any equipment that [is discarded]({% link _knowhow/glossary/Discarded.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.html#device-recovery)).
+## Disposal and reuse of equipment
+Any equipment that [is discarded]({% link _knowhow/glossary/Discarded.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
 
 Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
 
@@ -211,10 +211,10 @@ Whichever method is chosen, please be respectful of the environment.
 * [Disposal]({% link _knowhow/glossary/Discarded.markdown %})
 * [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
-<h3 class="titre-page">Tidy office policy</h3>
+## Tidy office policy
 Follow a tidy office policy, i.e.:
 
-* tidy away papers and [removable data storage media]({{site.url}}/knowhow/glossary/RemovableDevices.html) (CD-ROMs, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
+* tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (CD-ROMs, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
 * keep the most important media under lock and key, or even in a fireproof safe;
 * if anyone leaves their PC unused for more than a few minutes, the screensaver should come on. A password should be entered to exit the screensaver and start work again. You are strongly advised not to bypass this step;
 * use a special waste bin or a shredder to destroy sensitive paper documents.

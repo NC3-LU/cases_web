@@ -8,15 +8,15 @@ short:
 categories: f-ciso
 toc: true
 ---
-<h3 class="titre-page">Classification and responsibility for resources</h3>
-An [inventory of the “organisation’s” vital and important resources]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.html#inventory-of-assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The [classification]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html) of [assets]({% link _knowhow/glossary/Assets.markdown %}) is an extremely important task.
+## Classification and responsibility for resources
+An [inventory of the “organisation’s” vital and important resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#inventory-of-assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of [assets]({% link _knowhow/glossary/Assets.markdown %}) is an extremely important task.
 
 The level of importance of the resource for the company is also specified:
 
 * vital
 * important
 
-The following elements are considered [resources]({{site.url}}):
+The following elements are considered [resources]({% link _knowhow/glossary/Assets.markdown %}):
 
 * computers (PC, laptops, servers, netbooks) and printers;
 * communications equipment (modem, switch, router, PABX, fax, etc.);
@@ -58,9 +58,9 @@ Elements considered as "**important**" are those that could cause serious conseq
 
 * [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
 
-<h3 class="titre-page">Inventory of assets</h3>
+## Inventory of assets
 
-An inventory of the “organisation’s” major resources ([assets]({% link _knowhow/glossary/Assets.markdown %})) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. Each asset should be [classified]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-Classification.html)) according to [confidentiality]({{site.url}}/knowhow/bestpractices/SecurityMeasures4SME-CheckList.html)), [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and [availability]({% link _knowhow/glossary/Availability.markdown %})) requirements.
+An inventory of the “organisation’s” major resources ([assets]({% link _knowhow/glossary/Assets.markdown %})) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. Each asset should be [classified]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) according to [confidentiality]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList.markdown %})), [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and [availability]({% link _knowhow/glossary/Availability.markdown %})) requirements.
 
 Elements classified as “vital” are those that could compromise the “organisation’s” existence if they disappear, are disclosed externally or become defective. Elements considered as “important” are those that could cause serious consequences for the company under the same conditions.
 
@@ -76,15 +76,15 @@ The management and classification of properties is based on the following princi
 8. Qualification of contents to simplify management rules.
 9. Default classification.
 10. Marking to ensure the security rules are taken into account when handling assets.
-11. Use of [encryption]({{site.url}}/knowhow/glossary/Cryptography.html)) to ensure that sensitive information is transported in a sufficiently well-protected container.
+11. Use of [encryption]({% link _knowhow/glossary/Cryptography.markdown %})) to ensure that sensitive information is transported in a sufficiently well-protected container.
 
 Which is where the following rules and responsibilities come in:
 
-1. Each item must be inventoried and attributed to a manager who is responsible for determining its classification and the [security measures]({{site.url}}/publications/ProtectingYourCompany.html)) to be applied.
+1. Each item must be inventoried and attributed to a manager who is responsible for determining its classification and the [security measures]({% link _publications/ProtectingYourCompany.markdown %})) to be applied.
 2. An item that contains other items must have at least the same classification as the most sensitive item it contains.
 3. Information always has the same classification, regardless of the form in which it is found.
 4. The security manager is responsible for characterising the contents.
-5. The security policy and any document contained within it will be inspired by internationally recognised best practice in security management. Best practice is documented in [ISO/IEC standards 27001]({{site.url}}/publications/ISO27000SF/ISO27001-ISMS.html)) and [27002]({{site.url}}/publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.html)).
+5. The security policy and any document contained within it will be inspired by internationally recognised best practice in security management. Best practice is documented in [ISO/IEC standards 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %})) and [27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %})).
 6. An item’s manager must have reached the rank of division manager or his replacement.
 7. The security manager is responsible for characterising the contents.
 8. The classification policy is implemented through procedures.

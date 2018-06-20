@@ -8,7 +8,7 @@ short:
 categories: f-ciso
 toc: true
 ---
-<h3 class="titre-page">Management commitment</h3>
+## Management commitment
 “The organisation” certifies that, through its director, the security of information systems and networks is vital to its operation, and even its survival. Indeed, the availability of certain data or certain tools, the non-disclosure of certain information to third parties or the impossibility of modifying certain data is crucial for “the organisation”.
 
 As a consequence, the management is introducing a document detailing the security policy to be respected within “the organisation”. The management therefore undertakes to support any initiatives which fall within the scope of this document and to make available the resources necessary for their performance, where financially possible.
@@ -26,7 +26,7 @@ Specific geographical locations may be indicated such as “secretariat” or �
 
 If the security policy includes confidential information, a more slimmed-down version should be created for public consumption, while the full version should remain in the hands of the management and specific relevant parties (IT and owners of the data).
 
-<h3 class="titre-page">Review and assessment</h3>
+## Review and assessment
 
 This document (policies and procedures) is reviewed each year by the management, in association with the persons directly involved in security management.
 
