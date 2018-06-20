@@ -3,88 +3,24 @@ layout: default
 ---
 
 
-<div class="col-md-1">
-
-</div>
-
-
-<div class="col-md-4">
- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="12000">
-
-
-
-  {% comment %} Wrapper for slides {% endcomment %}
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-
-     <a  href="{{ "/services/diagnostic.html" | relative_url }}"><img src="{{ "/assets/img/services/diagnostic-CMYK.jpg" | relative_url }}"/><div class="carousel-text">Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.</div><a href="{{ "/services/diagnostic.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
-
-   </div>
-   <div class="item">
-    <a  href="{{ "/services/monarc.html" | relative_url }}"><img src="{{ "/assets/img/services/monarc-CMYK.jpg" | relative_url }}"/><div class="carousel-text">CASES has developed an analysis method to produce a comprehensive risk report on this matter, with suggested solutions. You will therefore be able to take the appropriate measures to enhance information security within your organisation and meet your legal obligations.</div><a href="{{ "/services/monarc.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
-  </div>
-  <div class="item">
-    <a  href="{{ "/services/startupkit.html" | relative_url }}"><img src="{{ "/assets/img/services/start-up-CMYK.jpg" | relative_url }}"/><div class="carousel-text">
-    To survive in the digital world, simple reflexes prevail: protect your data, your material and adapt your behavior online. The Start-up Security Kit business owners implement a better cybersecurity strategy.</div><a href="{{ "/services/startupkit.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
-  </div>
-  <div class="item">
-    <a  href="{{ "/services/trainings.html" | relative_url }}"><img src="{{ "/assets/img/services/training-CMYK.jpg" | relative_url }}"/><div class="carousel-text">CASES training provides the knowledge and reflexes that your teams require. It is fully adapted to your specific situation. It will encourage staff to communicate their experiences and strengthen the motivation of staff to be vigilant and share best practice.</div><a href="{{ "/services/trainings.html" | relative_url }}" target="_blank"><button type="button" class="btn-carousel">Services</button></a></a>
-
-  </div>
-</div>
-
-{% comment %} Controls {% endcomment %}
-<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
-<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
-
-
-</div>
-
-</div>
-
-
-<div class="col-md-4">
-  <h2><a href="/articles-list/index.html">Articles</a></h2>
-  <a href="{{ post.url | relative_url }}">
-    <a href="/articles-list/index.html"></a>
-    <h5><a href="/articles-list/index.html"><i class="txt-hightlight">We have the following articles at your disposal.</i></a></h5>
-  </a>
-
-<div class="row row-spacer">
-
-</div>
-
-  <h2><a href="{% link publications.md %}">Publications</a></h2>
-  <a class="post-link" href="{{ post.url | relative_url }}">
-    <a href="{% link publications.md %}"></a>
-    <h5><a href="{% link publications.md %}"><i class="txt-hightlight">Here is the list of our publications that will help you to know more about information security.</i></a></h5>
-  </a>
-<div class="row row-spacer">
-
-</div>
-  <h2><a href="{{ "/knowhow/CISOApproach" | relative_url }}">Knowhow</a></h2>
-  <a class="post-link" href="{{ post.url | relative_url }}">
-    <a href="{{ "/knowhow/CISOApproach" | relative_url }}"></a>
-    <h5><a href="{{ "/knowhow/CISOApproach" | relative_url }}"><i class="txt-hightlight">
-    To secure our information, we must be aware of the potential stakes and dangers, so use our know-how. We put our skills at your disposal.</i></a></h5>
-  </a>
-
-</div>
+<div class="col-md-2"></div>
 
 
 <div class="col-md-3">
+    {% include home/caroussel.html %}
+</div>
+
+<div class="col-md-3">
+    {% include home/informationlist.html %}
+</div>
+
+<div class="col-md-2">
 
   <h2>News</h2>
-  <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw">CASES Updates</a> 
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 
-<div class="col-md-1">
 
-</div>
+<div class="col-md-2"></div>

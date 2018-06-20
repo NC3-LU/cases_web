@@ -1,0 +1,58 @@
+{% comment %}
+function for carousel
+{% endcomment %}
+
+<script language="JavaScript" type="text/javascript" >
+    $(".carousel").swipe({
+        swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+        if (direction == 'left') $(this).carousel('next');
+        if (direction == 'right') $(this).carousel('prev');
+        },
+        allowPageScroll:"vertical"
+    });
+</script>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="12000">
+    {% comment %} Wrapper for slides {% endcomment %}
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <a  href="{{ "/services/diagnostic.html" | relative_url }}"><img src="{{ "/assets/img/services/diagnostic-CMYK.jpg" | relative_url }}"/>
+                <div class="carousel-text">
+                    Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <a  href="{{ "/services/monarc.html" | relative_url }}"><img src="{{ "/assets/img/services/monarc-CMYK.jpg" | relative_url }}"/>
+                <div class="carousel-text">
+                    CASES has developed an analysis method to produce a comprehensive risk report on this matter, with suggested solutions. You will therefore be able to take the appropriate measures to enhance information security within your organisation and meet your legal obligations.
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <a  href="{{ "/services/startupkit.html" | relative_url }}"><img src="{{ "/assets/img/services/start-up-CMYK.jpg" | relative_url }}"/>
+                <div class="carousel-text">
+                    To survive in the digital world, simple reflexes prevail: protect your data, your material and adapt your behavior online. The Start-up Security Kit business owners implement a better cybersecurity strategy.
+                </div>
+            </a>
+        </div>
+        <div class="item">
+            <a  href="{{ "/services/trainings.html" | relative_url }}"><img src="{{ "/assets/img/services/training-CMYK.jpg" | relative_url }}"/>
+                <div class="carousel-text">
+                    CASES training provides the knowledge and reflexes that your teams require. It is fully adapted to your specific situation. It will encourage staff to communicate their experiences and strengthen the motivation of staff to be vigilant and share best practice.
+                </div>
+            </a>
+        </div>
+
+        {% comment %} Controls {% endcomment %}
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+</div>
