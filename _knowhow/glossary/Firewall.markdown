@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Un firewall ou pare-feu est un dispositif physique (matériel) ou logique (logiciel) servant de système de protection pour les ordinateurs. Il peut également servir d'interface entre un ou plusieurs réseaux d’entreprise afin de contrôler et éventuellement bloquer la circulation des données en analysant les informations contenues dans les flux de données (cloisonnement réseau).
 
 Le firewall fonctionne comme filtre et analyseur de trames réseau. Une entreprise qui aurait un serveur de fichiers pour son réseau interne et qui voudrait que celui-ci ne soit pas accessible depuis l'Internet pourrait effectivement utiliser un firewall pour bloquer les communications vers celui-ci.
@@ -26,19 +26,19 @@ Il existe principalement 2 catégories de firewalls :
 
 * les firewalls d’entreprise installés sur des machines dédiées. Ce type de firewall est souvent placé entre Internet et un réseau d’entreprise afin de protéger ce dernier des différentes menaces d’Internet. Il est également utilisé pour la création de zones démilitarisées (DMZ) pour l’hébergement de serveurs publics. Dans certains cas, il sert même à séparer différentes parties du réseau d’entreprise en périmètres de sécurité différents ([segmentation ou cloisonnement réseau]({% link _knowhow/glossary/NetworkSegmentation.markdown %})).
 
-<h3 class="titre-page" id="mesures-comportementales">Mesures comportementales</h3>
+## Mesures comportementales
 
 * Le firewall n'est pas une protection absolue contre des attaques depuis Internet respectivement des exfiltration des données et dépend en grosse partie de la configuration faite. Les utilisateurs doivent rester vigilants à de telles attaques.
 
-<h3 class="titre-page" id="mesures-organisationnelles">Mesures organisationnelles</h3>
+## Mesures organisationnelles
 
 * La gestion du firewall doit suivre des règles strictes. Tout changement de règle doit être documenté.
 
 * L'organisme doit rédiger et faire respecter une politique sectorielle pour le contrôle d'accès
 
-* Rédigez et faites appliquer une politique sectorielle contrôle d'accès - [séparation des réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
+* Rédigez et faites appliquer une politique sectorielle contrôle d'accès - [séparation des réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
 
-<h3 class="titre-page" id="mesures-techniques">Mesures techniques</h3>
+## Mesures techniques
 
 * Il faut de façon récurrente tester les règles firewall
 

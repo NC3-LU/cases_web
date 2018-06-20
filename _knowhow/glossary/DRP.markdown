@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 The purpose of a Disaster Recovery Plan (DRP) aims to plan for the timely re-establishment of an IT infrastructure. It aims to enable the operational recovery of services in the event of a disaster.
 
 A disaster recovery plan differs from a business continuity plan.
@@ -20,7 +20,7 @@ A disaster recovery plan must allow a switchover to an "alternative" IT infrastr
 
 Disaster recovery plans are designed and updated according to business needs.
 
-<h3 class="titre-page" id="rto-and-rpo">RTO and RPO</h3>
+## RTO and RPO
 Any DRP must be based on the following two concepts:
 
 **RTO: Return Time on Objective – RTO**
@@ -29,7 +29,7 @@ Any DRP must be based on the following two concepts:
 
 Any entity wishing to develop a disaster recovery plan will initially need to define security goals based on these basic needs (see Risk Management).
 
-<h3 class="titre-page" id="rto">RTO</h3>
+## RTO
 The RTO defines the maximum acceptable time during which an IT resource may be down due to a disaster.
 
 This downtime takes account of:
@@ -41,10 +41,10 @@ This downtime takes account of:
   * Data restoration,
   * Quality control and service level control (in degraded or fully functional mode).
 
-<h3 class="titre-page" id="rpo">RPO</h3>
+## RPO
 The RPO defines the maximum amount of data that can be lost as a result of a computer disaster. This value is the difference between the last backup and the incident. It is expressed in most cases in minutes / hours.
 
-<h3 class="titre-page" id="incident-diagram">Incident diagram</h3>
+## Incident diagram
 The diagram below shows service level changes according to incident. It aims to model the concepts of RPO and RTO to show how they differ, but also how they are complementary.
 
 Depending on the size of the disaster, a recovery plan must be able to take account of many recovery scenarios, ranging from simple actions to complex mechanisms.
@@ -67,7 +67,7 @@ The above examples are variable in terms of the RPO and RTO concepts and demonst
 
 Overall, the implementation of a recovery plan is based on 12 key points.
 
-<h3 class="titre-page" id="12-key-points-for-a-successful-drp">12 key points for a successful DRP</h3>
+## 12 key points for a successful DRP
 
 ### 1. Inventory of IT assets
 Any asset that is part of the infrastructure’s IT system must be clearly identified and listed in a Configuration Management DataBase (CMDB).

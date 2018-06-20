@@ -11,7 +11,7 @@ toc: true
 
 > Check to verify the completeness of this article.
 
-<h3 class="titre-page" id="history">History</h3>
+## History
 Humans have always tried to keep certain information or data secret or, failing this, to restrict access to certain people. One of the oldest examples of cryptographic use comes from Julius Caesar.
 
 The Roman emperor used a specific method to communicate with his general staff. As messages in those days were carried by messengers, Julius Caesar wanted to protect their confidentiality. His transcription method was to replace one letter by an offset of three. For example, 'A' was replaced with 'D', 'B' with 'E', and so on. In this way, only those who knew the ruse were able to decode the information.
@@ -22,7 +22,7 @@ It was only during the Second World War, with the advent of advanced communicati
 
 Since then, but especially with the advent of the DES algorithm and the advent of asymmetric cryptography, the use of cryptography has exploded. The needs of military applications have mingled with the needs of civilian applications and encryption techniques have become an engine of progress. (banking applications, telecommunications, IT, online banking, etc.)
 
-<h3 class="titre-page" id="definitions">Definitions</h3>
+## Definitions
 
 ### Cryptography
 This is the science of the mathematical principles and methods applied for purposes such as data confidentiality or integrity. It therefore tends to develop techniques for the storage of sensitive information and its transmission via insecure networks (such as the Internet) so that the data can only be read or altered by authorised individuals.
@@ -76,7 +76,7 @@ The main private key algorithms are:
 * RC2, RC5, RC6
 * Rijndael/AES
 
-<h3 class="titre-page" id="asymetric-cryptography">Asymmetric cryptography</h3>
+## Asymmetric cryptography
 Public key cryptography is a response to the problem of key transmission in private key encryption. The concept was devised by Whitfield Diffie and Martin Hellman in 1975, although it is commonly accepted that the British secret service had already made the same discovery several years earlier, but that it was protected as a military secret.
 
 ### Basic principle
@@ -97,12 +97,12 @@ The sender and recipient no longer need to share secret keys via a secure transm
 
 Public key encryption is a technological revolution offering every citizen the opportunity to use robust cryptography. Indeed, symmetric cryptography was previously the only method for the transmission of secret information. The costs of the transmission and secure distribution of keys had limited its use to institutions with sufficient means, such as governments and banks.
 
-<h3 class="titre-page" id="examples-of-a-public-key-cryptography">Examples of public key cryptography</h3>
+## Examples of public key cryptography
 Elgamal (from the name of its inventor, Taher Elgamal), RSA (from the names of its inventors, Ron Rivest, Adi Shamir and Leonard Adleman), Diffie-Hellman (also named after its inventors) and DSA, the digital signature algorithm (developed by David Kravitz), are examples of public key cryptography systems.
 
 A practical example of public key cryptography is OpenPGP for email encryption or TLS (https) for web communications encryption; TLS uses public-key cryptography for key exchange and then symmetric cryptography for encryption of communication.
 
-<h3 class="titre-page" id="security-policy">Security policy</h3>
+## Security policy
 Draft and enforce a sectoral policy on:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})

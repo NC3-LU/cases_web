@@ -9,14 +9,14 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">En quelques mots</h3>
+## En quelques mots
 Les données qui vous appartiennent et que vous manipulez avec votre ordinateur ont différents niveaux de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}). Vous ne traitez probablement pas de la même manière les données que vous mettez sur un réseau social et celles que vous gardez exclusivement sur votre disque local. Données clients, données stratégiques de votre entreprise, textes, lettres ou e-mails constituent seulement la partie visible de votre comportement sur l'ordinateur. Une quantité de données sont par ailleurs générées comme produit secondaire lors de cette utilisation : fichiers temporaires, historiques de navigation, profils d’utilisateurs, mots de passe sauvegardés en sont quelques exemples. Soyez donc conscients que lorsque vous utilisez un ordinateur, vous laissez sur votre passage, tel un escargot, une empreinte de tout ce que vous faites.
 
 Si vous souhaitez mettre au rebut ou léguer votre ordinateur à quelqu'un d'autre, il est important de détruire entièrement ces traces. Un simple effacement de fichiers ou reformatage du disque ne suffisent pas. La section ci-après vous livre les explications nécessaires pour bien vous préparer.
 
 Pour les données [classifiées]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) comme confidentielles, nous vous conseillons une destruction physique par broyeur ou démagnétiseur, il est hors de question de léguer de tels équipements.
 
-<h3 class="titre-page" id="in-brief">La destruction totale de vos données</h3>
+## La destruction totale de vos données
 
 ### OBJECTIF
 Vous voulez revendre ou mettre au rebut votre PC. Les disques qui contiennent vos données vont tomber dans des mains inconnues. Il vous faut tout effacer.
@@ -43,7 +43,7 @@ Opération efficace et qui demande peu d’interactions.
 ### DÉSAVANTAGES
 Opération longue à effectuer. Pour une entreprise désirant détruire beaucoup de disques, une destruction physique sera plus rapide (et peut-être moins chère).
 
-<h3 class="titre-page" id="la-destruction-ciblee-des-donnees">La destruction ciblée des données</h3>
+## La destruction ciblée des données
 
 ### OBJECTIF
 Vous voulez céder votre PC à une personne de confiance, peut-être à l’un de vos enfants. La méthode décrite ci-après est particulièrement valable si vous avez égaré le disque de réinstallation de votre PC et que vous souhaitez céder un ordinateur fonctionnel. Le but est d’effacer les données confidentielles tout en laissant le système d’exploitation intact.
@@ -110,7 +110,7 @@ Opération qui ne demande pas une réinstallation du système.
 ### DÉSAVANTAGES
 Opération qui ne garantit pas la destruction totale des données. De plus, en cas d’infection antérieure par un logiciel malveillant, le système reste infecté.
 
-<h3 class="titre-page" id="conclusion">Conclusion</h3>
+## Conclusion
 Deux méthodes ont été présentées pour effacer les données d’un PC. Il est vivement conseillé d’utiliser la première méthode, qui permet de garantir :
 
 l’effacement total des données ;

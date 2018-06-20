@@ -9,11 +9,11 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 
 Assurer le caractère confidentiel des données, c'est garantir que seul les personnes autorisées puissent accéder à ces informations. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}) visant à garantir la confidentialité essayent donc de défendre l'accès à des informations par des personnes non autorisées. Ces mesures doivent prévenir la perte de confidentialité intentionnelle et non-intentionnelle. (Voir aussi la [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}))
 
-<h3 class="titre-page" id="menaces-mettant-en-peril-la-confidentialite">Menaces mettant en péril la confidentialité</h3>
+## Menaces mettant en péril la confidentialité
 
 Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.markdown %}) qui peuvent mettre en péril la confidentialité d'un actif:
 

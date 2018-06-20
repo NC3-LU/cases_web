@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 
 Antivirus is software for the identification and blocking of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
@@ -21,7 +21,7 @@ Antivirus programs are essential for the protection of computers, smartphones, t
 
 No system is invulnerable to malicious code attacks, particularly because machines cannot tell the difference between malicious and legitimate code.
 
-<h3 class="titre-page" id="additional-measures">Additional measures</h3>
+## Additional measures
 
 ### Behavioural measures
 
@@ -48,7 +48,7 @@ Within an organisation, the following are required:
 * Since some malicious code (worms) exploits technical vulnerabilities, you should always apply [patches]({% link _knowhow/glossary/Patches.markdown %}) and updates to your operating system and any applications used on the system in question.
 * Since some malicious code (worms) uses automated mechanisms to spread itself, [the network should be partitioned] ({% link _knowhow/glossary/NetworkSegmentation.markdown %})using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
 
-<h3 class="titre-page" id="security-policy">Security policy</h3>
+## Security policy
 Write and apply the following sectoral policies:
 
 * [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
@@ -84,7 +84,7 @@ Write and apply the following sectoral policies:
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
 
 
-<h3 class="titre-page" id="different-types-of-antivirus">Different types of antivirus</h3>
+##Different types of antivirus
 
 ### Solutions for computers
 
@@ -105,7 +105,7 @@ Subscribing to your ISP's solutions is certainly useful, but does not replace lo
 ### Server solutions
 Antivirus solutions for servers are more or less the same as for desktops. The difference is that the server antivirus programs have certain specialisations. For example, it is standard to monitor all email traffic through a mail server or to check client downloads through a proxy server.
 
-<h3 class="titre-page" id="operating-modes">Operating modes</h3>
+## Operating modes
 Most antivirus software operates in two ways:
 
 * 'Realtime protection' – intercepting malicious codes as soon as they try to infect a machine.

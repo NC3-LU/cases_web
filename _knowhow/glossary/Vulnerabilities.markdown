@@ -12,7 +12,7 @@ Vulnerabilities are all the flaws in corporate [assets]({% link _knowhow/glossar
 
 It is possible to gather vulnerabilities together into a number of families.
 
-<h3 class="titre-page" id="human-vulnerabilities">Human vulnerabilities</h3>
+## Human vulnerabilities
 Human vulnerabilities essentially derive from feelings, behaviours and instincts that have helped humans survive since time immemorial. Unfortunately, these behaviours are so intrinsically linked to human nature that they are very often exploited in various [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) type scams and attacks. Because of this, we talk about vulnerabilities within the context of data security. (SMEs: [See [Threats to people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}))
 
 Among these vulnerabilities are:
@@ -24,7 +24,7 @@ Among these vulnerabilities are:
 * greed (often exploited by threats such as fake lotteries and Nigerian 419 scams)
 * ...
 
-<h3 class="titre-page" id="technical-vulnerabilities">Technical vulnerabilities</h3>
+## Technical vulnerabilities
 This family of vulnerabilities by far the most fluid  – it includes all vulnerabilities relating to the use of technology or solutions (hardware, software). Many people actively seek out vulnerabilities, and new flaws appear on a daily basis. (SMEs: see [Threats to hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Threats to software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}))
 
 These would include:
@@ -33,7 +33,7 @@ These would include:
 * the interoperability of IT and communications systems: to enable easy communications between different systems, additional layers of communication are often implemented, which can lead to the appearance of fresh vulnerabilities;
 * the complexity of rules on [firewalls]({% link _knowhow/glossary/Firewall.markdown %}) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
 
-<h3 class="physical-vulnerabilities">Physical vulnerabilities</h3>
+## Physical vulnerabilities
 This family includes all vulnerabilities relating to unforeseeable events such as breakdowns, accidents or even intentional damage to hardware.
 
 It is in response to this family of vulnerabilities that we will analyse all the physical characteristics of a company, including access to the building, computer rooms and equipment, and we will also talk about a “Continuity Plan”. (SMEs: see [Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}))

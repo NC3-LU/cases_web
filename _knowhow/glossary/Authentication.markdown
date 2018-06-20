@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Our society is largely based on the innate ability of humans to recognise their fellow humans. Humans have a highly evolved identification system with multiple factors such as appearance, voice, manner of speech, posture, etc.
 
 This human skill is something that is sorely lacking in computers. Although automated facial recognition systems do exist, they are far from perfect. The "shared secret" – the password – remains the predominant authentication factor for a computer. However, machine authentication factors are still far removed from our natural ability to recognise people and they are often, therefore, the weak link in information security. Indeed, people still do not take authentication seriously. Rather, most of us consider it to be a necessary evil. But this is often the only protection that users have against the fraudulent use of their online identity.
@@ -43,12 +43,12 @@ This involves fingerprint authentication or recognition by the layout of the vei
 ### Authentication by something you know how to do
 This most often involves the user copying a distorted word (the well-known "captcha" fields, where you are asked to copy a word for example). This identification method makes it possible to differentiate humans from computers, but not human beings from one another, because most human skills are shared by large groups of the population and identification would not be unambiguous.
 
-<h3 class="titre-page" id="multi-factor-authentication">Multi-factor authentication</h3>
+## Multi-factor authentication
 Multi-factor [authentication]({% link _knowhow/glossary/Authentication.markdown %}) means the use of at least two of the first three authentication factors. It goes without saying that the more forms of authentication used, the greater the level of information access security.
 
 It should not be forgotten that the more an online asset or service attracts the interest of [hackers]({% link _knowhow/glossary/Cybercriminals.markdown %}), the more effort they will put into getting it. This is why online services are secured at different levels. The ideal access security would obviously be always to use multi-factor authentication. Unfortunately, the cost of implementation, the accessibility of technology and the constant developments in security solutions mean that this behaviour is not yet a reality for users. Few people have a fingerprint reader and even fewer are willing to carry it when they travel. Hence, the most common form of authentication is the password, i.e. where the user shares secret information with the computer that the computer is able to identify.
 
-<h3 class="titre-page" id="security-policy">Security policy</h3>
+## Security policy
 Draft and enforce the following sectoral policies:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})

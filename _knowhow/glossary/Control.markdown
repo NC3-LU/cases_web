@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Securing information is far from being a technical issue for an organisation. In fact, technical operations are just one aspect of a process which, to be successful, must include all of the company’s activities as a whole.
 
 Before implementing technical procedures and measures aimed at improving an organisation's security, it is important to first conduct a risk analysis (risk management) and to write up a security policy.
@@ -21,12 +21,12 @@ The governing principle when drafting a security policy consists on the one hand
 
 In any case, you should choose an approach that is best suited to the size, and especially the criticality of assets and the maturity of the organisation.
 
-<h3 class="titre-page" id="security-charter">Security charter</h3>
+## Security charter
 The definition and application of a security charter is the first step towards security management. To guarantee its success, it must meet the specific security requirements for the organisation. A risk analysis, even a brief one, must precede this process. Without this analysis, management will not be in a position to determine which assets should be protected as a priority. In order to be able to predict the worst possible outcome, management must identify the most likely threats and the vulnerabilities which are the easiest to exploit.
 
 The introduction of a charter must imperatively be accompanied by a presentation to the employees who will have to implement the suggested measures on a daily basis. Without this training, there is a risk that the charter will be ignored and will therefore become useless.
 
-<h3 class="titre-page" id="security-policy">Security policy</h3>
+## Security policy
 Once the major risks for the organisation have been identified (risk management), management will, with a view to continuous improvement, be able to go beyond a simple security charter. They will introduce an actual policy, as well as specific procedures.
 
 With the introduction of even a rudimentary security policy, management will be able to begin organising security. The security policy will define in the formal procedures, the obligations and responsibilities of each individual, as well as the processes related to the security of information.
@@ -58,7 +58,7 @@ The actions that were decided upon in the previous step will have to be implemen
 * at operational procedure level which will have been determined, such as the implementation of a different (and obviously better suited) data backup procedure;
 * at tool level, with the purchase of an antivirus, for example.
 
-<h3 class="titre-page" id="contents-of-the-security-policy">Contents of the security policy</h3>
+## Contents of the security policy
 The security policy should contain the following documents:
 
 #### Section 1. Security policy

@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 WOT signifie 'Web of Trust' que l'on peut traduire par "Internet/Toile de confiance". C'est un module gratuit et complémentaire développé par WOT Services Ltd, en partenariat avec de nombreux sites connus et spécialisés dans la sécurité, tel que Panda Security et que l’on installe simplement sur son navigateur Internet.
 
 L’objectif principal de WOT est de mettre à disposition des internautes, des notes et une classification des sites Internet visités par l'utilisateur, ainsi qu'un avertissement lorsqu’il y a un risque, sur les sites concernés de :
@@ -26,7 +26,7 @@ L’objectif principal de WOT est de mettre à disposition des internautes, des 
 
 - sites de vente en ligne / e-commerce non fiables
 
-<h3 class="titre-page" id="mode-de-fonctionnement">Mode de fonctionnement</h3>
+## Mode de fonctionnement
 La manière la plus simple d'utiliser WOT est un module qui s’installe sur un navigateur, dont par exemple **Microsoft Internet Explorer**, **Google Chrome** ou **Mozilla Firefox**. Il existe des versions en plusieurs langues.
 
 Il est aussi possible de consulter ponctuellement pour certains sites la classification WOT en introduisant l'adresse sur https://www.mywot.com/  sans pour cela avoir besoin d'installer l'extension.

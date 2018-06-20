@@ -8,14 +8,14 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 We talk about loss of data when data is deleted or deteriorated in such a way as to make accessing it impossible. This situation may arise following various natural events (catastrophes), technical events (faults) or human actions (theft with destruction, or deliberate or accidental destruction).
 
 We talk about corruption of data when part of the data has been modified, but access to the data itself has not been prevented.
 
 Finally, we talk about data theft when a person accesses data which they ordinarily have no right to access, and which they extract fraudulently. Data theft can take place by copying or transferring data, or by printing it out. It may be accompanied by the destruction or corruption of the data.
 
-<h3 class="titre-page" id="loss-of-data">Loss of data</h3>
+## Loss of data
 To better understand this phenomenon and the methods of recovery, it is important to distinguish between:
 
 ### Loss of data due to loss of access to data
@@ -42,7 +42,7 @@ When the loss or corruption of data is not the result of a technical phenomenon,
 * non-malicious intentional (deleting a file)
 * intentional (mishandling)
 
-<h3 class="titre-page" id="preventative-measures">Preventative measures</h3>
+## Preventative measures
 Based on the analysis of actual cases, we can determine the areas directly affected by loss of data and assess the costs usually associated with this type of phenomenon.
 
 ### Storage solution suitable for requirements
@@ -50,7 +50,7 @@ It is important to adapt the storage technology to the degree of data sensitivit
 
 In order to avoid the storage infrastructure becoming quickly saturated and all the associated problems, it is necessary to implement a file archiving policy on suitable devices.
 
-It is advisable to equip servers with [RAID](-) (Redundant Array of Independent/Inexpensive Disks) technology which distributes the storage of data over several hard drives. If one of the RAID hard drives is lost, the IT system is able to reconstruct the missing data. There are different levels of RAID configurations, which are discussed in a separate sheet.
+It is advisable to equip servers with **RAID]** (Redundant Array of Independent/Inexpensive Disks) technology which distributes the storage of data over several hard drives. If one of the RAID hard drives is lost, the IT system is able to reconstruct the missing data. There are different levels of RAID configurations, which are discussed in a separate sheet.
 
 The implementation of a SAN (Storage Area Network) cabled storage network may also prove useful for large infrastructures or the deployment of a second production or backup site.
 
@@ -84,11 +84,11 @@ The majority of faults relating to the operation of IT equipment are preceded by
 ### User training
 An effective solution to avoid mishandling is to train users in how to use their computer and its peripherals correctly, as well as in data and directory management.
 
-<h3 class="titre-page" id="curative-measures">Curative measures</h3>
+## Curative measures
 In this section, you will find all recovery measures to be taken after a disaster:
 
-<h3 class="titre-page" id="recovery-software-or-companies">Recovery software or companies</h3>
+## Recovery software or companies
 There are a number of software programs that can recover lost or deleted data from a number of devices. This software is not necessarily expensive, but it does require a certain amount of expertise to use. It is therefore strongly recommended that you contact companies that specialise in this domain. However, you should request a service where payment is only made if the data can be recovered.
 
-<h3 class="titre-page" id="comments">Comments</h3>
+## Comments
 Security-conscious people are reminded that it is possible to recover deleted files. Making this sort of recovery impossible is always an option, and it is important to pay attention during the resale of IT equipment. (see [disposal]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}))

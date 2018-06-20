@@ -8,14 +8,14 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
-Data that belongs to you or which you process using your computer has different levels of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}). You probably don’t treat data you post on [social networks](-) and that which you keep solely on your hard drive in the same way. Customer information, your company’s strategic data, texts, letters or [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email) constitute only the visible part of your behaviour on the computer. In addition to that, a certain amount of data is generated as a secondary product during such use: temporary files, browser history, user profiles and saved passwords are just a few examples. You therefore need to bear in mind that when you use a computer, you leave behind a trace, like a snail, of everything you have done.
+## In brief
+Data that belongs to you or which you process using your computer has different levels of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}). You probably don’t treat data you post on [social networks](-) and that which you keep solely on your hard drive in the same way. Customer information, your company’s strategic data, texts, letters or [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) constitute only the visible part of your behaviour on the computer. In addition to that, a certain amount of data is generated as a secondary product during such use: temporary files, browser history, user profiles and saved passwords are just a few examples. You therefore need to bear in mind that when you use a computer, you leave behind a trace, like a snail, of everything you have done.
 
 If you would like to scrap your computer or pass it on to someone else, it is important [to get rid of these traces]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}) entirely. Simply deleting the files or reformatting the hard drive is not enough. The section below will tell you what you need to know in advance.
 
 For classified data, such as confidential data, we recommend total physical destruction by a crusher or a demagnetiser. Passing on this equipment to someone else is out of the question.
 
-<h3 class="titre-page" id="total-destruction-of-your-data">Total destruction of your data</h3>
+## Total destruction of your data
 
 ### Objective
 You want to resell or scrap your PC. The hard drives containing your data are going to fall into unknown hands. You need to delete everything.
@@ -45,7 +45,7 @@ Effective process which requires little interaction.
 ### Disadvantages
 Lengthy process. For a company looking to destroy a lot of hard drives, physical destruction will be the fastest (and possibly cheapest) route.
 
-<h3 class="titre-page" id="targeted-destruction-of-data">Targeted destruction of data</h3>
+## Targeted destruction of data
 
 ### Objective
 You want to give your PC to someone you trust, perhaps one of your children. The method described above is particularly applicable if you have lost your PC’s re-installation disk and you would like to give them an operational computer. The aim is to delete confidential data while leaving the operating system intact.
@@ -64,7 +64,7 @@ Right click on My Computer, then select *Manage*:
 
 Now select your usual accounts and delete them by pressing the ```DELETE``` key:
 
-Then delete the personal directory for the deleted accounts which is located at ```C://Documents and Settings/``` or ```C://Users``` for more recent versions of Windows:
+Then delete the personal directory for the deleted accounts which is located at ```C:\Documents and Settings\``` or ```C:\Users\``` for more recent versions of Windows:
 
 Next, it is important to uninstall software that you don’t want to pass on, due to user licences for example. It is possible to use Windows’ integrated uninstall features, but ccleaner is noticeably faster. So, launch ccleaner:
 
@@ -97,7 +97,7 @@ Process doesn’t require a system re-installation.
 ### Disadvantages
 Process doesn’t guarantee the total destruction of data. Additionally, if the computer has previously been infected by malware, this won’t have been removed from the system.
 
-<h3 class="titre-page" id="conclusion">Conclusion</h3>
+## Conclusion
 We have given you two ways of removing data from a PC. We strongly recommend you use the first method, which guarantees:
 
 1. the total removal of data;

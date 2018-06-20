@@ -8,15 +8,15 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Defacement is a form of cybercrime, such as cyber-vandalism or even cyber-terrorism, directed against a website.
 
 Defacement is the deliberate destruction, degradation or modification of website data, to inflict maximum damage and/or impact, for fun or for political or ideological reasons. In principle it involves replacing the original page, hence the term defacement.
 
-<h3 class="titre-page" id="how-does-it-work">How does it work?</h3>
+## How does it work?
 Depending on the desired impact, several means can be used to perform this type of attack. They are of varying complexity and scope, depending on the desired impact. The most common include defacement through the exploitation of the [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) of the server or site and what is known as 'semantic' defacement. The former enables you to change the content of a site or home page. In some cases, the hacker can simply delete all content from a site. The latter involves slightly modifying the content of different pages – to change their meaning, usually to slip in different ideas from the original ones. Unlike changing the appearance of the site, this type of defacement is more subtle and difficult for the site manager to detect.
 
-<h3 class="titre-page" id="how-can-we-protect">How can we protect ourselves?</h3>
+## How can we protect ourselves?
 Basic security measures for web servers.
 
 To protect against defacement and certain types of semantic attack, there are several preventive measures, including:
@@ -27,7 +27,7 @@ To protect against defacement and certain types of semantic attack, there are se
 
 With these three preventive measures, the likelihood of website defacement can be reduced.
 
-<h3 class="titre-page" id="why-protect-yourself">Why protect yourself?</h3>
+## Why protect yourself?
 Companies are becoming more and more dependent on information networks. A simple change in the network can cause significant damage at economic, social, logistical, emotional or environmental level.
 
 Moreover, as the general public is fascinated by all types of computer attacks, the media gives them wide coverage. In fact, defacement results in a sharp decline in the victim's brand image.

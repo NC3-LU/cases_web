@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 This term first appeared on the Internet in what was known as Usenet, where it was used to mean news articles sent in bulk to different newsgroups. They were often advertising messages that had nothing to do with the newsgroups in question.
 
 This type of advertising was often sent by email. The term spam also ended up encompassing unsolicited bulk emails. Technically, it would be fairer to refer to UBE (Unsolicited Bulk email) or UCE (Unsolicited Commercial email).
@@ -20,7 +20,7 @@ Today, the word “spam” is commonly used to mean unsolicited [emails]({% link
 
 Such emails cost practically nothing to send. However, they can be very expensive for the recipients, in terms of connection costs and the volume of data transferred. This is a real waste of bandwidth and storage space for network administrators and email servers, and a huge waste of time for the recipients of spam (individuals and companies) in downloading, sorting and deleting spam received, with the added risk of mistakenly deleting an email that is not spam.
 
-<h3 class="titre-page" id="in-brief">Who does this spamming?</h3>
+## Who does this spamming?
 Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) and the distribution of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
 Spam should not be confused with advertising emails which are, contrary to spam, regulated through:
@@ -28,7 +28,7 @@ Spam should not be confused with advertising emails which are, contrary to spam,
 * opting in: you agree to receive this type of emails and you sign up to a mailing list or you accept the special conditions on a website;
 * opting out: the sender must provide a way to unsubscribe from the email service.
 
-<h3 class="titre-page" id="how-can-i-be-a-victim-of-spam">How can I be a victim of spam?</h3>
+## How can I be a victim of spam?
 The only thing you need to become a potential victim of spam is your email address.
 
 #### Methods of collecting email addresses
@@ -56,7 +56,7 @@ If you make a list of the commonest surnames and first names and another list of
 
 <img class="txtcenter img-border" src="{{ "/assets/img/spam.gif" | relative_url }}" alt="{{ site.title | escape }}" />
 
-<h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves?</h3>
+## How can we protect ourselves?
 
 #### First and foremost, do not reply to a spam email.
 Spammers generally use false sending email addresses. It is therefore completely pointless to respond. Also, if the sender address is correct, all you will be doing is confirming the validity of your email address and you will only end up receiving more spam.

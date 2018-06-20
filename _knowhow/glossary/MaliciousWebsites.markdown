@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id-"in-brief">In brief</h3>
+## In brief
 The Internet offers us unique opportunities, but it is also the platform of choice for [cybercriminals]({%link _knowhow/glossary/Cybercriminals.markdown %}). In fact, web browsers serve as fantastic entry points for malicious software (malware).
 
 One of the most widespread ways of getting infected is still deception – through [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) techniques to make people download and install malicious code onto their computers themselves, without realising what they are doing.
@@ -17,10 +17,10 @@ By exploiting human feelings (social engineering), such as curiosity or even fea
 
 Various software programs are available to help Internet users to recognise these different forms of attack based on social engineering. For example, there is the browser add-on WOT (Web Of Trust), which warns people when they visit a website with a poor reputation. Users should also pay heed to warnings provided by search engines or their own browser when they warn against viewing a given page.
 
-<h3 class="titre-page" id-"in-brief">Drive-by-download</h3>
-Drive-by-download is a method of infecting computers using malicious code, exploiting the [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#technical-vulnerabilities ) of the browser. Users are tricked into downloading malicious code which, unbeknownst to the user, attempts to exploit vulnerabilities in the browser and automatically infect the machine.
+## Drive-by-download
+Drive-by-download is a method of infecting computers using malicious code, exploiting the [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities ) of the browser. Users are tricked into downloading malicious code which, unbeknownst to the user, attempts to exploit vulnerabilities in the browser and automatically infect the machine.
 
-<h3 class="titre-page" id-"in-brief">How can you protect yourself against this?</h3>
+## How can you protect yourself against this?
 
 #### Behavioural measures
 

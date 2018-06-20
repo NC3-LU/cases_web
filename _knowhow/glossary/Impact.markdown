@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities.markdown %}) d'un actif par une [menace]({% link _knowhow/glossary/Threat.markdown %}). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
 
 L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) de l'[actif]({% link _knowhow/glossary/Assets.markdown %}) en termes de confidentialité, intégrité et disponibilité.
@@ -24,7 +24,7 @@ Exemple :
 
 * Un serveur appartenant à un "cluster" tombe en panne. Le dégât est toujours bien réel, mais il n'y pas d'impact pour le service e-mail, puisque les autres serveurs continuent à fonctionner.
 
-<h3 class="titre-page" id="categories-d-impact">Catégories d'impact</h3>
+## Catégories d'impact
 
 ### IMPACT FINANCIER
 Presque tous les impacts finissent par se mesurer à un niveau financier. Toutefois, on regroupe sous ce titre les impacts financiers directs, tels que le manque à gagner d'une solution de commerce électronique, en cas de rupture avec le service internet. Sont également inclus dans cette catégorie les détournements d'argent réalisés au moyen de modification de logiciels, vols de données « carte de crédit » et autres.

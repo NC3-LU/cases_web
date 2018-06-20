@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 A company that seeks to protect itself will try to deal with any risks ([threat]({% link _knowhow/glossary/Threat.markdown %}) – [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) – [impact]({% link _knowhow/glossary/Impact.markdown %})) confronting it. To do this, the company could work along fairly formal lines:
 
 * formal risk management process, catering for the important and vital assets of the company
@@ -27,12 +27,12 @@ For dealing with risk, a company will usually have the following options:
 * transfer of risk to another entity (outsourcing)
 * upholding risk (no treatment is economically desirable)
 
-<h3 class="titre-page" id="risk-management-strategy">Risk management strategy</h3>
+## Risk management strategy
 Risk management is the best way to deal with risks. Without the right tools, this strategy is unfortunately outside the scope of most organisations, for reasons of cost and complexity.
 
 Before setting off on this road to excellence, a lot of companies prefer to opt for a more pragmatic strategy.
 
-<h3 class="titre-page" id="best-practices-strategy">Best practices strategy</h3>
+## Best practices strategy
 A company which has decided not to proceed with the risk management method can achieve a high level of security at any time if it adopts best practices relating to the various types of assets. This strategy, however, is not enough if the company has very specific needs in terms of security.
 
 It could also prove disadvantageous in terms of costs for companies with low security requirements, as it proposes the introduction of best practices without taking into account the true needs of the company.
@@ -55,12 +55,12 @@ The adoption of best practices in the following fields is also advisable:
 * best practices: [e-banking, e-commerce]({% link _publications/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
 * Security [checklist for web applications in PHP]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications.markdown %})
 
-<h3 class="titre-page" id="non-exhaustive-strategies">Non-exhaustive strategies</h3>
+## Non-exhaustive strategies
 To deal with risks, a company may therefore decide to implement a [risk management]({% link _publications/WhyManageRisks.markdown %}) process and implement best practices for the different types of assets.
 
 Alongside these more or less exhaustive strategies, which all focus on the protection of different important and vital assets of the company, each company could start thinking about [threats]({% link _knowhow/glossary/Threat.markdown %}) and [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}). This approach is not exhaustive and should not be deemed to be sufficient, as it does not focus on the important or vital assets of the company.
 
-<h3 class="titre-page" id="threat-analysis">Threat analysis</h3>
+## Threat analysis
 A threat analysis can be treated as an optional approach enabling a more detailed study of certain threats, and ensures that no threat has been overlooked in the risk management strategy or the strategy based on best practices.
 
 See: [Check list of security measures for SMEs]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList.markdown %})
@@ -80,20 +80,20 @@ The most widespread threats are:
 * [theft](-)
 * [breakdowns](-)
 
-<h3 class="titre-page" id="analysis-of-vulnerabilities">Analysis of vulnerabilities</h3>
+## Analysis of vulnerabilities
 
 The analysis of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) is nothing more than an optional process running alongside the treatment of risks through the implementation of a risk management process or the implementation of best practices.
 
 Without going into too much detail, we can list four types of vulnerabilities that should be addressed. By implementing security measures, we aim to lower these vulnerabilities and therefore reduce risks.
 
-* [Human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#human-vulnerabilities)<br />
+* [Human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities)<br />
   Fear, curiosity, libido, greed and pity are examples of human vulnerabilities. These vulnerabilities can be easily exploited on people who are ill-advised or unaware of the issues.
 
-* [Organisational vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#organisational-vulnerabilities)<br />
+* [Organisational vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#organisational-vulnerabilities)<br />
   Without decent organisation, security measures cannot be effective or efficient. A charter, or even a security policy should be introduced.
 
-* [Technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#technical-vulnerabilities)<br />
+* [Technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities)<br />
   There are many technical vulnerabilities. Errors in the operating system, software, missing or erroneous firewall rules, etc. Security measures must be introduced in order to mitigate these technical vulnerabilities.
 
-* [Physical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#physical-vulnerabilities)<br />
+* [Physical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#physical-vulnerabilities)<br />
   In terms of physical security, many companies have a lot of weaknesses that it is important to eliminate.

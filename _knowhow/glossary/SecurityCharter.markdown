@@ -8,17 +8,17 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Establishing a security charter is an essential step for any organisation wishing to enforce best security practices. It takes the form of a short document of just a few pages, which outlines the company's strategy from the perspective of information security and the basic rules to be applied by any employee.
 
 Below you will find examples of sections that can be included in a security charter.
 
-<h3 class="titre-page" id="the-3-general-principles">The 3 general principles</h3>
+## The 3 general principles
 * **Security is everybody's business**.
 * **Everyone is responsible at their level for the information security of the entire organisation**.
 * **Everyone must alert the security officer when a security problem is detected**.
 
-<h3 class="titre-page" id="the-3-security-objectives">The 3 security objectives</h3>
+## The 3 security objectives
 
 ### Confidentiality
 Confidentiality refers to ownership of the information that is only to be made available or disclosed to authorised individuals, organisations or processes. Access to information, to an extent, is reserved for those who require it on a clearly identified need-to-know basis.
@@ -34,7 +34,7 @@ This involves the assurance of being able to justify all information.
 It rests on the principles of authentication, non-repudiation and accountability.
 Proof is sometimes considered to be the fourth pillar of information security.
  
-<h3 class="titre-page" id="the-11-commandments">The 11 commandments</h3>
+## The 11 commandments
 1. **Follow the information security rules and procedures**
   Regularly consult the rules and procedures. Stay informed about changes in [security policy]({% link _knowhow/CISOApproach.markdown %}) to help you to be better protected.
 2. **Protect your passwords**
@@ -47,7 +47,7 @@ Proof is sometimes considered to be the fourth pillar of information security.
 5. **Back up your data correctly**
   Never store data in your personal space. Use a file server instead – this must be part of a [backup]({% link _knowhow/glossary/DataBackups.markdown %}) strategy. Applying these guidelines will enable you to recover your data if it has been lost and to access it at any time.
 6. **Resist "[social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})" methods**
-  During an email or telephone conversation, make sure that you know the identity of the person you are communicating with. Be careful whenever you are asked for personal or confidential information or information that is important to the company. [Social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) exploits [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#human-vulnerabilities) to gain access to confidential information.
+  During an email or telephone conversation, make sure that you know the identity of the person you are communicating with. Be careful whenever you are asked for personal or confidential information or information that is important to the company. [Social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) exploits [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) to gain access to confidential information.
 7. **Keep a close watch on your emails**
   Emails can be a [threat]({% link _knowhow/glossary/Threat.markdown %}) to your computer and for the whole IT network. Never reply to emails asking for personal and/or confidential information. Check the provenance, safety and [integrity]({% link _knowhow/glossary/Integrity.markdown %}) of all attachments.
 8. **Use the internet intelligently**
@@ -62,7 +62,7 @@ Proof is sometimes considered to be the fourth pillar of information security.
   All incidents must be reported as soon as possible. This can prevent other similar incidents. We are responsible for the security of our environment.
   Failure to respect security or the violation of the established rules may result in disciplinary action.
 
-<h3 class="titre-page" id="the-right-reflexes">The right reflexes</h3>
+## The right reflexes
 Once you start to use a computer tool, please respect the following "golden rules":
 
 1. **The password: lock the safe**
@@ -76,7 +76,7 @@ Once you start to use a computer tool, please respect the following "golden rule
 5. **Security patches: closing gaps**
   To counter hackers who are constantly looking for and finding flaws in operating systems, keep your browser constantly updated. Also apply the right [patches]({% link _knowhow/glossary/Patches.markdown %}). In fact, like your antivirus, your system needs maintenance. Applying the necessary updates will help you counter threats such as worms, viruses and Trojans.
 
-<h3 class="titre-page" id="legal-matters">Legal matters</h3>
+## Legal matters
 Failure to comply with legislation ([legal aspects]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})) in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).
 
 Accordingly, the law recognises and punishes:

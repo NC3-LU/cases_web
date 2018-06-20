@@ -9,10 +9,10 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Lors de la définition du contexte dans lequel s'effectuera la gestion des risques, il s'agira d'établir des critères de base, qui serviront aussi bien à analyser les risques de l'organisme, que de proposer les solutions de traitements. 
 
-<h3 class="titre-page" id="les-menaces">Les menaces</h3>
+## Les menaces
 Un des moyens pour définir les critères de base au niveau des menaces est de définir une échelle de probabilités qui dépendra du contexte dont voici un exemple :
 
 Critères de base des menaces:
@@ -48,7 +48,7 @@ Critères de base des menaces:
 	
 
 
-<h3 class="titre-page" id="les-vulnerabilites">Les vulnérabilités</h3>
+## Les vulnérabilités
 
 En définissant les critères de base des vulnérabilités, on détermine l'aisance d'exploitation des vulnérabilités par des menaces.
 
@@ -75,7 +75,7 @@ Critères de base des vulnérabilités:
 	
 	
 	
-<h3 class="titre-page" id="les-impacts">Les impacts</h3>
+## Les impacts
 
 Quant aux critères de base qui définissent les impacts, on se sert des différents niveaux d'impact. Ces critères peuvent aussi être déterminés selon l'objectif de sécurité, c'est à dire par rapport à la confidentialité, à l'intégrité ou encore par rapport à la disponibilité des actifs d'un organisme. Voir aussi les critères de classification des actifs avec des échelles différentes. C'est à l'organisme de choisir son approche dans l'analyse des risques. Plus la maturité de l'organisme sera grande, plus les échelles utilisées pourront être détaillées.
 
@@ -154,7 +154,7 @@ Critères de base pour impacts:
 				Perturbation majeure pour le citoyen, mais il n'y a pas péril à la survie de l'organisme</td>
 		</tr></table>
 
-<h3 class="titre-page" id="le-risque">Le risque</h3>
+## Le risque
 
 Les critères de base du risque :
 

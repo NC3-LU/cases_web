@@ -9,7 +9,7 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Par 'actif', l'on comprend un bien ou un service ayant une certaine valeur pour l'entreprise. Les actifs sont sujets à différentes [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}), susceptibles d'être exploitées par des menaces qui auront des [impacts]({% link _knowhow/glossary/Impact.markdown %}) au niveau de l'entreprise. Pour protéger ses actifs, une entreprise mettra en place des mesures de sécurité. La sélection de ces mesures se fait lors de la phase de [gestion des risques]({% link _publications/RiskManagement.markdown %}).
 
 On distingue entre:
@@ -18,12 +18,12 @@ On distingue entre:
 
 * actifs de support: tous les autres actifs comme notamment les personnes, machines, ...
 
-<h3 class="titre-page" id="les-actifs-primaires">Les actifs primaires</h3>
+## Les actifs primaires
 Par actifs primaires, on entend les processus métiers ainsi que les informations de l'organisme. Chaque actif primaire présente une certaine [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) pour l'organisme. Ainsi il y a des processus métier plus ou moins importants, il y a des processus métier ou l'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) joue un rôle plus important que la [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}) (service du cadastre) et ainsi de suite. Il en est de même pour les informations. Il y a des informations très importantes et moins importantes. Il y a des informations ou la confidentialité est plus importante que la [disponibilité]({% link _knowhow/glossary/Availability.markdown %}).
 
 L'[analyse de risques]({% link _publications/RiskManagement.markdown %}\#risk-estimation) est en faite calculée sur base de la criticité des actifs primaires. Les actifs de support nécessaires à la réalisation ou des processus métier héritent de la criticité des actifs primaires.
 
-<h3 class="titre-page" id="les-actifs-de-support">Les actifs de support</h3>
+## Les actifs de support
 EBIOSv2 propose une catégorisation des entités et des actifs de support autour de 7 types:
 
 1. MAT : Matériel
@@ -40,7 +40,7 @@ EBIOSv2 propose une catégorisation des entités et des actifs de support autour
 
 7. SYS : Système
 
-<h3 class="titre-page" id="mateirle">Matériel</h3>
+## Matériel
 Le type 'matériel' est constitué de l’ensemble des éléments physiques d'un système informatique. (PME: [Voir le matériel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}))
 
 * MAT_ACT : Support de traitement de données (actif)
@@ -64,7 +64,7 @@ Supports électroniques connectables à un ordinateur ou à un réseau informati
   * MAT_PAS.2 : Autres supports
 Support statique non électronique contenant des données.
 
-<h3 class="titre-page" id="logiciel">Logiciel</h3>
+## Logiciel
 Le type 'logiciel' est constitué de l'ensemble des programmes participant au fonctionnement d'un ensemble de traitements de l'information. (PME: [Voir le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}))
 
 * LOG_OS : Système d’exploitation
@@ -84,7 +84,7 @@ Il s’agit de logiciels du marché dont la finalité est de fournir directement
   * LOG_APP .2 : Application métier spécifique
 Il s’agit de développements spécifiques (ce qui impacte notablement les aspects de support, maintenance, évolution…) dont la finalité est de fournir directement aux utilisateurs les services et fonctions qu’ils attendent de leur système d’information dans le cadre de leur métier. Les domaines sont multiples et par définition sans limite.
 
-<h3 class="titre-page" id="reseau">Réseau</h3>
+## Réseau
 Le type 'réseau' est constitué de l'ensemble des dispositifs de télécommunication permettant l’interconnexion de plusieurs ordinateurs ou composants d’un système d'information physiquement éloignés.
 
 * RES_INF : Médium et supports
@@ -96,7 +96,7 @@ Ce sous-type comprend tous les dispositifs qui ne sont pas des terminaisons logi
 * RES_INT : Interface de communication
 Il s'agit des interfaces de communication des unités de traitement. Elles y sont rattachées, mais se caractérisent par les média et protocoles supportés, par les éventuelles fonctions et capacités de filtrage, de génération de journaux ou d'alerte et par la possibilité et le besoin d’administration à distance.
 
-<h3 class="titre-page" id="personnel">Personnel</h3>
+## Personnel
 Le type 'personnel' est constitué de l’ensemble des groupes d’individus en relation avec le système d'information. (PME: [Voir le personnel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}))
 
 * PER_DEC : Décisionnel
@@ -111,7 +111,7 @@ Il s'agit des personnes en charge de l’exploitation et de la maintenance du sy
 * PER_DEV : Développeur
 Il s'agit des personnes en charge du développement des applications au sein de l’organisme. Ils accèdent à une partie du système d’information avec des privilèges avancés mais n’agissent pas sur les données de production.
 
-<h3 class="titre-page" id="organisation">Organisation</h3>
+## Organisation
 Le type 'organisation' décrit le cadre organisationnel, constitué de l’ensemble des structures de personnel affecté à une tâche et des procédures régissant ces structures.
 
 * ORG_DEP : Organisation dont dépend l’organisme
@@ -126,7 +126,7 @@ Il s’agit de l’organisation de la mise en place d'un projet ou d'un service 
 * ORG_EXT : Sous-traitant/Fournisseurs/Industriels
 Il 'sagit de l'organisation autour de fournisseurs de services, ou de ressources humaines liées par contrat à l'organisme
 
-<h3 class="titre-page" id="site">Site</h3>
+## Site
 Le type 'site' est constitué de l’ensemble des lieux contenant tout ou une partie du système et les moyens physiques nécessaires à son fonctionnement. (PME: [Voir l'infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}))
 
 * PHY_LIE : Lieu
@@ -153,7 +153,7 @@ Services et moyens (sources et câblage) nécessaires à l’alimentation du mat
   * PHY_SRV.3 : Refroidissement /pollution
 Services et moyens (matériel, conduite) de refroidissement et de purification de l’air.
 
-<h3 class="titre-page" id="systeme">Système</h3>
+## Système
 Le type 'système' est constitué de l’ensemble des installations spécifiques liées aux technologies de l’information, dans un environnement opérationnel, et avec un objectif particulier. Il est composé de diverses entités appartenant aux autres types décrits ci-avant.
 
 * SYS_INT : Dispositif d’accès Internet

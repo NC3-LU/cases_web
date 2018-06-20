@@ -8,7 +8,7 @@ short:
 categories: knowhow
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Social engineering is a technique that aims to access [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information or certain [assets]({% link _knowhow/glossary/Assets.markdown %}) by manipulating people who have direct or indirect access to it. One example of social engineering is [phishing]({% link _knowhow/glossary/Phishing.markdown %}).
 
 Social engineering doesn't just apply to the IT domain, it can also occur in daily life and, in particular, at the workplace. As soon assets of a certain interest are at stake, attacks like this type may appear.
@@ -17,8 +17,8 @@ The human factor is the focal point of social engineering attack techniques. In 
 
 Social engineering can take place over the phone, by [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) , through social networking or, of course, in the physical presence of the attacker.
 
-<h3 class="titre-page" id="how-does-it-work">How does it work?</h3>
-Social engineering techniques exploit certain [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}\#human-vulnerabilities) and vulnerabilities in the targeted entity’s organisation. In fact, it’s human nature to want to help others and trust people who are polite and friendly, even if they’re total strangers. It all depends on the situation and the way in which the wrongdoer(s) present(s) themselves to us. Very often, a simple request asked in a direct manner by the attacker may be all it takes to get the victim to respond sincerely.
+## How does it work?
+Social engineering techniques exploit certain [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) and vulnerabilities in the targeted entity’s organisation. In fact, it’s human nature to want to help others and trust people who are polite and friendly, even if they’re total strangers. It all depends on the situation and the way in which the wrongdoer(s) present(s) themselves to us. Very often, a simple request asked in a direct manner by the attacker may be all it takes to get the victim to respond sincerely.
 
 The aim of the attack is to make a person do something that they wouldn’t normally do; the attacker’s motivation being to obtain information that they cannot normally access. In an increasingly digitalised world, this very often (but not always) comes down to obtaining authentication information.
 
@@ -32,7 +32,7 @@ Other strategies are also possible, notably with regard to picking up clues that
 
 The attacker may also adopt a completely different strategy, for example, by putting their victim at an impasse and presenting themselves as the only person who can solve their problem. In the majority of cases, the victim will cooperate and will respond without batting an eyelid at the attacker’s specific questions.
 
-<h3 class="titre-page" id="protective-measures">Protective measures</h3>
+## Protective measures
 
 ### Behavioural measures
 
@@ -51,6 +51,6 @@ The attacker may also adopt a completely different strategy, for example, by put
 * Never open an email attachment from an unknown or suspect sender. The same goes for suspicious files on websites. Attachments like these may contain Trojans that give an attacker access to all of the files and data stored on your computer (See also: [email – best practice]({% link _publications/bestpractices/EMail-BestPractices.markdown %}), [malware: best practice]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %})).
 * Never leave paper documents containing sensitive information in plain view. Likewise for documents thrown in the bin. Make any documents you no longer need illegible.
 
-<h3 class="titre-page" id="further-information">Further information</h3>
+## Further information
 * [Detailed article on social engineering]({% link _publications/SocialEngineering.markdown %})
 * [SMEs: Threats to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})

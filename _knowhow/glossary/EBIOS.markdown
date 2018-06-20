@@ -19,7 +19,7 @@ La méthode EBIOS® peut être adaptée au contexte de chacun et ajustée à ses
 
 Retrouvez l'intégralité de la méthode, les meilleures pratiques qui en découlent et son logiciel en téléchargement dans les liens ci-dessous.
 
-<h3 class="titre-page" id="utilisation">Utilisation</h3>
+## Utilisation
 Cette section vous permettra de vous familiariser et d'utiliser les différentes fonctionnalités d' EBIOS® (Expression des Besoins et Identification des Objectifs de Sécurité) :
 
 #### DECOUVRIR EBIOS

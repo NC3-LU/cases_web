@@ -9,11 +9,11 @@ categories: knowhow
 toc: true
 ---
 
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Le courrier électronique est une forme très populaire de communication sur Internet. À la base il consiste dans le transfert de texte en clair entre différents ordinateurs sur Internet. Le courrier électronique ou e-mail n'est donc pas adapté à l'envoi de données confidentielles. Néanmoins, certaines techniques de [chiffrement]({% link _knowhow/glossary/Cryptography.markdown %}), comme [OpenPGP](https://www.openpgp.org/), permettent d'assurer un haut degré de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}).
 
-<h3 class="titre-page" id="les-risques-associes">Les risques associés</h3>
-Beaucoup de [risques sont associés à l'utilisation de courriers électroniques]({% link _publications/bestpractices/EMail-BestPractices.markdown %}\#risks-related-to-receiving-emails).
+## Les risques associés
+Beaucoup de [risques sont associés à l'utilisation de courriers électroniques]({% link _publications/bestpractices/EMail-BestPractices.markdown %}#risks-related-to-receiving-emails).
 
 ### Infrastructure
 Il existe différents logiciels couvrant différents rôles dans la transmission d'e-mails sur Internet.
@@ -29,5 +29,5 @@ Le MTA de destination transfère le courrier au MDA en vue d'une distribution à
 ### MDA - MAIL DELIVERY AGENT
 Il s'agit ici de services (souvent pop3 ou imap) qui reçoivent le courrier, le stockent et attendent la connexion d'un MUA en vue de la transmission finale du courrier.
 
-<h3 class="titre-page" id="comment-se-proteger">Comment se protéger?</h3>
-En fonction du besoin de confidentialité de vos communications (voire [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) des données), il convient de suivre certains conseils [comportementaux]({% link _publications/bestpractices/EMail-BestPractices.markdown %}\#behavioural-measures), [organisationnels]({% link _publications/bestpractices/EMail-BestPractices.markdown %}\#organisational-practices) et [techniques]({% link _publications/bestpractices/EMail-BestPractices.markdown %}\#technical-measures) spécifiques à la manipulation des courriers électroniques. Suivez les [recommandations de sécurité pour les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}).
+## Comment se protéger?
+En fonction du besoin de confidentialité de vos communications (voire [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) des données), il convient de suivre certains conseils [comportementaux]({% link _publications/bestpractices/EMail-BestPractices.markdown %}#behavioural-measures), [organisationnels]({% link _publications/bestpractices/EMail-BestPractices.markdown %}#organisational-practices) et [techniques]({% link _publications/bestpractices/EMail-BestPractices.markdown %}#technical-measures) spécifiques à la manipulation des courriers électroniques. Suivez les [recommandations de sécurité pour les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}).
