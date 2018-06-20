@@ -548,7 +548,7 @@ Template Name: cases.lu
 
 
 		/*----Headline for every pages---------------------------------------------------------------*/
-		.titre-page{color: rgb(0,114,184); border-bottom: 3px solid darkblue;}
+		.thecontent h2, .thecontent h3 {color: rgb(0,114,184); border-bottom: 1px solid rgb(0,114,184);}
 
 
   /*--------------------------------------------------------------------------------*/
