@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign categ = site.publications %}
+{% assign pagelist = site.publications %}
 
 {% comment %}
     Insert categories in list-cat
@@ -16,87 +16,19 @@ layout: default
 {% assign list-name = "ISO/IEC 27000, Good Practice, Scams, Securing Devices"|split: ", "%}
 {% assign i = 0 %}
 
-
-
-<div class="blocantiscroll col-md-2">
-  <h2>Publications</h2>
-  
 {% comment %} 
     list.cat minus 1 to not have an empty category 
 {% endcomment %}
 
 
-{% assign listlen = list-cat.size | minus: 1%}
+{% assign listlen = list-cat.size | minus: 1  %}
 
-{% comment %}
-   loop for 0 to the length of the list
-{% endcomment %}
+{% assign group_cat = 1 %}
+{% assign menutitle = "Publications"  %}
 
-
-  {% for i in (0..listlen) %}
-
-  {% assign aria-cat = "collapseExample-"|append: list-cat[i] %}
-  {% assign class-cat = "collapse-"|append: list-cat[i] %}
-  <ol class="test">
+{% include menus/filemenu.html %}
 
 
-{% if page.categories contains list-cat[i] %}
-
-    <button class="btn-category show" id="btncat{{ aria-cat }}" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="true" aria-controls="{{ aria-cat }}">
-    <h6 class="title-blue"><span id="arrow-bullet{{ aria-cat }}">&#9662;</span>
-
-{% else %}
-
- <button class="btn-category" id="btncat{{ aria-cat }}" type="button" data-toggle="collapse" data-target="#{{ aria-cat }}"  aria-expanded="false" aria-controls="{{ aria-cat }}">
-    <h6 class="title-blue"><span id="arrow-bullet{{ aria-cat }}">&#9656;</span>
-
-{% endif %}
-
-
- <i class="title-blue">{{ list-name[i] }}</i></h6>
-
-</button>
-
-<script>
-
-//change bullet if it's event "show" or not 
-document.getElementById("btncat{{ aria-cat }}").onclick = function () 
-{
-  if (document.getElementById('btncat{{ aria-cat }}').classList.toggle("show"))
-  {
-    document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML ='&#9662;';
-  }
-  else
-  {
-    document.getElementById('arrow-bullet{{ aria-cat }}').innerHTML ='&#9656;';
-  }  
-}
-
-</script>
-<span>
-
-{% if page.categories contains list-cat[i] %}
-  <div class="{{ class-cat }} collapse in"  id="{{ aria-cat }}" expanded="true">
-{% else %}
-  <div class="{{ class-cat }} collapse"  id="{{ aria-cat }}" expanded="false">
-{% endif %}
-    {% for ipage in categ %}
-
-    {% if ipage.categories contains list-cat[i] %}
-    <li style="list-style: none;">
-      <a href="{{ipage.url | relative_url}}" alt="{{ ipage.title | escape }}">
-       <h6 class="list-select">&#9657; {{ ipage.title }}</h6>
-      </a>
-    </li>
-    {% endif %}
-
-    {% endfor %}
-  </div></span>
-  {% endfor %}
-
-</ol>
-
-</div>
 
 
 <div class="col-md-8">
@@ -120,16 +52,11 @@ document.getElementById("btncat{{ aria-cat }}").onclick = function ()
 {% endcomment %} 
 
 {% if page.title == "Publications" %}
-<div class="col-md-2">
-
-</div>
+  <div class="col-md-2"></div>
 
 {% else %}
 
-<div class="blocantiscroll col-md-2">
-      {% if page.layout == "publication-list" %}
-      <h2>Table of Content</h2>
-      {{content | toc_only}}
-      {% endif %}
-    </div>
+  {% assign tocname="publication-list" %}
+  {% include menus/toc.html %}
+
 {% endif %}

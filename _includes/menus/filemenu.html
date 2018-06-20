@@ -1,0 +1,27 @@
+<div class="blocantiscroll col-md-2">
+    <h2>{{ menutitle }}</h2>
+    <ol class="test">
+      
+          
+      
+    {% comment %} 
+    loop through the size of the list 
+    {% endcomment %}
+    
+    
+
+    {% for i in (0..listlen) %}
+        {% if group_cat == 1 %}
+            {% assign ipage = page %}
+            {% include menus/filemenu-sub.html %}
+        {% else %}
+            {% for ipage in pagelist %}
+                {% include menus/filemenu-sub.html %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+      
+    </ol>
+      
+      
+</div>
