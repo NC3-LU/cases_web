@@ -4,12 +4,12 @@ layout: default
 <div class="blocantiscroll col-md-2">
 	<h2>Services</h2>
 	{% for service in site.services %}
-	{% unless service.group contains "training" %}
-	
-	<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
-		<h6 class="btn-category"><img src="{{ service.logo }}" class="menulogo" | relative_url }}/>{{ service.title }}</h6>
-	</a>
-	{% endunless %}
+		{% unless service.group contains "training" %}
+		
+		<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
+			<h6 class="btn-category"><img src="{{ service.logo }}" class="menulogo" | relative_url }}/>{{ service.title }}</h6>
+		</a>
+		{% endunless %}
 	{% endfor %}
 
 </div>
@@ -26,7 +26,7 @@ layout: default
 
 <div class="blocantiscroll col-md-2">
 	{% if page.layout == "article" %}
-	{{content | toc_only}}
+		{{content | toc_only}}
 	{% endif %}
 </div>
 
