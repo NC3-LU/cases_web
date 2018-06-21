@@ -17,26 +17,26 @@ Selon une étude de Rackspace (fournisseur de solutions cloud), 56% des entrepri
 
 
 
-<h4 class="titre-page">Les avantages et les inconvénients du cloud</h4>
+### Les avantages et les inconvénients du cloud
 
 <img class="img-border" src="{{ '/assets/img/201507/stats.png' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
 
-<h6 class="title3-page">Coûts</h6>
+#### Coûts
 Une entreprise qui stocke sa base de données clients sur le cloud au lieu de le faire sur ses propres serveurs économise des investissements dans une infrastructure propre. Les coûts pourront être réduits au minimum dans un 1er temps, et ils évolueront en fonction des besoins et de l’utilisation effective du service.
 
-<h6 class="title3-page">Évolutivité</h6>
+#### Évolutivité
 La location d’espace sur le net peut être très flexible et permet de réagir rapidement pour augmenter ou diminuer l’espace voulu, en fonction des besoins du moment. Le cloud est donc une opportunité réelle pour les startups qui veulent se développer rapidement sans devoir consentir de gros investissements IT. Le [Start-up Security Kit]({% link _services/startupkit.markdown %}) de CASES les aidera à assurer leur sécurité.
 
- <h6 class="title3-page">Facilité</h6>
+ #### Facilité
 Avec le cloud, l’installation et la mise à jour des serveurs ne sont plus un problème. Les coûts d’administration sont ainsi réduits au minimum… Mais les possibilités de configuration personnalisée sont souvent moindres.
 
-<h6 class="title3-page">Ubiquité</h6>
+#### Ubiquité
 L’utilisation du cloud permet quasiment de travailler partout, indépendamment de l’endroit où l’on se trouve et du terminal utilisé… A condition d’avoir une connexion internet.
 
-<h6 class="title3-page">Sécurité</h6>
+#### Sécurité
 Le cloud peut constituer un avantage en termes de sécurité. Les fournisseurs de services cloud prennent des mesures importantes pour sécuriser les données et l’on peut généralement considérer que la sécurité des données est plus élevée sur le cloud que sur un serveur local. Le problème est que les centres de données des fournisseurs de services cloud sont  également une cible de choix pour les hackers, vu la quantité importante de données qui y résident. Et il est parfois difficile de vérifier l’effectivité des mesures de sécurité mises en œuvre par le fournisseur. Le contrat avec ce dernier devra donc être lu attentivement…
 
-<h6 class="title3-page">Check-list sécurité :</h6>
+#### Check-list sécurité :
 
 * La connexion avec le cloud est chiffrée ?
 * Les données stockées sur le cloud sont-elles chiffrées ?
@@ -46,11 +46,11 @@ Le cloud peut constituer un avantage en termes de sécurité. Les fournisseurs d
 * Le service cloud vous permet de surveiller les accès et peut vous alerter en cas de tentative d’utilisation douteuse ?
 * La juridiction applicable en cas de litige avec le prestataire est-elle conforme à vos besoins et obligations?
 
-<h6 class="title3-page">Indépendance</h6>
+#### Indépendance
 Cloud ou pas, la relation avec un fournisseur de services IT entraîne toujours une certaine dépendance. Comment peut-on transférer les données vers un autre fournisseur ? Que se passe-t-il en cas de faillite du fournisseur ? Il vaut mieux avoir des réponses claires et vérifiées à ces questions avant de transférer des données sensibles vers le cloud.
 
 
-<h4 class="titre-page">Disponibilité et connectivité</h4>
+### Disponibilité et connectivité
 
 Selon la classification des données qui seront stockées sur le cloud, la disponibilité et la connectivité seront des critères à ne pas perdre de vue.
 La **disponibilité** s’exprime normalement en pourcentage : une disponibilité de 99,99% indique que le service pourrait être indisponible durant moins d’une heure par an, sans qu’aucune indemnité ne vous soit due. Si la disponibilité n’est que de 99%, la période d’indisponibilité cumulée pourrait dépasser 3 jours…

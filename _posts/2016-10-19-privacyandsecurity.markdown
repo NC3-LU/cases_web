@@ -10,7 +10,7 @@ group: post
 ---
 Lors de la conférence organisée à la Maison du Savoir, dans le cadre de l’initiative Digital Lëtzebuerg, des centaines de personnes sont venues pour découvrir le nouveau règlement sur la protection des données personnelles, qui est entré en vigueur le 24 mai 2016.
 
-<h4 class="titre-page">Confiance</h4>
+### Confiance
 Le 1er ministre Xavier Bettel a fait un flash-back presque nostalgique sur l’époque pas si lointaine où les smartphones n’existaient pas. Xavier Bettel  s’est interrogé sur l’apparition d’une certaine « cyberdépendance », dans laquelle toute déconnexion de quelques minutes est vécue comme un manque. « Maintenant on a des piles pour recharger les piles au cas où elles ne seraient plus là pile au moment où on en a besoin… », s’est-il exclamé.
 
 Le mot-clé de la fin pour Xavier Bettel: la **confiance** que le citoyens doit pouvoir placer dans les services digitaux car il est en droit de savoir qui traite ses données, dans quel but et comment.
@@ -21,7 +21,7 @@ Pascal Steichen a cependant délivré un message positif pour conclure : rien ne
 
 « Aujourd’hui, L’Europe montre le chemin et je suis convaincu que le Luxembourg peut être « first mover » en matière de protection des données et leader dans l’implémentation de la GDPR au profit des citoyens et des entreprises, afin de construire pour nos enfants un monde meilleur », a conclu Pascal Steichen.
 
-<h4 class="titre-page">Nouveaux droits pour la protection des données</h4>
+### Nouveaux droits pour la protection des données
 Irina Vasiliu Data protection Unit, DG JUST Commission européenne et le Dr Mark D. Cole (Université du Luxembourg) ont fait une présentation générale du nouveau règlement qui se situe dans la lignée des précédentes directives, mais introduit quelques nouveaux droits pour l’utilisateur :
 
 * Le droit à l’oubli
@@ -34,7 +34,7 @@ Concernant portabilité des données, le règlement précise que d’utilisateur
 
 La question de la rétroactivité du nouveau règlement a été posée par la salle. Pas d’inquiétude à avoir, cependant : aucune rétroactivité ne sera imposée aux contrats existant.  Mais il est sage de commencer à réfléchir concernant les consentements obtenus par le passé, pour voir s’ils sont conformes…
 
-<h4 class="titre-page">Nouvelles responsabilités</h4>
+### Nouvelles responsabilités
 Le nouveau règlement impose des responsabilités accrues pour les responsables de traitement et sous-traitants.Données personnelles, big datat et vie privée...
 
 <img class="img-border" src="{{ '/assets/img/201610/pascal-steichen-7.jpg' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
@@ -62,7 +62,7 @@ Pour les entreprises traitant des données, la check-list minimale serait la sui
 * vérification conformité et suivi régulier ;
 * mise en place de process.
 
-<h4 class="titre-page">Droits du patient et patience du droit</h4>
+### Droits du patient et patience du droit
 La plateforme nationale eSanté a été présentée par Mme Violaine Langlet, de l’agence eSantéLe nouveau réglement sur la protection des données personnelles
 
 <img class="img-border" src="{{ '/assets/img/201610/pascal-steichen-10.jpg' | relative_url }}" style="float:left; width:380px; margin-right: 15px;" />
@@ -72,5 +72,5 @@ La mise en place de ce dossier de santé électronique a requis une Analyse d’
 
 Enfin, quelques explications ont été données sur les procédures d’assistance mutuelle et d’opérations conjointes entre les états membres. L’adoption d’un texte unique qui sera directement applicable dans tous les états est progrès notable par rapport à la situation actuelle, mais il faudra sans doute un certain temps pour que les états coordonnent leurs pratiques administratives et judiciaires afin de rendre un service optimal au citoyen.
 
-<h4 class="titre-page">Security and privacy by design</h4>
+### Security and privacy by design
 Au final le nouveau « GDPR » apportera une harmonisation de la régulation au niveau européen et mettra l’Europe à la pointe de la protection des données personnelles. Sécurité et vie privée sont devenus inséparables. Le principe du **Privacy by design** est consacré par cette nouvelle réglementation. Il faut maintenant qu’il rentre dans les pratiques de tous les acteurs de la société numérique. Il faut aussi que le « **Security by design** » devienne le nouveau credo des développeurs d’applications et de systèmes de traitement des données, sans quoi les fuites de données massives se multiplieront et la GDPR ne pourra que constater les dégâts…

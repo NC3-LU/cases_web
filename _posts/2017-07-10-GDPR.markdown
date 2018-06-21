@@ -12,4 +12,6 @@ From 2000 to 2005, the field of information security was in a state of flux with
 
 The GDPR, or General Data Protection Regulation, comes onto the scene at a time when all these standards have reached maturity, are stable, and widespread throughout Europe...
 
+<!--
 [Read the complete story on Securitymadein.lu...](https://newsletter.securitymadein.lu/risk-management-directive-9546-gdpr/)
+-->
