@@ -8,10 +8,10 @@ short: "Security measures for securing a web server"
 categories: securing
 toc: true
 ---
-<h3 class="titre-page" id="basic-considerations">Basic considerations</h3>
+## Basic considerations
 A web server is a server that is constantly connected to the Internet. It is therefore advisable to follow the [recommendations to secure servers connected to the Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet.markdown %}).
 
-<h3 class="titre-page" id="security-measures">Security measures</h3>
+## Security measures
 
 1. Web servers have the specific function of serving web applications on the Internet. The security level for these applications is often little known or not known at all. It is therefore important to prevent, or to limit the scope of, damage if they are compromised:
   1. ensure your applications have the maximum possible security by carrying out penetration tests beforehand;

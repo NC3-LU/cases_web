@@ -8,11 +8,11 @@ short: "the most common vulnerabilities of web applications and applicable PHP s
 categories: securing
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 
 A short checklist outlining the most common vulnerabilities of web applications and applicable PHP solutions and best practices. Although focused on PHP, this checklist can be extended to all programming languages.
 
-<h3 class="titre-page" id="validation-of-inputs">Validation of inputs</h3>
+## Validation of inputs
 Advice:
 
 * during development the configuration ```error_reporting = E_ALL``` (without removing the ```E_NOTICE```) is used to recognise uninitialised variables; in production, errors should not be displayed in the web interface;
@@ -30,7 +30,7 @@ In general it is advisable to use the concept of a whitelist for many cases of v
 
 An extra layer of protection or protection of an already existing application can be provided by adding "PHP Input Filter" and "PHPIDS" or "mod_security" if you use Apache
 
-<h3 class="titre-page" id="sql-injections">SQL injection</h3>
+## SQL injection
 Using raw SQL queries by concatenating variables to the query string is bad practice that can easily lead to unwanted SQL injection.
 
 Advice:
@@ -40,7 +40,7 @@ Advice:
 * If concatenation cannot be avoided, it is imperative to escape the variables using functions of the type "(real_) escape_string". For mysql, for example, find out about the ```mysql_real_escape_string``` function. It is useful to add that the PHP manual advises against using this function, but it can be useful for quick securing of an old application.
 * Avoid at all costs automatic techniques such as ```magic_quotes``` and/or generic ```add_slashes```. Each database will react differently to these escape methods.
 
-<h3 class="titre-page" id="cross-site-scripting-xss">Cross-site scripting (XSS)</h3>
+## Cross-site scripting (XSS)
 Consists of the use of javascript as input to be executed during display. This is a very common and dangerous vulnerability, although it is easy to avoid in many cases.
 You will find a fairly complete list of possible attacks on [the OWASP website](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet).
 
@@ -50,7 +50,7 @@ You will find a fairly complete list of possible attacks on [the OWASP website](
 
 In general, a generic display function must be written and used during any display.
 
-<h3 class="titre-page" id="code-injection">Code injection</h3>
+## Code injection
 Injection of malicious code that will be executed by the application.
 
 * avoid using variables in the ```include``` or ```require``` instructions. If it cannot be avoided, the use of whitelist filters is important;
@@ -58,14 +58,14 @@ Injection of malicious code that will be executed by the application.
 * in php.ini, set ```allow_url_fopen``` to ```off``` if the function is not required.
 * avoid variables in ```preg_replace``` type functions.
 
-<h3 class="titre-page" id="injection-of-instructions">Injection of instructions</h3>
+## Injection of instructions
 Some functions can be used to run system instructions.
 
 * avoid variables in instructions such as ```shell_exec```, ```exec```, ```system```, ```passthru```, ```popen```;
 * if they cannot be avoided, the ```escapeshellarg()``` and ```escapeshellcmd()``` functions must be used;
 * use whitelists and the ```basename``` function in filenames.
 
-<h3 class="titre-page" id="session-security">Session security</h3>
+## Session security
 By stealing the session identifier, other users' sessions can be used. See "firesheep", for example.
 
 * avoid using the session identifier in the URL because another site could steal the identifier by checking the "referer" or might even set your session identifier (imagine a link to a site such as ```link?PHPSESSID=123```). So set ```use_only_cookies``` to ```1``` or ```On``` in ```php.ini```;
@@ -73,12 +73,12 @@ By stealing the session identifier, other users' sessions can be used. See "fire
 * set an expiration time for sessions
 * associate visitor IP addresses with their sessions.
 
-<h3 class="titre-page" id="cross-site-request-forgery-xsrf">Cross-Site Request Forgery (XSRF)</h3>
+## Cross-Site Request Forgery (XSRF)
 Involves the use of the open session in another browser tab by a malicious web page. Most often the vulnerable parts will be forms, which could be completed by a malicious site. In this case it is easy to avoid this type of attack by creating a unique identifier for the form and checking it during form submission. It is good practice to use a nonce created by a function such as **uniqid** or pseudo random hash with a secret code by using the ```hash_hmac``` function, which is placed in a **hidden** field on the form and in session, to be checked during submission.
 
 To protect non-form functionalities, case-by-case analysis is required.
 
-<h3 class="titre-page" id="best-practices-for-storing-user-passwords-in-the-database">Best practices for storing user passwords in the database</h3>
+## Best practices for storing user passwords in the database
 Passwords must be stored in the database in hashed form. To do this, it is important, above all, not to use *md5* or *sha1* type algorithms, for which there are "rainbow tables", which can be used to obtain the password quickly from the hash.
 
 In addition, specifically to avoid the use of *rainbow tables*, and to hide identical hashes from the same password, it is important to use a salt. This salt will be determined randomly and concatenated to the password before hashing. The salt and the hash will therefore be stored in the database.
@@ -103,14 +103,14 @@ The function above becomes:
 $hash = password_hash(hash_hmac(‘sha512’, ‘secret password’, $saltsecretconfig), PASSWORD_BCRYPT, ['cost'=>$cost]); // from PHP 5.5
 ```
 
-<h3 class="titre-page" id="use-of-countermeasures">Use of countermeasures</h3>
+## Use of countermeasures
 
 In general, a web application will be scanned with an automatic tool by an attacker before compromise. It is therefore possible to place cyber traps or other "tar pits" on the application. A practical example called "weblabyrinth" can be downloaded from http://www.mayhemiclabs.com/content/new-tool-weblabyrinth. But useless scripts containing "sleep" functions or other false authentications can already perform this function.
 
-<h3 class="titre-page" id="webroot-approot">Webroot! = Approot</h3>
+## Webroot! = Approot
 Placing libraries and other scripts in places that cannot be accessed directly from the Internet is a definite advantage. It means that libraries with vulnerabilities cannot be exploited directly.
 
-<h3 class="titre-page" id="denial-of-services">Denial of service</h3>
+## Denial of service
 It is not possible to defend entirely against denial of service type attacks. However, it is possible to optimise applications so that they respond better. Although this is beyond the scope of this document, the following are some concepts that can be explored:
 
 * use "foreach" only for associative arrays and generally avoid any unbounded iteration on data from databases;
@@ -121,10 +121,10 @@ It is not possible to defend entirely against denial of service type attacks. Ho
 * possibly compress server-client communication (only for heavy traffic and where the server CPU is sufficiently powerful);
 * if you use Apache consider using the mod_evasion module.
 
-<h3 class="titre-page" id="frameworks">Frameworks</h3>
+## Frameworks
 Many frameworks are written by experienced developers and benefit from their extensive security experience and good programming practices. They often, therefore, include many of the techniques outlined above and enable web applications to be developed more quickly and securely. Examples: Zend, Symfony…
 
-<h3 class="titre-page" id="advice-for-php-ini">Advice for php.ini</h3>
+## Advice for php.ini
 The ```open_basedir``` configuration function is used to define the directories to which the application has access and therefore offers higher security.
 
 The following php.ini parameters should be set to the needs of your application while trying to keep them as low as possible. In general it is advantageous to set these parameters on the fly with ```ini_set``` in scripts that need more resources than the bulk of the application:

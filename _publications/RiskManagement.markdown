@@ -12,7 +12,7 @@ General guidelines regarding risk management as used by CASES are taken from the
 
 The diagram below outlines the risk management process.
 
-<h3 class="titre-page" id="definition-of-the-context">Definition of the context</h3>
+## Definition of the context
 To produce a risk analysis, it is first important to specify the basic criteria (risk assessment, impact, acceptance of risks, availability of resources, etc.), the objective and the scope of the analysis. The definition of the context notably describes the environment and the subject of the risk management process.
 
 The risk **assessment criteria** notably include:
@@ -52,7 +52,7 @@ Then, the **organisation** of the risk analysis must be defined:
 * relationships between actors and stakeholders
 * records that need to be kept and are used to document the risk management process
 
-<h3 class="titre-page" id="risk-identification">Risk identification</h3>
+## Risk identification
 The purpose of risk identification is to determine the causes of impacts and understand how, where and why this damage can occur. This is the preparation phase for the risk estimation itself. It proceeds as follows:
 
 * Identification of [assets]({% link _knowhow/glossary/Assets.markdown %}):
@@ -65,7 +65,7 @@ The purpose of risk identification is to determine the causes of impacts and und
 
 As a result, it is possible to draw up a list of assets which require risk management.
 
-<h3 class="titre-page" id="risk-estimation">Risk estimation</h3>
+## Risk estimation
 Risk estimation is comprised of several phases:
 
 1. the choice of methodology
@@ -140,7 +140,7 @@ It involves calculating a value, in other words an approximative level for ident
 </table>
 
 
-<h3 class="titre-page" id="risk-assessment">Risk assessment</h3>
+## Risk assessment
 During this stage, you’ll need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
 The estimated risks are prioritised in order of importance, based on the decisions made when defining the context of the risk analysis.
 
@@ -208,7 +208,7 @@ The estimated risks are prioritised in order of importance, based on the decisio
 </table>
 
 
-<h3 class="titre-page" id="risk-treatment">Risk treatment</h3>
+## Risk treatment
 This final stage suggests the measures to be put in place. For this, the security measures need to be organised depending on:
 
 * the measures to be considered;
@@ -309,10 +309,10 @@ Any resulting residual risk must be approved by the management board of the enti
 </table>
 
 
-<h3 class="titre-page" id="risk-acceptance">Risk acceptance</h3>
+## Risk acceptance
 Risk acceptance is the approval given by the management board of choices made during the risk treatment. The management board therefore agrees to the treatment plan, as well as to the residual risks.
 
-<h3 class="titre-page" id="information-sharing">Information sharing</h3>
+## Information sharing
 This is a continuous process that allows for the exchange and sharing of information on the risks between the decision-makers and the stakeholders. The purpose of risk communication is to:
 
 * reduce misunderstandings with decision-makers
@@ -321,7 +321,7 @@ This is a continuous process that allows for the exchange and sharing of informa
 * gain new knowledge about security
 * improve security awareness
 
-<h3 class="titre-page" id="monitoring-and-re-examination">Monitoring and re-examination</h3>
+## Monitoring and re-examination
 This process consists of monitoring and re-examining elements of the risk:
 
 * asset values and categories

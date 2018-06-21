@@ -19,12 +19,12 @@ layout: default
     Sort the pages with the tag "main-categ", add each keyword to the string "list-cat" 
 {% endcomment %} 
 
-{% assign list-cat = pagelist |map: 'main-categ' |uniq %}
+{% assign list-cat = pagelist |map: 'main-categ' |uniq |compact %}
 
 {% assign group_cat = 0 %}
 
 {% assign menutitle = "Knowhow"  %}
-{% assign listlen = list-cat.size %}
+{% assign listlen = list-cat.size | minus: 1 %}
 
 {% include menus/filemenu.html %}
 

@@ -8,20 +8,20 @@ short: "The “golden rules” of IT security"
 categories: bestpractice
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Now you can shop and bank from the comfort of your own home, with no need to queue at tills and counters. E-commerce and online banking are making life much simpler. If comfort and security are what you’re looking for, you need look no further: Let CASES show you how! Nowadays, secure e-commerce is available to everyone thanks to the simple guidelines, fact sheets, “step by step” procedures and comprehensive case files offered by CASES. To assess your knowledge at the start or end of your training session, all you need to do is take the BEE PASS+ [https://beepassplus.bee-secure.lu/](https://beepassplus.bee-secure.lu/) quiz on online banking / e-commerce.
 
-<h3 class="titre-page" id="the-golden-rules-of-it-security">The “golden rules” of IT security</h3>
+## The “golden rules” of IT security
 
 To keep yourself safe online, make sure you follow the “golden rules” below:
 
 ### Password: lock the safe
 [Passwords]({% link _knowhow/glossary/Password.markdown %}) are the keys that grant direct access to your information and your online accounts. But it’s very tempting to choose a password that means something to us and is easy to remember, such as the name of one of our children or our date of birth: in other words, a password that can easily be discovered by someone with bad intentions. The challenge therefore lies in creating a password that you’re not likely to forget, but which can’t be easily guessed by others.
 
-* [Make sure you choose and use your password wisely]({% link _knowhow/glossary/Password.markdown %}\#in-brief)
+* [Make sure you choose and use your password wisely]({% link _knowhow/glossary/Password.markdown %}#in-brief)
 
 ### Multi-factor authentication
-Many online services now offer [multi-factor authentication]({% link _knowhow/glossary/Authentication.markdown %}\#multi-factor-authentication). In addition to needing a password to log in, you’ll also need to add a code sent to you by SMS from the service in question. Nowadays, using a password as the sole means of authentication is often not enough.
+Many online services now offer [multi-factor authentication]({% link _knowhow/glossary/Authentication.markdown %}#multi-factor-authentication). In addition to needing a password to log in, you’ll also need to add a code sent to you by SMS from the service in question. Nowadays, using a password as the sole means of authentication is often not enough.
 
 This authentication is based both on something we know (the password) and something we own (GSM).
 
@@ -48,7 +48,7 @@ Your software contains a large number of security flaws. They are corrected over
 * [Useful: Secunia PSI (for non-professional use only)]({% link _knowhow/glossary/SecuniaPSI.markdown %})
 * [Patches]({% link _knowhow/glossary/Patches.markdown %})
 
-<h3 class="titre-page" id="rules-specific-to-online-bankinge-commerce-security">Rules specific to online banking/e-commerce security</h3>
+## Rules specific to online banking/e-commerce security
 Before logging in to online services, it is very important to read about and apply good habits:
 
 ### Emails: beware of appearances
@@ -56,7 +56,7 @@ One of the best-known scams involves a criminal sending an email that fools you 
 
 * [Phishing]({% link _knowhow/glossary/Phishing.markdown %})
 * Protect yourself against social [engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
-* [Emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email)
+* [Emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
 
 Apply [good practices relating to both emails]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) and [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
 

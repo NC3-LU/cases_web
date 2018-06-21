@@ -8,7 +8,7 @@ short: "A few cases with loss of either data or moneym and how to protect oursel
 categories: scams
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
 The best known smartphone [risks]({% link _knowhow/glossary/BasicCriteria.markdown %}) can be assigned to two categories:
@@ -18,13 +18,13 @@ The best known smartphone [risks]({% link _knowhow/glossary/BasicCriteria.markdo
 
 The following cases are described, with loss of either data or money as a consequence.
 
-<h3 class="titre-page" id="1-result-loss-of-data">1. Result = loss of data</h3>
+## 1. Result = loss of data
 Data such as personal information, business data, contact information, photos, login information and passwords are all sought by fraudsters and can cause enormous damage if they get their hands on it.
 
 ##### Theft / loss of unsecured data
 If you lose your phone or if it is [stolen]({% link _knowhow/sos/SOS-StolenHardware.markdown %}) and if you have not secured the data it holds, it will all be available to whoever finds or stole your phone.
 
-Make regular [backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) of your data. [Encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption) all sensitive data on your smartphone and set up a screen lock. In this way, you save a little time and you can lock your device remotely or delete content before an unauthorised person can access it.
+Make regular [backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) of your data. [Encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) all sensitive data on your smartphone and set up a screen lock. In this way, you save a little time and you can lock your device remotely or delete content before an unauthorised person can access it.
 
 ##### Lack of precautions during archiving
 Do you leave documents on a server or on the cloud? By using data encryption and strong [passwords]({% link _knowhow/glossary/Password.markdown %}), you can prevent them from falling into the wrong hands.
@@ -58,7 +58,7 @@ Prudence is particularly required for QR codes added later on their media. Only 
 * Do not open files sent to you without thinking, even if they come from a known sender
 * Do not be fooled by [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
 
-<h3 class="titre-page" id="2-resuly-loss-of-money">2. Result = loss of money</h3>
+## 2. Result = loss of money
 Since the advent of mobile phones in our society there are methods at the limit of legality which make it possible to pick the pockets of users. These methods are now increasingly professional and malicious.
 
 ##### Subscription traps, premium SMS, premium-rate numbers

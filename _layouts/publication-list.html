@@ -7,21 +7,21 @@ layout: default
     Insert categories in list-cat
 {% endcomment %}
 
-{% assign list-cat = "iso, bestpractice, scams, securing"|split: ", " %}
+{% assign list-cat = "iso, bestpractice, scams, securing"|split: ", "|compact %}
 
 {% comment %}
   Insert categories's name (Button)
 {% endcomment %}
 
-{% assign list-name = "ISO/IEC 27000, Good Practice, Scams, Securing Devices"|split: ", "%}
+{% assign list-name = "ISO/IEC 27000, Good Practice, Scams, Securing Devices"|split: ", " |compact%}
 {% assign i = 0 %}
 
 {% comment %} 
-    list.cat minus 1 to not have an empty category 
+    list-cat minus 1 to not have an empty category 
 {% endcomment %}
 
 
-{% assign listlen = list-cat.size | minus: 1  %}
+{% assign listlen = list-cat.size | minus: 1 %}
 
 {% assign group_cat = 1 %}
 {% assign menutitle = "Publications"  %}
@@ -33,7 +33,8 @@ layout: default
 
 <div class="col-md-8">
   {% if site.publications %}
-  <div class="row-fluid row-fluid--padding">
+  <div class="row-fluid row-fluid--padding thecontent">
+    <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
 

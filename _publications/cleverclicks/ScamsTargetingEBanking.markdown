@@ -8,17 +8,17 @@ short: "What is a e-banking scams and how to avoid it?"
 categories: scams
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 Queuing at a bank is a thing of the past. Today, it is possible to carry out all financial operations on the family computer. In just a few seconds, you can check your balance to see how much money is left for shopping or transfer money with a single click – none of this is now problematic. Or maybe it is? Scammers are increasingly trying to steal, use or even resell data. The trade in stolen data and money is on the rise.
 
-<h3 class="titre-page" id="phishing">Phishing</h3>
+## Phishing
 
 When they use [phishing]({% link _knowhow/glossary/Phishing.markdown %}), scammers try to use copied websites to prompt you to enter your bank details so they can empty your account.
-One of many possible scenarios is that you receive an [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email) from your bank or other online service with which you are registered. It claims that there is a problem with your account. The actual nature of the problem is not explained. You have to log into your account urgently to "avoid the worst". Normally the email contains the corresponding link. Just click on the link to access a page you need to connect to.
+One of many possible scenarios is that you receive an [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) from your bank or other online service with which you are registered. It claims that there is a problem with your account. The actual nature of the problem is not explained. You have to log into your account urgently to "avoid the worst". Normally the email contains the corresponding link. Just click on the link to access a page you need to connect to.
 
 **The problem is that the page that you access via the link is very similar to its official equivalent but is actually a fake. All the data you enter will be recorded by scammers and will be used or sold for criminal purposes.**
 
-<h3 class="titre-page" id="advice">Advice</h3>
+## Advice
 * Never click on the links in emails that claim to have been sent by your bank. Luxembourg banks do not send emails asking you to enter your data.
 * Never enter personal information on forms received by email.
 * In general, do not reply to emails asking you to provide confidential or personal information.
@@ -34,12 +34,12 @@ Examine emails with a critical eye. Be wary when:
 * [What if my login details have been compromised or even disclosed?]({% link _knowhow/sos/SOS-CompromisedData.markdown %})
 * [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
 
-<h3 class="titre-page" id="banking-trojan">Banking Trojan</h3>
+## Banking Trojan
 There are many variants of [Trojan horses](-). They all have something in common: they run in the background and empty your account without you realising at the time. During an open web banking session, the [criminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) make transfers that you don't see. The account balance doesn't change and even in your transfer history there is no trace of the Trojan, because it uses sophisticated programming. But your money still disappears!
 
 **The banking Trojan is malware that is distributed through the usual infection channels (e.g. as an attachment or link in an email that exploits a computer program vulnerability). It autonomously recognises when you log in to your web banking site and alerts its criminal creator. The latter than takes control of your account while your session remains open.**
 
-<h3 class="titre-page" id="advice">Advice</h3>
+## Advice
 * Never download email attachments or files from websites if you do not know their source or purpose.
 * Always keep all your software and plugins up to date.
 * Always log out using any buttons provided for this purpose from online banking websites. It is not sufficient to close the browser window, because that does not close your session, which remains accessible to criminals.

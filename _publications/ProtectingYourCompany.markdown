@@ -8,7 +8,7 @@ short: "Anticipate risks, protect your data, what are the good tips for protecti
 categories: securing
 toc: true
 ---
-<h3 class="titre-page" id="prevent-risks">Prevent risks</h3>
+## Prevent risks
 The best way to secure your company is to set up [a risk management process]({% link _publications/RiskManagement.markdown %}). This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: “[Why manage risks?]({% link _publications/WhyManageRisks.markdown %})” and “[Why pool risk analysis?]({% link _publications/WhyPoolRisksAnalysis.markdown %})”
 
 Risk can be defined using the following calculation: risk = vulnerability * [threat]({% link _knowhow/glossary/Threat.markdown %}) * impact. It is made up of a ‘probability’ factor (arising from the threat) and a ‘damage’ factor (arising from the value of the compromised asset, or corresponding to the value of the indirect damage suffered). The vulnerability used in this function takes into consideration the security measures that have been implemented.
@@ -28,21 +28,21 @@ The “impact” is the result of the exploitation of a vulnerability by a threa
 
 The combination of these three factors make up the “risk”.
 
-<h3 class="titre-page" id="protecting-data">Protecting data</h3>
+## Protecting data
 As with data, business processes are known as primary assets ([Classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of [assets]({% link _knowhow/glossary/Assets.markdown %}); [risk management]({% link _publications/RiskManagement.markdown %}). The first priority for making an IT setup secure relates to the protection of these primary assets.
 
 All entities have a particular interest in protecting their corporate data, especially with regard to information about the performance of their economic plan. Legal requirements, and even client expectations, also represent reasons which lead companies to protect specific data.
 
 Different types of data that should be protected:
 
-* [intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#intellectual-property)
+* [intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property)
 * manufacturing secrets
 * client data
 * process data, such as logistical, accounting, supplier data, etc.
 
 [Loss of data]({% link _knowhow/glossary/DataLoss.markdown %}) generally has harmful consequences for any entity.
 
-<h3 class="titre-page" id="classificaion-of-data">Classification of data</h3>
+## Classification of data
 Before implementing protective measures, the entity should carry out at least a summary classification exercise over the data it processes. This classification is important to gain an awareness of the true value ([confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}) and [availability]({% link _knowhow/glossary/Availability.markdown %})) of the data. Depending on the value of the data, with regard to the expected [impact]({% link _knowhow/glossary/Impact.markdown %}) in the event that data becomes compromised, the entity will be able to decide on the investment to set aside for data security.
 
 > Note: the classification applied to information should also be applied to the containers, meaning the physical locations and media holding the information. The term container should be understood in its broadest sense.
@@ -52,7 +52,7 @@ SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolic
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
 * [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) -- [Access control policy]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-control-policy) and [Access rights management]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-rights-management)
 
-<h3 class="titre-page" id="data-backups">Data backups</h3>
+## Data backups
 All data identified within a company as having an availability requirement must be backed up. By creating a backup copy, the loss or destruction of primary data can easily be offset. However, backing up data can become more problematic when the data to be backed up has confidentiality or integrity issues.
 
 Data with a confidentiality requirement needs to be protected against any illicit access, regardless of the media on which it is found, and regardless of the location in which it is stored.
@@ -61,11 +61,11 @@ Data with a major integrity requirement needs to be protected against any modifi
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational aspects and communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) --- [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) --- [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter) and [Perimeter rules]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#rules-within-the-perimeter)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) -- [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+* [Operational aspects and communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) --- [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) --- [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter) and [Perimeter rules]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) -- [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
 
-<h3 class="titre-page" id="data-destruction">Data destruction</h3>
+## Data destruction
 Data no longer required by the company, meaning data which has to be deleted, must be destroyed in such a way that its confidentiality is not infringed.
 
 The definitive and secure destruction of data must respect certain security criteria. There are methods which enable disks, or even the computer, to be reused.
@@ -74,9 +74,9 @@ For strictly confidential data, it is strongly recommended that data storage med
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) --- [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#disposal-and-reuse-of-equipment)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) --- [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)
 
-<h3 class="titre-page" id="tranmission-of-data">Transmission of data</h3>
+## Transmission of data
 The technology used to transmit data must respect confidentiality and data integrity criteria (and more infrequently availability criteria).
 
 The use of cryptographic measures is strongly recommended to protect the data to be transmitted against loss of confidentiality and integrity.
@@ -85,88 +85,88 @@ Any communication over the Internet (downloading, FTP) should therefore be encry
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) --- [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) --- [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) --- [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) --- [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
+* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) --- [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) --- [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
 
 SOS:
 
 * [I am being asked for confidential information]({% link _knowhow/sos/SOS-IamAskedForConfidentialInformation.markdown %})
 
-<h3 class="titre-page" id="data-transport">Data transport</h3>
+## Data transport
 The technology used to transport data must respect confidentiality, integrity and data availability requirements (especially for originals).
 
 The use of cryptographic measures is strongly recommended, along with physical security to protect transported data against loss of confidentiality, integrity and availability.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) --- [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#device-security-during-transport)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) --- [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#off-site-equipment-security)
-* [System development and maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) --- [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) --- [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#device-security-during-transport)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) --- [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
+* [System development and maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) --- [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
 
-<h3 class="titre-page" id="protecting-a-machine">Protecting a machine</h3>
+## Protecting a machine
 The machines used to perform business processes and to process organisation information are known as secondary assets, or support assets (see: [classification of]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}) [assets]({% link _knowhow/glossary/Assets.markdown %}); [risk analysis]({% link _publications/WhyPoolRisksAnalysis.markdown %})). To protect business processes, or information, the support assets used to process such information must be protected.
 
 If a computer or a server is compromised, this could obviously lead to a loss of confidentiality, availability and integrity in the processes or information they use.
 
 For secondary assets, risk treatment measures should therefore be introduced to prevent harmful impacts.
 
-<h3 class="titre-page" id="computers">Computers</h3>
+## Computers
 Most organisations have at least one office computer for the management of the organisation. This computer must be protected against the commonest threats. Basic security measures are strongly advised.
 
 Depending on the criticality of the data being processed, or the business processes supported, the protective measures should naturally be expanded.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#protection-against-malware) and [Data backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware) and [Data backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
 * [access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
 
-<h3 class="titre-page" id="laptop-computers">Laptop computers</h3>
+## Laptop computers
 
 Some organisations also use laptop computers as support assets for business processes or to process certain types of data. These laptop computers are often taken outside the secure office area and carried on private and public transport, and even used in private or public places. They are often connected to networks outside the organisation.
 The potential threats to laptop computers are many, and any organisation wishing to use laptop computers should at least follow basic security measures.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#protection-against-malware) and [Data backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management), and [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#password-management) and [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#external-connections) and [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware) and [Data backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management), and [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management) and [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections) and [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-* [System development and maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
+* [System development and maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
 
-<h3 class="titre-page" id="file-servers">File servers</h3>
+## File servers
 Some organisations use file servers to facilitate cooperation between different agents or to increase the level of resilience of stored data. Like other machines used by the organisation, file servers are support assets for business processes. But they often represent the single point of failure for a small or medium-sized company.
 
 Requirements in terms of confidentiality, availability and integrity in file servers are therefore much greater than for other support assets owned by the organisation. It is therefore crucial to apply basic security measures on this type of machine.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#protection-against-malware) and [Data backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management), and [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#password-management) and [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#external-connections) and [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware) and [Data backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management), and [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management) and [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections) and [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter); [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#rules-within-the-perimeter); [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#maintenance) and [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#disposal-and-reuse-of-equipment); [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#electrical-equipment-safety)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter); [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter); [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#maintenance) and [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment); [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety)
 
-<h3 class="titre-page" id="email-servers">Email servers</h3>
+## Email servers
 Mail servers are always connected to the Internet. There is a large probability of being exposed to a threat, and is often easy to exploit new vulnerabilities. Securing the mail server requires a degree of care, and sometimes even monitoring on the part of the organisation. Email is often the leading means of communication within a company (integrity) and very often contains files with sensitive content (confidentiality).
 
 Small-scale organisations rarely have mail servers. It is too complex to manage and protect them within small operations.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#protection-against-malware) and [Data and email backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#data-backups)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy);[ Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management), and [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#password-management); [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures); [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware) and [Data and email backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy);[ Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management), and [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management); [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures); [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-* [System development and maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
+* [System development and maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
 
-<h3 class="titre-page" id="web-server">Web server</h3>
+## Web server
 Web servers do not always contain confidential data. Because of this, they are less affected by confidentiality issues. They are, however, supposed to operate constantly (availability) and must be able to withstand potential attacks or infection. Because of this, it is recommended to follow the recommendations for securing web servers.
 
-<h3 class="titre-page" id="protecting-the-network">Protecting the network</h3>
+## Protecting the network
 The network is a secondary asset supporting the business processes of the organisation, and transmitting the information processed within this organisation. It plays an essential role, as when compromised it often leads to machines connected to it also being compromised.
 
-<h3 class="titre-page" id="local-fixed-network">Local (fixed) network</h3>
+## Local (fixed) network
 Most organisations connect their network, or part of their network, to the Internet. This exposes it to a huge number of potential threats. But the network can also be endangered by threats coming from within the organisation.
 
 The installation of a firewall is an essential protective measure for the network, as it enables certain parts of the network to be partitioned.
@@ -175,22 +175,22 @@ Follow basic security measures to secure your local network.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#external-connections); [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter) and [Perimeter rules]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#rules-within-the-perimeter)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections); [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter) and [Perimeter rules]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
 
-<h3 class="titre-page" id="wifi-network">Wifi network</h3>
+## Wifi network
 Many organisations set up a wifi network. It presents a number of benefits, but one major downside is that wifi waves travel through the air and are usually also accessible from outside the organisation.
 
 Basic security measures for wifi networks are therefore strongly advised.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
-; [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
-* [IT systems management]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#physical-security-perimeter) and [Perimeter rules]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}\#rules-within-the-perimeter)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+; [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+* [IT systems management]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter) and [Perimeter rules]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
 
-<h3 class="titre-page" id="remote-working">Remote working</h3>
+## Remote working
 Enabling secure access from outside the organisation can be done in different ways, based on the needs of the employees.
 
 A mail access server is often enough and is easy to set up.
@@ -199,22 +199,22 @@ For greater access, it is strongly recommended to set up access via VPN.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#connection-procedures) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#use-of-external-networks)
-; [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#separation-of-networks)
-* [IT systems management]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) – [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management); [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+; [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+* [IT systems management]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}) – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
 
-<h3 class="titre-page" id="training-and-awareness">Training and awareness</h3>
+## Training and awareness
 Training and awareness-raising in relation to the security of information and communications systems is crucial to ensuring that security becomes a reality within our society.
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}\#training-and-information);
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information);
 
 Measures:
 
-* [Awareness and training]({% link _publications/ProtectingYourCompany.markdown %}\#training-and-awareness)
+* [Awareness and training]({% link _publications/ProtectingYourCompany.markdown %}#training-and-awareness)
 
-<h3 class="titre-page" id="getting-organised">Getting organised</h3>
+## Getting organised
 The security of a company in large part depends on its business processes. It is very difficult to apply security rules to a process that hasn’t been designed with security in mind. Because of this, it is easier – and therefore cheaper – to keep security in mind from the very creation of the company structure.
 
 Analyse processes and try to change or eliminate those which are sub-optimal – for example those requiring a password to be shared.
@@ -223,23 +223,23 @@ The allocation of specific roles is essential: responsibilities for certain asse
 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}) – [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities) and [Specialist advice]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#specialist-advice); [Access by third-parties and sub-contracting]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#third-party-access-and-outsourcing); [Independent review of information security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#independent-review-of-information-security);[ Authorisation procedure for the addition of tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#authorising-the-addition-of-tools)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}) – [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities) and [Specialist advice]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#specialist-advice); [Access by third-parties and sub-contracting]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing); [Independent review of information security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#independent-review-of-information-security);[ Authorisation procedure for the addition of tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#authorising-the-addition-of-tools)
 
-<h3 class="titre-page" id="protecting-the-premises">Protecting the premises</h3>
+## Protecting the premises
 Most organisations have their own premises or establishment to host their offices, warehouses, archives and IT rooms. They may therefore limit certain risks arising from threats that are environmental in origin, deliberate and accidental, compromising confidentiality, integrity or availability needs over important or vital assets.
  
 The introduction of secure areas, as well as restricted access to these areas, and therefore to assets found within them, significantly reduces the risk arising from deliberate or accidental threats.
 
-Premises hosting important or vital assets must also be protected against environmental threats, such as fire (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#fire)), water damage, pollution, dust, corrosion, freezing temperatures, electrical damage or major incidents.
+Premises hosting important or vital assets must also be protected against environmental threats, such as fire (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)), water damage, pollution, dust, corrosion, freezing temperatures, electrical damage or major incidents.
 
 Please refer to the chapter devoted to the physical security of the organisation.
 
 ### Physical access
 The more important the asset, the more physical access must be controlled. The organisation will therefore have a “public” area, accessible to clients, and an internal area, only accessible to employees, as well as one or more secure areas only accessible to authorised personnel. Depending on their importance, the assets will only be deployed in the areas which correspond to their degree of protection. The security measures implemented should prevent physical intrusions.
 
-So a file server containing critical documents for the organisation should not be located in a room with open access. The probability of malicious actions or accidents would be too high. (SMEs: see [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}\#aggravated-theft) and [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}\#infiltrating-the-premises)).
+So a file server containing critical documents for the organisation should not be located in a room with open access. The probability of malicious actions or accidents would be too high. (SMEs: see [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises)).
 
-<h3 class="titre-page" id="communications-and-social-networks">Communications and social networks</h3>
+## Communications and social networks
 **Social networks** now form a part of our daily life. For companies and organisations, they present previously unheard of opportunities. Many companies have already turned them into an effective **communications and marketing** lever.
 
 Although they present many **benefits**, it is important not to ignore the **risks**, including:
@@ -253,7 +253,7 @@ Some simple measures can be set up to prevent this.
 
 Find out how to develop your presence on social networks without taking any pointless risks: Social networks, applications and web services: to be checked regularly.
 
-<h3 class="titre-page" id="business-trips">Business trips</h3>
+## Business trips
 Business data (commercial or strategic data, search results, expertise, etc.) must also be protected during any business trips which may take place.
 
 If laptop computers, removable media or paper media holding this type of data leave the secure enclosure of the company, specific precautions must be taken.

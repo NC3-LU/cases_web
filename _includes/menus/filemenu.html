@@ -5,10 +5,8 @@
           
       
     {% comment %} 
-    loop through the size of the list 
+    loop through the size of the list (as arrays start at 0 we decrement the value here)
     {% endcomment %}
-    
-    
 
     {% for i in (0..listlen) %}
         {% if group_cat == 1 %}
@@ -16,7 +14,13 @@
             {% include menus/filemenu-sub.html %}
         {% else %}
             {% for ipage in pagelist %}
-                {% include menus/filemenu-sub.html %}
+                {% comment %} 
+                    if page.categories match a "main-page", in order to display the button with the correct Headline , they are BestPractices-ProtectingYouself, CISOApproach & SOS 
+                {% endcomment %}
+
+                {% if ipage.categories contains list-cat[i] %}
+                    {% include menus/filemenu-sub.html %}
+                {% endif %}
             {% endfor %}
         {% endif %}
     {% endfor %}

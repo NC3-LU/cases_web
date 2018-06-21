@@ -8,19 +8,19 @@ short: "What is an email scams and how to avoid it?"
 categories: scams
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
-[Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#email) is one of the most common means of communication in private and professional life. Despite all its advantages, it requires some precautions for use, both when sending and receiving messages. This article sheds light on the most common forms of fraud. In general, the right reflexes should be adopted. [Mail servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %}) must also be properly protected.
+## In brief
+[Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) is one of the most common means of communication in private and professional life. Despite all its advantages, it requires some precautions for use, both when sending and receiving messages. This article sheds light on the most common forms of fraud. In general, the right reflexes should be adopted. [Mail servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %}) must also be properly protected.
 
 The most well-known scams use email as a "crime weapon" or as "bait". They also use social engineering methods to hit their target. [Human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) are widely exploited.
  
-<h3 class="titre-page" id="advance-fee-fraud">Advance fee fraud</h3>
+## Advance fee fraud
 There are several types of advance fee fraud. The "Nigerian" scam is the best known. It is very simple and effective as the criminals spread it by email. This type of scam seeks to exploit our greed. Usually, a stranger asks you to help them by making a money transfer ... And offers you a big reward in exchange for your help. This scam is called "Nigerian" because it comes from Nigeria.
 
 Other frequent variants of advance fee fraud include, for example, dangling lottery winnings or exceptional offers to bait victims.
 
 These messages are harmless until they are answered. However, as soon as you give any type of response, you will be told that your win is within reach but you must pay a "processing fee" or legal fees before receiving your prize. 
 
-<h3 class="titre-page" id="phishing">Phishing</h3>
+## Phishing
 [Phishing]({% link _knowhow/glossary/Phishing.markdown %}) is a widely used technique for stealing the username and [password]({% link _knowhow/glossary/Password.markdown %}) of a legitimate user. Phishing very often uses fear of a virtual [threat](-) and urges the victim to act quickly. This is largely due to the fact that the infrastructure used by phishing users does not usually stay in place for long because the police or the host stop it as soon as the illegal activities are discovered.
 
 **Advice**:
@@ -38,7 +38,7 @@ Examine emails with a critical eye. Be wary when:
 * [What if my login details have been compromised or even disclosed]({% link _knowhow/sos/SOS-CompromisedData.markdown %})?
 * [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
 
-<h3 class="titre-page" id="false-payment-requests">False payment requests</h3>
+## False payment requests
 These false requests exploit victims' feelings of compassion or fears. The best known are fake call-backs, fake requests for help or [CEO scams](-).
 
 These messages are harmless until they are answered. However, once you answer the email, you will be harassed.

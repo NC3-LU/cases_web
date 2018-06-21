@@ -8,7 +8,7 @@ short: "Overview of threats and measures to protect ourselves"
 categories: scams
 toc: true
 ---
-<h3 class="titre-page" id="in-brief">In brief</h3>
+## In brief
 
 The Web is a source of all kinds of inexhaustible treasures, for browsing or download.
 
@@ -16,14 +16,14 @@ Increased bit rates have made downloads faster and easier. An information docume
 
 The problem arises when some websites offer file downloads that will result in unwanted or even harmful effects on our computer. Healthy programs downloaded a long time ago can also be problematic if they contain flaws that have not subsequently been corrected.
 
-<h3 class="titre-page" id="overview-of-threats">Overview of [threats]({% link _knowhow/glossary/Threat.markdown %})</h3>
+## Overview of [threats]({% link _knowhow/glossary/Threat.markdown %})
 
 ##### Viruses
 The [virus]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
 
 ##### False viruses and fake antiviruses
 
-False alerts exploit our fear of infection by a real virus. A malicious site may, for example, display an alert that makes us believe that our computer is infected. If we click on the alert, we will be advised to download a pretend antivirus which is actually a malicious program such as a "[Trojan horse]({% link _knowhow/glossary/MaliciousCodes.markdown %}\#cheval-de-troie)". If this program is downloaded, it will hide on our computer and will probably have no visible effect. However, the perpetrator will be able to take control of our computer, possibly for unlawful purposes.
+False alerts exploit our fear of infection by a real virus. A malicious site may, for example, display an alert that makes us believe that our computer is infected. If we click on the alert, we will be advised to download a pretend antivirus which is actually a malicious program such as a "[Trojan horse]({% link _knowhow/glossary/MaliciousCodes.markdown %}#cheval-de-troie)". If this program is downloaded, it will hide on our computer and will probably have no visible effect. However, the perpetrator will be able to take control of our computer, possibly for unlawful purposes.
 
 Secuser has compiled a list of fake viruses: [Secuser](http://www.secuser.com/hoax)
 
@@ -55,7 +55,7 @@ Some types of downloaded malware can turn your PC into a "zombie" that can be us
 
 Other malicious files have the effect of encrypting the data stored on your hard drive. You then no longer have access to it and have to pay a substantial sum to decrypt your own data to regain access to it. This is the supreme scam!
 
-<h3 class="titre-page" id="how-can-we-protect-ourselves">How can we protect ourselves</h3>
+## How can we protect ourselves
 
 The slogan "Clever Klicken" is more relevant than ever for addressing the download risks. The following responses and measures should be adopted.
 
