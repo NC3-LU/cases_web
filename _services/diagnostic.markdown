@@ -5,11 +5,11 @@ menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"
 short: "The Diagnostic CASES helps you to reduce your exposure to common IT risks."
 ---
-<h3 class="titre-page">Why?</h3>
+## Why?
 Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.
 
 
-<h3 class="titre-page">How?</h3>
+## How?
 Using a dedicated questionnaire, CASES's experts will:
 
 * **identify** vulnerabilities,
@@ -27,11 +27,12 @@ A CASES expert will visit your company and will ask you the necessary questions,
 
 
 <div class="well well--blue-outline">
-Advantages:
+    Advantages:
 
-<ul>
-<li>Free, with no commitment – for Luxembourg only.</li>
-<li>Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days.</li>
-</ul>
-<b>Why wait any longer?</b> Get the CASES diagnostic. <a href="mailto:info@cases.lu?subject=Diagnostic">Get in touch!</a>.
+    <ul>
+        <li>Free, with no commitment – for Luxembourg only.</li>
+        <li>Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days.</li>
+    </ul>
+    
+    <b>Why wait any longer?</b> Get the CASES diagnostic. <a href="mailto:info@cases.lu?subject=Diagnostic">Get in touch!</a>.
 </div>

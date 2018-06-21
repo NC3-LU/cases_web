@@ -5,13 +5,13 @@ menutitle:  "MONARC"
 logo: "/assets/img/services/monarc.png"
 short: "Optimized Risk Analysis Method - You will be more efficient and complete!"
 ---
-<h3 class="titre-page">Why?</h3>
+## Why?
 
 The processing of sensitive information and personal data is crucial, not only for the degree of trust that your customers place in your services, but also for the sustainability of your business.
 
 CASES has developed an analysis method to produce a comprehensive risk report on this matter, with suggested solutions. You will therefore be able to take the appropriate measures to enhance information security within your organisation and meet your legal obligations.
 
-<h3 class="titre-page">How?</h3>
+## How?
 CASES optimised risk analysis method (MONARC):
 
 * thoroughly **evaluates** the risks involved;
@@ -22,7 +22,7 @@ It is based on CASES expertise and regularly updated prior knowledge of the busi
 
 <img class="img-border" src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
 
-<h4 class="title-border-left">Stage 1: Context Establishment</h4>
+#### Stage 1: Context Establishment
 This stage is used to set establish the context of the risk analysis and to produce:
 
 * a trend evaluation;
@@ -30,20 +30,20 @@ This stage is used to set establish the context of the risk analysis and to prod
 * the risk management context;
 * definition of the assessment, acceptance and impact criteria
 
-<h4 class="title-border-left">Stage 2: Context Modelling</h4>
+#### Stage 2: Context Modelling
 This step involves
 
 * identification of assets, vulnerabilities
 * impact assessment
 * summary of assets/impacts
 
-<h4 class="title-border-left">Stage 3: Evaluation and treatment of risks</h4>
+#### Stage 3: Evaluation and treatment of risks
 This step involves the estimation, evaluation and processing of risks. Its output is a risk management plan.
 
-<h4 class="title-border-left">Stage 4: Implementation and monitoring</h4>
+#### Stage 4: Implementation and monitoring
 This involves the implementation of the risk treatment plan.
 
-<h3 class="titre-page">Advantages</h3>
+## Advantages
 MONARC delivers more in-depth results than the CASES Diagnostic.
 
 You will benefit from:
