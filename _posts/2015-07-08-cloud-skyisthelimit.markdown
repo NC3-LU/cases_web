@@ -17,7 +17,7 @@ Selon une étude de Rackspace (fournisseur de solutions cloud), 56% des entrepri
 
 
 
-### Les avantages et les inconvénients du cloud
+## Les avantages et les inconvénients du cloud
 
 <img class="img-border" src="{{ '/assets/img/201507/stats.png' | relative_url }}" style="float:right; width:380px; margin-left: 15px;" />
 
@@ -27,7 +27,7 @@ Une entreprise qui stocke sa base de données clients sur le cloud au lieu de le
 #### Évolutivité
 La location d’espace sur le net peut être très flexible et permet de réagir rapidement pour augmenter ou diminuer l’espace voulu, en fonction des besoins du moment. Le cloud est donc une opportunité réelle pour les startups qui veulent se développer rapidement sans devoir consentir de gros investissements IT. Le [Start-up Security Kit]({% link _services/startupkit.markdown %}) de CASES les aidera à assurer leur sécurité.
 
- #### Facilité
+#### Facilité
 Avec le cloud, l’installation et la mise à jour des serveurs ne sont plus un problème. Les coûts d’administration sont ainsi réduits au minimum… Mais les possibilités de configuration personnalisée sont souvent moindres.
 
 #### Ubiquité
@@ -50,7 +50,7 @@ Le cloud peut constituer un avantage en termes de sécurité. Les fournisseurs d
 Cloud ou pas, la relation avec un fournisseur de services IT entraîne toujours une certaine dépendance. Comment peut-on transférer les données vers un autre fournisseur ? Que se passe-t-il en cas de faillite du fournisseur ? Il vaut mieux avoir des réponses claires et vérifiées à ces questions avant de transférer des données sensibles vers le cloud.
 
 
-### Disponibilité et connectivité
+## Disponibilité et connectivité
 
 Selon la classification des données qui seront stockées sur le cloud, la disponibilité et la connectivité seront des critères à ne pas perdre de vue.
 La **disponibilité** s’exprime normalement en pourcentage : une disponibilité de 99,99% indique que le service pourrait être indisponible durant moins d’une heure par an, sans qu’aucune indemnité ne vous soit due. Si la disponibilité n’est que de 99%, la période d’indisponibilité cumulée pourrait dépasser 3 jours…

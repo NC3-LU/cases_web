@@ -18,8 +18,8 @@ layout: default
 </div>
 
 {% if page.group contains "post" %}
-<div class="col-md-8">
-	
+<div class="col-md-8 thecontent">
+  <h1>{{ page.title }}</h1>
 	<p class="post-meta">
     <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
