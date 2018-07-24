@@ -50,7 +50,7 @@ Before implementing protective measures, the entity should carry out at least a 
 SME [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}):
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) -- [Access control policy]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-control-policy) and [Access rights management]({{site.url}}/knowhow/cisoapproach/SecurityPolicy-AccessControl.html#access-rights-management)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) -- [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
 
 ## Data backups
 All data identified within a company as having an availability requirement must be backed up. By creating a backup copy, the loss or destruction of primary data can easily be offset. However, backing up data can become more problematic when the data to be backed up has confidentiality or integrity issues.
