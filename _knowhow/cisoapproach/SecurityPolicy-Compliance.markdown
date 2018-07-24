@@ -15,7 +15,7 @@ Non-compliance with information technology legislation may put the *organisation
 * protection of mandatory operational data and personal data. (SMEs: see [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements) and [Lack of traceability of operations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#lack-of-traceability-of-operations)).
 
 ## Intellectual property
-The *organisation* must also ensure the respect of [copyright]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#intellectual-property) and licences. Sanctions for non-compliance with these laws may threaten the *organisation* (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence)). This particularly applies to copyright on original literary and artistic works, which includes databases and computer programs, as set out in the Law of 18 April 2001.
+The *organisation* must also ensure the respect of [copyright]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property) and licences. Sanctions for non-compliance with these laws may threaten the *organisation* (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence)). This particularly applies to copyright on original literary and artistic works, which includes databases and computer programs, as set out in the Law of 18 April 2001.
 
 The IT team is expected to check the requirements for both programs used and data owned by the organisation. In case of doubt, they can consult Luxembourg law at http://www.eco.public.lu/dpi (in French), or contact a legal expert.
 
@@ -43,31 +43,31 @@ Data corresponding to commercial activity must be kept, in one form or another, 
 ### Directly associated organisational measures:
 
 * [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}\#attribution-of-responsibilities)
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}\#classification-and-responsibility-for-resources)
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 * [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}\#documentation-of-procedures)
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
 * [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}\#access-rights-management)
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
-  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}\#reporting-information-security-events)
+  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
 *[ Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}\#operational-continuity)
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 * [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}\#personal-data-protection)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
 
 ### Technical measures:
 
-* [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}\#encryption)
-* [Backups]({% link _publications/ProtectingYourCompany.markdown %}\#data-backups)
+* [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
+* [Backups]({% link _publications/ProtectingYourCompany.markdown %}#data-backups)
 
 ## Personal data protection
 Any file or database created must comply with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data, as well as the new GDPR legislation. The same applies to processing involving both newly created data and pre-existing data. (SMEs: see [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring))
 
-In order to work within the confines of the laws, the IT manager and the legal manager, having obtained the applicable texts from the [National Commission for Data Protection]({{site.url}}https://cnpd.public.lu/fr.html) (hereinafter the *Commission*) ensure the adequacy of the structure, notably in the following areas:
+In order to work within the confines of the laws, the IT manager and the legal manager, having obtained the applicable texts from the [National Commission for Data Protection](https://cnpd.public.lu/en.html) (hereinafter the *Commission*) ensure the adequacy of the structure, notably in the following areas:
 
 * declaration of data and processing to the Commission;
 * obtaining authorisation from the Commission whenever necessary;
