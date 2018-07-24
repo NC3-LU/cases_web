@@ -46,7 +46,7 @@ Within an organisation, the following are required:
 * You should set up a specialised service to analyse suspicious or doubtful files. The IT department or an external expert can open the files in a specialised environment.
 * If infection is suspected, scan your computer with an antivirus program on a live CD
 * Since some malicious code (worms) exploits technical vulnerabilities, you should always apply [patches]({% link _knowhow/glossary/Patches.markdown %}) and updates to your operating system and any applications used on the system in question.
-* Since some malicious code (worms) uses automated mechanisms to spread itself, [the network should be partitioned] ({% link _knowhow/glossary/NetworkSegmentation.markdown %})using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
+* Since some malicious code (worms) uses automated mechanisms to spread itself, [the network should be partitioned]({% link _knowhow/glossary/NetworkSegmentation.markdown %})using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
 
 ## Security policy
 Write and apply the following sectoral policies:
@@ -58,7 +58,7 @@ Write and apply the following sectoral policies:
   * [Security as a mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
   * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
   * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-*[ Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
   * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
   * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
   * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
@@ -72,7 +72,7 @@ Write and apply the following sectoral policies:
   * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
   * [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
   * [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-*[ Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
   * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
   * [Analysis of non-fulfilment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
@@ -84,7 +84,7 @@ Write and apply the following sectoral policies:
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
 
-##Different types of antivirus
+## Different types of antivirus
 
 ### Solutions for computers
 

@@ -312,7 +312,7 @@ Particularly in this area, it is crucial to frame everything with organisational
 * implement video surveillance.
 
 ##### Comments
-Before implementing these surveillance measures, please seek authorisation from the National Committee for Data Protection ([Commission Nationale pour la Protection des Données](https://cnpd.public.lu/en.html).
+Before implementing these surveillance measures, please seek authorisation from the National Committee for Data Protection ([Commission Nationale pour la Protection des Données](https://cnpd.public.lu/en.html)).
 
 SMEs: see
 

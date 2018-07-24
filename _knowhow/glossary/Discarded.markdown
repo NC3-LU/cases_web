@@ -60,11 +60,11 @@ Faites alors un click droit sur votre Poste de travail et sélectionnez « Gére
 
 
 
-Sélectionnez maintenant vos comptes habituels et effacez-les en appuyant sur la touche [Delete] :
+Sélectionnez maintenant vos comptes habituels et effacez-les en appuyant sur la touche `[Delete]` :
 
 
 
-Puis effacez le répertoire personnel des comptes effacés qui se trouve sur ‘C://Documents and Settings/’ ou ’C://Users’ pour des versions de Windows plus récentes :
+Puis effacez le répertoire personnel des comptes effacés qui se trouve sur `C://Documents and Settings/` ou `C://Users` pour des versions de Windows plus récentes :
 
 
 
@@ -91,7 +91,7 @@ Choisissez alors l’onglet « Restauration du système » et désactivez cette 
 
 
 Si vous souhaitez aller encore plus loin, éliminez le fichier de mémoire virtuelle, qui pourrait contenir des bribes de mémoire compromettantes, en allant sur l’onglet « Avancé », le bouton « Paramètres » de « Performances », onglet « Avancées », mémoire virtuelle. Cette dernière étape n’est pas aussi importante et peut être ignorée.
-Si vous avez encore des données à d’autres endroits il est à présent important de les effacer. Sélectionnez les dossiers ou fichiers à effacer et appuyez sur les touches [shift]+[delete] pour les effacer sans les envoyer par la corbeille. Si vous avez effacé les fichiers de manière conventionnelle, pensez juste à vider la corbeille.
+Si vous avez encore des données à d’autres endroits il est à présent important de les effacer. Sélectionnez les dossiers ou fichiers à effacer et appuyez sur les touches `[shift]+[delete]` pour les effacer sans les envoyer par la corbeille. Si vous avez effacé les fichiers de manière conventionnelle, pensez juste à vider la corbeille.
 Effacez alors les données cachées en utilisant ccleaner :
 
 

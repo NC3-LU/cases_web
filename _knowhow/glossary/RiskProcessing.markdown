@@ -66,8 +66,8 @@ A threat analysis can be treated as an optional approach enabling a more detaile
 See: [Check list of security measures for SMEs]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList.markdown %})
 
 * Threats to [infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-* Threats to [software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown  %})
-* Threats to [hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown  %})
+* Threats to [software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
+* Threats to [hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
 * Threats to [human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
 * [Legal aspects]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
 

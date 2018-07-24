@@ -15,15 +15,10 @@ WOT signifie 'Web of Trust' que l'on peut traduire par "Internet/Toile de confia
 L’objectif principal de WOT est de mettre à disposition des internautes, des notes et une classification des sites Internet visités par l'utilisateur, ainsi qu'un avertissement lorsqu’il y a un risque, sur les sites concernés de :
 
 - fraudes en ligne ([phishing]({% link _knowhow/glossary/Phishing.markdown %}))
-
 - [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites.markdown %})
-
 - **usurpation d'identité**
-
 - présence de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-
 - [courriers électroniques]({% link _knowhow/glossary/Email.markdown %}) indésirables ([Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}))
-
 - sites de vente en ligne / e-commerce non fiables
 
 ## Mode de fonctionnement
@@ -38,13 +33,9 @@ WOT fonctionne sur un système collaboratif : ce sont les internautes qui notent
 WOT permet très rapidement de voir la note obtenue par un site grâce à une simple icône que nous appellerons « icône de notation ». Celle‐ci représente un petit rond qui peut arborer différentes couleurs :
 
 - vert foncé : la note est excellente
-
 - vert clair : la note est bonne
-
 - jaune : la note est douteuse
-
 - orange : la note est mauvaise
-
 - rouge : la note est très mauvaise
 
 Ces notes sont indicatives car basées sur des témoignages d’utilisateurs qui peuvent avoir intérêt à noter un site plus ou moins favorablement. Vous pourrez trouver sous ce lien (http://www.mywot.com/fr/support/main) de plus amples informations.

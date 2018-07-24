@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Firewall"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
@@ -14,7 +14,7 @@ Un firewall ou pare-feu est un dispositif physique (matériel) ou logique (logic
 
 Le firewall fonctionne comme filtre et analyseur de trames réseau. Une entreprise qui aurait un serveur de fichiers pour son réseau interne et qui voudrait que celui-ci ne soit pas accessible depuis l'Internet pourrait effectivement utiliser un firewall pour bloquer les communications vers celui-ci.
 
-Il permet donc d'une part de bloquer des attaques ou connexions suspectes pouvant provenir de [codes malicieux](-) comme notamment les virus, vers ou chevaux de Troie. D’un autre côté, un firewall sert dans de nombreux cas également à éviter la fuite non contrôlée d’informations vers l’extérieur.
+Il permet donc d'une part de bloquer des attaques ou connexions suspectes pouvant provenir de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %}) comme notamment les virus, vers ou chevaux de Troie. D’un autre côté, un firewall sert dans de nombreux cas également à éviter la fuite non contrôlée d’informations vers l’extérieur.
 
 Souvent le produit firewall contient aussi d'autres outils de sécurité comme un [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) ou un proxy et permet ainsi non seulement de bloquer les connexions non désirées mais aussi de vérifier de manière automatique le contenu des communications et de bloquer les contenus indésirables.
 

@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Malicious Codes"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
@@ -73,33 +73,19 @@ Le spyware externalisé est une application autonome dialoguant avec le logiciel
 L'organisme doit rédiger et faire respecter plusieurs politiques sectorielles :
 
 * [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-
   * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-
 * [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-
   * [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
-
   * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-
   * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-
 * [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-
   * [Protection contre les codes malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-
   * [Courrier électronique]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
-
 * [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-
   * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
-
   * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
-
   * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-
 * [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
-
   * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
 ### **MESURES TECHNIQUES**
