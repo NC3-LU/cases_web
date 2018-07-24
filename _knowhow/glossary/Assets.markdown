@@ -21,7 +21,7 @@ On distingue entre:
 ## Les actifs primaires
 Par actifs primaires, on entend les processus métiers ainsi que les informations de l'organisme. Chaque actif primaire présente une certaine [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) pour l'organisme. Ainsi il y a des processus métier plus ou moins importants, il y a des processus métier ou l'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) joue un rôle plus important que la [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}) (service du cadastre) et ainsi de suite. Il en est de même pour les informations. Il y a des informations très importantes et moins importantes. Il y a des informations ou la confidentialité est plus importante que la [disponibilité]({% link _knowhow/glossary/Availability.markdown %}).
 
-L'[analyse de risques]({% link _publications/RiskManagement.markdown %}\#risk-estimation) est en faite calculée sur base de la criticité des actifs primaires. Les actifs de support nécessaires à la réalisation ou des processus métier héritent de la criticité des actifs primaires.
+L'[analyse de risques]({% link _publications/RiskManagement.markdown %}#risk-estimation) est en faite calculée sur base de la criticité des actifs primaires. Les actifs de support nécessaires à la réalisation ou des processus métier héritent de la criticité des actifs primaires.
 
 ## Les actifs de support
 EBIOSv2 propose une catégorisation des entités et des actifs de support autour de 7 types:

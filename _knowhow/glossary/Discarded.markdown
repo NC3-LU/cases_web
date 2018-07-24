@@ -53,7 +53,7 @@ La destruction ciblée des données présente néanmoins quelques gros inconvén
 Nous allons, en plus des outils déjà présents sur votre ordinateur, utiliser le logiciel suivant : ccleaner – téléchargeable sur http://www.piriform.com/ccleaner
 
 ### DESTRUCTION DES DONNÉES
-Il existe par défaut un compte « Administrateur » dans tout système Windows. Fermez votre session actuelle (démarrer->Fermer la session). Vous vous retrouverez devant un écran d’authentification Windows. L’utilisateur « Administrateur » est malheureusement caché : il faut donc appuyer sur *ctrl+*alt+*delete+ pour faire apparaître la fenêtre d’authentification classique.
+Il existe par défaut un compte « Administrateur » dans tout système Windows. Fermez votre session actuelle (démarrer->Fermer la session). Vous vous retrouverez devant un écran d’authentification Windows. L’utilisateur « Administrateur » est malheureusement caché : il faut donc appuyer sur `ctrl + alt + delete` pour faire apparaître la fenêtre d’authentification classique.
 
 Cet utilisateur spécial s’appelle « Administrateur » dans la version française de Windows mais « Administrator » en anglais ou allemand. Si vous ne vous souvenez plus du mot de passe « Administrateur » nous vous conseillons de créer un nouvel utilisateur ayant les droits d’administration et d’utiliser celui-ci. Ce qui importe, c'est que vous ne soyez pas authentifié avec votre utilisateur habituel.
 Faites alors un click droit sur votre Poste de travail et sélectionnez « Gérer » :
@@ -67,7 +67,7 @@ Sélectionnez maintenant vos comptes habituels et effacez-les en appuyant sur la
 Puis effacez le répertoire personnel des comptes effacés qui se trouve sur ‘C://Documents and Settings/’ ou ’C://Users’ pour des versions de Windows plus récentes :
 
 
- 
+
 
 Ensuite il est important de désinstaller les logiciels que l’on ne veut pas céder, par exemple pour des raisons de licences. Il est possible d’utiliser les fonctionnalités de désinstallations intégrées à Windows, mais ccleaner est sensiblement plus rapide. Lancez donc ccleaner :
 

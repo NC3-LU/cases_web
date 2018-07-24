@@ -9,11 +9,11 @@ categories: knowhow
 toc: true
 ---
 
-## In brief</h3>
+## In brief
 
 Le critère d'intégrité est l'assurance qu' une information ne peut être modifiée que par des personnes ou des processus autorisés et selon une procédure établie. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}) voulant garantir le critère d'intégrité doivent donc veiller à ce qu'aucune personne ne puisse changer des informations sans permission ou de façon erronée. (Voir aussi la [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}))
 
-## Mise en péril du critère d'intégrité</h3>
+## Mise en péril du critère d'intégrité
 
 Voici une liste, non exhaustive, des menaces qui peuvent mettre en péril le critère d'intégrité d'un actif :
 

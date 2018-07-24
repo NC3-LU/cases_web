@@ -66,7 +66,7 @@ Template Name: cases.lu
 /*****Space between categories on HomePage*****************/
 
 .row-spacer {
-		margin-top: 120px;
+		margin-top: 40px;
 }
 
 /*******Highlighted text Homepage**************************/
@@ -142,7 +142,7 @@ Template Name: cases.lu
 		line-height: 1cm;
 		margin-top: 40px;
 		font-family: 'Lato', tahoma;
-		font-weight: 600;
+		font-weight: normal;
 		font-size: 1.2em;
 		font-style: italic;
 	}
