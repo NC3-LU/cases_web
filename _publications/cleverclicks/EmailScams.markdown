@@ -21,7 +21,7 @@ Other frequent variants of advance fee fraud include, for example, dangling lott
 These messages are harmless until they are answered. However, as soon as you give any type of response, you will be told that your win is within reach but you must pay a "processing fee" or legal fees before receiving your prize. 
 
 ## Phishing
-[Phishing]({% link _knowhow/glossary/Phishing.markdown %}) is a widely used technique for stealing the username and [password]({% link _knowhow/glossary/Password.markdown %}) of a legitimate user. Phishing very often uses fear of a virtual [threat](-) and urges the victim to act quickly. This is largely due to the fact that the infrastructure used by phishing users does not usually stay in place for long because the police or the host stop it as soon as the illegal activities are discovered.
+[Phishing]({% link _knowhow/glossary/Phishing.markdown %}) is a widely used technique for stealing the username and [password]({% link _knowhow/glossary/Password.markdown %}) of a legitimate user. Phishing very often uses fear of a virtual [threat]({% link _knowhow/glossary/Threat.markdown %}) and urges the victim to act quickly. This is largely due to the fact that the infrastructure used by phishing users does not usually stay in place for long because the police or the host stop it as soon as the illegal activities are discovered.
 
 **Advice**:
 * Never click on the links in emails that claim to have been sent by your bank. Luxembourg banks do not send emails asking you to enter your data.
@@ -46,7 +46,7 @@ These messages are harmless until they are answered. However, once you answer th
 **Advice**:
 * Never reply to this type of email. If in doubt, look for the supposed debtor in the yellow pages and make contact with them using these details rather than those in the mail.
 * Never open any files attached to these emails. These are very often infected by malware ([what to do in the event of malware infection]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}))
-* Make your staff undertake regular [security awareness training](-) and ensure they understand these types of attacks;
+* Make your staff undertake regular [security awareness training]({% link _services/trainings.markdown %}) and ensure they understand these types of attacks;
 * Ensure that the accounting department applies all verification procedures regarding transfers, in particular international transfers;
 * Check the digital signature procedures of these transfers;
 * Increase the monitoring level when new bank details are recorded;

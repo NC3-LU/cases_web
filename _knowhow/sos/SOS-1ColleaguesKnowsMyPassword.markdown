@@ -10,7 +10,7 @@ toc: true
 ---
 
 In brief
-A [password]({ % link _/knowhow/glossary/Password.markdown %}) is used to authenticate a person and to grant them access to the resources which they have a right to access. Passwords are strictly private. If someone else knows your password, they could commit offences under your identity. On top of this, operations carried out by a user may be recorded (they must be recorded under certain circumstances as detailed by the CNPD) and the user may be held responsible for their actions.
+A [password]({ % link _knowhow/glossary/Password.markdown %}) is used to authenticate a person and to grant them access to the resources which they have a right to access. Passwords are strictly private. If someone else knows your password, they could commit offences under your identity. On top of this, operations carried out by a user may be recorded (they must be recorded under certain circumstances as detailed by the CNPD) and the user may be held responsible for their actions.
 
 If another user knows your password, try and proceed as follows:
 
@@ -22,9 +22,9 @@ If a user has procured your password illegally, report this security incident to
 
 Sectoral policy on access control
 
-* [Access control policy]({ % link _/knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-* [Access rights management]({ % link _/knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-* [Password management]({ % link _/knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management)
-* [Use of external networks]({ % link _)
-* [External connections]({ % link _/knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
-* [Login procedure]({ % link _/knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
+* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
+* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
+* [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management)
+* [Use of external networks]({% link _ %})
+* [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
