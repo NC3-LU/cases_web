@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% comment %} Latest compiled and minified JavaScript {% endcomment %}
-
-  <script src="/assets/jquery-1.12.4.min.js"></script>
-  <script src="/assets/bootstrap.min.js"></script>
-  <script src="/assets/jquery.touchSwipe.min.js"></script>
-
-
   {% include head.html %}
 
   <body>
 
     {% include header.html %}
 
-  
+
     <div class="col-md-12" style="padding-bottom: 20px;">
     {{ content }}
     </div>
-    
 
-      
+
+
     {% include footer.html %}
-      
+
   </body>
 </html>

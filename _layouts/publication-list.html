@@ -3,23 +3,10 @@ layout: default
 ---
 {% assign pagelist = site.publications %}
 
-{% comment %}
-    Insert categories in list-cat
-{% endcomment %}
-
 {% assign list-cat = "iso, bestpractice, scams, securing"|split: ", "|compact %}
-
-{% comment %}
-  Insert categories's name (Button)
-{% endcomment %}
 
 {% assign list-name = "ISO/IEC 27000, Good Practice, Scams, Securing Devices"|split: ", " |compact%}
 {% assign i = 0 %}
-
-{% comment %} 
-    list-cat minus 1 to not have an empty category 
-{% endcomment %}
-
 
 {% assign listlen = list-cat.size | minus: 1 %}
 
@@ -47,10 +34,6 @@ layout: default
   {% endif %}
 </div>
 
-
-{% comment %}
-  if the page equals to the main page Publications there is no TOC on the right
-{% endcomment %} 
 
 {% if page.title == "Publications" %}
   <div class="col-md-2"></div>

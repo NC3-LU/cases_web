@@ -1,6 +1,3 @@
-{% comment %}
-function for carousel
-{% endcomment %}
 
 <script language="JavaScript" type="text/javascript" >
     $(".carousel").swipe({
@@ -13,7 +10,6 @@ function for carousel
 </script>
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="12000">
-    {% comment %} Wrapper for slides {% endcomment %}
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <a  href="{{ "/services/diagnostic.html" | relative_url }}"><img src="{{ "/assets/img/services/diagnostic-CMYK.jpg" | relative_url }}"/>
@@ -44,7 +40,7 @@ function for carousel
             </a>
         </div>
 
-        {% comment %} Controls {% endcomment %}
+        {% comment %} Control buttons {% endcomment %}
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
