@@ -82,7 +82,7 @@ When travelling or on business trips, make sure you: 
 
 * keep an eye on your IT equipment. Ill-intentioned persons could try to ambush it or install malicious codes. ([Threats]({% link _knowhow/glossary/Threat.markdown %}): see equipment traps, software traps). 
 
-You should also remember that even equipment located within the organisation can be easily infected if ill-intentioned people gain access to it. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}]#addition-or-removal-of-hardware) and [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software)).
+You should also remember that even equipment located within the organisation can be easily infected if ill-intentioned people gain access to it. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software)).
 
 ## Minimise the impacts
 Each employee should know how to act in case of infection:  
