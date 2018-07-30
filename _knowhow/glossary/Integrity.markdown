@@ -31,7 +31,7 @@ Voici une liste, non exhaustive, des menaces qui peuvent mettre en péril le cri
 
   * Altération de données
 
-  * Traitement illicite des données (PME: voir [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) et [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}\#regulatory-requirements))
+  * Traitement illicite des données (PME: voir [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) et [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
 
 * **COMPROMISSION DE FONCTIONS**
   * Erreur d'utilisation (PME: voir [Erreur humaine]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures))

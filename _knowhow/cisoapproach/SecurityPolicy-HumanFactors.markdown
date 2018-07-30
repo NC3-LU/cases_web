@@ -26,8 +26,8 @@ Additionally, any person with technological responsibilities must ensure that th
 ### See also:
 
 * [Protecting your business – Training your employees]({% link _publications/ProtectingYourCompany.markdown %})
-* [Awareness and training]({% link _publications/ProtectingYourCompany.markdown %}\#training-and-awareness)
-* [Human errors]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}\#human-error-prevention-measures)
+* [Awareness and training]({% link _publications/ProtectingYourCompany.markdown %}#training-and-awareness)
+* [Human errors]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures)
 
 ## Human Resources management
 
