@@ -11,13 +11,13 @@ layout: default
 {% assign i = 0 %}
 
 
-{% comment %} 
-  Layout of the left's TOC 
+{% comment %}
+  Layout of the left's TOC
 {% endcomment %}
 
 {% comment %}
-    Sort the pages with the tag "main-categ", add each keyword to the string "list-cat" 
-{% endcomment %} 
+    Sort the pages with the tag "main-categ", add each keyword to the string "list-cat"
+{% endcomment %}
 
 {% assign list-cat = pagelist |map: 'main-categ' |uniq |compact %}
 
@@ -28,19 +28,14 @@ layout: default
 
 {% include menus/filemenu.html %}
 
-  <div class="col-md-8">
-  <div class="row-fluid row-fluid--padding thecontent">
+<div class="col-md-8">
+  <div class="row row-fluid--padding thecontent">
     <h1>{{ page.title }}</h1>
     <div class="thecontent">
       {{ content | inject_anchors }}
     </div>
-
   </div>
-
 </div>
 
 {% assign tocname="knowhow" %}
 {% include menus/toc.html %}
-
-
-
