@@ -17,7 +17,6 @@ The CASES training catalogue targets different professional audiences.
 * [Induction in information security]({% link _services/trainings/initiation.markdown %})
 * [Training for leaders and decision-makers]({% link _services/trainings/directordecisionmakers.markdown %})
 * [Training for executives and managers]({% link _services/trainings/managers.markdown %})
-* [Training for IT personnel]({% link _services/trainings/itpersonel.markdown %})
 * [Training for trainers]({% link _services/trainings/trainthetrainer.markdown %})
 
 

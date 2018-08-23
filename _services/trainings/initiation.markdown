@@ -1,45 +1,45 @@
 ---
 layout: page
-title:  "Initiation à la sécurité de l'information"
+title:  "Induction in information security: cybersecurity for everyone"
 menutitle:
 logo:
-short: 
+short:
 group: trainingpage
 ---
-Les nouvelles technologies nous offrent de multiples possibilités, mais nous obligent, de l'autre côté, d'affronter une multitude de risques liés à la société de l'information. Chaque jour, nous sommes exposés à des impacts, vulnérabilités et menaces capables à mettre à genoux les TIC et ceci tant dans nos vies professionnelles que privées. Reconnaître les menaces et savoir comment les traiter ou, mieux encore, les éviter est essentiel.
+Information security within a given organisation depends above all on individual and collective behaviour. The management’s role is therefore fundamental in making sure that everyone adopts good practices and that the way work is organised does not open up a breach in security
 
 ## Objectifs:
 
-* comprendre les enjeux fondamentaux de la sécurité d’information ;
-* acquérir les bons réflexes en matière de cyber-sécurité ;
-* apprendre à protéger son patrimoine informationnel (privé ou professionnel).
+* Understanding the basics of information security
+* Acquiring the right reflexes
+* Learning how to protect the information assets (private or professional)
+
 
 ## Programme:
 
 ###### Intro
 
-* Menaces (internes/externes) et vulnérabilités : d’où viennent-elles ? Comment les reconnaître ?
-* Comment s’en protéger.
+* Invisible danger, unbelievable threats and optical illusions
+* Identify threats and vulnerabilities
+* Protect yourself
 
-###### Adopter les 1er réflexes
+###### Basics
 
-* Sécurité physique : le premier rempart.
-* Kit de survie : mots de passe, configuration du poste de travail, installation d’applications, …
+* Wear helmet and shield
+* Keep secrets
+* Build battlements
 
-###### Se protéger
+###### Protection
 
-* Facteur humain : maillon fort et maillon faible.
-* Ingénierie sociale, hameçonnage : protection de la cellule personnelle, familiale et relationnelle.
-* Utilisation de la messagerie, des moyens de communications, des réseaux sociaux (vie privée/vie professionnelle), …
+* Human factor: the weak link
+* Human factor: the strong link
+* Social engineering: some gifts are poisoned
+* Message in a bottle: do you know where it comes from?
 
-###### Gérer sa sécurité
 
-* Incidents de sécurité : actes de malveillance, attaques, négligences, accident, impacts …
-* Prévention et protection : comment mettre en place les bonnes mesures ?
-* Mobilité : utiliser en toute sécurité les smartphones, tablettes, ordinateurs portables…
 
-**PUBLIC**: Employés, indépendants ou particuliers
+**TARGET**: Employees, self-employed or everyone else
 
-**DURÉE**: Formation de trois heures dispensée par un expert en sécurité.
+**DURATION**: 3 hours.
 
-[Informations et inscriptions](mailto:services@cases.lu?subject=Formation%20CASES)
+Information requests and bookings can be done through [C3](https://c-3.lu/catalogue/awareness/) or via [E-Mail](mailto:services@cases.lu?subject=Formation%20CASES)

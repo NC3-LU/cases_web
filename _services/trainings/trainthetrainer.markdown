@@ -1,43 +1,43 @@
 ---
 layout: page
-title:  "Formation des formateurs"
+title:  "Training for Trainers"
 menutitle:
 logo:
 short:
 group: trainingpage
 ---
-Connaître les bases de la sécurité de l’information est une chose. Les transmettre en est une autre…
+Teaching your colleagues is the best way to maintain your knowledge and stay in touch with the problems they are facing in their everyday work.
 
 ## Objectifs
 
-* Former des formateurs pour internaliser les sensibilisations à la sécurité de l’information.
-* Disposer de compétences en interne pour faire progresser la maturité de l’organisation en matière de cyber sécurité.
+* Training the trainers in order to improve in-house awareness of information security
+* Building in-house competencies to strengthen the cybersecurity maturity of the organisation
 
 ## Programme
 
-* Rappel et approfondissement des programmes Initiation + Formation Manager (Fiche 1 et Fiche2).
-  * Méthodes pédagogiques
-  * Sensibiliser sans culpabiliser
-  * Mettre en valeur le ROI de la sécurité
-  * Utiliser les exemples de la vie courante
-  * Organiser des mises en situation / Jeux de rôles
-  * Adapter son cours au niveau de maturité du public
-* Outils pédagogiques
-  * Comment fabriquer un bon mot de passe ?
-  * Comment gérer ses mots de passe ?
-  * Comment tester une url ?
-  * Comment sécuriser son browser ?
-  * Comment paramétrer son compte facebook, sa messagerie électronique ?
-  * Comment chiffrer ses données ?
-  * Comment sécuriser ses interfaces mobiles ?
-  * Comment sécuriser son wifi ?
-  * Comment mettre en place une stratégie de sécurité cohérente ?
-* Initiation à l’analyse des risques
 
-**Public**: Personnel IT, formateurs…
+* Teaching methods
+  * Increasing awareness without imposing guilt
+  * Highlighting the ROI (return on investment) of security
+  * Using everyday examples
+  * Organising situation-staging / Role-playing
+  * Adapting courses to the maturity level of their target audience
+* Educational tools
+  * How to create a good password
+  * How to manage passwords
+  * How to test a url
+  * How to make your browser safe
+  * How to configure a Facebook account and an e-mail account
+  * How to encrypt data
+  * How to keep mobile interfaces safe
+  * How to keep your Wi-Fi connection safe
+  * How to set up a coherent security strategy
+  * Introduction to risk analysis
 
-**Prérequis**: Avoir suivi la formation Initiation et la formation Manager
 
-**Durée**: Formation d’une journée dispensée par un expert en sécurité.
+**TARGET** : IT Personnel, trainers, etc.
 
-[Informations et inscriptions](mailto:services@cases.lu?subject=Formation%20CASES)
+**DURATION**: One-day training course delivered by a security expert
+
+
+Information requests and bookings at [C3](https://c-3.lu/catalogue/awareness-train-the-trainer/) or via [E-Mail](mailto:services@cases.lu?subject=Formation%20CASES)
