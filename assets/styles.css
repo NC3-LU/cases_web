@@ -8,6 +8,25 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 
 
+.language-selector {
+	float: right;
+}
+
+.language-selector > ul > li{
+	display: inline-block;
+	width: 40px;
+	height: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.servicebox {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /*****Layout of the table in /glossary/BasicCriteria***/
 .table  {
 	border-collapse:collapse;
@@ -135,73 +154,6 @@ Template Name: cases.lu
 	text-decoration: underline;
 	color: #565656;}
 
-/*-----CAROUSEL--------------------------*/
-
-	.carousel-text {
-		height: 200px;
-		line-height: 1cm;
-		margin-top: 40px;
-		font-family: 'Lato', tahoma;
-		font-weight: normal;
-		font-size: 1.2em;
-		font-style: italic;
-	}
-
-	.carousel-control.left, .carousel-control.right {
-		background-image:none !important;
-		filter:none !important;
-		color: #ffff4d;
-	}
-
-	.carousel {
-		text-align: center;
-		width: 100%;
-		height: auto;
-		margin-top: 50px;
-		margin-right: 40px;
-
-	}
-
-	.carousel .carousel-control {
-		visibility: hidden;
-	}
-	.carousel:hover .carousel-control {
-		visibility: visible;
-	}
-
-	/**** Button of the carousel where "Services" is written****/
-	.btn-carousel{ text-decoration: none;
-		-moz-border-radius: 30px;
-		-webkit-border-radius: 30px;
-		border-radius: 30px;
-		width:100%;
-		padding: 10px;
-		background-color: rgb(0,114,184);
-		color: #fff;
-		text-transform: uppercase;
-		font-family: sans-serif;
-		font-weight: bold;
-		position: relative;
-		display: inline-block;
-		outline-style: none;
-	}
-
-	.btn-carousel:hover {
-		text-decoration: none;
-		-moz-border-radius: 30px;
-		-webkit-border-radius: 30px;
-		border-radius: 30px;
-		padding: 10px;
-		width: 100%;
-		color: #ffff4d;
-		background-color: rgb(0,114,184);
-		text-transform: uppercase;
-		font-family: sans-serif;
-		font-weight: bold;
-		position: relative;
-		display: inline-block;
-		outline-style: none;
-	}
 
 	/*-------------PUBLICATION-LIST------------*/
 	/*----Display, with a button, publications

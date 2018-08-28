@@ -1,8 +1,8 @@
 ---
 layout: legal
 title: Legal information
-permalink: /legal/
-lang: en
+permalink: /de/legal/
+lang: de
 ref: legal
 ---
 

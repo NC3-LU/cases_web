@@ -19,6 +19,7 @@ layout: default
 
 {% if page.group contains "post" %}
 <div class="col-md-8 thecontent">
+  {% include menus/language-selector.html %}
   <h1>{{ page.title }}</h1>
 	<p class="post-meta">
     <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -42,7 +43,7 @@ layout: default
     </div>
 
   </div>
-  
+
 </div>
 
 {% endif %}
@@ -50,4 +51,3 @@ layout: default
 <div class="col-md-2">
 
 </div>
-
