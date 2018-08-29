@@ -472,7 +472,10 @@ Template Name: cases.lu
 /**************************Navbar*************************************************/
 		/* Dropdown menu background color*/
 
-		.nav-navbar > ul > .dropdown {     background-color: #e7e7e7;  }
+
+
+		.nav-navbar > ul > .dropdown {     background-color: #ffffff;  }
+		.nav-navbar > ul > .dropdown:hover {color: #ffffff; border-bottom: 2px solid black;	background-color: rgb(0,114,184); }
 
 		/* Dropdown menu font color*/
 
@@ -592,7 +595,7 @@ Template Name: cases.lu
   	text-align: left;
   }
   .menu ul li a:hover, .menu ul li:hover > a {
-  	background: #fff;
+  	background: #efefef;
   	border-bottom: none;
   	color: #0066B2;
   }
