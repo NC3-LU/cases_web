@@ -1,35 +1,39 @@
 <div class="col-md-12 well--blue">
 	<div class="col-md-2"></div>
-	<div class="credits-section">
-		<div class="col-md-1">
+		<div class="col-md-2 credits-section">
 			<div class="footer-credits txtleft">
-				<a class="logo" href="{{ "/" | relative_url }}">CASES.lu</a>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="footer-credits txtcenter">Copyright © <a href="https://securitymadein.lu">SMILE</a> g.i.e. {{ 'now' | date: "%Y" }} | <a href="https://c-3.lu">c-3.lu</a> | <a href="https://cases.lu">cases.lu</a> | <a href="https://circl.lu">circl.lu</a></div>
-		</div>
-		<div class="col-md-3">
-			<div class="footer-credits text-right">
 				<ul>
-					<li><a title="About us" href="{% link contact.md %}">About us</a></li>
-					<li><a title="Legal" href="{% link legal.md %}">Legal</a></li>
-					<li><a title="Privacy" href="{% link legal.md %}#privacy">Privacy</a></li>
-
-					<li>
-						<a title="Youtube" target="_blank" href="https://www.youtube.com/user/CASESLuxembourg">
-							<img class="logo-footer" src="{{ "/assets/img/youtube_social_circle_dark.png" | relative_url }}"/>
-						</a>
-					</li>
 					<li>
 						<a title="Twitter" target="_blank" href="https://twitter.com/cases_lu?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Flocalhost%3A4000%2F">
 							<img class="logo-footer" src="{{ "/assets/img/Twitter_Social_Icon_Circle_White.png" | relative_url }}"/>
 						</a>
 					</li>
 
+					<li>
+						<a title="Youtube" target="_blank" href="https://www.youtube.com/user/CASESLuxembourg">
+							<img class="logo-footer" src="{{ "/assets/img/youtube_social_circle_dark.png" | relative_url }}"/>
+						</a>
+					</li>
+
+					<li>
+						<a title="Github" target="_blank" href="https://github.com/cases-lu">
+							<img class="logo-footer" src="{{ "/assets/img/github-9-512.png" | relative_url }}"/>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
-	</div>
+		<div class="col-md-4 credits-section">
+			<div class="footer-credits txtcenter">Copyright © <a href="https://securitymadein.lu">SMILE</a> g.i.e. {{ 'now' | date: "%Y" }} | <a href="https://c-3.lu">c-3.lu</a> | <a href="https://cases.lu">cases.lu</a> | <a href="https://circl.lu">circl.lu</a></div>
+		</div>
+		<div class="col-md-2 credits-section">
+			<div class="footer-credits txtright">
+				<ul>
+					<li><a title="About us" href="{% link contact.md %}">About us</a></li>
+					<li><a title="Legal" href="{% link legal.md %}">Legal</a></li>
+					<li><a title="Privacy" href="{% link legal.md %}#privacy">Privacy</a></li>
+				</ul>
+			</div>
+		</div>
 	<div class="col-md-2"></div>
 </div>

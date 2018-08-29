@@ -457,6 +457,7 @@ Template Name: cases.lu
 		.txtcenter{
 			text-align: center;
 		}
+
 		.font-boldcap {
 			font-weight: 800;
 			text-transform: uppercase;
@@ -652,6 +653,8 @@ Template Name: cases.lu
   	color: #FFFFFF;
   	padding: 0 15px;
   	margin: 10px 0;
+		min-height: 32px;
+		vertical-align: middle;
   }
   .footer-credits a {
   	color: #FFFFFF;
