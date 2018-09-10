@@ -4,7 +4,7 @@ title:  "Diagnostic CASES"
 menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"
 short: "The Diagnostic CASES helps you to reduce your exposure to common IT risks."
-lang: en
+lang: fr
 ref: diagnostic
 ---
 ## Why?

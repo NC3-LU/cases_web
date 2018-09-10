@@ -4,7 +4,7 @@ title:  "Trainings"
 menutitle:  "Trainings"
 logo: "/assets/img/services/trainings.png"
 short: "The CASES Trainings will teach information security knowledge and good practices to you and your teams."
-lang: en
+lang: de
 ref: trainings
 ---
 ### Why?

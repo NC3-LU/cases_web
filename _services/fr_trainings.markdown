@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "Trainings"
-menutitle:  "Trainings"
+title:  "Sensibilisations"
+menutitle:  "Sensibilisations"
 logo: "/assets/img/services/trainings.png"
 short: "The CASES Trainings will teach information security knowledge and good practices to you and your teams."
-lang: en
+lang: fr
 ref: trainings
 ---
 ### Why?

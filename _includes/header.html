@@ -24,7 +24,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                {% for service in site.services %}
+                {% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
+                {% if services == blank or services == empty or services == nil %}
+                  {% assign services=site.services | where:"lang", site.default_lang | sort: 'ref' %}
+                {% endif %}
+                {% for service in services %}
                   {% if service.menutitle %}
                     <li class="menuwithpic"><a href="{{ service.url | relative_url }}"><img src="{{ service.logo }}" class="menulogo" /> {{ service.menutitle | escape }}</a></li>
                   {% endif %}
@@ -36,7 +40,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                {% for category in site.knowhow %}
+                {% assign knowhows=site.knowhow | where:"lang", page.lang | sort: 'ref' %}
+                {% if knowhows == blank or knowhows == empty or knowhows == nil %}
+                  {% assign knowhows=site.knowhow | where:"lang", site.default_lang | sort: 'ref' %}
+                {% endif %}
+                {% for category in knowhows %}
                   {% if category.menutitle %}
                     <li><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
                   {% endif %}

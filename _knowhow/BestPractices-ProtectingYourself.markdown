@@ -8,6 +8,8 @@ short: "Learn the reflexes that can save you"
 categories: bestpract
 toc: true
 main-categ: bestpract
+ref: bestpractices
+lang: en
 ---
 ## In brief
 Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), falsification (loss of [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and even destruction (loss of [availability]({% link _knowhow/glossary/Availability.markdown %})).

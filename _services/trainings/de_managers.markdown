@@ -5,7 +5,7 @@ menutitle:
 logo:
 short:
 group: trainingpage
-lang: en
+lang: de
 ref: trainingmanagers
 ---
 Le patrimoine informationnel des entreprises est devenu un élément capital dans tous les secteurs d’activités. Les technologies de l’information et de la communication sont de plus en plus utilisées au quotidien, pour toutes sortes d’applications. Elles nous permettent d’améliorer notre productivité à condition de les utiliser correctement. Leur multiplication peut cependant poser des problèmes de sécurité. Grâce à quelques astuces, il est possible de réconcilier productivité et sécurité.

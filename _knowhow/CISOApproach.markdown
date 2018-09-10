@@ -8,6 +8,8 @@ short: "TODO: TRANSLATE - Renforcez vos défenses. Organisez votre protection."
 categories: ciso
 toc: true
 main-categ: ciso
+ref: cisoapproach
+lang: en
 ---
 ## En quelques mots
 

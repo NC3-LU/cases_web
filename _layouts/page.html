@@ -3,7 +3,8 @@ layout: default
 ---
 <div class="blocantiscroll col-md-2">
 	<h2>Services</h2>
-	{% for service in site.services %}
+	{% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
+	{% for service in services %}
 		{% unless service.group contains "training" %}
 
 		<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">

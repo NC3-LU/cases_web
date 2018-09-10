@@ -8,6 +8,8 @@ short: "TODO: TRANSLATE - Comment réagir en cas d'accident."
 categories: sos
 toc: true
 main-categ: sos
+ref: sosneedhelp
+lang: en
 ---
 
 ## In brief

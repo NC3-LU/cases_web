@@ -5,7 +5,7 @@ menutitle:
 logo:
 short:
 group: trainingpage
-lang: en
+lang: fr
 ref: tainingdirector
 ---
 La sécurité de l’information dépend avant toute chose des comportements individuels et collectifs dans une organisation donnée. Le rôle des dirigeants est donc fondamental pour faire en sorte que chacun adopte les bonnes pratiques et que l’organisation du travail n’ouvre pas de brèche dans la sécurité.

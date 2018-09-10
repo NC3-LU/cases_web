@@ -5,7 +5,7 @@ menutitle:
 logo:
 short:
 group: trainingpage
-lang: en
+lang: de
 ref: traininginitiation
 ---
 Information security within a given organisation depends above all on individual and collective behaviour. The management’s role is therefore fundamental in making sure that everyone adopts good practices and that the way work is organised does not open up a breach in security

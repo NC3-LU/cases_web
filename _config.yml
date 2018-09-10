@@ -25,10 +25,10 @@ github_username:  cases-lu
 markdown: kramdown
 #theme: minima
 plugins:
-  - jekyll-paginate 
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-toc
-  
+
 collections:
   services:
     output: true
@@ -39,6 +39,7 @@ collections:
 
 paginate: 4
 
+default_lang: en
 
 paginate_path: "/articles-list/page:num/"
 
@@ -56,9 +57,3 @@ paginate_path: "/articles-list/page:num/"
 
 # Ideal image slider
 iis_slider_array: []
-
-
-
-
-      
-      

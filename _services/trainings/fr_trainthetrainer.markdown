@@ -5,7 +5,7 @@ menutitle:
 logo:
 short:
 group: trainingpage
-lang: en
+lang: fr
 ref: trainingtrainer
 ---
 Teaching your colleagues is the best way to maintain your knowledge and stay in touch with the problems they are facing in their everyday work.

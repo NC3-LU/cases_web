@@ -4,7 +4,7 @@ title:  "Startup Kit"
 menutitle:  "Startup Kit"
 logo: "/assets/img/services/startupkit.png"
 short: "An online tool helping entrepreneurs to move towards a better cybersecurity strategy."
-lang: en
+lang: de
 ref: startupkit
 ---
 <img class="img-border" src="{{ 'assets/img/services/startupkit.jpg' | relative_url }}" style="float:right; width:450px; margin-left: 15px;" />

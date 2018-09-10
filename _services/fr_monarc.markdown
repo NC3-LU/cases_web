@@ -4,7 +4,7 @@ title:  "MONARC"
 menutitle:  "MONARC"
 logo: "/assets/img/services/monarc.png"
 short: "Optimized Risk Analysis Method - You will be more efficient and complete!"
-lang: en
+lang: fr
 ref: monarc
 ---
 ## Why?
