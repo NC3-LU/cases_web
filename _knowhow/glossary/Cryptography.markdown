@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarycryptography
+lang: en
 ---
 
 > Check to verify the completeness of this article.

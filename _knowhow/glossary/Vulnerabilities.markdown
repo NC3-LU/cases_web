@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossaryvulnerabilities
+lang: en
 ---
 Vulnerabilities are all the flaws in corporate [assets]({% link _knowhow/glossary/Assets.markdown %}) that could be exploited by [threats]({% link _knowhow/glossary/Threat.markdown %}), with the aim of compromising them. This exploitation can cause significant [impacts]({% link _knowhow/glossary/Impact.markdown %}). New vulnerabilities are regularly discovered.
 

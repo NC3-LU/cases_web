@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarydisposal
+lang: en
 ---
 ## In brief
 Data that belongs to you or which you process using your computer has different levels of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}). You probably don’t treat data you post on [social networks](-) and that which you keep solely on your hard drive in the same way. Customer information, your company’s strategic data, texts, letters or [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) constitute only the visible part of your behaviour on the computer. In addition to that, a certain amount of data is generated as a secondary product during such use: temporary files, browser history, user profiles and saved passwords are just a few examples. You therefore need to bear in mind that when you use a computer, you leave behind a trace, like a snail, of everything you have done.

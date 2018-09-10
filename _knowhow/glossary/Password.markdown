@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarypassword
+lang: en
 ---
 ## In brief
 The password, a basic element of IT security, [authenticates]({% link _knowhow/glossary/Authentication.markdown %}) and grants access to a resource or staff service.

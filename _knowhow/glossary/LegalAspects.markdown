@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarylegalaspects
+lang: en
 ---
 ## In brief
 Failure to comply with legislation in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).

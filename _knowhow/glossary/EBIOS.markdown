@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarymethodebios
+lang: en
 ---
 
 Créée en 1995 et maintenue par la DCSSI (Direction Centrale de la Sécurité des Systèmes d'Information) française, la méthode EBIOS® (Expression des Besoins et Identification des Objectifs de Sécurité) permet d'apprécier et de traiter les risques relatifs à la sécurité des systèmes d'information (SSI) en se fondant sur une expérience éprouvée en matière de conseil SSI et d'assistance à maîtrise d'ouvrage. EBIOS® est largement utilisée dans le secteur public (l'ensemble des ministères et des organismes sous tutelle), dans le secteur privé (cabinets de conseil, petites et grandes entreprises), en France et à l'étranger (Union européenne, Québec, Belgique, Tunisie, Luxembourg,etc.) par de nombreux organismes en tant qu'utilisateurs ou bénéficiaires d'analyses de risques SSI.

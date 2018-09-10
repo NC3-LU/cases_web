@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarypatches
+lang: en
 ---
 ## In brief
 Flaws can in some cases be used as an entry point for malicious code or malicious sites seeking unauthorised access to the computer. It is therefore important to correct these flaws by applying patches.

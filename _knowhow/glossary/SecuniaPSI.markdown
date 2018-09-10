@@ -4,9 +4,11 @@ title:  "Update softwares with Secunia PSI"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: 
+short:
 categories: knowhow
 toc: true
+ref: glossarysecuniapsi
+lang: en
 ---
 
 ## Pourquoi mettre à jour les logiciels sur son ordinateur

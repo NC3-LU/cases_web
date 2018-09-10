@@ -7,10 +7,12 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarybasiccriteriaforra
+lang: en
 ---
 
 ## In brief
-Lors de la définition du contexte dans lequel s'effectuera la gestion des risques, il s'agira d'établir des critères de base, qui serviront aussi bien à analyser les risques de l'organisme, que de proposer les solutions de traitements. 
+Lors de la définition du contexte dans lequel s'effectuera la gestion des risques, il s'agira d'établir des critères de base, qui serviront aussi bien à analyser les risques de l'organisme, que de proposer les solutions de traitements.
 
 ## Les menaces
 Un des moyens pour définir les critères de base au niveau des menaces est de définir une échelle de probabilités qui dépendra du contexte dont voici un exemple :
@@ -44,8 +46,8 @@ Critères de base des menaces:
     <td class="t-cell">au moins tous les ans</td>
   </tr>
 </table>
-		
-	
+
+
 
 
 ## Les vulnérabilités
@@ -72,9 +74,9 @@ Critères de base des vulnérabilités:
     <td class="t-cell">Vulnérabilité élevée, pas de mesure de protection efficace en place, ou elles sont mal adaptées</td>
   </tr>
 </table>
-	
-	
-	
+
+
+
 ## Les impacts
 
 Quant aux critères de base qui définissent les impacts, on se sert des différents niveaux d'impact. Ces critères peuvent aussi être déterminés selon l'objectif de sécurité, c'est à dire par rapport à la confidentialité, à l'intégrité ou encore par rapport à la disponibilité des actifs d'un organisme. Voir aussi les critères de classification des actifs avec des échelles différentes. C'est à l'organisme de choisir son approche dans l'analyse des risques. Plus la maturité de l'organisme sera grande, plus les échelles utilisées pourront être détaillées.

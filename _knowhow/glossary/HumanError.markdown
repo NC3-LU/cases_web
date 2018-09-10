@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossaryhumanerror
+lang: en
 ---
 ## In brief
 Considering human errors as [threats]({% link _knowhow/glossary/Threat.markdown %}) may seem a little insensitive, yet as statistics from various organisations show, they are still a very common cause of IT incidents. 

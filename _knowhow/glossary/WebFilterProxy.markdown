@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarywebfilterproxy
+lang: en
 ---
 ## In brief
 A large number of websites, both legal and illegal, that can be freely accessed online have content that is malicious, inappropriate, prohibited or bad for productivity. Accessing [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) may result in the installation of [malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %}) without the user’s knowledge. The organisation may also be held [liable]({% link _knowhow/glossary/Impact.markdown %}) for access to prohibited or illegal content.

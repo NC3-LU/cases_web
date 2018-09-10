@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossaryphysicalfaults
+lang: en
 ---
 ## In brief
 By physical failures we mean the disruption of the service or the faulty operation of one or more physical elements that make up the IT system.

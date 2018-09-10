@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarydatabackups
+lang: en
 ---
 ## In brief
 Backing up data is essential for any IT system. However, digital storage media are only reliable for certain period of time. Just as the stone tablets used in antiquity were subject to the effects of bad weather, natural disasters and wear, any modern IT system is also fallible. For a company, the loss of data can result in a definitive halt to business. If you want to keep your essential data ([availability]({% link _knowhow/glossary/Availability.markdown %})), sooner or later you will have to think about backup strategies for it.

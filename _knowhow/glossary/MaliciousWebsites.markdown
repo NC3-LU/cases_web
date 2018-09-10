@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: maliciouswebsites
+lang: en
 ---
 ## In brief
 The Internet offers us unique opportunities, but it is also the platform of choice for [cybercriminals]({%link _knowhow/glossary/Cybercriminals.markdown %}). In fact, web browsers serve as fantastic entry points for malicious software (malware).

@@ -1,12 +1,14 @@
 ---
 layout: article
 title:  "Impact"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
 categories: knowhow
 toc: true
+ref: glossaryimpact
+lang: en
 ---
 
 ## In brief

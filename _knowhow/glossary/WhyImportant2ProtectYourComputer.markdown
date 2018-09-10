@@ -7,6 +7,8 @@ date:   2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarywhyprotectyourcomputer
+lang: en
 ---
 ## In brief
 *A [virus({% link _knowhow/glossary/MaliciousCodes.markdown %})can paralyse your computer – it will no longer function correctly and will have to be repaired. It is extremely annoying!*

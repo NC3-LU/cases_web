@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarydataloss
+lang: en
 ---
 ## In brief
 We talk about loss of data when data is deleted or deteriorated in such a way as to make accessing it impossible. This situation may arise following various natural events (catastrophes), technical events (faults) or human actions (theft with destruction, or deliberate or accidental destruction).

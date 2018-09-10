@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossaryimagerights
+lang: en
 ---
 ## In brief
 The text below reproduces the contents of the BEE SECURE fact sheet on the subject and presents the legal aspects of taking and using images of people captured in public places and at various events. In particular, it emphasises whether and in which cases the authorisation of the subject may be required.

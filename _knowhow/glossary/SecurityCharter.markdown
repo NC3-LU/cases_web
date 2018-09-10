@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarysecuritycharter
+lang: en
 ---
 ## In brief
 Establishing a security charter is an essential step for any organisation wishing to enforce best security practices. It takes the form of a short document of just a few pages, which outlines the company's strategy from the perspective of information security and the basic rules to be applied by any employee.

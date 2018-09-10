@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarydrp
+lang: en
 ---
 ## In brief
 The purpose of a Disaster Recovery Plan (DRP) aims to plan for the timely re-establishment of an IT infrastructure. It aims to enable the operational recovery of services in the event of a disaster.

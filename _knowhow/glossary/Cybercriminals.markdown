@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarycybercriminals
+lang: en
 ---
 ## In brief
 A cybercriminal is a person who attempts an illegal attack on a particular computer system or who commits a conventional offence or crime using a computer tool or system.

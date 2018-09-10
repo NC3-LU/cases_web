@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-sos
 toc: true
+ref: sosegreetingcards
+lang: en
 ---
 
 Most people receive greetings cards over the winter period – many of them by email. Although many of these electronic greetings cards are perfectly inoffensive, others could be genuine risks to the private data and computers of their recipients. Remember these safety tips when you get an electronic greetings card and enjoy peace of mind over the festive period.

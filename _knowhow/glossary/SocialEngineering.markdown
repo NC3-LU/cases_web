@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarysocialengeneering
+lang: en
 ---
 ## In brief
 Social engineering is a technique that aims to access [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information or certain [assets]({% link _knowhow/glossary/Assets.markdown %}) by manipulating people who have direct or indirect access to it. One example of social engineering is [phishing]({% link _knowhow/glossary/Phishing.markdown %}).

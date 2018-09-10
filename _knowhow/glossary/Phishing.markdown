@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossaryphishing
+lang: en
 ---
 ## In brief
 Phishing, or Fishing, is a technique employed by computer hackers to get personal information for the purpose of committing identity fraud. The technique consists of making the victim believe they are communicating with a trusted third-party – bank, administration, etc. – in order to get them to disclose personal information: password, credit card number, date of birth, etc. It is a form of IT attack that relies on [social engineering]({% link _knowhow/glossary/Phishing.markdown %}). It may be perpetrated by email, on fraudulent websites or by other electronic means.

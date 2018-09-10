@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
 categories: knowhow
 toc: true
+ref: glossarythreat
+lang: en
 ---
 
 Les menaces exploitent des vulnérabilités d'actifs et créent ainsi un impact. Les interactions entre actifs, menaces et vulnérabilités sont analysées lors de la gestion des risques.

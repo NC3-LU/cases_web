@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarycybercrime
+lang: en
 ---
 ## In brief
 Cybercrime is commonly defined as any unlawful action against the integrity of a specific computer site or perpetrated using a computing device. This definition is based on the use of computing resources. Indeed, the definition applies whether the computer is used by the criminal to perpetrate an offence or a conventional crime (scam, threat ... etc) or the computer is the target of the criminal (theft, fraudulent use or destruction of data ... etc).

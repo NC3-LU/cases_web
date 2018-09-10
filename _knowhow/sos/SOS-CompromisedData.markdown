@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-sos
 toc: true
+ref: soscompromiseddata
+lang: en
 ---
 
 If access to your bank account, Facebook or email became compromised and ill-intentioned people are able to access them, here is what you should do.

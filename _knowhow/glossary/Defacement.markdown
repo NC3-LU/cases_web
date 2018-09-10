@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarydefacement
+lang: en
 ---
 ## In brief
 Defacement is a form of cybercrime, such as cyber-vandalism or even cyber-terrorism, directed against a website.

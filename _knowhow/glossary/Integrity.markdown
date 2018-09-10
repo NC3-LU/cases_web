@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
 categories: knowhow
 toc: true
+ref: glossaryintegrity
+lang: en
 ---
 
 ## In brief

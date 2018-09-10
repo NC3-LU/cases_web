@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossaryluxtrust
+lang: en
 ---
 ## In brief
 LuxTrust offers [authentication]({% link _knowhow/glossary/Authentication.markdown %}) and [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#electronic-signatures) products. The most frequently used products in the professional domain are the chip card and the signing stick. From a technological point of view, these two products are very similar: a chip integrated into the card or the USB stick contains an authentication certificate and a signature certificate. The chip card requires the use of a card reader, which is not the case for the USB stick.

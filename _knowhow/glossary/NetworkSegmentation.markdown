@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: knowhow
 toc: true
+ref: glossarynetsegmentation
+lang: en
 ---
 ## In brief
 Segmenting your network is a useful exercise that not only noticeably improves the security of your infrastructure, but also requires carrying out an inventory, which can be highly useful,and classifying your computer fleet. Segmentation consists of separating groups of computers into sub-sections, separated from one another by the use of well-defined rules.
@@ -49,7 +51,7 @@ As mentioned above, it is important not to consider the green zone a safe zone s
 Proper segmentation of the network does not offer total protection and should never be considered as such. You should instead think of it as a necessary tool for the introduction of other security measures, such as intrusion detection systems, filters, antiviruses, etc.
 
 ## Examples
-	
+
 ### Small network
 Case of a very small business. Segmentation can be limited to the use of an NAT router to separate the internal Internet network.
 

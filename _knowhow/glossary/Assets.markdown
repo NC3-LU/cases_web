@@ -1,12 +1,14 @@
 ---
 layout: article
 title:  "Assets"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
 categories: knowhow
 toc: true
+ref: glossaryassets
+lang: en
 ---
 
 ## In brief
@@ -169,4 +171,3 @@ Données et services informatiques partagés et privés, qui utilisent les proto
 
 * SYS_WEB : Portail externe
 Un portail externe est un point d’accès dont un utilisateur se servira pour trouver de l’information ou un service concernant un organisme. Les portails fournissent un grand éventail de ressources et de services.
-

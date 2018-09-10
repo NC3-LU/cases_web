@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-sos
 toc: true
+ref: sosmycomputerinfected
+lang: en
 ---
 
 ## In brief
@@ -73,5 +75,3 @@ It is often difficult to tell whether a machine is infected, and it is even more
 * In other cases, we recommend a full reinstallation:
   * backup your data on an external hard drive;
   * format the disk and reinstall from your preferred installation disk (there is a small chance that the partition reset is also infected).
-
-

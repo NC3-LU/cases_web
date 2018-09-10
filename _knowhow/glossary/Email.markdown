@@ -4,9 +4,11 @@ title:  "Email"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: 
+short:
 categories: knowhow
 toc: true
+ref: glossaryemail
+lang: en
 ---
 
 ## In brief
