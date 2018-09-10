@@ -149,6 +149,13 @@ Template Name: cases.lu
 	color: rgb(0,114,184);
 }
 
+.selected-item {
+	color: rgb(0,114,184);
+}
+.selected-item-arrow {
+	color: #FFD500;
+}
+
 /***********************************************************/
 
 .marg-top {margin-top: 50px;}
