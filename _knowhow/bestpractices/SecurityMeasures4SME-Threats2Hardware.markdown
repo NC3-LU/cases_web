@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-bestpract
 toc: true
+ref: bestpractthreatstohardware
+lang: en
 ---
 ## Hardware damaged during transport
 The transportation of information may present a major security concern, especially if the data is essential due to

@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-bestpract
 toc: true
+ref: bestpractthreatstohr
+lang: en
 ---
 ## Manipulation of people
 Social engineering is one of the most frightening techniques used to attack users of an IT system.  [Social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) is based on subtle psychological techniques that get people to share the desired information.  By exploiting human vulnerabilities, e.g. the desire to help a peer or the need to impress a superior, an ill-intentioned person can obtain access to data and confidential systems from an individual.

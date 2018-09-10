@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisocompliance
+lang: en
 ---
 ## Comply with legislation
 Non-compliance with information technology legislation may put the *organisation* in a delicate situation ([impacts]({% link _knowhow/glossary/Impact.markdown %})) with regard to its customers (brand image). It can also result in financial (fines) or penal (liability of legal persons) consequences. The *organisation* must therefore respect the law, notably with regard to:

@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisoclassificationcontrolresources
+lang: en
 ---
 ## Classification and responsibility for resources
 An [inventory of the “organisation’s” vital and important resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#inventory-of-assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of [assets]({% link _knowhow/glossary/Assets.markdown %}) is an extremely important task.

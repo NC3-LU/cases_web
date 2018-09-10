@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisoorganisationofsecurity
+lang: en
 ---
 ## Attribution of responsibilities
 As part of the security of IT systems and networks, all responsibilities must be clearly defined in the organisation. The board of management appoints the officers, along with their areas of competence. Each officer looks after the implementation of security policies within their own area. These officers also take part in the annual review.

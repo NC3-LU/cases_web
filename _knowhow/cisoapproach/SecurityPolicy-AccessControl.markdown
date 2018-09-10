@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisoaccesscontrol
+lang: en
 ---
 ## Access control policy
 Access to applications and data (files, databases) that have been [classified]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation”.

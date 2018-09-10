@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisophysiscalenvironmentalsecurity
+lang: en
 ---
 ## Physical security perimeter
 [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %}) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)).

@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisohumanfactor
+lang: en
 ---
 ## Security as a mission
 Respecting the organisation’s security policy is an essential condition for the continuity of activities. Each person must be aware of it, implement it, and understand that if they don’t comply with it they will risk sanctions (potentially legal).

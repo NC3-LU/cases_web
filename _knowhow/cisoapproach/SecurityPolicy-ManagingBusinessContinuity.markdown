@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisomanagingbusinesscontinuity
+lang: en
 ---
 ## Operational continuity
 [The operational continuity of the organisation]({% link _knowhow/glossary/DRP.markdown %}) implies that resources deemed to be important or vital (see [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})) should be in good working order under all circumstances.

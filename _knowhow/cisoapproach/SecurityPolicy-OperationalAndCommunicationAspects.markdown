@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short:
 categories: f-ciso
 toc: true
+ref: cisooperationalcommunicationaspects
+lang: en
 ---
 ## Documentation of procedures
 All operations concerning the processing of information must be documented. This applies to planned processing (batches), system shut-downs and restarts and data backup procedures.
