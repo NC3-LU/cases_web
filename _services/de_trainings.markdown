@@ -7,26 +7,25 @@ short: "The CASES Trainings will teach information security knowledge and good p
 lang: de
 ref: trainings
 ---
-### Why?
-Information security requires team work. For everybody to be able to make an informed contribution, they must be aware of the challenges and potential dangers. They must develop good reflexes.
+### Warum?
+Informationssicherheit funktioniert nur als gemeinsame Anstrengung.
 
-**CASES training** provides the knowledge and reflexes that your teams require. It is fully adapted to your specific situation. It will encourage staff to communicate their experiences and strengthen the motivation of staff to be vigilant and share best practice.
-
-
-### How?
-The CASES training catalogue targets different professional audiences.
-
-* [Induction in information security]({% link _services/trainings/initiation.markdown %})
-* [Training for leaders and decision-makers]({% link _services/trainings/directordecisionmakers.markdown %})
-* [Training for executives and managers]({% link _services/trainings/managers.markdown %})
-* [Training for trainers]({% link _services/trainings/trainthetrainer.markdown %})
+CASES bietet Kurse an, in denen Ihren Teams Kenntnisse über Cybersicherheit vermittelt und bewehrte Praktiken erlernt werden. Durch diese Kurse werden Ihre Angestellten angeleitet, Erfahrungen auszutauschen, und  das gewonnene Wissen weiterzugeben.
 
 
-### Benefits
-CASES offers **you**:
+### Wie?
+Die Kurse wenden sich an verschiedene Fachpublika:
 
-* productivity gains (less time wasted in "repairing" damage);
-* a positive dynamic in your teams;
-* a service tailored to your business.
+* [Einführung in die Informationssicherheit]({% link _services/trainings/initiation.markdown %})
+* [Schulung für die Direktionsleitung]({% link _services/trainings/directordecisionmakers.markdown %})
+* [Schulung für Managers]({% link _services/trainings/managers.markdown %})
+* [Schulung für Kursleiter]({% link _services/trainings/trainthetrainer.markdown %})
 
-**Why wait?** ! [Get in touch!](mailto:info@cases.lu?subject=Formations%20CASES).
+
+### VORTEILE:
+
+* Produktivitätssteigerungen durch Schadensvorbeugung.
+* Eine positive Dynamik in Ihren Teams.
+* Anpassung an Ihre Geschäftsanforderungen.
+
+**Warten Sie nicht länger**! [Nehmen Sie Kontakt auf!](mailto:info@cases.lu?subject=Formations%20CASES).

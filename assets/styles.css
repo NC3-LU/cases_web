@@ -683,8 +683,9 @@ Template Name: cases.lu
 
 	.footerlink{
 		margin-top: 10px;
-  	border-left: 1px solid white;
 		padding-top: 10px;
 		padding-bottom: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
   }
   /*end FOOTER*/

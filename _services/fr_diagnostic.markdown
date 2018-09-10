@@ -7,34 +7,34 @@ short: "The Diagnostic CASES helps you to reduce your exposure to common IT risk
 lang: fr
 ref: diagnostic
 ---
-## Why?
-Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.
+## Pourquoi?
+Votre organisation traite quotidiennement des données sensibles. En tant que responsable, vous avez des obligations spécifiques concernant la protection de ces données. Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT.
 
 
-## How?
-Using a dedicated questionnaire, CASES's experts will:
+## Comment?
+Grâce à un questionnaire dédié, les experts CASES :
 
-* **identify** vulnerabilities,
-* **evaluate** the level of maturity of the security of your IT systems,
-* **issue** recommendations.
+* **identifient** les vulnérabilités,
+* **évaluent** le niveau de sécurité des systèmes d'information,
+* **émettent** des recommandations.
 
-The diagnostic can help to:
+Le diagnostic aide à :
 
-* **ensure** the security of internal data and information about customers,
-* **ensure** that the business complies with the laws of Luxembourg,
-* **protect** the company's reputation.
+* **assurer** la sécurité des données internes et des informations relatives aux clients,
+* **mettre** la structure en conformité avec les lois luxembourgeoises,
+* **préserver** la réputation de l'entreprise.
 
-The diagnostic will help you in both technical and organisational terms. The questions are devised to cover the most frequent information risks in Luxembourg.
-A CASES expert will visit your company and will ask you the necessary questions, while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
+Le diagnostic vous aidera à la fois en termes techniques et organisationnels. Les questions sont conçues pour couvrir les risques d’information les plus fréquents au Luxembourg.
+Un expert CASES vous rendra visite et vous posera les questions nécessaires tout en vous guidant. C'est une bonne introduction à la procédure d'amélioration continue de la sécurité de l'information dans votre entreprise.
 
 
 <div class="well well--blue-outline">
     Advantages:
 
     <ul>
-        <li>Free, with no commitment – for Luxembourg only.</li>
-        <li>Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days.</li>
+        <li>Gratuit et sans engagement.</li>
+        <li>Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables.</li>
     </ul>
 
-    <b>Why wait any longer?</b> Get the CASES diagnostic. <a href="mailto:info@cases.lu?subject=Diagnostic">Get in touch!</a>.
+    <b>N'attendez plus! Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous!</a>.
 </div>

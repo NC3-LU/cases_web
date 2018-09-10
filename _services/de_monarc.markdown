@@ -7,57 +7,59 @@ short: "Optimized Risk Analysis Method - You will be more efficient and complete
 lang: de
 ref: monarc
 ---
-## Why?
+## Warum?
 
-The processing of sensitive information and personal data is crucial, not only for the degree of trust that your customers place in your services, but also for the sustainability of your business.
+Ein vertrauenswürdiges digitales Unternehmen sollte über Sicherheitsmaßnahmen verfügen mit denen sich gegenwärtige Cyber-Bedrohungen abwehren lassen.
 
-CASES has developed an analysis method to produce a comprehensive risk report on this matter, with suggested solutions. You will therefore be able to take the appropriate measures to enhance information security within your organisation and meet your legal obligations.
+Die Entscheidungen in diesem Bereich wirken sich unmittelbar auf die wirtschaftliche Situation des Unternehmens aus. Für die Ermittlung von Maßnahmen, die für einen spezifischen Kontext geeignet und ausreichend wirksam sind, um die spezifischen Ziele einer Organisation zu erreichen, braucht es die Unterstützung von Risikoanalyse-Experten.
 
-## How?
-CASES optimised risk analysis method (MONARC):
+Darum hat CASES mit MONARC eine Methode für optimierte Risikoanalysen entwickelt.
 
-* thoroughly **evaluates** the risks involved;
-* **determines** their level of criticality;
-* **describes** the possible consequences for your organisation;
+## Wie?
+MONARC bietet branchenspezifische Risiko-Datenbanken. Mit MONARC können Sie:
+
+* Die bestehenden Risiken **einschätzen**
+* Deren Kritikalität **festlegen**
+* Die eventuellen Auswirkungen für Ihren Betrieb **vorhersehen**
  
-It is based on CASES expertise and regularly updated prior knowledge of the business processes used within your professional organisation.
+Es basiert auf der CASES Erfahrung und Vorkenntnissen der Geschäftsprozesse ähnlich der in Ihrer Organisation.
 
 <img class="img-border" src="{{ 'assets/img/services/monarccircle.jpg' | relative_url }}" style="float:right; width:448px; margin-left: 15px;" />
 
-#### Stage 1: Context Establishment
-This stage is used to set establish the context of the risk analysis and to produce:
+#### 1. Phase: Kontextbeschreibung
+In dieser Phase wird der Kontext der Risikoanalyse festgelegt und Folgendes erstellt:
 
-* a trend evaluation;
-* a [threats]({% link _knowhow/glossary/Threat.markdown %}) assessment;
-* the risk management context;
-* definition of the assessment, acceptance and impact criteria
+* eine Trendbewertung;
+* eine Bedrohungsanalyse
+* der Kontext des Risikomanagements;
+* Definition der Bewertungs-, Akzeptanz- und Wirkungskriterien
 
-#### Stage 2: Context Modelling
-This step involves
+#### 2. Phase: Kontextmodellierung
+Dieser Schritt beinhaltet
 
-* identification of assets, vulnerabilities
-* impact assessment
-* summary of assets/impacts
+* Identifikation von Assets, Schwachstellen
+* Folgenabschätzung
+* Zusammenfassung der Vermögenswerte / Auswirkungen
 
-#### Stage 3: Evaluation and treatment of risks
-This step involves the estimation, evaluation and processing of risks. Its output is a risk management plan.
+#### 3. Phase: Risikoeinschätzung und Behandlung
+Dieser Schritt beinhaltet die Einschätzung, Bewertung und Behandlung von Risiken: das Ergebnis ist ein Risikomanagementplan.
 
-#### Stage 4: Implementation and monitoring
-This involves the implementation of the risk treatment plan.
+#### 4. Phase: Weiterferfolgung und Kontrolle
+Dies beinhaltet die Umsetzung des Risikobehandlungsplans.
 
-## Advantages
-MONARC delivers more in-depth results than the CASES Diagnostic.
+## VORTEILE
+MONARC liefert tiefere Ergebnisse als die CASES Diagnostic.
 
-You will benefit from:
+Sie profitieren von:
 
-* specific knowledge about your exposure to risk relating to your business processes;
-* recommendations specially tailored to the situation of your organisation;
-* CASES methodologies and tools, based on the ISO 27001 family of information security standards;
-* access to the "my.monarc.lu" platform.
+* spezifischen Wissen über Ihre Risikoexposition in Bezug auf Ihre Geschäftsprozesse;
+* speziell auf die Situation Ihrer Organisation zugeschnittene Empfehlungen;
+* CASES-Methoden und -Tools auf der Grundlage der ISO 27001-Familie von Informationssicherheitsstandards;
+* Zugriff auf die Plattform "my.monarc.lu".
 
-Why wait? Visit the [MONARC website](https://www.monarc.lu) to find out more [or contact us](mailto:services@cases.lu?subject=Monarc).
+Mehr informationen finden Sie auf der [MONARC website](https://www.monarc.lu). Warten Sie nicht länger! [Kontaktieren Sie uns](mailto:services@cases.lu?subject=Monarc).
 
-**Download the complete document:**
+**Download das komplette Dokument:**
 
 * [Optimised risk analysis Method]({% link assets/docs/CASES_Monarc2016F-web.pdf %}) (pdf)
 * [Méthode optimisée d'analyse des risques]({% link assets/docs/CASES_Monarc2016EN-web.pdf %}) (pdf)

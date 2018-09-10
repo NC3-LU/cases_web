@@ -7,26 +7,26 @@ short: "The CASES Trainings will teach information security knowledge and good p
 lang: fr
 ref: trainings
 ---
-### Why?
-Information security requires team work. For everybody to be able to make an informed contribution, they must be aware of the challenges and potential dangers. They must develop good reflexes.
+### Pourquoi?
+La sécurité de l’information est un travail d’équipe. Pour que chacun y contribue en connaissance de cause, il doit être conscient des enjeux et des dangers potentiels. Il doit acquérir les bons réflexes.
 
-**CASES training** provides the knowledge and reflexes that your teams require. It is fully adapted to your specific situation. It will encourage staff to communicate their experiences and strengthen the motivation of staff to be vigilant and share best practice.
-
-
-### How?
-The CASES training catalogue targets different professional audiences.
-
-* [Induction in information security]({% link _services/trainings/initiation.markdown %})
-* [Training for leaders and decision-makers]({% link _services/trainings/directordecisionmakers.markdown %})
-* [Training for executives and managers]({% link _services/trainings/managers.markdown %})
-* [Training for trainers]({% link _services/trainings/trainthetrainer.markdown %})
+La **formation CASES** apportera ces connaissances et ces réflexes à vos équipes. Elle s’adaptera à leurs contextes particuliers. Elle suscitera des échanges d’expériences et renforcera la motivation du personnel à faire preuve de vigilance et à partager les bonnes pratiques.
 
 
-### Benefits
-CASES offers **you**:
+### Comment?
+Le catalogue de formations CASES s'adresse aux différents publics professionnels:
 
-* productivity gains (less time wasted in "repairing" damage);
-* a positive dynamic in your teams;
-* a service tailored to your business.
+* [Initiation à la sécurité de l'information]({% link _services/trainings/initiation.markdown %})
+* [Formation direction et décideurs]({% link _services/trainings/directordecisionmakers.markdown %})
+* [Formation cadres et managers]({% link _services/trainings/managers.markdown %})
+* [Formation des formateurs]({% link _services/trainings/trainthetrainer.markdown %})
 
-**Why wait?** ! [Get in touch!](mailto:info@cases.lu?subject=Formations%20CASES).
+
+### Aventages
+Les formations CASES vous apportent :
+
+* des gains de productivité (moins de temps perdu à "réparer" les dégâts);
+* une dynamique positive au sein de vos équipes;
+* une adaptation à votre métier.
+
+**N'hésitez plus** ! [Contactez-nous!](mailto:info@cases.lu?subject=Formations%20CASES).
