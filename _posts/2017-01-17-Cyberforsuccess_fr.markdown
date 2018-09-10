@@ -8,7 +8,7 @@ short: "Les entreprises qui feront appel à des experts en matière de sécurit�
 toc: true
 group: post
 ref: articles20170117cybersecurity4success
-lang: en
+lang: fr
 ---
 Les entreprises sont toutes concernées par la sécurité de l’information. La digitalisation de l’économie est porteuse de grandes opportunités mais aussi de nouveaux risques. Les menaces contre la sécurité de nos informations se développent constamment. Chaque semaine nous apporte son lot de révélations sur des fuites de données ou autres incidents informatiques impliquant des grandes marques.
 

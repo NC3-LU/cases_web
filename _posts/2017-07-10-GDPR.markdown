@@ -1,5 +1,5 @@
 ---
-layout: articlesmall
+layout: post
 title:  "Risk management: from directive 95/46 to the GDPR"
 date:   2017-07-10 10:00:00 +0100
 categories: gdpr

@@ -3,8 +3,11 @@ layout: default
 ---
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
-{% assign articles = site.posts |sort: 'date' |reverse %}
-
+{% assign articlesall = site.posts |sort: 'date' |reverse %}
+{% assign articles = articlesall | where:"lang", page.lang | sort: 'ref' %}
+{% if articles == blank or articles == empty or articles == nil %}
+  {% assign articles=articlesall | where:"lang", site.default_lang | sort: 'ref' %}
+{% endif %}
 
 
 

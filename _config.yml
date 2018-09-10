@@ -40,6 +40,8 @@ collections:
 paginate: 4
 
 default_lang: en
+languages: ["en", "fr", "de"]
+exclude_from_localizations: ["javascript", "images", "css", "docs", "img", "files"]
 
 paginate_path: "/articles-list/page:num/"
 
