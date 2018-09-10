@@ -36,5 +36,5 @@ Un expert CASES vous rendra visite et vous posera les questions nécessaires tou
         <li>Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables.</li>
     </ul>
 
-    <b>N'attendez plus! Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous!</a>.
+    <b>N'attendez plus!</b> Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous!</a>.
 </div>

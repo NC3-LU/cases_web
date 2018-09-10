@@ -36,5 +36,5 @@ Ein CASES-Experte wird Ihr Unternehmen besuchen und Ihnen die notwendigen Fragen
         <li>Schnell durchführbar: Fragebogen binnen 2 Stunden ausgefüllt, Diagnostik folgt in den 5 Werktagen danach</li>
     </ul>
 
-    <b>Zögern Sie nicht länger! Machen Sie Ihre CASES-Diagnostik. <a href="mailto:info@cases.lu?subject=Diagnostic">Kontaktieren Sie uns!</a>.
+    <b>Zögern Sie nicht länger!</b> Machen Sie Ihre CASES-Diagnostik. <a href="mailto:info@cases.lu?subject=Diagnostic">Kontaktieren Sie uns!</a>.
 </div>
