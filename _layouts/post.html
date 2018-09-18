@@ -3,50 +3,9 @@ layout: default
 ---
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
-{% assign articlesall = site.posts |sort: 'date' | reverse %}
-
-{% assign currentlang = page.lang %}
-{% if currentlang == blank or currentlang == empty or currentlang == nil %}
-{% assign currentlang = site.default_lang %}
-{% endif %}
-
-{% assign currentlangarticles = articlesall | where: "lang", currentlang %}
-
-{% assign currentlangrefs = currentlangarticles | map: "ref" %}
-
-{% for slang in site.languages %}
-  {% if slang == currentlang %}
-    {% continue %}
-  {% endif %}
-  {% assign newarticles = articlesall | where: "lang", slang %}
-  {% if newarticles == blank or currentlang == empty or currentlang == nil %}
-    {% continue %}
-  {% endif %}
-
-  {% assign temp = currentlangarticles | concat: newarticles %}
-  {% assign currentlangarticles = temp  %}
-
-{% endfor %}
 
 
-<div class="blocantiscroll col-md-2">
-  <h2>Articles</h2>
-  {% for post in currentlangarticles %}
-    {% if post.lang == currentlang %}
-      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-        <h6 class="list-select">{{ post.title }}</h6>
-      </a>
-    {% else %}
-      {% assign postref = post.ref | split:'::::::X::::::' %}
-      {% unless currentlangrefs contains post.ref %}
-        {% assign currentlangrefs = currentlangrefs | concat: postref %}
-        <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-          <h6 class="list-select">{{ post.title }} <img src="/assets/img/flags/{{ post.lang }}.png"></h6>
-        </a>
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
-</div>
+{% include articleslist.html %}
 
 
 <div class="col-md-8 thecontent">

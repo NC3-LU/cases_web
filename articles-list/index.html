@@ -8,14 +8,7 @@ layout: default
     TOC on the left, list of all articles
 {% endcomment %}
 
-<div class="blocantiscroll col-md-2">
-  <h2>Articles</h2>
-  {% for post in articles %}
-  <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-    <h6 class="list-select">{{ post.title }}</h6>
-  </a>
-  {% endfor %}
-</div>
+{% include articleslist.html %}
 
 
 {% comment %}
@@ -62,7 +55,7 @@ layout: default
 
     <li class="page-item">
       {% for page in (1..paginator.total_pages) %}
-        
+
       {% if page == 1 %}
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
@@ -78,7 +71,7 @@ layout: default
     </li>
     </ul>
     {% endif %}
-  
+
 
 </nav>
 
@@ -107,4 +100,3 @@ layout: default
 <div class="col-md-2">
 
 </div>
-
