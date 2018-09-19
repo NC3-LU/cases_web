@@ -5,7 +5,7 @@ menutitle: "Email: good practices"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Behavioural and technical measures to prevent risks related to sending emails"
-categories: bestpractice
+categories: f-bestpract
 toc: true
 ---
 ## In brief
@@ -51,7 +51,7 @@ Risks related to sending emails
 * Make sure you don’t reveal any confidential information when replying to emails. Check the legitimacy of the request and be careful not to divulge too much information when you respond;
 * the majority of [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this isn’t the case, be very careful when you receive an email with an attachment, as this attachment may contain [malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %});
 * ill-intentioned people often try to exploit human [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}), such as curiosity, pity, fear, the lure of rewards, or even libido. If you receive an email that makes allusion to any of these things, it is highly likely it is a malicious email;
-  * there are many types of malicious emails, including hoaxes, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) emails, spear phishing emails (a highly targeted type of phishing), Nigerian scams, [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}), and [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %});
+  * there are many types of malicious emails, including hoaxes, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) emails, spear phishing emails (a highly targeted type of phishing), Nigerian scams, [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), and [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %});
 * check if the email resembles those you have previously received from the supposed sender. The language used, way of writing, spelling, style, etc. may all be clues. If something seems odd, it’s probably a malicious email;
 * never click on links in emails where you don’t know the sender, or in particular, if there are signs the email may be malicious, as it could be a phishing email or a link towards a fake website;
 * never answer suspicious emails. By answering, you are confirming to the sender that the email address is active.
@@ -62,7 +62,7 @@ Risks related to sending emails
 * staff training in risks related to [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %});
 * try to eliminate any procedures involving attachments;
 * if opening attachments is necessary:
-  * wait 4 days before opening attachments. Waiting this long gives the [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) a chance to detect [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}). A minimum of 3 to 4 days is necessary to detect a new virus when it first appears and add it to the signature database for the corresponding [antiviruses]({% link _knowhow/glossary/AntiVirus.markdown %}).
+  * wait 4 days before opening attachments. Waiting this long gives the [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) a chance to detect [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}). A minimum of 3 to 4 days is necessary to detect a new virus when it first appears and add it to the signature database for the corresponding [antiviruses]({% link _knowhow/glossary/AntiVirus.markdown %}).
 * equip PCs used to open attachments with a less common operating system that is therefore subject to fewer attacks, e.g. ‘Linux’;
 * call the person who sent you a suspicious email and ask them if they did indeed send it. Tell them why you thought the email was suspicious;
 * avoid opening emails on critical [assets]({% link _knowhow/glossary/Assets.markdown %}) or those which have access to critical assets, such as [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information or indispensable assets.
@@ -95,7 +95,7 @@ Draw up and enforce the following sectoral policies:
 ## Technical measures
 
 * Make sure your [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) software is always up to date. Normally, updates are downloaded automatically;
-* Do not use the same antivirus software on both the email server and on the workstations. This increases the likelihood of discovering malicious software. No antivirus detects more than 80% of existing [malicious codes]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %});
+* Do not use the same antivirus software on both the email server and on the workstations. This increases the likelihood of discovering malicious software. No antivirus detects more than 80% of existing [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %});
 * do not work at a workstation when logged on in administrator mode. Malicious codes run on these workstations will inherit your rights and will therefore be able to access and install programs on all of the computer’s accounts;
 * activate the [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) filter in your email software;
 * [encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) the content of your laptop computers;

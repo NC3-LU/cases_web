@@ -19,7 +19,7 @@ The problem arises when some websites offer file downloads that will result in u
 ## Overview of [threats]({% link _knowhow/glossary/Threat.markdown %})
 
 ##### Viruses
-The [virus]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
+The [virus]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
 
 ##### False viruses and fake antiviruses
 

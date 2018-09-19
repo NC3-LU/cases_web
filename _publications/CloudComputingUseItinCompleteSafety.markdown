@@ -99,7 +99,7 @@ Cloud backups are nothing more than the relocation of backed up data to another 
 A backup can take all night, without disrupting production. Data must be restored as quickly as possible. So, make sure you have sufficient bitrate to download the data in a reasonable amount of time. To keep this time short, be sure to choose a good backup strategy involving local data storage and keeping data in the cloud for disasters like fire.
 
 ## Synchronisation
-The synchronisation of different work tools is a recurring need. Instead of sending documents by unsecured [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) or using [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}), it is best to synchronise the data using a central service accessible to all.
+The synchronisation of different work tools is a recurring need. Instead of sending documents by unsecured [email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) or using [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}), it is best to synchronise the data using a central service accessible to all.
 
 There are many services offering these forms of collaboration for synchronisation. The required bitrate and the amount of data exchanged are generally lower than for [backup]({% link _knowhow/glossary/DataBackups.markdown %}) services.
 

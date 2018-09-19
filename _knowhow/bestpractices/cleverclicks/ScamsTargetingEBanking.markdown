@@ -48,5 +48,5 @@ There are many variants of [Trojan horses](-). They all have something in common
 
 **See also**:
 
-* [Good malware practice]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
+* [Good malware practice]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}).
 * [SOS – I think my computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}).

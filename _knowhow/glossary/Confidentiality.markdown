@@ -22,7 +22,7 @@ Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.
 * **Compromission d'informations**
   * Interceptions de signaux parasites compromettants
 
-  * Espionnage à distance (PME: voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing) et [Mesures contre les codes malicieux]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}))
+  * Espionnage à distance (PME: voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing) et [Mesures contre les codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
 
   * Écoute passive (PME voir: [Écoute des réseaux sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#wireless-network-tapping) )
 
@@ -37,7 +37,7 @@ Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.
 
   * Piégeage du matériel
 
-  * Piégeage du logiciel (PME voir: [Mesures contre les codes malicieux]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}))
+  * Piégeage du logiciel (PME voir: [Mesures contre les codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
 
   * Géolocalisation
 

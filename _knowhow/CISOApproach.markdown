@@ -14,25 +14,25 @@ lang: en
 ## En quelques mots
 
 Sécuriser les informations est loin d'être une question d'ordre technique pour un organisme. En effet les activités techniques représentent seulement un aspect d'une démarche qui, pour réussir, se doit de couvrir les activités de l'entreprise dans son ensemble.
-Avant de mettre en place des procédures ou des mesures techniques visant à augmenter la sécurité d'un organisme, il importe de procéder à une analyse des risques ([gestion des risques]({% link _publications/RiskManagement.markdown %})) et de rédiger une politique de sécurité.
+Avant de mettre en place des procédures ou des mesures techniques visant à augmenter la sécurité d'un organisme, il importe de procéder à une analyse des risques ([gestion des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %})) et de rédiger une politique de sécurité.
 
 La politique de sécurité sert à formaliser et à coordonner toutes les démarches organisationnelles et techniques de sécurité de l'organisme.
 La rédaction d'une politique de sécurité est une tâche fastidieuse. Nous déconseillons aux petites entreprises de s'y atteler d'entrée et recommandons plutôt d'avancer dans une optique d'amélioration continue, un document court et concis à la fois, pour développer peu à peu les procédures et politiques sectorielles dont elles ont le plus besoin.
 
-Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques ([ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) et [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %})), et de l'autre dans l'analyse et [l'évaluation des risques]({% link _publications/RiskManagement.markdown %}#risk-estimation). En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
+Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques ([ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) et [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %})), et de l'autre dans l'analyse et [l'évaluation des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}#risk-estimation). En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
 
 Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) des [actifs]({% link _knowhow/glossary/Assets.markdown %}) et de la maturité de l'organisme.
 
 ## Charte de sécurité
 
-La définition et l'application d'une [charte de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques]({% link _publications/RiskManagement.markdown %}), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs]({% link _knowhow/glossary/Assets.markdown %})  protéger en priorité. Afin de pouvoir prévenir les [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, la direction doit identifier les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables, ainsi que les [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}) dont l'exploitation est la plus aisée.
+La définition et l'application d'une [charte de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs]({% link _knowhow/glossary/Assets.markdown %})  protéger en priorité. Afin de pouvoir prévenir les [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, la direction doit identifier les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables, ainsi que les [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}) dont l'exploitation est la plus aisée.
 
 La mise en place d'une charte doit absolument être accompagnée d'une présentation aux employés qui devront vivre avec les mesures proposées au quotidien. Sans formation de leur part, toute charte risque d'être ignorée, et donc de perdre son utilité.
 
 ## Politique de sécurité
 
 <img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
-Après l'identificaton des risques majeurs pour l'organisme ([gestion des risques]({% link _publications/RiskManagement.markdown %})), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
+Après l'identificaton des risques majeurs pour l'organisme ([gestion des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %})), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
 
 La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
 
@@ -40,7 +40,7 @@ Il est à  ce stade inutile de commencer par la réalisation d'une politique de 
 
 ### Conception
 
-Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer [l'analyse des risques]({% link _publications/RiskManagement.markdown %}) qui doit être effectuée au préalable).
+Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer [l'analyse des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}) qui doit être effectuée au préalable).
 
 L'étape de réalisation consiste principalement à appliquer la politique de sécurité créée à l'étape précédente. Les mesures organisationnelles et techniques sont mises en place, les mesures comportementales sont appliquées par le personnel.
 

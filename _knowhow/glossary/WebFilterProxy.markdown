@@ -31,7 +31,7 @@ The organisation can nevertheless filter different content categories, such as p
 Some web filters are able to analyse the content of a website a user wants to visit. Based on a list of key words, the filter allocates a category to the websites visited and either displays or doesn’t display the requested content. This filter is useful for preventing access to recent content for which the URL analysis wouldn’t have worked, but can also generate a lot of false positives.
 
 ### Malicious content analysis
-Some filters contain antivirus programs and can analyse the content of websites visited and block access to potentially [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
+Some filters contain antivirus programs and can analyse the content of websites visited and block access to potentially [malicious software]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}).
 
 ### Image analysis
 Some web filters can analyse the requested images. The filter selects the images on the website visited and allocates them to a category before displaying or not displaying the content.

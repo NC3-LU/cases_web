@@ -14,14 +14,14 @@ lang: en
 ## In brief
 Les logiciels malveillants ou codes malicieux sont des logiciels qui infectent la machine d'un utilisateur à son insu. L'[impact]({% link _knowhow/glossary/Impact.markdown %}) de l'infection peut être multiple, comme notamment la perte de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) des actifs d'une entité. Une infection par codes malicieux ne se remarque pas toujours, parfois elle est même très difficile à détecter.
 
-L'infection peut avoir lieu en incitant la victime par des méthodes d'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering.markdown %}) (social engineering) par exemple, à ouvrir un fichier annexé à un [courrier électronique]({% link _publications/bestpractices/EMail-BestPractices.markdown %}), à ouvrir un fichier se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %}) ou simplement à motiver la victime à visiter une [page web malicieuse]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
+L'infection peut avoir lieu en incitant la victime par des méthodes d'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering.markdown %}) (social engineering) par exemple, à ouvrir un fichier annexé à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}), à ouvrir un fichier se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %}) ou simplement à motiver la victime à visiter une [page web malicieuse]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
 
 Les codes malicieux peuvent avoir différents [impacts]({% link _knowhow/glossary/Impact.markdown %}). Ils présentent une [menace]({% link _knowhow/glossary/Threat.markdown %}) considérable et peuvent selon le type soit exploiter des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) soit des [vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities).
 
 ## Les virus
 Un virus est un logiciel, ou une partie de logiciel qui, pour pouvoir se propager, s'attache à tout type de fichier ou autre logiciel dans le but d'infecter la machine concernée, ainsi que d'autres, à l'insu des utilisateurs.
 
-Un virus s'active en général dès qu'une personne ouvre le fichier (attaché à un [courrier électronique]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) ou se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %})) ou exécute le logiciel hébergeant le virus. En conséquence, le créateur du virus essayera d'inciter la victime potentielle à ouvrir le fichier infecté en exploitant des [vulnérabilités humaines.]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities)
+Un virus s'active en général dès qu'une personne ouvre le fichier (attaché à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) ou se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %})) ou exécute le logiciel hébergeant le virus. En conséquence, le créateur du virus essayera d'inciter la victime potentielle à ouvrir le fichier infecté en exploitant des [vulnérabilités humaines.]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities)
 
 Dès qu'un virus a été lancé, il va essayer deux choses :
 
@@ -82,7 +82,7 @@ L'organisme doit rédiger et faire respecter plusieurs politiques sectorielles :
   * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
 * [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
   * [Protection contre les codes malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-  * [Courrier électronique]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+  * [Courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 * [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
   * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
   * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)

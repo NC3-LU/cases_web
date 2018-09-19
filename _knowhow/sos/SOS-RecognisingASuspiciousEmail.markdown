@@ -32,10 +32,10 @@ A legitimate correspondent who knew your email address would have your identifyi
 Handle this type of email with great care. If the email contains any of the elements detailed in the sections below, do not respond.
 
 ## Email implying urgency
-If the email does not address you by name and it implies urgency, it is very probably a hoax or [phishing]({% link _knowhow/glossary/Phishing.markdown %}). Do not respond to the request. Ignore this email. (See: [Email – best practices]({% link _publications/bestpractices/EMail-BestPractices.markdown %})).
+If the email does not address you by name and it implies urgency, it is very probably a hoax or [phishing]({% link _knowhow/glossary/Phishing.markdown %}). Do not respond to the request. Ignore this email. (See: [Email – best practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})).
 
 ## Email containing a link
-If the email does not address you by name and it contains a link, it is very probably trying to lure you to a [malicious website]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) ([phishing]({% link _knowhow/glossary/Phishing.markdown %}) or infection by [malicious code]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) exploiting [technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#managing-technical-vulnerabilities)). Whatever you do, do not click on that link. (See: [Email – best practices]({% link _publications/bestpractices/EMail-BestPractices.markdown %})).
+If the email does not address you by name and it contains a link, it is very probably trying to lure you to a [malicious website]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) ([phishing]({% link _knowhow/glossary/Phishing.markdown %}) or infection by [malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) exploiting [technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#managing-technical-vulnerabilities)). Whatever you do, do not click on that link. (See: [Email – best practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})).
 
 ## Email with attachment
 If the email does not address you by name and it includes an attachment, it is very probably an attempt to infect your machine with malware. Any type of file could include malicious code. Whatever you do, do not open the file. A lot of social engineering type attacks operate based on infected files attached to emails exploiting human vulnerabilities. ([See: Email – best practices](-))
@@ -44,15 +44,15 @@ If the email does not address you by name and it includes an attachment, it is v
 Even if the email is properly addressed to you, still take care and check the following elements:
 
 ### Known sender
-You know and trust the sender. The email was expected and was announced during earlier communication – you can trust the email and its contents. You should, however, remain wary of opening attachments which, in spite of everything else, could contain [malicious code]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) or links leading to [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
+You know and trust the sender. The email was expected and was announced during earlier communication – you can trust the email and its contents. You should, however, remain wary of opening attachments which, in spite of everything else, could contain [malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) or links leading to [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
 
 In the event that the sender is known but addresses you in an unfamiliar fashion, be very careful. The use of another language, a different style of writing or the unusual inclusion of spelling mistakes are very significant clues which may point to this email being criminal. Handle with care and call up the sender (if they are known to you) to make sure the email genuinely was sent by them.
 
-([See: Email – best practices]({% link _publications/bestpractices/EMail-BestPractices.markdown %}))
+([See: Email – best practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}))
 
 ### Unknown sender
 You receive an email from an unknown sender and the email does not fall within a known and strictly professional context. Be careful when handling the contents, including any attachments.
 
-The email could include attachments infected by [malicious code]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) , or it could be trying to lure you into visiting a [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) by following a link posted in the message.
+The email could include attachments infected by [malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) , or it could be trying to lure you into visiting a [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) by following a link posted in the message.
 
-([See: Email – best practices]({% link _publications/bestpractices/EMail-BestPractices.markdown %}))
+([See: Email – best practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}))

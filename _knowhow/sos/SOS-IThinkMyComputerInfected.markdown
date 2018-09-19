@@ -22,7 +22,7 @@ The most common vectors for infection are:
 * infected attachments;
 * [removable storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}).
 
-Use [best practices]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) to avoid malware.
+Use [best practices]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) to avoid malware.
 
 ## Risk analysis
 Try to perform a risk analysis to check whether you have fallen victim to a targeted or opportunistic attack. These questions might help you:
@@ -51,7 +51,7 @@ Some cybercriminals try to infect as many machines as possible through opportuni
 opportunistic attacks are usually quite large scale, with malicious code used to provide remote access – in the best case scenario, this code will only be detected days later by the supplier's [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) software. Generally speaking, the resident anti-virus never detects malware after detection and you need to use a live CD anti-virus for better detection.
 
 ## Victim of a targeted attack
-As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. [Malicious code]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) is specially designed for this type of attack, and in most cases slips through [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) checks. Targeted attacks can be used as a vector for infection:
+As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. [Malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) is specially designed for this type of attack, and in most cases slips through [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) checks. Targeted attacks can be used as a vector for infection:
 
 * buying access to a machine belonging to a specific organisation from a criminal carrying out opportunistic attacks;
 * [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) by email, with infected files (SMEs: see [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing), [Social engineering / Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people));

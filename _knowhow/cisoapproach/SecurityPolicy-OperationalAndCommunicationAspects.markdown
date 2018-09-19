@@ -87,7 +87,7 @@ Incoming email verification tools deal not only with viruses, but can also elimi
 ### Behavioural measures:
 
 * [Malicious software – best practice]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-* [Emails]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* [Emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 * [Removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %})
 * [Malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %})
 
@@ -205,7 +205,7 @@ The “organisation’s” messaging system is intended for professional use. Mo
 
 ### Behavioural measures:
 
-* [Best practice concerning email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* [Best practice concerning email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 
 ### Directly associated organisational measures:
 

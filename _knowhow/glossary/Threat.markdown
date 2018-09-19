@@ -53,7 +53,7 @@ EBIOSv2[1] propose une liste d'Agents Menaçants (e.g. menaces) génériques :
 ### **COMPROMISSION D'INFORMATIONS**
 
 * Interceptions de signaux parasites compromettant
-* Espionnage à distance (PME : voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Spam / Phishing]({% link _knowhow/glossary/Phishing.markdown %}) et [Mesures contre les codes malicieux]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}))
+* Espionnage à distance (PME : voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Spam / Phishing]({% link _knowhow/glossary/Phishing.markdown %}) et [Mesures contre les codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
 * Écoute passive (PME voir : [Écoute des réseaux sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#wireless-network-tapping) )
 * Vol de supports ou de documents (PME : voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
 * Vol de matériels (PME : voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))

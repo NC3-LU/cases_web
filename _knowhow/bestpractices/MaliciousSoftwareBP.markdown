@@ -5,7 +5,7 @@ menutitle: "Malicious software: best practice"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Behavioural measures to prevent from infection"
-categories: bestpractice
+categories: f-bestpract
 toc: true
 ---
 ## In brief
@@ -66,7 +66,7 @@ Infection with malicious codes can be prevented through responsible and careful 
 
 Make sure you::
 
-* observe [best practice relating to the use of email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* observe [best practice relating to the use of email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 * avoid the use of unknown removable devices.
   * If you find any such devices, send them to your IT department for analysis. 
   * If you are given removable devices at conferences, have them analysed by experts before you use them.

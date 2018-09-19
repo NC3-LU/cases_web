@@ -74,7 +74,7 @@ Once you start to use a computer tool, please respect the following "golden rule
 3. **The firewall: protection against attacks**
   Install a [firewall]({% link _knowhow/glossary/Firewall.markdown %}) and configure it correctly. This will not only enable you to block suspicious attacks or logins which may be viruses, worms or Trojans, but also to prevent the leak of your personal and confidential information.
 4. **Antispyware: thwart organised spying**
-  Secure your e-banking/e-commerce transactions by installing antispyware that regularly scans the computer to detect [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) that may be there.
+  Secure your e-banking/e-commerce transactions by installing antispyware that regularly scans the computer to detect [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) that may be there.
 5. **Security patches: closing gaps**
   To counter hackers who are constantly looking for and finding flaws in operating systems, keep your browser constantly updated. Also apply the right [patches]({% link _knowhow/glossary/Patches.markdown %}). In fact, like your antivirus, your system needs maintenance. Applying the necessary updates will help you counter threats such as worms, viruses and Trojans.
 

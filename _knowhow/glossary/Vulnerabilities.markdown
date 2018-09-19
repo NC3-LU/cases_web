@@ -31,7 +31,7 @@ This family of vulnerabilities by far the most fluid  – it includes all vulner
 
 These would include:
 
-* the presence of vulnerabilities in operating systems or software that could be exploited by [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}), simply by visiting [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %});
+* the presence of vulnerabilities in operating systems or software that could be exploited by [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), simply by visiting [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %});
 * the interoperability of IT and communications systems: to enable easy communications between different systems, additional layers of communication are often implemented, which can lead to the appearance of fresh vulnerabilities;
 * the complexity of rules on [firewalls]({% link _knowhow/glossary/Firewall.markdown %}) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
 

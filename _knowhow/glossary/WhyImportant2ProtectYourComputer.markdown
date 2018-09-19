@@ -20,7 +20,7 @@ If, like most people who use the Internet, you believe this temporary loss of [a
 Particularly sought-after are:
 
 ## Usernames and passwords.
-Cybercriminals access usernames and [passwords]({% link _knowhow/glossary/Password.markdown %}) using [phishing]({% link _knowhow/glossary/Phishing.markdown %}) [emails]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) or Trojan horses which record every keystroke the user makes. It is often even easier than that. If you use a password that is too basic, it can be “guessed” in a few seconds using special software or by a [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) expert. Log-in data is highly coveted by ill-intentioned people, as it enables them to log in to online services in your name.
+Cybercriminals access usernames and [passwords]({% link _knowhow/glossary/Password.markdown %}) using [phishing]({% link _knowhow/glossary/Phishing.markdown %}) [emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) or Trojan horses which record every keystroke the user makes. It is often even easier than that. If you use a password that is too basic, it can be “guessed” in a few seconds using special software or by a [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) expert. Log-in data is highly coveted by ill-intentioned people, as it enables them to log in to online services in your name.
 
 For example:
 

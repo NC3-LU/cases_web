@@ -1,9 +1,8 @@
 ---
 layout: publication-list
 title: Publications
-menutitle: Publications
+menutitle: 
 permalink: /publications/
 categories: iso
 toc: true
 ---
-

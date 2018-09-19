@@ -84,7 +84,7 @@ In order to work within the confines of the laws, the IT manager and the legal m
 
 ### Behavioural measures:
 
-* [Best practice concerning email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* [Best practice concerning email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 
 ### Directly associated organisational measures:
 

@@ -31,7 +31,7 @@ Use reputable websites to send greetings cards. Firstly, this will give you a gu
 #### Online payment
 Firstly, if you want to subscribe to a pay service, look out for site security. As with all online payments, check that the pages are secure and that the website is reliable. Please note that most of the websites offering electronic greetings cards are free of charge (and are funded by advertising).
 
-In case of any doubt, please read through the page: [e-commerce – best practices]({% link _publications/cleverclicks/ECommerceScams.markdown %})
+In case of any doubt, please read through the page: [e-commerce – best practices]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams.markdown %})
 
 ## Receiving greetings cards
 As with all emails, there are a few rules that should be respected when you receive virtual greetings cards. Even if someone you know sends you a greetings card with the best of intentions, the card could contain something more than good wishes.
@@ -48,7 +48,7 @@ As with any email attachment, do not open attached files if you do not know the 
 
 Don't forget to [update your computer]({% link _knowhow/glossary/Patches.markdown %}) (operating system and applications, especially your web browser and email program), so you can avoid getting trapped by opening malicious greetings cards which exploit [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) to enable criminals to gain access to your computer without your knowledge.
 
-As well as this, to protect yourself against [malicious files]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}), install anti-virus software and anti-spyware that can scan the attachment, thereby reducing the risk of opening a malicious file.
+As well as this, to protect yourself against [malicious files]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), install anti-virus software and anti-spyware that can scan the attachment, thereby reducing the risk of opening a malicious file.
 
 #### Also view the following articles:
 

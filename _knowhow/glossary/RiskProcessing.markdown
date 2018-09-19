@@ -47,14 +47,14 @@ The adoption of best practices is recommended in the following fields:
 * [best practices relating to employee and/or client awareness and training]({% link _services/trainings.markdown %})
 * [best practices relating to the organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
 * [best practices relating to physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
-* [best practices relating to social networks]({% link _publications/cleverclicks/SocialNetworkScams.markdown %})
-* [best practices relating to business trips]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %})
+* [best practices relating to social networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams.markdown %})
+* [best practices relating to business trips]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %})
 
 The adoption of best practices in the following fields is also advisable:
 
-* best practices: [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* best practices: [email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 * best practices: [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-* best practices: [e-banking, e-commerce]({% link _publications/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
+* best practices: [e-banking, e-commerce]({% link _knowhow/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
 * Security [checklist for web applications in PHP]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications.markdown %})
 
 ## Non-exhaustive strategies

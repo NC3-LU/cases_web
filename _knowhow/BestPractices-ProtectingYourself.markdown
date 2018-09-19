@@ -57,12 +57,12 @@ Alongside the gradual strategy to improve its level of security, a company also 
 ## Best practices
 Some best practices guides are available on the CASES website:
 
-* [e-banking and e-commerce]({% link _publications/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
-* [email]({% link _publications/bestpractices/EMail-BestPractices.markdown %})
+* [e-banking and e-commerce]({% link _knowhow/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
+* [email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 * [malicious software (malware)]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-* [business trips]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %})
+* [business trips]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %})
 
-Draw up a [charter for users]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %}).
+Draw up a [charter for users]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}).
 
 ## Common methods
 These checklists have been drawn up by analysing the most common threats and by proposing organisational, technical or behavioural security measures in order to reduce existing vulnerabilities.

@@ -18,4 +18,4 @@ A business trip or a meeting with a partner can in themselves be confidential, a
 
 If someone asks you why a colleague or your boss are not in the office, instead of responding, for example, by saying they are on a business trip to Shenzhen in China to negotiate the details of a business deal, you should preferably simply answer that they are on a trip, and give no further details.
 
-Also see [best practice relating to the use of emails]({% link _publications/bestpractices/EMail-BestPractices.markdown %}).
+Also see [best practice relating to the use of emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}).

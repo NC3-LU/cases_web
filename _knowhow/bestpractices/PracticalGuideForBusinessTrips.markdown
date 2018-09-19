@@ -5,7 +5,7 @@ menutitle: "Be Safe: a practical guide for business trips"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "How to deal with your personal data in a trip?"
-categories: bestpractice
+categories: f-bestpract
 toc: true
 ---
 
@@ -28,9 +28,9 @@ The Ministry of the Economy and Foreign Trade also offers **[training sessions](
 
 When going on a business trip, take precautions:
 
-* [Before the trip]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %}#before-the-trip)
-* [During the trip]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %}#during-the-trip)
-* [After the trip]({% link _publications/bestpractices/PracticalGuideForBusinessTrips.markdown %}#after-the-trip)
+* [Before the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#before-the-trip)
+* [During the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#during-the-trip)
+* [After the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#after-the-trip)
 
 ## Before the trip
 Before going on a business trip, we advise you to familiarise yourself with the local social, economic and cultural situation.
@@ -67,7 +67,7 @@ Sensitive information on electronic media must be encrypted.
 ### Social networks
 You are advised not to announce a business trip on social networks like Facebook, Twitter or LinkedIn. It would also be very ill-advised to post information such as the reason for the trip, your destination, hotel, schedule, any contacts and accompanying persons on these networks.
 
-## 
+##
 During your trip, you should apply the following rules:
 
 1. Always **secure data** by avoiding leaving laptops and mobile phones unguarded. Anti-theft cables are recommended for laptops, especially when attending trade shows.
@@ -100,6 +100,6 @@ Did you adhere to all the security instructions before and during the trip? Well
 
 * start with an inventory of all your data and removable media;
 * report any security-related matter during your trip involving you or one of your colleagues to your management;
-* before logging in to your electronic equipment (computer, USB flash drive, external hard drive, CD/DVD) on your company's internal network, have it checked for any [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) by your IT department.
+* before logging in to your electronic equipment (computer, USB flash drive, external hard drive, CD/DVD) on your company's internal network, have it checked for any [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) by your IT department.
 * [Completely wipe]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}) your trip computer in preparation for your next trip.
 * Change any passwords used during the trip.

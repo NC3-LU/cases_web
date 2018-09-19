@@ -9,7 +9,7 @@ categories: securing
 toc: true
 ---
 ## Prevent risks
-The best way to secure your company is to set up [a risk management process]({% link _publications/RiskManagement.markdown %}). This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: “[Why manage risks?]({% link _publications/WhyManageRisks.markdown %})” and “[Why pool risk analysis?]({% link _publications/WhyPoolRisksAnalysis.markdown %})”
+The best way to secure your company is to set up [a risk management process]({% link _knowhow/bestpractices/RiskManagement.markdown %}). This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: “[Why manage risks?]({% link _publications/WhyManageRisks.markdown %})” and “[Why pool risk analysis?]({% link _publications/WhyPoolRisksAnalysis.markdown %})”
 
 Risk can be defined using the following calculation: risk = vulnerability * [threat]({% link _knowhow/glossary/Threat.markdown %}) * impact. It is made up of a ‘probability’ factor (arising from the threat) and a ‘damage’ factor (arising from the value of the compromised asset, or corresponding to the value of the indirect damage suffered). The vulnerability used in this function takes into consideration the security measures that have been implemented.
 
@@ -29,7 +29,7 @@ The “impact” is the result of the exploitation of a vulnerability by a threa
 The combination of these three factors make up the “risk”.
 
 ## Protecting data
-As with data, business processes are known as primary assets ([Classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of [assets]({% link _knowhow/glossary/Assets.markdown %}); [risk management]({% link _publications/RiskManagement.markdown %}). The first priority for making an IT setup secure relates to the protection of these primary assets.
+As with data, business processes are known as primary assets ([Classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of [assets]({% link _knowhow/glossary/Assets.markdown %}); [risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %}). The first priority for making an IT setup secure relates to the protection of these primary assets.
 
 All entities have a particular interest in protecting their corporate data, especially with regard to information about the performance of their economic plan. Legal requirements, and even client expectations, also represent reasons which lead companies to protect specific data.
 

@@ -5,7 +5,7 @@ menutitle: "Online E-Banking/E-Commerce"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "The “golden rules” of IT security"
-categories: bestpractice
+categories: f-bestpract
 toc: true
 ---
 ## In brief
@@ -58,7 +58,7 @@ One of the best-known scams involves a criminal sending an email that fools you 
 * Protect yourself against social [engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
 * [Emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
 
-Apply [good practices relating to both emails]({% link _publications/bestpractices/EMail-BestPractices.markdown %}) and [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}).
+Apply [good practices relating to both emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) and [malicious software]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}).
 
 ### Encrypted web: spot the signs
 When you perform an online payment or banking transaction, you should always check to make sure the website address begins with “https”. This guarantees that nobody will be able to intercept your communications or any authentication passwords you enter.
@@ -66,7 +66,7 @@ When you perform an online payment or banking transaction, you should always che
 * [HTTPS]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %})
 
 ### Web site reputations
-Check the reputation of a website before visiting it or purchasing any products or services from it. [Phishing]({% link _knowhow/glossary/Phishing.markdown %}) attempts, [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) or suspicious adverts try to lure in Internet users to [scam websites]({% link _publications/cleverclicks/ECommerceScams.markdown %}) or websites that try to infect their visitors’ computers with [malicious software]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}). You can use [http://www.webutation.net](http://www.webutation.net) and web of trust (see our article on WOT) to check the reputation of a website by entering its URL. CIRCL has published an [abusive URL](https://www.circl.lu/services/urlabuse/) service to check if a malicious website might be hiding behind a URL.
+Check the reputation of a website before visiting it or purchasing any products or services from it. [Phishing]({% link _knowhow/glossary/Phishing.markdown %}) attempts, [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) or suspicious adverts try to lure in Internet users to [scam websites]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams.markdown %}) or websites that try to infect their visitors’ computers with [malicious software]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}). You can use [http://www.webutation.net](http://www.webutation.net) and web of trust (see our article on WOT) to check the reputation of a website by entering its URL. CIRCL has published an [abusive URL](https://www.circl.lu/services/urlabuse/) service to check if a malicious website might be hiding behind a URL.
 
 ### Suspicious log-in: let your bank know immediately
 If, during your online banking / e-commerce session you notice a security risk or anomaly, let your bank know right away. Examples of possible anomalies:

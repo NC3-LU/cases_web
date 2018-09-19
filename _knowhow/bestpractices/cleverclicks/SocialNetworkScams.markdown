@@ -33,7 +33,7 @@ The success rate will be high if your friends believe it is coming from your leg
 ## Pirated profile
 Have you received a message from a friend in difficulty, asking you in desperation for financial help? Is a friend trying hard to convince you to try an amazing new diet and sending you a long link to this novelty? Is your best friend sending you an instant message with an attached video file? Every comment is "LOL". Should we watch it?
 
-**It looks like a scam! If a scammer hacks a Facebook profile, he doesn't just have access to profile's data but he can especially seek to abuse the trust of the victim and the victim's Facebook friends or send [malware]({% link _publications/bestpractices/MaliciousSoftwareBP.markdown %}) to them.**
+**It looks like a scam! If a scammer hacks a Facebook profile, he doesn't just have access to profile's data but he can especially seek to abuse the trust of the victim and the victim's Facebook friends or send [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) to them.**
 
 *If you receive an unusual message from a friend, be careful and ask your friend if they actually sent this message. You should always be wary if a Luxembourg friend sends you a message in English with an attachment. Danger! Never click on files or links. If a friend seems to have financial problems, it's best to contact them by phone.*
 
