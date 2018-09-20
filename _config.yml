@@ -25,7 +25,7 @@ github_username:  cases-lu
 markdown: kramdown
 #theme: minima
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-toc
 
@@ -37,13 +37,20 @@ collections:
   knowhow:
     output: true
 
-paginate: 4
+pagination:
+  enabled: true
+  per_page: 4
+  permalink: '/articles-list/page:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 default_lang: en
 languages: ["en", "fr", "de"]
 exclude_from_localizations: ["javascript", "images", "css", "docs", "img", "files"]
 
-paginate_path: "/articles-list/page:num/"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
