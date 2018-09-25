@@ -63,6 +63,3 @@ exclude_from_localizations: ["javascript", "images", "css", "docs", "img", "file
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# Ideal image slider
-iis_slider_array: []

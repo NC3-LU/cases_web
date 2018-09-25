@@ -11,7 +11,7 @@ ref: glossarywhyprotectyourcomputer
 lang: en
 ---
 ## In brief
-*A [virus({% link _knowhow/glossary/MaliciousCodes.markdown %})can paralyse your computer – it will no longer function correctly and will have to be repaired. It is extremely annoying!*
+*A [virus]({% link _knowhow/glossary/MaliciousCodes.markdown %}) can paralyse your computer – it will no longer function correctly and will have to be repaired. It is extremely annoying!*
 
 If, like most people who use the Internet, you believe this temporary loss of [availability]({% link _knowhow/glossary/Availability.markdown %}) of your computer is the worst thing that can happen, you would be very wrong. This is just the tip of the iceberg. The real breadth of a digital attack only rarely comes into play. In almost all computers, [cybercriminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) can find “loot” with a high value. If they do grab this loot that you, as the legitimate owner, do not consider as being particularly valuable, this can lead to enormous damage.
 

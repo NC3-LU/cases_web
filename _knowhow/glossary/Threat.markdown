@@ -16,7 +16,7 @@ Les menaces exploitent des vulnérabilités d'actifs et créent ainsi un impact.
 Il est impossible pour un organisme d'exclure totalement l'existence de menaces. En matière de sécurité on s'applique donc généralement à
 
 ## EBIOSv2
-[EBIOS : Expression des Besoins et Identification des Objectifs de Sécurité](-)
+[EBIOS : Expression des Besoins et Identification des Objectifs de Sécurité]({% link _knowhow/glossary/EBIOS.markdown %})
 
 ## Les menaces par groupes
 EBIOSv2[1] propose une liste d'Agents Menaçants (e.g. menaces) génériques :
