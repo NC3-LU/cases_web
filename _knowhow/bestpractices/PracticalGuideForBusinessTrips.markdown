@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "How to deal with your personal data in a trip?"
 categories: f-bestpract
 toc: true
+ref: practicalguideforbusinesstrips
+lang: en
 ---
 
 > Check to verify the completeness of this article.

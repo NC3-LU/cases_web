@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "What is an email scams and how to avoid it?"
 categories: scams
 toc: true
+ref: emailscams
+lang: en
 ---
 ## In brief
 [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) is one of the most common means of communication in private and professional life. Despite all its advantages, it requires some precautions for use, both when sending and receiving messages. This article sheds light on the most common forms of fraud. In general, the right reflexes should be adopted. [Mail servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %}) must also be properly protected.

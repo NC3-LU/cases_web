@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "If you have been the victim of a cyber attack, you may file a complaint. Here is a guide summarizing the different steps to follow."
 categories: f-bestpract
 toc: true
+ref: filingcomplaint
+lang: en
 ---
 ## In brief
 The victim of a [computer attack]({% link _knowhow/glossary/ComputerHacks.markdown %}) can file a complaint against the [attacker]({% link _knowhow/glossary/Cybercriminals.markdown %}), even if the latter is not known.

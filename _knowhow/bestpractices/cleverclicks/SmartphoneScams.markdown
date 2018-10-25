@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "A few cases with loss of either data or moneym and how to protect ourselves"
 categories: scams
 toc: true
+ref: smartphonescams
+lang: en
 ---
 ## In brief
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.

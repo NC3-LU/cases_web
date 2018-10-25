@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Behavioural measures to prevent from infection"
 categories: f-bestpract
 toc: true
+ref: malicioussoftwarebp
+lang: en
 ---
 ## In brief
 Malicious software represents one of the greatest [threats]({% link _knowhow/glossary/Threat.markdown %}) to the whole IT system, regardless of its size. All types of operating systems are at risk, and all administrations, municipalities and companies can succumb to it.

@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "The “golden rules” of IT security"
 categories: f-bestpract
 toc: true
+ref: onlinebankingecommerce-bestpractices
+lang: en
 ---
 ## In brief
 Now you can shop and bank from the comfort of your own home, with no need to queue at tills and counters. E-commerce and online banking are making life much simpler. If comfort and security are what you’re looking for, you need look no further: Let CASES show you how! Nowadays, secure e-commerce is available to everyone thanks to the simple guidelines, fact sheets, “step by step” procedures and comprehensive case files offered by CASES. To assess your knowledge at the start or end of your training session, all you need to do is take the BEE PASS+ [https://beepassplus.bee-secure.lu/](https://beepassplus.bee-secure.lu/) quiz on online banking / e-commerce.

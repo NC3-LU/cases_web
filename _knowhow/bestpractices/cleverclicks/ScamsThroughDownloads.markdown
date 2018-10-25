@@ -7,6 +7,8 @@ date:   2017-11-06 00:00:00 +0100
 short: "Overview of threats and measures to protect ourselves"
 categories: scams
 toc: true
+ref: scamsthroughdownloads
+lang: en
 ---
 ## In brief
 

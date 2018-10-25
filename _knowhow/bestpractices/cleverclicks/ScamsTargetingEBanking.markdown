@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "What is a e-banking scams and how to avoid it?"
 categories: scams
 toc: true
+ref: scamstargetingebanking
+lang: en
 ---
 ## In brief
 Queuing at a bank is a thing of the past. Today, it is possible to carry out all financial operations on the family computer. In just a few seconds, you can check your balance to see how much money is left for shopping or transfer money with a single click – none of this is now problematic. Or maybe it is? Scammers are increasingly trying to steal, use or even resell data. The trade in stolen data and money is on the rise.

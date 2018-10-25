@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Behavioural and technical measures to prevent risks related to sending emails"
 categories: f-bestpract
 toc: true
+ref: emailbestpractice
+lang: en
 ---
 ## In brief
 Email is one of the primary forms of private and professional communication. It’s a user-friendly, fast and inexpensive tool. Despite its advantages, there are still some precautions to be taken into consideration when both sending and receiving messages.

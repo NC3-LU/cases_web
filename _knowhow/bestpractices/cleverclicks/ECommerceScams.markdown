@@ -7,6 +7,8 @@ date:   2017-11-06 00:00:00 +0100
 short: "The most widespread scams and advices to avoid them"
 categories: scams
 toc: true
+ref: ecommercescams
+lang: en
 ---
 ## In brief
 

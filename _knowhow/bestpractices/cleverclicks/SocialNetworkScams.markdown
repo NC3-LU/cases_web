@@ -7,6 +7,8 @@ date:   2017-11-06 00:00:00 +0100
 short: "The different types of traps and scams that must be avoided at all costs"
 categories: scams
 toc: true
+ref: socialnetworkscams
+lang: en
 ---
 ## In brief
 
