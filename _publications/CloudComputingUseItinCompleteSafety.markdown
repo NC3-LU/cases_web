@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "This file addresses the key points of cloud computing, thanks to him you will master this subject"
 categories: securing
 toc: true
+ref: cloudcomputinguseitincompletesafety
+lang: en
 ---
 ## In brief
 Cloud computing covers different ways for companies to outsource their IT resources and access them through a network.

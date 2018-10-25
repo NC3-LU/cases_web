@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Why pool risk analysis?"
 categories: securing
 toc: true
+ref: whypoolrisksanalysis
+lang: en
 ---
 [Risk analysis]({% link _publications/WhyManageRisks.markdown %}) consists of identifying the attack scenarios which would cause the most serious impacts, and putting forward a treatment to reduce their consequences.
 

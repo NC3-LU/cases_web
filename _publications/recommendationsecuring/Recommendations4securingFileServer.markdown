@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Security Measures"
 categories: securing
 toc: true
+ref: recommendations4securingfileserver
+lang: en
 ---
 
 ## In brief

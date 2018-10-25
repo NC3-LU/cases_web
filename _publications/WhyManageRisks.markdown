@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "Why manage risks?"
 categories: securing
 toc: true
+ref: whymanagerisks
+lang: en
 ---
 <!-- <div style="border: 1px solid #000000; padding: 10px;"> -->
 

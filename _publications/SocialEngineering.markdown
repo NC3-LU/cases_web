@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "How criminals take advantage of your kindness? Who might be a victim?"
 categories: securing
 toc: true
+ref: socialengineering
+lang: en
 ---
 
 

@@ -7,6 +7,8 @@ date:  2017-11-06 00:00:00 +0100
 short: "The ISO 27000 family of standards helps organizations ensure the security of their information. Discover what these standards consist of"
 categories: iso
 toc: true
+ref: iso27000sf
+lang: en
 ---
 ## Introduction
 The standards in the ISO/IEC 27000 family constitute an internationally recognised set of methods, measures and best practice in the information security domain. They are applicable to all types of company, regardless of their size, the sector in which they are active, or their country of origin. The purpose of these standards is to describe the objectives to be obtained in terms of IT security, not the exact way in which to obtain them. This normally depends on the individual context of each organisation.
