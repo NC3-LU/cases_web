@@ -11,94 +11,103 @@ main-categ: bestpract
 ref: bestpractices
 lang: fr
 ---
-## In brief
-Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), falsification (loss of [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and even destruction (loss of [availability]({% link _knowhow/glossary/Availability.markdown %})).
+## En quelques mots
 
-Company managers usually only realise the true value of their [assets]({% link _knowhow/glossary/Assets.markdown %}) after a serious incident occurs. It is then often too late to take curative or protective measures.
+La grande majorité des entreprises dispose de [données importantes ou vitales]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (données liées à la fabrication, clientèle, facturation, comptabilité,...) ainsi que d'outils de travail indispensables ou distinctifs, qu'il faut protéger contre une divulgation involontaire (perte de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), la falsification (perte d'[integrité]({% link _knowhow/glossary/Integrity_fr.markdown %})) ou encore la destruction (perte de [availability]({% link _knowhow/glossary/Availability_fr.markdown %})).
 
-## Incidents and impacts
-There are many reasons why it is important to [protect your computer]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer.markdown %}).
+Généralement les responsables d’entreprise prennent seulement conscience de la vraie valeur de leurs [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) après avoir subi un incident grave. Il est alors souvent trop tard pour employer des mesures curatives ou protectrices.
 
-Many incidents are very difficult to detect. How can you find out that someone has stolen your [passwords]({% link _knowhow/glossary/Password.markdown %}) and has been reading the communications you have had with your suppliers, clients or employees via [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)?  How do you know no-one is directly spying on your computer, or is using your documents server or your web server to host illegal files? Many incidents remain undetected and most [impacts]({% link _knowhow/glossary/Impact.markdown %}) are vastly underestimated.
+## Incidents et impacts
+ Il est important de [protéger son ordinateur]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer_fr.markdown %}) - les raisons en sont nombreuses..
 
-## Choosing the right strategy
-It is very important to introduce preventive and protective measures as early as possible. The way forward may differ between a “gradual” or a “general” strategy. It can be more or less methodological, going from the introduction of best practices and specific measures, all the way up to the deployment of a full [ISMS]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}). The company should choose the solution that suits it best – a solution that is ready and able to be implemented.
+Beaucoup d'incidents ne sont que difficilement détectables. Comment se rendre compte que quelqu'un vous a volé vos [mots de passe]({% link _knowhow/glossary/Password_fr.markdown %}) et a suivi les communications que vous menez avec  vos fournisseurs, clients ou employés via [courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)?  Comment savoir que quelqu'un vous espionne directement via votre ordinateur, ou utilise votre serveur de documents, respectivement votre serveur web, pour héberger des fichiers illégaux ? Beaucoup d'incidents restent non détectés et la plupart des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) sont sévèrement sous-estimés.
 
-## Quick wins
-Regardless of the strategy chosen, it is always of benefit to identify “quick wins” (such as [update management]({% link _knowhow/glossary/Patches.markdown %}), [encrypted wifi networks]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}), [password management]({% link _knowhow/glossary/Password.markdown %}), etc.) that can be set up rapidly. These guarantee immediate results and are often suitable to resolve certain urgent issues or to persuade the management of the importance of security issues.
+## Choisir la bonne approche
+Il est très important de mettre en place des mesures préventives et protectrices aussi tôt que possible. La manière de procéder peut varier entre une « approche graduelle » ou « générale ». Elle peut être plus ou  moins méthodologique, allant de la mise en place de bonnes pratiques et de mesures spécifiques,  jusqu'au déploiement d'un [ISMS]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %}) complet. L'entreprise devra choisir la solution qui lui convient le mieux, respectivement celle qu'elle est prête, respectivement capable, à mettre en place.
 
-The best way to protect a company consists of opting for continuous improvement, taking into consideration the company's real security needs. This strategy is more time-consuming than a more general strategy, but at the end of the day, it will be better suited to the company’s actual needs, and will therefore be more effective and less expensive, but certainly longer to implement.(See article [protecting your company]({% link _publications/ProtectingYourCompany.markdown %}))
+## Les "quick wins"
+Quelle que soit l’approche choisie, il est toujours avantageux d’identifier des « quick wins » (comme notamment la gestion des [mises à jour]({% link _knowhow/glossary/Patches_fr.markdown %}), les [réseaux WiFi chiffrés]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}), la gestion des [mots de passe]({% link _knowhow/glossary/Password_fr.markdown %}), etc.) que l’on peut mettre en place rapidement. Ils garantissent des résultats immédiats et sont souvent de mise pour régler certains problèmes urgents, respectivement pour persuader la direction de l’importance des mesures de sécurité.
 
-## Risk analysis
-To be able to protect important and vital data and assets, they must first of all be identified through at least [a rudimentary risk analysis]({% link _publications/ProtectingYourCompany.markdown %}#prevent-risks).
+## Une approche graduelle
 
-To do this, the data and assets that are essential to the company should be identified, along with the [threats]({% link _knowhow/glossary/Threat.markdown %}) and the probability that such threats may arise. Also to be identified are the scope of [human and technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) and a quantification of the potential [impacts]({% link _knowhow/glossary/Impact.markdown %}). This exercise can be more or less formal in nature, and can be supported by a specific method or tool.
+La meilleure façon de protéger une entreprise consiste à se décider pour une amélioration continue, en prenant en considération les vrais besoins en matière de sécurité pour l’entreprise. Cette approche nécessite plus de temps que l’approche générale, mais en fin de compte elle sera mieux adaptée aux besoins réels -  et donc plus efficace et moins chère -, mais certainement plus longue à mettre en place. (Voir l'article [protéger son entreprise)]({% link _publications/ProtectingYourCompany_fr.markdown %}))
 
-## Protecting data
-Data protection is the next practical step. Once [classified]({% link _publications/ProtectingYourCompany.markdown %}#classification-of-data), consideration should be given on how to protect data through [backups]({% link _publications/ProtectingYourCompany.markdown %}#data-backups), during [transportation]({% link _publications/ProtectingYourCompany.markdown %}#data-transport) or even during [transmission]({% link _publications/ProtectingYourCompany.markdown %}#transmission-of-data). Measures for the secure [destruction]({% link _publications/ProtectingYourCompany.markdown %}#data-destruction) of data should also be set up.
+## Analyse des risques
+Pour pouvoir protéger les données et actifs importants et vitaux, il faut d'abord les identifier par une [analyse des risques]({% link _publications/ProtectingYourCompany_fr.markdown %}#prevent-risks), même rudimentaire.
 
-## Protecting machines
-To protect essential working tools, implement preventive and protective measures for your [computers]({% link _publications/ProtectingYourCompany.markdown %}#computers), [laptops]({% link _publications/ProtectingYourCompany.markdown %}#laptop-computer), [file server]({% link _publications/ProtectingYourCompany.markdown %}#file-servers), [mail server]({% link _publications/ProtectingYourCompany.markdown %}#email-servers) and [web server]({% link _publications/ProtectingYourCompany.markdown %}#web-server). Implement “incident response” type measures.
+Pour ce faire, il faut identifier les données et actifs indispensables à l’entreprise, identifier les [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) et la probabilité que celles-ci risquent de survenir, identifier l'ampleur des [vulnérabilités humaines et techniques]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) et quantifier les [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) potentiels. Cet exercice peut être plus ou moins formalisé, éventuellement soutenu par une méthode ou un outil.
 
-## Protecting the network
-You should also consider protecting your network, whether it is a [fixed]({% link _publications/ProtectingYourCompany.markdown %}#local-fixed-network) or [wifi network]({% link _publications/ProtectingYourCompany.markdown %}#wifi-network). Implement the necessary measures.
+## Protéger les données
 
-## Awareness and training
-Make sure you raise [awareness and train]({% link _publications/ProtectingYourCompany.markdown %}#training-and-awareness) all your employees about IT security. The adoption of proper behavioural practices by all staff is an extremely important measure. This often entails deploying greater efforts at organisational and behavioural level and also at technical level, to increase your data security most effectively.
+Ensuite il faut procéder à la protection des données. Une fois [classifiées]({% link _publications/ProtectingYourCompany_fr.markdown %}#classification-of-data), il faut réfléchir à assurer leur protection par des [sauvegardes]({% link _publications/ProtectingYourCompany_fr.markdown %}#data-backups), lors de leur [transport]({% link _publications/ProtectingYourCompany_fr.markdown %}#data-transport) ou encore lors de leur [transmission]({% link _publications/ProtectingYourCompany_fr.markdown %}#transmission-of-data). Bien-sûr il faudra aussi prévoir leur [destruction]({% link _publications/ProtectingYourCompany_fr.markdown %}#data-destruction) sécurisée.
 
-Tell your staff about the risks linked to [the use of social networks]({% link _publications/ProtectingYourCompany.markdown %}#communications-and-social-networks) as well as the risks associated with “[social engineering]({{ site.url }})”. Teach them how to behave appropriately [when on business trips]({% link _publications/ProtectingYourCompany.markdown %}#business-trips).
+## Protéger les machines
 
-## Physical security
-Finally, do not lose sight of the [physical security]({% link _publications/ProtectingYourCompany.markdown %}#protecting-the-premises) of your company. Many [threats]({% link _knowhow/glossary/Threat.markdown %}) can exploit physical [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}), be they human, natural or environmental threats.
+Pour protéger vous outils de travail indispensables, mettez en place de mesures préventives et protectrices pour vos [ordinateurs]({% link _publications/ProtectingYourCompany_fr.markdown %}#computers), [ordinateurs portables]({% link _publications/ProtectingYourCompany_fr.markdown %}#laptop-computer), [serveur de fichier]({% link _publications/ProtectingYourCompany_fr.markdown %}#file-servers), [serveur mail]({% link _publications/ProtectingYourCompany_fr.markdown %}#email-servers), ainsi que le [serveur web]({% link _publications/ProtectingYourCompany_fr.markdown %}#web-server). Mettez en place des mesures de type « réaction sur incidents ».
 
-## General strategy
-Alongside the gradual strategy to improve its level of security, a company also has the option of following “best practices” or setting out more commonplace security measures. The general strategy is quicker to implement than the gradual strategy, and requires less expertise within the company. However, it does not necessarily take into account the real needs of the company.
+## Protéger le réseau
+Pensez aussi à la protection de votre réseau, que ce soit un réseau [fixe]({% link _publications/ProtectingYourCompany_fr.markdown %}#local-fixed-network) ou un [réseau WiFi]({% link _publications/ProtectingYourCompany_fr.markdown %}#wifi-network). Mettez en place les mesures nécessaires.
 
-## Best practices
-Some best practices guides are available on the CASES website:
+## Sensibiliser et former
 
-* [e-banking and e-commerce]({% link _knowhow/bestpractices/OnlineBankingECommerce-BestPractices.markdown %})
-* [email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
-* [malicious software (malware)]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-* [business trips]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %})
+Penser à [sensibiliser et former]({% link _publications/ProtectingYourCompany_fr.markdown %}#training-and-awareness) la totalité de vos employés. L'adoption des bonnes mesures comportementales par l'ensemble du personnel est une mesure extrêmement importante. En effet, il s’agit souvent de déployer davantage d’efforts au niveau organisationnel et comportemental qu’au niveau technique pour augmenter la sécurité de vos informations de manière efficace.
 
-Draw up a [charter for users]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}).
+Informez votre personnel sur les [risques liés à l'utilisation de réseaux sociaux]({% link _publications/ProtectingYourCompany_fr.markdown %}#communications-and-social-networks) ainsi qu'aux risques liés au « [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) ». Instruisez-les à se comporter de manière appropriée [lors des voyages de service]({% link _publications/ProtectingYourCompany_fr.markdown %}#business-trips).
 
-## Common methods
-These checklists have been drawn up by analysing the most common threats and by proposing organisational, technical or behavioural security measures in order to reduce existing vulnerabilities.
+## Sécurité physique
 
-* [Threats]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}) to infrastructure
-    * [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Denial of service/distributed service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Wireless network tapping]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Network unavailability]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-    * [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})
-* [Threats]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) to hardware
-    * [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
-    * [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
-    * [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
-    * [Addition or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
-    * [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
-    * [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})
-* [Threats]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}) to software
-    * [Unsuitable software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
-    * [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
-    * [Unavailability of administrators]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})
-* Legal aspects
-    * [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
-    * [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
-    * [Lack of traceability of operations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
-    * [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %})
-* [Threats]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}) to people
-    * [Manipulation of people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
-    * [Human error: prevention measures]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
-    * [Misuse of IT resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
-    * [Staff absences]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
-    * [The administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
-    * [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
-    * [Use of limited access by a third party]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
+Finalement ne perdez pas de vue la [sécurité physique]({% link _publications/ProtectingYourCompany_fr.markdown %}#protecting-the-premises) de votre entreprise. Beaucoup de [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) exploiter des [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}), qu’il s’agisse de menaces humaines, naturelles ou environnementales.
+
+## Approche générale
+
+A  côté de l'approche graduelle pour améliorer son niveau de sécurité, une entreprise a également la possibilité de respecter les  « bonnes pratiques », respectivement d’établir des mesures de sécurité les plus usuelles. L’approche générale est plus rapide à mettre en place que l'approche graduelle et demande moins de savoir-faire au sein de l’entreprise. Cependant, elle ne prend pas nécessairement en compte les besoins réels de l'entreprise.
+
+## Bonnes pratiques
+
+Certains guides de bonnes pratiques sont disponibles sur le site de CASES :
+
+* [e-banking et e-commerce]({% link _knowhow/bestpractices/OnlineBankingECommerce-BestPractices_fr.markdown %})
+* [e-mail]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
+* [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
+* [voyages de service]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %})
+
+Mettez en place une [charte pour les utilisateurs]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %}).
+
+## Les mesures usuelles
+Ces listes de contrôle ont été établies en analysant les menaces les plus communes et en proposant des mesures de sécurité organisationnelles, techniques ou comportementales afin de réduire les vulnérabilités existantes.
+
+* L'infrastructure face aux [menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Interruption de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Déni de service /de service distribué]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Perturbation de la transmission des communications sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Écoute des réseaux sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Indisponibilité du réseau]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+    * [Pénétration des locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+* Le matériel face aux [menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+    * [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+    * [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+    * [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+    * [Ajout ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+    * [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+    * [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+* Le logiciel face aux [menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})
+    * [Environnement logiciel inapproprié]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})
+    * [Utilisation de logiciels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})
+    * [Indisponibilité des administrateurs]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})
+* Le côté légal
+    * [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})
+    * [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})
+    * [Défaut de traçabilité des opérations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})
+    * [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})
+* Les humains faces aux [menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [Manipulation de l'être humain]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [Erreur humaine : mesures de prévention]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [Utilisation abusive des ressources informatiques]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [Absence du personnel]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [L'administrateur]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+    * [Utilisation par un tiers d’un accès réservé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})

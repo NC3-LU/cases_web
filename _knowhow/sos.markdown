@@ -13,29 +13,30 @@ lang: en
 ---
 
 ## In brief
-Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
 
-## Email
-[Comment reconnaître un courrier électronique suspect ?]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
+This section should guide you in case of problems. If you do not find an answer to your question here, do not hesitate to contact us.
 
-[J'ai ouvert une pièce jointe d'un courrier électronique]({% link _knowhow/sos/SOS-IOpenedEmailAttachment.markdown %})
+## E-mail
+[How to recognize a suspicious email?]({% Link _knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown%})
 
-[Je suspecte que quelqu'un utilise ma boîte aux lettres électronique]({% link _knowhow/sos/SOS-OnlineIdentityTheft.markdown %})
+[I opened an attachment from an email]({% link _knowhow/sos/SOS-IOpenedEmailAttachment.markdown%})
 
-[Quelqu'un me demande des informations confidentielles]({% link _knowhow/sos/SOS-IamAskedForConfidentialInformation.markdown %})
+[I suspect someone is using my mailbox]({% link _knowhow/sos/SOS-OnlineIdentityTheft.markdown%})
 
-[Comment procéder avec les cartes de vœux électroniques]({% link _knowhow/sos/SOS-ElectronicGreetingsCards.markdown %})
+[Someone asks for confidential information]({% link _knowhow/sos/SOS-IamAskedForConfidentialInformation.markdown%})
 
-## Codes malicieux
-[Je crois que mon ordinateur est infecté]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %})
+[How to proceed with greeting cards]({% link _knowhow/sos/SOS-ElectronicGreetingsCards.markdown%})
 
-## Pannes de matériel
-[Puis-je donner mon matériel en réparation ?]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown %})
+## Malicious codes
+[I think my computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown%})
 
-[Comment me défaire de mon ancien matériel ?]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %})
+## Hardware failures
+[Can I give my hardware for repair?]({% Link _knowhow/sos/SOS-HandoverToRepairs.markdown%})
 
-## Vol d'informations
-[Que faire si mes données de connexion ont été compromises ou même divulguées?]({% link _knowhow/sos/SOS-CompromisedData.markdown %})
+[How to get rid of my old hardware?]({% Link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown%})
 
-## Vol de matériel
-[Que faire si votre matériel est volé, perdu, saisi?]({% link _knowhow/sos/SOS-StolenHardware.markdown %})
+## Information theft
+[What if my login data has been compromised or even disclosed?]({% Link _knowhow/sos/SOS-CompromisedData.markdown%})
+
+## Theft of material
+[What if your hardware is stolen, lost, seized?]({% Link _knowhow/sos/SOS-StolenHardware.markdown%})

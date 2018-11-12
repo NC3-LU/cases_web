@@ -11,136 +11,134 @@ main-categ: ciso
 ref: cisoapproach
 lang: en
 ---
-## En quelques mots
+## In brief
 
-Sécuriser les informations est loin d'être une question d'ordre technique pour un organisme. En effet les activités techniques représentent seulement un aspect d'une démarche qui, pour réussir, se doit de couvrir les activités de l'entreprise dans son ensemble.
-Avant de mettre en place des procédures ou des mesures techniques visant à augmenter la sécurité d'un organisme, il importe de procéder à une analyse des risques ([gestion des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %})) et de rédiger une politique de sécurité.
+Securing information is far from being a technical issue for an organization. Indeed, technical activities are only one aspect of an approach that, in order to be successful, must cover the activities of the company as a whole.
+Before putting in place procedures or technical measures to increase the safety of an organization, it is important to carry out a risk analysis ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %}) ) and write a security policy.
 
-La politique de sécurité sert à formaliser et à coordonner toutes les démarches organisationnelles et techniques de sécurité de l'organisme.
-La rédaction d'une politique de sécurité est une tâche fastidieuse. Nous déconseillons aux petites entreprises de s'y atteler d'entrée et recommandons plutôt d'avancer dans une optique d'amélioration continue, un document court et concis à la fois, pour développer peu à peu les procédures et politiques sectorielles dont elles ont le plus besoin.
+The security policy is used to formalize and coordinate all organizational and technical security procedures of the organization.
+Writing a security policy is a tedious task. We do not advise small businesses to approach them, and instead recommend moving forward with a view to continuous improvement, a short and concise document at a time, to gradually develop the sectoral procedures and policies that they have in place. Not needed anymore.
 
-Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques ([ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) et [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %})), et de l'autre dans l'analyse et [l'évaluation des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}#risk-estimation). En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
+The common thread for the development of a security policy consists of one side in a set of good practices ([ISO / IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) and [ISO / IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %})), and the other in the analysis and [risk assessment]({% link _knowhow/bestpractices/RiskManagement.markdown ½}#risk-estimation). Indeed, any organization must ensure that behavioral, organizational and technical measures are put in place where they will be quickly and truly effective.
 
-Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) des [actifs]({% link _knowhow/glossary/Assets.markdown %}) et de la maturité de l'organisme.
+In any case, it is advisable to choose an approach adapted to the [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) size of the [assets]({% link _knowhow/glossary/Assets.markdown %}) and the maturity of the organization.
 
-## Charte de sécurité
+## Security Charter
 
-La définition et l'application d'une [charte de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une [analyse de risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}), même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels [actifs]({% link _knowhow/glossary/Assets.markdown %})  protéger en priorité. Afin de pouvoir prévenir les [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, la direction doit identifier les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables, ainsi que les [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}) dont l'exploitation est la plus aisée.
+Defining and enforcing a [security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}) is the first step toward managing security. To ensure its success, it must meet the specific security needs of the organization. A [risk analysis]({% link _knowhow/bestpractices/RiskManagement.markdown %}), even a summary, must necessarily precede this process. Without this analysis, management will not be able to understand which [assets]({% link _knowhow/glossary/Assets.markdown %}) to protect in priority. In order to prevent the most dreaded [impacts]({% link _knowhow/glossary/Impact.markdown %}), management needs to identify the most important [threats]({% link _knowhow/glossary/Threat.markdown %}) as well as the [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) that are most easily exploited.
 
-La mise en place d'une charte doit absolument être accompagnée d'une présentation aux employés qui devront vivre avec les mesures proposées au quotidien. Sans formation de leur part, toute charte risque d'être ignorée, et donc de perdre son utilité.
+The implementation of a charter must be accompanied by a presentation to employees who will live with the measures proposed daily. Without training on their part, any charter risks being ignored, and thus losing its usefulness.
 
-## Politique de sécurité
+## Security policy
 
-<img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
-Après l'identificaton des risques majeurs pour l'organisme ([gestion des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %})), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
+<img class = "img-border" src = "/ assets / img / services / polsec-circl.jpg" style = "float: right; width: 445px;" />
+After the identification of the major risks for the organization ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %})), the management can, with a view to continuous improvement, go beyond 'a simple security charter. It will put in place a real policy as well as specific procedures.
 
-La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
+The implementation of a security policy, even rudimentary, will allow management to begin the organization of security. It will be defined in formal procedures, the obligations and responsibilities of each, as well as processes related to the security of information.
 
-Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré [des mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}), évalués en fonction des [impacts]({% link _knowhow/glossary/Impact.markdown %}) les plus redoutés, les [menaces]({% link _knowhow/glossary/Threat.markdown %}) les plus probables et les [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}) les plus importantes.
+It is not necessary at this stage to start with the implementation of a comprehensive security policy. Safeguarding an organization is an ongoing process (Design, Implementation, Evaluation / Control and Improvement), implemented on the basis of [security measures]({% link _publications/ProtectingYourCompany.markdown %}), evaluated in [Impact]({% link _knowhow/glossary/Impact.markdown %}) the most feared, [threats]({% link _knowhow/glossary/Threat.markdown %}) the most likely and [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) the most important.
 
-### Conception
+### Design
 
-Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer [l'analyse des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}) qui doit être effectuée au préalable).
+This first step aims to correctly define the scope and context of the future system. It must also make it possible to identify and evaluate risks in order to develop a management plan. (It can not, however, replace [the risk analysis]({% link _knowhow/bestpractices/RiskManagement.markdown %}) that must be done beforehand.
 
-L'étape de réalisation consiste principalement à appliquer la politique de sécurité créée à l'étape précédente. Les mesures organisationnelles et techniques sont mises en place, les mesures comportementales sont appliquées par le personnel.
+The realization step consists mainly of applying the security policy created in the previous step. Organizational and technical measures are put in place, behavioral measures are applied by staff.
 
-### Évaluation et contrôle
+### Evaluation and control
 
-Les systèmes d’évaluation doivent avoir été décrits dans le manuel de sécurité. L’objectif consiste à s’assurer que les procédures  mises en place fonctionnent comme prévu.
-Ces évaluations peuvent être de plusieurs types :
+The evaluation systems must have been described in the safety manual. The goal is to ensure that the procedures put in place work as intended.
+These evaluations can be of several types:
 
-* vérifications régulières faite dans le cadre des activités quotidiennes ;
-* contrôles automatiques réalisés avec des outils logiciels permettant de créer des rapports ;
-* comparaison avec les autres organisations ;
-* réalisation d’audits formels planifiés ("risk assessment") ;
-* révision par la direction.
+* regular audits done as part of daily activities;
+* Automatic controls performed with software tools to create reports;
+* comparison with other organizations;
+* carrying out planned formal audits ("risk assessment");
+* revision by the management.
 
-Si les évaluations et les contrôles révèlent des inadéquations de certaines procédures, il faut de suite entreprendre des corrections.
+If evaluations and controls reveal inadequacies in certain procedures, corrections must be made.
 
-### Amélioration
+### Improvement
 
-Les actions qui auront été décidées à l’étape précédente devront être mises en oeuvre, soit :
+The actions that will have been decided in the previous step will have to be implemented, ie:
 
-* au niveau du système de sécurité proprement dit, comme par exemple en nommant un (nouveau) responsable pour tout ou partie du système ;
-* au niveau des procédures opérationnelles qui en auront été déduites, comme par exemple par la mise en oeuvre d’une procédure de sauvegarde de données différente (et évidemment plus adaptée) ;
-* au niveau des outils, comme par exemple par l’achat d’un outil [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}).
+* at the level of the security system itself, as for example by appointing a (new) person responsible for all or part of the system;
+* at the level of the operational procedures which will have been deduced, for example by the implementation of a different data backup procedure (and obviously more adapted);
+* at the tools level, such as the purchase of an [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) tool.
 
-### Contenu de la politique de sécurité
+### Content of the security policy
 
-La politique de sécurité devrait contenir les documents suivants :
+The security policy should contain the following documents:
+#### [Section 1. Security Policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %})
 
-#### [Section 1. politique de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %})
+1. [Management Commitment]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#management-commitment)
+2. [Review and evaluation]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#review-and-assessment)
 
-1. [Engagement de la direction]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#management-commitment)
-2. [Revue et évaluation]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#review-and-assessment)
+#### [Section 2. security organization]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
 
-#### [Section 2. organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+1. [Assignment of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
+2. [Authorization Procedure for Adding Information Processing Tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#authoring-the-addition-of-tools)
+3. [Tips from a specialist]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#specialist-advice)
+4. [Independent Review of Information Security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#independent-review-of-information-security)
+5. [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 
-1. [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities)
-2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#authorising-the-addition-of-tools)
-3. [Conseils d’un spécialiste]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#specialist-advice)
-4. [Revue indépendante de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#independent-review-of-information-security)
-5. [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+#### [Section 3. Classification and Resource Control]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
 
-#### [Section 3. classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+1. [Classification and responsibility of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 
-1. [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
+#### [Section 4. Human aspects]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
 
-#### [Section 4. aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
+1. [Security as mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
+2. [Training and Information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
+3. [Response to Security Incidents and Malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
 
-1. [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
-2. [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-3. [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
+#### [Section 5. Physical and Environmental Security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown%})
 
-#### [Section 5. sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
-
-1. [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
-2. [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
-3. [Sécurité électrique des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety)
+1. [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
+2. [Rules in scope]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
+3. [Electrical Equipment Safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety)
 4. [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#maintenance)
-5. [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
-6. [Mise au rebut ou ré-utilisation des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)
-7. [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
+5. [Off-Premise Security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
+6. [Disposal or re-use of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)
+7. [Offices in order]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
 
-#### [Section 6. aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+#### [Section 6. Operational aspects and communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
 
-1. [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-2. [Séparation des environnements de développement et de production]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#separation-of-environments)
-3. [Gestion de ressources par des externes]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#outsourcing-of-resource-management)
-4. [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-5. [Sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
-6. [Sécurité des médias pendant les transports]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#device-security-during-transport)
-7. [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
+1. [Documented Procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
+2. [Separation of development and production environments]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#separation-of-environments)
+3. [External resource management]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#outsourcing-of-resource-management)
+4. [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
+5. [Data Backup]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
+6. [Media security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#device-security-during-transport)
+7. [E-mail]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
 
-#### [Section 7. contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+#### [Section 7. Access Control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
 
+1. [Access Control Policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
+2. [Access Rights Management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
+3. [Password Management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}# password-management)
+4. [Using external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+5. [Connecting from the outside]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
+6. [Network Separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+7. [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
 
-1. [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-2. [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-3. [Gestion des mots de passe]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management)
-4. [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
-5. [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
-6. [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-7. [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
+#### [Section 8. Systems Development and Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
 
-#### [Section 8. développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
+1. [Using encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
+2. [The electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#electronic-signatures)
 
-1. [Utilisation de l’encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
-2. [La signature électronique]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#electronic-signatures)
+#### [Section 9. Security Incident Management]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
 
-#### [Section 9. gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
+1. [Reporting events related to information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
+2. [Incident Management and Information Security Enhancements]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
+3. [Analysis of Obligations with Obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfillment-of-obligations)
 
-1. [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
-2. [Gestion des incidents et des améliorations de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
-3. [Analyse des manquements avec obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
+#### [Section 10. Business Continuity Management]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
 
-#### [Section 10. gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+1. [Continuity of operation]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
-1. [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
+#### [Section 11. Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
 
-#### [Section 11. conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
-
-1. [Identification de la législation applicable]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#comply-with-legislation)
-2. [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property)
-3. [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
-4. [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
+1. [Identification of applicable legislation]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#comply-with-legislation)
+2. [Intellectual Property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property)
+3. [Protection of Operational Data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
+4. [Protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)

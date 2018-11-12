@@ -46,7 +46,7 @@ You should also consider protecting your network, whether it is a [fixed]({% lin
 ## Awareness and training
 Make sure you raise [awareness and train]({% link _publications/ProtectingYourCompany.markdown %}#training-and-awareness) all your employees about IT security. The adoption of proper behavioural practices by all staff is an extremely important measure. This often entails deploying greater efforts at organisational and behavioural level and also at technical level, to increase your data security most effectively.
 
-Tell your staff about the risks linked to [the use of social networks]({% link _publications/ProtectingYourCompany.markdown %}#communications-and-social-networks) as well as the risks associated with “[social engineering]({{ site.url }})”. Teach them how to behave appropriately [when on business trips]({% link _publications/ProtectingYourCompany.markdown %}#business-trips).
+Tell your staff about the risks linked to [the use of social networks]({% link _publications/ProtectingYourCompany.markdown %}#communications-and-social-networks) as well as the risks associated with “[social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})”. Teach them how to behave appropriately [when on business trips]({% link _publications/ProtectingYourCompany.markdown %}#business-trips).
 
 ## Physical security
 Finally, do not lose sight of the [physical security]({% link _publications/ProtectingYourCompany.markdown %}#protecting-the-premises) of your company. Many [threats]({% link _knowhow/glossary/Threat.markdown %}) can exploit physical [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}), be they human, natural or environmental threats.
