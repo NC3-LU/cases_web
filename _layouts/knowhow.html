@@ -1,7 +1,35 @@
 ---
 layout: default
 ---
-{% assign pagelist = site.knowhow %}
+
+{% assign allknowhow = site.knowhow |sort: 'title' %}
+
+{% assign currentlang = page.lang %}
+{% if currentlang == blank or currentlang == empty or currentlang == nil %}
+{% assign currentlang = site.default_lang %}
+{% endif %}
+
+{% assign currentlangknowhow = allknowhow | where: "lang", currentlang %}
+
+{% assign currentlangrefs = currentlangknowhow | map: "ref" %}
+
+
+{% for slang in site.languages %}
+  {% if slang == currentlang %}
+    {% continue %}
+  {% endif %}
+  {% assign newknowhow = allknowhow | where: "lang", slang %}
+  {% if newknowhow == blank or currentlang == empty or currentlang == nil %}
+    {% continue %}
+  {% endif %}
+
+  {% assign temp = currentlangknowhow | concat: newknowhow %}
+  {% assign currentlangknowhow = temp  %}
+
+{% endfor %}
+
+{% assign pagelist = currentlangknowhow %}
+
 
 {% comment %}
    assign 0 to i in order to start the string from the beginning
@@ -26,6 +54,7 @@ layout: default
 {% assign menutitle = "Knowhow"  %}
 {% assign listlen = list-cat.size | minus: 1 %}
 
+
 {% include menus/filemenu.html %}
 
 <div class="col-md-8">
@@ -40,3 +69,21 @@ layout: default
 
 {% assign tocname="knowhow" %}
 {% include menus/toc.html %}
+
+
+
+{% for post in currentlangarticles %}
+  {% if post.lang == currentlang %}
+    <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+      <h6 class="list-select">{{ post.title }}</h6>
+    </a>
+  {% else %}
+    {% assign postref = post.ref | split:'::::::X::::::' %}
+    {% unless currentlangrefs contains post.ref %}
+      {% assign currentlangrefs = currentlangrefs | concat: postref %}
+      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+        <h6 class="list-select">{{ post.title }} <img src="/assets/img/flags/{{ post.lang }}.png"></h6>
+      </a>
+    {% endunless %}
+  {% endif %}
+{% endfor %}

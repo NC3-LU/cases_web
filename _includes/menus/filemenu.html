@@ -3,15 +3,37 @@
     <ol class="test">
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     {% for i in (0..listlen) %}
         {% if group_cat == 1 %}
             {% assign ipage = page %}
             {% include menus/filemenu-sub.html %}
         {% else %}
             {% for ipage in pagelist %}
+              {% if post.lang == currentlang %}
                 {% if ipage.categories contains list-cat[i] %}
                     {% include menus/filemenu-sub.html %}
                 {% endif %}
+              {% else %}
+                {% assign postref = ipage.ref | split:'::::::X::::::' %}
+                {% unless currentlangrefs contains postref %}
+                  {% assign currentlangrefs = currentlangrefs | concat: postref %}
+                  {% if ipage.categories contains list-cat[i] %}
+                      {% include menus/filemenu-sub.html %}
+                  {% endif %}
+                {% endunless %}
+              {% endif %}
             {% endfor %}
         {% endif %}
     {% endfor %}
