@@ -11,5 +11,6 @@ ref: sosemailattachements
 lang: en
 ---
 
-In brief
+## In brief
+
 If the attachment was attached to a suspicious email, your computer may now be contaminated with malicious software (malware). [Check whether your computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}).
