@@ -12,11 +12,11 @@ lang: fr
 ---
 
 ## En quelques mots
-Les données qui vous appartiennent et que vous manipulez avec votre ordinateur ont différents niveaux de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}). Vous ne traitez probablement pas de la même manière les données que vous mettez sur un réseau social et celles que vous gardez exclusivement sur votre disque local. Données clients, données stratégiques de votre entreprise, textes, lettres ou e-mails constituent seulement la partie visible de votre comportement sur l'ordinateur. Une quantité de données sont par ailleurs générées comme produit secondaire lors de cette utilisation : fichiers temporaires, historiques de navigation, profils d’utilisateurs, mots de passe sauvegardés en sont quelques exemples. Soyez donc conscients que lorsque vous utilisez un ordinateur, vous laissez sur votre passage, tel un escargot, une empreinte de tout ce que vous faites.
+Les données qui vous appartiennent et que vous manipulez avec votre ordinateur ont différents niveaux de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}). Vous ne traitez probablement pas de la même manière les données que vous mettez sur un réseau social et celles que vous gardez exclusivement sur votre disque local. Données clients, données stratégiques de votre entreprise, textes, lettres ou e-mails constituent seulement la partie visible de votre comportement sur l'ordinateur. Une quantité de données sont par ailleurs générées comme produit secondaire lors de cette utilisation : fichiers temporaires, historiques de navigation, profils d’utilisateurs, mots de passe sauvegardés en sont quelques exemples. Soyez donc conscients que lorsque vous utilisez un ordinateur, vous laissez sur votre passage, tel un escargot, une empreinte de tout ce que vous faites.
 
 Si vous souhaitez mettre au rebut ou léguer votre ordinateur à quelqu'un d'autre, il est important de détruire entièrement ces traces. Un simple effacement de fichiers ou reformatage du disque ne suffisent pas. La section ci-après vous livre les explications nécessaires pour bien vous préparer.
 
-Pour les données [classifiées]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) comme confidentielles, nous vous conseillons une destruction physique par broyeur ou démagnétiseur, il est hors de question de léguer de tels équipements.
+Pour les données [classifiées]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) comme confidentielles, nous vous conseillons une destruction physique par broyeur ou démagnétiseur, il est hors de question de léguer de tels équipements.
 
 ## La destruction totale de vos données
 

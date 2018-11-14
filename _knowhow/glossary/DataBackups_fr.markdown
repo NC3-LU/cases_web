@@ -11,15 +11,15 @@ ref: glossarydatabackups
 lang: fr
 ---
 ## In brief
-Backing up data is essential for any IT system. However, digital storage media are only reliable for certain period of time. Just as the stone tablets used in antiquity were subject to the effects of bad weather, natural disasters and wear, any modern IT system is also fallible. For a company, the loss of data can result in a definitive halt to business. If you want to keep your essential data ([availability]({% link _knowhow/glossary/Availability.markdown %})), sooner or later you will have to think about backup strategies for it.
+Backing up data is essential for any IT system. However, digital storage media are only reliable for certain period of time. Just as the stone tablets used in antiquity were subject to the effects of bad weather, natural disasters and wear, any modern IT system is also fallible. For a company, the loss of data can result in a definitive halt to business. If you want to keep your essential data ([availability]({% link _knowhow/glossary/Availability_fr.markdown %})), sooner or later you will have to think about backup strategies for it.
 
 ## Preliminary thoughts
 Before choosing a backup solution, it may be of use to carry out a risk analysis. The main risks facing most people are as follows (threats affecting the availability or integrity of data):
 
-1. loss of data by deletion (human error or malicious software) (SMEs: see [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures));
-2. loss of data following a hardware fault (defective hard disk, accidental destruction of the storage media) (SMEs: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups), [Hardware damage during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport), [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment), [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators), [Unsuitable software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unsuitable-software-environment));
-3. disaster (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire), water damage);
-4. theft of storage media (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises), [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)).
+1. loss of data by deletion (human error or malicious software) (SMEs: see [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#human-error-prevention-measures));
+2. loss of data following a hardware fault (defective hard disk, accidental destruction of the storage media) (SMEs: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups), [Hardware damage during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport), [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment), [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators), [Unsuitable software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unsuitable-software-environment));
+3. disaster (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire), water damage);
+4. theft of storage media (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
 
 Thinking about the various risks listed above will point you towards the backup strategy to follow. For points 1 and 2 (the most common), it is enough to backup data onto an external hard drive, a network drive or removable storage media. For points 3 and 4 (rare events, but highly destructive), it is essential to have off-site backup.
 
@@ -68,19 +68,19 @@ To avoid this type of issue, some software enables not only files to be backed u
 ## Security policy
 Write and apply the following sectoral policies:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-  * [[Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
-  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#device-security-during-transport)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management})
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [[Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
+  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management})
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)

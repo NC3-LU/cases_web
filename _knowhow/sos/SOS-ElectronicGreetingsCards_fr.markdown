@@ -14,7 +14,7 @@ lang: fr
 Most people receive greetings cards over the winter period – many of them by email. Although many of these electronic greetings cards are perfectly inoffensive, others could be genuine risks to the private data and computers of their recipients. Remember these safety tips when you get an electronic greetings card and enjoy peace of mind over the festive period.
 
 ## Electronic greetings cards
-These are sent by either by “traditional” [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) or by another messaging system, such as private messaging on forums, for example, or by websites specialising in the design and sending of electronic greetings cards.
+These are sent by either by “traditional” [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) or by another messaging system, such as private messaging on forums, for example, or by websites specialising in the design and sending of electronic greetings cards.
 
 There are several types of electronic cards:
 
@@ -31,13 +31,13 @@ Use reputable websites to send greetings cards. Firstly, this will give you a gu
 #### Online payment
 Firstly, if you want to subscribe to a pay service, look out for site security. As with all online payments, check that the pages are secure and that the website is reliable. Please note that most of the websites offering electronic greetings cards are free of charge (and are funded by advertising).
 
-In case of any doubt, please read through the page: [e-commerce – best practices]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams.markdown %})
+In case of any doubt, please read through the page: [e-commerce – best practices]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams_fr.markdown %})
 
 ## Receiving greetings cards
 As with all emails, there are a few rules that should be respected when you receive virtual greetings cards. Even if someone you know sends you a greetings card with the best of intentions, the card could contain something more than good wishes.
 
 #### Beware of phishing
-Some con-artists are only too willing to use the Christmas period to ramp up their [phishing]({% link _knowhow/glossary/Phishing.markdown %}) activities. You may think you have received a greetings card from a reputable website that you are subscribed to. Your guard will be down and you risk entering your username and password into a fake website.
+Some con-artists are only too willing to use the Christmas period to ramp up their [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) activities. You may think you have received a greetings card from a reputable website that you are subscribed to. Your guard will be down and you risk entering your username and password into a fake website.
 
 Never trust this type of website with an important password, such as the one you use for your email account, your favourite social network or your online bank account.
 
@@ -46,11 +46,11 @@ Do not click on any link that looks a bit strange, and do not enter your log-in 
 #### Beware of malicious files
 As with any email attachment, do not open attached files if you do not know the person who sent them. With greetings cards, if the name of the company offering the service is given, check whether it is a legitimate website, that the identity of the person who sent you the card is given and that you actually know this person, before opening the attachment.
 
-Don't forget to [update your computer]({% link _knowhow/glossary/Patches.markdown %}) (operating system and applications, especially your web browser and email program), so you can avoid getting trapped by opening malicious greetings cards which exploit [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) to enable criminals to gain access to your computer without your knowledge.
+Don't forget to [update your computer]({% link _knowhow/glossary/Patches_fr.markdown %}) (operating system and applications, especially your web browser and email program), so you can avoid getting trapped by opening malicious greetings cards which exploit [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) to enable criminals to gain access to your computer without your knowledge.
 
-As well as this, to protect yourself against [malicious files]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), install anti-virus software and anti-spyware that can scan the attachment, thereby reducing the risk of opening a malicious file.
+As well as this, to protect yourself against [malicious files]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), install anti-virus software and anti-spyware that can scan the attachment, thereby reducing the risk of opening a malicious file.
 
 #### Also view the following articles:
 
-* [Recognising a suspicious email]({{site.url}}knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
-* [I opened an email attachment]({% link _knowhow/sos/SOS-IOpenedEmailAttachment.markdown %})
+* [Recognising a suspicious email]({{site.url}}knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
+* [I opened an email attachment]({% link _knowhow/sos/SOS-IOpenedEmailAttachment_fr.markdown %})

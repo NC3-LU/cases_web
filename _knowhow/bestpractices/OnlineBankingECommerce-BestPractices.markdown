@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Online E-Banking/E-Commerce"
-menutitle: "Online E-Banking/E-Commerce"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "The “golden rules” of IT security"

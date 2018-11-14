@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Smartphone Scams"
-menutitle: "Smartphone Scams"
+menutitle:  
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "A few cases with loss of either data or moneym and how to protect ourselves"
@@ -13,9 +13,9 @@ lang: fr
 ## In brief
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
-The best known smartphone [risks]({% link _knowhow/glossary/BasicCriteria.markdown %}) can be assigned to two categories:
+The best known smartphone [risks]({% link _knowhow/glossary/BasicCriteria_fr.markdown %}) can be assigned to two categories:
 
-1. [Data loss]({% link _knowhow/glossary/DataLoss.markdown %})
+1. [Data loss]({% link _knowhow/glossary/DataLoss_fr.markdown %})
 2. Loss of money
 
 The following cases are described, with loss of either data or money as a consequence.
@@ -24,26 +24,26 @@ The following cases are described, with loss of either data or money as a conseq
 Data such as personal information, business data, contact information, photos, login information and passwords are all sought by fraudsters and can cause enormous damage if they get their hands on it.
 
 ##### Theft / loss of unsecured data
-If you lose your phone or if it is [stolen]({% link _knowhow/sos/SOS-StolenHardware.markdown %}) and if you have not secured the data it holds, it will all be available to whoever finds or stole your phone.
+If you lose your phone or if it is [stolen]({% link _knowhow/sos/SOS-StolenHardware_fr.markdown %}) and if you have not secured the data it holds, it will all be available to whoever finds or stole your phone.
 
-Make regular [backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) of your data. [Encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) all sensitive data on your smartphone and set up a screen lock. In this way, you save a little time and you can lock your device remotely or delete content before an unauthorised person can access it.
+Make regular [backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) of your data. [Encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) all sensitive data on your smartphone and set up a screen lock. In this way, you save a little time and you can lock your device remotely or delete content before an unauthorised person can access it.
 
 ##### Lack of precautions during archiving
-Do you leave documents on a server or on the cloud? By using data encryption and strong [passwords]({% link _knowhow/glossary/Password.markdown %}), you can prevent them from falling into the wrong hands.
+Do you leave documents on a server or on the cloud? By using data encryption and strong [passwords]({% link _knowhow/glossary/Password_fr.markdown %}), you can prevent them from falling into the wrong hands.
 
 ##### Failure to clean before disposal
-When you [get rid]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %})  of your telephone, you must first delete all the data it holds. Even using the "Restore Factory Settings" function there is a residual risk that data can be retrieved. It is therefore advisable to encrypt all data before deletion. For even better protection, irrelevant data can be entered on the device after deletion of the encrypted data, followed by a second restore factory settings.
+When you [get rid]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %})  of your telephone, you must first delete all the data it holds. Even using the "Restore Factory Settings" function there is a residual risk that data can be retrieved. It is therefore advisable to encrypt all data before deletion. For even better protection, irrelevant data can be entered on the device after deletion of the encrypted data, followed by a second restore factory settings.
 
 ##### Applications that access sensitive data
 Special attention should be paid to data accessed by free applications. Ask yourself whether access to the data is justified by the benefits that the application provides.
 
 ##### "Network Spoofing" (infected WiFi)
-A malicious person can create a WiFi or GSM hotspot that resembles a legitimate network to entice unsuspecting users to connect their device. Data moving between the access point and user smartphones can then be intercepted. The data will then be used for targeted attacks, such as phishing attacks. In general, sites requiring identification (login) or asking users to enter personal data without offering communication encryption ([https]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %})) should be avoided.
+A malicious person can create a WiFi or GSM hotspot that resembles a legitimate network to entice unsuspecting users to connect their device. Data moving between the access point and user smartphones can then be intercepted. The data will then be used for targeted attacks, such as phishing attacks. In general, sites requiring identification (login) or asking users to enter personal data without offering communication encryption ([https]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %})) should be avoided.
 
 Disable automatic network connection and your WiFi connection if you do not use them. In restaurants, hotels, cafés, etc. ask if a WiFi connection exists and, if so, what is its name and if a password is needed. Only secure WiFi networks using strong passwords that change regularly are relatively safe.
 
 ##### Spyware and malware attacks
-Smartphones are not immune to [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %})! For example, an attacker can steal login data or credit card numbers by sending smartphone users infected apps or malicious attachments in messages which, at first glance, are not recognisable as such. If spyware has been downloaded to your smartphone, it can read or even change most of your data.
+Smartphones are not immune to [malware]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})! For example, an attacker can steal login data or credit card numbers by sending smartphone users infected apps or malicious attachments in messages which, at first glance, are not recognisable as such. If spyware has been downloaded to your smartphone, it can read or even change most of your data.
 
 ##### QR-Codes that lead to infected sites
 Prudence is particularly required for QR codes added later on their media. Only scan QR codes from a trusted source.
@@ -58,7 +58,7 @@ Prudence is particularly required for QR codes added later on their media. Only 
 * Do not send sensitive data over a public or weakly secured WiFi network
 * Disable automatic WiFi connection
 * Do not open files sent to you without thinking, even if they come from a known sender
-* Do not be fooled by [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})
+* Do not be fooled by [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})
 
 ## 2. Result = loss of money
 Since the advent of mobile phones in our society there are methods at the limit of legality which make it possible to pick the pockets of users. These methods are now increasingly professional and malicious.

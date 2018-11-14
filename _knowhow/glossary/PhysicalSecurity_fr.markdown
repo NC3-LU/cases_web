@@ -29,7 +29,7 @@ For various reasons relating to the type of equipment, its operating equipment, 
 There are different types of IT/computer room:
 
 #### “Data centre” computer/IT rooms
-Rooms such as this usually hold specialist equipment necessary for the provision of IT resources. They hold servers, large-scale computers, [backup]({% link _knowhow/glossary/DataBackups.markdown %}) and data restore solutions, storage bays, etc.
+Rooms such as this usually hold specialist equipment necessary for the provision of IT resources. They hold servers, large-scale computers, [backup]({% link _knowhow/glossary/DataBackups_fr.markdown %}) and data restore solutions, storage bays, etc.
 
 In most medium-sized companies, such rooms also contain critical network elements (exchanges, routers, etc.) and access points and equipment used to connect the company to the outside world (telephone switchboard, Internet access, etc.).
 
@@ -52,43 +52,43 @@ To ensure the effectiveness of all the proposed prevention and protection measur
 The following aspects are the subject of this chapter:
 
 * Water damage,
-* Fire damage (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
-* damage relating to electricity (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption), [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut)),
+* Fire damage (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire))
+* damage relating to electricity (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption), [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)),
 * Air-conditioning faults,
-* Telecommunications incidents (SMEs: see [Denial of service attacks and Distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#denial-of-servicedistributed-service), [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption), [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#disrupted-transmission-of-wireless-communications), [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability), [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment)),
-* Physical intrusions (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware), [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery), [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)),
+* Telecommunications incidents (SMEs: see [Denial of service attacks and Distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service), [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption), [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications), [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability), [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)),
+* Physical intrusions (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery), [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)),
 * Electrostatic phenomena,
 * Inaccessibility of the IT/computer centre.
 
 #### Organisational security measures
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
-  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
-  * [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety)
-  * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#maintenance)
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security)
-  * [Disposal or reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)
-  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-  * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property)
-  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
+  * [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety)
+  * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance)
+  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+  * [Disposal or reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)
+  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ## Water damage
 
@@ -105,7 +105,7 @@ This type of incident can arise for various reasons, including:
 This point is all the more critical given that most IT/computer rooms are fitted with false ceilings which prevent the easy detection of an incident. Cable routing between floors also provides an easy route for water to pass, making it easy for water to disperse through all types of “online” rooms.
 
 #### Consequences
-The [consequences]({% link _knowhow/glossary/Impact.markdown %}) will naturally depend on the scope of the incident, but the areas likely to be affected are:
+The [consequences]({% link _knowhow/glossary/Impact_fr.markdown %}) will naturally depend on the scope of the incident, but the areas likely to be affected are:
 
 * short-circuits leading to equipment service breakdown,
 * electrocution hazards,
@@ -160,7 +160,7 @@ There are different types of damage usually experienced in this way, such as:
 * draw up and practice a disaster plan, including a fallback to a specific computer centre,
 * use fireproof cabinets to store digital storage media (make sure these cabinets are kept locked).
 
-SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)
+SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
 
 ## Damage relating to electricity
 
@@ -204,8 +204,8 @@ The effects of a power cut often continue upon restarting. When attempting to re
 
 SMEs: see
 
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption)
-* [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut)
+* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
+* [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
 
 ## Electrical faults
 
@@ -275,23 +275,23 @@ The impact obviously depends on the usage that is made of the services affected 
 
 SMEs: see
 
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption)
-* [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#denial-of-servicedistributed-service)
-* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#disrupted-transmission-of-wireless-communications)
-* [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability)
-* [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment)
+* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
+* [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)
+* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
+* [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
+* [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)
 
 ## Physical intrusions
 
 #### Incidents
 The entry of unauthorised people in IT/computer rooms (and in the company’s premises) can lead to a number of unwanted situations, including:
 
-* [theft of hardware]({% link _knowhow/glossary/PhysicalTheft.markdown %}),
+* [theft of hardware]({% link _knowhow/glossary/PhysicalTheft_fr.markdown %}),
 * loss of confidentiality,
 * sabotage.
 
 #### Consequences
-The [consequences]({% link _knowhow/glossary/Impact.markdown %}) can be as follows:
+The [consequences]({% link _knowhow/glossary/Impact_fr.markdown %}) can be as follows:
 
 * loss of reputation (credibility damaged in the event of the disclosure of highly confidential information, etc.),
 * direct financial losses (destruction of crucial data, computer systems disabled, etc.),
@@ -318,10 +318,10 @@ Before implementing these surveillance measures, please seek authorisation from 
 
 SMEs: see
 
-* [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises)
-* [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware)
-* [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)
-* [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)
+* [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
+* [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)
+* [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)
+* [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)
 
 ## Electrostatic phenomena
 

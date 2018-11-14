@@ -35,6 +35,6 @@ A browser will notify the user in the event of:
 * signature by an unknown authority (risk of domain name theft);
 
 ## Trust and security
-Contrary to popular belief and although the term “secured site” is used, SSL does not guarantee the security of a website, which may contain [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}), but rather the site identity and the security of the communications.
+Contrary to popular belief and although the term “secured site” is used, SSL does not guarantee the security of a website, which may contain [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}), but rather the site identity and the security of the communications.
 
 For example, if you use your usual banking website, SSL can guarantee that nobody on the network will be able to read your password or see your transactions. As well as this, the certificate acts as a guarantee that you are on the correct site. It cannot, however, guarantee that the website being visited is law-abiding or that it does not present security flaws.

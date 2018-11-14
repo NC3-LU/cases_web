@@ -12,7 +12,7 @@ lang: fr
 ---
 
 ## In brief
-Par 'actif', l'on comprend un bien ou un service ayant une certaine valeur pour l'entreprise. Les actifs sont sujets à différentes [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}), susceptibles d'être exploitées par des menaces qui auront des [impacts]({% link _knowhow/glossary/Impact.markdown %}) au niveau de l'entreprise. Pour protéger ses actifs, une entreprise mettra en place des mesures de sécurité. La sélection de ces mesures se fait lors de la phase de [gestion des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}).
+Par 'actif', l'on comprend un bien ou un service ayant une certaine valeur pour l'entreprise. Les actifs sont sujets à différentes [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}), susceptibles d'être exploitées par des menaces qui auront des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) au niveau de l'entreprise. Pour protéger ses actifs, une entreprise mettra en place des mesures de sécurité. La sélection de ces mesures se fait lors de la phase de [gestion des risques]({% link _knowhow/bestpractices/RiskManagement_fr.markdown %}).
 
 On distingue entre:
 
@@ -21,9 +21,9 @@ On distingue entre:
 * actifs de support: tous les autres actifs comme notamment les personnes, machines, ...
 
 ## Les actifs primaires
-Par actifs primaires, on entend les processus métiers ainsi que les informations de l'organisme. Chaque actif primaire présente une certaine [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) pour l'organisme. Ainsi il y a des processus métier plus ou moins importants, il y a des processus métier ou l'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) joue un rôle plus important que la [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}) (service du cadastre) et ainsi de suite. Il en est de même pour les informations. Il y a des informations très importantes et moins importantes. Il y a des informations ou la confidentialité est plus importante que la [disponibilité]({% link _knowhow/glossary/Availability.markdown %}).
+Par actifs primaires, on entend les processus métiers ainsi que les informations de l'organisme. Chaque actif primaire présente une certaine [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) pour l'organisme. Ainsi il y a des processus métier plus ou moins importants, il y a des processus métier ou l'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) joue un rôle plus important que la [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) (service du cadastre) et ainsi de suite. Il en est de même pour les informations. Il y a des informations très importantes et moins importantes. Il y a des informations ou la confidentialité est plus importante que la [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}).
 
-L'[analyse de risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}#risk-estimation) est en faite calculée sur base de la criticité des actifs primaires. Les actifs de support nécessaires à la réalisation ou des processus métier héritent de la criticité des actifs primaires.
+L'[analyse de risques]({% link _knowhow/bestpractices/RiskManagement_fr.markdown %}#risk-estimation) est en faite calculée sur base de la criticité des actifs primaires. Les actifs de support nécessaires à la réalisation ou des processus métier héritent de la criticité des actifs primaires.
 
 ## Les actifs de support
 EBIOSv2 propose une catégorisation des entités et des actifs de support autour de 7 types:
@@ -43,7 +43,7 @@ EBIOSv2 propose une catégorisation des entités et des actifs de support autour
 7. SYS : Système
 
 ## Matériel
-Le type 'matériel' est constitué de l’ensemble des éléments physiques d'un système informatique. (PME: [Voir le matériel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}))
+Le type 'matériel' est constitué de l’ensemble des éléments physiques d'un système informatique. (PME: [Voir le matériel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}))
 
 * MAT_ACT : Support de traitement de données (actif)
 Équipement informatique de traitement automatique de données comprenant les éléments nécessaires à son fonctionnement autonome.
@@ -67,7 +67,7 @@ Supports électroniques connectables à un ordinateur ou à un réseau informati
 Support statique non électronique contenant des données.
 
 ## Logiciel
-Le type 'logiciel' est constitué de l'ensemble des programmes participant au fonctionnement d'un ensemble de traitements de l'information. (PME: [Voir le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}))
+Le type 'logiciel' est constitué de l'ensemble des programmes participant au fonctionnement d'un ensemble de traitements de l'information. (PME: [Voir le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}))
 
 * LOG_OS : Système d’exploitation
 Ce libellé comprend l'ensemble des logiciels d’un ordinateur constituant le socle opérationnel sur lequel vont s’exécuter l’ensemble des autres logiciels (services ou applications). Il comprend un noyau et des fonctions ou services de base. Selon les architectures, un système d’exploitation peut être monolithique ou constitué d’un micro-noyau et d’un ensemble de services systèmes. Le système d’exploitation contient principalement tous les services de gestion du matériel (CPU, mémoire, disques, périphériques et interfaces réseaux), ceux de gestion des tâches ou processus, et ceux de gestion des utilisateurs et de leurs droits.
@@ -99,7 +99,7 @@ Ce sous-type comprend tous les dispositifs qui ne sont pas des terminaisons logi
 Il s'agit des interfaces de communication des unités de traitement. Elles y sont rattachées, mais se caractérisent par les média et protocoles supportés, par les éventuelles fonctions et capacités de filtrage, de génération de journaux ou d'alerte et par la possibilité et le besoin d’administration à distance.
 
 ## Personnel
-Le type 'personnel' est constitué de l’ensemble des groupes d’individus en relation avec le système d'information. (PME: [Voir le personnel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}))
+Le type 'personnel' est constitué de l’ensemble des groupes d’individus en relation avec le système d'information. (PME: [Voir le personnel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}))
 
 * PER_DEC : Décisionnel
 Il s'agit des propriétaires des éléments essentiels (informations et fonctions) ainsi que des responsables hiérarchiques au sein de l'organisation ou d'un projet spécifique.
@@ -129,7 +129,7 @@ Il s’agit de l’organisation de la mise en place d'un projet ou d'un service 
 Il 'sagit de l'organisation autour de fournisseurs de services, ou de ressources humaines liées par contrat à l'organisme
 
 ## Site
-Le type 'site' est constitué de l’ensemble des lieux contenant tout ou une partie du système et les moyens physiques nécessaires à son fonctionnement. (PME: [Voir l'infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}))
+Le type 'site' est constitué de l’ensemble des lieux contenant tout ou une partie du système et les moyens physiques nécessaires à son fonctionnement. (PME: [Voir l'infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}))
 
 * PHY_LIE : Lieu
 Périmètre, enceinte physique.

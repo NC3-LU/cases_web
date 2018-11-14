@@ -11,27 +11,27 @@ ref: glossarywhyprotectyourcomputer
 lang: fr
 ---
 ## In brief
-*A [virus]({% link _knowhow/glossary/MaliciousCodes.markdown %}) can paralyse your computer – it will no longer function correctly and will have to be repaired. It is extremely annoying!*
+*A [virus]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) can paralyse your computer – it will no longer function correctly and will have to be repaired. It is extremely annoying!*
 
-If, like most people who use the Internet, you believe this temporary loss of [availability]({% link _knowhow/glossary/Availability.markdown %}) of your computer is the worst thing that can happen, you would be very wrong. This is just the tip of the iceberg. The real breadth of a digital attack only rarely comes into play. In almost all computers, [cybercriminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) can find “loot” with a high value. If they do grab this loot that you, as the legitimate owner, do not consider as being particularly valuable, this can lead to enormous damage.
+If, like most people who use the Internet, you believe this temporary loss of [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) of your computer is the worst thing that can happen, you would be very wrong. This is just the tip of the iceberg. The real breadth of a digital attack only rarely comes into play. In almost all computers, [cybercriminals]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) can find “loot” with a high value. If they do grab this loot that you, as the legitimate owner, do not consider as being particularly valuable, this can lead to enormous damage.
 
 [The poster “You Are A Target”](https://www.sans.org/security-awareness-training/resources/posters) in the SANS Institute (based on the work of Brian Krebs) gives an excellent overview of the routes taken by these criminals in order to make money off your back.
 
 Particularly sought-after are:
 
 ## Usernames and passwords.
-Cybercriminals access usernames and [passwords]({% link _knowhow/glossary/Password.markdown %}) using [phishing]({% link _knowhow/glossary/Phishing.markdown %}) [emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) or Trojan horses which record every keystroke the user makes. It is often even easier than that. If you use a password that is too basic, it can be “guessed” in a few seconds using special software or by a [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) expert. Log-in data is highly coveted by ill-intentioned people, as it enables them to log in to online services in your name.
+Cybercriminals access usernames and [passwords]({% link _knowhow/glossary/Password_fr.markdown %}) using [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) [emails]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) or Trojan horses which record every keystroke the user makes. It is often even easier than that. If you use a password that is too basic, it can be “guessed” in a few seconds using special software or by a [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) expert. Log-in data is highly coveted by ill-intentioned people, as it enables them to log in to online services in your name.
 
 For example:
 
-* on your company’s servers to access [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) company data
+* on your company’s servers to access [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) company data
 * with online banking sites to steal money from your account
-* on your online server to access data you have [saved]({% link _knowhow/glossary/DataBackups.markdown %})
+* on your online server to access data you have [saved]({% link _knowhow/glossary/DataBackups_fr.markdown %})
 * on your online store to purchase items in your name and which will be billed to you
-* on your [social media]({% link _publications/ProtectingYourCompany.markdown %}#communications-and-social-networks) accounts, your email account or your chat programs in order to steal your online identity and use it for improper purposes
+* on your [social media]({% link _publications/ProtectingYourCompany_fr.markdown %}#communications-and-social-networks) accounts, your email account or your chat programs in order to steal your online identity and use it for improper purposes
 
 ## Private contacts
-Cybercriminals collect names, email addresses and telephone numbers from people in your contacts list to sell them to third parties. These third parties will go on to use this data to send spam or [phishing]({% link _knowhow/glossary/Phishing.markdown %}) emails, thereby widening the scope of their [criminal]({% link _knowhow/glossary/Cybercriminals.markdown %}) endeavours.
+Cybercriminals collect names, email addresses and telephone numbers from people in your contacts list to sell them to third parties. These third parties will go on to use this data to send spam or [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) emails, thereby widening the scope of their [criminal]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) endeavours.
 
 If your list of contacts includes people in the public eye or who occupy positions of responsibility in certain industries, criminals may also search these contacts in a more targeted way.
 

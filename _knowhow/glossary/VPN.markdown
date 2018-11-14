@@ -40,8 +40,8 @@ In general, the easiest thing to do is to use the type of VPN offered with the f
 ## Security policy
 Draft and enforce the following sectoral policies:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
+  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 * [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})

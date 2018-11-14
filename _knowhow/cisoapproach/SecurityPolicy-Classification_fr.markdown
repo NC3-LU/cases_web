@@ -10,7 +10,7 @@ toc: true
 ref: cisoclassification
 lang: fr
 ---
-Asset identification and classification are integral to risk management and are key elements of information security management (also called Information Security Management System – WSIS, see [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %})). They define security needs in terms of confidentiality, availability and integrity.
+Asset identification and classification are integral to risk management and are key elements of information security management (also called Information Security Management System – WSIS, see [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %})). They define security needs in terms of confidentiality, availability and integrity.
 
 Draft and enforce a sectoral policy on classification and control of resources
 

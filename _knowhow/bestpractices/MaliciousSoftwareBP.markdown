@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Malicious software: best practice"
-menutitle: "Malicious software: best practice"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Behavioural measures to prevent from infection"

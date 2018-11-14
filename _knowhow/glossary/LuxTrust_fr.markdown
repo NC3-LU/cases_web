@@ -11,7 +11,7 @@ ref: glossaryluxtrust
 lang: fr
 ---
 ## In brief
-LuxTrust offers [authentication]({% link _knowhow/glossary/Authentication.markdown %}) and [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#electronic-signatures) products. The most frequently used products in the professional domain are the chip card and the signing stick. From a technological point of view, these two products are very similar: a chip integrated into the card or the USB stick contains an authentication certificate and a signature certificate. The chip card requires the use of a card reader, which is not the case for the USB stick.
+LuxTrust offers [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}) and [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures) products. The most frequently used products in the professional domain are the chip card and the signing stick. From a technological point of view, these two products are very similar: a chip integrated into the card or the USB stick contains an authentication certificate and a signature certificate. The chip card requires the use of a card reader, which is not the case for the USB stick.
 
 Depending on the type of card, the signature may be a personal signature, in other words in the cardholder’s name, or it may be a professional signature, which means it’s in the name of one of the organisation’s managers and makes it liable.
 
@@ -34,6 +34,6 @@ Make sure you adopt some security measures:
 * In the event of theft, cancel your LuxTrust card immediately. In case of doubt, you can suspend your LuxTrust authentication signature device for 30 days. A suspended certificate can be reactivated, whereas the cancellation of a card is permanent. As the suspension or cancellation of your card takes affect within 4 hours of the request, once this deadline has passed your card with no longer work for authentication or signatures.
 
 ### Organisational security measures
-* Draft and enforce a security policy relating to the development and maintenance of the systems – [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#electronic-signatures);
-* Draft and enforce a security policy relating to access control – [access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management);
+* Draft and enforce a security policy relating to the development and maintenance of the systems – [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures);
+* Draft and enforce a security policy relating to access control – [access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management);
 * Train your staff in the correct use of LuxTrust’s signature and authentication devices.

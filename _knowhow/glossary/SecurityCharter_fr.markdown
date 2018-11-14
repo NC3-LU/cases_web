@@ -38,28 +38,28 @@ Proof is sometimes considered to be the fourth pillar of information security.
  
 ## The 11 commandments
 1. **Follow the information security rules and procedures**
-  Regularly consult the rules and procedures. Stay informed about changes in [security policy]({% link _knowhow/CISOApproach.markdown %}) to help you to be better protected.
+  Regularly consult the rules and procedures. Stay informed about changes in [security policy]({% link _knowhow/CISOApproach_fr.markdown %}) to help you to be better protected.
 2. **Protect your passwords**
-  Never disclose your [passwords]({% link _knowhow/glossary/Password.markdown %}).If someone asks you for them, refuse. Our security means never giving out passwords.
+  Never disclose your [passwords]({% link _knowhow/glossary/Password_fr.markdown %}).If someone asks you for them, refuse. Our security means never giving out passwords.
 3. **Know how to keep a secret**
-  Never disclose [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) data in any circumstances.
+  Never disclose [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) data in any circumstances.
   Do not publicly discuss matters that should be kept secret.
 4. **Block access to your computer**
   If you leave your office, block access to your computer.
 5. **Back up your data correctly**
-  Never store data in your personal space. Use a file server instead – this must be part of a [backup]({% link _knowhow/glossary/DataBackups.markdown %}) strategy. Applying these guidelines will enable you to recover your data if it has been lost and to access it at any time.
-6. **Resist "[social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})" methods**
-  During an email or telephone conversation, make sure that you know the identity of the person you are communicating with. Be careful whenever you are asked for personal or confidential information or information that is important to the company. [Social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) exploits [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) to gain access to confidential information.
+  Never store data in your personal space. Use a file server instead – this must be part of a [backup]({% link _knowhow/glossary/DataBackups_fr.markdown %}) strategy. Applying these guidelines will enable you to recover your data if it has been lost and to access it at any time.
+6. **Resist "[social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})" methods**
+  During an email or telephone conversation, make sure that you know the identity of the person you are communicating with. Be careful whenever you are asked for personal or confidential information or information that is important to the company. [Social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) exploits [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities) to gain access to confidential information.
 7. **Keep a close watch on your emails**
-  Emails can be a [threat]({% link _knowhow/glossary/Threat.markdown %}) to your computer and for the whole IT network. Never reply to emails asking for personal and/or confidential information. Check the provenance, safety and [integrity]({% link _knowhow/glossary/Integrity.markdown %}) of all attachments.
+  Emails can be a [threat]({% link _knowhow/glossary/Threat_fr.markdown %}) to your computer and for the whole IT network. Never reply to emails asking for personal and/or confidential information. Check the provenance, safety and [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) of all attachments.
 8. **Use the internet intelligently**
-  Internet use is limited for security reasons. Access is restricted ([web filter](% link _knowhow/glossary/WebFilterProxy.markdown %})), but sufficient for your professional use. Only download the files you need for your work, never for leisure, and be attentive to the files obtained.
+  Internet use is limited for security reasons. Access is restricted ([web filter](% link _knowhow/glossary/WebFilterProxy_fr.markdown %})), but sufficient for your professional use. Only download the files you need for your work, never for leisure, and be attentive to the files obtained.
 9. **Use an antivirus program**
-  An [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) program is essential in the current professional environment. It is automatically activated and enables you to scan all your files even before you open them. Updates are automatic so that any new threats can be better resisted. If you think you have a virus, notify your IT department immediately.
+  An [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) program is essential in the current professional environment. It is automatically activated and enables you to scan all your files even before you open them. Updates are automatic so that any new threats can be better resisted. If you think you have a virus, notify your IT department immediately.
 10. **Take care of your hardware and software**
   Never install pirate or unauthorised software. Only use programs made available to you by your organisation. If you need software that is not installed on your computer, file an installation request.
   Take care of hardware: laptops are more fragile and very tempting for thieves.
-  [Removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}): the use of external hard disks and CDs should be limited. Scan all removable media for viruses. Use these media only when you know their source and content.
+  [Removable media]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}): the use of external hard disks and CDs should be limited. Scan all removable media for viruses. Use these media only when you know their source and content.
 11. **Report incidents**
   All incidents must be reported as soon as possible. This can prevent other similar incidents. We are responsible for the security of our environment.
   Failure to respect security or the violation of the established rules may result in disciplinary action.
@@ -68,18 +68,18 @@ Proof is sometimes considered to be the fourth pillar of information security.
 Once you start to use a computer tool, please respect the following "golden rules":
 
 1. **The password: lock the safe**
-  The [password]({% link _knowhow/glossary/Password.markdown %}) is the access key to your information and your online accounts. The challenge is to choose one that is easy to memorise, while being difficult for someone else to guess. Avoid using your children's names or other personal information, because these are easy for others to guess. Change your password regularly, do not share it with anyone, and use different passwords for different applications.
+  The [password]({% link _knowhow/glossary/Password_fr.markdown %}) is the access key to your information and your online accounts. The challenge is to choose one that is easy to memorise, while being difficult for someone else to guess. Avoid using your children's names or other personal information, because these are easy for others to guess. Change your password regularly, do not share it with anyone, and use different passwords for different applications.
 2. **Antivirus: vaccinate your computer**
-  Just like you, your computer needs to be vaccinated to stay healthy and protected from viruses and worms. Install an [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) and keep it up-to-date – this is an indispensable reflex for computer security.
+  Just like you, your computer needs to be vaccinated to stay healthy and protected from viruses and worms. Install an [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) and keep it up-to-date – this is an indispensable reflex for computer security.
 3. **The firewall: protection against attacks**
-  Install a [firewall]({% link _knowhow/glossary/Firewall.markdown %}) and configure it correctly. This will not only enable you to block suspicious attacks or logins which may be viruses, worms or Trojans, but also to prevent the leak of your personal and confidential information.
+  Install a [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) and configure it correctly. This will not only enable you to block suspicious attacks or logins which may be viruses, worms or Trojans, but also to prevent the leak of your personal and confidential information.
 4. **Antispyware: thwart organised spying**
-  Secure your e-banking/e-commerce transactions by installing antispyware that regularly scans the computer to detect [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) that may be there.
+  Secure your e-banking/e-commerce transactions by installing antispyware that regularly scans the computer to detect [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) that may be there.
 5. **Security patches: closing gaps**
-  To counter hackers who are constantly looking for and finding flaws in operating systems, keep your browser constantly updated. Also apply the right [patches]({% link _knowhow/glossary/Patches.markdown %}). In fact, like your antivirus, your system needs maintenance. Applying the necessary updates will help you counter threats such as worms, viruses and Trojans.
+  To counter hackers who are constantly looking for and finding flaws in operating systems, keep your browser constantly updated. Also apply the right [patches]({% link _knowhow/glossary/Patches_fr.markdown %}). In fact, like your antivirus, your system needs maintenance. Applying the necessary updates will help you counter threats such as worms, viruses and Trojans.
 
 ## Legal matters
-Failure to comply with legislation ([legal aspects]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})) in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).
+Failure to comply with legislation ([legal aspects]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})) in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).
 
 Accordingly, the law recognises and punishes:
 

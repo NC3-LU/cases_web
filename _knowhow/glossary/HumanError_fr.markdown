@@ -11,12 +11,12 @@ ref: glossaryhumanerror
 lang: fr
 ---
 ## In brief
-Considering human errors as [threats]({% link _knowhow/glossary/Threat.markdown %}) may seem a little insensitive, yet as statistics from various organisations show, they are still a very common cause of IT incidents. 
+Considering human errors as [threats]({% link _knowhow/glossary/Threat_fr.markdown %}) may seem a little insensitive, yet as statistics from various organisations show, they are still a very common cause of IT incidents. 
 
 “Human error” is defined as any human behaviour that does not fall under correct usage and may involuntarily result in various damages.
 
 ## Types of error
-“Human error” is defined as any human behaviour that does not fall under correct usage and may involuntarily result in various [damages]({% link _knowhow/glossary/Impact.markdown %}). Voluntary acts committed with malicious intent are not considered errors.
+“Human error” is defined as any human behaviour that does not fall under correct usage and may involuntarily result in various [damages]({% link _knowhow/glossary/Impact_fr.markdown %}). Voluntary acts committed with malicious intent are not considered errors.
 
 Drawing up an exhaustive list of human errors would be impossible. It might not be possible to list all possibilities for human error, but it is, however, possible to identify some distinctive criteria that we can use to categorise human error.
 
@@ -25,18 +25,18 @@ Actions carried out by people who understand the rules, but fail to apply them f
 
 Examples:
 
-* not following procedures set out for saving data (SMEs: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups)),
+* not following procedures set out for saving data (SMEs: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups)),
 * deactivating the antivirus update when starting up the computer,
-* sharing their password with a colleague (SMEs: see [Third-party use of access reserved for a single user]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#use-of-limited-access-by-a-third-party)),
-* using the company’s IT architecture for personal use (SMEs: see [Misuse of organisation’s resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
-* installing “non-standard” software on a machine, notably a computer or server (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software) and [Malicious administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator)).
+* sharing their password with a colleague (SMEs: see [Third-party use of access reserved for a single user]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party)),
+* using the company’s IT architecture for personal use (SMEs: see [Misuse of organisation’s resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources))
+* installing “non-standard” software on a machine, notably a computer or server (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software) and [Malicious administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#the-administrator)).
 
 ### Errors through incompetence
 This category includes all errors committed unknowingly. A number of errors may be committed “in good faith”, without the user having realised they were acting irresponsibly or breaking a rule, and without them realising the consequences of their actions.
 
 Examples:
 
-* “social engineering” (see [point on this topic]({% link _knowhow/glossary/SocialEngineering.markdown %})),
+* “social engineering” (see [point on this topic]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})),
 * incorrect use of an IT tool,
 * deletion of data.
 
@@ -49,7 +49,7 @@ This category includes all acts committed through negligence and that are very d
 ### Lack of training or security awareness
 A person’s lack of awareness is a huge vulnerability, of which the result is a lack of awareness of the error committed and therefore the inability for the error to be detected and corrected by the person themself.
 
-A person’s lack of training and security awareness is a vulnerability that can easily be exploited through the highly dangerous threat of [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}).
+A person’s lack of training and security awareness is a vulnerability that can easily be exploited through the highly dangerous threat of [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}).
 
 ## How can we protect ourselves?
 The American mathematician Gilb’s Law of “unreliability” states that “Any system which depends on human reliability is unreliable.”.
@@ -65,7 +65,7 @@ Most people mean well and if they are aware of the importance of their daily act
 The best way to avoid the incorrect handling of data and software is to train the users on how to use the software and devices.
 
 ### Implementation and control of procedures
-It is vital to introduce procedures covering all important security-related aspects (access, backups, etc.). These procedures must be cyclically controlled and non-compliance should result in sanctions. These procedures are generally part of the [security policy]({% link _knowhow/CISOApproach.markdown %}).
+It is vital to introduce procedures covering all important security-related aspects (access, backups, etc.). These procedures must be cyclically controlled and non-compliance should result in sanctions. These procedures are generally part of the [security policy]({% link _knowhow/CISOApproach_fr.markdown %}).
 
 ### Double validation
 In order to avoid data entry errors in critical software (e.g. electronic payment), it is a good idea to set up a duplicate data entry or double validation system.
@@ -74,4 +74,4 @@ In order to avoid data entry errors in critical software (e.g. electronic paymen
 As errors can’t be avoided entirely, it is important to learn from the consequences so they don’t happen again. Only a targeted analysis of the mistakes made and what caused them can prevent them being repeated in the future.
 
 ### Centralised administration
-To minimise human error, it is advisable to limit access to software and data only to those persons who really need it: access management and [authentication]({% link _knowhow/glossary/Authentication.markdown %}).
+To minimise human error, it is advisable to limit access to software and data only to those persons who really need it: access management and [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}).

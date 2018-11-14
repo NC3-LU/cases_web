@@ -22,7 +22,7 @@ Authentication on a computer is performed in different ways, classified here acc
 ### Authentication using something you know
 This is usually a password or pin code. The advantage of this identification method is its simplicity and familiarity for most people. However, it has many disadvantages:
 
-* A [password]({% link _knowhow/glossary/Password.markdown %}) can easily be copied without the knowledge of the legitimate user. A user's password can be stolen, for example, in a '[malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %})' or '[phishing' attack]({% link _knowhow/glossary/Phishing.markdown %}); saving them on a website without [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %}) security; or by the mere fact that someone looks over your shoulder and notes your password when you log in ('shoulder surfing').
+* A [password]({% link _knowhow/glossary/Password_fr.markdown %}) can easily be copied without the knowledge of the legitimate user. A user's password can be stolen, for example, in a '[malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %})' or '[phishing' attack]({% link _knowhow/glossary/Phishing_fr.markdown %}); saving them on a website without [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %}) security; or by the mere fact that someone looks over your shoulder and notes your password when you log in ('shoulder surfing').
 * Many people use passwords that can easily be guessed by others, as shown by a [study conducted following the exfiltration of passwords from rockyou.com](https://www.imperva.com/docs/gated/WP_Consumer_Password_Worst_Practices.pdf).
 * Many people use the same password for different applications. If a hacker manages to compromise one of these applications using your password, he will probably try the same password to infiltrate other applications.
 
@@ -46,17 +46,17 @@ This involves fingerprint authentication or recognition by the layout of the vei
 This most often involves the user copying a distorted word (the well-known "captcha" fields, where you are asked to copy a word for example). This identification method makes it possible to differentiate humans from computers, but not human beings from one another, because most human skills are shared by large groups of the population and identification would not be unambiguous.
 
 ## Multi-factor authentication
-Multi-factor [authentication]({% link _knowhow/glossary/Authentication.markdown %}) means the use of at least two of the first three authentication factors. It goes without saying that the more forms of authentication used, the greater the level of information access security.
+Multi-factor [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}) means the use of at least two of the first three authentication factors. It goes without saying that the more forms of authentication used, the greater the level of information access security.
 
-It should not be forgotten that the more an online asset or service attracts the interest of [hackers]({% link _knowhow/glossary/Cybercriminals.markdown %}), the more effort they will put into getting it. This is why online services are secured at different levels. The ideal access security would obviously be always to use multi-factor authentication. Unfortunately, the cost of implementation, the accessibility of technology and the constant developments in security solutions mean that this behaviour is not yet a reality for users. Few people have a fingerprint reader and even fewer are willing to carry it when they travel. Hence, the most common form of authentication is the password, i.e. where the user shares secret information with the computer that the computer is able to identify.
+It should not be forgotten that the more an online asset or service attracts the interest of [hackers]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}), the more effort they will put into getting it. This is why online services are secured at different levels. The ideal access security would obviously be always to use multi-factor authentication. Unfortunately, the cost of implementation, the accessibility of technology and the constant developments in security solutions mean that this behaviour is not yet a reality for users. Few people have a fingerprint reader and even fewer are willing to carry it when they travel. Hence, the most common form of authentication is the password, i.e. where the user shares secret information with the computer that the computer is able to identify.
 
 ## Security policy
 Draft and enforce the following sectoral policies:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-  * [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management)
-  * [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+  * [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#password-management)
+  * [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)

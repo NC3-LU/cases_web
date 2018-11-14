@@ -12,16 +12,16 @@ lang: fr
 ---
 
 ## In brief
-Les logiciels malveillants ou codes malicieux sont des logiciels qui infectent la machine d'un utilisateur à son insu. L'[impact]({% link _knowhow/glossary/Impact.markdown %}) de l'infection peut être multiple, comme notamment la perte de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) des actifs d'une entité. Une infection par codes malicieux ne se remarque pas toujours, parfois elle est même très difficile à détecter.
+Les logiciels malveillants ou codes malicieux sont des logiciels qui infectent la machine d'un utilisateur à son insu. L'[impact]({% link _knowhow/glossary/Impact_fr.markdown %}) de l'infection peut être multiple, comme notamment la perte de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) des actifs d'une entité. Une infection par codes malicieux ne se remarque pas toujours, parfois elle est même très difficile à détecter.
 
-L'infection peut avoir lieu en incitant la victime par des méthodes d'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering.markdown %}) (social engineering) par exemple, à ouvrir un fichier annexé à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}), à ouvrir un fichier se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %}) ou simplement à motiver la victime à visiter une [page web malicieuse]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
+L'infection peut avoir lieu en incitant la victime par des méthodes d'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) (social engineering) par exemple, à ouvrir un fichier annexé à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}), à ouvrir un fichier se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) ou simplement à motiver la victime à visiter une [page web malicieuse]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}).
 
-Les codes malicieux peuvent avoir différents [impacts]({% link _knowhow/glossary/Impact.markdown %}). Ils présentent une [menace]({% link _knowhow/glossary/Threat.markdown %}) considérable et peuvent selon le type soit exploiter des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) soit des [vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities).
+Les codes malicieux peuvent avoir différents [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}). Ils présentent une [menace]({% link _knowhow/glossary/Threat_fr.markdown %}) considérable et peuvent selon le type soit exploiter des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities) soit des [vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities).
 
 ## Les virus
 Un virus est un logiciel, ou une partie de logiciel qui, pour pouvoir se propager, s'attache à tout type de fichier ou autre logiciel dans le but d'infecter la machine concernée, ainsi que d'autres, à l'insu des utilisateurs.
 
-Un virus s'active en général dès qu'une personne ouvre le fichier (attaché à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) ou se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %})) ou exécute le logiciel hébergeant le virus. En conséquence, le créateur du virus essayera d'inciter la victime potentielle à ouvrir le fichier infecté en exploitant des [vulnérabilités humaines.]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities)
+Un virus s'active en général dès qu'une personne ouvre le fichier (attaché à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) ou se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices_fr.markdown %})) ou exécute le logiciel hébergeant le virus. En conséquence, le créateur du virus essayera d'inciter la victime potentielle à ouvrir le fichier infecté en exploitant des [vulnérabilités humaines.]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities)
 
 Dès qu'un virus a été lancé, il va essayer deux choses :
 
@@ -39,7 +39,7 @@ Morris worm - Le Morris Worm du nom de son créateur « Robert Morris » a été
 ## Cheval de Troie
 Le terme 'cheval de Troie' apparaît dans la mythologie grecque, notamment dans l'Iliade de Homer qui raconte l'histoire des Grecs décidés à envahir la ville de Troie. Se servant d'une ruse pour assaillir cette ville bien protégée, ils firent construire un grand cheval de bois et l'envoyèrent à Troie en guise de cadeau et de signe de paix. Le peuple de Troie apprécia ce geste et emmena le cheval dans la ville. Pendant la nuit quelques soldats grecs, abrités à l'intérieur du cheval en bois, sortirent de leur cachette et ouvrirent les portes de la ville au reste de l'armée, qui s'en empara.
 
-Par analogie un cheval de Troie est un logiciel espion installé sur une machine dans le but d'ouvrir une porte dérobée à l'[attaquant]({% link _knowhow/glossary/Cybercriminals.markdown %}). A la différence d'un virus ou d'un ver, un cheval de Troie n'a pas vocation à se reproduire ou à se propager. Mais tout comme les virus, les chevaux de Troie se cachent dans des fichiers anodins et exploitent souvent des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) pour être lancés.
+Par analogie un cheval de Troie est un logiciel espion installé sur une machine dans le but d'ouvrir une porte dérobée à l'[attaquant]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}). A la différence d'un virus ou d'un ver, un cheval de Troie n'a pas vocation à se reproduire ou à se propager. Mais tout comme les virus, les chevaux de Troie se cachent dans des fichiers anodins et exploitent souvent des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities) pour être lancés.
 
 En général, le cheval de Troie sert à créer et à maintenir un accès permanent non-autorisé sur une machine, lorsque cette dernière est connectée à Internet. Le nombre de « trojans » est aussi impressionnant que la variété des actions qu'ils permettent aux attaquants sur les ordinateurs cibles.
 
@@ -74,25 +74,25 @@ Le spyware externalisé est une application autonome dialoguant avec le logiciel
 
 L'organisme doit rédiger et faire respecter plusieurs politiques sectorielles :
 
-* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-  * [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
-  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-  * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-  * [Protection contre les codes malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-  * [Courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
-* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
-  * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
-  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
-  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#security-as-a-mission)
+  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+  * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Protection contre les codes malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+  * [Courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+  * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
+  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
 
 ### **MESURES TECHNIQUES**
-L'utilisation d'un [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) peut aider contre l'infection par des codes malicieux.
+L'utilisation d'un [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) peut aider contre l'infection par des codes malicieux.
 
-La [segmentation de réseaux]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) à l'aide d'un [firewall]({% link _knowhow/glossary/Firewall.markdown %}) peut protéger contre l'infection par des codes malicieux de type 'vers', ainsi que contre l'extraction de données par des chevaux de Troie.
+La [segmentation de réseaux]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %}) à l'aide d'un [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) peut protéger contre l'infection par des codes malicieux de type 'vers', ainsi que contre l'extraction de données par des chevaux de Troie.
 
-La mise à jour des [correctifs (patch)]({% link _knowhow/glossary/Patches.markdown %}) de toutes les applications, ainsi que du système d'exploitation peut aider contre l'infection par des codes malicieux de type 'vers'.
+La mise à jour des [correctifs (patch)]({% link _knowhow/glossary/Patches_fr.markdown %}) de toutes les applications, ainsi que du système d'exploitation peut aider contre l'infection par des codes malicieux de type 'vers'.

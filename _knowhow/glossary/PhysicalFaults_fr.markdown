@@ -22,13 +22,13 @@ There are faults which have a direct effect on a physical element of the system 
 #### Environment
 In many cases, the inoperability of the IT elements is due to the lack of suitable conditions for them to work correctly. The environment in which the IT equipment is located may be affected by external factors, such as:
 
-* [Power cuts]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut)
+* [Power cuts]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
 * Problems with the air conditioning, resulting in overheating
-* [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption)
-* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#disrupted-transmission-of-wireless-communications)
-* [Network unavailability ]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability)
-* [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers)
+* [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
+* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
+* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
+* [Network unavailability ]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
+* [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers)
 
 The environment may lead to the unavailability of the system, but may also cause physical faults at component level.
 
@@ -63,7 +63,7 @@ In this context, this means events that occur inevitably and which are associate
 The primary preventative measures aiming to limit physical faults are:
 
 #### Setting up an organised IT room
-It is vital that all critical elements of the IT system operate under optimal conditions. This begins with the provision of an IT room, as well as rooms reserved for “connectivity” equipped with services such as “no break” (permanent power supply), UPS systems, air conditioning, a fire detection system, and controlled access. Draft and enforce a Sectoral policy on [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter) and [Electrical equipment safety and Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety).
+It is vital that all critical elements of the IT system operate under optimal conditions. This begins with the provision of an IT room, as well as rooms reserved for “connectivity” equipped with services such as “no break” (permanent power supply), UPS systems, air conditioning, a fire detection system, and controlled access. Draft and enforce a Sectoral policy on [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter) and [Electrical equipment safety and Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety).
 
 #### Design of a “fault tolerance” redundant architecture
 When designing an IT architecture, there are ways to protect against physical faults or the like, in such a way as to make any service disruption of one or the other of the components “transparent”.
@@ -76,10 +76,10 @@ This redundancy can be implemented at one of the following levels:
 * storage (RAID – Redundant Array of Inexpensive/Independent Disks)
 
 #### Ability to respond to incidents
-Set up internal skill sets to respond to incidents. Draft and enforce a Sectoral policy on [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information) and [Responding to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions).
+Set up internal skill sets to respond to incidents. Draft and enforce a Sectoral policy on [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information) and [Responding to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions).
 
 #### A functional archiving policy
-In order to limit the risk of [loss of data]({% link _knowhow/glossary/DataLoss.markdown %}) as much as possible, the implementation and application of data archiving procedures, both at server level and on personal computers, is strongly recommended. Draft and enforce a Sectoral policy on [Operational and communication aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}) – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups).
+In order to limit the risk of [loss of data]({% link _knowhow/glossary/DataLoss_fr.markdown %}) as much as possible, the implementation and application of data archiving procedures, both at server level and on personal computers, is strongly recommended. Draft and enforce a Sectoral policy on [Operational and communication aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}) – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups).
 
 #### Choice of standards
 The choice of proprietary solutions, which may initially appear enticing, may become a real “nightmare” when one element or another that is no longer in production needs to be replaced. The risk could run as far as needing to completely review and replace the processing chain should a physical element break down. It is therefore advisable to use standard elements fabricated by a large number of manufacturers wherever possible.

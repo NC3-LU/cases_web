@@ -51,4 +51,4 @@ Joining forces or agreeing to commit any of the above offences is also punishabl
 *Article 509-7 of the Criminal Code: "Anyone participating in an association or in an agreement established for the preparation, realised in one or more material acts, of one or more offences provided for in Articles 509-1 to 509-5, shall be punished by the penalties provided for the offence itself or for the most severely punished offence."*
 
 ## Find out more
-[Filing a complaint]({% link _knowhow/bestpractices/FilingAComplaint.markdown %})
+[Filing a complaint]({% link _knowhow/bestpractices/FilingAComplaint_fr.markdown %})

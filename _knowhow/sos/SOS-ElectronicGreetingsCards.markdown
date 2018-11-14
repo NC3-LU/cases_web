@@ -52,5 +52,5 @@ As well as this, to protect yourself against [malicious files]({% link _knowhow/
 
 #### Also view the following articles:
 
-* [Recognising a suspicious email]({{site.url}}knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
+* [Recognising a suspicious email]({{site.url}}knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown %})
 * [I opened an email attachment]({% link _knowhow/sos/SOS-IOpenedEmailAttachment.markdown %})

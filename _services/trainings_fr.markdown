@@ -16,10 +16,10 @@ La **formation CASES** apportera ces connaissances et ces réflexes à vos équi
 ### Comment?
 Le catalogue de formations CASES s'adresse aux différents publics professionnels:
 
-* [Initiation à la sécurité de l'information]({% link _services/trainings/initiation.markdown %})
-* [Formation direction et décideurs]({% link _services/trainings/directordecisionmakers.markdown %})
-* [Formation cadres et managers]({% link _services/trainings/managers.markdown %})
-* [Formation des formateurs]({% link _services/trainings/trainthetrainer.markdown %})
+* [Initiation à la sécurité de l'information]({% link _services/trainings/initiation_fr.markdown %})
+* [Formation direction et décideurs]({% link _services/trainings/directordecisionmakers_fr.markdown %})
+* [Formation cadres et managers]({% link _services/trainings/managers_fr.markdown %})
+* [Formation des formateurs]({% link _services/trainings/trainthetrainer_fr.markdown %})
 
 
 ### Aventages

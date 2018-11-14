@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Clever Clicks"
-menutitle:  "Clever Clicks"
+menutitle: 
 date: 2017-11-06 00:00:00 +0100
 short: "Le dossier spécial \"Clever clicks for safer business\" vous aide à adopter les bons réflexes dans tous les cas de figure rencontrés au quotidien"
 categories: f-bestpract
@@ -21,9 +21,9 @@ Information Technology is an essential element for the commercial activities of 
 Perfect! But stay vigilant ...
 
 The article "Clever Clicks for safer business" helps you to adopt best practices for every case in daily activities:
-- [Downloads]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads.markdown %})
-- [E-mail]({% link _knowhow/bestpractices/cleverclicks/EmailScams.markdown %})
-- [Social Networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams.markdown %})
-- [E-Commerce]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams.markdown %})
-- [Smartphone]({% link _knowhow/bestpractices/cleverclicks/SmartphoneScams.markdown %})
-- [E-banking]({% link _knowhow/bestpractices/cleverclicks/ScamsTargetingEBanking.markdown %})
+- [Downloads]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads_fr.markdown %})
+- [E-mail]({% link _knowhow/bestpractices/cleverclicks/EmailScams_fr.markdown %})
+- [Social Networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams_fr.markdown %})
+- [E-Commerce]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams_fr.markdown %})
+- [Smartphone]({% link _knowhow/bestpractices/cleverclicks/SmartphoneScams_fr.markdown %})
+- [E-banking]({% link _knowhow/bestpractices/cleverclicks/ScamsTargetingEBanking_fr.markdown %})

@@ -13,7 +13,7 @@ lang: fr
 ## In brief
 Failure to comply with legislation in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).
 
-The legal aspects and responsibilities and obligations of companies with regard to the [protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection) were presented during Internet Security Day 2007 by Maître Cyril Pierre-Beausse on computer crime: Repression and legal risks for companies relating to personal data.
+The legal aspects and responsibilities and obligations of companies with regard to the [protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection) were presented during Internet Security Day 2007 by Maître Cyril Pierre-Beausse on computer crime: Repression and legal risks for companies relating to personal data.
 
 Thus, the law punishes organisations from which information is stolen even more severely than the thieves themselves due to breach of their obligation to protect personal and/or sensitive data.
 
@@ -29,7 +29,7 @@ All organisations must implement a security policy based on:
 * the state of the art (which implies an obligation to keep itself updated and informed);
 * costs relating to implementation.
 
-Draft and enforce a [Sectoral policy on compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#comply-with-legislation).
+Draft and enforce a [Sectoral policy on compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation).
 
 ## Intellectual property
 Copyright on original literary and artistic works, which include databases and computer programs, as defined in the amended Law of 18 April 2001, must be respected. For example, the following basic principles can be cited:

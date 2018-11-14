@@ -69,7 +69,7 @@ The restoration time is, unfortunately, an underestimated necessity. The majorit
 The implementation of an IT architecture must meet certain environmental requirements. An IT room, a connectivity room, a telecommunications room, etc. must be fitted out in such a way as to ensure the equipment is operating under optimal conditions. This means: an emergency electrical supply or a UPS (Uninterruptible Power Supply), air conditioning and air filtering, static electricity control, a specific system to prevent water and file damage, and controlled access.
 
 ### Comments
-All of these points are covered in a fact sheet on [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}).
+All of these points are covered in a fact sheet on [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}).
 
 ### Backup location
 IT devices, such as cassette tapes, optical media and others must imperatively be stored in places that meet their requirements in terms of protection against dust, scratches, humidity and other factors that may cause them to deteriorate.
@@ -93,4 +93,4 @@ In this section, you will find all recovery measures to be taken after a disaste
 There are a number of software programs that can recover lost or deleted data from a number of devices. This software is not necessarily expensive, but it does require a certain amount of expertise to use. It is therefore strongly recommended that you contact companies that specialise in this domain. However, you should request a service where payment is only made if the data can be recovered.
 
 ## Comments
-Security-conscious people are reminded that it is possible to recover deleted files. Making this sort of recovery impossible is always an option, and it is important to pay attention during the resale of IT equipment. (see [disposal]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}))
+Security-conscious people are reminded that it is possible to recover deleted files. Making this sort of recovery impossible is always an option, and it is important to pay attention during the resale of IT equipment. (see [disposal]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %}))

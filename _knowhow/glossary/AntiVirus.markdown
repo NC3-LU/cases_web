@@ -53,9 +53,9 @@ Within an organisation, the following are required:
 ## Security policy
 Write and apply the following sectoral policies:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-  * [Authorisation procedure for adding information processing tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#authorising-the-addition-of-tools)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
+  * [Authorisation procedure for adding information processing tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#authorising-the-addition-of-tools)
+  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
   * [Security as a mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
   * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)

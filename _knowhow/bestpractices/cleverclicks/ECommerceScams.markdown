@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "E-Commerce Scams"
-menutitle: "E-Commerce Scams"
+menutitle: 
 logo:
 date:   2017-11-06 00:00:00 +0100
 short: "The most widespread scams and advices to avoid them"

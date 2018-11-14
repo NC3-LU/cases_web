@@ -164,7 +164,7 @@ In concrete terms, a scenario stages a risk to which the “company” has been 
 A scenario must be put together “simply”. Here are two examples of a scenario:
 
 **Scenario 1: Exploitation of a WiFi weakness by a malicious entity**
-=>Risk analysis has previously detected a vulnerability in the WiFi infrastructure that gives access to the internal network. The WPA key has not been changed for 2 years, the “[password]({% link _knowhow/glossary/Password.markdown %})” is weak and it is known by all staff members, including “persons” who no longer work for the company.
+=>Risk analysis has previously detected a vulnerability in the WiFi infrastructure that gives access to the internal network. The WPA key has not been changed for 2 years, the “[password]({% link _knowhow/glossary/Password_fr.markdown %})” is weak and it is known by all staff members, including “persons” who no longer work for the company.
 
 **General theme**: A hacker is hired by competitors to corrupt customer data.
 
@@ -174,7 +174,7 @@ A hacker, motivated by financial gain, has the IT resources and expert knowledge
 
 Key ingredients in this scenario:
 
-* Sources of the [threat]({% link _knowhow/glossary/Threat.markdown %}): A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
+* Sources of the [threat]({% link _knowhow/glossary/Threat_fr.markdown %}): A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
 * Threat: A hacker breaks into the network via a WiFi connection to corrupt data. The hacker has the means and the skills.
 * Vulnerabilities exploited: Poorly protected WiFi (weak and widely-known WPA key).
 * IT system affected: Network + server.

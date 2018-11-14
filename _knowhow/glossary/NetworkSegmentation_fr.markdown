@@ -16,7 +16,7 @@ Segmenting your network is a useful exercise that not only noticeably improves t
 If segmentation is done well, it doesn’t just contain potential threats in pre-determined areas, it also provides additional security tools.
 
 ## Red zone – Internet
-Nowadays, the idea of a company IT system that is not connected to the Internet is unthinkable. The red zone is a zone over which we have no control, and this is where most threats come from. This zone should be separated from the rest of the internal network by a firewall or, at the very least, by an NAT router (as is the case for most households in Luxembourg). As a [firewall]({% link _knowhow/glossary/Firewall.markdown %}) is a computer that acts as filter for communications between the zones, the filtering rules must be defined by the firewall’s operator but, generally speaking, connections initiated on the Internet will at least be blocked.
+Nowadays, the idea of a company IT system that is not connected to the Internet is unthinkable. The red zone is a zone over which we have no control, and this is where most threats come from. This zone should be separated from the rest of the internal network by a firewall or, at the very least, by an NAT router (as is the case for most households in Luxembourg). As a [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) is a computer that acts as filter for communications between the zones, the filtering rules must be defined by the firewall’s operator but, generally speaking, connections initiated on the Internet will at least be blocked.
 
 Only the services exposed directly to the Internet must be identified and isolated in the orange zone.
 

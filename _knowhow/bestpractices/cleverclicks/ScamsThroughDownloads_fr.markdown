@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Scams through downloads"
-menutitle: "Scams through downloads"
+menutitle:  
 logo:
 date:   2017-11-06 00:00:00 +0100
 short: "Overview of threats and measures to protect ourselves"
@@ -18,14 +18,14 @@ Increased bit rates have made downloads faster and easier. An information docume
 
 The problem arises when some websites offer file downloads that will result in unwanted or even harmful effects on our computer. Healthy programs downloaded a long time ago can also be problematic if they contain flaws that have not subsequently been corrected.
 
-## Overview of [threats]({% link _knowhow/glossary/Threat.markdown %})
+## Overview of [threats]({% link _knowhow/glossary/Threat_fr.markdown %})
 
 ##### Viruses
-The [virus]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
+The [virus]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
 
 ##### False viruses and fake antiviruses
 
-False alerts exploit our fear of infection by a real virus. A malicious site may, for example, display an alert that makes us believe that our computer is infected. If we click on the alert, we will be advised to download a pretend antivirus which is actually a malicious program such as a "[Trojan horse]({% link _knowhow/glossary/MaliciousCodes.markdown %}#cheval-de-troie)". If this program is downloaded, it will hide on our computer and will probably have no visible effect. However, the perpetrator will be able to take control of our computer, possibly for unlawful purposes.
+False alerts exploit our fear of infection by a real virus. A malicious site may, for example, display an alert that makes us believe that our computer is infected. If we click on the alert, we will be advised to download a pretend antivirus which is actually a malicious program such as a "[Trojan horse]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie)". If this program is downloaded, it will hide on our computer and will probably have no visible effect. However, the perpetrator will be able to take control of our computer, possibly for unlawful purposes.
 
 Secuser has compiled a list of fake viruses: [Secuser](http://www.secuser.com/hoax)
 
@@ -68,9 +68,9 @@ The slogan "Clever Klicken" is more relevant than ever for addressing the downlo
 * Pay attention to alerts issued by search engines or browsers when they warn you against navigating on a certain page.
 
 ##### Technical measures
-* Use a navigation filter such as [WOT]({% link _knowhow/glossary/WOT.markdown %}) or enable your browser filters:
+* Use a navigation filter such as [WOT]({% link _knowhow/glossary/WOT_fr.markdown %}) or enable your browser filters:
   * Microsoft Smart Screen
   * Mozilla Firefox phishing filter
   * Google Chrome and browser safety
-* Install a [web filtering solution]({% link _knowhow/glossary/WebFilterProxy.markdown %}) for your company, thereby instantly blocking a lot of malicious websites.
-* Use virtualisation or a similar solution to contain potential threats (for example, see [Sandboxie]({% link _publications/Sandboxie.markdown %}))
+* Install a [web filtering solution]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %}) for your company, thereby instantly blocking a lot of malicious websites.
+* Use virtualisation or a similar solution to contain potential threats (for example, see [Sandboxie]({% link _publications/Sandboxie_fr.markdown %}))

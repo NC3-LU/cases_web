@@ -61,9 +61,9 @@ The following aspects are the subject of this chapter:
 * Inaccessibility of the IT/computer centre.
 
 #### Organisational security measures
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#attribution-of-responsibilities)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
+  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
+  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 * [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})

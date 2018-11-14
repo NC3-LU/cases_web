@@ -29,7 +29,7 @@ des processus métiers utilisés au sein de votre structure professionnelle.
 Cette étape permet d'établir le contexte de l'analyse des risques et de réaliser:
 
 * une évaluation des tendances;
-* une évaluation des [menaces]({% link _knowhow/glossary/Threat.markdown %});
+* une évaluation des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %});
 * le contexte de la gestion des risques;
 * la définition des critères d'évaluation, d'acceptation et d'impact.
 

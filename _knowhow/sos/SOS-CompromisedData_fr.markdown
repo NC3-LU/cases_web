@@ -14,7 +14,7 @@ lang: fr
 If access to your bank account, Facebook or email became compromised and ill-intentioned people are able to access them, here is what you should do.
 
 ## 1. Immediately change the password for the account in question.
-This is the first thing you should do to protect your data. You should do this right away, before a criminal has had the chance to access your data and change your [password]({% link _knowhow/glossary/Password.markdown %}) themselves. You should do this on a computer you trust.
+This is the first thing you should do to protect your data. You should do this right away, before a criminal has had the chance to access your data and change your [password]({% link _knowhow/glossary/Password_fr.markdown %}) themselves. You should do this on a computer you trust.
 
 If you are unable to log in to your account immediately to change your password, call your administrator so they can block your account.
 

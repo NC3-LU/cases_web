@@ -74,13 +74,13 @@ La politique de sécurité devrait contenir les documents suivants :
 1. [Engagement de la direction]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy_fr.markdown %}#management-commitment)
 2. [Revue et évaluation]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy_fr.markdown %}#review-and-assessment)
 
-#### [Section 2. organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity_fr.markdown %})
+#### [Section 2. organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
 
-1. [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
-2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity_fr.markdown %}#authorising-the-addition-of-tools)
-3. [Conseils d’un spécialiste]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity_fr.markdown %}#specialist-advice)
-4. [Revue indépendante de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity_fr.markdown %}#independent-review-of-information-security)
-5. [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
+1. [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+2. [Procédure d’autorisation pour l’ajout d’outils de traitement de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#authorising-the-addition-of-tools)
+3. [Conseils d’un spécialiste]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#specialist-advice)
+4. [Revue indépendante de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#independent-review-of-information-security)
+5. [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
 
 #### [Section 3. classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
 

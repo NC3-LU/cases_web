@@ -71,7 +71,7 @@ It is statistically proven that human error, lack of foresight, negligence or lo
 It is worth pointing out the difference between preventive measures, whose role is to prevent this type of event from arising, and other measures, the aim of which is to detect and monitor this type of event, or even to limit the impact.
 
 ##### Procedures
-The existence of a [security policy]({% link _knowhow/CISOApproach.markdown %}), its internal publication, respect and monitoring of procedures relating to the use, transportation and storage of digital storage media enable you to substantially reduce the loss or theft of digital media. (SMEs: see [Physical and environmental security policy]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) and [Systems development and maintenance policy]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}) and [policy on Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}))
+The existence of a [security policy]({% link _knowhow/CISOApproach_fr.markdown %}), its internal publication, respect and monitoring of procedures relating to the use, transportation and storage of digital storage media enable you to substantially reduce the loss or theft of digital media. (SMEs: see [Physical and environmental security policy]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}) and [Systems development and maintenance policy]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}) and [policy on Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}))
 
 The existence and compliance with the procedures to apply in the event of the theft or loss of data, such as filtering network access based on MAC (Media Access Control) address or other, the withdrawal of remote access, the blocking of VPN clients (Virtual Private Network) or changing all user passwords are crucial measures to limit impact.
 
@@ -81,7 +81,7 @@ The existence and compliance with the procedures to apply in the event of the th
 Only a detailed inventory will enable remote access (access management) from stolen equipment to be refused and it could be used as the basis for dialogue with the insurer.
 
 ##### Limits on the use of external storage media
-The number of thefts or losses of [digital storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (disks, CD ROMs, etc.) is proportional to the number of storage devices in circulation. It may therefore be of interest to firstly limit and secondly monitor the usage of such media (SMEs: see [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware)).
+The number of thefts or losses of [digital storage media]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) (disks, CD ROMs, etc.) is proportional to the number of storage devices in circulation. It may therefore be of interest to firstly limit and secondly monitor the usage of such media (SMEs: see [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)).
 
 The blockage of certain peripherals such as USB ports (Universal Serial Bus) can avoid the illicit use of certain storage media devices.
 
@@ -93,11 +93,11 @@ Small mechanisms are available for purchase which enable laptop computers to be 
 *This countermeasure can be qualified as preventive.*
 
 ##### Password protection – encryption
-It is strongly advisable to use specialist software to [encrypt]({% link _knowhow/glossary/Cryptography.markdown %}) data saved on laptop computers. These tools make it almost impossible to use stolen data. (Example: TrueCrypt)
+It is strongly advisable to use specialist software to [encrypt]({% link _knowhow/glossary/Cryptography_fr.markdown %}) data saved on laptop computers. These tools make it almost impossible to use stolen data. (Example: TrueCrypt)
 
 As always, make sure you use “strong” passwords.
 
-[Encryption]({% link _knowhow/glossary/Cryptography.markdown %}) is an effective protection against loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) in the event of theft.
+[Encryption]({% link _knowhow/glossary/Cryptography_fr.markdown %}) is an effective protection against loss of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) in the event of theft.
 
 *This countermeasure can be qualified as preventive.*
 

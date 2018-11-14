@@ -11,7 +11,7 @@ ref: glossarypassword
 lang: fr
 ---
 ## In brief
-The password, a basic element of IT security, [authenticates]({% link _knowhow/glossary/Authentication.markdown %}) and grants access to a resource or staff service.
+The password, a basic element of IT security, [authenticates]({% link _knowhow/glossary/Authentication_fr.markdown %}) and grants access to a resource or staff service.
 
 In order to reduce the risk of identity fraud, you should choose your password very carefully and stick to some simple rules.
 
@@ -19,7 +19,7 @@ In order to reduce the risk of identity fraud, you should choose your password v
 A good password contains at least 10 characters. To make the password more complex, it is advisable to use a combination of numbers, capital and lower-case letters, as well as punctuation marks, for example.
 
 ## Easy to remember, difficult to guess
-The chosen password must be memorable without having to be written down, while at the same time being difficult to guess by others, including someone who knows you well (see [Social Engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})).
+The chosen password must be memorable without having to be written down, while at the same time being difficult to guess by others, including someone who knows you well (see [Social Engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})).
 
 **Under no circumstances** should you use:
 
@@ -33,7 +33,7 @@ A weak password is often made up of a simple phrase. You can add prefixes, suffi
 If your password needs to be a specific length, create it using the first letters of each word in a sentence. This means that in the example given above, a 9-character password would be:  ```.:tcotr:.```
 
 ## Dedicated passwords
-Each password must only be used for a specific access. Use separate passwords for different logins or, in the event of theft (by [phishing]({% link _knowhow/glossary/Phishing.markdown %}) or shoulder surfing), the cybercriminal will have access to several online services.
+Each password must only be used for a specific access. Use separate passwords for different logins or, in the event of theft (by [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) or shoulder surfing), the cybercriminal will have access to several online services.
 
 The more regularly you use your passwords, the easier it will be to remember them. So we recommend you don’t let your browser remember them for you. For infrequently used services, you can always save your passwords in encrypted files created with a program such as *[keepass](https://keepass.info)*, for example.
 
@@ -48,7 +48,7 @@ Password access is attributed to a single user. A password should not be shared 
 Don’t forget that trustworthy organisations will never ask you for your password.
 
 ## Exchanging passwords
-Passwords are used to [authenticate]({% link _knowhow/glossary/Authentication.markdown %}) an individual and grant them access to specific resources. For this reason, it is inadvisable to exchange passwords with colleagues. If, for organisational reasons (special software installed on a single device), it is necessary to give the password to a specific person during a prolonged absence (holidays, illness), we recommend you proceed in the following way:
+Passwords are used to [authenticate]({% link _knowhow/glossary/Authentication_fr.markdown %}) an individual and grant them access to specific resources. For this reason, it is inadvisable to exchange passwords with colleagues. If, for organisational reasons (special software installed on a single device), it is necessary to give the password to a specific person during a prolonged absence (holidays, illness), we recommend you proceed in the following way:
 
 1. the password is written on a piece of paper, sealed in a signed envelope and given to the manager.
 2. if an authorised person needs access to the password, the opening of the envelope containing it is documented on paper, noting the name of the person who reads the password, along with the date and time.
@@ -108,12 +108,12 @@ The advice given below applies to the use of authentication by account/password.
 ### Control the IT architecture
 It is very important to regularly analyse the logs in order to detect any potential fraudulent access attempts.
 
-Likewise, it is crucial to keep the list of users, their profiles and their IT system rights updated, taking into account the [classification of data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}).
+Likewise, it is crucial to keep the list of users, their profiles and their IT system rights updated, taking into account the [classification of data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}).
 
 ### Limit accounts
-“Administrator” accounts, which have a lot of permissions, are the [attackers]({% link _knowhow/glossary/Cybercriminals.markdown %})’ preferred target. It is inadvisable to share this account between the whole IT team, but rather to create profiles corresponding to the exact needs of each of the team members.
+“Administrator” accounts, which have a lot of permissions, are the [attackers]({% link _knowhow/glossary/Cybercriminals_fr.markdown %})’ preferred target. It is inadvisable to share this account between the whole IT team, but rather to create profiles corresponding to the exact needs of each of the team members.
 
 In the Microsoft Windows platform, it may even be a good idea to limit all the powers of the “administrator” account and to give it a highly complex password. Then all that is needed is to redistribute the tasks to other less visible accounts. By doing so, the potential pirate/cracker will spend their time concentrating on a decoy, since the account won’t allow them to access any information. Unfortunately, this is not possible on the root account on the Unix platform.
 
 ### Alternatives
-[More robust authentication solutions]({% link _knowhow/glossary/Authentication.markdown %}#multi-factor-authentication), such as those offered by LuxTrust (based on key public infrastructures) or biometrics are available. The advantage of these solutions is that they do away with the problem of password disclosures or the transmission of critical data on the network. Unfortunately, they can be costly and complex to set up.
+[More robust authentication solutions]({% link _knowhow/glossary/Authentication_fr.markdown %}#multi-factor-authentication), such as those offered by LuxTrust (based on key public infrastructures) or biometrics are available. The advantage of these solutions is that they do away with the problem of password disclosures or the transmission of critical data on the network. Unfortunately, they can be costly and complex to set up.

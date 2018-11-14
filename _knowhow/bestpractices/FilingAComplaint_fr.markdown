@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Remplir une plainte"
-menutitle: "Remplir une plainte"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "If you have been the victim of a cyber attack, you may file a complaint. Here is a guide summarizing the different steps to follow."
@@ -11,7 +11,7 @@ ref: filingcomplaint
 lang: fr
 ---
 ## In brief
-The victim of a [computer attack]({% link _knowhow/glossary/ComputerHacks.markdown %}) can file a complaint against the [attacker]({% link _knowhow/glossary/Cybercriminals.markdown %}), even if the latter is not known.
+The victim of a [computer attack]({% link _knowhow/glossary/ComputerHacks_fr.markdown %}) can file a complaint against the [attacker]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}), even if the latter is not known.
 
 The first thing the victim must do is gather evidence for the judicial proceedings that s/he intends to pursue for the attack of which s/he was the target. If the victim uses a specialist company to repair the damage (e.g. to recover destroyed files), a report on this work could prove invaluable during the court proceedings. It should therefore be as detailed as possible.
 

@@ -15,7 +15,7 @@ lang: fr
 Removable storage media are data storage media which, as their name would indicate, can be transferred from one computer to another. They will typically be optical discs, such as CDs or DVDs, but they can also be external hard drives, memory sticks and more. Because of their portability, these storage media can represent a security breach for your network.
 
 ## Introduction of malicious software (malware)
-Some [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}) specialises in spreading itself by USB stick or external hard drive. Generally speaking, it uses Windows “autorun”. This automatically executes an application when the stick or hard drive is connected.
+Some [malware]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) specialises in spreading itself by USB stick or external hard drive. Generally speaking, it uses Windows “autorun”. This automatically executes an application when the stick or hard drive is connected.
 
 Although Microsoft changed the default behaviour when it released a patch, meaning that the “autorun” should no longer be activated by default, it is recommended to take care when using memory sticks:
 

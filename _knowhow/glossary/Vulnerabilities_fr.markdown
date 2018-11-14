@@ -10,12 +10,12 @@ toc: true
 ref: glossaryvulnerabilities
 lang: fr
 ---
-Vulnerabilities are all the flaws in corporate [assets]({% link _knowhow/glossary/Assets.markdown %}) that could be exploited by [threats]({% link _knowhow/glossary/Threat.markdown %}), with the aim of compromising them. This exploitation can cause significant [impacts]({% link _knowhow/glossary/Impact.markdown %}). New vulnerabilities are regularly discovered.
+Vulnerabilities are all the flaws in corporate [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) that could be exploited by [threats]({% link _knowhow/glossary/Threat_fr.markdown %}), with the aim of compromising them. This exploitation can cause significant [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}). New vulnerabilities are regularly discovered.
 
 It is possible to gather vulnerabilities together into a number of families.
 
 ## Human vulnerabilities
-Human vulnerabilities essentially derive from feelings, behaviours and instincts that have helped humans survive since time immemorial. Unfortunately, these behaviours are so intrinsically linked to human nature that they are very often exploited in various [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) type scams and attacks. Because of this, we talk about vulnerabilities within the context of data security. (SMEs: [See [Threats to people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}))
+Human vulnerabilities essentially derive from feelings, behaviours and instincts that have helped humans survive since time immemorial. Unfortunately, these behaviours are so intrinsically linked to human nature that they are very often exploited in various [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) type scams and attacks. Because of this, we talk about vulnerabilities within the context of data security. (SMEs: [See [Threats to people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}))
 
 Among these vulnerabilities are:
 
@@ -27,18 +27,18 @@ Among these vulnerabilities are:
 * ...
 
 ## Technical vulnerabilities
-This family of vulnerabilities by far the most fluid  – it includes all vulnerabilities relating to the use of technology or solutions (hardware, software). Many people actively seek out vulnerabilities, and new flaws appear on a daily basis. (SMEs: see [Threats to hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Threats to software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}))
+This family of vulnerabilities by far the most fluid  – it includes all vulnerabilities relating to the use of technology or solutions (hardware, software). Many people actively seek out vulnerabilities, and new flaws appear on a daily basis. (SMEs: see [Threats to hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) and [Threats to software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}))
 
 These would include:
 
-* the presence of vulnerabilities in operating systems or software that could be exploited by [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), simply by visiting [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %});
+* the presence of vulnerabilities in operating systems or software that could be exploited by [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), simply by visiting [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %});
 * the interoperability of IT and communications systems: to enable easy communications between different systems, additional layers of communication are often implemented, which can lead to the appearance of fresh vulnerabilities;
-* the complexity of rules on [firewalls]({% link _knowhow/glossary/Firewall.markdown %}) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
+* the complexity of rules on [firewalls]({% link _knowhow/glossary/Firewall_fr.markdown %}) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
 
 ## Physical vulnerabilities
 This family includes all vulnerabilities relating to unforeseeable events such as breakdowns, accidents or even intentional damage to hardware.
 
-It is in response to this family of vulnerabilities that we will analyse all the physical characteristics of a company, including access to the building, computer rooms and equipment, and we will also talk about a “Continuity Plan”. (SMEs: see [Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}))
+It is in response to this family of vulnerabilities that we will analyse all the physical characteristics of a company, including access to the building, computer rooms and equipment, and we will also talk about a “Continuity Plan”. (SMEs: see [Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}))
 
 These would include:
 

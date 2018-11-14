@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Be Safe: a practical guide for business trips"
-menutitle: "Be Safe: a practical guide for business trips"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "How to deal with your personal data in a trip?"
@@ -20,7 +20,7 @@ The protection of intangible capital has become an increasingly important concer
 * search results
 * expertise…
 
-All these [assets]({% link _knowhow/glossary/Assets.markdown %}) will normally be managed by the [security policy]({% link _knowhow/CISOApproach.markdown %}#politique-de-sécurité) implemented in the company. But what happens when such data moves beyond the walls of the company? Business trips involve particular danger for the information security of these types of data. Specific precautions need to be taken.
+All these [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) will normally be managed by the [security policy]({% link _knowhow/CISOApproach_fr.markdown %}#politique-de-sécurité) implemented in the company. But what happens when such data moves beyond the walls of the company? Business trips involve particular danger for the information security of these types of data. Specific precautions need to be taken.
 
 Once on the road, it is important to be aware of the risks and threats associated, for example, with the use of laptops and mobile phones.
 
@@ -30,9 +30,9 @@ The Ministry of the Economy and Foreign Trade also offers **[training sessions](
 
 When going on a business trip, take precautions:
 
-* [Before the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#before-the-trip)
-* [During the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#during-the-trip)
-* [After the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#after-the-trip)
+* [Before the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %}#before-the-trip)
+* [During the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %}#during-the-trip)
+* [After the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %}#after-the-trip)
 
 ## Before the trip
 Before going on a business trip, we advise you to familiarise yourself with the local social, economic and cultural situation.
@@ -52,19 +52,19 @@ It is preferable to keep your passport on your person at all times. It is also r
 * the second copy to be left in the country, with a trusted person.
 
 ### Data
-A "travel" [laptop]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}) is recommended, with a minimal configuration, only holding the data and software required for the trip.
+A "travel" [laptop]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %}) is recommended, with a minimal configuration, only holding the data and software required for the trip.
 
-Before leaving, it is important to **[back up]({% link _knowhow/glossary/DataBackups.markdown %})** your data and delete your internet browsing history, including cookies, photos and videos. You should also use strong [passwords]({% link _knowhow/glossary/Password.markdown %}) with a minimum of 10 characters.
+Before leaving, it is important to **[back up]({% link _knowhow/glossary/DataBackups_fr.markdown %})** your data and delete your internet browsing history, including cookies, photos and videos. You should also use strong [passwords]({% link _knowhow/glossary/Password_fr.markdown %}) with a minimum of 10 characters.
 
 ### Data protection:
 Sensitive information on electronic media must be encrypted.
 
-**[USB flash drives]({% link _knowhow/glossary/RemovableDevices.markdown %})**:
+**[USB flash drives]({% link _knowhow/glossary/RemovableDevices_fr.markdown %})**:
 
 * It is highly recommended that you save all confidential documents on a USB flash drive to be kept with you at all times.
 * A second USB flash drive can be used for presentations or to share documents, thus avoiding theft or loss of critical documents.
 
-> Warning: Some local laws prohibit the use of [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) software or even the importing of encrypted data. Check before you leave.
+> Warning: Some local laws prohibit the use of [encryption]({% link _knowhow/glossary/Cryptography_fr.markdown %}) software or even the importing of encrypted data. Check before you leave.
 
 ### Social networks
 You are advised not to announce a business trip on social networks like Facebook, Twitter or LinkedIn. It would also be very ill-advised to post information such as the reason for the trip, your destination, hotel, schedule, any contacts and accompanying persons on these networks.
@@ -75,10 +75,10 @@ During your trip, you should apply the following rules:
 1. Always **secure data** by avoiding leaving laptops and mobile phones unguarded. Anti-theft cables are recommended for laptops, especially when attending trade shows.
 2. Documents that are no longer needed should be destroyed, rather than merely thrown away. This prevents them being recovered by others.
 3. **Business relationships**: remain alert when sharing information with potential partners and ensure that your contacts can be trusted.
-4. **Mobile phones**: care is needed when sending sensitive information (SMS, emails, photos, documents) by mobile phone, as it can be intercepted. The only way to protect them is to use an [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) system like 'pgp' for emails or 'securetext' for SMS. You should also ensure:
+4. **Mobile phones**: care is needed when sending sensitive information (SMS, emails, photos, documents) by mobile phone, as it can be intercepted. The only way to protect them is to use an [encryption]({% link _knowhow/glossary/Cryptography_fr.markdown %}) system like 'pgp' for emails or 'securetext' for SMS. You should also ensure:
 
 * **that you do not talk about sensitive matters by mobile phone**;
-  * that you use a VoIP client via [VPN]({% link _knowhow/glossary/VPN.markdown %}), if you must have a sensitive conversation.
+  * that you use a VoIP client via [VPN]({% link _knowhow/glossary/VPN_fr.markdown %}), if you must have a sensitive conversation.
 * that you do not leave your mobile phone **unattended**;
 * if you must leave your mobile unattended, remove the SIM card and memory card and battery and keep them with you.
 
@@ -102,6 +102,6 @@ Did you adhere to all the security instructions before and during the trip? Well
 
 * start with an inventory of all your data and removable media;
 * report any security-related matter during your trip involving you or one of your colleagues to your management;
-* before logging in to your electronic equipment (computer, USB flash drive, external hard drive, CD/DVD) on your company's internal network, have it checked for any [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) by your IT department.
-* [Completely wipe]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}) your trip computer in preparation for your next trip.
+* before logging in to your electronic equipment (computer, USB flash drive, external hard drive, CD/DVD) on your company's internal network, have it checked for any [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) by your IT department.
+* [Completely wipe]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %}) your trip computer in preparation for your next trip.
 * Change any passwords used during the trip.

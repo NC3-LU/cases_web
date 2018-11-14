@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "E-Commerce Scams"
-menutitle: "E-Commerce Scams"
+menutitle:
 logo:
 date:   2017-11-06 00:00:00 +0100
 short: "The most widespread scams and advices to avoid them"
@@ -40,7 +40,7 @@ Beware of:
 * difficult or impossible to contact,     
 * an invitation to make payment to an account abroad that does not match the country from which the item is to be shipped.
 
-Check the reliability of the online shop (for example, use [WOT]({% link _knowhow/glossary/WOT.markdown %})) and read the testimonials of other customers.
+Check the reliability of the online shop (for example, use [WOT]({% link _knowhow/glossary/WOT_fr.markdown %})) and read the testimonials of other customers.
 
 ##### Advance fee fraud
 Advance fee fraud has countless variations involving all types of products. But the scam is always the same: you are asked to pay before you receive the purchased item. The justifications are more or less reasonable, such as insurance for unforeseen transport costs or advances for "logistic brokers".
@@ -98,4 +98,4 @@ E-commerce sites are very popular with online hackers. When an e-commerce site i
 * If you have been the victim of fraud through an online shop in Luxembourg, contact ULC (Union of Consumers of Luxembourg).
 * If you have been the victim of fraud through an online shop in the EU, contact the [CEC](http://cecluxembourg.lu/) (European Consumer Centre).
 
-**You should also [file a complaint]({% link _knowhow/bestpractices/FilingAComplaint.markdown %}) for online fraud with the police.**
+**You should also [file a complaint]({% link _knowhow/bestpractices/FilingAComplaint_fr.markdown %}) for online fraud with the police.**

@@ -32,7 +32,7 @@ The CS (head of security) and the CSSI (information systems security officer) ac
 * to assist personnel in respecting the security rules.
 
 ### Managers
-The respective managers of the organisation’s [assets]({% link _knowhow/glossary/Assets.markdown %}) should:
+The respective managers of the organisation’s [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) should:
 
 * inventory and classify the goods and the information for which they are responsible
 * provide security management for said goods and information
@@ -54,14 +54,14 @@ They also represent the main contact point for external authorities and for vari
 ## Authorising the addition of tools
 The security policy should define a procedure to be followed for the addition of any information processing tool.
 
-The addition of new hardware or software (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Misuse of organisation's resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources)) within the company must be approved by the relevant officer (see definition of responsibilities in point 1 of this chapter). The installation of software downloaded from the Internet falls into this category. This procedure should also be applied for the use of private tools within “the organisation”, especially if they are connected to a network.
+The addition of new hardware or software (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware) and [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence) and [Misuse of organisation's resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources)) within the company must be approved by the relevant officer (see definition of responsibilities in point 1 of this chapter). The installation of software downloaded from the Internet falls into this category. This procedure should also be applied for the use of private tools within “the organisation”, especially if they are connected to a network.
 
 ## Specialist advice
 “The organisation” should be in contact with a IT technology security specialist. This will be the favoured contact for all aspects of IT security. They will especially play a role in:
 
 * the definition of security policies and their annual review;
 * audit activities;
-* meetings to monitor [security measures]({% link _publications/ProtectingYourCompany.markdown %});
+* meetings to monitor [security measures]({% link _publications/ProtectingYourCompany_fr.markdown %});
 * activities for the installation of selected technologies;
 * technology watch, keeping the organisation informed of any changes which may have an effect on the level of security.
 
@@ -73,6 +73,6 @@ The organisation can decide to appoint an external specialist to conduct an annu
 > THIS POINT IS OPTIONAL
 
 ## Third party access and outsourcing
-Access – be it physical or logical (access management) – to [the resources and information]({% link _knowhow/glossary/Assets.markdown %}) belonging to “the organisation” by third parties should be granted within a strict framework. Their access must be formally approved by a manager. The relevant parties should work under the direct supervision of a member of “the organisation”, or sign the document given in appendix: “Security compliance agreement for sub-contractors of “the organisation”” (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft); [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery); [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware)).
+Access – be it physical or logical (access management) – to [the resources and information]({% link _knowhow/glossary/Assets_fr.markdown %}) belonging to “the organisation” by third parties should be granted within a strict framework. Their access must be formally approved by a manager. The relevant parties should work under the direct supervision of a member of “the organisation”, or sign the document given in appendix: “Security compliance agreement for sub-contractors of “the organisation”” (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft); [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery); [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)).
 
 In any event, the service agreements relating to the sensitive resources of “the organisation” must include provisions relating to the protection of these resources.

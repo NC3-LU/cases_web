@@ -45,7 +45,7 @@ The adoption of best practices is recommended in the following fields:
 * best practices relating to the protection of company machines; [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %}), [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}), [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %}), [mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}), [web servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %})
 * best practices relating to the protection of networks; [fixed networks]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %}), [wifi networks]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}), remote working
 * [best practices relating to employee and/or client awareness and training]({% link _services/trainings.markdown %})
-* [best practices relating to the organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+* [best practices relating to the organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
 * [best practices relating to physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 * [best practices relating to social networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams.markdown %})
 * [best practices relating to business trips]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %})

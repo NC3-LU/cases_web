@@ -16,11 +16,11 @@ WOT signifie 'Web of Trust' que l'on peut traduire par "Internet/Toile de confia
 
 L’objectif principal de WOT est de mettre à disposition des internautes, des notes et une classification des sites Internet visités par l'utilisateur, ainsi qu'un avertissement lorsqu’il y a un risque, sur les sites concernés de :
 
-- fraudes en ligne ([phishing]({% link _knowhow/glossary/Phishing.markdown %}))
-- [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites.markdown %})
+- fraudes en ligne ([phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}))
+- [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
 - **usurpation d'identité**
-- présence de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-- [courriers électroniques]({% link _knowhow/glossary/Email.markdown %}) indésirables ([Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}))
+- présence de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
+- [courriers électroniques]({% link _knowhow/glossary/Email_fr.markdown %}) indésirables ([Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}))
 - sites de vente en ligne / e-commerce non fiables
 
 ## Mode de fonctionnement

@@ -18,7 +18,7 @@ The standard sets out a code of best practice intended for use by the managers r
 The standard suggests **11 primary domains** for security, including **133 security objectives** (controls):
 
 * [Information security policy]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %})
-* [Organisation of information security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
+* [Organisation of information security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
 * [Asset management]({% link _knowhow/glossary/Assets.markdown %})
 * [Security related to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})
 * [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})

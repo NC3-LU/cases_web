@@ -18,12 +18,12 @@ This type of advertising was often sent by email. The term spam also ended up en
 
 There is no official definition of the word “spam”. Originally this word referred to a brand of tinned meat product. It was Monty Python who constantly repeated the word in one of their famous comedy sketches, introducing a concept of unpleasantness to spam.
 
-Today, the word “spam” is commonly used to mean unsolicited [emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) sent in bulk to many recipients. People find this type of email annoying.
+Today, the word “spam” is commonly used to mean unsolicited [emails]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) sent in bulk to many recipients. People find this type of email annoying.
 
 Such emails cost practically nothing to send. However, they can be very expensive for the recipients, in terms of connection costs and the volume of data transferred. This is a real waste of bandwidth and storage space for network administrators and email servers, and a huge waste of time for the recipients of spam (individuals and companies) in downloading, sorting and deleting spam received, with the added risk of mistakenly deleting an email that is not spam.
 
 ## Who does this spamming?
-Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) and the distribution of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
+Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) and the distribution of [malware]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}).
 
 Spam should not be confused with advertising emails which are, contrary to spam, regulated through:
 

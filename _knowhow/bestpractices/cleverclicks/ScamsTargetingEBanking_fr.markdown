@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Scams targeting E-Banking"
-menutitle: "Scams targeting E-Banking"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What is a e-banking scams and how to avoid it?"
@@ -15,8 +15,8 @@ Queuing at a bank is a thing of the past. Today, it is possible to carry out all
 
 ## Phishing
 
-When they use [phishing]({% link _knowhow/glossary/Phishing.markdown %}), scammers try to use copied websites to prompt you to enter your bank details so they can empty your account.
-One of many possible scenarios is that you receive an [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) from your bank or other online service with which you are registered. It claims that there is a problem with your account. The actual nature of the problem is not explained. You have to log into your account urgently to "avoid the worst". Normally the email contains the corresponding link. Just click on the link to access a page you need to connect to.
+When they use [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}), scammers try to use copied websites to prompt you to enter your bank details so they can empty your account.
+One of many possible scenarios is that you receive an [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) from your bank or other online service with which you are registered. It claims that there is a problem with your account. The actual nature of the problem is not explained. You have to log into your account urgently to "avoid the worst". Normally the email contains the corresponding link. Just click on the link to access a page you need to connect to.
 
 **The problem is that the page that you access via the link is very similar to its official equivalent but is actually a fake. All the data you enter will be recorded by scammers and will be used or sold for criminal purposes.**
 
@@ -33,11 +33,11 @@ Examine emails with a critical eye. Be wary when:
 
 **See also**:
 
-* [What if my login details have been compromised or even disclosed?]({% link _knowhow/sos/SOS-CompromisedData.markdown %})
-* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
+* [What if my login details have been compromised or even disclosed?]({% link _knowhow/sos/SOS-CompromisedData_fr.markdown %})
+* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
 
 ## Banking Trojan
-There are many variants of [Trojan horses](-). They all have something in common: they run in the background and empty your account without you realising at the time. During an open web banking session, the [criminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) make transfers that you don't see. The account balance doesn't change and even in your transfer history there is no trace of the Trojan, because it uses sophisticated programming. But your money still disappears!
+There are many variants of [Trojan horses](-). They all have something in common: they run in the background and empty your account without you realising at the time. During an open web banking session, the [criminals]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) make transfers that you don't see. The account balance doesn't change and even in your transfer history there is no trace of the Trojan, because it uses sophisticated programming. But your money still disappears!
 
 **The banking Trojan is malware that is distributed through the usual infection channels (e.g. as an attachment or link in an email that exploits a computer program vulnerability). It autonomously recognises when you log in to your web banking site and alerts its criminal creator. The latter than takes control of your account while your session remains open.**
 
@@ -50,5 +50,5 @@ There are many variants of [Trojan horses](-). They all have something in common
 
 **See also**:
 
-* [Good malware practice]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}).
-* [SOS – I think my computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}).
+* [Good malware practice]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}).
+* [SOS – I think my computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %}).

@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Scams targeting E-Banking"
-menutitle: "Scams targeting E-Banking"
+menutitle:  
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What is a e-banking scams and how to avoid it?"
@@ -34,7 +34,7 @@ Examine emails with a critical eye. Be wary when:
 **See also**:
 
 * [What if my login details have been compromised or even disclosed?]({% link _knowhow/sos/SOS-CompromisedData.markdown %})
-* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
+* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown %})
 
 ## Banking Trojan
 There are many variants of [Trojan horses](-). They all have something in common: they run in the background and empty your account without you realising at the time. During an open web banking session, the [criminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) make transfers that you don't see. The account balance doesn't change and even in your transfer history there is no trace of the Trojan, because it uses sophisticated programming. But your money still disappears!

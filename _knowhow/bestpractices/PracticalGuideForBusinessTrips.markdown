@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Be Safe: a practical guide for business trips"
-menutitle: "Be Safe: a practical guide for business trips"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "How to deal with your personal data in a trip?"

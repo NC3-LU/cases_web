@@ -11,18 +11,18 @@ ref: cisomanagingbusinesscontinuity
 lang: fr
 ---
 ## Operational continuity
-[The operational continuity of the organisation]({% link _knowhow/glossary/DRP.markdown %}) implies that resources deemed to be important or vital (see [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})) should be in good working order under all circumstances.
+[The operational continuity of the organisation]({% link _knowhow/glossary/DRP_fr.markdown %}) implies that resources deemed to be important or vital (see [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})) should be in good working order under all circumstances.
 
 Depending on their type, these resources may suffer the following damage:
 
-* [deletion of data]({% link _knowhow/glossary/DataLoss.markdown %});
+* [deletion of data]({% link _knowhow/glossary/DataLoss_fr.markdown %});
 * intentional or accidental modification of data;
-* simple or total breakdown of a piece of equipment or software (SMEs: see [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers) and [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups) and [Failure of IT and communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators));
-* complete destruction of one or more pieces of equipment, or even of the entire infrastructure (incident such as a fire) (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)).
+* simple or total breakdown of a piece of equipment or software (SMEs: see [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers) and [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups) and [Failure of IT and communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators));
+* complete destruction of one or more pieces of equipment, or even of the entire infrastructure (incident such as a fire) (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)).
 
-A certain number of rules established in this document (see [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})) are intended to reduce the likelihood of damage. However, it should be remembered that damage can occur and plans should be put in place for this eventuality.
+A certain number of rules established in this document (see [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})) are intended to reduce the likelihood of damage. However, it should be remembered that damage can occur and plans should be put in place for this eventuality.
 
-One of the following scenarios should be chosen for each of the resources indexed in [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}):
+One of the following scenarios should be chosen for each of the resources indexed in [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}):
 
 * nothing planned.
 * this is data: backups – especially off-site backups – are sufficient.

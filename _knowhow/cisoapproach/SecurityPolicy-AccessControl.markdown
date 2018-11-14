@@ -13,7 +13,7 @@ lang: en
 ## Access control policy
 Access to applications and data (files, databases) that have been [classified]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation”.
 
-The right to access each of these resources is granted by the data manager, as defined in Section 2 “[Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)”. It also sets out the type of access to the information: read-only, editing or deletion rights.
+The right to access each of these resources is granted by the data manager, as defined in Section 2 “[Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)”. It also sets out the type of access to the information: read-only, editing or deletion rights.
 
 This is the only person who can grant, modify or withdraw access rights to this data.
 
@@ -166,8 +166,8 @@ Connections from external networks to the “organisation’s” systems must be
 
 ### Directly associated organisational measures:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-* [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
+* [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
 * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
 * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)

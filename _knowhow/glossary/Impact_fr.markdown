@@ -12,11 +12,11 @@ lang: fr
 ---
 
 ## In brief
-L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities.markdown %}) d'un actif par une [menace]({% link _knowhow/glossary/Threat.markdown %}). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
+L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) d'un actif par une [menace]({% link _knowhow/glossary/Threat_fr.markdown %}). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
 
-L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) de l'[actif]({% link _knowhow/glossary/Assets.markdown %}) en termes de confidentialité, intégrité et disponibilité.
+L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) de l'[actif]({% link _knowhow/glossary/Assets_fr.markdown %}) en termes de confidentialité, intégrité et disponibilité.
 
-[Il est important de protéger son ordinateur - les raisons en sont nombreuses]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer.markdown %}).
+[Il est important de protéger son ordinateur - les raisons en sont nombreuses]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer_fr.markdown %}).
 
 Il faut cependant distinguer entre dégâts et impacts. Les dégâts sont les résultantes d'un événement. L'impact est l'évaluation des dommages causés par les dégâts.
 

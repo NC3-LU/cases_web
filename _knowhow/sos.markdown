@@ -17,7 +17,7 @@ lang: en
 This section should guide you in case of problems. If you do not find an answer to your question here, do not hesitate to contact us.
 
 ## E-mail
-[How to recognize a suspicious email?]({% Link _knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown%})
+[How to recognize a suspicious email?]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown%})
 
 [I opened an attachment from an email]({% link _knowhow/sos/SOS-IOpenedEmailAttachment.markdown%})
 
@@ -31,12 +31,12 @@ This section should guide you in case of problems. If you do not find an answer 
 [I think my computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown%})
 
 ## Hardware failures
-[Can I give my hardware for repair?]({% Link _knowhow/sos/SOS-HandoverToRepairs.markdown%})
+[Can I give my hardware for repair?]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown%})
 
-[How to get rid of my old hardware?]({% Link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown%})
+[How to get rid of my old hardware?]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown%})
 
 ## Information theft
-[What if my login data has been compromised or even disclosed?]({% Link _knowhow/sos/SOS-CompromisedData.markdown%})
+[What if my login data has been compromised or even disclosed?]({% link _knowhow/sos/SOS-CompromisedData.markdown%})
 
 ## Theft of material
-[What if your hardware is stolen, lost, seized?]({% Link _knowhow/sos/SOS-StolenHardware.markdown%})
+[What if your hardware is stolen, lost, seized?]({% link _knowhow/sos/SOS-StolenHardware.markdown%})

@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "E-Mail Scams"
-menutitle: "E-Mail Scams"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What is an email scams and how to avoid it?"
@@ -38,7 +38,7 @@ Examine emails with a critical eye. Be wary when:
 
 **See also**:
 * [What if my login details have been compromised or even disclosed]({% link _knowhow/sos/SOS-CompromisedData.markdown %})?
-* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail.markdown %})
+* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown %})
 
 ## False payment requests
 These false requests exploit victims' feelings of compassion or fears. The best known are fake call-backs, fake requests for help or [CEO scams](-).

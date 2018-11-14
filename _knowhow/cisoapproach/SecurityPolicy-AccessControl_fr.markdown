@@ -11,9 +11,9 @@ ref: cisoaccesscontrol
 lang: fr
 ---
 ## Access control policy
-Access to applications and data (files, databases) that have been [classified]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation”.
+Access to applications and data (files, databases) that have been [classified]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}) as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation”.
 
-The right to access each of these resources is granted by the data manager, as defined in Section 2 “[Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)”. It also sets out the type of access to the information: read-only, editing or deletion rights.
+The right to access each of these resources is granted by the data manager, as defined in Section 2 “[Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)”. It also sets out the type of access to the information: read-only, editing or deletion rights.
 
 This is the only person who can grant, modify or withdraw access rights to this data.
 
@@ -21,33 +21,33 @@ Access rights are created on a technical level by the IT manager.
 
 ### Applying security measures to:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
-* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Directly associated organisational measures:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-* [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
-* [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
-* [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
-* [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+* [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+* [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+* [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+* [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ### Technical measures:
 
-* [authentication]({% link _knowhow/glossary/Authentication.markdown %})
+* [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %})
 
 ## Access rights management
 Before creating a personal account for a user, the IT manager ensures that [the data manager]({{site.url}}) has given their approval for access to the different user groups, drives, directories and applications. S/he also takes this opportunity to review the group members and their rights.
@@ -55,57 +55,57 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 ### Applying security measures to:
 
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
-* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Directly associated organisational measures:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-* [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-* [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-* [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#password-management)
-* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+* [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#password-management)
+* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
 
 ### Technical measures:
 
-* [authentication]({% link _knowhow/glossary/Authentication.markdown %})
+* [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %})
 
 ## Password management
 
 ### Applying security measures to:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
-* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 
 ### Directly associated organisational measures:
 
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-* [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+* [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
 
 ### Technical measures:
 
-* [authentication]({% link _knowhow/glossary/Authentication.markdown %})
-* [passwords]({% link _knowhow/glossary/Password.markdown %})
+* [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %})
+* [passwords]({% link _knowhow/glossary/Password_fr.markdown %})
 
 ## Use of external networks
 Connection to external networks and, in particular, the Internet must take place under the appropriate conditions.
@@ -114,83 +114,83 @@ Here are a few possible scenarios:
 
 ### Applying security measures for:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
-* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 
 ### Directly associated organisational measures:
 
-* [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %})
+* [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
 
 ### Directly associated organisational measures:
 
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-* [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-* [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-* [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-* [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
-* [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
-* [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#managing-technical-vulnerabilities)
-* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
-* [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+* [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+* [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+* [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+* [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+* [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
+* [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
 
 ### Technical measures:
 
-* [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %})
-* [firewall]({% link _knowhow/glossary/Firewall.markdown %})
-* [company firewall]({% link _knowhow/glossary/Firewall.markdown %})
-* [web filter]({% link _knowhow/glossary/WebFilterProxy.markdown %})
+* [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %})
+* [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %})
+* [company firewall]({% link _knowhow/glossary/Firewall_fr.markdown %})
+* [web filter]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %})
 
 ## External connections
 Connections from external networks to the “organisation’s” systems must be restricted to a need-only basis. On such occasions, this connection is preferably made via VPN.
 
 ### Applying security measures to:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
-* [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %})
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Directly associated organisational measures:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %})
-* [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganisationOfSecurity.markdown %}#third-party-access-and-outsourcing)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-* [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-* [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
-* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
-* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#connection-procedures)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %})
-* [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
-* [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#managing-technical-vulnerabilities)
-* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
-* [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
-* [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
-* [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
+* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+* [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
+* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+* [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+* [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+* [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
+* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+* [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+* [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
+* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
+* [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
+* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+* [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+* [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ### Technical measures:
 
-* [company firewall]({% link _knowhow/glossary/Firewall.markdown %})
-* [VPN]({% link _knowhow/glossary/VPN.markdown %})
+* [company firewall]({% link _knowhow/glossary/Firewall_fr.markdown %})
+* [VPN]({% link _knowhow/glossary/VPN_fr.markdown %})
 
 ## Separation of networks
 In the case of more complex networks with different security zones, a firewall is used to separate these different networks.
@@ -203,13 +203,13 @@ See also network segmentation
 
 ### Applying security measures to:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
-* [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %})
+* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
+* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
+* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ## Connection procedures
 The home screens of the various systems are configured in such a way as to:

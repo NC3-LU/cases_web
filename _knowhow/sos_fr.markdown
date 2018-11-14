@@ -16,7 +16,7 @@ lang: fr
 Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
 
 ## Email
-[Comment reconnaître un courrier électronique suspect ?]({% link _knowhow/sos/SOS-RecognisingASuspiciousEmail_fr.markdown %})
+[Comment reconnaître un courrier électronique suspect ?]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
 
 [J'ai ouvert une pièce jointe d'un courrier électronique]({% link _knowhow/sos/SOS-IOpenedEmailAttachment_fr.markdown %})
 

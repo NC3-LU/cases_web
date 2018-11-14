@@ -30,9 +30,9 @@ It is important to carry out updates. The saying "Never touch a running system" 
 Obviously, however, care is required when installing new programs.
 
 ## Organisational practices
-The organisation must draft and enforce a sectoral policy on systems development and management  – [management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#managing-technical-vulnerabilities)
+The organisation must draft and enforce a sectoral policy on systems development and management  – [management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
 
 ## Technical measures
 * It is important to test patches before deploying them on key systems. It is practical to keep a test computer for this purpose.
-* You can use the Secunia online service to check for patches for your operating system or your installed software. Alternatively, download a [Secunia application]({% link _knowhow/glossary/SecuniaPSI.markdown %}) (note that their PSI version must not be used in a professional context). These services will tell you which software to update.
+* You can use the Secunia online service to check for patches for your operating system or your installed software. Alternatively, download a [Secunia application]({% link _knowhow/glossary/SecuniaPSI_fr.markdown %}) (note that their PSI version must not be used in a professional context). These services will tell you which software to update.
 * In a Microsoft infrastructure it is advisable to set up a WSUS update server, if possible with extensions enabling updates to all software on workstations.

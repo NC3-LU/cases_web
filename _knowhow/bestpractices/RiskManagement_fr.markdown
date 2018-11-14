@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 title:  "Risk management"
-menutitle: "Risk management"
+menutitle: 
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "How is a risk analysis conducted? What are the different criteria? Or how are the risks estimated"
@@ -10,7 +10,7 @@ toc: true
 ref: riskmanagement
 lang: fr
 ---
-General guidelines regarding risk management as used by CASES are taken from the ISO/IEC 27005 standard, part of the [ISO/IEC 27000]({% link _publications/ISO27000SF.markdown %}) family of standards. [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) governs the implementation of an information security management system which must include a risk management procedure. Risk management is the approach specified in ISO/IEC 27001 which forms the basis of the [security policy]({% link _knowhow/CISOApproach.markdown %}) for the organisation concerned.
+General guidelines regarding risk management as used by CASES are taken from the ISO/IEC 27005 standard, part of the [ISO/IEC 27000]({% link _publications/ISO27000SF_fr.markdown %}) family of standards. [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %}) governs the implementation of an information security management system which must include a risk management procedure. Risk management is the approach specified in ISO/IEC 27001 which forms the basis of the [security policy]({% link _knowhow/CISOApproach_fr.markdown %}) for the organisation concerned.
 
 The diagram below outlines the risk management process.
 
@@ -20,16 +20,16 @@ To produce a risk analysis, it is first important to specify the basic criteria 
 The risk **assessment criteria** notably include:
 
 * the strategic values of the processes
-* [asset]({% link _knowhow/glossary/Assets.markdown %}) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
+* [asset]({% link _knowhow/glossary/Assets_fr.markdown %}) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})
 * legal and contractual requirements
-* the importance of CAI ([confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [availability]({% link _knowhow/glossary/Availability.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}))
+* the importance of CAI ([confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [availability]({% link _knowhow/glossary/Availability_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}))
 * the expectations of the invested parties and the reputation
 
 So for a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, there are risks that must be avoided at all costs. In others, there are assets that must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
 
-The **[basic criteria]({% link _knowhow/glossary/BasicCriteria.markdown %})** must also be determined:
+The **[basic criteria]({% link _knowhow/glossary/BasicCriteria_fr.markdown %})** must also be determined:
 
-* [Impact]({% link _knowhow/glossary/Impact.markdown %}) criteria:
+* [Impact]({% link _knowhow/glossary/Impact_fr.markdown %}) criteria:
   * how to express the degree of damage and the associated costs, how to express damage in terms of reputation or damage caused by legal consequences.
   * qualitative and quantitative scale
 * Risk acceptance criteria:
@@ -57,13 +57,13 @@ Then, the **organisation** of the risk analysis must be defined:
 ## Risk identification
 The purpose of risk identification is to determine the causes of impacts and understand how, where and why this damage can occur. This is the preparation phase for the risk estimation itself. It proceeds as follows:
 
-* Identification of [assets]({% link _knowhow/glossary/Assets.markdown %}):
+* Identification of [assets]({% link _knowhow/glossary/Assets_fr.markdown %}):
   * primary assets, such as business line processes and information
   * secondary assets or support assets
-* Identification of [threats]({% link _knowhow/glossary/Threat.markdown %})
-* Identification of existing [security measures]({% link _publications/ProtectingYourCompany.markdown %})
-* Identification of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) (inherent to the identification of risk specifics)
-* Identification of [impacts]({% link _knowhow/glossary/Impact.markdown %}) (consideration of impact criteria: see also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}))
+* Identification of [threats]({% link _knowhow/glossary/Threat_fr.markdown %})
+* Identification of existing [security measures]({% link _publications/ProtectingYourCompany_fr.markdown %})
+* Identification of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) (inherent to the identification of risk specifics)
+* Identification of [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) (consideration of impact criteria: see also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}))
 
 As a result, it is possible to draw up a list of assets which require risk management.
 
@@ -71,7 +71,7 @@ As a result, it is possible to draw up a list of assets which require risk manag
 Risk estimation is comprised of several phases:
 
 1. the choice of methodology
-2. estimation of the [impacts]({% link _knowhow/glossary/Impact.markdown %})
+2. estimation of the [impacts]({% link _knowhow/glossary/Impact_fr.markdown %})
 3. estimation of likelihood of occurrence
 4. estimation of risk level
 
@@ -222,7 +222,7 @@ The risk analysis method ends with the choice of treatment. The analysis must st
 
 There are 4 risk treatment options:
 
-1. “Risk reduction”, which consists of reducing the risk by choosing the appropriate security objectives and measures (See: [Sectoral risk analysis – risk treatment]({% link _services/diagnostic.markdown %}));
+1. “Risk reduction”, which consists of reducing the risk by choosing the appropriate security objectives and measures (See: [Sectoral risk analysis – risk treatment]({% link _services/diagnostic_fr.markdown %}));
 2. “Risk conservation”, which consists of accepting current risks without taking further action;
 3. “Risk refusal”, which consists of giving up the activity or domain at the source of the risk;
 4. “Risk transfer” to a third party, by means of insurance coverage, for example.
@@ -327,7 +327,7 @@ This is a continuous process that allows for the exchange and sharing of informa
 This process consists of monitoring and re-examining elements of the risk:
 
 * asset values and categories
-* impacts, [threats]({% link _knowhow/glossary/Threat.markdown %}), vulnerabilities, likelihoods of occurrence
+* impacts, [threats]({% link _knowhow/glossary/Threat_fr.markdown %}), vulnerabilities, likelihoods of occurrence
 * external elements (legal or environmental context)
 * modification of the risk assessment approach (impact, assessment, risk acceptance criteria)
 * etc.
