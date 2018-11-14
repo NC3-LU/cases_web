@@ -1,7 +1,7 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "Clever Clicks"
-menutitle: 
+menutitle:
 date: 2017-11-06 00:00:00 +0100
 short: "Le dossier spécial \"Clever clicks for safer business\" vous aide à adopter les bons réflexes dans tous les cas de figure rencontrés au quotidien"
 categories: f-bestpract

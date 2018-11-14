@@ -1,7 +1,7 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "E-Mail Scams"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "What is an email scams and how to avoid it?"

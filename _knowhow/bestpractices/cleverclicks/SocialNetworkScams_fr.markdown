@@ -1,5 +1,5 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "Social Network Scams"
 menutitle:  
 logo:

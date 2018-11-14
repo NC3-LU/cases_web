@@ -1,7 +1,7 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "Risk management"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "How is a risk analysis conducted? What are the different criteria? Or how are the risks estimated"

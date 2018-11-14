@@ -1,5 +1,5 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "Scams through downloads"
 menutitle:  
 logo:

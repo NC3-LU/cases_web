@@ -1,5 +1,5 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "Smartphone Scams"
 menutitle:  
 logo:

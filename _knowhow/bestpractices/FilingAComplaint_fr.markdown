@@ -1,7 +1,7 @@
 ---
-layout: publication-list
+layout: knowhow
 title:  "Remplir une plainte"
-menutitle: 
+menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "If you have been the victim of a cyber attack, you may file a complaint. Here is a guide summarizing the different steps to follow."

@@ -69,21 +69,3 @@ layout: default
 
 {% assign tocname="knowhow" %}
 {% include menus/toc.html %}
-
-
-
-{% for post in currentlangarticles %}
-  {% if post.lang == currentlang %}
-    <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-      <h6 class="list-select">{{ post.title }}</h6>
-    </a>
-  {% else %}
-    {% assign postref = post.ref | split:'::::::X::::::' %}
-    {% unless currentlangrefs contains post.ref %}
-      {% assign currentlangrefs = currentlangrefs | concat: postref %}
-      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-        <h6 class="list-select">{{ post.title }} <img src="/assets/img/flags/{{ post.lang }}.png"></h6>
-      </a>
-    {% endunless %}
-  {% endif %}
-{% endfor %}
