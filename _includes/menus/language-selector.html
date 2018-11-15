@@ -20,5 +20,11 @@
       <a href="{{ service.url }}" class="{{ service.lang }}"><img src="/assets/img/flags/{{ service.lang }}.png"></a>
     </li>
   {% endfor %}
+  {% assign services=site.knowhow | where:"ref", page.ref | sort: 'lang' %}
+  {% for service in services %}
+    <li>
+      <a href="{{ service.url }}" class="{{ service.lang }}"><img src="/assets/img/flags/{{ service.lang }}.png"></a>
+    </li>
+  {% endfor %}
   </ul>
 </div>

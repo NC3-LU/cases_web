@@ -6,7 +6,7 @@ layout: default
 
 {% assign currentlang = page.lang %}
 {% if currentlang == blank or currentlang == empty or currentlang == nil %}
-{% assign currentlang = site.default_lang %}
+  {% assign currentlang = site.default_lang %}
 {% endif %}
 
 {% assign currentlangknowhow = allknowhow | where: "lang", currentlang %}
@@ -53,7 +53,6 @@ layout: default
 
 {% assign menutitle = "Knowhow"  %}
 {% assign listlen = list-cat.size | minus: 1 %}
-
 
 {% include menus/filemenu.html %}
 

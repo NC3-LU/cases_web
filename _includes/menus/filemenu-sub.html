@@ -50,9 +50,12 @@
 
     {% for spage in pagelist %}
       {% assign postref = spage.ref | split:'::::::X::::::' %}
+
       {% unless currentlangrefs contains postref %}
         {% if spage.categories contains f-cat or group_cat==1 and spage.categories contains list-cat[i] %}
-            <li style="list-style: none;">
+          {% assign temp = currentlangrefs | concat: postref %}
+          {% assign currentlangrefs = temp %}
+          <li style="list-style: none;">
             <a href="{{spage.url | relative_url}}" alt="{{ spage.title | escape }}">
               {% if page.url == spage.url %}
                 <h6 class="list-select selected-item"><span class="selected-item-arrow">&#9656;</span> {{ spage.title }}</h6>

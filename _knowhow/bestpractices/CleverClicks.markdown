@@ -7,7 +7,7 @@ short: "Le dossier spécial \"Clever clicks for safer business\" vous aide à ad
 categories: f-bestpract
 toc: true
 ref: cleverclicks
-lang: fr
+lang: en
 ---
 Information Technology is an essential element for the commercial activities of entreprises:
 

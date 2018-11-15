@@ -13,3 +13,9 @@ Make it nice!!!
 ## Update dependencies:
 
 To update the dependencies - if they have a new version - just call ```bundler update```. It is good practice to do that regularly anyways...
+
+## Deploying or Developing/Testing
+
+To start the development server: ```bundler exec jekyll serve```
+
+If only a build is needed: ```bundler exec jekyll build```
