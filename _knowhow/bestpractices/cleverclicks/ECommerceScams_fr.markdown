@@ -1,101 +1,100 @@
 ---
 layout: knowhow
-title:  "E-Commerce Scams"
+title:  "Arnaques e-commerce"
 menutitle:
 logo:
 date:   2017-11-06 00:00:00 +0100
-short: "The most widespread scams and advices to avoid them"
+short: "Les escroqueries les plus répandues et les conseils pour les éviter"
 categories: scams
 toc: true
 ref: ecommercescams
 lang: fr
 ---
-## In brief
+## En bref
 
-E-commerce is convenient and fast. The well-known platforms are growing rapidly while still leaving a small space for new platforms to develop. However, the Internet seems to be a lucrative market for a growing number of criminals.          
+Le commerce électronique est pratique et rapide. Les plates-formes bien connues sont en forte croissance tout en laissant encore une petite place à des plates-formes nouvelles pour se développer. Cependant, Internet semble être un marché lucratif pour un nombre croissant de criminels.         
 
-**The most widespread scams**
+**Les arnaques les plus répandues**
 
-Classic online scams include the following:     
-1. fake shops simply extorting money from their "customers".   
-2. real shops selling fake products.
-3. real online shops can be harmful without actually engaging in scams.
+Les situations d’arnaques en ligne les plus classiques sont celles le où :     
 
-Each of these basic situations can give rise to different scenarios. The following are among the most common:
+1. de fausses boutiques se contentent d'extorquer leurs "clients".   
+2. de vrais magasins vendent des produits contrefaits.
+3. de vraies boutiques en ligne peuvent être nuisibles sans qu'il y ait d'arnaque réelle.
 
-## 1. Fake shops: the goods never arrive
+Chacune de ces situations de départ peut donner lieu à différents scénarios. Voici les plus courants :
 
-There are online shops that look very professional with a perfectly good website but offering fictional products. Likewise, some scammers publish real estate ads or ads for cars at unbeatable prices. But, in reality, the goods are not available.
+## Fausses boutiques : vous ne recevrez jamais la marchandise
 
-**Result:** loss of time and money
+Il y a des magasins en ligne qui se présentent de manière très professionnelle avec un site web parfaitement fonctionnel, mais qui offrent des produits qu'ils ne possèdent pas. De la même manière, il y a des escrocs qui publient des petites annonces immobilières, ou encore pour vendre des voitures à des prix imbattables... Mais en réalité, ces biens ne sont pas disponibles.
+**Conséquence :** perte de temps et d'argent
+**Règles de conduite :** Ne jamais payer des marchandises à l'avance. Utiliser des moyens de payements sécurisés (contre facture, à la livraison, ou bien par un système de paiement électronique (ex : Paypal)).
 
-**Best practice:** Never pay for goods in advance. Use secure payment means (on receipt of invoice, on delivery or using electronic payment system (e.g. PayPal)).
+Méfiez-vous :
 
-Beware of:
+* de prix extrêmement bas,
+* de payements exigés à l'avance, ou bien par transfert (ex : Wester Union),
+* de témoignages clients trop élogieux ou trop critiques,
+* de mentions légales incomplètes,
+* d’une prise de contact difficile ou impossible,      
+* d’une invitation à effectuer un payement sur un compte à l'étranger qui ne correspond pas au pays d'expédition de votre article.
 
-* extremely low prices,
-* obligatory advance payments or transfers (e.g. Western Union),
-* over-complimentary or over-critical customer testimonials,
-* incomplete legal information,
-* difficult or impossible to contact,     
-* an invitation to make payment to an account abroad that does not match the country from which the item is to be shipped.
+Vérifier la fiabilité de la boutique en ligne (par exemple, à l'aide de [WOT]({% link _knowhow/glossary/WOT_fr.markdown %})) et lisez les témoignages des autres clients.
 
-Check the reliability of the online shop (for example, use [WOT]({% link _knowhow/glossary/WOT_fr.markdown %})) and read the testimonials of other customers.
+##### Fraude à la commission
+La fraude à la commission connaît d'innombrables variantes sur tous types de produits. L'arnaque se passe toujours de la même manière : on vous invite à payer une avance avant de recevoir l'article acheté. Les arguments avancées sont plus ou moins compréhensibles, passant de l'assurance pour des coûts de transports imprévus, aux avances pour les « intermédiaires logistique ».
 
-##### Advance fee fraud
-Advance fee fraud has countless variations involving all types of products. But the scam is always the same: you are asked to pay before you receive the purchased item. The justifications are more or less reasonable, such as insurance for unforeseen transport costs or advances for "logistic brokers".
+##### Escroquerie par règlement préalable
+Dans ce cas, le vendeur exige de recevoir paiement du montant total en avance, généralement par Western Union ou un autre système de transfert d'argent.
 
-##### Advance payment fraud
-In this case, the vendor insists on full payment in advance, usually by Western Union or other form of money transfer.
+##### Arnaque « fiduciaire »
+Ce type d'arnaque se sert d’une partie tierce comme prétendu "partenaire logistique". Ce "partenaire" est en charge de la livraison et du transfert d'argent. Mais il s'agit en réalité d'un complice du vendeur et se fait passer pour un "tiers de confiance", afin de mieux arnaquer les clients.
 
-##### "Fiduciary" scam
-This type of scam uses a third party as the "logistics partner". This "partner" manages the delivery and the transfer of money. But the partner is actually an accomplice of the vendor and is merely pretending to be a "trusted third party", in order to scam customers more convincingly.
+##### Faux logos, labels et évaluations
+Labels de qualité, photos professionnelles des produits, logos d'entreprises connues, commentaires positifs... Autant de signes de confiance qui incitent les clients à acheter, mais qui sont parfois détournées ou falsifées.
 
-##### False logos, labels and evaluations
-Quality labels, professional photos of products, well-known company logos, positive comments ... A host of signs of trust that encourage customers to buy, but are sometimes malicious or falsified.
+## 2. Vrais magasins - Faux produits
+Les grandes distances et l'affichage de produits virtuels permettent aux fraudeurs d'utiliser Internet pour vendre des produits contrefaits. Une photo professionnelle de l'objet peut rendre la description encore plus crédible. Mais ce que vous voyez n'est pas nécessairement ce que vous obtenez.
 
-## 2. Real shops – False products
-Long distances and the display of virtual products allow fraudsters to use the Internet to sell fake products. A professional photo of the item can make the description even more credible. But what you see is not necessarily what you get.
+**Conséquence :** Perte d'argent, risques de sécurité, marchandise bloquée à la douane.
 
-**Result:** Loss of money, security risks, goods blocked at customs.
+**Règle de conduite :** Rester méfiant face à des prix excessivement bas. N'acheter que sur les boutiques en ligne des marques. Ne pas payer les marchandises avant de les avoir reçues.
 
-**Good practice:** Beware of excessively low prices. Buy only from the online shops of brands. Do not pay for goods until you have received them.
+*Sachez que les boutiques en ligne peu sérieuses omettent souvent d’indiquer leur siège social, ce qui rend les actions juridiques et les demandes de remboursement impossibles.*
 
-*Be aware that online shops that are not genuine often omit their head office, making legal action and claims impossible.*
+##### Les produits de marque contrefaits
+Le marché en ligne est submergé de produits de marques célèbres contrefaits. Ces produits laissent sérieusement à désirer au niveau de leur qualité et peuvent poser de graves problèmes de sécurité.
 
-##### Counterfeit branded products
-The online market is flooded with counterfeit products of famous brands. These products are seriously deficient in quality and may involve serious safety issues.
+##### Etiquetage CE falsifié ou manquant
+Pour une commande venant de l'étranger, assurez-vous que le produit soit muni d'un étiquetage CE valable. Ceci est particulièrement important pour les appareils multimedia, l'électronique, les jouets, les accessoires de télécommuication, les ampoules etc. L'absence ou la falsification de l'étiquettage CE sont illégales et posent de gros risques de sécurité. Les douanes saisissent les importations en cas de marquage CE manquant.
 
-##### Falsified or absent CE labelling
-For an order from abroad, confirm that the product has a valid CE label. This is particularly important for multimedia devices, electronics, toys, telecommunications accessories, light bulbs, etc. Absent or false CE labelling is illegal and is a major safety risk. Customs will seize imports where CE marking is absent.
+## 3. Magasins fiables... Mais il y a un hic.
 
-## 3. Trustworthy shops... But with a catch.
+Les magasins en ligne légitimes peuvent également se révéler très coûteux pour l’utilisateur, même s'ils ne comettent pas d'escroquerie.
 
-Legitimate online stores can also be very expensive for the user, even if they do not engage in scams.
+**Conséquence :** Perte d'argent, perte de temps, perte de données, vol d'identité.
 
-**Result:** Loss of time, money and data, identity theft.
+**Règles de conduite :**
 
-**Good practice:**
+* Vérifier si prix affiché inclut des coûts supplémentaires.
+* Vérifier la fiabilité de la boutique en ligne.
+* Lire les conditions générales et ce qui est écrit en petits caractères (Les conditions contractuelles doivent être transparentes et compréhensibles).
+* Utiliser un mot de passe solide pour chaque boutique en ligne. Si vous payez par carte de crédit, utilisez une carte spécifiquement dédiée à cette fin, avec un plafond d'utilisation limité. La commande doit se faire par une connexion sécurisée (https).
+* Surveillez régulièrement les comptes utilisés pour détecter d'éventuelles transactions inhabituelles.
 
-* Check whether the displayed price includes additional costs.
-* Check the reliability of the online shop.
-* Read the terms and conditions and the small print (the contractual conditions must be transparent and understandable).
-* Use a strong password for each online shop. If you pay by credit card, use a card specifically for this purpose, with a payment ceiling. The order should be placed over a secure connection (https).
-* Regularly monitor the accounts used in order to detect unusual transactions.
+**Coûts supplémentaires cachés**
+Douanes, taxes, frais d'expédition, assurances... Même si le prix de la marchandise est bas, les coûts additionnels peuvent se révéler très salés. Particulièrement délicat sont les frais d'expédition et les assurances. Ces côuts peuvent fortement varier d'un vendeur à l'autre.
 
-**Hidden costs**
-Customs, taxes, shipping costs, insurance ... Even if the price of the item is low, additional costs can be very high. Shipping costs and insurance can be particularly high. These costs can vary greatly from one vendor to another.
+**Longs délais de livraison**
+Les boutiques en ligne vendent des marchandises qu'elles ne possèdent pas encore. Certaines boutiques attendent d'avoir reçu un nombre important de commandes avant de les transmettre au grossiste. De cette manière, elles peuvent éviter des frais de stockage et de rebut.
 
-**Long delivery times**
-Online shops may sell goods that they do not yet have. Some shops may wait to receive a large number of orders before sending them to the wholesaler. This means they can avoid storage and scrapping costs.
+Conséquence fâcheuse pour l'acheteur : délai de livraison extrêmement long...
 
-Irritating consequence for the buyer: extremely long delivery time ...
+**Boutiques compromises**
+Les sites de commerce électronique sont très populaires chez les pirates en ligne. Lorsqu’un tel site est compromis, les données des clients peuvent être volées, y compris logins, mots de passe, et numéros de carte de crédit. Les commerçants et les clients le remarquent quand il est trop tard.
 
-**Compromised shops**
-E-commerce sites are very popular with online hackers. When an e-commerce site is compromised, customer data may be stolen, including logins, passwords, and credit card numbers. Vendors and customers don't realise until it is too late.
+## Que faire si cela est arrivé ?
+Si vous avez été victime d'une fraude venant d'une boutique en ligne installée au Luxembourg, contactez l'ULC.
+Si vous avez été victime d'une fraude venant d'une boutique en ligne installée dans l'Union européenne, contactez le [CEC](http://cecluxembourg.lu/) (European Consumer Centre).
 
-## What if this happens?
-* If you have been the victim of fraud through an online shop in Luxembourg, contact ULC (Union of Consumers of Luxembourg).
-* If you have been the victim of fraud through an online shop in the EU, contact the [CEC](http://cecluxembourg.lu/) (European Consumer Centre).
-
-**You should also [file a complaint]({% link _knowhow/bestpractices/FilingAComplaint_fr.markdown %}) for online fraud with the police.**
+**Vous devez également déposer [plainte contre la fraude en ligne auprès de la police]({% link _knowhow/bestpractices/FilingAComplaint_fr.markdown %}).**

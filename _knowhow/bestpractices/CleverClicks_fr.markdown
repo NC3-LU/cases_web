@@ -9,21 +9,22 @@ toc: true
 ref: cleverclicks
 lang: fr
 ---
-Information Technology is an essential element for the commercial activities of entreprises:
+L'informatique est un élément essentiel à l'activité commerciale de toutes les entreprises.
 
-- You receive e-mails from your clients or providers?
-- You download programs or business documents?
-- You buy furnishings/tools etc. on the Internet?
-- You publicise your company on social networks?
-- You use smartphones or other mobile devices?
+- Vous recevez des e-mails de vos clients et fournisseurs ?
+- Vous téléchargez des programmes ou des documents professionnels ?
+- Vous achetez des fournitures sur internet ?
+- Vous parlez de votre entreprise sur les réseaux sociaux ?
+- Vous utilisez un smartphone ou d’autres terminaux mobiles ?
 - etc.
 
-Perfect! But stay vigilant ...
 
-The article "Clever Clicks for safer business" helps you to adopt best practices for every case in daily activities:
-- [Downloads]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads_fr.markdown %})
+Parfait ! Mais soyez vigilant ...
+
+Le dossier spécial "Clever clicks for safer business" vous aide à adopter les bons réflexes dans tous les cas de figure rencontrés au quotidien :
+- [Téléchargements]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads_fr.markdown %})
 - [E-mail]({% link _knowhow/bestpractices/cleverclicks/EmailScams_fr.markdown %})
-- [Social Networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams_fr.markdown %})
-- [E-Commerce]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams_fr.markdown %})
+- [Réseaux sociaux]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams_fr.markdown %})
+- [Commerce électronique]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams_fr.markdown %})
 - [Smartphone]({% link _knowhow/bestpractices/cleverclicks/SmartphoneScams_fr.markdown %})
 - [E-banking]({% link _knowhow/bestpractices/cleverclicks/ScamsTargetingEBanking_fr.markdown %})

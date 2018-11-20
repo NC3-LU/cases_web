@@ -4,7 +4,7 @@ title:  "E-Mail Scams"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "What is an email scams and how to avoid it?"
+short: "What is an email scam and how to avoid it?"
 categories: scams
 toc: true
 ref: emailscams
@@ -46,6 +46,7 @@ These false requests exploit victims' feelings of compassion or fears. The best 
 These messages are harmless until they are answered. However, once you answer the email, you will be harassed.
 
 **Advice**:
+
 * Never reply to this type of email. If in doubt, look for the supposed debtor in the yellow pages and make contact with them using these details rather than those in the mail.
 * Never open any files attached to these emails. These are very often infected by malware ([what to do in the event of malware infection]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}))
 * Make your staff undertake regular [security awareness training]({% link _services/trainings.markdown %}) and ensure they understand these types of attacks;
@@ -53,11 +54,13 @@ These messages are harmless until they are answered. However, once you answer th
 * Check the digital signature procedures of these transfers;
 * Increase the monitoring level when new bank details are recorded;
 * Check the original email addresses and reply-to addresses;
-* If employees are in doubt or they receive suspicious emails, they should contact their company's IT security department or the national [CERT](https://www.cert.lu/) (Government IT Attacks Alert and Response Centre);
-* Forward these emails (including the email headers) to your IT security department or national CERT.
+* If employees are in doubt or they receive suspicious emails, they should contact their company's IT security department or the [CERT](https://www.cert.lu/) (Government IT Attacks Alert and Response Centre);
+* Forward these emails (including the email headers) to your IT security department or CERT.
 
 **You are a victim**:
-* If you have been the victim of such an attack, the CIRCL (Computer Incident Response Centre Luxembourg) recommends the following actions:
+
+If you have been the victim of such an attack, the CIRCL (Computer Incident Response Centre Luxembourg) recommends the following actions:
+
 * immediately contact the bank of your organisation and the bank to which the transfer was made to block the fraudulent transfer;
 * file a complaint with the local police or the judicial police service;
 * contact the [CIRCL](https://www.circl.lu/contact/) if you need technical assistance or advice about computer security incidents.

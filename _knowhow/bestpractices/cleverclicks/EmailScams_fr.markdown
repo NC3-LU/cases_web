@@ -1,63 +1,67 @@
 ---
 layout: knowhow
-title:  "E-Mail Scams"
+title:  "Arnaques via e-mail"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "What is an email scams and how to avoid it?"
+short: "Qu'est-ce qu'une escroquerie par courrier électronique et comment l'éviter?"
 categories: scams
 toc: true
 ref: emailscams
 lang: fr
 ---
-## In brief
-[Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) is one of the most common means of communication in private and professional life. Despite all its advantages, it requires some precautions for use, both when sending and receiving messages. This article sheds light on the most common forms of fraud. In general, the right reflexes should be adopted. [Mail servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %}) must also be properly protected.
+## En bref
+L'[e-mail]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) est un des moyens de communication les plus courants dans la vie privée et professionnelle. Malgré tous ses avantages, il nécessite quelques précautions d'utilisations, aussi bien à la réception que lors de l'envoi des messages. Cet article fait la lumière sur les formes de fraude les plus courantes. D'une manière générale, il faut adopter quelques bons réflexes. Les [serveurs mails]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %}) doivent également être protégés de manière adéquate.
 
-The most well-known scams use email as a "crime weapon" or as "bait". They also use social engineering methods to hit their target. [Human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) are widely exploited.
+Les arnaques les plus connues utilisent l'e-mail comme "arme du crime" ou bien comme "appât". Elles utilisent également des méthodes d'ingénierie sociale atteindre leur cible. Les [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) sont largement exploitées.
  
-## Advance fee fraud
-There are several types of advance fee fraud. The "Nigerian" scam is the best known. It is very simple and effective as the criminals spread it by email. This type of scam seeks to exploit our greed. Usually, a stranger asks you to help them by making a money transfer ... And offers you a big reward in exchange for your help. This scam is called "Nigerian" because it comes from Nigeria.
+## Fraude à la commission
 
-Other frequent variants of advance fee fraud include, for example, dangling lottery winnings or exceptional offers to bait victims.
+Il existe différents types de fraudes à la commission. L'arnaque "nigériane" est la plus connue. Elle est aussi simple et efficace que les criminels la propagent également par courrier postal. Ce type d'arnaque tente d'exploiter notre cupidité. D'habitude, un inconnu vous demande de l'aider pour effectuer un transfert d'argent... Et vous propose une forte récompense en échange de votre aide. Cette arnaque est dite "nigériane" car elle vient du Nigeria.
 
-These messages are harmless until they are answered. However, as soon as you give any type of response, you will be told that your win is within reach but you must pay a "processing fee" or legal fees before receiving your prize. 
+D'autres variantes fréquentes de la fraude à la commission font par exemple miroiter des gains à la loterie ou bien des offres "exceptionnelles" pour appâter leurs victimes.
+
+Ces messages sont inoffensifs tant qu'on n'y répond pas. Cependant, dès que vous donnerez signe de vie, on vous expliquera que votre gain est à portée de main, mais qu'il faut vous acquitter de "frais de traitement" ou bien de frais d'avocat, avant de pouvoir recevoir votre prix.
 
 ## Phishing
-[Phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) is a widely used technique for stealing the username and [password]({% link _knowhow/glossary/Password_fr.markdown %}) of a legitimate user. Phishing very often uses fear of a virtual [threat]({% link _knowhow/glossary/Threat_fr.markdown %}) and urges the victim to act quickly. This is largely due to the fact that the infrastructure used by phishing users does not usually stay in place for long because the police or the host stop it as soon as the illegal activities are discovered.
+Le [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) est une technique largement utilisée pour voler l'identifiant et le [mot de passe]({% link _knowhow/glossary/Password_fr.markdown %}) d'un utilisateur légitime. Le phishing utilise très souvent l'anxiété face à une [menace]({% link _knowhow/glossary/Threat_fr.markdown %}) virtuelle, et exhorte la victime à agir dans la précipitation. Ceci est largement dû au fait que l'infrastructure utilisée par les adeptes du phishing ne reste généralement pas longtemps en place, car la police ou l'hébergeur y mettent un terme dès que les activités illicites sont découvertes.
 
-**Advice**:
-* Never click on the links in emails that claim to have been sent by your bank. Luxembourg banks do not send emails asking you to enter your data.
-* Never enter personal information on forms received by email.
-* In general, do not reply to emails asking you to provide confidential or personal information.
+**Conseils**:
+* Ne cliquez jamais sur les liens contenus dans les e-mails qui prétendent avoir été envoyés par votre banque. Les banques luxembourgeoises n'envoient pas d'e-mails vous demandant de saisir vos données.
+* Ne saisissez jamais des informations personnelles dans des formulaires qui arrivent par e-mail.
+* De manière générale, ne répondez pas aux e-mails qui vous demandent de communiquer des informations confidentielles ou personnelles.
 
-Examine emails with a critical eye. Be wary when:
+Examinez les e-mails d'un œil critique. Soyez prudent lorsque :
 
-* an email pressurises you by asking you to respond quickly
-* an email asks you to click on a link to access a website where you have to enter your data
-* an email is not addressed to you personally or its text is full of errors or is a very bad translation (although an email addressed to you personally is no guarantee of reliability!)
+* un e-mail vous met sous pression et vous demande de réagir vite
+* un e-mail vous demande de cliquer sur un lien afin d'accéder à un site Web où vous devez saisir vos données
+* un e-mail n'est pas adressé à vous personnellement ou dont le texte comporte de nombreuses fautes ou une très mauvaise traduction (un e-mail adressé personnellement à vous n'est toutefois pas une garantie de fiabilité !)
 
-**See also**:
-* [What if my login details have been compromised or even disclosed]({% link _knowhow/sos/SOS-CompromisedData_fr.markdown %})?
-* [Recognising a suspicious email]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
+**Voir aussi**:
+* [Que faire si mes données de connexion ont été compromises ou même divulguées?]({% link _knowhow/sos/SOS-CompromisedData_fr.markdown %})?
+* [Reconnaître un e-mail suspect]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
 
-## False payment requests
-These false requests exploit victims' feelings of compassion or fears. The best known are fake call-backs, fake requests for help or [CEO scams](-).
+## Fausses demandes de paiement
+Ces fausses demandes exploitent le sentiment de compassion ou bien la peur des victimes. Les plus connues sont des faux rappels, des fausses demandes d'aide ou encore des arnaques au président.
 
-These messages are harmless until they are answered. However, once you answer the email, you will be harassed.
+Ces messages sont inoffensifs tant qu'on n'y répond pas. Cependant, une fois que vous répondez à l'e-mail, vous serez harcelé.
 
-**Advice**:
-* Never reply to this type of email. If in doubt, look for the supposed debtor in the yellow pages and make contact with them using these details rather than those in the mail.
-* Never open any files attached to these emails. These are very often infected by malware ([what to do in the event of malware infection]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %}))
-* Make your staff undertake regular [security awareness training]({% link _services/trainings_fr.markdown %}) and ensure they understand these types of attacks;
-* Ensure that the accounting department applies all verification procedures regarding transfers, in particular international transfers;
-* Check the digital signature procedures of these transfers;
-* Increase the monitoring level when new bank details are recorded;
-* Check the original email addresses and reply-to addresses;
-* If employees are in doubt or they receive suspicious emails, they should contact their company's IT security department or the national [CERT](https://www.cert.lu/) (Government IT Attacks Alert and Response Centre);
-* Forward these emails (including the email headers) to your IT security department or national CERT.
+**Conseils**:
 
-**You are a victim**:
-* If you have been the victim of such an attack, the CIRCL (Computer Incident Response Centre Luxembourg) recommends the following actions:
-* immediately contact the bank of your organisation and the bank to which the transfer was made to block the fraudulent transfer;
-* file a complaint with the local police or the judicial police service;
-* contact the [CIRCL](https://www.circl.lu/contact/) if you need technical assistance or advice about computer security incidents.
+* Ne jamais répondre à ce type de mail. En cas de doute, recherchez le débiteur présumé dans les pages jaunes et prenez contact avec lui en utilisant ces données, en non celles qui figurent dans le mail.
+* N'ouvrez en aucun cas les fichiers éventuellement attachés à ces mails. Ceux-ci sont très souvent infectés par des logiciels malveillants ([que faire en cas d'infection par des logiciels malveillants)]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %}))
+* faites régulièrement suivre des [formations de sensibilisation]({% link _services/trainings_fr.markdown %}) à la sécurité à votre personnel et assurez-vous qu’ils connaissent ce genre d’attaques ;
+* assurez-vous que le service de comptabilité applique toutes les procédures de vérification concernant les virements, en particulier les transferts internationaux ;
+* vérifiez les procédures de signature numérique de ces virements ;
+* augmentez le niveau de contrôle lorsque de nouvelles coordonnées bancaires sont enregistrées ;
+* vérifiez les adresses e-mail d’origine et les adresses “reply-to” ;
+* en cas de doute ou d’e-mails suspects, les employés doivent contacter le département de sécurité informatique de leur entreprise ou le [CERT](https://www.cert.lu/)
+* transférez ces e-mails (y compris les en-têtes d’e-mail) à votre département de sécurité informatique ou au CERT.
+
+**Vous êtes devenu une victime:**:
+
+Si vous avez été victime d’une telle attaque, le CIRCL recommande les actions suivantes :
+
+* contactez immédiatement la banque de votre organisation et la banque vers laquelle le virement a été effectué afin de bloquer le virement frauduleux ;
+* déposez une plainte auprès de la police locale ou au service de police judiciaire ;
+* contactez le [CIRCL](https://www.circl.lu/contact/) si vous avez besoin d’assistance technique ou de conseils liés aux incidents de sécurité informatique.

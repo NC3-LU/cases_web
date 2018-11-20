@@ -3,7 +3,7 @@ layout: knowhow
 title:  "Clever Clicks"
 menutitle:  
 date: 2017-11-06 00:00:00 +0100
-short: "Le dossier spécial \"Clever clicks for safer business\" vous aide à adopter les bons réflexes dans tous les cas de figure rencontrés au quotidien"
+short: "The special publication \"Clever clicks for safer business\" helps you to adopt the right reflexes in every case encountered on a daily basis"
 categories: f-bestpract
 toc: true
 ref: cleverclicks

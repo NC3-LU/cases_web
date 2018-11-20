@@ -38,6 +38,7 @@ Players are programs that we use to play audio or video files. There are many ty
 1. Old players that are not updated may contain flaws that are exploited by downloaded video or audio files.
 2. Illegal download sites force their users to install a specific player or program in order to download the video file "faster". This player normally incorporates malicious code. Also, we should be aware that files downloaded from illegal sites may themselves contain malicious code. Avoid!
 
+![Download videos faster](assets/img/201610/1253_1.png "Download videos faster")
 
 ##### Plugins
 

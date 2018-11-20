@@ -1,76 +1,78 @@
 ---
 layout: knowhow
-title:  "Scams through downloads"
+title:  "Arnaques à travers les téléchargements"
 menutitle:  
 logo:
 date:   2017-11-06 00:00:00 +0100
-short: "Overview of threats and measures to protect ourselves"
+short: "Vue d'ensemble des menaces et des mesures pour nous protéger"
 categories: scams
 toc: true
 ref: scamsthroughdownloads
 lang: fr
 ---
-## In brief
+## En bref
+Le Web est une source de inépuisable trésors en tout genre, à visiter ou bien à télécharger.
 
-The Web is a source of all kinds of inexhaustible treasures, for browsing or download.
+Grâce à la progression des débits disponibles, les téléchargements sont de plus en plus rapides et faciles à effectuer. Un document d’information ou un formulaire PDF téléchargé sur un site officiel ne pose normalement pas de problème.
 
-Increased bit rates have made downloads faster and easier. An information document or a PDF form downloaded from an official website is not normally a problem.
+Le problème se pose lorsque certains sites nous proposent de télécharger des fichiers qui auront un comportement non désiré voire néfaste sur notre ordinateur. Des programmes sains téléchargés depuis longtemps peuvent également poser problème s’ils contiennent des failles qui n’ont pas été corrigées par la suite.
 
-The problem arises when some websites offer file downloads that will result in unwanted or even harmful effects on our computer. Healthy programs downloaded a long time ago can also be problematic if they contain flaws that have not subsequently been corrected.
+## Panormama des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %})
 
-## Overview of [threats]({% link _knowhow/glossary/Threat_fr.markdown %})
+##### Virus
+Le [virus]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) est la forme la plus ancienne et la plus classique de programme malicieux. Les virus peuvent se cacher dans n’importe quel type de fichier, document, image ou vidéo. Ils affectent le bon fonctionnement de l’ordinateur ou l’empêchent purement et simplement de fonctionner. Ils ont un rôle essentiellement destructeur et ils ne constituent pas le meilleur moyen de gagner de l’argent, pour leurs auteurs.
 
-##### Viruses
-The [virus]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) is the oldest and most traditional form of malicious program. Viruses can hide in any type of file, document, image or video. They interfere with the operation of the computer or simply prevent it from functioning altogether. Their role is essentially destructive and they are not the best way to make money for their authors.
+##### Faux virus et faux anti-virus
 
-##### False viruses and fake antiviruses
+Les fausses alertes utilisent notre peur d’être infecté par un véritable virus. Un site malveillant peut par exemple afficher une alerte nous qui nous fait croire que notre ordinateur est infecté. En cliquant sur cette alerte, nous serons guidés vers le téléchargement d’un prétendu antivirus qui n’est en fait qu’un programme malicieux, de type « [Cheval de Troie]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie) ». Une fois ce programme téléchargé, il se dissimulera sur notre ordinateur et n’aura sans doute aucun effet visible. Par contre, le malfaiteur pourra prendre le contrôle de notre ordinateur pour effectuer d’éventuels actes illicites.
 
-False alerts exploit our fear of infection by a real virus. A malicious site may, for example, display an alert that makes us believe that our computer is infected. If we click on the alert, we will be advised to download a pretend antivirus which is actually a malicious program such as a "[Trojan horse]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie)". If this program is downloaded, it will hide on our computer and will probably have no visible effect. However, the perpetrator will be able to take control of our computer, possibly for unlawful purposes.
+Secuser a dressé une liste de faux virus : [Secuser](http://www.secuser.com/hoax/)
 
-Secuser has compiled a list of fake viruses: [Secuser](http://www.secuser.com/hoax)
+Les conseils de Microsoft pour déjouer les fausses alertes : [Microsoft Blog - Real vs. Rogue Security Software – Can You Tell The Difference?](https://cloudblogs.microsoft.com/microsoftsecure/2013/01/03/real-vs-rogue-security-software-can-you-tell-the-difference/)
 
-Microsoft 's advice for thwarting false alerts: [Microsoft Blog - Real vs. Rogue Security Software – Can You Tell The Difference?](https://cloudblogs.microsoft.com/microsoftsecure/2013/01/03/real-vs-rogue-security-software-can-you-tell-the-difference/)
+##### Vidéos et players
 
-##### Videos and players
+Les players sont des programmes qui nous permettent de lire des fichiers audio ou vidéo. Il en existe une grande variété. La plupart du temps, ils fonctionnent correctement. Mais 2 types de problèmes peuvent se poser :
 
-Players are programs that we use to play audio or video files. There are many types of player. Most of the time, they work properly. But there are 2 types of problems with them:
+1. Des players anciens non mis à jour peuvent contenir des failles qui sont exploitées par des des fichiers vidéo ou audio téléchargés.
+2. Les sites de téléchargements illégaux obligent leurs utilisateurs à installer un player spécifique ou un programme spécifique pour télécharger le fichier vidéo « plus rapidement ». Ce dernier comporte en général du code malicieux. En outre, il faut savoir que les fichiers téléchargés sur des sites illégaux peuvent eux-mêmes comporter du code malicieux. A éviter !
 
-1. Old players that are not updated may contain flaws that are exploited by downloaded video or audio files.
-2. Illegal download sites force their users to install a specific player or program in order to download the video file "faster". This player normally incorporates malicious code. Also, we should be aware that files downloaded from illegal sites may themselves contain malicious code. Avoid!
-
+![Download videos faster](assets/img/201610/1253_1.png "Download videos faster")
 
 ##### Plugins
 
-Plugins are usually not dangerous in and of themselves. However, we need to be aware that they are just like any other software and may, therefore, have flaws and vulnerabilities. It is therefore important, when downloading files, to check that they are legitimate and that they work as advertised. Then they need to be updated regularly, as does the browser used to install them.
+Les plugins ne sont en général pas dangereux en eux-mêmes. Il faut simplement être conscient qu’il s’agit de logiciels comme les autres, et qu’ils peuvent comporter des failles et des vulnérabilités. Il convient donc de vérifier lors de leur téléchargement qu’ils sont légitimes et qu’ils fonctionnent comme annoncé. Ensuite, il faudra effectuer les mises à jour régulièrement, ainsi que celles du browser sur lequel ils sont installés.
 
-Finally, plugins that are no longer used should be removed. In short, infections can be avoided by following some hygiene rules with plugins as with any program installed on your PC.
+Enfin, il faudra veiller à supprimer les plugins qui ne sont plus utilisés. Bref, pour éviter les infections, une certaine hygiène est de rigueur avec les plugins comme avec tout programme installé sur votre PC.
 
 ##### Adware
 
-When some downloaded programs are installed, adware may be installed with them, causing pernicious advertising to be displayed on the computer, either on browser bars, in pop-up windows or system messages. Even if these programs are not really malicious, they slow down your PC and can make it vulnerable.
+Certains programmes téléchargés ou plugins installent avec eux des adwares ou “publiciels”, qui font apparaître de façon pernicieuse de la publicité sur l’ordinateur, que ce soit au niveau des barres du navigateur internet, par des fenêtres surgissantes (popup), ou par des messages système. Même si ces programmes ne sont pas réellement malicieux, ils ralentissent votre PC et peuvent le rendre vulnérable.
 
 ##### Zombies
 
-Some types of downloaded malware can turn your PC into a "zombie" that can be used by hackers to perpetrate attacks without being detected.
+Certains fichiers malicieux téléchargés peuvent transformer votre PC en « zombie » qui peut être utilisé par des pirates pour perpétrer des attaques sans se faire repérer.
 
 ##### Ransomware
 
-Other malicious files have the effect of encrypting the data stored on your hard drive. You then no longer have access to it and have to pay a substantial sum to decrypt your own data to regain access to it. This is the supreme scam!
+D’autres fichiers malicieux ont pour effet de chiffrer les données enregistrées sur votre disque dur. Vous n’y avez dès lors plus accès, et vous êtes priés de payer une somme conséquence pour déchiffrer vos propres données et y avoir de nouveau accès. L’arnaque suprême !
 
-## How can we protect ourselves
+## Comment se protéger?
 
-The slogan "Clever Klicken" is more relevant than ever for addressing the download risks. The following responses and measures should be adopted.
+Contre les risques liés aux téléchargements, le slogan « Clever Klicken » est plus que jamais d’actualité. Voici les réflexes à adopter et les mesures à prendre.
 
-##### Behavioural measures
-* Beware of unsolicited emails and attractive offers on the Web or any unsolicited file sent by email or on social networks. Learn to resist social engineering in general.
-* If in doubt, ask for confirmation before opening a file.
-* Find out how to recognise messages from your own antivirus software. Many malicious sites trick internet users into downloading fake antivirus software by claiming that the user's machine is infected.
-* Pay attention to alerts issued by search engines or browsers when they warn you against navigating on a certain page.
+##### Mesures comportementales
+
+* Méfiez-vous des mails inopinés et des offres alléchantes sur le Web, de tout fichier non sollicité qui vous serait envoyé par mail ou sur les réseaux sociaux. Apprenez à résister social engineering d’une manière générale.
+* Si vous avez un doute, demandez une confirmation avant d’ouvrir un fichier.
+* Sachez reconnaître les messages de votre propre logiciel anti-virus. Beaucoup de sites malicieux leurrent les internautes à télécharger un faux logiciel anti-virus en prétendant que la machine de l'internaute est infectée.
+* Tenez compte des alertes émises par les moteurs de recherche ou le navigateur lorsque celles-ci vous mettent en garde contre la navigation sur une certaine page.
+
 
 ##### Technical measures
-* Use a navigation filter such as [WOT]({% link _knowhow/glossary/WOT_fr.markdown %}) or enable your browser filters:
-  * Microsoft Smart Screen
-  * Mozilla Firefox phishing filter
-  * Google Chrome and browser safety
-* Install a [web filtering solution]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %}) for your company, thereby instantly blocking a lot of malicious websites.
-* Use virtualisation or a similar solution to contain potential threats (for example, see [Sandboxie]({% link _publications/Sandboxie_fr.markdown %}))
+* Utilisez un filtre de navigation tel que [WOT]({% link _knowhow/glossary/WOT_fr.markdown %}) ou activez les filtres de vos navigateurs :
+  * Smart screen de Microsoft
+  * Phishing filtre de mozilla firefox
+  * Google Chrome et sécurité du navigateur
+* Installez une solution de [filtrage web]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %}) pour votre société, ainsi vous bloquez déjà beaucoup de sites malicieux.
+* Utilisez une solution de virtualisation ou similaire pour contenir les [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) éventuelles (voir p. ex. [Sandboxie]({% link _publications/Sandboxie_fr.markdown %}))

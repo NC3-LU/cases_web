@@ -13,6 +13,7 @@ lang: en
 ## In brief
 Our society has more smartphones than computers. This is not surprising as these small devices are themselves super-powerful computers that connect with our colleagues, work partners and family.
 We avail of benefits such as constant Internet connection, GPS, email and messaging services and useful applications. It's been a long time since our mobile phone was nothing more than a simple means of communication – it is now a work tool that holds a lot of sensitive data and has become a prime target for fraudsters.
+
 The best known smartphone [risks]({% link _knowhow/glossary/BasicCriteria.markdown %}) can be assigned to two categories:
 
 1. [Data loss]({% link _knowhow/glossary/DataLoss.markdown %})
@@ -80,7 +81,6 @@ The call-back trap is a scam that is gradually resurfacing. Someone calls from a
 * Read user reviews before installing an app  
 * Check additional charges on monthly bills
 
-Video :
+Video : Network Spoofing
 
-Network Spoofing
 <iframe  scrolling="no" src="https://www.youtube.com/embed/GBUiBEv-cM0?list=UUIaFqVXykNrg0FA6vFjrEvA?rel=0" title="YouTube video player" frameborder="0" height="200" width="200"></iframe>
