@@ -14,20 +14,6 @@ layout: default
 {% assign currentlangrefs = currentlangknowhow | map: "ref" %}
 
 
-{% for slang in site.languages %}
-  {% if slang == currentlang %}
-    {% continue %}
-  {% endif %}
-  {% assign newknowhow = allknowhow | where: "lang", slang %}
-  {% if newknowhow == blank or currentlang == empty or currentlang == nil %}
-    {% continue %}
-  {% endif %}
-
-  {% assign temp = currentlangknowhow | concat: newknowhow %}
-  {% assign currentlangknowhow = temp  %}
-
-{% endfor %}
-
 {% assign pagelist = currentlangknowhow %}
 
 

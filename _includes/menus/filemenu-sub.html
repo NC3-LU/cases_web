@@ -68,5 +68,31 @@
         {% endif %}
       {% endunless %}
     {% endfor %}
+
+    {% for slang in site.languages %}
+      {% if slang == currentlang %}
+        {% continue %}
+      {% endif %}
+      {% assign newknowhow = allknowhow | where: "lang", slang %}
+      {% if newknowhow == blank or currentlang == empty or currentlang == nil %}
+        {% continue %}
+      {% endif %}
+      {% for spage in newknowhow %}
+        {% assign postref = spage.ref | split:'::::::X::::::' %}
+
+        {% unless currentlangrefs contains spage.ref %}
+          {% assign temp = currentlangrefs | concat: postref %}
+          {% assign currentlangrefs = temp  %}
+
+          {% assign temp = spage | split:'::::::X::::::' %}
+          {% assign currentlangknowhow = currentlangknowhow | concat: temp %}
+          <li style="list-style: none;">
+            <a href="{{spage.url | relative_url}}" alt="{{ spage.title | escape }}">
+              <h6 class="list-select">&#9657; {{ spage.title }} <img src="/assets/img/flags/{{ spage.lang }}.png"></h6>
+            </a>
+            </li>
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
     </div>
 </span>
