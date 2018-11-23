@@ -6,7 +6,10 @@ Template Name: cases.lu
 /*--------------------------------------------------------------------------------*/
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
-
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 .language-selector {
 	float: right;
@@ -657,7 +660,6 @@ Template Name: cases.lu
   /*--------------------------------------------------------------------------------*/
   /*	FOOTER */
   /*--------------------------------------------------------------------------------*/
-
   .footer-credits {
 		display: table-cell;
 		vertical-align: middle;
@@ -695,4 +697,14 @@ Template Name: cases.lu
 		padding-left: 10px;
 		padding-right: 10px;
   }
+  
+  /* Sticky footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  line-height: auto; /* Vertically center the text there */
+}
   /*end FOOTER*/
