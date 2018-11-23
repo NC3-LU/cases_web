@@ -1,106 +1,108 @@
 ---
 layout: knowhow
-title:  "Email: good practices"
+title:  "E-mail : bonnes pratiques"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "Behavioural and technical measures to prevent risks related to sending emails"
+short: "Mesures comportementales et techniques visant à prévenir les risques liés à l'envoi de courriels"
 categories: f-bestpract
 toc: true
 ref: emailbestpractice
 lang: fr
 ---
-## In brief
-Email is one of the primary forms of private and professional communication. It’s a user-friendly, fast and inexpensive tool. Despite its advantages, there are still some precautions to be taken into consideration when both sending and receiving messages.
+## En quelques mots
 
-While it is true that sending company emails internally does not carry the same risk of interception when the company has its own internal mail server, it is nevertheless important to remember that the information sent is not just saved on the company’s secure server. It can also be found in the sender and recipient’s mailboxes. Most of the time, these computers are both physically and logically significantly less well protected than the servers – and are therefore more vulnerable to attack – while containing, in some cases, the exact same information, with the same classification levels, as the servers.
+Le courrier électronique est une des principales formes de communication privée et professionnelle. L'outil est convivial, rapide et peu coûteux. Malgré les avantages, son utilisation nécessite des précautions à prendre en compte, aussi bien au niveau de l'expédition que de la réception d'un message.
 
-Therefore, emails sent within the company are often the source of the inappropriate broadcasting or distribution of confidential or secret information. This information would be more secure if it were stored in a single, protected environment, with information that could be accessed according to classification level.
+S'il est vrai que l'envoi de courriers électroniques à l’intérieur d'une société ne présente pas le risque d'une écoute extérieure, quand la société possède un serveur mail interne, il faut néanmoins être conscient que les informations ainsi envoyées ne sont plus sauvegardées uniquement sur le serveur sécurisé de la société. Elles se retrouvent en effet également dans les boîtes aux lettres de l'expéditeur et du destinataire. La plupart de temps, ces ordinateurs sont physiquement et logiquement beaucoup moins protégés que les serveurs - et donc plus vulnérables à une attaque - alors qu'ils contiennent, le cas échéant, les mêmes informations, avec les mêmes niveaux de classification, que ces derniers.
 
-The problem with loss of information is also made worse by the use of laptop computers within the company.
+L'envoi de courriers électroniques au sein d'une société est donc souvent source d'éparpillement ou de diffusion inappropriée d'informations confidentielles ou secrètes. Ces informations seraient d'avantage en sécurité, si elles étaient sauvegardées en un lieu unique et protégé, avec un accès aux informations selon leur niveau de classification.
 
-For the company’s security, it is also important to set up, amongst other things, specific disposal procedures for [IT equipment]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %}).
+Le problème de perte d'information est également aggravé par l'utilisation d'ordinateurs portables au sein d'une entreprise.
 
-## Risks
-Risks related to sending emails
+Pour la sécurité de la société, il serait également nécessaire de mettre en place, entre autres, des procédures spécifiques de [mise au rebut du matériel informatique]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %}).
 
-* Loss of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) as a result of:
-  * sending [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) information by email (interception or [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}));
-  * sending confidential information to the wrong recipient;
-  * adding new recipients during a discussion that previously contained confidential information;
-  * due to a recipient in the same company forwarding their emails to an external mailbox to receive ‘push’ notifications on their smartphones;
-  * logging in to their mailbox without [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %});
-  * the email server being compromised externally or internally (bad protection, bad configuration, weak administrator password, etc.);
-  * the malicious extraction of confidential data by an employee;
-  * the malicious extraction of confidential data from a badly protected workstation (physical security, access security, weak password or password that is visible on or near the workstation);
-  * the theft of a computer with an email account;
-  * the theft of an email server;
-  * not following the data classification instructions;
-* Loss of integrity due to multiple versions of a document distributed through multiple company mailboxes.
+## Risques
+Risques liés à l'envoi de courrier électronique
 
-## Risks related to receiving emails
+* Pertes de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) dues à :
+  * l'envoi de données [confidentielles]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) par courrier électronique (écoute externe ou [ingénierie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}));
+  * l'envoi de données confidentielles au mauvais destinataire;
+  * l'intégration de nouveaux destinataires au cours d'une discussion ayant un antécédent confidentiel;
+  * au fait que le destinataire de la même entreprise transfère ses courriers électroniques sur une messagerie hors entreprise pour pouvoir profiter du mode 'push' sur smartphones;
+  * une connexion à la messagerie électronique sans mode [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %});
+  * la compromission du serveur mail depuis l'extérieur ou de l'intérieur (mauvaise protection, mauvaise configuration, faible mot de passe administrateur,...);
+  * l'extraction malicieuse de données confidentielles par un employé;
+  * l'extraction malicieuse de données confidentielles via un poste mal protégé (sécurité physique, sécurité des accès, mot de passe faible ou affiché près du poste de travail);
+  * au vol d'un ordinateur disposant d'un compte e-mail;
+  * au vol d'un serveur mail;
+  * au non respect des consignes de classification des données;
+* Perte d'intégrité due à la multiplication des versions d'un document éparpillé à travers de multiples boîtes aux lettres de l'entreprise.
 
-* Risk of loss of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) or [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) as a result of:
-  * infection by [malicious software]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) through linked files;
-  * infection by [malicious software]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) through links provided in emails;
-* risk of loss of confidentiality due to being tricked into disclosing confidential information by [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) techniques;
-* risk of loss of availability:
-  * due to the presence of [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %});
-  * due to hoaxes.
 
-## Behavioural measures
+## Risques liés à la réception de courrier électronique
 
-* Make sure you don’t reveal any confidential information when replying to emails. Check the legitimacy of the request and be careful not to divulge too much information when you respond;
-* the majority of [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this isn’t the case, be very careful when you receive an email with an attachment, as this attachment may contain [malicious codes]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %});
-* ill-intentioned people often try to exploit human [vulnerability]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}), such as curiosity, pity, fear, the lure of rewards, or even libido. If you receive an email that makes allusion to any of these things, it is highly likely it is a malicious email;
-  * there are many types of malicious emails, including hoaxes, [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) emails, spear phishing emails (a highly targeted type of phishing), Nigerian scams, [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), and [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %});
-* check if the email resembles those you have previously received from the supposed sender. The language used, way of writing, spelling, style, etc. may all be clues. If something seems odd, it’s probably a malicious email;
-* never click on links in emails where you don’t know the sender, or in particular, if there are signs the email may be malicious, as it could be a phishing email or a link towards a fake website;
-* never answer suspicious emails. By answering, you are confirming to the sender that the email address is active.
+* Risque de perte de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) par:
+  * l'infection via [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) à travers des fichiers liés;
+  * l'infection via [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) à travers des liens proposés dans le courrier électronique;
+* risque de perte de confidentialité par l'incitation à la divulgation de données confidentielles par des techniques d'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %});
+* risque de perte de disponibilité:
+  * ddû à la présence de [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %});
+  * à cause de canulars (hoax).
 
-## Organisational practices
+## Mesures comportementales
 
-* staff training in the [classification of data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) and associated rules;
-* staff training in risks related to [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %});
-* try to eliminate any procedures involving attachments;
-* if opening attachments is necessary:
-  * wait 4 days before opening attachments. Waiting this long gives the [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) a chance to detect [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}). A minimum of 3 to 4 days is necessary to detect a new virus when it first appears and add it to the signature database for the corresponding [antiviruses]({% link _knowhow/glossary/AntiVirus_fr.markdown %}).
-* equip PCs used to open attachments with a less common operating system that is therefore subject to fewer attacks, e.g. ‘Linux’;
-* call the person who sent you a suspicious email and ask them if they did indeed send it. Tell them why you thought the email was suspicious;
-* avoid opening emails on critical [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) or those which have access to critical assets, such as [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) information or indispensable assets.
+* Faites attention à ne pas révéler des informations confidentielles en répondant à des courriers électroniques. Vérifiez la légitimité de la demande et faites attention de ne pas divulguer trop d'informations dans vos réponses;
+* la plupart des [courriers électroniques]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) contenant des fichiers joints sont annoncés par des discussions précédentes, respectivement s'inscrivent dans un contexte spécifique légitimant l'ajout de pièces jointes. Si cela n'est pas le cas, soyez très prudents lors de la réception de courrier avec fichier joint, car ceux-ci peuvent contenir des [codes malicieux;]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %});
+* les personnes malintentionnées essayent souvent d'exploiter les [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}), comme notamment la curiosité, la pitié, la peur, l'appât du gain ou encore la libido. Si le courrier électronique reçu contient de telles allusions, il est fortement probable qu'il s'agisse d'un courrier électronique malicieux;
+  * parmi les courriers électroniques malicieux, on distingue entre hoax, [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) spear phishing (type de phishing très ciblé), nigériens, [codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %});
+* vérifiez si le courrier électronique prétendant provenir d'une certaine personne ressemble aux courriers électroniques précédemment envoyés par cette personne. La langue utilisée, la façon d'écrire, l'orthographe, le style etc. peuvent être des indices. Si vous avez un doute, il s'agit probablement d'un courrier électronique malicieux;
+* ne cliquez jamais sur des liens dans des courriers électroniques dont vous ne connaissez pas l'expéditeur, respectivement le courrier électronique qui présente des indices de malice, il pourrait s'agir de phishing ou d'un lien vers une page web piégée;
+* ne répondez pas à des courriers électroniques suspects. Une réponse de votre part ne fait que confirmer que l'adresse utilisée est bien active.
 
-## Applicable sectoral policies
-Draw up and enforce the following sectoral policies:
+## Mesures organisationnelles
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resource)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
-  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
-  * [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
-  * [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
-  * [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
-  * [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
-  * [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
-  * [Electronic signatures]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
-* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
-  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
-  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
+* formation du personnel à la [classification des données]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) et aux règles associées;
+* formation du personnel aux risques liés à l'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %});
+* essayez d'éliminer tout processus impliquant des pièces jointes;
+* en cas d'obligation à ouvrir les fichiers joints :
+  * attendez 4 jours avant d'ouvrir les fichiers joints. Ce laps de temps augmente les chances de détection par l'[antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) de [codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}). En effet, au moins 3 à 4 jours sont nécessaires pour détecter un nouveau virus après sa première apparition et l'introduire dans les bases de signatures les [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) correspondants.
+  * équipez les ordinateurs servant à ouvrir les fichiers joints, d'un système d'exploitation moins répandu et de ce fait moins attaqué, comme par exemple 'Linux';
+  * appelez la personne qui vous a envoyé un courrier électronique suspect et demandez-lui si elle vous a vraiment envoyée ce courrier. Informez-là sur les raisons qui vous ont poussé à estimer le courrier électronique comme étant suspect;
+  * évitez de consulter des courriers électroniques sur des [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) critiques ou ayant accès à des actifs critiques comme notamment des informations [confidentielles]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) ou encore des actifs indispensables.
 
-## Technical measures
+## Les politiques sectorielles applicables
+Rédigez et faites appliquer les politiques sectorielles suivantes :
 
-* Make sure your [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) software is always up to date. Normally, updates are downloaded automatically;
-* Do not use the same antivirus software on both the email server and on the workstations. This increases the likelihood of discovering malicious software. No antivirus detects more than 80% of existing [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %});
-* do not work at a workstation when logged on in administrator mode. Malicious codes run on these workstations will inherit your rights and will therefore be able to access and install programs on all of the computer’s accounts;
-* activate the [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) filter in your email software;
-* [encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) the content of your laptop computers;
-* dutifully adhere to the equipment disposal instructions, both for servers and for computers and GSM;
-* use strong [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}) tools for your webmail solutions (OTP, LuxTrust);
-* only use secure [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %}) log-ins for your webmail solutions.
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resource)
+* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+  * [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+  * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
+  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+  * [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
+* [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+  * [Utilisation de l’encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+  * [La signature électronique]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
+* [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
+  * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
+* [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+  * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
+
+## Mesures techniques
+
+* Tenez constamment à jour votre logiciel [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}). Normalement il télécharge les mises à jour automatiquement;
+* Utilisez un autre logiciel antivirus sur le serveur mail que sur les postes de travail. Ceci augmente la probabilité de découvrir les logiciels malveillants. Aucun antivirus ne détecte plus de 80% des [codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) existants;
+* ne travaillez pas sur une station de travail en étant connecté en mode administrateur. Les codes malicieux exécutés sur ces postes héritent de vos droits et peuvent donc s'installer et accéder à tous les comptes de la machine;
+* activez le filtre [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) dans votre logiciel de courrier électronique;
+* [chiffrez]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) le contenu de vos ordinateurs portables;
+* respectez consciencieusement les consignes de mise au rebut du matériel, tant des serveurs que des ordinateurs et GSM;
+* utilisez des moyens d'[authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}) forte pour vos solutions web-mail (OTP, LuxTrust);
+* ne proposez que des connexions sécurisées par [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %}) pour vos solutions web-mail.

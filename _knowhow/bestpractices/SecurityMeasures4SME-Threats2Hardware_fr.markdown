@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "Security measures for small and medium-sized enterprises – Threats to hardware"
+title:  "Mesures de sécurité pour PME - Le matériel face aux menaces"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,42 +10,48 @@ toc: true
 ref: bestpractthreatstohardware
 lang: fr
 ---
-## Hardware damaged during transport
-The transportation of information may present a major security concern, especially if the data is essential due to
+## Endommagement du matériel pendant le transport
 
-## Failure of IT or communications equipment
-To prevent damage due to equipment failure, consider drawing up:
+Le transport des informations peut représenter un problème de sécurité majeur, surtout si les données sont essentielles d'un point de vue de leur.
 
-* an investment and renewal plan for IT equipment in accordance with the equipment’s life cycle (Draft and enforce a Sectoral policy on Physical and environmental security – [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance));
-* a stock of IT equipment, notably for networks (cables, switches, hard drives, etc.);
-* increased redundancies to cut down on unavailability (RAID, load balancer).
+## Équipement informatique ou de communication en panne
 
-## Unusable backups
-The availability of backups as well as the possibility of restoring them are critical elements if you need them after an incident. To prevent any unpleasant surprises, be sure to:
+Pour prévenir des dommages dues aux pannes de matériel, pensez à organiser un :
 
-* test the backup restoration procedure (Draft and enforce a Sectoral policy on Operational and communication aspects – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups));
-* protect the backups against accidental, deliberate or environmental destruction (Draft and enforce a Sectoral policy on Physical and environmental security – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter));
-* store the software and hardware needed to restore the backups in a safe place.
+* plan d’investissement et de renouvellement des équipements IT en adéquation avec la durée de vie du matériel (Rédigez et faites respecter une politique sectorielle de sécurité physique et environnementale - [maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance));
+* un stock d’équipements IT, notamment réseaux (câbles, switchs, disque durs…);
+* augmenter les redondances pour réduire l’indisponibilité (RAID, load balancer).
 
-## Addition or removal of hardware
-A number of risks may arise from adding or removing hardware. Ensure that:
 
-* access to the IT network is filtered and is subject to an authentication procedure (Draft and enforce a Sectoral policy on Access control – [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management) and [Connection procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}) and [Network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks));
-* the IT network is segmented according to security requirements. (Draft and enforce a Sectoral policy on Access control – [Network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks));
-* the insertion of removable devices (especially by USB) is subject to conditions or even prohibited entirely;
-* users respect the Charter for the use of IT resources. (Draft and enforce a Sectoral policy on Human resources – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)).
+## Sauvegardes inutilisables
+
+La disponibilité des sauvegardes ainsi que la possibilité de pouvoir les restaurer sont des éléments critiques en cas de besoin après un incident. Pour prévenir les mauvaises surprises, veillez à :
+
+* tester la procédure de restauration des sauvegardes (Rédigez et faites respecter une politique sectorielle liée aux Aspects opérationnels et communications - [Sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups));
+* protéger les sauvegardes contre toute destruction accidentelle, délibérée ou environnementale (Rédigez et faites respecter une politique sectorielle pour la Sécurité physique et environnementale - [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) et [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter));
+* bien conserver les logiciels et le matériel permettant la restauration.
+
+## Ajout ou suppression de matériels
+
+L'introduction ou la suppression de matériel peut amener de nombreux risques. Veillez à ce que :
+
+* l’accès au réseau informatique soit filtré et fasse l’objet d’une procédure d’autorisation (Rédigez et faites respecter une politique sectorielle pour le contrôle d'accès - [Politique de contrôle d'accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy) et [Gestion des droits d'accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management) et [Procédures de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}) et [Connexions de l'extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}) et [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks));
+* le réseau informatique doit être segmenté en fonction des besoins de sécurité. (Rédigez et faites respecter une Politique sectorielle pour le contrôle d'accès - [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks));
+* l’insertion de supports amovibles (USB notamment) soit conditionnée voire prohibée;
+* les utilisateurs respectent la charte d’utilisation des ressources informatiques. (Rédigez et faites respecter une Politique sectorielle liée aux Ressources humaines - [Formation et information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)).
 
 ## Device recovery
-Data is only completely lost once the media it was stored on has been totally destroyed. In order to avoid the recovery of scrapped devices containing sensitive information, special procedures must be used to render them inoperable. (Draft and enforce a Sectoral policy on Physical and environmental security – [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)).  Make sure you:: 
+Une information n’est intégralement éliminée que lorsque son support est entièrement détruit. Afin d'éviter une récupération des supports mis au rebut et comportant des informations sensibles, ceux-ci doivent faire l’objet de mesures particulières pour les rendre inexploitables. (Rédigez et faites respecter une Politique sectorielle Sécurité physique et environnementale - [Mise au rebut et réutilisation des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)).  Veillez à :
 
-* optical and magnetic data devices are destroyed (crusher or demagnetiser);
-* shredders are made available to staff who work with sensitive data to destroy paper files;
-* the staff are made aware of this practice (Draft and enforce a Sectoral policy on Human factors – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)).
+* détruire les supports de données optiques et magnétiques (broyeur ou démagnétiseur);
+* mettez à disposition du personnel traitant des données sensibles, des déchiqueteuses pour les dossiers papiers;
+* sensibiliser le personnel à cette pratique (Rédigez et faites respecter une Politique sectorielle liée aux Aspects humains - [Formation et information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)).
 
-## Aggravated theft
-The high value of IT equipment, most of all mobile devices, or information make them a prime target for ill-intentioned people to steal. Equipment theft is nothing new, but the theft of information in the context of economic intelligence can be very profitable and security measures must be deployed, for example: 
+## Vol caractérisé
 
-* encryption of laptop computers and tablets (Draft and enforce a Sectoral policy on System development and maintenance – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption));
-* security awareness aimed at portable equipment users (Draft and enforce a Sectoral policy on Human factors – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information));
-* backup and ad hoc protection of data stored on mobile devices or their centralisation within the organisation (Draft and enforce a Sectoral policy on Operational and communication aspects – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups));
-* the measures presented to protect against the physical infiltration of the premises must be applied (Draft and enforce a Sectoral policy on Physical and environmental security – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter) and [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)).
+La forte valeur marchande des équipements informatiques, appareillage mobile en tête, ou des informations motive les personnes malveillantes à s’emparer de ces biens. Le vol n’est pas nouveau pour les équipements, mais le vol d’informations dans le cadre de l’intelligence économique peut être très rentable et des mesures de sécurité doivent être déployées, comme par exemple :  
+
+* chiffrement des ordinateurs portables et tablets (Rédigez et faites respecter une Politique sectorielle Développement et maintenance des systèmes - [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption));
+* une sensibilisation à la sécurité destinée aux utilisateurs d’équipements mobiles (Rédigez et faites respecter une Politique sectorielle liée aux Aspects humains - [Formation et information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information));
+* une sauvegarde et une protection ad-hoc des données présentes sur les appareils mobiles, ou leur centralisation au sein de l’organisation (Rédigez et faites respecter une politique sectorielle liée aux Aspects opérationnels et communications - [Sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups));
+* les mesures présentées pour se protéger contre la pénétration physique dans les locaux doivent être appliquées (Rédigez et faites appliquer une politique sectorielle de sécurité physique et environnementale - [périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) et [règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter) et [bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)).

@@ -66,7 +66,7 @@ It is therefore vital for any organisation to train their employees and make the
 ## Preventing infection
 Infection with malicious codes can be prevented through responsible and careful behaviour when using [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email), [removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %}) and when surfing the Internet.
 
-Make sure you::
+Make sure you:
 
 * observe [best practice relating to the use of email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 * avoid the use of unknown removable devices.
@@ -129,11 +129,11 @@ The installation of the following technical measures is recommended:
   Antiviruses can detect a large number of malicious codes and prevent infection. Each computer within your organisation, as well as the file servers and email servers should have an antivirus installed. If possible, use a different antivirus for computers and for servers to increase the likelihood of malicious codes being detected. Update these antiviruses on a regular basis. Make sure users cannot deactivate the antivirus.
 * [firewall]({% link _knowhow/glossary/Firewall.markdown %})<br />
   A firewall set up on a device can both prevent the device being infected as a result of [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities) and help detect a possible infection.
-* [network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) firewall<br />
+* [network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %})<br />
   A ‘company firewall’ may help prevent a virus from spreading throughout the whole company network. It can also prevent the exploitation of certain technical vulnerabilities thanks to the filtering of connection attempts via specific ports.
 * [Web filter]({% link _knowhow/glossary/WebFilterProxy.markdown %})<br />
   Web filters can prevent computer infections by blocking malicious websites or those with a bad reputation.
-* [patches<]({% link _knowhow/glossary/Patches.markdown %})br />
+* [patches]({% link _knowhow/glossary/Patches.markdown %})<br />
   Some malicious software tries to exploit technical vulnerabilities. These vulnerabilities can be corrected by patches. However, no system is ever really safe from technical vulnerabilities.
 * [backups]({% link _knowhow/glossary/DataBackups.markdown %})<br />
   Backups are an effective way of preventing loss of availability and integrity. Unfortunately, they cannot prevent loss of confidentiality. Backups can also help to reduce the impact caused by the system being compromised by a destructive malicious code.

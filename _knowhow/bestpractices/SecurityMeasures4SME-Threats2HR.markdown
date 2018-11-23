@@ -24,7 +24,8 @@ In order to avoid the involuntary disclosure of information, it is important to 
 ## Human error: prevention measures
 There is a large range of human error, going from inadvertently sending an email to the wrong person right up to the accidental deletion of vital company data.
 
-* For the best chance at avoiding such errors, it is important to provide:
+For the best chance at avoiding such errors, it is important to provide:
+
 * adequate staff training. (Draft and enforce a Sectoral policy on Human factors – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information));
 * a reminder of the backup measures for sensitive files. (Draft and enforce a Sectoral policy on Operational and communication aspects – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups));
 * a double validation system for critical operations;

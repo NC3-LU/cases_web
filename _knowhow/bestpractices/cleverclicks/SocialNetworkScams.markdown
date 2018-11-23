@@ -21,7 +21,7 @@ For companies, social networks mainly involve 2 types of risks:
 1. Risks related to the use of social networks by employees on their workstations.
 2. The risks of loss of reputation in the event of a targeted attack.
 
-> Here are the different types of traps and scams that must be avoided at all costs.
+Here are the different types of traps and scams that must be avoided at all costs.
 
 ## Cloned profile
 Fraudsters can create a copy of your Facebook profile. They may also copy the photos that you have made public. They can quickly build a profile that will look incredibly similar to yours. The 2nd step of the scam: send a "friend request" to everybody on your list.
@@ -33,6 +33,9 @@ The success rate will be high if your friends believe it is coming from your leg
 *Be strict when configuring your privacy settings. The less of yourself that you reveal to others (including your friends), the less likely it will be for your images to be stolen for dishonest use. Take care when you receive an "Add Friend Request" from someone who is already your Facebook friend. Has your profile been cloned?*
 
 ## Pirated profile
+
+<img src="/assets/img/201610/1274_1.png" style="float: right;" />
+
 Have you received a message from a friend in difficulty, asking you in desperation for financial help? Is a friend trying hard to convince you to try an amazing new diet and sending you a long link to this novelty? Is your best friend sending you an instant message with an attached video file? Every comment is "LOL". Should we watch it?
 
 **It looks like a scam! If a scammer hacks a Facebook profile, he doesn't just have access to profile's data but he can especially seek to abuse the trust of the victim and the victim's Facebook friends or send [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) to them.**

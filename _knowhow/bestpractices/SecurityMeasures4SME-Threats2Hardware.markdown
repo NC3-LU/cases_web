@@ -36,7 +36,7 @@ A number of risks may arise from adding or removing hardware. Ensure that:
 * users respect the Charter for the use of IT resources. (Draft and enforce a Sectoral policy on Human resources – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)).
 
 ## Device recovery
-Data is only completely lost once the media it was stored on has been totally destroyed. In order to avoid the recovery of scrapped devices containing sensitive information, special procedures must be used to render them inoperable. (Draft and enforce a Sectoral policy on Physical and environmental security – [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)).  Make sure you:: 
+Data is only completely lost once the media it was stored on has been totally destroyed. In order to avoid the recovery of scrapped devices containing sensitive information, special procedures must be used to render them inoperable. (Draft and enforce a Sectoral policy on Physical and environmental security – [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment)).  Make sure you:
 
 * optical and magnetic data devices are destroyed (crusher or demagnetiser);
 * shredders are made available to staff who work with sensitive data to destroy paper files;

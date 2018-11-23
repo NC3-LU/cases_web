@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "Security measures for small and medium-sized enterprises – Threats to infrastructure"
+title:  "Mesures de sécurité pour PME - L'infrastructure face aux menaces"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,96 +10,105 @@ toc: true
 ref: bestpractthreatstoinfrastructure
 lang: fr
 ---
-Infrastructure includes all the essential assets and services on which the information system is based, such as the supply of power, communication or processing services. These services are therefore critical to the operation of the information system and exposed to certain threats. The section below describes the most common [threats]({% link _knowhow/glossary/Threat_fr.markdown %}) in this area and suggests appropriate protective measures for a small or medium-sized enterprise.
+Par infrastructure l'on comprend ici tous les actifs et services essentiels sur lesquels repose le système d’information, comme notamment la fourniture de services d’énergie, de communication ou de traitement. Ces services sont donc critiques pour le fonctionnement du système d’information et soumis à certaines [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}). La section ci-après décrit les menaces les plus communes dans ce domaine et livre les mesures de protections adéquates pour une PME.
 
-## Fire
-A fire can be a totally destructive [threat]({% link _knowhow/glossary/Threat_fr.markdown %}), both to physical media (paper files) and to data stored on electronic devices (loss of [availability]({% link _knowhow/glossary/Availability_fr.markdown %})). The source of this threat may be internal or external, deliberate or accidental. In order to prevent it, the following instructions should be followed:
+## Incendie
 
-* [Keep a separate premises]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) specifically for IT equipment and for the most sensitive physical devices (Draft and enforce a sectoral policy on physical and environmental security – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter))
-  * without a sprinkler system
-  * protected by a fire door
-  * with CO2 fire extinguishers or an inert gas fire extinguishing system
-  * with no inflammable materials and surfaces inside
-* Media (paper files, for example) should preferably be stored in locked cabinets. (Draft and enforce a Sectoral policy on the classification and control of resources – [Classification and responsibilities for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}), as well as a Sectoral policy on physical and environmental security – [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy))
-* Safeguard documents of which only one copy exists in cabinets or fire-resistant containers. (Draft and enforce a Sectoral policy on physical and environmental security – [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy))
-* Draft an alarm and evacuation procedure (sounding of an alarm and opening of fire exits). (Draft and enforce a Sectoral policy on Human factors).
-* Introduce a backup policy, including decentralisation. (Draft and enforce a Sectoral policy on Operational and communication aspects – [Backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups))
-* The organisation could potentially fall back on a disaster recovery site in downgraded mode based on a [business continuity plan]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity) (BCP)
+Un incendie peut être une [menace]({% link _knowhow/glossary/Threat_fr.markdown %})absolument destructrice autant pour les supports physiques (dossiers papier) que pour les informations sur supports électroniques (perte de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %})). La source de cette menace peut être interne ou externe, délibérée ou accidentelle. Pour la prévenir, respectez les consignes suivantes :
 
-## Service interruption
-Service interruption means the inability of the IT system to provide the desired service and/or the requested data and therefore entails at least temporary loss of [availability]({% link _knowhow/glossary/Availability_fr.markdown %}). There are specific measures you can use to protect against it:
+* [Réservez un local dédié]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) aux équipements informatiques et aux supports physiques les plus sensibles (Rédigez et appliquez une Politique sectorielle pour la sécurité physique et environnementale – [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) et [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter))
+  * sans douche incendie
+  * protégé avec une porte coupe-feu
+  * avec des extincteurs type CO2 à disposition ou un système d'extinction par gaz inerte
+  * sans matériels et surfaces inflammables à l’intérieur
+* Rangez les supports (dossiers papier par ex.) de préférence dans des armoires fermées. (Rédigez et appliquez une Politique sectorielle pour la classification et la maîtrise des ressources - [Classification et responsabilités des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}), ainsi qu'une Politique sectorielle pour la sécurité physique et environnementale - [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy))
+* Sauvegarder les documents uniques dans des armoires ou trésors résistant au feu. (Rédigez et appliquez une Politique sectorielle pour la sécurité physique et environnementale - [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy))
+* Élaborez une procédure de signalement (déclenchement d’une alarme et ouverture des issues de secours) et d’évacuation. (Rédigez et appliquez une Politique sectorielle liée aux aspects humains).
+* Mettez en place une politique de sauvegarde, avec décentralisation. (Rédigez et appliquez une Politique sectorielle Aspects opérationnels et communications - [Sauvegardes]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups))
+* éventuellement, l’organisation peut faire appel à un site de reprise en mode dégradé reposant sur une [procédure de continuité opérationnelle]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity) (BCP)
 
-* appropriate sizing of IT equipment (processor, network, storage), in particular for systems that operate in real time, and therefore a previous assessment of requirements (Draft and enforce a Sectoral policy on the classification and control of resources – [Classification and responsibilities for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}))
-* identification of peak periods
-* prioritisation of certain activities during these periods
-* installation of traffic regulation equipment, such as a load balancer or, in extreme cases, a cluster
-* monitoring of equipment and network connections
-* monitoring of the systems’ performances
-* installation of redundant systems
+## Interruption de service
 
-## Denial of service/distributed service
-DoS (Denial of Service) or DDoS (Distributed DoS) attacks cause the IT system to overload, notably blocking web or network services. They are usually the result of a deliberate and malicious act. How can you protect yourself?
+L’interruption de service se traduit par l’impossibilité du système d’information de fournir le service souhaité et/ou les données demandées et correspond donc à une perte, du moins momentanée, de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}). Des mesures particulières permettent de se protéger :
 
-* Set up advanced filtering rules for routers and [firewalls]({% link _knowhow/glossary/Firewall_fr.markdown %}), [segment the network]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %}) (Draft and enforce a Sectoral policy on Access control – [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections) and [Network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)).
-* Configure high [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) system equipment that can recognise these attempts and repel them and/or adapt accordingly.
+* dimensionnement approprié des équipements informatiques (processeur, réseau, stockage), particulièrement pour les systèmes temps réel, et donc une étude préalable des besoins (Rédigez et appliquez une Politique sectorielle pour la classification et la maîtrise des ressources - [Classification et responsabilités des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}))
+* identification des périodes de pointe
+* hiérarchisation de certaines activités pendant ces périodes
+* installation d’équipements de régulation de trafic tels que load balancer, ou cluster pour les cas extrêmes
+* surveillance des équipements et connexions réseau
+* surveillance des performances des systèmes
+* installation de système redondants
 
-Please consult the CIRCL file for more information in case of DDoS attacks: [https://www.circl.lu/pub/dfak/DDoSMitigation/](https://www.circl.lu/pub/dfak/DDoSMitigation/)
+## Déni de service /de service distribué
 
-## Disrupted transmission of wireless communications
-Disrupted transmission of wireless [WiFi]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})) communications may be the results of a DoS attack (botnets, for example), or of a radio wave transmission problem (loss of availability). To avoid these problems, make sure that:
+Les attaques par DoS (Denial of Service, déni de service) ou DDos (Distributed Dos) provoquent la saturation du système informatique, bloquant notamment les services web ou réseaux. Ils ont généralement une origine délibérée et malveillante. Que faut-il faire pour s’en protéger ?
 
-* the physical environment does not block communications (e.g. reinforced concrete, lead)
-* the wireless access points are located in places with a lot of traffic, but remain inaccessible (e.g. located high up). (Draft and enforce a Sectoral policy on Physical and environmental security – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter))
-* the signal given out from the access points is not disturbed by waves from other electromagnetic sources in the surrounding areas (radio antenna, GSM, TV)
+* Mettez en place des règles de filtrage avancées pour les routeurs et les [firewalls]({% link _knowhow/glossary/Firewall_fr.markdown %}), [segmentez le réseau]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %}) (Rédigez et faites respectez une Politique sectorielle pour le contrôle d'accès - [Connection de l'extérieurExternal connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections) et [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)).
+* Configurez des équipements de système à forte [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}), reconnaissant ces tentatives, pouvant les repousser et/ou s’adapter en conséquence.
 
-## Wireless network tapping
-Wireless [WiFi]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})) networks do not rely on any physical media. They are transmitted through the air, meaning they can be tapped with a simple passive sensor. This may result in loss of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) for your data. You can avoid this risk by making sure the following security measures are applied:
+Veuillez aussi consulter le dossier de CIRCL en cas d'attaques DDOS: [https://www.circl.lu/pub/dfak/DDoSMitigation/](https://www.circl.lu/pub/dfak/DDoSMitigation/)
 
-* communications must be encrypted using a secure protocol (e.g. WPA2 for WiFi) (Draft and enforce a Sectoral policy on systems development and maintenance – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption))
-* The WiFi range from the access points should be limited to the physical confines of the organisation
-* access to these networks must to limited to authorised users (filtered by MAC address, for example)
-* the WiFi network must not be directly connected to the organisation’s internal network, but rather separated by a [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) or using a dedicated connection (Draft and enforce a Sectoral policy on access control – [Network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks))
+## Perturbation de la transmission des communications sans fil
+La perturbation de la transmission des communications sans fil [WiFi]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})) peut être le résultat d’une attaque par DoS (parasitage par exemple), ou d’un problème de propagation des ondes (perte de disponibilité). Pour évitez ces problèmes, vérifiez que :
 
-See also [Securing the internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees) and [Securing the customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users).
+* le milieu physique n'empêche pas les communications (ex : béton armé, plomb)
+* les points d’accès sans fil soient situés dans les espaces à forte fréquentation tout en étant inaccessibles (par exemple : situés en hauteur). (Rédigez et faites respecter une Politique sectorielle pour la Sécurité physique et environnementale - [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) et [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter))
+* le rayonnement des points d’accès ne soit pas perturbé par le rayonnement d’autres sources électromagnétiques aux alentours (antenne radio, GSM, TV)
 
-## Interception of communications
-A third party may intercept, corrupt or delete transmitted data (man-in-the-middle attacks) and thereby compromise the [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) or [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) of the data. You can protect the transmission of your communications and: 
+## Écoute des réseaux sans fil
 
-* put in place the protective measures described in “wireless network tapping”
-* use encryption methods to prevent access to and corruption of transmitted data. (Draft and enforce a Sectoral policy on System development and maintenance – [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)).
-* separate the networks (Draft and enforce a Sectoral policy on access control – [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections) and [Network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)).
-* ensure the cabling is inaccessible to malicious persons. (Draft and enforce a Sectoral policy on Physical and environmental security – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)).
-* introduce an access rights policy (Draft and enforce a Sectoral policy on access control – [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy) and [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management) and [Connections procedures]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures) and [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)).
+Les réseaux sans fil [WiFi]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})) ne reposent sur aucun support physique, ils transitent par la voie aérienne, rendant possible l’écoute au simple moyen d’un capteur passif. Il peut donc en résulter une perte de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) de vos informations. Vous pouvez éviter ce risque en respectant les mesures de sécurité suivantes :
 
-Please consult the CIRCL file for more information about secure communication: [https://www.circl.lu/pub/dfak/SecureCommunication/](https://www.circl.lu/pub/dfak/SecureCommunication/)
+* les communications doivent être cryptées par un protocole sécurisé (ex : WPA2 pour le Wifi) (Rédigez et faites respecter une Politique sectorielle pour le développement et maintenance des systèmes - [Utilisation de l'encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption))
+* le rayonnement des points d’accès du WiFi doit être circonscrit aux limites physiques de l’organisation
+* l’accès à ces réseaux doit être limité aux ayant droits (filtrage par adresse MAC par ex)
+* le réseau Wifi ne doit pas être directement connecté au réseau interne de l'organisme, mais être séparé par un [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) voire avoir une connection dédiée (Rédigez et faites appliquer une Politique sectorielle de contrôle d'accès - [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks))
 
-## Network unavailability
-Loss of telecommunications (loss of [availability]({% link _knowhow/glossary/Availability_fr.markdown %})) paralyses IT systems. It is advisable to have access to a redundant source point, if possible with a second telecommunications provider using different connection equipment tested on a regular basis.
+Voir aussi [Sécuriser le réseau WiFi interne]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees) et [Sécuriser le réseau WiFi clients]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users).
 
-## Power cut
-A power cut may cause a loss of [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) for the whole IT system. Energy supply is especially vital for organisations that run ‘real-time’ operations. Guard against this [threat]({% link _knowhow/glossary/Threat_fr.markdown %}) by having:
+## Interception des communications
 
-* an alarm that sounds whenever a failure is detected in the electricity network
-* a UPS for sensitive devices
-* an emergency generator for vital systems
-* circuit breakers to protect equipment against power surges
-* a power-down procedure for IT equipment (Draft and enforce a Sectoral policy on physical and environmental security – [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety).
+Un tiers peut intercepter, altérer ou effacer les données transmises (attaques dites man-in-the-middle) et compromettre de fait la [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), l’[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) et la [disponibilité des données]({% link _knowhow/glossary/Availability_fr.markdown %}). Vous pouvez protéger la transmission de vos communications et :
 
-## Discontinuity of service providers
-An entity depends on its providers. Unavailability at service provider level can consequently have serious repercussions on its own operations. It is therefore preferable to provide for:
+* mettre en place les mesures de protection décrites dans « l’écoute des réseaux sans fil »
+* utiliser des moyens cryptographiques pour prévenir l'accès et l'altération de données transmises. (Rédigez et faites respecter une Politique sectorielle Développement et maintenance des systèmes - [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)).
+* cloisonner les réseaux (Rédigez et faites respecter une Politique sectorielle pour le contrôle d'accès - [Connection de l'extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections) et [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)).
+* prévenir que le câblage ne soit pas accessible à des personnes malveillantes. (Rédigez et faites respecter une politique sectorielle pour la Sécurité physique et environnementale - [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) et [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)).
+* mettre en place une politique de contrôle d'accès (Rédigez et faites respecter une politique sectorielle pour le contrôle d'accès - [Politique de contrôle d'accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy) et [Gestion des droits d'accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management) et [Procédures de connection]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures) et [Connection de l'extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)).
 
-* [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) (SLA service level) in the service agreement. (Draft and enforce a Sectoral policy on Physical and environmental security – [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance))
-* service provider redundancy for downgraded modes
-* the provision, by the service provider, of information (procedures, source code, technical documentation) needed to maintain activity
+Veuillez aussi consulter le dossier de CIRCL sur la communication sécurisée: [https://www.circl.lu/pub/dfak/SecureCommunication/](https://www.circl.lu/pub/dfak/SecureCommunication/)
 
-## Infiltrating the premises
-A violation of the secure perimeters may have serious consequences on [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) and [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) for any organisation. An ill-intentioned person with access to [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) within the company could steal, sabotage or make copies of these assets, causing a lot of [damage]({% link _knowhow/glossary/Impact_fr.markdown %}) in the process. Ensure that:
+## Indisponibilité du réseau
 
-* individuals’ identities can be checked on the way into and out of the building. (Draft and enforce a Sectoral policy on Physical and environmental security – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter))
-* visitors and suppliers are always accompanied
-* emergency exits only open from the inside
-* server rooms remain locked at all times and are equipped with alarm systems and, if necessary, cameras
-* a “clean desk” policy is respected (in other words, sensitive papers should be stored out of view (filing system) and workstations should be locked). (Draft and enforce a Sectoral policy on the Classification and control of resources – [Classification and responsibilities for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources), as well as a Sectoral policy on physical and environmental security – [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy))
-* when the premises are closed, an alarm system or security company should monitor the site
-* badges should be worn in accordance with the badge policy and should be easily visible
-* quarantine zones should be available for deliveries
+La perte des moyens de télécommunications (perte de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %})) paralyse les systèmes d’information. Il est recommandé  d'avoir accès à un point source redondant, si possible auprès d'un deuxième opérateur de télécommunications utilisant un autre équipement de raccordement, et qui soit testé régulièrement.
+
+## Panne de courant
+
+Une panne de courant peut engendrer une perte de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) de tout le système d'information. La fourniture d’énergie est essentielle notamment pour les organismes opérant au niveaux d'une activité « temps réel ». Prévenez cette [menace]({% link _knowhow/glossary/Threat_fr.markdown %}) en vous munissant :
+
+* d'une alarme signalant les défaillances d'un système électrique
+* d'onduleurs sur les dispositifs sensibles
+* d'un générateur de secours pour les systèmes vitaux
+* de disjoncteurs protégeant les équipements contre les surtensions
+* d'une procédure d’arrêt des équipements informatiques (Rédigez et faites respecter une Politique sectorielle liée à la sécurité physique et environnementale - [sécurité électrique des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety).
+
+## Discontinuité des fournisseurs de service
+
+Une entité dépend de ses fournisseurs. Une indisponibilité au niveau des fournisseurs de services peut donc avoir des répercussions graves sur le fonctionnement de celle-ci. Il est donc préférable de prévoir :
+
+* la [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) (niveau de service d’un SLA) dans le contrat de services. (Rédigez et faites respecter une Politique sectorielle Sécurité physique et environnementale - [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance))
+* une redondance des fournisseurs de service pour des modes dégradés
+* une mise à disposition, par le fournisseur de service, des informations (procédures, code source, documentation technique) permettant de maintenir l’activité
+
+## Pénétration des locaux
+
+Une enfreinte aux périmètres sécurisés peut avoir des conséquences graves de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) et de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) pour tout organisme. Une personne malintentionnée, ayant accès à des [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) au sein de l'entreprise, peut voler, saboter ou copier ces actifs et donc causer de grands [dégâts]({% link _knowhow/glossary/Impact_fr.markdown %}). Vérifiez que :
+
+* les identités des personnes puissent être surveillées dans les sas d’entrées et sorties du bâtiment. (Rédigez et faites respecter une politique sectorielle pour la Sécurité physique et environnementale - [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) et [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter))
+* les visiteurs et fournisseurs soient toujours accompagnés
+* les issues de secours ne puissent s'ouvrir que de l'intérieur
+* les salles réservées aux serveurs soient verrouillées, et équipées de systèmes d’alarme, si besoin de caméras
+* une politique « clean desk » soit respectée (c.à-d. rangement des dossiers papier sensibles (classification) et verrouillage des stations de travail). (Rédigez et faites respecter une Politique sectorielle pour la Classification et maîtrise des ressources - [Classification et responsabilités des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources), ainsi qu'une Politique sectorielle pour la sécurité physique et environnementale - [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy))
+* lorsque les locaux sont fermés, un système d’alarme ou une société de gardiennage assure la surveillance du site
+* le respect de la politique du port de badge, et que le badge soit aisément visible
+* des zones de quarantaine pour les livraisons soit disponibles
