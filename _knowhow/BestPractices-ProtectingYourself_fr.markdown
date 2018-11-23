@@ -1,10 +1,10 @@
 ---
 layout: knowhow
-title:  "Best Practices - Protecting yourself"
+title:  "Bonnes Pratiques - Se protéger"
 menutitle:  "Best Practices"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
-short: "Learn the reflexes that can save you"
+short: "Apprenez les réflexes qui peuvent vous sauver"
 categories: bestpract
 toc: true
 main-categ: bestpract

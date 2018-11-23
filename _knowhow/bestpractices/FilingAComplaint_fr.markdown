@@ -1,71 +1,80 @@
 ---
 layout: knowhow
-title:  "Remplir une plainte"
+title:  "Dépôt de plainte"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "If you have been the victim of a cyber attack, you may file a complaint. Here is a guide summarizing the different steps to follow."
+short: "Si vous avez été victime d'une cyberattaque, vous pouvez porter plainte. Voici un guide résumant les différentes étapes à suivre."
 categories: f-bestpract
 toc: true
 ref: filingcomplaint
 lang: fr
 ---
-## In brief
-The victim of a [computer attack]({% link _knowhow/glossary/ComputerHacks_fr.markdown %}) can file a complaint against the [attacker]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}), even if the latter is not known.
+## En quelques mots
 
-The first thing the victim must do is gather evidence for the judicial proceedings that s/he intends to pursue for the attack of which s/he was the target. If the victim uses a specialist company to repair the damage (e.g. to recover destroyed files), a report on this work could prove invaluable during the court proceedings. It should therefore be as detailed as possible.
+La victime d'une [attaque informatique]({% link _knowhow/glossary/ComputerHacks_fr.markdown %}) à la possibilité de porter plainte contre l'[attaquant]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}), même si celui-ci n'est pas connu.
 
-## Proof of a computer attack
-Evidence of a computer attack includes the items (logs, damage) that document the illegal actions of the attacker. For them to be valid in court, these traces must be recovered in a specific way. In Luxembourg, the victim can inform the Grand Ducal Police ('New Technologies' service).  S/he can also make a "voluntary surrender" of the evidence to [CIRCL]( https://www.circl.lu), a government initiative dedicated to incident responses.
+La première chose à faire pour la victime est de recueillir des preuves en vue des suites judiciaires qu’elle entend donner à l’attaque dont elle a fait l’objet. Si la victime fait appel à une entreprise spécialisée pour réparer les dommages causés (par exemple afin de récupérer les fichiers détruits), le rapport de cette intervention pourra s’avérer précieux lors de la phase judiciaire. Il devra donc être le plus détaillé possible.
 
-As the traces left on the hard disk or in the log files of the infected machine are often minimal, the machine's memory must be backed up. When you notice an attack on your computer tool, leave it running and ask the CIRCL to help you perform the backup. This is called a "voluntary surrender" of information, which may subsequently be admissible in court.
+## Preuve d'une attaque informatique
 
-After collecting evidence, the victim may consider taking legal action. S/he has the choice between:
+Sont considérées comme preuves d'une attaque informatique, les éléments (logs, dégâts, ...) pouvant documenter les agissements illégaux de l'intrus. Pour qu'elles puissent être utilisables en justice, ces traces doivent être récupérées d'une manière spécifique. Au Luxembourg, la victime peut s'adresser à la police grand-ducale (service 'Nouvelles technologies').  Elle peut aussi faire une "remise volontaire" des éléments à [CIRCL]( https://www.circl.lu), initiative gouvernementale dédiée à la réponse sur incident.
 
-1. making a complaint and leaving it up to the public prosecutor to prosecute the perpetrators;
-2. bringing a civil action seeking compensation for the damage suffered;
-3. taking a private prosecution against the perpetrators themselves (if known).
+Étant donné que les traces laissées sur le disque dur ou dans les fichiers journal de la machine infectée sont souvent minimes, il est nécessaire de faire la sauvegarde de la mémoire de celle-ci. Lorsque vous constatez une attaque sur votre outil informatique, laissez-le allumé et demandez l'aide de CIRCL pour procéder à cette sauvegarde. C'est ce qu'on appelle une  "remise volontaire" des informations ; ceux-ci pourront par la suite être recevables en justice.
 
-## Making a complaint
-To make a complaint, it is sufficient for the victim to go to a police station or to send a letter to the state prosecutor informing the latter of the place where the offence was committed.
+Après le recueil des preuves, la victime peut envisager d'entamer des suites judiciaires. Elle a le choix entre :
 
->For the court district of Luxembourg (cantons of Luxembourg, Capellen, Esch, Grevenmacher, Mersch and Remich):
+1. porter plainte et laisser au ministère public le soin de poursuivre les auteurs ;
+2. se constituer partie civile en vue d’obtenir réparation du préjudice subi ;
+3. et poursuivre elle-même les auteurs (si ceux-ci sont connus) en procédant à une citation directe.
+
+
+## Porter plainte
+
+Pour porter plainte, il suffit que la victime se déplace dans un commissariat de police, ou qu'elle adresse un courrier au procureur d’État l'informant du lieu où l’infraction a été commise.
+
+>Pour l’arrondissement judiciaire de Luxembourg (cantons de Luxembourg, Capellen, Esch, Grevenmacher, Mersch et Remich):
     State Prosecutor
     Palais de Justice de Luxembourg
     B.P.15
     L-2010 Luxembourg
 
->For the court district of Diekirch (cantons of Diekirch, Clervaux, Echternach, Redange, Vianden and Wiltz):
+>Pour l’arrondissement judiciaire de Diekirch (cantons de Diekirch, Clervaux, Echternach, Re-dange, Vianden et Wiltz):
     State Prosecutor
     Tribunal d’Arrondissement de Diekirch
     B.P. 164
     L-9202 Diekirch
 
-## Drafting a complaint
-The complaint must:
+## Rédiger une plainte
 
-1. clearly state the facts in chronological order;
-2. include any useful details (e.g. who had the system password, who used the system last, etc.);
-3. describe (briefly) the damage caused by the attack (e.g. data loss, system rendered unusable).
+La plainte doit :
 
-It is not necessary at this stage to accurately quantify the damage, but it may be useful to include an estimate (taking care to specify that this estimate without prejudice), for example based on the time required to repair the system and restore the damaged data.
+1. énoncer clairement les faits, et ce de manière chronologique ;
+2. inclure tout détail utile (par exemple qui possédait le mot de passe du système, qui a utilisé le système en dernier, etc.) ;
+3. décrire (brièvement) les dommages causés par l’attaque (par exemple perte de données, système rendu inutilisable).
 
-Nor is a legal appraisal of the facts required, i.e. detailing the offences committed or applicable texts: these tasks are the responsibility of the Public Prosecutor. The claimant may, however, provide a legal definition or text considered applicable (taking care to specify that this is without prejudice).
+Il n’est pas nécessaire à ce stade de chiffrer de manière précise le préjudice, mais il peut être utile d’inclure une estimation (en prenant soin de préciser que cette estimation est faite sous toutes réserves) par exemple sur base du temps nécessaire à la réparation du système et à la reconstitution des données endommagées.
 
-Finally, to make a complaint it is not necessary to know the identity of the perpetrator of the attack, or even to have suspicions about any particular person. Under the principle of discretionary prosecution, it is then up to the public prosecutor to decide whether an investigation and prosecution should be initiated. The Public Prosecutor may decide not to pursue the case.
+Il n’est pas non plus nécessaire de qualifier juridiquement les faits, c’est-à-dire de préciser quelles infractions ont été commises ou quels textes sont applicables : ces tâches reviennent au Ministère Public. Le plaignant peut néanmoins mentionner l’une ou l’autre incrimination ou l’un ou l’autre texte qu’il considère applicable (en prenant soin de préciser que cette indication est faite sous toutes réserves).
 
-## Civil action
-A civil action is a formal act by which the victim manifests their intention to claim compensation for damages suffered in connection with an offence. This may be the case, for example, when a hacker has been able to destroy data on a company's computer system and the company has been harmed by it. A claimant who alleges harm due to a computer attack and wishes to get the authorities to investigate the acts of which they have been the victim may file a civil action.
+Il n’est enfin pas nécessaire pour porter plainte de connaître l’identité de l’auteur de l’attaque, ni même d’avoir des soupçons sur telle ou telle personne. En vertu du principe d’opportunité des poursuites, il revient ensuite au ministère public de décider si une instruction et des poursuites doivent être initiées. Le cas échéant, le Ministère Public peut décider de classer l’affaire sans suites.
 
-Filing a civil action differs from making a complaint in that:
 
-1. it triggers prosecution;
-2. it obliges the claimant (i.e. the victim) to deposit an amount determined by the investigating judge, corresponding to the presumed costs of the proceedings; and
-3. if the claimant loses the case, they may be ordered to pay the costs of the proceedings (in whole or in part).
+## Plainte avec constitution de partie civile
 
-> Article 56 of the Code of Criminal Investigation: A civil action must be filed with the investigating magistrate.
+La constitution de partie civile est un acte formel par lequel la victime manifeste son intention de réclamer réparation pour le dommage qu’elle a subi en relation avec une infraction. Cela peut être le cas, par exemple, lorsqu’un pirate informatique est parvenu à détruire des données sur le système informatique d’une entreprise et qu’il en est résulté un préjudice pour celle-ci. Le plaignant qui se prétend lésé par une attaque informatique et qui désire provoquer l’ouverture d’une instruction pour amener les autorités à enquêter sur les faits dont il a été la victime peut déposer un plainte avec constitution de partie civile.
 
-## Private prosecution
-Private prosecution is the procedure whereby the victim triggers the prosecution and directly petitions the trial court. In a private prosecution, the victim pursues the alleged perpetrator of an offence in court without any inquiry or preliminary investigation by the Public Prosecutor or the investigating magistrate. An important practical consequence of the lack of investigation into the case is that the claimant must bring all the evidence to the court. It is therefore important to prepare a complete and convincing case and this can be complex.
+La constitution de partie civile diffère du dépôt de plainte en ce que :
 
-Obviously, private prosecution is only possible when the alleged perpetrator of the attack is known. It is important to note that a private prosecution is no longer possible when a civil action has already been filed.
+1. elle a pour effet de déclencher l’action publique ;
+2. elle oblige le plaignant (c’est-à-dire, la victime) à consigner une somme que le juge d’instruction détermine, correspondant aux frais présumés de la procédure ; et
+3. si le plaignant “succombe”, c’est-à-dire n’obtient pas gain de cause, il peut se voir condamner à supporter les frais de procédure (en tout ou partie).
+
+
+> article 56 du Code d’instruction criminelle: Il faut se constituer partie civile auprès du juge d’instruction.
+
+## La citation directe
+
+La citation directe est la procédure par laquelle la victime met l’action publique en mouvement et saisit directement la juridiction de jugement. En procédant par voie de citation directe, la victime poursuit l’auteur présumé d’une infraction devant le tribunal, sans enquête ni instruction préalables du Ministère Public ou du juge d’instruction. Une conséquence pratique importante de l’absence d’instruction de l’affaire est que le plaignant doit apporter lui-même l’ensemble des preuves au tribunal. Il importe donc de préparer un dossier complet et convaincant, ce qui peut s’avérer complexe.
+
+Évidemment, la citation directe n’est possible que lorsque l’auteur présumé de l’attaque est connu. Il est important de noter qu’il n’est plus possible de procéder par voie de citation directe lorsqu’une constitution de partie civile a déjà été effectuée.

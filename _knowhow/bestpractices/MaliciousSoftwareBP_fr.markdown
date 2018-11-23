@@ -1,144 +1,155 @@
 ---
 layout: knowhow
-title:  "Malicious software: best practice"
+title:  "Logiciels malveillants : bonnes pratiques"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "Behavioural measures to prevent from infection"
+short: "Mesures comportementales pour prévenir de l'infection"
 categories: f-bestpract
 toc: true
 ref: malicioussoftwarebp
 lang: fr
 ---
-## In brief
-Malicious software represents one of the greatest [threats]({% link _knowhow/glossary/Threat_fr.markdown %}) to the whole IT system, regardless of its size. All types of operating systems are at risk, and all administrations, municipalities and companies can succumb to it.
+## En quelques mots
 
-Since they first came into existence, [cybercriminals]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) have become significantly more sophisticated in the way they work and target their victims; malicious software or malware, one of their main tools, has naturally benefited from this. Nowadays, you’ll no longer find malicious software written for purely entertainment purposes. Currently, the most widely used malicious codes on the market are variations on the [Trojan horse]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie), which grant access to devices so they can be used either for illicit purposes or to steal confidential information.
+Les logiciels malveillants représentent une des plus grandes [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) pour tout système d'information, indépendamment de sa taille. Tout type de système d'exploitation est concerné, et toutes les administrations, communes et entreprises peuvent y succomber.
 
-Today, these malicious codes are primarily used to:
+Depuis leur existence, les [cybercriminels]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) ont fortement développé leur manière de travailler et de cibler les victimes ; les logiciels malveillants ou malware, un de leurs principaux outils, ont tout naturellement bénéficié de cette situation. Ainsi vous ne trouverez plus de nos jours de logiciels malveillants écrits à dessein purement ludique. Actuellement les codes malicieux les plus utilisés sur le marché sont différentes variantes de [chevaux de Troie]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie), qui donnent accès aux machines pour les utiliser soit à des fins illicites, soit pour en dérober des informations confidentielles.
 
-* steal confidential information (data extraction),
-* attack online banking systems,
-* send [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %})/[phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) emails (SMEs: see [Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %})/[Phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) and [Social engineering/Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people))
-* carry out denial of service type attacks (SMEs: see [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)),
-* host illicit content
+TAujourd'hui, les codes malicieux servent avant tout à :
 
-They present a large and omnipresent [threat]({% link _knowhow/glossary/Threat_fr.markdown %}). Without preventative measures, protective measures and curative measures, an entity risks being considerably [impacted]({% link _knowhow/glossary/Impact_fr.markdown %}).
+* dérober des informations confidentielles (extraction de données),
+* attaquer des systèmes de e-banking,
+* envoyer du [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %})/[phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) (PME : voir [Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %})/[Phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) et [Ingénierie sociale/Communication inadéquate]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people))
+* perpétrer des attaques de type déni de service (PME : voir [Attaques par déni de service et déni de services distribués]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)),
+* héberger des contenus illicites
 
-## Infection vectors
-There are a number of ways to infect a computer. The most commonly used include:
+Ils présentent donc une [menace]({% link _knowhow/glossary/Threat_fr.markdown %}). importante et omniprésente. Sans mesures préventives, mesures de protection et mesures curatives, une entité risque des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) considérables.
 
-* infecting genuine websites (preferably those with high visitor counts). These suffer from opportunistic or targeted attacks. The attacker will take advantage of the website’s [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities), often the result of bad management, by trying to access the website management system either by exploiting default passwords or as a result of weak security. They then install tools so they can exploit technical vulnerabilities in the visitors’ browsers, or incite users to install the malicious codes themselves (e.g. fake [antiviruses]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) or fake video players).
-* [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) specifically designed to exploit the technical vulnerabilities of their visitors’ web browsers. As the visitors aren’t familiar with these websites, the attacker has to draw them in. To do so, he can:
-  * lure victims by sending them [Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) containing links;
-  * lure victims through [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %})-type attacks;
-  * lure victims through adverts posted on frequently visited websites.
-* [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) with infected attachments. This technique is used for both targeted and opportunistic attacks. Social engineering methods are used to manipulate the victims into opening the infected files.
-* [removable devices]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) containing infected files. Malicious codes exploit the technical vulnerabilities of the targeted computers. This method is primarily used for targeted attacks, using social engineering techniques.
+## Les vecteurs d'infection
 
-## Impacts
-As there are malicious codes all over the Internet, the chances of encountering one are extremely high (EBIOS [threats]({% link _knowhow/glossary/Threat_fr.markdown %}), remote listening, software trap).
+Il existe de nombreux moyens pour infecter une machine. Les plus couramment utilisés sont :
 
-The [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) caused are usually:
+* infecter des sites web licites, (de préférence à grande fréquentation). Ils subissent des attaques opportunistes ou ciblées. L'agresseur va profiter des [vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities), du site, souvent mal géré, respectivement essayer d'accéder au système de gestion du site, en exploitant des mots de passe par défaut, ou dont la sécurité est faible. Il installe ensuite ses outils pour pouvoir exploiter des vulnérabilités techniques dans les navigateurs des visiteurs, respectivement inciter les utilisateurs à installer eux-mêmes des codes malicieux (exemple : faux [þantivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) ou faux lecteurs de vidéos).
+* [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) spécialement conçus pour exploiter les vulnérabilités techniques des navigateurs des visiteurs. Puisque ces sites sont inconnus par les visiteurs, l'agresseur doit l'attirer à s'y rendre. Pour ce faire, il va :
+  * leurrer la victime en lui envoyant des [Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) contenant des liens ;
+  * leurrer la victime par des attaques de type [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) ;
+  * leurrer les victimes par des publicités affichées sur des sites à grande fréquentation.
+* [courriers électroniques]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) avec des pièces jointes infectées. Cette technique est utilisée autant pour des attaques ciblées que pour des attaques opportunistes. Des méthodes issues de l'ingénierie sociale servent à manipuler les victimes pour ouvrir des fichiers infectés.
+* [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) contenant des fichiers infectés. Les codes malicieux exploitent les vulnérabilités techniques des machines visées. Ce moyen est surtout utilisé pour des attaques ciblées, en employant des techniques d'ingénierie sociale.
 
-* Financial
-  * Access to online banking may result in a loss of money. Pay particular attention to multi-line applications, as transactions are frequently made from company accounts and procedures often aren’t noticed until days, or even weeks, afterwards.
-  * Loss of confidential information (intellectual property theft, theft of trade secrets, theft of strategic company data, theft of customer information) often results in a loss of money.
-* Legal
-  * If the infected computers are used for illicit purposes, the victim may face complaints (denial of service attacks, infection of visitor devices, hosting of illegal content, etc.).
-  * The loss of confidential information, notably including data of a personal nature, may result in complaints received from the victims or from the CNPD.
-* Impact on reputation
-  * The use of an organisation’s website to infect visitors’ devices may result in serious problems for its brand image. Just like any type of trade, e-commence thrives on its consumers’ trust. A security incident may negatively impact this trust.
-* Impact on “knowledge”
-  * The theft or destruction of data relating to customer data or to trade secrets may result in a lack of knowledge.
-* Impact on “time”
-  * Analysing the compromised system, as well as getting the infected machines up and running again, may result in a significant loss of time.
+## Les impacts
 
-## Behavioural measures
-Whether the attack is targeted or opportunistic, a large number of malicious codes infiltrate their victims’ devices via infection vectors that play on human [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities).
+L'existence de codes malicieux étant omniprésente, la probabilité d'y être confronté est extrêmement grande ([menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) EBIOS: écoute à distance, piégeage du logiciel).
 
-Before publishing malicious software, its authors check to see if it can be detected via websites such as [www.virtest.com](https://www.virtest.com).
+Les [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) causés se situent généralement au niveau d'un :
 
-The codes then often remain invisible to antivirus software for at least the first few days of the attack, which is enough time for the antivirus to collect the updated signatures. 
+* Impact financier
+  * L'accès à des applications d'e-banking peut résulter en une perte d'argent. Veillez à contrôler notamment les applications de type "multi-line", puisque les mouvements de comptes des entreprises sont fréquents et les manipulations ne sont souvent détectées qu'après quelques jours voir semaines.
+  * La perte de données confidentielles (vol de propriété intellectuelle, vol de secrets de fabrication, vol de données stratégiques de l'entreprise, vol de données clients) résulte souvent en une perte d'argent.
+* Impact juridique
+  * Si les machines infectées sont utilisées à des fins illicites, la victime peut se voir confrontée à des plaintes (attaques de déni de service, infection des machines des visiteurs, hébergement de contenus illégaux,...).
+  * La perte de données confidentielles, comme notamment des données à caractère personnel peut engendrer des plaintes de la part des victimes respectivement de la CNPD.
+* Impact sur la réputation
+  * Le fait qu'un site web d'une organisation soit utilisé pour infecter les machines des visiteurs peut engendrer de sérieux problème au niveau de son image de marque. Au même titre que tout commerce, le commerce électronique vit de la confiance des consommateurs. Un incident de sécurité peut avoir impact néfaste sur celle-ci.
+* Impact sur le «savoir faire»
+  * Le vol, respectivement la destruction de données relatives aux données clients, ou aux secrets de fabrication,  peut résulter en une perte de savoir-faire.
+* Impact sur le «temps»
+  * L'analyse du système compromis, ainsi que le rétablissement des machines infectées peut engendrer une importante perte de temps.
 
-It is therefore vital for any organisation to train their employees and make them aware of the risks incurred by malicious codes and of commonly used infection vectors.
 
-## Preventing infection
-Infection with malicious codes can be prevented through responsible and careful behaviour when using [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email), [removable devices]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) and when surfing the Internet.
+## Mesures comportementales
 
-Make sure you::
+Que ce soit pour perpétrer une attaque ciblée ou opportuniste, un grand nombre de codes malicieux pénètrent sur les machines des victimes via des vecteurs d'infection se servant des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities).
 
-* observe [best practice relating to the use of email]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
-* avoid the use of unknown removable devices.
-  * If you find any such devices, send them to your IT department for analysis. 
-  * If you are given removable devices at conferences, have them analysed by experts before you use them.
-  * Be very careful if anyone sends you a removable device. If you do not know the person who sent it to you, don’t use it. If it is someone you know, check with them to make sure they were the ones who sent it and remember to get the devices analysed by experts before you use them.
+Avant de publier un logiciel malveillant, les auteurs vérifient s'il est détectable via des sites tels que [www.virtest.com](https://www.virtest.com).
 
-When surfing the Internet: 
+Les codes restent ensuite souvent invisibles aux logiciels antivirus, du moins pendant les premiers jours de l'attaque, le temps nécessaire aux antivirus de se munir de signatures mises à jour.
 
-* only open links on websites you trust entirely. Otherwise, you might be taken to a [malicious website]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}).
-* pay attention to warnings from your web browser (“safe browsing” on [IE](https://www.microsoft.com/en-us/security/default.aspx), [Firefox](https://support.mozilla.org/en/US/kb/use-master-password-protect-stored-logins), [Chrome](https://support.google.com/chrome/answer/114836?hl=en&ref_topic=7437824)), or add-ons such as WOT.
-* be wary of adverts that appear on websites that are not completely trustworthy. They may contain malicious codes or take you to [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}).
+Il est donc primordial pour toute organisation de sensibiliser et de former ses employés aux risques engendrés par les codes malicieux, ainsi qu'aux vecteurs d'infection couramment utilisés.
 
-When travelling or on business trips, make sure you: 
+## Prévenir l'infection
 
-* keep an eye on your IT equipment. Ill-intentioned persons could try to ambush it or install malicious codes. ([Threats]({% link _knowhow/glossary/Threat_fr.markdown %}): see equipment traps, software traps). 
+​La prévention à l'infection par codes malicieux passe par l'adoption d'un comportement responsable et prudent lors de la manipulation de [courriers électroniques]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email), de [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) et lorsque l'on navigue sur l'Internet.
 
-You should also remember that even equipment located within the organisation can be easily infected if ill-intentioned people gain access to it. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware) and [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software)).
+Veillez à :
 
-## Minimise the impacts
-Each employee should know how to act in case of infection:  
+* respecter les [bonnes pratiques liées aux courriers électroniques]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
+* évitez l'utilisation de supports amovibles inconnus.
+  * Si vous trouvez de tels supports, transmettez-les pour analyse à votre service informatique.  
+  * Si vous reçevez des supports amovibles lors de conférences, faites-les d'abord analyser par des experts avant de vous en servir.
+  * Si l'on vous envoie des supports amovibles, soyez très prudents. Ne les utilisez pas si l'expéditeur vous est inconnu. Dans le cas contraire, assurez-vous que ce soit bien lui qui vous les a transmit, et faites également analyser ces supports par des experts avant toute utilisation.
 
-* the infected device must be isolated and removed from the network;
-* it must not be used again until the virus has been removed;
-* it must be reported to the managers responsible for this type of incident immediately.
+En surfant sur l'Internet :
 
-## Organisational practices
-To prevent infection by malicious codes, organisational measures must be implemented. Draft and enforce the following sectoral policies:
+* ouvrez uniquement les liens proposés par des sites dans lesquels vous avez entièrement confiance. Dans les autres cas, vous risquez de tomber sur des sites [web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}).
+* soyez attentifs aux avertissements donnés par votre navigateur web ("safe browsing" pour [IE](https://www.microsoft.com/en-us/security/default.aspx), [Firefox](https://support.mozilla.org/en/US/kb/use-master-password-protect-stored-logins), [Chrome](https://support.google.com/chrome/answer/114836?hl=en&ref_topic=7437824)), respectivement des ajouts comme WOT.
+* soyez prudents quant aux publicités affichées sur des sites dans lesquels vous n'avez pas une entière confiance. Ils peuvent contenir des codes malicieux, respectivement vous amener sur des sites [web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}).
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resource)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
-  * [Security as a mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#security-as-a-mission)
-  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
-  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
-  * [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
-  * [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
-  * [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
-  * [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
-* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
-  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
-  * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
-  * [Analysis of non-fulfilment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#analysis-of-non-fulfilment-of-obligations)
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+Lors de voyages ou de déplacements, veillez à :
+
+* surveiller votre matériel informatique. Des personnes malintentionnées pourraient essayer de le piéger ou d'installer des codes malicieux. ([Menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) : voir piégeage de matériel, piégeage de logiciel).
+
+Soyez également conscients que, même le matériel qui se trouve à l'intérieur de l'enceinte d'un organisme peut facilement être infecté, du moment que des personnes malintentionnées se sont procuré accès. (PME voir : [pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises) et [insertion ou suppression de matériel]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware) et [Utilisation de logiciels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software)).
+
+## Minimiser les impacts
+
+Chaque employé doit savoir comment réagir en cas d'infection :  
+
+* la machine infectée doit être isolée et retirée du réseau ;
+* elle ne doit plus servir tant qu'elle n'a pas été nettoyée ;
+* il faut, sans délais, informer les responsables s'occupant de ce genre d'incidents.
+
+
+## Mesures organisationnelles
+
+Pour prévenir une infection par des codes malicieux, il est nécessaire de mettre en place des mesures organisationnelles. Rédigez et faites respecter les politiques sectorielles suivantes :
+
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resource)
+* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#security-as-a-mission)
+  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+  * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
+  * [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+  * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
+  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+  * [Gestion des vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
+* [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
+  * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
+  * [Gestion des incidents et des améliorations de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
+  * [Analyse des manquements avec obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#analysis-of-non-fulfilment-of-obligations)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
  
-## Technical measures
-In addition to behavioural and organisational measures, it is important to put in place technical measures to help prevent infections and reduce the impact of a potential infection.
+## Mesures techniques
 
-The installation of the following technical measures is recommended:
+Outre les mesures comportementales et organisationnelles, il est important de mettre en place des mesures techniques pour aider à prévenir les infections, respectivement réduire l'impact d'une potentielle infection.
+
+Il est conseillé d'installer les mesures techniques suivantes :
 
 * [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %})<br />
-  Antiviruses can detect a large number of malicious codes and prevent infection. Each computer within your organisation, as well as the file servers and email servers should have an antivirus installed. If possible, use a different antivirus for computers and for servers to increase the likelihood of malicious codes being detected. Update these antiviruses on a regular basis. Make sure users cannot deactivate the antivirus.
+  Les antivirus sont capables de détecter un grand nombre de codes malicieux et de prévenir une infection. Chaque ordinateur au sein de votre organisation, ainsi que les serveurs de fichier et les serveur mail doivent être munis d'antivirus. Utilisez de préférence un antivirus différent pour les ordinateurs et pour les serveurs afin d'augmenter la probabilité de détecter les codes malicieux. Mettez régulièrement à jour ces antivirus. Veillez à ce que les utilisateurs ne soient pas en mesure de désactiver l'antivirus.
 * [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %})<br />
-  A firewall set up on a device can both prevent the device being infected as a result of [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities) and help detect a possible infection.
-* [network segmentation]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %}) firewall<br />
-  A ‘company firewall’ may help prevent a virus from spreading throughout the whole company network. It can also prevent the exploitation of certain technical vulnerabilities thanks to the filtering of connection attempts via specific ports.
-* [Web filter]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %})<br />
-  Web filters can prevent computer infections by blocking malicious websites or those with a bad reputation.
-* [patches<]({% link _knowhow/glossary/Patches_fr.markdown %})br />
-  Some malicious software tries to exploit technical vulnerabilities. These vulnerabilities can be corrected by patches. However, no system is ever really safe from technical vulnerabilities.
-* [backups]({% link _knowhow/glossary/DataBackups_fr.markdown %})<br />
-  Backups are an effective way of preventing loss of availability and integrity. Unfortunately, they cannot prevent loss of confidentiality. Backups can also help to reduce the impact caused by the system being compromised by a destructive malicious code.
-* [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)<br />
-  Encryption can help reduce the likelihood of loss of confidentiality for highly confidential information in the event of infection.
+  Un firewall installé sur une machine peut à la fois aider à prévenir l'infection d'une machine via des [vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities) et aider à détecter une éventuelle infection.
+* [segmentation du réseau]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})<br />
+  Un 'firewall entreprise' peut aider à prévenir une propagation sur tout le réseau de l'entreprise. Il peut également aider à prévenir l'exploitation de certaines vulnérabilités techniques grâce au filtrage de tentatives de connexion via des ports spécifiques.
+* [Fltre web]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %})<br />
+  Les filtres web peuvent empêcher les infections des ordinateurs en empêchant de visiter des sites web malicieux ou de mauvaise réputation.
+* [correctifs (patch)]({% link _knowhow/glossary/Patches_fr.markdown %})<br />
+  Certains logiciels malveillants essayent d'exploiter des vulnérabilités techniques. Grâce aux correctifs, celles-ci peuvent être corrigées. Cependant aucun système n'est vraiment à l'abri d'une vulnérabilité technique.
+* [sauvegardes]({% link _knowhow/glossary/DataBackups_fr.markdown %})<br />
+  Les sauvegardes sont un moyen efficace pour prévenir les pertes de disponibilité et d'intégrité. Elles ne peuvent malheureusement pas prévenir la perte de confidentialité. Les sauvegardes peuvent également aider à réduire l'impact causé lors d'une compromission du système par un code malicieux destructeur.
+* [cryptographie]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)<br />
+  La cryptographie peut, dans le cas d'une infection, aider à réduire la probabilité d'une perte de confidentialité de données hautement confidentielles.
 
-## Virus removal
-See: [SOS – I think my computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %})
+## La désinfection
+
+Voir: [SOS - je crois que mon ordinateur est infecté]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %})

@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "Security measures for small and medium-sized enterprises – Legal aspects"
+title:  "Mesures de sécurité pour PME - Le côté légal"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,55 +10,58 @@ toc: true
 ref: bestpractlegalaspects
 lang: fr
 ---
-Specific legal and regulatory provisions must be respected by organisations. These provisions notably cover respect for privacy, copyright, and regulatory provisions specific to each activity sector. (See also [legal aspects]({% link _knowhow/glossary/LegalAspects_fr.markdown %}))
+Des dispositions légales et réglementaires particulières sont à respecter par les organisations. Ces dispositions touchent notamment au respect de la vie privée, aux droits d’auteur, et aux dispositions réglementaires spécifiques du secteur d’activité. (Voir aussi [aspects légaux]({% link _knowhow/glossary/LegalAspects_fr.markdown %}))
 
-## Unauthorised processing of personal data – Employee monitoring
-The Luxembourg Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data aims to: “protect the fundamental freedoms and rights of physical persons [...] with regard to the processing of data of a personal nature”.
+## Traitement non autorisé de données personnelles - Surveillance des employés
 
-It also establishes the National Commission for Data Protection (Commission nationale à la protection des données ou CNPD – [http://www.cnpd.lu](http://www.cnpd.lu)) “responsible for ensuring [...] that the data subject to processing [...] complies with [...] this Law.” All organisations in Luxembourg are subject to this law and must respect it.
+La loi luxembourgeoise du 2 août 2002 relative à la protection des personnes à l’égard du traitement des données à caractère personnel a pour objet de :« protéger les libertés et les droits fondamentaux des personnes physiques […] à l’égard du traitement des données à caractère personnel. ».
 
-For example, the processing of personal data must, in certain cases, receive prior authorisation from the CNPD.
+Elle institue également la commission nationale à la protection des données (CNPD – [http://www.cnpd.lu](http://www.cnpd.lu)) « chargée de contrôler […] si les données soumises à un traitement […] sont en conformité avec […] la présente loi. » Par sa nature légale toutes les organisations luxembourgeoises y sont soumises et doivent la respecter.
 
-Furthermore, since the introduction of the GDPR in Luxembourg, it is important to be even more careful when handling personal data.
+Par exemple, le traitement de données personnelles doit dans certains cas faire l’objet d’une autorisation préalable de la CNPD.
 
-* You should therefore ensure that:
-* the processing of personal data is inventoried
-* the CNPD is notified of the processing of personal data
-* the processing is secure (Art. 22 of the above mentioned law)
-* you stop any unauthorised processing or request authorisation. (Draft and enforce a Sectoral policy on compliance – [Protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection))
+Veillez donc à :
 
-## Invalid or non-existent licence
-The Law of 18 April 2004 on copyright, related rights, databases and patents includes “computer programs” and “databases” within its framework. To be able to use these legally, an end user licence agreement must be provided with the software. This user licence must be valid for the period of use. Different types of licence exist: postal, global, rental, free, etc.
+* recenser les traitements de données personnelles
+* notifier la CNPD des traitements de données personnelles
+* sécuriser les traitements (Art. 22 de la loi sus-nommée)
+* arrêter les traitements non autorisés ou demander une autorisation demandée. (Rédigez et faites respecter une politique sectorielle liée à la Conformité - [Protection de données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection))
 
-You therefore need to:
+## Licence non valide ou inexistante
 
-* carry out a review of the organisation’s software licences
-* assess the organisation's software needs
-* make an inventory of all current software (including their versions)
-* acquire new licences or uninstall unlicensed or inappropriate software
-* introduce a software restriction policy for users’ workstations
-* securely safeguard all software-containing media (e.g. in a locked cabinet)
-* ensure that the administrators are the only ones to install new software. (Draft and enforce a Sectoral policy on compliance – [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property))
+La loi du 18 avril 2004 sur les droits d’auteur, les droits voisins, les bases de données et les brevets d’invention inclut les « programmes d’ordinateur » et les « bases de données » dans son cadre. Pour pouvoir être utilisé légalement, un contrat de licence d’utilisateur final doit être fourni avec le logiciel. Cette licence d’utilisation doit être valide pour la période d'utilisation. Différents types de licence existent : par poste, globale, location, libre...
 
-## Lack of traceability of operations
-An organisation may be asked, by its partners or by the legal system, to prove or disprove its actions. This particularly concerns email communications and those with commercial or legal pertinence (e-business transactions, financial orders, etc.).
+Il faut donc :
 
-It is therefore important to:
+* effectuer une revue des licences logicielles de l’organisation
+* faire une évaluation des besoins logiciels de l’organisation
+* faire un inventaire de tous les logiciels présents (avec leurs versions)
+* acquérir de nouvelles licences ou désinstaller des logiciels sans licence ou inappropriés
+* implémenter une politique de restriction des logiciels sur les postes utilisateurs
+* sauvegarder de manière sécurisée les médias contenant les logiciels (ex : dans une armoire fermée)
+* l'installation de nouveaux logiciels sur une machine doit être réalisée par les administrateurs. (Rédigez et faites respecter une politique sectorielle liée à la Conformité - [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property))
 
-* save emails containing formal decisions
-* establish a list of the organisation’s activities and services involving the governance of the company and/or its commercial activity
-* establish a backup procedure for these operations, such as saving them in a database (in accordance, of course, with legislation on personal data and the regulations)
+## Défaut de traçabilité des opérations
 
-## Regulatory requirements
-Depending on its nature, an organisation may be subject to specific regulations that require it to take special security measures. Examples of regulations:
+Une organisation peut être confrontée, vis-à-vis de ses partenaires ou de la justice, de confirmer ou d’infirmer ses actions. Cela concerne notamment les communications par e-mail et celles dégageant une valeur commerciale ou juridique (transactions e-business, ordres financiers…).
 
-* Sarbanes-Oxley Act
+Il faut donc :
+
+* sauvegarder les e-mails contenant des décisions formelles
+* d’établir une liste des activités et des services de l’organisation participant à la gouvernance de l’entreprise et/ou à son activité commerciale
+* établir une procédure de sauvegarde de ces transactions tel que l’enregistrement dans une base de donnée (en accord toutefois avec la législation sur les données personnelles et la réglementation)
+
+## Exigences réglementaires
+
+Selon sa nature, une organisation peut être soumise à une réglementation spécifique lui imposant des mesures de sécurité particulières. Exemple de réglementations :
+
+* Sarbanes-Oaxley
 * HIPAA
 * Basel II
-* Schengen Agreement
+* Schengen
 
-It is therefore important to
+Il faut donc
 
-* be aware of and adhere to these regulations and ensure the organisation’s compliance
+* connaître et respecter ces réglementations et de mettre en conformité l’organisation
 
-Draft and enforce a Sectoral policy on compliance – [Identification of applicable legislation]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation) and [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property) and [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data) and [Protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection).
+Rédigez et faites respecter une Politique sectorielle sur la Conformité - [Identification de la législation applicable]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation) et [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property) et [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data) et [Protection des données à caractère personnel.]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection).
