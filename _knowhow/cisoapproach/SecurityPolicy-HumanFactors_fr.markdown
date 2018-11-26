@@ -20,10 +20,10 @@ Everyone should be aware of both the risks and the [security measures]({% link _
 
 Additionally, any person with technological responsibilities must ensure that they are proficient in the security aspects and, if necessary, have provided training and information to their colleagues.
 
-### Applying security measures for:
+### Appliquer dans mesures de sécurité pour:
 
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### See also:
 

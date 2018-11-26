@@ -10,198 +10,228 @@ toc: true
 ref: cisoclassification
 lang: fr
 ---
-Asset identification and classification are integral to risk management and are key elements of information security management (also called Information Security Management System – WSIS, see [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %})). They define security needs in terms of confidentiality, availability and integrity.
+L'identification et la classification des actifs font partie intégrante de la gestion des risques et représentent des composantes importantes pour la gestion de la sécurité de l'information (encore appelé: système de management de la sécurité de l'information - SMSI, voir [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %})). Elles définissent les besoins de sécurité en termes de confidentialité, disponibilité et intégrité.
 
-Draft and enforce a sectoral policy on classification and control of resources
+Rédigez et faites appliquer une politique sectorielle sur la classification et maîtrise des ressources
 
-## Classification principles
+## Principes de classification
 
-* The greater the impact of a disclosure, the higher the confidentiality classification will need to be.
-* The greater the impact of a loss due to the compromise of an asset, the higher the integrity classification will need to be.
-* The longer the impact of a prolonged disruption to legitimate access to the asset, the higher the availability classification will need to be.
+* Plus l’impact d’une divulgation est important, plus la classification de confidentialité devra être élevée.
+* Plus l’impact d’une perte en cas de compromission d’un actif est important, plus la classification d’intégrité devra être élevée.
+* Plus l’impact en cas d’entrave prolongée à l’accès légitime à l'actif est critique, plus la classification de disponibilité devra être élevée.
 
-## Importance of classification
-Asset classification is primarily used to perform risk analysis. Such classification requires that the criticality of an asset (= classification level – potential impact) be associated with the associated threats and vulnerabilities.
+## Importance de la classification
 
-The classification will enable risks to be assessed as objectively as possible and a plan to be established to respond to them. The beneficiary will therefore be able to ensure that major risks are reduced, given the available investment.
+La classification des actifs sert avant tout à établir une analyse des risques. En effet pour effectuer celle-ci, il est nécessaire de mettre en relation la criticité d'un actif (= niveau de classification - impact potentiel) avec les menaces et les vulnérabilités y associées.
 
-## Classification scheme
-Each company has assets that are more or less critical to ensuring that it runs smoothly. These assets include business processes, people, information and of course machines. In order to implement efficient and effective security measures, it is necessary to define a level of protection to be provided for each asset.
+La classification permettra de manière la plus objective possible d'évaluer les risques et d'établir un plan de traitement face à ceux-ci. Ainsi le bénéficiaire pourra s'assurer de la réduction des risques majeurs,  tout en considérant le niveau d'investissement disponible.
 
-This means it is important to classify assets and determine their criticality in terms of the level of confidentiality, integrity and availability.
+## Schéma de classification
 
-## Confidentiality
-The following diagram shows the official abbreviation, the name, and a description of the confidentiality classes. It also refers to the classes of the "Traffic Light protocol" schema, defined by the English administration NISCC. These classes define distribution rules for information used to protect critical infrastructure.
+Chaque entreprise dispose d'actifs plus ou moins critiques pour assurer son bon fonctionnement. Parmi ces actifs, on compte des processus métier, des personnes, des informations et bien-sûr des machines. Afin de pouvoir mettre en place des mesures de sécurité efficaces et performantes, il est nécessaire de définir un niveau de protection à apporter à chacun des actifs.
 
-<table class="classification">
-<tr>
-<th style="width: 15%;">Category</th>
-<th>1) Impact 2) Management 3) Example 4) Tools</th>
-<th style="width: 20%;">TLP Correspondence</th>
-</tr>
-<tr>
-<td style="background-color:#DD0000; color:white; font-weight:bold;">SE, Secret</td>
-<td>
-<ol>
-<li>Disclosure could seriously harm the interests of the organisation.</li>
-<li>Management according to well-established procedures, stored only in encrypted locations under the exclusive control of the holder.</li>
-<li>Information classified by law (EU, NATO, National, etc.), passwords, sensitive information.</li>
-<li>Use of cryptography, safe, memory only.</li>
-</ol>
-</td>
-<td>
-<strong>Red</strong><br /><br />
+Pour cette raison, il importe de procéder à une classification des actifs et de déterminer leur criticité quant au degré de confidentialité, d'intégrité et de disponibilité.
 
-Personal for named recipients only, mostly passed verbally or in person
-</td>
-</tr>
-<tr>
-<td style="background-color:orange; font-weight:bold;">
-CO, Confidential
-</td>
-<td>
-<ol>
-<li>Disclosure could harm the interests of the organisation.</li>
+## Confidentialité
 
-<li>Management according to well-established procedures, access restricted to persons with an approved reason.</li>
-
-<li>Bank secrets, sensitive personal data (health), security incidents.</li>
-
-<li>Use of cryptography, non-shared local storage, formally managed access permissions.</li>
-</ol>
-</td>
-<td>
-<strong>Orange</strong><br /><br />
-
-Limited distribution, within organization, but only on a ‘need-to-know’ basis.
-</td>
-</tr>
-<tr>
-<td style="background-color:#00CC00; font-weight:bold;">
-RE, Restricted
-</td>
-<td>
-<ol>
-<li>Disclosure could be detrimental to the interests of the organisation or authorised group.</li>
-
-<li>Management based on employment contract or NDA, personal data (salary), reason shared by a file manager.</li>
-
-<li>Internal network documentation or diagram, source program.</li>
-
-<li>Use of cryptography, strictly managed access permissions.</li>
-</ol>
-</td>
-<td>
-<strong>Green</strong><br /><br />
-
-Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community.
-</td>
-</tr>
-<tr>
-<td style="background-color: #00CC00; font-weight:bold;">
-IN, Internal
-</td>
-<td>
-<ol>
-<li>Disclosure could sometimes be detrimental to the interests of the organisation or authorised group.</li>
-
-<li>Can be sent to other organisations in the same community.</li>
-
-<li>User guide, some direct phone numbers, operating procedure.</li>
-
-<li>Free internal use and transmission, protection must be ensured for external transmission. </li>
-</ol>
-</td>
-<td>
-<strong>Green</strong><br /><br />
-
-Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community.
-</td>
-</tr>
-<tr>
-<td style="background-color: white; font-weight:bold;">
-PU, Public
-</td>
-<td>
-<ol>
-<li>Information where disclosure is not generally harmful.</li>
-
-<li>Can circulate freely because accessible outside the organisation.</li>
-
-<li>Various publications, information content of a website.</li>
-
-<li>No constraints on use or transmission.</li>
-</ol>
-</td>
-<td>
-<strong>White</strong><br /><br />
-
-Unlimited, subject to standard copyright rules, WHITE information may be distributed freely, without restriction.
-</td>
-</tr>
-</table>
-
-## Integrity
-The following diagram shows the official abbreviation, the name, and a description of the integrity classes.
+Le schéma suivant indique l’abréviation officielle, le nom et une description des classes de confidentialité. Il fait aussi référence aux classes du schéma "Trafic Light protocol" défini par l’administration anglaise NISCC. Ces classes définissent des règles de distribution pour des informations utilisées au niveau de la protection des infrastructures critiques.
 
 <table class="classification">
-<tr>
-<th style="width: 15%;">
-Category
-</th>
-<th>
-1) Impact 2) Management 3) Example 4) Tools
-</th>
-</tr>
-<tr>
-<td style="background-color:#DD0000; color:white; font-weight:bold;">VIT, Vital</td>
-<td>
-<ol>
-<li>Modification could result in significant losses to the organisation or might enable the person making the change to enrich themselves significantly.</li>
-<li>Regular (very frequent) formal control procedures are implemented (approximately once a week to once a month maximum).</li>
-<li>"DHL" mail, EDM system, configuration of servers or storage elements, telephone lines.</li>
-<li>Use of signature, safe.</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td style="background-color: orange; font-weight:bold;">
-IMP, Important
-</td>
-<td>
-<ol>
-<li>Modification could lead to inefficiencies or significant recovery costs./li>
-<li>Regular formal control procedures are often implemented. (about every 3 months).</li>
-<li>Registered mail, encrypted email, configuration of client computers (PC, laptop, PDA, etc.).</li>
-<li>Limitation of Access rights.</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td style="background-color:white; font-weight:bold;">
-NOR, Normal
-</td>
-<td>
-<ol>
-<li>There are no security requirements in addition to confidentiality protection.</li>
-<li>Regular control procedures are often implemented. (about every 6 months to 1 year).</li>
-<li>Internal mail, email, Internet browsing, etc.).</li>
-<li>No constraints on use or transmission.</li>
-</ol>
-</td>
-</tr>
+  <tr>
+    <th style="width: 15%;">Catégorie</th>
+    <th>1) Impact, 2) Gestion, 3) Exemple, 4) Outils</th>
+    <th style="width: 20%;">Correspondance TLP</th>
+  </tr>
+  <tr>
+    <td style="background-color:#DD0000; color:white; font-weight:bold;">SE, Secret</td>
+    <td>
+      <ol>
+        <li>La divulgation pourrait nuire gravement aux intérêts de l’organisation.</li>
+        <li>Gestion selon des procédures bien établies, stockée uniquement dans des emplacements chiffrés sous le contrôle exclusif du détenteur.</li>
+        <li>Information classifiée par la loi (EU, OTAN, National, etc.), les mots de passe, l’information sensible.</li>
+        <li>Utilisation de la cryptographie, coffre-fort, mémoire uniquement.</li>
+      </ol>
+    </td>
+    <td>
+      <strong>Rouge</strong><br /><br />
+      Personal for named recipients only, mostly passed verbally or in person <!-- FR traduction missing -->
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:orange; font-weight:bold;">
+    CO, Confidentiel
+    </td>
+    <td>
+      <ol>
+        <li>La divulgation pourrait nuire aux intérêts de l’organisation.</li>
+        <li>Gestion selon des procédures bien établies, accès restreint à des personnes ayant un motif approuvé.</li>
+        <li>Secret bancaire, données à caractères personnelles sensibles (santé), incidents de sécurité.</li>
+        <li>Utilisation de la cryptographie, stockage local non partagé, gestion des autorisations d’accès formellement gérés.</li>
+      </ol>
+    </td>
+    <td>
+    <strong>Orange</strong><br /><br />
+      Limited distribution, within organization, but only on a ‘need-to-know’ basis. <!-- FR traduction missing -->
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:#00CC00; font-weight:bold;">
+      RE, Restreint
+    </td>
+    <td>
+      <ol>
+        <li>La divulgation pourrait être défavorable aux intérêts de l’organisation ou du groupe autorisé.</li>
+        <li>Gestion sur base d’un contrat de travail ou d’un NDA, données à caractères personnelles (salaire), motivation partagée par un responsable de dossier.</li>
+        <li>Documentation ou schéma de réseau interne, programme source.</li>
+        <li>Utilisation de la cryptographie, gestion des autorisations d’accès strictement gérés.</li>
+      </ol>
+    </td>
+    <td>
+    <strong>Vert</strong><br /><br />
+    Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community. <!-- FR traduction missing -->
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color: #00CC00; font-weight:bold;">
+    IN, Interne
+    </td>
+    <td>
+      <ol>
+        <li>La divulgation pourrait être parfois défavorable aux intérêts de l’organisation ou du groupe autorisé.</li>
+        <li>Peut-être transmis à d’autres organisations de la même communauté.</li>
+        <li>Guide utilisateur, certains numéros directs de téléphone, procédure de fonctionnement.</li>
+        <li>Utilisation et transmission libre en interne, la protection doit être assurée en cas de transmission externe.</li>
+      </ol>
+    </td>
+    <td>
+      <strong>Vert</strong><br /><br />
+      Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community. <!-- FR traduction missing -->
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color: white; font-weight:bold;">
+      PU, Public
+    </td>
+    <td>
+      <ol>
+        <li>Information dont la divulgation n’est généralement pas préjudiciable.</li>
+        <li>Peut circuler librement, car accessible en dehors de l’organisation.</li>
+        <li>Publications diverses, contenu informatif d’un site internet..</li>
+        <li>Pas de contraintes sur l’utilisation ou la transmission.</li>
+      </ol>
+    </td>
+    <td>
+      <strong>Blanc</strong><br /><br />
+      Unlimited, subject to standard copyright rules, WHITE information may be distributed freely, without restriction. <!-- FR traduction missing -->
+    </td>
+  </tr>
 </table>
 
-## Availability
-Availability is expressed in terms of estimated time to recover from any failure.
+## Intégrité
+
+Le schéma suivant indique l’abréviation officielle, le nom et une description des classes d'intégrité.
+
+<table class="classification">
+  <tr>
+    <th style="width: 15%;">
+      Catégorie
+    </th>
+    <th>
+      1) Impact, 2) Gestion, 3) Exemple, 4) Outils
+    </th>
+  </tr>
+  <tr>
+    <td style="background-color:#DD0000; color:white; font-weight:bold;">
+      VIT, Vital
+    </td>
+    <td>
+      <ol>
+        <li> La modification pourrait engendrer des pertes importantes pour l’organisme ou permettrait à l’auteur de la modification de s’enrichir considérablement.</li>
+        <li>Des procédures formelles de contrôle périodique sont mises en œuvre très souvent (environ une semaine à un mois maximum).</li>
+        <li>Courrier « DHL », système de GED, configuration des serveurs ou éléments de stockage, lignes téléphoniques.</li>
+        <li>Utilisation de la signature, coffre fort.</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color: orange; font-weight:bold;">
+      IMP, Important
+    </td>
+    <td>
+      <ol>
+        <li>La modification pourrait engendrer des pertes d’efficacité ou des coûts de redressements notables.</li>
+        <li>Des procédures formelles de contrôle périodique sont mises en œuvre souvent. (environ 3 mois).</li>
+        <li>Courrier recommandé, email chiffré, configuration des  postes clients (PC, laptop, PDA, etc.).</li>
+        <li>Limitation des droits d’accès.</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:white; font-weight:bold;">
+      NOR, Normal
+    </td>
+    <td>
+      <ol>
+        <li>Il n’y a pas de contraintes supplémentaires de sécurité en plus de la protection de confidentialité.</li>
+        <li>Des procédures de contrôle périodique sont mises en œuvre régulièrement. (environ 6 mois à 1 an).</li>
+        <li>Courrier interne, email, consultation Internet, etc.).</li>
+        <li>Pas de contraintes sur l’utilisation ou la transmission.</li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
+## Disponibilité
+
+La disponibilité est exprimée en fonction du temps de réparation estimé en cas de panne.
 
 <table class="classification classification--small">
-<tr><th>Category</th><th>Category code</th><th>Downtime per year in calendar days</th><th>owntime per year in working days</th></tr>
-<tr><td>1</td><td>20D</td><td>1 month</td><td>+/- 20 days</td></tr>
-<tr><td>2</td><td>10D</td><td>½ month</td><td>2 weeks</td></tr>
-<tr><td>3</td><td>5D</td><td>1 week</td><td>5 days</td></tr>
-<tr><td>4</td><td>2.5D</td><td>½ week</td><td>2½ days</td></tr>
-<tr><td>5</td><td>1D</td><td>1 day</td><td>8 hours</td></tr>
-<tr><td>6</td><td>0.5D</td><td>½ day</td><td>4 business hours</td></tr>
-<tr><td>7</td><td>0.1D</td><td>1 hour</td><td>1 hours</td></tr>
+  <tr>
+    <th>Catégorie</th>
+    <th>Code catégorie</th>
+    <th>Temps calendaire d’arrêt par an</th>
+    <th>Temps ouvré d’arrêt par an</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>20J</td>
+    <td>1 mois</td>
+    <td>+/- 20 jours</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>10J</td>
+    <td>½ mois</td>
+    <td>2 semaines</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>5J</td>
+    <td>1 semaine</td>
+    <td>5 jours</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2.5J</td>
+    <td>½ semaine</td>
+    <td>2½ jours</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>1J</td>
+    <td>1 day</td>
+    <td>8 heures</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>0.5J</td>
+    <td>½ day</td>
+    <td>4 heures</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>0.1J</td>
+    <td>1 hour</td>
+    <td>1 heures</td>
+  </tr>
 </table>

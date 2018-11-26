@@ -13,7 +13,7 @@ lang: fr
 ## Encryption
 [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during [email]({ % link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#interception-of-communications)).
 
-### Applying security measures to:
+### Appliquer des mesures de sécurité pour:
 
 * [File servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
 * [Email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
@@ -23,7 +23,7 @@ lang: fr
 * [Computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
 * [Laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
-### Directly associated organisational measures:
+### Mesures organisationnelles directement liées:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
@@ -33,15 +33,15 @@ lang: fr
   * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
   * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
   * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
-  * [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+  * [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
+* [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Electronic signatures]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+* [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
   * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
-  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
+  * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+  * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
-### Technical measures:
+### Mesures techniques:
 
 * [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
@@ -68,7 +68,7 @@ The CSSI defines a secure location (typically a safety-deposit box [classified](
 
 Applicable security measures:
 
-* Two people are necessary (“four eyes” principle; separate [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}));
+* Two people are necessary (“four eyes” principle; separate [l'authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}));
 * Protocol for opening and access to keys;
 * Keys in sealed envelopes;
 * Contents inventory stating:
@@ -109,7 +109,7 @@ This technology should be implemented during dialogue via email with external en
 
 Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) of the contents of the file relating to the message.
 
-### Applying security measures to:
+### Appliquer des mesures de sécurité pour:
 
 * guarantee integrity
 * guarantee non-repudiation
@@ -118,11 +118,11 @@ Electronic signatures can be affixed to documents and to emails. The signature g
 
 * [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
   * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
-  * [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
-  * [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
+* [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+  * [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+  * [Gestion des vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
 
-### Technical measures:
+### Mesures techniques:
 
 * [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
@@ -131,32 +131,32 @@ All types of organisation need to monitor risks relating to the exploitation of 
 
 To do this, they should introduce an effective and systematic management of technical vulnerabilities for all their operating systems and network equipment. This is done through the application of [corrective]({% link _knowhow/glossary/Patches_fr.markdown %}) or other tools designed to prevent the exploitation of technical vulnerabilities. Monitoring the measures undertaken will enable their actual effectiveness to be gauged.
 
-### Applying security measures to:
+### Appliquer des mesures de sécurité pour:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
-* [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Behavioural measures:
 
-* [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
+* [les sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
 * [malicious code]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
 
-### Directly associated organisational measures:
+### Mesures organisationnelles directement liées:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+* [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
   *[ Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
-  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
 * [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
   * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
   * [Separation of development and production environments]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#separation-of-environments)
-* [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
+* [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
   * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
 
 
-### Technical measures:
+### Mesures techniques:
 * [corrections]({% link _knowhow/glossary/Patches_fr.markdown %})
-* [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %})
+* [le pare-feu]({% link _knowhow/glossary/Firewall_fr.markdown %})
 * [network segmentation]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})
