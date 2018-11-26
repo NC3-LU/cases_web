@@ -27,7 +27,7 @@ It is not advisable to use the same password for more than one account. If neces
 They may be able to take practical steps to protect other users, in the event of a large-scale attack.
  
 ## 4. If your password has already been changed by a criminal
-you should immediately notify your account administrator so they can block access to the account in question. They will usually be able to reset it with a new password.
+You should immediately notify your account administrator so they can block access to the account in question. They will usually be able to reset it with a new password.
  
 ## 5. Make a list of the information that is accessible on your account.
 If any information grants access to other accounts, take steps to protect them *(points 1 and 2)*.

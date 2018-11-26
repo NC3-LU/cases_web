@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – I think my computer is infected"
+title:  "SOS – Je crois que mon ordinateur est infecté"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,67 +11,67 @@ ref: sosmycomputerinfected
 lang: fr
 ---
 
-## In brief
-These days, it is very difficult to tell if a machine is infected. [Cybercriminals]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) try to use [Trojan horses]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie) to extract data (spying), or use the computer for larger scale attacks (distributed denial of service), to send [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) or other illicit reasons.
+## En quelques mots
+De nos jours, il est très difficile de reconnaître si une machine est infectée. Les [cybercriminels]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) essayent surtout de déployer des [chevaux de Troie ]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie) pour pouvoir extraire des données (espionnage), respectivement d'utiliser l'ordinateur pour des attaques de grande envergure ('distributed denial of service'), pour envoyer du [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) ou autres usages illicites.
 
-Some infections have no real aim, and many initial infections only load installation software. In this case, access to the infected computers is sold to the highest bidder, who then uses the installer (Trojan loader) to install the final Trojan horse.
+Certaines infections ne sont pas un but en soi et beaucoup d'infections initiales ne chargent qu'un logiciel d'installation. Dans ce cas, l'accès aux ordinateurs infectés est revendu au meilleur offrant qui peut alors utiliser l'installateur (trojan loader) pour installer le cheval de Troie définitif.
 
-The most common vectors for infection are:
+Les vecteurs d'infection les plus utilisés sont :
 
-* [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) (popular websites that have been infected, or malicious websites on which victims are tricked by advertising displayed on the sites or in emails, or links included in [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email));
-* infected attachments;
-* [removable storage media]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}).
+* Les [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) (sites à grande fréquentation qui ont été infectés, ou sites web malicieux sur lesquels les victimes sont leurrés par des publicités affichées sur des sites ou dans des courriers électroniques, respectivement par des liens contenus dans des [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email));
+* les pièces jointes infectées;
+* les [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}).
 
-Use [best practices]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) to avoid malware.
+Pour prévenir des logiciels malveillants, respectez les [bonnes pratiques]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) .
 
-## Risk analysis
-Try to perform a risk analysis to check whether you have fallen victim to a targeted or opportunistic attack. These questions might help you:
+## Analyse des risques
+Essayez d'effectuer une analyse des risques pour vérifier si vous êtes devenu victime d'une attaque ciblée ou opportuniste. Ces questions peuvent vous aider :
 
-* What is the probability that someone wants to spy on you?
-* Do you have any data that may interest other companies?
-* Do you work in the military sector?
-* Do you work for a government department?
-* Do you have access, as a sub-contractor, to highly confidential data?
-* Are you in the process of responding to an important call for tenders?
-* Are you part of an international consortium responding to a call for tenders?
+* Quelle est la probabilité que quelqu'un veuille vous espionner ?
+* Possédez-vous des données qui pourraient intéresser d'autres sociétés ?
+* Travaillez-vous pour le secteur militaire ?
+* Travaillez-vous pour un service gouvernemental ?
+* Avez-vous accès, en tant que sous-traitant, à des données hautement confidentielles ?
+* Êtes-vous en train de répondre à un important appel d'offre ?
+* Faites-vous partie d'un consortium international qui répond à un appel d'offre ?
 
-If you answered yes to any of these questions, a cybercriminal may well be interested in you and launch a targeted attack. In other cases, you have probably fallen victim to an opportunistic attack. Your machine will be sold on to the highest bidder.
+Si vous répondez à l'affirmative à l'une de ces questions, il est probable qu'un cybercriminel puisse s'intéresser à vous et lancer une attaque ciblée. Dans les autres cas, il est probable que vous ayez été victime d'une attaque de type opportuniste. Votre machine sera revendue au meilleur offrant.
 
-Another way to determine whether this is a targeted or opportunistic attack is to look at the methods used by the criminal to infect your device. An impersonal email indicates an opportunistic attack, while an email that refers to you by name looks more like a targeted attack.
+Un autre indice pour déterminer s'il s'agit d'une attaque ciblée ou volontaire, prenez en considération les moyens utilisés par l'agresseur pour vous infecter. Un courrier impersonnel oriente vers la possibilité d'une attaque opportuniste, alors que le courrier personnel renforce l'option d'une attaque ciblée.
 
-## Victim of an opportunistic attack
-Some cybercriminals try to infect as many machines as possible through opportunistic attacks. These criminals specialise in the “acquisition” of machines and only install software enabling remote access. They often try to distribute their victims by country, categorising individuals and companies, and they sometimes even try to identify the infected victim. (The profiling quality of the infected machines increases their sale price). They go on to sell access to these machines to the highest bidder. This person will then install specialist malware using the remote access software, based on their objectives:
+## Victime d'une attaque opportuniste
+Certains cybercriminels essayent par des attaques opportunistes d'infecter autant de machines que possible. Ces criminels se sont spécialisés dans "l'acquisition" de machines et n'installent qu'un logiciel autorisant l'accès à distance. Souvent ils essayent de répartir les victimes selon le pays, de catégoriser les citoyens et les entreprises, et essayent parfois même d'identifier clairement la victime infectée. (La qualité du profilage des machines infectées augmente leur prix de vente.) Ensuite ils revendent l'accès à ces machines au meilleur offrant. Ces derniers vont alors installer, via le logiciel d'accès à distance, des logiciels malveillants spécialisés selon leurs besoins :
 
-* stealing log-in data or other confidential data (e-banking, e-commerce, social networking, emails, etc);
-* using the infected machine to send [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %});
-* using the infected machine to host [malicious web servers]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}), or servers with illegal content;
-* using machines to carry out denial of service attacks, as a proxy, to click on links;
-* targeted attacks.
+* vol de données d'authentification ou autres données confidentielles (e-banking, e-commerce, réseaux sociaux, e-mails,...);
+* utilisation de la machine infectée pour envoyer du spam ;
+* utilisation de la machine infectée pour héberger des serveurs web malicieux, ou des serveurs avec des contenus illicites;
+* utilisation des machines pour faire de attaques de type déni de service, comme proxy, pour cliquer sur des liens;
+* attaques ciblées.
 
-opportunistic attacks are usually quite large scale, with malicious code used to provide remote access – in the best case scenario, this code will only be detected days later by the supplier's [anti-virus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) software. Generally speaking, the resident anti-virus never detects malware after detection and you need to use a live CD anti-virus for better detection.
+Les attaques opportunistes étant généralement des attaques de grande envergure, les codes malicieux utilisés pour garantir l'accès à distance ne seront, dans le meilleur des cas, que détectés après quelques jours par les fournisseurs de logiciels [anti-virus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}). En général il est probable que l'antivirus résident ne détecte jamais les logiciels malveillants après détection et qu'il faille recourir à un live cd antivirus pour une meilleure détection.
 
-## Victim of a targeted attack
-As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. [Malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) is specially designed for this type of attack, and in most cases slips through [anti-virus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) checks. Targeted attacks can be used as a vector for infection:
+## Victime d'une attaque ciblée
+Contrairement aux attaques opportunistes, à large échelle, les attaques ciblées se concentrent généralement sur une victime spécifique, et souvent en visant une seule personne faisant partie de l'organisme visé. Des [codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) sont spécialement conçus pour ce genre d'attaque et échappent dans la plupart des cas à l'interception par les [anti-virus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}). Les attaques ciblées peuvent utiliser comme vecteur d'infection :
 
-* buying access to a machine belonging to a specific organisation from a criminal carrying out opportunistic attacks;
-* [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) by email, with infected files (SMEs: see [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#spam--phishing), [Social engineering / Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people));
-* social engineering by physical access and infection of targeted machines (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software), [Third-party use of access reserved for a single user]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party));
-* social engineering  by physical access and deposit of infected [removable storage media]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware));
-* social engineering by sending physical post containing infected removable storage media;
-* social engineering by offering an infected gift (during a conference, a trade fair, etc.);
-* social engineering by attracting the victim to a [malicious website]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %});
-* infection of digital hardware left unattended (airports, hotels, conference halls, etc.) (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software), [Use of access reserved for a user by a third party]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party), [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#spam--phishing), [social engineering / inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people)).
+* l'achat d'accès à une machine d'un organisme spécifique auprès d'un délinquant effectuant des attaques opportunistes ;
+* [l'ingéniérie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) par courrier électronique, avec fichiers infectés (PME : voir  [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#spam--phishing), [Social engineering / Communication inadéquate]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people));
+* l'ingénierie sociale par accès physique et infection des machines ciblées (PME : voir [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Utilisation de logiiels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software), [Utilisation d’un accès réservé à un utilisateur par un tiers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party));
+* l'ingénierie sociale par accès physique et dépôt de [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) infectés (PME: voir [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware));
+* l'ingénierie sociale par envoi de courrier physique contenant des supports amovibles infectés ;
+* l'ingénierie sociale en offrant un cadeau infecté (lors d'une conférence, d'une foire,...) ;
+* l'ingénierie sociale en attirant la victime sur un [site web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %});
+* l'infection du matériel informatique laissé sans surveillance (aéroports, hôtels, salles de conférence,...) (PME : voir [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion ou suppression de matériel]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Utilisation de logiciels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software), [ Utilisation d’un accès réservé à un utilisateur par un tiers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party), [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#spam--phishing), [social engineering / Communication inadéquate]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people)).
 
-It is very difficult to recognise an attack of this type. These codes make no “noise”, because they do not spread, or they only spread very slowly. They do everything to remain unnoticed so as to extract confidential information for as long as possible.
+Il est très difficile de reconnaître une attaque de ce type. Ces codes ne font pas de "bruit", puisqu'ils ne se propagent pas, ou que très lentement, et font tout pour rester inaperçu et pouvoir extraire aussi longtemps que possible des informations confidentielles.
 
-Malware activity may eventually be identified in firewall or proxy logs.
+L'activité du logiciel malveillant peut éventuellement être repérée dans les logs du firewall ou du proxy.
 
-## Cleaning an infected machine
+## Nettoyage d'une machine infectée
 It is often difficult to tell whether a machine is infected, and it is even more difficult to clean it. The effort made and the method chosen need to be sufficient to match the criticality of the machine concerned.
 
-* If it was an opportunistic attack and the machine does not hold any confidential data and is not used for critical operations, such as e-banking, you can try to clean the machine:
-  * your anti-virus probably won’t detect the infection, because if it knew the malicious code used, it would have prevented infection in the first place. Remove the machine from the network and try to [disinfect the machine using a live CD from another anti-virus retailer]({% link _knowhow/glossary/DisinfectWithLiveCD_fr.markdown %}). Even better, wait four or five days before cleaning – recent malicious code slips through the anti-virus net for the first few days, until anti-virus manufacturers catch up and enter it into their anti-virus signature. Please note: disinfection by anti-virus may delete infected system files. The machine therefore risks not working properly after disinfection. The system should then be repaired using an installation disk, or the operating system may need a full reinstall.
-* If you know exactly when your machine was infected and you have backups of your hard disk made from an earlier time, you can try to restore the backup. Don’t forget to reinstall all the necessary updates after the system restore.
-* In other cases, we recommend a full reinstallation:
-  * backup your data on an external hard drive;
-  * format the disk and reinstall from your preferred installation disk (there is a small chance that the partition reset is also infected).
+* S'il s'agit plutôt d'une attaque opportuniste et que la machine ne contient pas de données confidentielles et n'est pas utilisée pour des opérations critiques, comme notamment le e-banking, vous pouvez essayer de désinfecter la machine :
+  * votre antivirus ne détecte probablement pas l'infection, car s'il connaissait le code malicieux employé, il aurait dès le départ prévenu l'infection. Retirez la machine du réseau et essayez donc tout de suite de [désinfecter la machine avec le live cd d'un autre revendeur antivirus]({% link _knowhow/glossary/DisinfectWithLiveCD_fr.markdown %}). Ou mieux encore, attendez quatre à cinq jours avant ce nettoyage : un code malicieux récent passe inaperçu pendant les premiers jours et les fabricants d'anti-virus nécessitent ce laps de temps pour mettre à disposition une signature dans les antivirus. Attention : une désinfection par un antivirus peut éventuellement effacer des fichiers systèmes infectés. La machine risque donc de ne plus fonctionner après la désinfection; il faudra alors procéder à la réparation du système à l'aide d'un disque d'installation voire à la reinstallation du système.
+* Si vous savez à quel moment votre machine a été infectée et que vous avez des sauvegardes de votre disque faites à un moment antérieur, vous pouvez essayer de restaurer la sauvegarde. N'oubliez pas de refaire toutes les mises à jour nécessaires après la restauration du système.
+* Dans les autres cas nous vous conseillons une réinstallation complète:
+  * sauvegardez vos données sur disque externe;
+  * formatez le disque et réinstallez depuis un disque d'installation de préférence (il y a une petite chance que la partition de remise à zéro soit aussi infectée).

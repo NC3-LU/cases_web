@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – Electronic greetings cards"
+title:  "SOS – Cartes de voeux électroniques"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,46 +11,46 @@ ref: sosegreetingcards
 lang: fr
 ---
 
-Most people receive greetings cards over the winter period – many of them by email. Although many of these electronic greetings cards are perfectly inoffensive, others could be genuine risks to the private data and computers of their recipients. Remember these safety tips when you get an electronic greetings card and enjoy peace of mind over the festive period.
+En cette période de fin d’année, la majorité des internautes devrait recevoir des cartes de vœux, et beaucoup en recevront aussi par e-mail. Si certaines de ces cartes de vœux électroniques sont totalement inoffensives, d’autres peuvent être de véritables dangers pour les données personnelles et les ordinateurs de leurs destinataires. Alors suivez ces quelques astuces de sécurité à propos des cartes de vœux électroniques et profitez des fêtes en toute quiétude.
 
-## Electronic greetings cards
-These are sent by either by “traditional” [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) or by another messaging system, such as private messaging on forums, for example, or by websites specialising in the design and sending of electronic greetings cards.
+## Les cartes de voeux électroniques
+Elles sont envoyées soit par [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) « classique » soit par un autre système de messagerie, du type messagerie privée sur les forums par exemple, ou par des sites Internet spécialisés dans la conception et l’envoi de cartes de vœux électroniques.
 
-There are several types of electronic cards:
+Il existe plusieurs types de cartes électroniques :
 
-* Greetings cards sent as attachments – these can be viewed by downloading a file attached to the message received (user interaction required in order to execute the file),
-* Greetings cards directly in the message – these are directly visible by opening the message (no user interaction necessary to execute a file),
-* Greetings cards on a website accessed via a link in a message – the user has to click on a link which redirects them to a website to view the card. It is possible that, in order to view the message, the user has to enter the identifiers contained in the message they received, but this is not always required, as the specific URL for the greetings card would be difficult to guess (interaction necessary with the user to execute the file).
+* Les cartes de vœux envoyées en pièce jointe : elles sont visibles en téléchargeant un fichier attaché en pièce jointe du message reçu (interaction nécessaire de l’utilisateur pour l’exécuter),
+* Les cartes de vœux directement dans le message : elles sont directement visibles en ouvrant le message (aucune interaction de l’utilisateur n’est nécessaire pour l’exécuter),
+* Les cartes de vœux sur un site web accessible depuis un lien dans le message : il faut cliquer sur un lien qui redirige vers un site web pour voir la carte. Il est possible que pour voir le message, l’utilisateur doive entrer des identifiants contenus dans le message reçu mais cela n’est pas tout le temps nécessaire, le secret reposant sur l’adresse Internet de la carte de vœux qui n’est pas facile à deviner (interaction nécessaire de l’utilisateur pour l’exécuter).
 
-## Sending greetings cards
-If you want to send electronic greetings, there are a few rules you should follow so that you don’t end up getting conned.
+## Envoyer des cartes de vœux
+Si vous souhaitez envoyer vos vœux par la voie électronique, il y a quelques règles à respecter afin de ne pas se faire arnaquer.
 
-#### Site reliability
-Use reputable websites to send greetings cards. Firstly, this will give you a guarantee that your cards have actually been sent. Reputable websites also have strict usage rules with regard to the email addresses you provide. Surely you don’t want all the email addresses of your friends and family sold to spammers?
+#### Fiabilité du site
+Préférez l’utilisation de sites connus pour envoyer des cartes de vœux. Tout d’abord, vous aurez une bonne garantie que vos cartes seront vraiment envoyées. De plus, les sites connus ont des règles d’utilisation strictes en ce qui concerne les adresses e-mail que vous leur fournissez. Vous ne voudriez sûrement pas voir tous les adresses de vos amis et votre famille vendues à des spammeurs?
 
-#### Online payment
-Firstly, if you want to subscribe to a pay service, look out for site security. As with all online payments, check that the pages are secure and that the website is reliable. Please note that most of the websites offering electronic greetings cards are free of charge (and are funded by advertising).
+#### Paiement en ligne
+Tout d’abord, si vous choisissez de souscrire à un service payant, prenez garde à la sécurité du site. Comme pour tout paiement en ligne, vérifiez que les pages sont sécurisées et que le site est fiable. A noter que bien souvent la majorité des sites Internet qui proposent des cartes de vœux électroniques sont gratuits (et se financent par la publicité).
 
-In case of any doubt, please read through the page: [e-commerce – best practices]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams_fr.markdown %})
+N’hésitez pas à vous rendre sur la page: [e-commerce – les bonnes pratiques]({% link _knowhow/bestpractices/cleverclicks/ECommerceScams_fr.markdown %})
 
-## Receiving greetings cards
-As with all emails, there are a few rules that should be respected when you receive virtual greetings cards. Even if someone you know sends you a greetings card with the best of intentions, the card could contain something more than good wishes.
+## Recevoir des cartes de voeux
+Comme pour tout e-mail, il existe quelques règles à respecter lorsque l’on reçoit une carte de vœux virtuelle. Même si l’une de vos connaissances vous envoie une carte de vœux avec les meilleures intentions du monde, il se peut que les cartes contiennent autre chose que de simples vœux.
 
-#### Beware of phishing
-Some con-artists are only too willing to use the Christmas period to ramp up their [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) activities. You may think you have received a greetings card from a reputable website that you are subscribed to. Your guard will be down and you risk entering your username and password into a fake website.
+#### Attention au phishing
+Certains arnaqueurs n’hésitent pas à se servir des fêtes de fin d’année pour augmenter leur production de  [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}). Ainsi, vous pensez recevoir une carte de vœux sur un site connu où vous êtes inscrit, vous êtes moins méfiant(e) et vous risquez d’entrer vos identifiants sur un site contrefait.
 
-Never trust this type of website with an important password, such as the one you use for your email account, your favourite social network or your online bank account.
+Ne confiez jamais à ce type de sites des mots de passe importants, tels que ceux de votre messagerie électronique, de votre réseau social favori ou de votre compte bancaire en ligne.
 
-Do not click on any link that looks a bit strange, and do not enter your log-in information if you click on a link included in an email. You should always preferably go to the website by typing the web address into the browser yourself before logging in.
+Ne cliquez pas sur un lien qui vous semble étrange et n’entrez pas vos identifiants personnels après avoir cliqué sur un lien contenu dans un e-mail. Il est toujours préférable de vous rendre sur le site en tapant vous-même son adresse avant de vous identifier.
 
-#### Beware of malicious files
-As with any email attachment, do not open attached files if you do not know the person who sent them. With greetings cards, if the name of the company offering the service is given, check whether it is a legitimate website, that the identity of the person who sent you the card is given and that you actually know this person, before opening the attachment.
+#### Attention aux fichiers malveillants
+Comme pour toute pièce jointe dans un e-mail, n’ouvrez pas les fichiers attachés si vous ne connaissez pas l’expéditeur. Dans le cadre des cartes de vœux, si le nom de l’organisme offrant le service apparaît, vous devez vérifier que le site est bien légitime, que l’identité de la personne qui vous a envoyé la carte apparaît et que vous connaissez bien cette personne avant d’ouvrir la pièce jointe.
 
-Don't forget to [update your computer]({% link _knowhow/glossary/Patches_fr.markdown %}) (operating system and applications, especially your web browser and email program), so you can avoid getting trapped by opening malicious greetings cards which exploit [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) to enable criminals to gain access to your computer without your knowledge.
+N’oubliez jamais de [mettre à jour votre ordinateur]({% link _knowhow/glossary/Patches_fr.markdown %}) (système d’exploitation et applications, en particulier navigateur Internet et outil de lecture de vos mails) pour ne pas être piégé par des cartes de vœux malveillantes qui exploiteraient des  [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) pour se glisser à votre insu dans votre ordinateur.
 
-As well as this, to protect yourself against [malicious files]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), install anti-virus software and anti-spyware that can scan the attachment, thereby reducing the risk of opening a malicious file.
+De plus, pour vous protéger des [fichiers malveillants]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), installez un logiciel antivirus et un logiciel anti-spyware qui vous permettront de scanner la pièce jointe, diminuant ainsi les risques qu’elle soit un fichier malveillant.
 
-#### Also view the following articles:
+#### Consulter aussi les articles suivants:
 
-* [Recognising a suspicious email]({{site.url}}knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
-* [I opened an email attachment]({% link _knowhow/sos/SOS-IOpenedEmailAttachment_fr.markdown %})
+* [Reconnaître un e-mail suspect]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail_fr.markdown %})
+* [J'ai ouvert la pièce jointe d'un courrier électronique]({% link _knowhow/sos/SOS-IOpenedEmailAttachment_fr.markdown %})

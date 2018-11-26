@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – Handover to repairs"
+title:  "SOS – Donner en réparation"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,10 +11,10 @@ ref: soshandoverrepairs
 lang: fr
 ---
 
-## In brief
-Before handing over any digital device for repairs, make sure you take a few precautions, especially if the hardware or data backed up on it is [critical]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}).
+## En quelques mots
+Avant de donner à réparer un outil informatique, veillez à prendre certaines mesures de précautions, notamment lorsque le matériel, respectivement les données y sauvegardées, présentent un certain degré de  [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}).
 
-## Confidential data
-Data storage media containing [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) information should be kept within the premises of your trusted supplier. If these storage media are faulty, the supplier should replace them with new ones, without sending the faulty hardware back to the manufacturer. If other components display faults, the supplier should firstly remove data from the storage media before sending the hardware to the manufacturer for repair.
+## Données confidentielles
+Les supports de données contenant des informations [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) doivent être gardés dans l'enceinte de votre fournisseur de confiance. Si ces supports sont défectueux, le fournisseur devra les remplacer par des nouveaux, sans pour autant renvoyer les matériaux défectueux aux fabricants. Si d'autres composantes présentent des défauts, le fournisseur devra d'abord enlever les supports de données avant d'envoyer le matériel à réparer au fabricant.
 
-If your supplier is unable to guarantee this level of security, avoid entrusting your machines containing confidential information to them or make sure you remove data from the devices before arranging for them to be repaired. ([Draft and enforce a Sectoral policy on Physical and environmental security – Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance)).
+Si votre fournisseur n'est pas en mesure de vous garantir ce niveau de sécurité, évitez de lui confier vos machines contenant des informations confidentielles ou veillez à enlever les supports de données avant de faire réparer les machines. ([Rédigez et faites respecter la politique sectorielle sur la sécurité physique et environnementale - maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance)).

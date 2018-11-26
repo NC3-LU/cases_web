@@ -12,7 +12,7 @@ lang: en
 ---
 
 ## In brief
-Online identity theft can come as a result of the theft or loss of data. Identities are used for the unauthorised acquisition of knowledge, sending spam, the distribution of malware or other harmful purposes. It is therefore important to counteract this theft as quickly as possible in order to limit the damage.
+Online identity theft can come as a result of the [theft or loss of data]({% link _knowhow/glossary/DataLoss.markdown %}). Identities are used for the unauthorised acquisition of knowledge, sending [spam]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing), the distribution of [malware]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) or other harmful purposes. It is therefore important to counteract this theft as quickly as possible in order to limit the damage.
 
 Generally speaking, identity theft arises from the theft of the victim’s authentication data.
 
@@ -34,7 +34,7 @@ However, there are also ways to steal someone’s identity temporarily without s
 
 ## Measures to take
 
-* If you still have access to your account, change your [password immediately]({% link _knowhow/glossary/Password.markdown %}), observing best practices, on a trustworthy computer (a computer which is not infected).
+* If you still have access to your account, change your [password immediately]({% link _knowhow/glossary/Password.markdown %}), observing [best practices]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), on a trustworthy computer (a computer which is not infected).
 * If you no longer have access to your account, contact the administrators of the application you used. Most online applications offer a service for the retrieval of stolen accounts.
-* Do not use computers that do not belong to you and follow best practices with regard to malware.
-* Make sure you check that the [website]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) on which you enter your log-in information is properly secure, with “https”.
+* Do not use computers that do not belong to you and follow best practices with regard to [malware]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}).
+* Make sure you check that the website on which you enter your log-in information is properly secure, with [“https”]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %}).
