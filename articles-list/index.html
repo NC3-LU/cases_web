@@ -12,7 +12,6 @@ pagination:
 
 {% include articleslist.html %}
 
-
 {% comment %}
    Pagination made by Jekyll
 {% endcomment %}
@@ -39,30 +38,32 @@ pagination:
         {% endfor %}
     </div>
 
-    <nav aria-label="Page navigation example" class="txtcenter">
+    <nav aria-label="Page navigation example">
       {% if paginator.total_pages > 1 %}
-        <ul class="pagination">
+        <ul class="pagination justify-content-center">
             <li class="page-item">
               {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+                <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
               {% else %}
-              <span>&laquo; Prev</span>
+                <a class="page-link" href="#">&laquo; Prev</a>
               {% endif %}
             </li>
-            <li class="page-item">
               {% for page in (1..paginator.total_pages) %}
+              <li class="page-item">
 
               {% if page == 1 %}
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
               {% else %}
-                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
                 {% endif %}
+              </li>
               {% endfor %}
 
+              <li class="page-item">
               {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+                <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
               {% else %}
-                <span>Next &raquo;</span>
+                <a class="page-link" href="#">Next &raquo;</a>
               {% endif %}
             </li>
         </ul>
@@ -86,8 +87,6 @@ pagination:
     <span class="next txtcenter">&raquo;</span>
     {% endif %}
     {% endcomment %}
-
-
 </div>
 
 
