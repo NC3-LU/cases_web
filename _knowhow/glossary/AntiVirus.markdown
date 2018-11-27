@@ -12,7 +12,8 @@ lang: en
 ---
 ## In brief
 
-Antivirus is software for the identification and blocking of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
+Antivirus is software for the identification and blocking of
+[malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
 It does this using two key resources:
 

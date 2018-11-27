@@ -12,7 +12,7 @@ lang: fr
 ---
 
 ## En quelques mots
-De nos jours, il est très difficile de reconnaître si une machine est infectée. Les [cybercriminels]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) essayent surtout de déployer des [chevaux de Troie ]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie) pour pouvoir extraire des données (espionnage), respectivement d'utiliser l'ordinateur pour des attaques de grande envergure ('distributed denial of service'), pour envoyer du [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) ou autres usages illicites.
+De nos jours, il est très difficile de reconnaître si une machine est infectée. Les [cybercriminels]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) essayent surtout de déployer des [chevaux de Troie ]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}#cheval-de-troie) pour pouvoir extraire des données (espionnage), respectivement d'utiliser l'ordinateur pour des attaques de grande envergure ('déni de service distribué'), pour envoyer du [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) ou autres usages illicites.
 
 Certaines infections ne sont pas un but en soi et beaucoup d'infections initiales ne chargent qu'un logiciel d'installation. Dans ce cas, l'accès aux ordinateurs infectés est revendu au meilleur offrant qui peut alors utiliser l'installateur (trojan loader) pour installer le cheval de Troie définitif.
 
