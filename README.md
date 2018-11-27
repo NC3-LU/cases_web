@@ -5,7 +5,8 @@ This will include the cases web page based on jekyll
 To install it locally:
 
 First some extra tools need to be installed installed:
-sudo apt-get install build-essential patch ruby-dev zlib1g-dev
+
+```sudo apt-get install build-essential patch ruby-dev zlib1g-dev```
 
 1. install the ruby gems [jekyll (instructions)](https://jekyllrb.com/docs/installation/) and bundler - ```gem install bundler```
 2. clone this repository - ```git clone https://github.com/CASES-LU/cases_web.git```
