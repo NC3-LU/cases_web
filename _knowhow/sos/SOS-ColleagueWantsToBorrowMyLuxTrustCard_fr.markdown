@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – A colleague wants to borrow my LuxTrust card!"
+title:  "SOS – Un collègue souhaite emprunter ma carte Luxtrust !"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,11 +11,11 @@ ref: soswantstoborrowluxtrustcard
 lang: fr
 ---
 
-## In brief
-It is strongly inadvisable to lend a LuxTrust card to a third party. Users can not only be [authenticated](({% link _knowhow/glossary/Authentication_fr.markdown %})) using this card, but they can also sign documents.
+## En quelques mots
+Il est strictement déconseillé de prêter une carte LuxTrust à une tierce personne. Avec cette carte, l'utilisateur peut non seulement être [authentifié]({% link _knowhow/glossary/Authentication_fr.markdown %}) mais il peut également signer des documents.
 
-Depending on the type of card, signatures can be personal or on behalf of the organisation (professional card).
+Selon le type de carte, les signatures sont à titre personnel, ou pour le compte de l'organisation (carte professionnelle).
 
-Lending someone a LuxTrust card is the equivalent of giving a third party an absolute power of signature, with no restrictions.
+Prêter une carte LuxTrust équivaut donc à donner à une tierce personne un pouvoir de signature absolu, sans aucune restriction.
 
-For organisational reasons, the entity should hold “spare” cards intended for users who have accidentally left theirs at home. These cards only work within the entity and are only allocated for one day to enable in-house authentication.
+Pour des raisons organisationnelles, l'organisme doit disposer de cartes "spare" destinées aux utilisateurs ayant oublié leur carte. Ces cartes fonctionnent uniquement à l'intérieur de l'organisme, et ne sont attribuées que pour une journée afin de permettre l'authentification en interne.

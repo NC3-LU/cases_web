@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS - Need help?"
+title:  "SOS - Besoin d'aide?"
 menutitle: "SOS - Need help?"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
@@ -12,7 +12,7 @@ ref: sosneedhelp
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 Cette section sert à vous guider en cas de problèmes. Si vous ne trouvez pas de réponse à votre question ici n'hésitez pas à nous contacter.
 
 ## Email

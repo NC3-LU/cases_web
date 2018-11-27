@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – One of my colleagues knows my password!"
+title:  "SOS – Un collègue connait mon mot de passe !"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,22 +11,22 @@ ref: sosknowsmypassword
 lang: fr
 ---
 
-In brief
-A [password]({ % link _knowhow/glossary/Password_fr.markdown %}) is used to authenticate a person and to grant them access to the resources which they have a right to access. Passwords are strictly private. If someone else knows your password, they could commit offences under your identity. On top of this, operations carried out by a user may be recorded (they must be recorded under certain circumstances as detailed by the CNPD) and the user may be held responsible for their actions.
+## En quelques mots
+Un [mot de passe]({% link _knowhow/glossary/Password_fr.markdown %}) sert à authentifier une personne et à lui donner accès aux ressources auxquelles elle a droit. Le mot de passe est strictement personnel. Si un mot de passe est connu par une autre personne, cette dernière peut, sous l'identité du propriétaire légitime du mot de passe, commettre des infractions. De plus, toutes les opérations faites par un utilisateur peuvent être enregistrées (doivent même être enregistrées dans certains cas prévus par la CNPD) et l'utilisateur peut être tenu responsable pour ses actes.
 
-If another user knows your password, try and proceed as follows:
+Si un autre utilisateur connaît votre mot de passe, essayez de procéder de la façon suivante :
 
-* Change the subject of your dialogue. It can usually by changed easily with little effort.
-* Change your password and write it on a piece of paper, putting it in a sealed envelope and place it in a safety-deposit box. The opening of this envelope and the use of your password must be authorised by a supervisor and be carefully documented.
-* Once you return, change your password and deposit a copy under seal in the safe.
+* Changez la raison d'être de l'échange au niveau organisationnel. Elle peut généralement être modifiée facilement et avec peu d'efforts.
+* Changez votre mot de passe et notez le sur un papier, sous enveloppe scellée, déposée dans un coffre-fort. L'ouverture de cette enveloppe et l'utilisation de votre mot de passe doivent être autorisées par un responsable hiérarchique et être documentées consciencieusement.
+* Dès votre retour, changez votre mot de passe, et déposez une copie sous scellé dans le coffre-fort.
 
-If a user has procured your password illegally, report this security incident to the person responsible for IT systems security (CSSI) and change your password.
+Si un utilisateur s'est procuré votre mot de passe de manière illicite, signalez cet incident de sécurité au chargé de la sécurité des systèmes d'information (CSSI) et changez votre mot de passe.
 
-Sectoral policy on access control
+Politique sectorielle sur le contrôle d’accès
 
-* [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-* [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-* [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#password-management)
-* [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
-* [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
-* [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
+* [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Gestion des mots de passe]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#password-management)
+* [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+* [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+* [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)

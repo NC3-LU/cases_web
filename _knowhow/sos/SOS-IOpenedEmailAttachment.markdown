@@ -13,4 +13,4 @@ lang: en
 
 ## In brief
 
-If the attachment was attached to a suspicious email, your computer may now be contaminated with malicious software (malware). [Check whether your computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected.markdown %}).
+If the attachment was attached to a [suspicious email]({% link _knowhow/sos/SOS-RecognizingASuspiciousEmail.markdown %}), your computer may now be contaminated with [malicious software (malware)]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}). [Check whether your computer is infected]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %}).

@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – What to do before getting rid of my old hardware"
+title:  "SOS – Avant de me défaire de mon ancien matériel"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,20 +11,20 @@ ref: sosgettingridofhardware
 lang: fr
 ---
 
-## In brief</h3>
-Before you get rid of your old hardware, consider the level of criticality of the hardware itself and the data saved on it.
+## En quelques mots
+Avant de vous débarrasser de votre ancien matériel, prenez en considération le niveau de criticité du matériel lui-même et des données qui y ont été sauvegardées.
 
-## Confidentiality</h3>
-Hardware that contains secret or confidential [classified]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) data should not be reused by anyone else or in other departments. Storage media that holds data such as this should be destroyed either by being crushed or by a degausser.
+## Confidentialité
+Le matériel contenant des données [classifiées]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) secrètes ou confidentielles ne doit pas être ré-utilisé par d'autres personnes ou dans d'autres services. Les supports contentant ces données doivent être détruits soit par broyeur, soit par démagnétisation.
 
-Hardware that contains limited or internal data can be disposed of. The procedures for disposing of hardware must be followed to the letter. Make sure you remove any company logos from the hardware. You should make it impossible to identify the previous owner. 
+Le matériel contenant des données restreintes ou internes peut être mis au rebut. Les procédures de mise au rebut doivent être méticuleusement suivies. Veillez à enlever de votre matériel les logos éventuels de votre entreprise : une identification du propriétaire précédent doit être rendue impossible.
 
-Draft and enforce a Sectoral policy on Physical and environmental security – [Disposal and reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)
+Rédigez et faites respecter une politique sectorielle de sécurité physique et environnementale - [mise au rebut et réutilisation des équipements.]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)
 
-## Availability</h3>
-If you are disposing of hardware that requires high availability levels, check that you have enough replacements available before you dispose of it so that you can satisfy demand (stock of replacement hardware which meets redundancy needs and time needed for replacement).
+## Disponibilité
+Si vous vous débarrassez de matériaux devant répondre à un haut niveau de disponibilité, vérifiez avant de vous en débarrassez, de disposer de suffisamment de matériaux de remplacement pour garantir le niveau de disponibilité exigé (stock de matériaux de remplacement correspondant aux besoins de redondance respectivement aux temps de remplacement).
 
-Draft and enforce a Sectoral policy on Physical and environmental security – [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance).
+Rédigez et faites respecter une politique de sécurité physique et environnementale - [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance).
 
-## Environment</h3>
-When you dispose of hardware, make sure you respect the legal instructions relating to environmental safety. Failure to comply with disposal instructions may lead to legal and financial [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}), as well as consequences for your reputation.
+## Environnement
+Lorsque vous vous débarrassez de matériaux, veillez à respecter les consignes légales liées à l'environnement. Une mise au rebut non conforme peut engendrer des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) légaux, financiers et de réputation.

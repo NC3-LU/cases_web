@@ -1,6 +1,6 @@
 ---
 layout: knowhow
-title:  "SOS – Stolen hardware"
+title:  "SOS – Matériel volé !"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -12,16 +12,16 @@ lang: fr
 ---
 
 ## In brief
-A number of measures have been defined to diminish the risks relating to this type of problem. In the event that a device is not returned, it is recommended to perform the following operations:
+Un certain nombre de mesures ont été définies afin d’atténuer les risques liés à ce type de problèmes. Ainsi, en cas de non-retour de l’appareil, il est recommandé d’effectuer les opérations suivantes :
 
-* **Step 1**: If the device has access to your accounts (email, social media), please remove this authentication from all your accounts. All you have to do is log in to your accounts online and change the authentications.
-* **Step 2**: Change the passwords for all the accounts that can be accessed by the device.
-* **Step 3**: Activate dual authentication for the accounts that can be accessed by the device. Please note that all accounts have dual authentication.
-* **Step 4**: If you installed a tool capable of deleting data and the history, use it.
+* **Etape 1**: Lorsque votre appareil dispose d’un accès à vos comptes (e-mail, médias sociaux), veuillez retirer cette autorisation pour tous vos comptes. Il suffit de vous connecter à vos comptes en ligne et d’en modifier les autorisations.
+* **Etape 2**: Changer les mots de passe pour tous les comptes qui sont accessibles par cet appareil.
+* **Etape 3**: Activez la double authentification pour les comptes qui sont accessibles par cet appareil. Veuillez noter que tous les comptes disposent d’une double d’authentification.
+* **Etape 4**: Si vous avez installé un outil permettant d’effacer les données et l’historique, utilisez-le.
 
-#### What should you do if a device is returned?
-If the owner is able to retrieve their device, they should treat it as untrustworthy and even compromised, as they cannot know who has had access to it. If you suspect any kind of malicious installation, it is important to reinstall the software or even migrate all the data to new device. The First Aid kit describes a number of measures that should be taken in the event that the device is returned after a certain amount of time has passed by: [http://www.circl.lu/pub/dfak/DevicesSeized/](http://www.circl.lu/pub/dfak/DevicesSeized/) Prevention, to lessen risks
+#### Que faire lorsqu'un appareil est rendu ?
+Si le propriétaire récupère son appareil, il doit le considérer comme non fiable voire compromis, ne sachant pas qui y a eu accès. Au cas où vous soupçonneriez une installation malveillante, il est important de réinstaller les logiciels ou même de migrer l’ensemble des données vers un nouvel appareil. Le First Aid kit décrit un certain nombre de mesures à prendre au cas où le dispositif est rendu après un certain laps de temps : [http://www.circl.lu/pub/dfak/DevicesSeized/](http://www.circl.lu/pub/dfak/DevicesSeized/) Prévenir pour atténuer les risques
 
-Prevention remains key in order to lessen the risks when a device is lost, stolen or seized. Simple actions are recommended in order to protect data, such as [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption), [passwords]({% link _knowhow/glossary/Password_fr.markdown %}), locking with a PIN code for telephone [backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups), tools that enable data to be deleted remotely, the installation of theft alarm software.
+La prévention reste l’action clé à mener en aval afin d’atténuer les risques lorsqu’un appareil est perdu, volé ou saisi. Des actions simples sont recommandées afin de protéger les données, telles que le [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption), [les mots de passe]({% link _knowhow/glossary/Password_fr.markdown %}), le verrouillage du code PIN pour les smartphones, les outils qui permettent d’effacer les données à distance, l’installation du logiciel d’alerte en cas de vol.
 
-[Please read through the full article on the CIRCL website](https://www.circl.lu/pub/dfak/DevicesSeized/).
+[Veuillez consulter l'article entier en anglais sur le site de CIRCL.](https://www.circl.lu/pub/dfak/DevicesSeized/).
