@@ -11,52 +11,153 @@ ref: glossaryauthentication
 lang: fr
 ---
 
-## In brief
-Our society is largely based on the innate ability of humans to recognise their fellow humans. Humans have a highly evolved identification system with multiple factors such as appearance, voice, manner of speech, posture, etc.
 
-This human skill is something that is sorely lacking in computers. Although automated facial recognition systems do exist, they are far from perfect. The "shared secret" – the password – remains the predominant authentication factor for a computer. However, machine authentication factors are still far removed from our natural ability to recognise people and they are often, therefore, the weak link in information security. Indeed, people still do not take authentication seriously. Rather, most of us consider it to be a necessary evil. But this is often the only protection that users have against the fraudulent use of their online identity.
+En quelques mots
+----------------
 
-#Authentication factors
-Authentication on a computer is performed in different ways, classified here according to 4 factors:
+Les êtres humains ont une capacité innée à reconnaître leurs congénères,
+une grande partie de notre société repose sur cela. Ils possèdent un
+système d’identification très évolué et à facteurs multiples tels que
+l’apparence, la voix, la manière de parler, la posture, etc.
 
-### Authentication using something you know
-This is usually a password or pin code. The advantage of this identification method is its simplicity and familiarity for most people. However, it has many disadvantages:
+Cette habileté humaine est quelque chose qui manque cruellement aux
+ordinateurs. Bien qu’il existe certains systèmes automatisés de
+reconnaissance faciale, ceux-ci sont loin d’être au point. Le "secret
+partagé", c’est-à-dire le mot de passe, reste donc le facteur
+d’authentification prépondérant pour un ordinateur. Cependant les
+facteurs d’authentification sur machine sont encore bien éloignés de nos
+facultés naturelles à reconnaître les personnes et représentent ainsi
+souvent le maillon faible de la sécurité de l’information. En effet,
+l’authentification est loin d’être une procédure prise au sérieux par
+les êtres humains. Elle est plutôt considérée par la plupart d'entre
+nous comme un mal nécessaire. Pourtant, c’est souvent la seule
+protection que les utilisateurs ont face à l’utilisation frauduleuse de
+leur identité en ligne.
 
-* A [password]({% link _knowhow/glossary/Password_fr.markdown %}) can easily be copied without the knowledge of the legitimate user. A user's password can be stolen, for example, in a '[malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %})' or '[phishing' attack]({% link _knowhow/glossary/Phishing_fr.markdown %}); saving them on a website without [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %}) security; or by the mere fact that someone looks over your shoulder and notes your password when you log in ('shoulder surfing').
-* Many people use passwords that can easily be guessed by others, as shown by a [study conducted following the exfiltration of passwords from rockyou.com](https://www.imperva.com/docs/gated/WP_Consumer_Password_Worst_Practices.pdf).
-* Many people use the same password for different applications. If a hacker manages to compromise one of these applications using your password, he will probably try the same password to infiltrate other applications.
 
-### Authentication by something you own
-This authentication method generally uses a key providing physical access to the computer, a cryptographic card kept in a wallet or a 'TAN' type card.
+Facteurs d’une authentification
+-------------------------------
 
-The level of security used for this identification method depends on how easy it is to make copies of the tool in question.
 
-It is for example very easy to copy a TAN card (by photo, by photocopier); it is also easy to duplicate a key.
+L'authentification sur un ordinateur se fait par différentes manières,
+classées ici selon 4 facteurs :
 
-However, it is impossible to make a copy of a '[LuxTrust](https://www.luxtrust.lu/en/product_page/61)' card. The advantages of this authentication system are:
+### Authentification par quelque chose que vous savez
 
-* the certainty that the card cannot be reproduced
-* three incorrect authentication attempts block the card
-* if it is lost, the card can be cancelled and will not work anymore, even if the thief has the PIN code
+Il s'agit généralement d'une authentification par mot de passe ou par
+code pin. L'avantage de cette manière de s'identifier réside dans la
+simplicité de sa mise en œuvre et dans le fait que la plupart des gens
+sont familiers avec cette forme d'authentification. Les inconvénients
+sont cependant multiples:
 
-### Authentication by something that you are
-This involves fingerprint authentication or recognition by the layout of the veins of your hand or the image of your retina.
+-   Un [mot de passe]({% link _knowhow/glossary/Password.markdown %}) peut
+    facilement être copié à l'insu de l'utilisateur légitime. L'on peut
+    se faire voler son mot de passe par exemple lors d'une attaque de
+    type '[codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %})' ou
+    '[phishing]({% link _knowhow/glossary/Phishing.markdown %})' ; en les
+    sauvegardant sur un site web non sécurisé par
+    [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %})
+    ; ou encore par le simple fait que quelqu'un regarde par-dessus
+    votre épaule et note votre mot de passe lorsque vous l'inscrivez
+    ('shoulder surfing').
 
-### Authentication by something you know how to do
-This most often involves the user copying a distorted word (the well-known "captcha" fields, where you are asked to copy a word for example). This identification method makes it possible to differentiate humans from computers, but not human beings from one another, because most human skills are shared by large groups of the population and identification would not be unambiguous.
+-   Beaucoup de personnes utilisent des mots de passe faciles à deviner
+    par autrui, comme le montre notamment l'[étude faite suite à
+    l'exfiltration des mots de passe du site
+    rockyou.com](http://www.imperva.com/docs/WP_Consumer_Password_Worst_Practices.pdf).
 
-## Multi-factor authentication
-Multi-factor [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}) means the use of at least two of the first three authentication factors. It goes without saying that the more forms of authentication used, the greater the level of information access security.
+-   Beaucoup de personnes utilisent le même mot de passe pour plusieurs
+    applications. Si un agresseur arrive à compromettre l'une de ces
+    applications en utilisant votre mot de passe, il ne tardera pas à
+    essayer ce même mot de passe pour s'infiltrer dans les autres
+    applications.
 
-It should not be forgotten that the more an online asset or service attracts the interest of [hackers]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}), the more effort they will put into getting it. This is why online services are secured at different levels. The ideal access security would obviously be always to use multi-factor authentication. Unfortunately, the cost of implementation, the accessibility of technology and the constant developments in security solutions mean that this behaviour is not yet a reality for users. Few people have a fingerprint reader and even fewer are willing to carry it when they travel. Hence, the most common form of authentication is the password, i.e. where the user shares secret information with the computer that the computer is able to identify.
+### Authentification par quelque chose que vous possédez
 
-## Security policy
-Draft and enforce the following sectoral policies:
+Cette manière d'authentification se réalise généralement grâce à une clé
+permettant un accès physique à l'ordinateur; à une carte cryptographique
+que l'on garde le plus souvent dans son portefeuille ; ou encore grâce à
+une carte du type 'TAN'.
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-  * [Password management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#password-management)
-  * [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
+Le niveau de sécurité de cette manière d'identification dépend de la
+facilité à faire des copies de l'outil concerné.
+
+Il est par exemple très facile de copier une carte TAN (par photo, par
+photocopieuse) ; il est également facile de faire une double d'une clé.
+
+Par contre, il est impossible de faire une copie d'une carte
+'[LuxTrust](https://www.luxtrust.lu/fr/product_page/30)'. Les avantages
+d'un tel système d'authentification sont:
+
+-   la certitude d'avoir une carte non-reproductible
+
+-   trois essai erronés mènent au blocage de la carte
+
+-   lors d'une perte, la carte peut être révoquée et ne fonctionnera
+    plus, même si le voleur est en possession du code PIN
+
+### Authentification par quelque chose que vous êtes
+
+Il s'agit ici de l'authentification par empreinte digitale, ou encore la
+reconnaissance par la disposition de vos veines dans votre main ou
+l'image de votre rétine.
+
+### Authentification par quelque chose que vous savez faire
+
+Il s'agit ici le plus souvent de faire copier à l'utilisateur un mot
+déformé (les fameux champs « captcha », où l’on vous demande de recopier
+un mot par exemple). Cette manière d'identification permet surtout de
+différencier les êtres humains des ordinateurs, et non les êtres humains
+entre eux, car la plupart des compétences humaines sont partagées par de
+larges groupes de la population et l’identification ne serait de ce fait
+pas être univoque.
+
+
+
+Authentification par facteurs multiples
+---------------------------------------
+
+L'on comprend par
+[authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}) à
+facteurs multiples, l'utilisation d'au moins deux des trois premiers
+facteurs d'authentification. Il va de soi que plus on utilise de moyens
+d'authentification, plus on augmente le niveau de sécurité de l'accès
+aux informations.
+
+N'oublions pas non plus que plus un bien ou service en ligne attire
+l'intérêt d'un [attaquant]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}),
+plus celui-ci mettra en oeuvre les efforts pour y arriver. C'est pour
+cette raison, que les services en ligne sont sécurisés selon différents
+niveaux. L'idéal pour la sécurité d'accès serait biensûr de toujours
+utiliser des authentifications à facteurs multiples. Malheureusement le
+coût de la mise en oeuvre, l’accessibilité à la technologie et
+l'évolution constante des solutions liées à la sécurité, font que
+actuellement ce comportement n'est pas encore une réalité auprès des
+utilisateurs. Peu de gens possèdent un lecteur d’empreintes digitales et
+moins encore sont prêts à le transporter lors de leurs déplacements.
+C’est pour ces raisons que la forme la plus répandue d’authentification
+est celle du mot de passe, c’est-à-dire celle où l'utilisateur partage
+avec son ordinateur une information secrète et identifiable par
+celui-ci.
+
+
+Politique de sécurité
+---------------------
+
+
+Rédigez et faites appliquer les politiques sectorielles:
+
+-   [Classification et maîtrise des
+    ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html)
+    -   [Classification et responsabilité des
+        ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html&WCE_section_206_1=1&WCE_section_206_1=1#579)
+-   [Contrôle
+    d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html)
+    -   [Politique de contrôle
+        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=1&WCE_section_265_1=1#596)
+    -   [Gestion des droits
+        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=2&WCE_section_265_1=2#597)
+    -   [Gestion des mots de
+        passe](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=3&WCE_section_265_1=3#598)
+    -   [Procédure de
+        connexion](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=7&WCE_section_265_1=7#602)
