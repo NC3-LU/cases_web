@@ -69,11 +69,11 @@ Sensitive information on electronic media must be encrypted.
 ### Social networks
 You are advised not to announce a business trip on social networks like Facebook, Twitter or LinkedIn. It would also be very ill-advised to post information such as the reason for the trip, your destination, hotel, schedule, any contacts and accompanying persons on these networks.
 
-##
+## During your trip
 During your trip, you should apply the following rules:
 
 1. Always **secure data** by avoiding leaving laptops and mobile phones unguarded. Anti-theft cables are recommended for laptops, especially when attending trade shows.
-2. Documents that are no longer needed should be destroyed, rather than merely thrown away. This prevents them being recovered by others.
+2. Documents that are no longer needed should be **destroyed**, rather than merely thrown away. This prevents them being recovered by others.
 3. **Business relationships**: remain alert when sharing information with potential partners and ensure that your contacts can be trusted.
 4. **Mobile phones**: care is needed when sending sensitive information (SMS, emails, photos, documents) by mobile phone, as it can be intercepted. The only way to protect them is to use an [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) system like 'pgp' for emails or 'securetext' for SMS. You should also ensure:
 
