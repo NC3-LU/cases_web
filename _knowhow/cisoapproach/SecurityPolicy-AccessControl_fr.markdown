@@ -13,7 +13,7 @@ lang: fr
 ## Politique de contrôle d'accès
 L’accès aux applications et aux données (fichiers, base de données) qui ont été [classifiées]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}) comme importantes ou vitales, est réservé aux personnes autorisées et est interdit à toute autre personne, qu’elle soit interne ou externe à "l’organisation".
 
-e droit d’accès à chacune des ressources est accordé par le responsable des données, tel que défini dans la section 2 “[Attributions des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)”. Il définit également le type d’accès aux informations : lecture seule, modification ou droit de suppression.
+e droit d’accès à chacune des ressources est accordé par le responsable des données, tel que défini dans la section 2 “[Attributions des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)”. Il définit également le type d’accès aux informations: lecture seule, modification ou droit de suppression.
 
 C’est lui qui peut accorder, faire modifier ou supprimer tout droit d’accès à ces données.
 
@@ -110,7 +110,7 @@ Avant de créer un compte personnel pour un utilisateur, le responsable informat
 
 La connexion à des réseaux externes, et en particulier à l'Internet, doit se faire dans des conditions appropriées.
 
-Voici quelques scénarios possibles :
+Voici quelques scénarios possibles:
 
 ### Appliquer dans mesures de sécurité pour:
 
@@ -154,7 +154,7 @@ Voici quelques scénarios possibles :
 * [le filtre web]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %})
 
 ## Connexion de l'extérieur
-La connexion depuis un réseau extérieur vers les systèmes de « l’organisation » doit être restreinte aux cas indispensables. A ces occasions, la connexion se fait de façon préférentielle via [VPN]({% link _knowhow/glossary/VPN_fr.markdown %}).
+La connexion depuis un réseau extérieur vers les systèmes de "l’organisation" doit être restreinte aux cas indispensables. A ces occasions, la connexion se fait de façon préférentielle via [VPN]({% link _knowhow/glossary/VPN_fr.markdown %}).
 
 ### Appliquer des mesures de sécurité pour:
 
@@ -214,9 +214,9 @@ Voir aussi: [La segmentation de réseau]({% link _knowhow/glossary/NetworkSegmen
 * [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ## Procédures de connexion
-Les écrans d’accueil sur les différents systèmes sont configurés de manière à :
+Les écrans d’accueil sur les différents systèmes sont configurés de manière à:
 
-* donner le minimum d’informations, et de préférence aucune sur le système, l’application et « l’organisation », tant que l’utilisateur ne s’est pas correctement identifié ;
+* donner le minimum d’informations, et de préférence aucune sur le système, l’application et "l’organisation", tant que l’utilisateur ne s’est pas correctement identifié;
 * afficher un message du type "Accès interdit à toute personne non autorisée";
-* limiter le nombre de tentatives à 3 essais avant de refuser l’utilisateur ;
+* limiter le nombre de tentatives à 3 essais avant de refuser l’utilisateur;
 * afficher, si possible, la date et l’heure de la dernière connexion, ainsi que les tentatives de connexion. Ces informations sont à vérifier par l’utilisateur pour s'assurer qu’il n’y a pas eu de connexion frauduleuse à son insu.

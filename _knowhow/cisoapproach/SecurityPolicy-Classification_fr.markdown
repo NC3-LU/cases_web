@@ -148,7 +148,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
       <ol>
         <li> La modification pourrait engendrer des pertes importantes pour l’organisme ou permettrait à l’auteur de la modification de s’enrichir considérablement.</li>
         <li>Des procédures formelles de contrôle périodique sont mises en œuvre très souvent (environ une semaine à un mois maximum).</li>
-        <li>Courrier « DHL », système de GED, configuration des serveurs ou éléments de stockage, lignes téléphoniques.</li>
+        <li>Courrier "DHL", système de GED, configuration des serveurs ou éléments de stockage, lignes téléphoniques.</li>
         <li>Utilisation de la signature, coffre fort.</li>
       </ol>
     </td>

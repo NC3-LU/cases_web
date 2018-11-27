@@ -10,58 +10,60 @@ toc: true
 ref: cisophysiscalenvironmentalsecurity
 lang: fr
 ---
-## Physical security perimeter
-[Physical security]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %}) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
+## Périmètre de sécurité physique
 
-Always be aware of the actual value of a resource (see [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})) in order to be able to plan suitable protection.
+La [sécurité physique]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %}) concernant l'organisation est le premier aspect de sécurité à mettre en œuvre. En effet, quel intérêt y a t'il à se protéger avec des mots de passe ou des logiciels compliqués si une personne peut accéder physiquement à une ressource essentielle pour la voler, la modifier ou la détruire ? (PME voir: [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises) et [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware) et [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery) et [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
 
-All the elements listed as important or vital for “the organisation” must be installed in secure premises. These premises constitute the security perimeter.
+Ayez toujours conscience de la valeur réelle d’une ressource (voir [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}))  afin de pouvoir planifier une protection adéquate.
+
+Tous les éléments répertoriés comme importants ou vitaux pour "l’organisation" doivent être installés dans des locaux sécurisés. Ces locaux constituent le périmètre de sécurité.
 
 ### Appliquer des mesures de sécurité pour:
 
-* [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [laptops]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les ordinateurs]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 * [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
 * [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
 * [le réseau fixe]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %})
 * [le réseau wifi interne]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
 * [le réseau wifi pour clients]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
-* [protect the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
+* [protéger les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
 
 ### Mesures organisationnelles directement liées:
 
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
-  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
+  * [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
   * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
 * [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
   * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
-* [ Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
 
 
 ### Mesures techniques:
 
-[Physical security]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %})
+[sécurité physique]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %})
 
-## Rules within the perimeter
+## Règles dans le périmètre
 
-### The premises within the security perimeter should be:
+Les locaux du périmètre de sécurité doivent être:
 
-* protected against access by unauthorised persons, and therefore especially by persons not from “the organisation”. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)). Access should be through a single door and authorised by the IT manager,
-* protected against fire. The doors should be fire doors and fire alarms should be fitted. (SMEs see: [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire))
+* protégés contre l’accès de personnes non autorisées et donc a fortiori aux personnes étrangères à "l’organisation". (PME voir:  [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises) et [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) et [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery) et [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)). Une seule porte permet d’y accéder et l’autorisation est donnée par le responsable informatique,
+* protégés contre l’incendie. Les portes doivent être coupe-feu et des alarmes incendie doivent être installés. (PME: voir [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire))
 
-### The following rules should also be respected:
+D’autre part, les règles suivantes doivent être respectées:
 
-* keys should under no circumstances be accessible to the public.
-* office equipment such as fax machines and photocopiers should be located within a safe area, but not near more crucial elements, so as not to increase the need for people to access the area for more crucial elements,
-* doors and windows should be kept locked, especially outside office hours,
-* access points, especially on the ground floor, should be protected against unwanted entry, either by grills or by an electronic detection system paired with an audio alarm,
-* hazardous or dangerously flammable materials (including cardboard, paper, waste baskets and cleaning products) should not be stored near vital or important elements.
+* les clés ne doivent en aucun cas être accessibles au public.
+* les équipements de bureaux de type fax ou photocopieurs doivent être situés dans un périmètre sûr, mais pas à proximité des éléments les plus essentiels, de façon à ne pas multiplier les demandes d’accès dans cette zone,
+* les portes et les fenêtres doivent être fermées à clé, en particulier en dehors des heures de bureau,
+* les accès, en particulier au rez-de-chaussée, doivent être protégés contre l’intrusion, soit par des grilles ou par un système de détection électronique couplé à une alarme sonore,
+* les matériaux dangereux ou facilement inflammables (ceci inclut les cartons, papiers, poubelles et produits de nettoyage) ne doivent pas être stockés à proximité des éléments vitaux ou importants.
 
-### To be applied in security measures for:
+
+### Appliquer des mesures de sécurité pour:
 
 * [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
 * [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
@@ -74,58 +76,63 @@ All the elements listed as important or vital for “the organisation” must be
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
 * [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
   * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
   * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
-  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+  * [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
 * [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
   * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
 
 
-### Technical measures
-Physical security
+### Mesures techniques
 
-## Electrical equipment safety
-The electricity power supply for vital equipment must be made safe:
+La [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
 
-* by a power supply for 2 different sources (2 fuses on 2 circuits) where equipment has 2 power supplies (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers));
-* by an uninterrupted power unit which ensures a supply of electricity during brief power cuts for a sufficient length of time to fully power off the equipment;
-* by a backup generator.
+## Sécurité électrique des équipements
 
-### To be applied in security measures for:
+Les alimentations électriques des équipements vitaux doivent être sécurisées:
+
+* par une alimentation de 2 sources différentes (2 fusibles sur 2 circuits) quand les équipements disposent de 2 alimentations (PME: voir [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption) et [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers));
+* par une unité non interruptible qui garantit l’alimentation pendant les petites coupures et suffisamment longtemps pour éteindre les équipements proprement;
+* par un générateur de secours.
+
+
+### Appliquer dans mesures de sécurité pour:
 
 * [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
 * [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
   * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
 
-### Technical measures
-[Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+### Mesures techniques
+
+La [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
 
 ## Maintenance
-For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence) and [Administration impossible}({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) of [resources]({% link _knowhow/glossary/Assets_fr.markdown %})
 
-When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded_fr.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery))
+Pour les ressources classifiées comme importantes ou vitales, un contrat de maintenance doit être conclu avec un délai d’intervention ou de remplacement garanti, compatible avec les besoins de disponibilité de la ressource. (PME: voir [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence) et [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators)). La maintenance est un critère important pour optimiser la [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) des [ressources]({% link _knowhow/glossary/Assets_fr.markdown %})
 
-See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepairs_fr.markdown %})
+Lorsqu’un équipement quitte "l’organisation" pour maintenance, ou est [mise en rebut]({% link _knowhow/glossary/Discarded_fr.markdown %}), il ne doit pas contenir de données confidentielles. Si tel est le cas, et selon la sensibilité des données, une procédure spécifique doit être décidée (traitement sur place, accompagnement du matériel, destruction du matériel, etc.). (PME: voir [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport) et [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery))
 
-### To be applied in security measures for:
+Voir aussi: [SOS - donner en réparation]({% link _knowhow/sos/SOS-HandoverToRepairs_fr.markdown %})
+
+### Appliquer dans mesures de sécurité pour:
 
 * [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
 * [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
@@ -133,37 +140,38 @@ See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepai
 ### Mesures organisationnelles directement liées:
 
 * [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
   * [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Sécurité électrique des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Gestion des vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
 
 
-### Technical measures
+### Mesures techniques:
 
-[Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+La [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
 
-## Off-site equipment security
-The equipment used for processing information off the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft); [Basic security measures for laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %}#recommendations))
+## Sécurité des équipements hors locaux
+
+Les équipements utilisés pour le traitement des informations à l'extérieur des locaux de "l’organisation" (à la maison, dans un hôtel, chez un client), comme les laptops ou téléphones, sont soumis à des procédures de sécurité semblables. Toutefois, les utilisateurs doivent être particulièrement vigilants aux risques de vols et garder le matériel sous surveillance à tout instant. Une assurance spécifique doit être contractée pour ce type d’équipement. Le matériel peut être marqué pour prévenir tout échange. Une autorisation doit être accordée par le responsable de l’équipement dans "l’organisation" avant toute sortie de matériel. Celui-ci peut envisager l’utilisation ou non d’outils de chiffrement des données présentes sur le disque dur. (PME: voir [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport); [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft); [Mesures de sécurité basiques pour les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %}#recommendations))
 
 ### Appliquer des mesures de sécurité pour:
 
-* [laptops]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
   * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
@@ -176,72 +184,71 @@ The equipment used for processing information off the site of “the organisatio
 
 ### Mesures techniques:
 
-* [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-* [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
+* [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+* [Prévenir le vol physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
 
-## Disposal and reuse of equipment
-Any equipment that [is discarded]({% link _knowhow/glossary/Discarded_fr.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)).
+## Mise en rebut et réutilisation des équipements
 
-Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
+Tout équipement qui est [mise au rebut]({% link _knowhow/glossary/Discarded_fr.markdown %}) ou réutilisé dans un autre contexte doit être vidé de toutes ses données;  les disques doivent être effacés. Le système pourra être réinstallé, le cas échéant. Selon la sensibilité des données sauvegardées, la destruction physique des disques (par broyeur ou démagnétiseur) doit être envisagée. (PME: voir [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)).
 
-Whichever method is chosen, please be respectful of the environment.
+L’effacement classique des fichiers est insuffisant car les données resteront présentes sur le disque. Si les compétences internes manquent de connaissances pour le faire, un fournisseur externe peut s'en charger sous la surveillance d’un membre de l’organisation.
+
+Quoi qu'il arrive, soyez respectueux de l'environnement.
 
 ### Appliquer des mesures de sécurité pour:
 
-* [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [laptops]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les ordinateurs]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 * [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
 * [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
 * [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
   * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
   * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
 * [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
   * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
   * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ### Mesures techniques:
 
-* [Disposal]({% link _knowhow/glossary/Discarded_fr.markdown %})
-* [Physical security]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %})
+* [Mise en rebut]({% link _knowhow/glossary/Discarded_fr.markdown %})
+* [sécurité physique]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %})
 
-## Tidy office policy
-Follow a tidy office policy, i.e.:
+## Politique du bureau propre
 
-* tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) (CD-ROMs, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
-* keep the most important media under lock and key, or even in a fireproof safe;
-* if anyone leaves their PC unused for more than a few minutes, the screensaver should come on. A password should be entered to exit the screensaver and start work again. You are strongly advised not to bypass this step;
-* use a special waste bin or a shredder to destroy sensitive paper documents.
+Respectez une politique du rangement de bureau, à savoir:
 
-### Appliquer des mesures de sécurité pour:
+* rangez les papiers et [supports informatiques amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) (CD-ROM, disquettes,etc) sans les laisser à la vue de tout le monde. Enlever vos documents de l'imprimante, fax ou photocopieurs;
+* sauvegardez sous clés les supports les plus importants ou même dans des coffres ignifuges;
+* lorsqu’une personne laisse son PC inutilisé pendant quelques minutes, le logiciel économiseur d’écran (screensaver) devrait s'activer. Le mot de passe permettra de quitter l’économiseur et de reprendre le travail. Il est fortement déconseillé de contourner ce mécanisme;
+* utilisez une poubelle spéciale ou des broyeurs pour la destruction des documents papiers sensibles.
 
-> WHAT???
 
 ### Mesures organisationnelles directement liées:
 
 * [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
   * [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
-  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+  * [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
 * [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
   * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
   * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ### Mesures techniques:
 
-[Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+La [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
