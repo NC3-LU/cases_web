@@ -147,17 +147,11 @@ Politique de sécurité
 
 Rédigez et faites appliquer les politiques sectorielles:
 
--   [Classification et maîtrise des
-    ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html)
-    -   [Classification et responsabilité des
-        ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html&WCE_section_206_1=1&WCE_section_206_1=1#579)
--   [Contrôle
-    d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html)
-    -   [Politique de contrôle
-        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=1&WCE_section_265_1=1#596)
-    -   [Gestion des droits
-        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=2&WCE_section_265_1=2#597)
-    -   [Gestion des mots de
-        passe](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=3&WCE_section_265_1=3#598)
+-   [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+    -   [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+-   [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+    -   [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+    -   [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+    -   [Gestion des mots de passe]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#password-management)
     -   [Procédure de
-        connexion](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=7&WCE_section_265_1=7#602)
+        connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
