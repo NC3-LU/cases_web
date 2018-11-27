@@ -15,17 +15,11 @@
 
     <div class="col-md-6">
         <nav class="navbar navbar-expand-lg">
-
-              <!-- <a href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu-white.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="fa fa-bars fa-2"></span>
-              </button> -->
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                   <div class="dropdown-menu">
                     {% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
                     {% if services == blank or services == empty or services == nil %}
@@ -40,7 +34,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
+                  <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
                   <div class="dropdown-menu">
                     {% assign knowhows=site.knowhow | where:"lang", page.lang | sort: 'ref' %}
                     {% if knowhows == blank or knowhows == empty or knowhows == nil %}
@@ -55,7 +49,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a>
+                  <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="/articles-list/index.html">Articles</a>
                     <a class="dropdown-item" href="{% link publications.md  %}">In depth Articles</a>
@@ -77,9 +71,6 @@
                 </li>
               </ul>
             </div>
-
-
-
 
         </nav>
     </div>
