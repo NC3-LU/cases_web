@@ -38,7 +38,7 @@ Si le courrier électronique est impersonnel et insinue l'urgence, il s'agit tr�
 Si le courrier électronique est impersonnel et contient un lien, il s'agit très probablement d'un courrier essayant de vous attirer sur un [site web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) ([phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) ou infection par [codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) exploitant des [vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)). Dans tous les cas, laissez ce lien fermé. (Voir : [Email – bonnes pratiques]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})).
 
 ## Courrier avec pièce jointe
-Si le courrier électronique est impersonnel et contient un lien, il s'agit très probablement d'un courrier essayant de vous attirer sur un site web malicieux (phishing ou infection par codes malicieux exploitant des vulnérabilités techniques). Dans tous les cas, laissez ce lien fermé. (Voir : [Email – best practices](-))
+Si le courrier électronique est impersonnel et contient un lien, il s'agit très probablement d'un courrier essayant de vous attirer sur un site web malicieux (phishing ou infection par codes malicieux exploitant des vulnérabilités techniques). Dans tous les cas, laissez ce lien fermé. (Voir : [Email – best practices]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}))
 
 ## Courrier personnel
 Même si le courrier électronique vous est correctement adressé, restez vigilants, et vérifiez les indices décrits ci-joint :
@@ -50,7 +50,7 @@ Au cas où l'expéditeur est connu, mais s'adresse à vous d'une manière diffé
 
 (Voir : [Email – best practices]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}))
 
-### Unknown sender
+### Expéditeur inconnu
 Vous recevez un courrier d'un expéditeur inconnu et  le courrier ne s'inscrit pas dans un contexte connu et strictement professionnel. Restez vigilant quant à la manipulation du contenu, respectivement des pièces jointes.
 
 Le courrier peut contenir des pièces jointes infectées par [code malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}) , ou vous inciter à visiter un [site web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) en suivant le lien affiché dans le courrier.
