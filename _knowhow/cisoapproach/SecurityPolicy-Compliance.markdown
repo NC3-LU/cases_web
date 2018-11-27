@@ -19,7 +19,7 @@ Non-compliance with information technology legislation may put the *organisation
 ## Intellectual property
 The *organisation* must also ensure the respect of [copyright]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#intellectual-property) and licences. Sanctions for non-compliance with these laws may threaten the *organisation* (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence)). This particularly applies to copyright on original literary and artistic works, which includes databases and computer programs, as set out in the Law of 18 April 2001.
 
-The IT team is expected to check the requirements for both programs used and data owned by the organisation. In case of doubt, they can consult Luxembourg law at http://www.eco.public.lu/dpi (in French), or contact a legal expert.
+The IT team is expected to check the requirements for both programs used and data owned by the organisation. In case of doubt, they can consult Luxembourg law at https://meco.gouvernement.lu/fr/le-ministere/domaines-activite/propriete-intellectuelle.html (in French), or contact a legal expert.
 
 The basic principles on this matter are as follows:
 
@@ -30,7 +30,7 @@ The basic principles on this matter are as follows:
 * brands, designs and models must be respected;
 
 ## Protection of operational data
-Depending on the nature of the data processed, the *organisation* is bound by the Law of 2 August 2002 to implement appropriate measures to prevent any unauthorised person from accessing the data processing facilities (see [legal aspects]({% link _knowhow/glossary/LegalAspects.markdown %})).
+Depending on the nature of the data processed, the *organisation* is bound by the General Data Protection Regulation (GDPR) to implement appropriate measures to prevent any unauthorised person from accessing the data processing facilities (see [legal aspects]({% link _knowhow/glossary/LegalAspects.markdown %})).
 
 Data corresponding to commercial activity must be kept, in one form or another, for ten years from the end of the financial year to which it applies.
 
@@ -40,7 +40,7 @@ Data corresponding to commercial activity must be kept, in one form or another, 
 
 ### Behavioural measures:
 
-* Best practice concerning email
+* [Best practice concerning email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
 
 ### Directly associated organisational measures:
 
@@ -55,7 +55,7 @@ Data corresponding to commercial activity must be kept, in one form or another, 
   * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
-*[ Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 * [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
@@ -67,7 +67,7 @@ Data corresponding to commercial activity must be kept, in one form or another, 
 * [Backups]({% link _publications/ProtectingYourCompany.markdown %}#data-backups)
 
 ## Personal data protection
-Any file or database created must comply with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data, as well as the new GDPR legislation. The same applies to processing involving both newly created data and pre-existing data. (SMEs: see [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring))
+Any file or database created must comply with the General Data Protection Regulation (GDPR). The same applies to processing involving both newly created data and pre-existing data. (SMEs: see [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring))
 
 In order to work within the confines of the laws, the IT manager and the legal manager, having obtained the applicable texts from the [National Commission for Data Protection](https://cnpd.public.lu/en.html) (hereinafter the *Commission*) ensure the adequacy of the structure, notably in the following areas:
 

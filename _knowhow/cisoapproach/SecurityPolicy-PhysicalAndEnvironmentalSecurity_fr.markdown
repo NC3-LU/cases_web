@@ -226,7 +226,7 @@ Quoi qu'il arrive, soyez respectueux de l'environnement.
 
 Respectez une politique du rangement de bureau, à savoir:
 
-* rangez les papiers et [supports informatiques amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) (CD-ROM, disquettes,etc) sans les laisser à la vue de tout le monde. Enlever vos documents de l'imprimante, fax ou photocopieurs;
+* rangez les papiers et [supports informatiques amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}) (Clés USB, disques,etc) sans les laisser à la vue de tout le monde. Enlever vos documents de l'imprimante, fax ou photocopieurs;
 * sauvegardez sous clés les supports les plus importants ou même dans des coffres ignifuges;
 * lorsqu’une personne laisse son PC inutilisé pendant quelques minutes, le logiciel économiseur d’écran (screensaver) devrait s'activer. Le mot de passe permettra de quitter l’économiseur et de reprendre le travail. Il est fortement déconseillé de contourner ce mécanisme;
 * utilisez une poubelle spéciale ou des broyeurs pour la destruction des documents papiers sensibles.

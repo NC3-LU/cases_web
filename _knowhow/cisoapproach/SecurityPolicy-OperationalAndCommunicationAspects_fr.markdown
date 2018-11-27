@@ -69,7 +69,7 @@ On parle ici "d’outsourcing" ou de "facilities management", ou plus simplement
 
 ## Protection contre les logiciels malveillants
 
-Une attaque par des virus ou autres [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) est l’un des risques les plus probables pour tout utilisateur d'informatique. Ceux-ci peuvent s'infiltrer dans "l’organisation" par le biais de  [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}),comme notamment les CD-Rom, disquettes, stick USB ou via e-mail ou la visite de sites malicieux.
+Une attaque par des virus ou autres [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) est l’un des risques les plus probables pour tout utilisateur d'informatique. Ceux-ci peuvent s'infiltrer dans "l’organisation" par le biais de  [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}),comme notamment les sticks USB ou via e-mail ou la visite de sites malicieux.
 
 Les ordinateurs et serveurs de "l’organisation" doivent être munis de [logiciels anti-virus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}). Le responsable informatique est chargé d’installer ces outils sur chaque machine et de s’assurer qu'ils soient constamment à jour. Sont concernés aussi bien les postes de travail des utilisateurs, que les serveurs (voir [mesures de sécurité pour serveurs de fichiers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %}) et [mesures de sécurité pour serveurs de messagerie électronique]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})).
 

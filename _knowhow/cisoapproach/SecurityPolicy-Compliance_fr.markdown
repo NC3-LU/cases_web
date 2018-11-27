@@ -33,7 +33,7 @@ Les principes de base à ce sujet sont les suivants:
 
 ## Protection de données opérationnelles
 
-Selon le caractère des données traitées, "l’organisation" est tenue par la loi du 2 août 2002 de mettre en place des mesures appropriées pour empêcher toute personne non autorisée d’accéder aux installations utilisées pour le traitement des données (voir [aspects légaux]({% link _knowhow/glossary/LegalAspects_fr.markdown %})).
+Selon le caractère des données traitées, "l’organisation" est tenue par le règlement général sur la protection des données (RGPD) de mettre en place des mesures appropriées pour empêcher toute personne non autorisée d’accéder aux installations utilisées pour le traitement des données (voir [aspects légaux]({% link _knowhow/glossary/LegalAspects_fr.markdown %})).
 
 Les données correspondant à l’activité commerciale doivent être conservées, sous une forme ou une autre, pendant dix ans à partir de la clôture de l’exercice auquel elles se rapportent.
 
