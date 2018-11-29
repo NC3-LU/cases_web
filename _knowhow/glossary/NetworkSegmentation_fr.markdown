@@ -145,14 +145,15 @@ Cas d’une très petite entreprise. La segmentation se résume à
 l’utilisation d’un routeur NAT pour séparer le réseau interne
 d’Internet.
 
-![Réseau
-petit](https://www.cases.lu/index-quick.php?dims_op=doc_file_download&docfile_md5id=9c47bb9cbe49fc0c63deb4d833365c6e)
+![Réseau petit](img/little-network.png)
+
 
 ### Réseau de taille moyenne
 
 Cas d’une entreprise moyenne avec un serveur de fichiers  et de mails.
-Un seul firewall s’occupe de la segmentation du réseau.![Réseau
-moyen](https://www.cases.lu/index-quick.php?dims_op=doc_file_download&docfile_md5id=110b1a3e4920d59e2b9cee473a0a2f13)
+Un seul firewall s’occupe de la segmentation du réseau.
+
+![Réseau moyen](img/medium-network.png)
 
 ### Réseau de grande taille
 
@@ -160,5 +161,4 @@ Cas d’une grande entreprise avec réseau pour externes et un sous réseau
 isolé en DMZ (zone orange dans laquelle les serveurs ne peuvent pas
 communiquer entre eux).
 
-![Réseau
-grand](https://www.cases.lu/index-quick.php?dims_op=doc_file_download&docfile_md5id=d50aa7a15bfe322acdbad8f8bed900b2)
+![Réseau grand](img/big-network.png)
