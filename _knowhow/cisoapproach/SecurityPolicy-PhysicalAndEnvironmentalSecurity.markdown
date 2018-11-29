@@ -119,7 +119,7 @@ The electricity power supply for vital equipment must be made safe:
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 ## Maintenance
-For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible}({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
+For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
 
 When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
 
@@ -213,17 +213,13 @@ Whichever method is chosen, please be respectful of the environment.
 * [Disposal]({% link _knowhow/glossary/Discarded.markdown %})
 * [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
-## Tidy office policy
-Follow a tidy office policy, i.e.:
+## Clean desk policy
+Follow a clean desk policy, i.e.:
 
-* tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (CD-ROMs, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
+* tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (USB flash drives, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
 * keep the most important media under lock and key, or even in a fireproof safe;
 * if anyone leaves their PC unused for more than a few minutes, the screensaver should come on. A password should be entered to exit the screensaver and start work again. You are strongly advised not to bypass this step;
 * use a special waste bin or a shredder to destroy sensitive paper documents.
-
-### Applying security measures to:
-
-> WHAT???
 
 ### Directly associated organisational measures:
 

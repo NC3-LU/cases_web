@@ -10,59 +10,65 @@ toc: true
 ref: cisohumanfactor
 lang: fr
 ---
-## Security as a mission
-Respecting the organisation’s security policy is an essential condition for the continuity of activities. Each person must be aware of it, implement it, and understand that if they don’t comply with it they will risk sanctions (potentially legal).
+## La sécurité comme mission
 
-Each member of the “organisation” must read and sign the “security compliance agreement for members of the organisation” provided in the annexe. Newcomers will read it and sign it upon taking up the employment, while “existing employees” sign it when the policy comes into effect, under the responsibility of the staff manager.
+Le respect de la politique de sécurité de "l’organisation" est une condition essentielle à la continuité de ses activités. Chaque personne doit en avoir conscience, le mettre en œuvre et savoir qu’il s’expose à des sanctions (même légales) en cas de non-respect.
 
-## Training and information
-Everyone should be aware of both the risks and the [security measures]({% link _publications/ProtectingYourCompany_fr.markdown %}) and procedures to be implemented. In this respect, all managers must ensure that the persons under their responsibility are aware of the security policy.
+Chaque membre de "l’organisation" doit lire et signer "l’engagement de respect de la sécurité pour les membres de  l’organisation" présenté en annexe. Les nouveaux arrivants l’examineront et le signeront lors de leur embauche, tandis que les "anciens" le signent dès la mise en œuvre de cette politique, sous la responsabilité du responsable du personnel.
 
-Additionally, any person with technological responsibilities must ensure that they are proficient in the security aspects and, if necessary, have provided training and information to their colleagues.
+
+## La formation et l'information
+
+Aussi bien les risques, ainsi que les procédures et [mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) à mettre en oeuvre doivent être connus de tous. A cet égard, tous les responsables doivent s’assurer que les personnes sous leur responsabilité ont connaissance de la politique de sécurité.
+
+D’autre part, toute personne ayant une responsabilité technique doit s’assurer qu’elle en maîtrise les aspects sécuritaires et, si nécessaire, s’y former et informer ses collègues.
 
 ### Appliquer dans mesures de sécurité pour:
 
 * [les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
 * [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
-### See also:
+### Voir aussi:
 
-* [Protecting your business – Training your employees]({% link _publications/ProtectingYourCompany_fr.markdown %})
-* [Awareness and training]({% link _publications/ProtectingYourCompany_fr.markdown %}#training-and-awareness)
-* [Human errors]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#human-error-prevention-measures)
+* [Protéger son entreprise - Former ses employés]({% link _publications/ProtectingYourCompany_fr.markdown %})
+* La [sensibilisation et la formation]({% link _publications/ProtectingYourCompany_fr.markdown %}#training-and-awareness)
+* Les [erreurs humaines]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#human-error-prevention-measures)
 
-## Human Resources management
+## La gestion des ressources humaines
 
-### Prior to recruitment
-The aim of the [security policy]({% link _knowhow/CISOApproach_fr.markdown %})  is to ensure that all agents are aware of their responsibilities and that agents are chosen in view of their suitability for the responsibilities allocated to them. This principle avoids the risk of error or incorrect use of the organisation’s property .
+### Avant le recrutement
 
-To this effect, the organisation must ensure that it mentions security-related responsibilities in job descriptions. The candidates, especially for sensitive posts, are chosen taking this element into consideration. The chosen candidates are asked to sign an agreement on their security-related roles and responsibilities.
+L’objectif de la [politique de sécurité]({% link _knowhow/CISOApproach_fr.markdown %})  iest d’assurer que tout agent connaisse ses responsabilités et que l’agent ait été choisi de façon à ce qu’il convienne pour les responsabilités qui lui sont attribuées. Ce principe permet d’éviter le risque d’erreur ou de mauvais usages des biens de l'organisation.
 
-### During the employment contract
-The aim of the security policy is to ensure each agent is aware of:
+À cet effet, l'organisation veille à mentionner les responsabilités en matière de sécurité dans les descriptions de postes. Les candidats, surtout pour des postes sensibles, sont choisis en considération de cet élément. Les candidats retenus sont priés de signer un accord sur les rôles et responsabilités en matière de sécurité.
 
-* the usefulness of knowing and understanding the **security policy**,
-* the [threats]({% link _knowhow/glossary/Threat_fr.markdown %})  that are most likely to affect the security of their activity,
-* the worst [case]({% link _knowhow/glossary/Impact_fr.markdown %})  scenarios,
-* their own responsibility in terms of security, and
-* the necessity of contributing to **risk reduction**, particularly in relation to human errors.
+### Pendant la durée du contrat
 
-The security policy encourages each agent to receive the appropriate training and qualifications. In particular, users must:
+L’objectif de la politique de sécurité est d’assurer que tout agent soit conscient:
 
-* know and understand the security policy
-* know and respect the instructions and security measures
-* actively contribute to improving security
-* inform the members of the security committee of any shortcomings or security incidents.
+* de l’utilité de connaître et comprendre la **politique de sécurité**,
+* des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %})  les plus probables sur la sécurité de son activité,
+* des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %})  les plus redoutés,
+* de sa responsabilité en matière de sécurité, et de la nécessité de contribuer à **réduire les risques** liés en particulier à des erreurs humaines.
 
-The provisions of the disciplinary procedure on the general employee status are applicable in the event of a violation of the security policy rules.
+La politique de sécurité incite à ce que chaque agent reçoive les formations et qualifications adéquates. En particulier, les utilisateurs doivent:
 
-### Responsibility at the end of the contract
-The purpose of the security policy is to ensure that the actors who are leaving the organisation or changing post follow a formal procedure. In particular, the actors must return all of the organisation’s equipment, their access must be withdrawn and they must be made aware of their responsibilities that remain applicable after their employment contract has ended, e.g. the obligation to respect confidentiality.
+* connaître et comprendre la politique de sécurité
+* connaître et respecter les consignes et **mesures de sécurité**
+* contribuer activement à améliorer la sécurité
+* informer les membres d’un comité de sécurité des lacunes ou incidents de sécurité.
 
-## Response to incidents and malfunctions
-Each member of the “organisation” must report the following observations to their direct manager, to the IT manager, or to the management board:
+Les dispositions de la procédure disciplinaire du statut général des employés sont applicables en cas de violation des règles de la politique de sécurité.
 
-* the weakness ([vulnerability]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) ) of a tool, a procedure or any other element of the “organisation”,
-* any security incident noted using a surveillance tool or by any other means.
+### Responsabilité en fin de contrat
 
-Reported incidents and vulnerabilities are dealt with and resolved by the manager responsible for the element concerned. Their initiator and other members of the company are informed of the solutions implemented, so that everyone remains vigilant.
+L’objectif de la politique de sécurité est d’assurer que les intervenants qui quittent l'organisation ou qui changent d’affectation suivent une procédure formelle. Les intervenants doivent en particulier restituer le matériel de l'organisation, leurs accès doivent être révoqués et ils doivent prendre conscience des responsabilités valables au-delà du contrat d’engagement, comme p.ex. l’obligation du respect de la confidentialité.
+
+## La réponse aux incidents et dysfonctionnements
+
+Chaque membre de "l’organisation" doit signaler à son responsable direct ou au responsable de l’informatique ou à la direction les constatations suivantes:
+
+* la faiblesse  ([vulnérabilité]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) )d’un outil, d’une procédure ou de tout autre élément de "l’organisation",
+* tout incident de sécurité, constaté grâce à un outil de surveillance ou par tout autre moyen.
+
+Les incidents ou faiblesses signalés sont traités et résolus par le responsable de la gestion de l’élément concerné. Leur initiateur et les autres membres de l’entreprise sont informés des solutions mises en œuvre, de manière à assurer la vigilance de tous.

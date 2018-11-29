@@ -80,18 +80,18 @@ It involves calculating a value, in other words an approximative level for ident
 
 <table class="tg">
   <tr>
-    <th class="tg-us36 color-table-grey">Numero actif</th>
-    <th class="tg-us36 color-table-grey">Libelle actif</th>
-    <th class="tg-us36 color-table-grey">Type d'actif</th>
-    <th class="tg-us36 color-table-grey">Niv. Imp.</th>
-    <th class="tg-us36 color-table-grey">Menace</th>
-    <th class="tg-us36 color-table-grey">Libelle menace</th>
-    <th class="tg-us36 color-table-grey">Niv men.</th>
-    <th class="tg-us36 color-table-grey">Vulnerabilite</th>
-    <th class="tg-us36 color-table-grey">Libelle vulnerabilite</th>
-    <th class="tg-us36 color-table-grey">Niv vulne.</th>
-    <th class="tg-us36 color-table-grey">Niv. risque</th>
-    <td class="tg-us36 color-table-grey">Commentaire</td>
+    <th class="tg-us36 color-table-grey">Asset ID</th>
+    <th class="tg-us36 color-table-grey">Asset name</th>
+    <th class="tg-us36 color-table-grey">Asset type</th>
+    <th class="tg-us36 color-table-grey">Imp. level</th>
+    <th class="tg-us36 color-table-grey">Threat</th>
+    <th class="tg-us36 color-table-grey">Threat name</th>
+    <th class="tg-us36 color-table-grey">threat level</th>
+    <th class="tg-us36 color-table-grey">Vulnerability</th>
+    <th class="tg-us36 color-table-grey">Vulnerability name</th>
+    <th class="tg-us36 color-table-grey">Vulne. level</th>
+    <th class="tg-us36 color-table-grey">Risk level</th>
+    <td class="tg-us36 color-table-grey">Comment</td>
   </tr>
   <tr>
     <td class="tg-us36" rowspan="5">ASB01</td>
@@ -148,18 +148,18 @@ The estimated risks are prioritised in order of importance, based on the decisio
 
 <table class="tg">
   <tr>
-    <th class="tg-us36 color-table-grey">Numero actif</th>
-    <th class="tg-us36 color-table-grey">Libelle actif</th>
-    <th class="tg-us36 color-table-grey">Type d'actif</th>
-    <th class="tg-us36 color-table-grey">Niv. Imp.</th>
-    <th class="tg-us36 color-table-grey">Menace</th>
-    <th class="tg-us36 color-table-grey">Libelle menace</th>
-    <th class="tg-us36 color-table-grey">Niv men.</th>
-    <th class="tg-us36 color-table-grey">Vulnerabilite</th>
-    <th class="tg-us36 color-table-grey">Libelle vulnerabilite</th>
-    <th class="tg-us36 color-table-grey">Niv vulne.</th>
-    <th class="tg-us36 color-table-grey">Niv. risque</th>
-    <td class="tg-us36 color-table-grey">Commentaire</td>
+    <th class="tg-us36 color-table-grey">Asset ID</th>
+    <th class="tg-us36 color-table-grey">Asset name</th>
+    <th class="tg-us36 color-table-grey">Asset type</th>
+    <th class="tg-us36 color-table-grey">Imp. level</th>
+    <th class="tg-us36 color-table-grey">Threat</th>
+    <th class="tg-us36 color-table-grey">Threat name</th>
+    <th class="tg-us36 color-table-grey">threat level</th>
+    <th class="tg-us36 color-table-grey">Vulnerability</th>
+    <th class="tg-us36 color-table-grey">Vulnerability name</th>
+    <th class="tg-us36 color-table-grey">Vulne. level</th>
+    <th class="tg-us36 color-table-grey">Risk level</th>
+    <td class="tg-us36 color-table-grey">Comment</td>
   </tr>
   <tr>
     <td class="tg-us36" rowspan="5">ASB01</td>

@@ -10,126 +10,134 @@ toc: true
 ref: cisosystemdeploymentmaintenance
 lang: fr
 ---
-## Encryption
-[Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) consists of making data illegible to an unauthorised third party and preventing them from saving or transferring the data. The use of this method is recommended when transferring information classed as vital and confidential for the “organisation”, in particular during [email]({ % link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) communications. The choice of encryption method falls to the IT manager. If necessary they may consult with external specialists. (SMEs: see [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#interception-of-communications)).
+## Le chiffrement
+
+Le [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)  consiste à rendre illisible des données à un tiers non autorisé et à l’empêcher de les sauvegarder ou de les transporter. L'usage de cette méthode est recommandée dans le cadre du transfert d’informations classées comme vitales et confidentielles pour "l’organisation", notamment lors de communication via [e-mail]({ % link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email). Le choix du moyen cryptographique incombe au responsable informatique. Il peut faire appel, le cas échéant, à des compétences externes. (PME: voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#interception-of-communications)).
 
 ### Appliquer des mesures de sécurité pour:
 
-* [File servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
-* [Email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
-* [Fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %})
-* [Internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
-* [Customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
-* [Computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [Laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les serveurs de fichiers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [réseau fixe]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %})
+* [réseau wifi interne]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-employees)
+* [réseau wifi pour clients]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}#wifi-for-visitorsexternal-users)
+* [Les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [Les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
-  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
+  * [Sécurité des médias pendant les transports]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
   * [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
-  * [Electronic signatures]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
+  * [La signature électronique]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
 * [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
   * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
   * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ### Mesures techniques:
 
-* [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+* le [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
-## Implementation
-Some examples of free encryption tools:
+## Mise en oeuvre
+
+Quelques exemples d'outils de chiffrement libres:
 
 ### VeraCrypt
-[VeraCrypt](https://veracrypt.codeplex.com/) is a free encryption software program with which you can encrypt a whole hard drive or create encrypted containers into which you can place sensitive files. These containers can be located on a hard drive, a file server or even on [removable devices]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}). It is easy to use and reliable from a security point of view.
+[VeraCrypt](https://veracrypt.codeplex.com/) est un logiciel libre de chiffrement avec lequel vous pouvez chiffrer un disque dur entier ou créer des conteneurs chiffrés dans lequel vous pouvez déposer des fichiers sensibles. Ces conteneurs peuvent se trouver sur un disque dur, un serveur de fichier ou même des [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}). Il est simple d'utilisation et fiable d'un point de vue sécurité.
 
 ### 7Z
-[7Z](https://www.7-zip.org/) is a free tool used to compress and archive files. This tool also has a AES 256-bit strong encryption option. It can therefore be used to transfer confidential encrypted files on removable devices or by email since the files are located in a compressed archive.
+[7Z](https://www.7-zip.org/) est un outil gratuit pour comprimer et archiver des fichiers. Cet outil a aussi une option de chiffrement forte en AES 256 bits. Il peut donc être utilisé pour transférer des fichiers confidentiels chiffrés sur des supports amovibles, respectivement envoyés par courrier électronique puisque les fichiers se trouvent dans un archive comprimé.
 
-It is a symmetrical encryption tool like truecrypt, so you need to exchange the encryption key securely with the recipient. Use a channel that is safe but different to the one used for the transfer of data. You can, for example, send the key by post, fax or SMS, or hand it to them in person.
+Il s'agit ici d'un outil de chiffrement symétrique comme veracrypt, il faut donc échanger la clé de chiffrement de façon sécurisée avec le destinataire. Utilisez un canal sûr, mais différent de celui utilisé pour le transfert des données. Vous pouvez par exemple envoyer la clé via voie postale, fax ou par sms, respectivement la remettre en main propre.
 
-## Deposit of encryption keys
+## Dépôt des clés d'encryption
 
-### Responsibility
-The CSSI and the key administrator are responsible for the encryption process.
+### Responsabilité
+
+Le CSSI et le gestionnaire des clés sont responsables du processus de chiffrement.
 
 ### Deposit creation
-The CSSI defines a secure location (typically a safety-deposit box [classified]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) as SECRET) in which copies of the keys made available to users are kept. The deposit has no backup. In the event they are destroyed, the key administrators should deposit their cases again.
 
-### “Paper” deposit of keys classified as SECRET in a safety-deposit box.
+Le CSSI définit un emplacement sécurisé (typiquement un coffre-fort [classé]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) SECRET) dans lequel il conserve les copies des clés mises à disposition par les utilisateurs. Le dépôt n’a pas de backup. En cas de destruction, les gestionnaires de clés doivent déposer une nouvelle fois leurs clés.
 
-Applicable security measures:
+### Dépôt "papier" dans un coffre-fort de clés classé "Secret".
 
-* Two people are necessary (“four eyes” principle; separate [l'authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}));
-* Protocol for opening and access to keys;
-* Keys in sealed envelopes;
-* Contents inventory stating:
-  * the name of the key creator; the name of persons authorised to access it;
-  * the name of the environment and of the software for use with the key;
-  * the type of data being protected;
-  * the identifier of the envelope containing the value of the key.
+Les mesures de sécurité applicables:
 
-### “Electronic” deposit (for CO keys)
-This is the same procedure as detailed above, except for the four-eyes principle, as only the CSSI may access the safety-deposit box. This is why they may keep keys in electronic form (in a sufficiently protected container). They can replace the key identifier with the key itself. The CSSI does, however, have to ensure that their safeguards can also enable access to the key file.
+* Deux personnes sont requises (principe des quatre yeux; [l'authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}) séparée);
+* Protocole d’ouverture et d’accès aux clés;
+* Clés dans des enveloppes scellées;
+* Inventaire du contenu indiquant:
+  * le nom du créateur de la clé; le nom des personnes autorisées à y accéder;
+  * le nom de l’environnement et du logiciel utilisant la clé;
+  * le type de données protégées;
+  * l'identifiant de l’enveloppe contenant la valeur de la clé.
 
-### Importing into the physical deposit
-The author of the key drafts a form, noting down the key, and encloses it in the presence of the person responsible for the safety-deposit box, after having shown this person the form, solely for sufficient time for this person to see that the form has been fully completed and that the quality of the key is sufficiently good.
+###  Dépôt "électronique" (pour clé du coffre-fort)
 
-The person responsible for the deposit updates the deposit inventory and has it signed by the author of the added key.
+Il s'agit de la même procédure de question que décrit précédemment, à l'exception du principe des quatre yeux, car seul le CSSI peut accéder au coffre-fort. Voilà pourquoi il peut conserver les clés sous forme électronique (dans un contenant suffisamment protégé). Il peut remplacer l’identifiant de la clé par la clé elle-même. Le CSSI doit cependant assurer que ses sauvegardes puissent également permettre  d'accéder au fichier de clé.
 
-### Exporting a key from deposit
-No key can be removed from deposit. In the case of usage, authorised persons may come and consult it:
+### Importation dans le dépôt physique
 
-The following are authorised:
+L’auteur de la clé prépare un formulaire, note la clé, et l’enferme en présence du responsable du coffre-fort, après lui avoir montré le formulaire, uniquement le temps nécessaire pour voir que le formulaire est rempli de manière complète, que la qualité de la clé est suffisamment bonne.
 
-1. author of the key;
-2. any person explicitly mandated by the administrator of the information protected by the key, on condition that there is a legitimate purpose validated by the Security manager.
+Le responsable du dépôt met à jour l’inventaire du dépôt et le fait signer par l’auteur de la clé ajoutée.
 
-Any export of the safety-deposit box inventory shall be signed by the person who examined the key, as well as the safety-deposit box managers.
+### Exportation d’une clé du dépôt
 
-### Destruction of a key from deposit
-On written request by the author and validated by the manager of the information protected, the safety-deposit box managers proceed with the destruction of a key. To this end, they destroy the envelope with the key inside in a document destroyer, after having verified the destruction request.
+Une clé ne peut pas être enlevée du dépôt. En cas d’utilisation, les personnes autorisées peuvent venir la consulter:
+Sont autorisés:
 
-The inventory is updated, keeping the destruction request as proof of legitimisation.
+1. l’auteur de la clé;
+2. toute personne déléguée explicitement par le gestionnaire des informations protégées par la clé, à condition qu’il y ait une légitimité validée par le responsable Sécurité.
 
-## Electronic signatures
-An electronic signature is a method used to guarantee the authenticity of the source of a message (sender), and the [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) of its contents.
+Toute exportation de l’inventaire du coffre est signée par la personne ayant pris connaissance de la clé, ainsi que les responsables du coffre-fort.
 
-This technology should be implemented during dialogue via email with external entities which may represent a commitment for the “organisation”. It is the responsibility of the IT manager to implement this technology for users.
+### Destruction d’une clé du dépôt
 
-[LuxTrust](https://www.luxtrust.lu) provides electronic signature solutions. [OpenPGP](https://www.openpgp.org/) is a free alternative for signatures and encryption.
+Sur demande écrite de l’auteur et validée par le gestionnaire de l’information protégée, les responsables du coffre-fort procèdent à la destruction d’une clé. À cet effet, il détruit l’enveloppe avec la clé dans un destructeur de documents, après avoir vérifié la demande de destruction.
 
-Electronic signatures can be affixed to documents and to emails. The signature guarantees the authenticity of the sender, as well as the [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) of the contents of the file relating to the message.
+L’inventaire est mis à jour, en conservant la demande de destruction comme preuve de légitimation.
+
+## La signature électronique
+
+La signature électronique est une méthode utilisée pour garantir l’authenticité de la source d’un message (l’expéditeur), et l'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) de son contenu.
+
+Cette technologie doit être mise en œuvre lors d’échanges via e-mails avec des entités extérieures et qui pourraient avoir valeur d’engagement pour "l’organisation". Il incombe au responsable informatique de mettre en place cette technologie pour les utilisateurs.
+
+[LuxTrust](https://www.luxtrust.lu) offre des solutions de signature électronique. [OpenPGP](https://www.openpgp.org/) st une alternative libre pour la signature et le chiffrement.
+
+Les signatures électroniques peuvent notamment être apposées sur des documents, ainsi que sur des courriers électroniques. La signature garantit l'authenticité de l'expéditeur ainsi que l'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) du contenu du fichier respectivement du message.
 
 ### Appliquer des mesures de sécurité pour:
 
-* guarantee integrity
-* guarantee non-repudiation
+* garantir l'intégrité
+* garantir la non-répudiation
 
-### Organisational measures:
+### Mesures organisationnelles:
 
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
   * [Gestion des vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
 
 ### Mesures techniques:
 
-* [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+* le [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
-## Managing technical vulnerabilities
-All types of organisation need to monitor risks relating to the exploitation of [technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities) which have been subject to publication.
+## Gérer les vulnérabilités techniques
 
-To do this, they should introduce an effective and systematic management of technical vulnerabilities for all their operating systems and network equipment. This is done through the application of [corrective]({% link _knowhow/glossary/Patches_fr.markdown %}) or other tools designed to prevent the exploitation of technical vulnerabilities. Monitoring the measures undertaken will enable their actual effectiveness to be gauged.
+Tout organisme doit veiller à réduire les risques liés à l’exploitation des [vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities) ayant fait l’objet d’une publication.
+Pour ce faire, il met en place, pour l’ensemble de son infrastructure y compris les logiciels, les systèmes d’exploitation et les équipements réseau, une gestion efficace et systématique des vulnérabilités techniques. Celle-ci s'opère par l'application de [correctifs]({% link _knowhow/glossary/Patches_fr.markdown %}) ou d'autres outils aptes à prévenir l'exploitation de vulnérabilités techniques. Le suivi des mesures effectuées permet d'en mesurer l'efficacité concrète.
 
 ### Appliquer des mesures de sécurité pour:
 
@@ -138,7 +146,7 @@ To do this, they should introduce an effective and systematic management of tech
 * [les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
 * [les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
-### Behavioural measures:
+### Mesures comportementales:
 
 * [les sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
 * [malicious code]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
@@ -146,17 +154,17 @@ To do this, they should introduce an effective and systematic management of tech
 ### Mesures organisationnelles directement liées:
 
 * [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  *[ Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
 * [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
   * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [Separation of development and production environments]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#separation-of-environments)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [Séparation des environnements de développement et de production]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#separation-of-environments)
 * [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
-  * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
+  * [Gestion des incidents et des améliorations de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
 
 
 ### Mesures techniques:
-* [corrections]({% link _knowhow/glossary/Patches_fr.markdown %})
+* [les correctifs]({% link _knowhow/glossary/Patches_fr.markdown %})
 * [le pare-feu]({% link _knowhow/glossary/Firewall_fr.markdown %})
-* [network segmentation]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})
+* [la segmentation de réseau]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})

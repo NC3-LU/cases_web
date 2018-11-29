@@ -10,28 +10,30 @@ toc: true
 ref: cisoclassificationcontrolresources
 lang: fr
 ---
-## Classification and responsibility for resources
-An [inventory of the “organisation’s” vital and important resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#inventory-of-assets) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. The [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) of [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) is an extremely important task.
+## Classification et responsabilités des ressources
 
-The level of importance of the resource for the company is also specified:
+Il convient de tenir à jour un [inventaire des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#inventory-of-assets) importantes et vitales de "l’organisation". Il prend la forme d’un tableau décrivant la ressource et désignant la ou les personnes responsables. La [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) des [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) est une tâche ultimement importante.
+
+Le niveau d’importance de la ressource pour l’entreprise est également précisé:
 
 * vital
 * important
 
-The following elements are considered [resources]({% link _knowhow/glossary/Assets_fr.markdown %}):
+Sont considérés comme [ressources]({% link _knowhow/glossary/Assets_fr.markdown %}) les éléments suivants:
 
-* computers (PC, laptops, servers, netbooks) and printers;
-* communications equipment (modem, switch, router, PABX, fax, etc.);
-* files and databases (regardless of the device: disks, CD-ROMs, tapes, etc.);
-* applications (software);
-* documents (contracts, procedures, plans, archives, etc.).
+* ordinateurs (PC, portables, serveurs, mini) et imprimantes;
+* équipements de communication (modem, switch, routeur, Pabx, fax, etc.);
+* fichiers et bases de données (quels que soient leurs supports: disques, CD Rom, bandes, etc.);
+* applications (logiciels);
+* documents (contrats, procédures, plans, archives, etc.).
 
-#### Comments
-Elements classified as "**vital**" are those that could compromise the *organisation’s* existence if they disappear, are disclosed externally or become defective.
+#### Remarque
 
-Elements considered as "**important**" are those that could cause serious consequences for the company under the same conditions.
+Les éléments désignés comme "**vitaux**" sont ceux qui pourraient compromettre l’existence de "l’organisation" s’ils venaient à disparaître, à être divulgués à l’extérieur ou à être défectueux.
 
-#### Security measures:
+Les éléments considérés comme "**importants**" sont ceux qui pourraient causer des conséquences non négligeables à l’entreprise dans les mêmes conditions.
+
+#### Mesures de sécurité:
 
 * [les serveurs fichier]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %})
 * [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
@@ -44,15 +46,15 @@ Elements considered as "**important**" are those that could cause serious conseq
 #### Mesures organisationnelles directement liées:
 
 * [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
   * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
 * [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Identification of applicable legislation]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation)
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Identification de la législation applicable]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation)
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
   * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
   * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
@@ -60,34 +62,34 @@ Elements considered as "**important**" are those that could cause serious conseq
 
 * [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})
 
-## Inventory of assets
+## Inventaire des actifs
 
-An inventory of the “organisation’s” major resources ([assets]({% link _knowhow/glossary/Assets_fr.markdown %})) should be kept up to date. It takes the form of a table describing the resource and naming the person or persons in charge. Each asset should be [classified]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})) according to [confidentiality]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList_fr.markdown %})), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %})) and [availability]({% link _knowhow/glossary/Availability_fr.markdown %})) requirements.
+Il convient de tenir à jour un inventaire des ressources ([actifs]({% link _knowhow/glossary/Assets_fr.markdown %})) majeures de "l’organisation". Il prend la forme d’un tableau décrivant la ressource et désignant la ou les personnes responsables. Pour chaque chaque actif, il convient de procéder à une [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})) selon les besoins de [confidentialité]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList_fr.markdown %})), d'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %})) et de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %})).
 
-Elements classified as “vital” are those that could compromise the “organisation’s” existence if they disappear, are disclosed externally or become defective. Elements considered as “important” are those that could cause serious consequences for the company under the same conditions.
+Les éléments désignés comme "vitaux" sont ceux qui pourraient compromettre l’existence de "l’organisation" s’ils venaient à disparaître, à être divulgués à l’extérieur ou à être défectueux. Les éléments considérés comme "importants" sont ceux qui pourraient causer des conséquences non négligeables à l’entreprise dans les mêmes conditions.
 
-The management and classification of properties is based on the following principles:
+La gestion et la classification des biens se basent sur les principes suivants:
 
-1. Application to all assets, in other words, anything with value, including information, such as listed in an inventory.
-2. Determination of a manager for each asset type.
-3. Ensure the correct use of assets in accordance with the security rules for the different classes.
-4. Regular review by the manager.
-5. Classification based on 3 criteria: confidentiality, integrity and availability.
-6. Classification depending on [impact]({% link _knowhow/glossary/Impact_fr.markdown %})).
-7. Confidentiality classification legacy.
-8. Qualification of contents to simplify management rules.
-9. Default classification.
-10. Marking to ensure the security rules are taken into account when handling assets.
-11. Use of [encryption]({% link _knowhow/glossary/Cryptography_fr.markdown %})) to ensure that sensitive information is transported in a sufficiently well-protected container.
+1. Application à tout actif, c’est-à-dire à tout ce qui a de la valeur, y compris les informations, telles que reprises dans un inventaire.
+2. Définition d’un gestionnaire pour chaque type d'actif.
+3. Garantir l’utilisation correcte des actifs en accordant des règles de sécurité aux différentes classes.
+4. Révision régulière par le gestionnaire.
+5. Classification en 3 axes: confidentialité, intégrité et disponibilité.
+6. Classification en fonction de l’[impact]({% link _knowhow/glossary/Impact_fr.markdown %})).
+7. Héritage de la classification de confidentialité.
+8. Qualification des contenants afin de simplifier les règles de gestion.
+9. Classification par défaut.
+10.Marquage pour assurer la prise en compte des règles de sécurité dans le traitement des actifs.
+11. Utilisation de la [cryptographie]({% link _knowhow/glossary/Cryptography_fr.markdown %})) afin de pouvoir véhiculer une information sensible dans un contenant suffisamment protégé.
 
-Which is where the following rules and responsibilities come in:
+D’où découlent les règles et responsabilités suivantes:
 
-1. Each item must be inventoried and attributed to a manager who is responsible for determining its classification and the [security measures]({% link _publications/ProtectingYourCompany_fr.markdown %})) to be applied.
-2. An item that contains other items must have at least the same classification as the most sensitive item it contains.
-3. Information always has the same classification, regardless of the form in which it is found.
-4. The security manager is responsible for characterising the contents.
-5. The security policy and any document contained within it will be inspired by internationally recognised best practice in security management. Best practice is documented in [ISO/IEC standards 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %})) and [27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM_fr.markdown %})).
-6. An item’s manager must have reached the rank of division manager or his replacement.
-7. The security manager is responsible for characterising the contents.
-8. The classification policy is implemented through procedures.
-9. These procedures and documents are available to all staff.
+1. Chaque bien doit être inventorié et attribué à un gestionnaire qui est chargé de définir la classification et les [mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %})) à appliquer.
+2. Un bien contenant d’autres biens a au minimum la même classification que le bien le plus sensible qui y est intégré.
+3. Une information a toujours la même classification, indépendamment de la forme sous laquelle elle se trouve.
+4. Le responsable de la sécurité est chargé de qualifier les contenants.
+5. La politique de sécurité et tout document y intégré seront inspirés des bonnes pratiques reconnues sur le plan international en matière de gestion de la sécurité. Ces bonnes pratiques sont documentées dans les normes [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %})) et [27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM_fr.markdown %})).
+6. Le gestionnaire d’un bien doit être au rang d’un chargé de la direction d’une division ou de son remplaçant.
+7. Le responsable de la sécurité est chargé de qualifier les contenants.
+8. La politique de classification est mise en œuvre à travers des procédures.
+9. Ces procédures et documents sont mis à disposition de tout le personnel.

@@ -26,8 +26,8 @@ The attached section is optional, but important for organisations that use serve
 
 ### Applying security measures to:
 
-* file servers
-* email servers
+* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %})
+* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * potentially to describe the installation of new computers and laptops (‘Ghost’)
 
 ### Directly associated organisational measures:
@@ -65,7 +65,7 @@ Here, we talk about “outsourcing” or “facilities management”.
 * Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)).
 
 ## Protection against malware
-An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %}), such as, in particular, CD-ROMs,
+An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %}), such as, in particular, USB flash drives and emails,
 
 The “organisation’s” computers and servers must be equipped with [antivirus software]({% link _knowhow/glossary/AntiVirus.markdown %}). The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see [security measures for file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %}) and [security measures for email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})).
 
@@ -73,7 +73,7 @@ On the other hand, a large number of measures must be respected by the users to 
 
 * prevent the antivirus tools from running (deactivating them, reconfiguring them, turning off updates, etc.);
 * install software that has not been approved by the IT manager (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software));
-* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: [see Social engineering/Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people) and [Handling malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %})). Such emails must be destroyed and advice may be requested from the IT manager.
+* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: see [Social engineering/Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people) and [Handling malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %})). Such emails must be destroyed and advice may be requested from the IT manager.
 
 Incoming email verification tools deal not only with viruses, but can also eliminate potentially dangerous attachments (executables, scripts, macros).
 
@@ -109,7 +109,7 @@ Incoming email verification tools deal not only with viruses, but can also elimi
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
   * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
-*[Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
 
@@ -178,7 +178,7 @@ When transporting or sending devices containing the “organisation’s” data,
 
 * The transportation of backups
 * Communication by email
-* Communication by Internet (FTP, etc.)[
+* Communication by Internet (FTP, etc.)
 
 ### Organisational measures:
 
@@ -191,7 +191,8 @@ When transporting or sending devices containing the “organisation’s” data,
 * [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
 
 ## Email
-Email that is transmitted across the Internet can in no way be considered a secure means of communication. This is because the email may be accidentally sent to the wrong recipients, or be edited or read by a third party. As a result, any operation for which the “organisation” is responsible would be better confirmed by an additional means (telephone, letter, fax, etc.). This would prevent recipient error or changes to prices or quantities on orders, for example. (good email practices)
+Email that is transmitted across the Internet can in no way be considered a secure means of communication. This is because the email may be accidentally sent to the wrong recipients, or be edited or read by a third party. As a result, any operation for which the “organisation” is responsible would be better confirmed by an additional means (telephone, letter, fax, etc.). This would prevent recipient error or changes to prices or quantities on orders, for example. ([good email practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}))
+
 
 Avoid sending confidential information by email. If applicable, use an approved encryption tool with your correspondents.
 

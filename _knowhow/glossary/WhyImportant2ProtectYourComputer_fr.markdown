@@ -10,62 +10,62 @@ toc: true
 ref: glossarywhyprotectyourcomputer
 lang: fr
 ---
-## In brief
-*A [virus]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) can paralyse your computer – it will no longer function correctly and will have to be repaired. It is extremely annoying!*
+## En quelques mots
+*Un [virus]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) paralyse votre ordinateur – il ne fonctionne plus correctement et devra être réparé. C'est très fâcheux !*
 
-If, like most people who use the Internet, you believe this temporary loss of [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) of your computer is the worst thing that can happen, you would be very wrong. This is just the tip of the iceberg. The real breadth of a digital attack only rarely comes into play. In almost all computers, [cybercriminals]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) can find “loot” with a high value. If they do grab this loot that you, as the legitimate owner, do not consider as being particularly valuable, this can lead to enormous damage.
+Si, comme la plupart des internautes, vous pensez que cette perte temporaire de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) oit la pire des choses qui puisse vous arriver, vous vous trompez. Ce n'est que la partie émergée de l'iceberg. L'ampleur réelle d'une attaque informatique ne se manifeste que rarement. Car dans presque tous les ordinateurs, les [cybercriminels]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) trouvent des "butins" de grande valeur. En effet, l’usurpation de ces butins, que vous, en tant que propriétaire légitime, ne considérez pas comme tels, peut entraîner d'énormes dégâts.
 
-[The poster “You Are A Target”](https://www.sans.org/security-awareness-training/resources/posters) in the SANS Institute (based on the work of Brian Krebs) gives an excellent overview of the routes taken by these criminals in order to make money off your back.
+[Le poster “You Are A Target”](https://www.sans.org/security-awareness-training/resources/posters) (Vous êtes une cible) de l’Institut SANS (basé sur le travail de Brian Krebs) donne un excellent aperçu des voies empruntées par les criminels pour se faire de l'argent sur votre dos.
 
-Particularly sought-after are:
+Sont notamment convoités :
 
-## Usernames and passwords.
-Cybercriminals access usernames and [passwords]({% link _knowhow/glossary/Password_fr.markdown %}) using [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) [emails]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) or Trojan horses which record every keystroke the user makes. It is often even easier than that. If you use a password that is too basic, it can be “guessed” in a few seconds using special software or by a [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) expert. Log-in data is highly coveted by ill-intentioned people, as it enables them to log in to online services in your name.
+## Les identifiants et mots de passe.
+Les cybercriminels accèdent aux identifiants et aux [mots de passe]({% link _knowhow/glossary/Password_fr.markdown %}) à l'aide d'[e-mails]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) de [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %})(hameçonage) ou de chevaux de Troie qui enregistrent toutes les touches saisies sur le clavier. Bien souvent, c'est encore plus facile : si vous utilisez un mot de passe trop simple, il peut être "deviné" en quelques secondes à l'aide d'un logiciel spécifique ou par un expert en [ingénirie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) Les données de connexion sont très convoitées par les personnes malintentionnées car elles leur permettent de se connecter à des services en ligne sous votre nom.
 
-For example:
+Par exemple :
 
-* on your company’s servers to access [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) company data
-* with online banking sites to steal money from your account
-* on your online server to access data you have [saved]({% link _knowhow/glossary/DataBackups_fr.markdown %})
-* on your online store to purchase items in your name and which will be billed to you
-* on your [social media]({% link _publications/ProtectingYourCompany_fr.markdown %}#communications-and-social-networks) accounts, your email account or your chat programs in order to steal your online identity and use it for improper purposes
+* sur les serveurs de votre société pour accéder aux données [confidentielles]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) de l'entreprise
+* sur les sites de banque en ligne pour voler de l'argent sur votre compte
+* sur votre serveur en ligne pour accéder aux données qui y sont [sauvegardées]({% link _knowhow/glossary/DataBackups_fr.markdown %})
+* sur votre boutique en ligne pour acheter des articles en votre nom qui vous seront facturés
+* sur votre [réseau social]({% link _publications/ProtectingYourCompany_fr.markdown %}#communications-and-social-networks) votre compte de messagerie ou dans votre chat pour usurper votre identité en ligne et l'utiliser à des fins abusives
 
-## Private contacts
-Cybercriminals collect names, email addresses and telephone numbers from people in your contacts list to sell them to third parties. These third parties will go on to use this data to send spam or [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) emails, thereby widening the scope of their [criminal]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) endeavours.
+## Contacts privés
+Les cybercriminels recueillent les noms, les adresses e-mail et les numéros de téléphone des personnes de votre liste de contacts afin de les vendre à des tiers. Ces derniers les utiliseront pour envoyer des spams ou des e-mails de [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) permettant ainsi d'élargir le champ d'action des [criminels]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}).
 
-If your list of contacts includes people in the public eye or who occupy positions of responsibility in certain industries, criminals may also search these contacts in a more targeted way.
+Si votre liste de contacts comprend des personnes de la vie publique ou occupant des postes de responsabilité dans certaines industries, les criminels pourraient aussi rechercher ces contacts de manière ciblée.
 
-## Sensitive communications
-Do you have private or important professional discussions via email or chat? Criminals may also be interested in this content! You should know that email is not a suitable means of sending confidential data – especially secret data.
+## Communications sensibles
+Vous menez des discussions privées ou professionnelles importantes par e-mail ou par chat ? Les criminels pourraient eux aussi s'intéresser à ces contenus ! Il faut savoir que les e-mails ne conviennent pas comme moyen de communication pour l'envoi de données confidentielles et encore moins pour l'envoi de données secrètes.
 
-## Virtual goods
-Cybercriminals will look into anything that can make them some money. Intangible goods, such as software licences, operating system keys or games licences – all easy to copy and resell – very much fall under this heading.
+## Biens virtuels
+Les cybercriminels jettent un œil sur tout ce qu'il puisse leur apporter de l'argent. Les biens non matériels, tels que licences de logiciel, clés de licence de systèmes d'exploitation ou licences de jeux, faciles à copier et à revendre, en font également partie.
 
-Characters, objects and payment methods in video games, as well as high scores, can also be a lucrative source of income for cybercriminals.
+Les personnages, objets et moyens de paiement de jeux vidéo ainsi que des scores élevés sont également lucratifs.
 
-## Your financial situation
-Once cybercriminals gain access to your computer, they can go through it seeking out valuable information. For example, information about your credit cards, tax data or investment plans. Depending on what they can find out about your financial situation, cybercriminals will decide whether or not to keep you within their line of sight.
+## Votre situation financière
+Dès lors que les cybercriminels ont accès à votre ordinateur, ils peuvent le fouiller à la recherche d'informations précieuses. Par exemple des informations sur vos cartes de crédit, vos données fiscales ou vos plans d'investissement. Selon les renseignements sur votre situation financière obtenus, les cybercriminels décident de vous garder ou non dans leur ligne de mire.
 
-## Your computer – one link in a large (malicious) network
-Botnets are huge networks of compromised computers (also known as “zombies”) that are controlled externally and remotely. Without you even realising it, your computer could be part of such a network, and then used for sending spam or phishing emails to millions of users across the globe, or for carrying out distributed-denial-of-service attacks, which bring down whole websites and web services. Your computer can become a source of crime, even if you do not personally take part in any wrongdoing.
+## Votre ordinateur, maillon d'un grand réseau (malveillant)
+Les botnets sont de grands réseaux d'ordinateurs compromis (également appelés "zombies") qui sont contrôlés de l'extérieur et commandés à distance. Sans que vous ne vous en rendiez compte, votre ordinateur peut être intégré à un tel réseau, puis être utilisé à des fins criminelles, comme l'envoi de spams ou d'e-mail de hameçonnage à des millions d'utilisateurs dans le monde entier, ou la réalisation d’attaques par déni de service qui paralysent des sites et des services Web entiers. Votre ordinateur est la source du mal, même si vous n'y participez pas personnellement.
 
-## Your computer as web server
-This is just as dangerous. Criminals can transform your computer into a web server that they go on to use to make illegal content available to others. The content may be:
+## Votre ordinateur comme serveur Web
+C'est tout aussi dangereux : les criminels peuvent transformer votre ordinateur en serveur Web qu'ils utiliseront ensuite pour mettre à disposition des contenus illégaux. Font partie de ces contenus :
 
-* phishing websites, which are used to steal log-in or access data to the e-banking services of unsuspecting users
-* attack tools used to compromise the computers of innocent third parties
-* child abuse and/or pornographic material, pirate videos and music
+* les sites Web de hameçonnage (Phishing) qui servent à voler les données de connexion ou d'accès aux services d'e-banking des utilisateurs innocents
+* les outils d'attaque avec lesquels les ordinateurs de tiers innocents peuvent être compromis
+* matériel pédophile et/ou pornographique, copies pirates de vidéos et de musique
 
-## Your computer as a means for blackmail
-One common modus operandi for cybercriminals at the moment is to infect their victim’s computer with malicious software (malware) and then offer to “clean” it up for a fee. Criminals can encrypt all the data on a computer using a method that only they can decrypt. In this case, the criminals will demand payment of a large sum of money to decrypt your data. If you do not pay, you will not be able to retrieve your data.
+## Votre ordinateur comme moyen de chantage
+L'une des méthodes courantes des cybercriminels est d'infecter l'ordinateur de leur victime par des logiciels malicieux et de leur proposer ensuite un "nettoyage" contre paiement. Le criminel peut chiffrer toutes les données de l'ordinateur selon un schéma que lui seul est en mesure de déchiffrer. Dans ce cas, le criminel demandera une somme d'argent importante pour le déchiffrement des données. Si vous ne payez pas, vous ne pourrez plus récupérer vos données.
 
-If you have visited problematic content, such as pornographic websites, or engaged in intimate conversations via webcam, criminals could have a record of your activities and demand money to avoid them publishing this information. If you are in the public eye, you need to be doubly careful to avoid this type of criminality.
+Si vous avez visité des contenus problématiques, tels que sites pornographiques ou mené une conversation intime par webcam il se peut que les criminels aient fait un compte-rendu de vos activités et vous demandent alors une certaine somme d'argent pour la non-publication de ces informations. Si vous êtes une personne publique, vous devriez redoubler de vigilance quant à ce type d'interventions.
 
-## How can I tell if my computer has been hacked?
-It is difficult, if not impossible, for non-specialists to tell if their computer is infected once the malware has been well written. But there are still some clues to watch out for: perhaps your computer is running slower than usual? Has your anti-virus software flagged something up? When searching on Google, do you get redirected to other search engines? Have your friends mentioned any strange emails or messages they have received from you? Has your email account or any social network profile been blocked because it is distributing spam? Does your webcam come on automatically? Does advertising appear within your operating system, independently of any websites visited? Does your computer suddenly freeze while updating software? These are just a few examples of strange behaviour which should alert you to the possibility that your computer may be infected.
+## Comment savoir si mon ordinateur a été piraté ?
+Si le logiciel malicieux est bien écrit, il est difficile voire impossible pour non initiés de constater l'infection de l'ordinateur. Prêtez tout de même attention à quelques anomalies : votre ordinateur, fonctionne-t-il plus lentement que d'habitude ? Votre logiciel antivirus sonne-t-il l'alerte ? Lors de votre recherche sur Google, êtes-vous redirigé vers des résultats d'autres moteurs de recherche ? Vos amis vous parlent-ils d'e-mails ou de messages bizarres qu'ils ont reçus de votre part ? Votre compte de messagerie ou votre profil sur les réseaux sociaux ont-ils été bloqués parce qu'ils ont diffusés des spams ? Votre webcam s'allume-t-elle automatiquement ? Indépendamment des sites Web visités, des messages publicitaires apparaissent-ils dans votre système d'exploitation ? Votre ordinateur se bloque-t-il soudainement pendant une mise à jour d'un logiciel ? Ce ne sont que quelques exemples d'anomalie qui devraient vous alerter sur une éventuelle infection de votre ordinateur.
 
-If possible, you should use a Live CD to scan your device. This process enables your computer to be analysed without starting up the main system, and is therefore perfect for anti-virus operations.
+Si vous avez la possibilité, utilisez un Live CD pour scanner l'appareil. Ce processus permet d'analyser l'ordinateur sans démarrer le système principal et convient donc idéalement pour les opérations antivirus.
 
-You are also recommended to back up your data, then reinstall your OS. If you need help, contact an IT specialist.
+Il est également conseillé de réaliser une sauvegarde (backup) de vos données, puis de réinstaller l'ordinateur. Si vous avez besoin d'aide, n'hésitez pas à vous adresser à un expert en informatique.
 
-As always, the old adage holds true: prevention is better than cure! To minimise your computer’s vulnerability, apply technical protective measures as a prevention and adopt safe practices when browsing the web.
+Comme toujours, l'adage suivant est de mise : mieux vaut prévenir que guérir ! Afin de minimiser au mieux la vulnérabilité de votre ordinateur, appliquez de manière préventive les mesures de protection techniques et adoptez une conduite sûre sur Internet.

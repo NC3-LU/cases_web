@@ -10,226 +10,236 @@ toc: true
 ref: cisooperationalcommunicationaspects
 lang: fr
 ---
-## Documentation of procedures
-All operations concerning the processing of information must be documented. This applies to planned processing (batches), system shut-downs and restarts and data backup procedures.
+## Documentation des procédures
 
-In addition to the everyday operations to be carried out, these procedures must specify:
+Toutes les opérations concernant le traitement des informations doivent être documentées. Ceci s’applique aux traitements planifiés ('batch'), aux arrêts et redémarrages de systèmes et aux procédures de sauvegarde de données.
 
-* the instructions in case of error
-* start-up conditions
-* what to do with the output (listings, print-outs, etc.)
-* ...
+Outre les opérations courantes à réaliser, ces procédures doivent préciser:
 
-The procedures are updated by the IT manager and saved in specific, easily accessible locations. It goes without saying that the employees concerned must know about these procedures and follow them.
+* les instructions en cas d’erreur
+* les conditions de démarrage
+* que faire des sorties (listings, impressions, etc.)
+*  ...
 
-The attached section is optional, but important for organisations that use servers. Nevertheless, documenting at least the backup procedures still applies in all other cases.
+Les procédures sont mises à jour par le responsable de l’informatique et sauvegardées dans des locaux spécifiques, facilement accessibles. Il va de soi que les employés concernés doivent connaître ces procédures et les suivre.
+
+La section ci-jointe est facultative, mais importante pour des organisations qui utilisent des serveurs. Documenter un minimum les procédures de sauvegarde reste néanmoins applicable dans tous les autres cas de figure.
 
 ### Appliquer des mesures de sécurité pour:
 
-* file servers
-* email servers
-* potentially to describe the installation of new computers and laptops (‘Ghost’)
+* [les serveurs de fichiers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* éventuellement pour décrire l'installation de nouveaux ordinateurs et ordinateurs portables ('Ghost')
 
 ### Mesures organisationnelles directement liées:
 
 * [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
 
-## Separation of environments
-It is preferable to separate devices that deal with software development activities or test activities from those on which products in production are installed.
+## Séparation des environnements
 
-This separation aims to limit the risk of modifications to actual data.
+Il est préférable de séparer les machines traitant des activités de développement de logiciel, ou des activités de test, de celles où sont installés les produits en cours de production.
 
-The use of production data located in test environments (which tend to be less well protected) is, in fact, not recommended.
+Cette séparation vise à limiter les risques de modifications sur des données réelles.
+L'utilisation de données de production situés dans des environnements de test (généralement moins bien protégés) est en effet déconseillée.
 
-In particular if critical data (from the point of view of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %})), trade secrets or personal data is processed there.
+Notamment si l'on y traite des données critiques (du point de vue [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %})), des secrets de fabrication, ou des données à caractère personnel.
 
 ### Appliquer des mesures de sécurité pour:
 
-* Servers that run applications (accounting, Customer Relationship Management, Stock Management, etc.) if the organisation is making or testing developments.
+* Les serveurs faisant tourner des applications (comptabilité, Customer Relationship Management, Gestion de stocks, ...) si l'organisme fait ou teste des développements.
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
 * [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
   * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
   * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
-## Outsourcing of resource management
-With regard to resources managed by external companies, it is important to first assess the organisation’s critical security points and indicate the specific management measures in the service agreement.
+## Externalisation de la gestion des ressources
 
-Here, we talk about “outsourcing” or “facilities management”.
+Concernant les ressources gérées par des sociétés externes, il faut au préalable faire analyser les points de sécurité critiques de l'organisation et indiquer les mesures de gestion particulières dans le contrat de services.
 
-### Appliquer des mesures de sécurité pour:
-* Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)).
-
-## Protection against malware
-An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}), such as, in particular, CD-ROMs,
-
-The “organisation’s” computers and servers must be equipped with [antivirus software]({% link _knowhow/glossary/AntiVirus_fr.markdown %}). The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see [security measures for file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %}) and [security measures for email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})).
-
-On the other hand, a large number of measures must be respected by the users to avoid compromising security. It is prohibited to:
-
-* prevent the antivirus tools from running (deactivating them, reconfiguring them, turning off updates, etc.);
-* install software that has not been approved by the IT manager (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software));
-* launch programs or files received by email sent unsolicited to the recipient, even if they know the sender (SMEs: [see Social engineering/Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people) and [Handling malicious codes]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})). Such emails must be destroyed and advice may be requested from the IT manager.
-
-Incoming email verification tools deal not only with viruses, but can also eliminate potentially dangerous attachments (executables, scripts, macros).
+On parle ici "d’outsourcing" ou de "facilities management", ou plus simplement d’externalisation.
 
 ### Appliquer des mesures de sécurité pour:
 
-* [File servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
-* [Email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
-* [Computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [Laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* Les ordinateurs et serveurs qui sont gérés par des sociétés externes. En cas de gestion à distance, il est très important de prévoir des modalités spécifiques pour les  contrôles d'accès (voir [Connexions de l'extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)).
 
-### Behavioural measures:
+## Protection contre les logiciels malveillants
 
-* [Malicious software – best practice]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
-* [Emails]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
-* [Removable devices]({% link _knowhow/glossary/RemovableDevices_fr.markdown %})
-* [Malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
+Une attaque par des virus ou autres [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) est l’un des risques les plus probables pour tout utilisateur d'informatique. Ceux-ci peuvent s'infiltrer dans "l’organisation" par le biais de  [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}),comme notamment les sticks USB ou via e-mail ou la visite de sites malicieux.
+
+Les ordinateurs et serveurs de "l’organisation" doivent être munis de [logiciels anti-virus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}). Le responsable informatique est chargé d’installer ces outils sur chaque machine et de s’assurer qu'ils soient constamment à jour. Sont concernés aussi bien les postes de travail des utilisateurs, que les serveurs (voir [mesures de sécurité pour serveurs de fichiers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %}) et [mesures de sécurité pour serveurs de messagerie électronique]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})).
+
+D’autre part, un certain nombre de mesures doivent être respectées par les utilisateurs pour éviter de compromettre la sécurité. Il est défendu:
+
+   d'empêcher le fonctionnement des outils d’antivirus (de les désactiver, de les reconfigurer, d'empêcher les mises à jour, etc.);
+
+   d'installer des logiciels qui n’ont pas été approuvés par le responsable informatique (PME: voir [Utilisation de logiciels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software));
+* de lancer des programmes ou fichiers reçus par e-mail, qui auraient été envoyés à l'utilisateur sans une demande de sa part, même s'il en connaît l'émetteur (PME: voir [Social engineering / Communication inadéquate]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people) et [Le traitement des codes malicieux]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})).     Ces e-mails doivent être détruits et des conseils peuvent être demandés au responsable informatique.
+
+Les outils de vérification d' e-mails entrants traitent non seulement les virus, mais peuvent aussi éliminer des fichiers joints, potentiellement dangereux (exécutables, scripts, macros).
+
+### Appliquer des mesures de sécurité pour:
+
+* [les serveurs de fichiers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [Les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [Les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+
+### Mesures comportementales:
+
+* [Logiciels malveillants- bonnes pratiques]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
+* [Courriers électroniques]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
+* [Supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %})
+* [Sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
 * [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
   * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
   * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
   * [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
   * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Gestion des vulnérabilités techniques]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#managing-technical-vulnerabilities)
 * [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
   * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
-  * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
-*[Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+  * [Gestion des incidents et des améliorations de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
 
 
 ### Mesures techniques:
 
 * [Antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %})
 * [Firewall]({% link _knowhow/glossary/Firewall_fr.markdown %})
-* [Network segmentation]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})
-* [Patches]({% link _knowhow/glossary/Patches_fr.markdown %})
-* [Backups]({% link _publications/ProtectingYourCompany_fr.markdown %}#data-backups)
-* [Cryptography]({% link _knowhow/glossary/Cryptography_fr.markdown %})
+* [Segmentation de réseau]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})
+* [Correctifs (patch)]({% link _knowhow/glossary/Patches_fr.markdown %})
+* [Sauvegardes]({% link _publications/ProtectingYourCompany_fr.markdown %}#data-backups)
+* [Cryptographie]({% link _knowhow/glossary/Cryptography_fr.markdown %})
 
-## Data backups
-It is essential for an organisation to back up their data and their specific, or specifically configured, software. A disaster (fire, flood) or, more commonly, a hard drive problem could easily destroy all of this information. (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire) and [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment) and [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport)).
+## Sauvegarde des données
 
-In the event of a large disaster, equipment that has been destroyed can usually be replaced; however, it is often impossible to reproduce lost data, which may lead to a company’s closure.
+Il est essentiel pour une organisation de faire une  sauvegarde de leurs données et de leurs logiciels spécifiques ou configurés spécifiquement. En effet, un sinistre (incendie, inondation) ou, de façon plus courante, un problème sur un disque peut facilement détruire ces informations. (PME: voir [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire) et [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment) et [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport)).
 
-Backing up important or crucial information ([classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})) should be done at a regularity compatible with the level of importance of the *organisation’s* activities.
+En cas de sinistre important, le matériel détruit peut en général être remplacé; par contre, il est souvent impossible de reproduire les données perdues, ce qui peut causer la fermeture d'une entreprise.
 
-The backup cycle can take place at 3 levels, depending on the type of information. A daily backup on a device that is reused weekly (Monday’s backup erases the backup from Monday of the previous week, for example). A weekly backup with a cycle of 4 to 5 weeks. A monthly backup with an annual cycle. The weekly backup can in fact be turned into a monthly backup once a month (the last day of the month). The last annual backup is archived “indefinitely” in case of legal requirements.
+La sauvegarde des informations importantes ou vitales ([classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})) devrait se faire selon une périodicité compatible avec le niveau d'importance des activités de "l’organisation".
 
-The weekly and monthly backups must be stored in a specific location that guarantees the same security conditions as those used in the security perimeter, if possible at a remote location.
+Selon le type d’informations, le cycle de sauvegarde doit être effectué à 3 niveaux. Une sauvegarde journalière sur un support réutilisé chaque semaine (la sauvegarde du lundi écrase la sauvegarde du lundi précédent par exemple). Une sauvegarde hebdomadaire avec un cycle de 4 à 5 semaines. Une sauvegarde mensuelle avec un cycle annuel. La sauvegarde hebdomadaire est en fait transformée en sauvegarde mensuelle une fois par mois (la dernière du mois). La dernière sauvegarde annuelle est archivée "définitivement" en cas de besoin légal.
 
-Unused devices must be erased or destroyed. This applies to all media, whether digital, paper or otherwise (SMEs: see [Disposal]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
+Les sauvegardes hebdomadaires et mensuelles doivent être stockées dans un local spécifique qui garantit les mêmes conditions de sécurité que celles utilisées dans le périmètre de sécurité, si possible sur un site distant.
 
-Data backups can also be useful in the event of human error (SMEs: see [Human errors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})), in order to restart the IT system from a previously reliable position. A data recovery procedure is necessary in this case and, additionally, it will give you an opportunity to test the procedure. In fact, the procedures should be tested annually.
+Les supports inutilisés doivent être effacés ou détruits. Ceci s’applique à tous les supports, qu’ils soient informatiques, papiers ou autres (PME: voir  [Mise en rebut]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment) et [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery) et [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
+
+La sauvegarde de données peut également rendre service en cas d’erreur humaine (PME: voir [erreurs humaines]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})), afin de démarrer le système informatique d’une situation antérieure fiable. Une procédure de récupération des données est nécessaire dans ce cas et  ce sera par ailleurs l’occasion de tester la procédure. En effet il faut procéder annuellement à un test des procédures.
 
 ### Appliquer des mesures de sécurité pour:
 
-* [File servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
-* [Email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
-* [Computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [Laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les serveurs de fichiers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [Les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [Les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
 * [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+  * [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [Sécurité des médias pendant les transports]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
   * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
 
 ### Mesures techniques:
 
-* [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
+* [sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
 
-## Device security during transport
-When transporting or sending devices containing the “organisation’s” data, it is important to take the following measures into account, depending on the level of importance of the data (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport)):
+## Sécurité des médias pendant le transport
 
-* use specific packaging (which leaves traces of forced opening)
-* use a briefcase with a combination lock
-* have a member of the “organisation” transport the delivery
-* encrypt the data
+Lors du transport ou de l'expédition de médias contenant des données de "l’organisation" il est important de prendre en compte  en fonction du niveau d'importance des données, les mesures suivantes (PME: voir [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport)):
+
+* utiliser un emballage spécifique (dont l'ouverture forcée garde les traces)
+* utiliser une mallette à ouverture à code
+* exécuter la livraison par un membre de "l’organisation"
+* chiffrer les données
 
 ### Appliquer des mesures de sécurité pour:
 
-* The transportation of backups
-* Communication by email
-* Communication by Internet (FTP, etc.)[
+* Le Transport de sauvegardes
+* La communication via courrier électronique
+* La communication via Internet (FTP,...)
 
-### Organisational measures:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+### Mesures organisationnelles:
+
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
 ### Mesures techniques:
-* [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
-## Email
-Email that is transmitted across the Internet can in no way be considered a secure means of communication. This is because the email may be accidentally sent to the wrong recipients, or be edited or read by a third party. As a result, any operation for which the “organisation” is responsible would be better confirmed by an additional means (telephone, letter, fax, etc.). This would prevent recipient error or changes to prices or quantities on orders, for example. (good email practices)
+* La [cryptographie]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
 
-Avoid sending confidential information by email. If applicable, use an approved encryption tool with your correspondents.
+## Courrier électronique
 
-The “organisation’s” messaging system is intended for professional use. Moderate personal use may be tolerated. The user is held personally responsible in the case of the criminal use of tools. Please note that, in response to traceability restrictions, it is possible that part or all of the messages exchanged by members of the “organisation” will be saved. (SMEs: see [Misuse of organisation’s resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources))
+Le courrier électronique transitant par l'Internet ne peut en aucun cas être considéré comme un moyen de communication sécurisé. En effet, le courrier peut être envoyé par mégarde au mauvais destinataire, être modifié ou être lu par un tiers. En conséquence,  toute opération qui engage la responsabilité de "l’organisation" ferait mieux d'être confirmée par  un support supplémentaire (téléphone, courrier, fax, etc.). Ceci pourrait éviter une erreur de destinataire, ou une modification de prix ou de quantité lors d'une commande par exemple. ([bonnes pratiques e-mail]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}))
+
+Évitez d'envoyer des informations confidentielles par e-mail. Le cas échéant utilisez un mécanisme de chiffrement agréé avec vos correspondants.
+
+Le système de messagerie de "l’organisation" est destiné à un usage professionnel. Un usage personnel modéré peut être toléré. La responsabilité de l’utilisateur est personnellement engagée en cas d’utilisation délictueuse des outils. Notez que dans un souci de réponse aux contraintes de traçabilité, il est possible qu’une partie ou l’ensemble des messages échangés par les membres de "l’organisation" soient conservés. (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources))
 
 ### Appliquer des mesures de sécurité pour:
 
-* [Email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
-* [Computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
-* [Laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
+* [les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %})
+* [Les ordinateurs connectés à l'Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %})
+* [Les ordinateurs portables]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %})
 
-### Behavioural measures:
+### Mesures comportementales:
 
-* [Best practice concerning email]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
+* [Bonnes pratiques concernant le courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
 
 ### Mesures organisationnelles directement liées:
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
 * [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
   * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
   * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
-  * [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+  * [Connexions de l'extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
   * [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
 * [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
   * [Utilisation du chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
-  * [Electronic signatures]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
+  * [La signature électronique]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures)
 * [Gestion des incidents liés à la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
   * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
 * [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
   * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
   * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
 ### Mesures techniques:
 
-* [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+* La [cryptographie]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)

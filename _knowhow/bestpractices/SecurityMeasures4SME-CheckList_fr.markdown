@@ -11,64 +11,69 @@ ref: bestpractchecklist
 lang: fr
 ---
 
-> Check to verify the completeness of this article.
+## La gestion du risque et la politique de sécurité
 
-## Risk Management and Security Policy
-**[Risk management]({% link _knowhow/glossary/RiskProcessing_fr.markdown %})** requires analysis of the security requirement for each [asset]({% link _knowhow/glossary/Assets_fr.markdown %}) (**[classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})** according to the feared **[impact]({% link _knowhow/glossary/Impact_fr.markdown %})**), assesses the likelihood of threats for these assets and quantifies the ease with which the vulnerabilities of these assets can be exploited.
+Une **[gestion des risques]({% link _knowhow/glossary/RiskProcessing_fr.markdown %})** nécessite l'analyse du besoin de sécurité par [actif]({% link _knowhow/glossary/Assets_fr.markdown %}) (**[classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})** selon l'**[impact]({% link _knowhow/glossary/Impact_fr.markdown %})** redouté), évalue la probabilité des menaces pour ces actifs et quantifie l'aisance d'exploiter les vulnérabilités de ces actifs.
 
-For very small businesses, this risk analysis is not easy to perform. As a result, this section provides a non-exhaustive list of potential threats and responses to reduce their impact.
+Pour les très petites entreprises, cette analyse des risques n'est pas évidente à réaliser. De ce fait cette section propose une liste, non exhaustive, de menaces potentielles et de traitements pour en réduire l'impact.
 
-If your organisation fears serious impacts, it is strongly recommended that you proceed with a risk management approach and that you define a **[security policy]({% link _knowhow/glossary/SecurityCharter_fr.markdown %})** and a continuous improvement process. More advice can be found in the article "[Protecting Your Business]({% link _publications/ProtectingYourCompany_fr.markdown %})".
+Si votre organisme redoute des impacts sérieux, il est fortement recommandé de faire procéder par une approche des gestion des risques, de définir une **[politique de sécurité]({% link _knowhow/glossary/SecurityCharter_fr.markdown %})** ainsi qu'un processus d'amélioration continue. D'autres conseils peuvent être trouvés dans l'article « [Protéger son entreprise]({% link _publications/ProtectingYourCompany_fr.markdown %}) ».
 
-## Threats to infrastructure
-Infrastructure includes all the essential assets and services on which the information system is based, such as the supply of power, communication or processing services. These services are therefore critical to the operation of the information system and exposed to certain threats (see "[Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})":
+## L'infrastructure face aux menaces
 
-* [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
-* [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)
-* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
-* [Wireless network tapping]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#wireless-network-tapping)
-* [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#interception-of-communications)
-* [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
-* [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
-* [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers)
-* [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
+Par infrastructure on comprend ici tous les actifs et services essentiels sur lesquels repose le système d’information, comme notamment la fourniture de services d’énergie, de communication ou de traitement. Ces services sont donc critiques pour le fonctionnement du système d’information et soumis à certaines menaces ((voir « L'[infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}) » :
 
-## Threats to hardware
-See the article "[Threats to hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})":
+* [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
+* [Interruption de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
+* [Attaques par déni de service et déni de service distribués]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)
+* [Transmission des communications sans fil perturbée]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
+* [Écoute des réseaux sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#wireless-network-tapping)
+* [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#interception-of-communications)
+* [Accès réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
+* [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
+* [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers)
+* [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
 
-* [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups)
-* [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport)
-* [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)
-* [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)
-* [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)
-* [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)
+## Le matériel face aux menaces
 
-## Threats to software
-Software is the most commonly used user interface for manipulating information. This interface, which offers a finite but immense set of possibilities, is subject to multiple constraints and multiple threats jeopardising the operation of the organisation, the most acute being malware, which will be addressed in a specific chapter in this document. See "[Threats to software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})":
+Voir l'article « [Le matériel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) » :
 
-* [Unsuitable software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unsuitable-software-environment)
-* [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software)
+* [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups)
+* [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport)
+* [Equipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)
+* [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)
+* [Récupération des supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)
+* [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)
+
+## Le logiciel face aux menaces
+
+Les logiciels sont l’interface utilisateur la plus couramment utilisée pour manipuler les informations. Cette interface, qui représente un ensemble fini et pourtant immense de possibilités, est soumis à de multiples contraintes et de multiples menaces mettant en péril le fonctionnement de l’organisation, avec en point d’orgue les malwares qui feront l’objet d’un chapitre spécifique dans ce document. Voir « [Le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}) » :
+
+* [Environnement logiciel inapproprié]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unsuitable-software-environment)
+* [Utilisation de logiciels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#use-of-unapproved-software)
 * [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators)
 
-## Legal aspects
-Special legal and regulatory provisions must be adhered to by organisations. These provisions involve, in particular, respect for privacy, copyright and the specific regulatory provisions of the industrial sector. See "[Legal aspects]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})":
+## Le côté légal
 
-* [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring)
-* [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence)
-* [Lack of traceability of operations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#lack-of-traceability-of-operations)
-* [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#regulatory-requirements)
+Des dispositions légales et règlementaires particulières sont à respecter par les organisations. Ces dispositions touchent notamment au respect de la vie privée, aux droits d’auteur, et aux dispositions règlementaires spécifiques du secteur d’activité. Voir « [Le côté légal]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}) » :
 
-## Threats to people
-See the article "[Threats to people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})":
+* [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring)
+* [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence)
+* [Défaut de traçabilité des opérations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#lack-of-traceability-of-operations)
+* [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#regulatory-requirements)
 
-* [Social engineering/Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people)
-* [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#human-error-prevention-measures)
-* [Misuse of the organisation's resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources)
-* [Absent staff]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#staff-absences)
-* [Malicious administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#the-administrator)
+## Les humains faces aux menaces
+
+Voir l'article « [Les humains faces aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}) » :
+
+* [Social engineering / Communication inadéquate]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#manipulation-of-people)
+* [Erreur humaine]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#human-error-prevention-measures)
+* [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources)
+* [Personnel absent]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#staff-absences)
+* [Administrateur malveillant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#the-administrator)
 * [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#spam--phishing)
-* [Third-party use of access reserved for a single user]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party)
+* [Utilisation d’un accès réservé à un utilisateur par un tiers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#use-of-limited-access-by-a-third-party)
 
-## Handling malicious codes
-[Recommended security measures for countering malicious codes.]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %})
+## Le traitement des codes malicieux
+
+[Les mesures de sécurité préconisées pour contrer les codes malicieux]({% link _knowhow/sos/SOS-IThinkMyComputerInfected_fr.markdown %}).

@@ -54,7 +54,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
     </td>
     <td>
       <strong>Rouge</strong><br /><br />
-      Personal for named recipients only, mostly passed verbally or in person <!-- FR traduction missing -->
+      Pour les destinataires nommés seulement, la plupart du temps passé verbalement ou en personne
     </td>
   </tr>
   <tr>
@@ -71,7 +71,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
     </td>
     <td>
     <strong>Orange</strong><br /><br />
-      Limited distribution, within organization, but only on a ‘need-to-know’ basis. <!-- FR traduction missing -->
+      Distribution limitée, au sein de l'organisation, mais seulement sur la base du "besoin d'en connaître".
     </td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
     </td>
     <td>
     <strong>Vert</strong><br /><br />
-    Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community. <!-- FR traduction missing -->
+    À l'échelle de l’organisation. Circulation, ne peut être publié ou affiché sur Internet, ni publié à l'extérieur de l’organisation.
     </td>
   </tr>
   <tr>
@@ -105,7 +105,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
     </td>
     <td>
       <strong>Vert</strong><br /><br />
-      Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community. <!-- FR traduction missing -->
+      À l'échelle de l’organisation. Circulation, ne peut être publié ou affiché sur Internet, ni publié à l'extérieur de l’organisation.
     </td>
   </tr>
   <tr>
@@ -122,7 +122,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
     </td>
     <td>
       <strong>Blanc</strong><br /><br />
-      Unlimited, subject to standard copyright rules, WHITE information may be distributed freely, without restriction. <!-- FR traduction missing -->
+      Illimité, soumis aux règles standard du droit d'auteur, les informations WHITE peuvent être distribuées librement, sans restriction.
     </td>
   </tr>
 </table>
@@ -148,7 +148,7 @@ Le schéma suivant indique l’abréviation officielle, le nom et une descriptio
       <ol>
         <li> La modification pourrait engendrer des pertes importantes pour l’organisme ou permettrait à l’auteur de la modification de s’enrichir considérablement.</li>
         <li>Des procédures formelles de contrôle périodique sont mises en œuvre très souvent (environ une semaine à un mois maximum).</li>
-        <li>Courrier « DHL », système de GED, configuration des serveurs ou éléments de stockage, lignes téléphoniques.</li>
+        <li>Courrier "DHL", système de GED, configuration des serveurs ou éléments de stockage, lignes téléphoniques.</li>
         <li>Utilisation de la signature, coffre fort.</li>
       </ol>
     </td>

@@ -10,72 +10,76 @@ toc: true
 ref: riskmanagement
 lang: fr
 ---
-General guidelines regarding risk management as used by CASES are taken from the ISO/IEC 27005 standard, part of the [ISO/IEC 27000]({% link _publications/ISO27000SF_fr.markdown %}) family of standards. [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %}) governs the implementation of an information security management system which must include a risk management procedure. Risk management is the approach specified in ISO/IEC 27001 which forms the basis of the [security policy]({% link _knowhow/CISOApproach_fr.markdown %}) for the organisation concerned.
+Les orientations générales de la gestion du risque telles qu'utilisées par CASES proviennent de la norme ISO/IEC 27005, appartenant à la famille des normes [ISO/IEC 27000]({% link _publications/ISO27000SF_fr.markdown %}). La normes [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS_fr.markdown %}) régit la mise en place d'un système de management de la sécurité de l'information qui doit nécessairement intégrer un processus de gestion du risque. La gestion du risque est l'approche préconisée dans l'ISO/IEC 27001 qui sert de ce fait de base à la [politique de sécurité]({% link _knowhow/CISOApproach_fr.markdown %}) de l'organisme concerné.
 
-The diagram below outlines the risk management process.
+Le schéma ci-dessous décrit le processus de gestion du risque.
 
-## Definition of the context
-To produce a risk analysis, it is first important to specify the basic criteria (risk assessment, impact, acceptance of risks, availability of resources, etc.), the objective and the scope of the analysis. The definition of the context notably describes the environment and the subject of the risk management process.
+## Définition du contexte
 
-The risk **assessment criteria** notably include:
+Pour produire une analyse de risque, il importe en premier lieu de spécifier les critères de base (évaluation des risques, impact, acceptation des risques, disponibilité des ressources…), la cible et le périmètre de l'analyse. La définition du contexte décrit notamment l'environnement et l'objet du processus de gestion des risques.
 
-* the strategic values of the processes
-* [asset]({% link _knowhow/glossary/Assets_fr.markdown %}) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})
-* legal and contractual requirements
-* the importance of CAI ([confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [availability]({% link _knowhow/glossary/Availability_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}))
-* the expectations of the invested parties and the reputation
+Les **critères d'évaluation** des risques sont notamment :
 
-So for a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, there are risks that must be avoided at all costs. In others, there are assets that must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
+* les valeurs stratégiques des processus
+* la [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) des [actifs]({% link _knowhow/glossary/Assets_fr.markdown %})
+* les exigences légales et contractuelles
+* l'importance CID ([confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}), [intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}))
+* les attentes des parties prenantes et la réputation
 
-The **[basic criteria]({% link _knowhow/glossary/BasicCriteria_fr.markdown %})** must also be determined:
+Ainsi, pour un service du cadastre par exemple, l'importance du critère de la confidentialité est moindre que celle de l'intégrité. Dans certains métiers, il y a des risques qu'il faut à tout prix écarter, dans d'autres, il existe des actifs qu'il faut à tout prix protéger. C'est lors de la phase d'évaluation que ces valeurs contextuelles sont définies. Elles doivent être appliquées tout au long de l'analyse des risques.
 
-* [Impact]({% link _knowhow/glossary/Impact_fr.markdown %}) criteria:
-  * how to express the degree of damage and the associated costs, how to express damage in terms of reputation or damage caused by legal consequences.
-  * qualitative and quantitative scale
-* Risk acceptance criteria:
-  * define acceptable levels of risk (potentially different for confidentiality, integrity and availability)
-* Define the objective and the scope of the risk analysis
-  * which assets must be included
-  * what is the scope of the risk analysis
-  * how to deal with risks within the scope
-* Definition of the organisation’s values
-  * business line
+Il faut aussi définir les **[critères de base]({% link _knowhow/glossary/BasicCriteria_fr.markdown %})** :
+
+* Critères d'[impact]({% link _knowhow/glossary/Impact_fr.markdown %}) :
+  * comment exprimer le degré du dommage et les coûts y associés, comment exprimer les dommages en terme de réputation ou les dommages causés par des conséquences légales)
+  * échelle qualitative ou quantitative
+* Critères d'acceptation des risques :
+  * définir les niveaux acceptables des risques (éventuellement différents pour la confidentialité, l'intégrité et la disponibilité)
+* Définition de la cible et du périmètre de l'analyse des risques
+  * quels actifs doivent être inclus
+  * quel est le périmètre de l'analyse des risques
+  * comment traiter les risques au périmètre
+* Définition des valeurs de l'organisme
+  * métier
   * missions
-  * values
+  * valeurs
   * structure
-  * sociocultural values
-  * limitations...
+  * valeurs socioculturelles
+  * contraintes...
 
-Then, the **organisation** of the risk analysis must be defined:
+Ensuite, il faut définir l'**organisation** de l'analyse des risques :
 
-* management process
-* actors and their respective roles
-* escalation mechanisms
-* relationships between actors and stakeholders
-* records that need to be kept and are used to document the risk management process
+* processus de gestion
+* intervenants et rôles respectifs
+* méchanismes d'escalation
+* relations entre intervenants et les parties prenantes
+* enregistrements qui doivent être conservés et qui servent à documenter le processus de gestion des risques
 
-## Risk identification
-The purpose of risk identification is to determine the causes of impacts and understand how, where and why this damage can occur. This is the preparation phase for the risk estimation itself. It proceeds as follows:
 
-* Identification of [assets]({% link _knowhow/glossary/Assets_fr.markdown %}):
-  * primary assets, such as business line processes and information
-  * secondary assets or support assets
-* Identification of [threats]({% link _knowhow/glossary/Threat_fr.markdown %})
-* Identification of existing [security measures]({% link _publications/ProtectingYourCompany_fr.markdown %})
-* Identification of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) (inherent to the identification of risk specifics)
-* Identification of [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) (consideration of impact criteria: see also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}))
+## Identification du risque
 
-As a result, it is possible to draw up a list of assets which require risk management.
+L’objectif de l’identification du risque est de déterminer les causes d'impacts et de comprendre comment, où, et pourquoi ces dommages peuvent arriver. Cette phase prépare l’estimation du risque à proprement dite. Elle se déroule selon les étapes suivantes :
 
-## Risk estimation
-Risk estimation is comprised of several phases:
+* Identification des [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}):
+  * actifs primaires tels que les processus métier et les informations
+  * actifs secondaires ou actifs de support
+* Identification des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %})
+* Identification des [mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) existantes
+* Identification des [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) (inhérente à l’identification des spécificités des risques)
+* Identification des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) (prise en considération des critères d’impact ; voir aussi [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}))
 
-1. the choice of methodology
-2. estimation of the [impacts]({% link _knowhow/glossary/Impact_fr.markdown %})
-3. estimation of likelihood of occurrence
-4. estimation of risk level
+Ainsi il est possible de définir la liste des actifs pour lesquels une gestion du risque s'impose.
 
-It involves calculating a value, in other words an approximative level for identified risks, based on the method used (which must guarantee repeatability), by estimating the impacts as well as the likelihood of occurrence. (For example, an approximate impact (qualitative scale) is multiplied by the likelihood of occurrence (qualitative scale) to determine the risk estimation).
+## Estimation du risque
+
+L’estimation du risque inclut plusieurs phases :
+
+1. le choix de la méthodologie
+2. l’estimation des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %})
+3. l’estimation des probabilités d’occurrence
+4. l’estimation du niveau de risque
+
+Il s'agit de calculer une valeur, respectivement un niveau approximatif pour des risques identifiés, sur base de la méthode employée (qui doit garantir la répétabilité), en estimant les impacts ainsi que les probabilités d'occurrence. (Par exemple : on multiplie un impact approximatif (échelle qualitative) avec une probabilité d'occurrence (échelle qualitative) pour obtenir une estimation du risque).
 
 
 <table class="tg">
@@ -142,9 +146,11 @@ It involves calculating a value, in other words an approximative level for ident
 </table>
 
 
-## Risk assessment
-During this stage, you’ll need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
-The estimated risks are prioritised in order of importance, based on the decisions made when defining the context of the risk analysis.
+## Évaluation du risque
+
+Pour cette étape, il s'agit de se servir de la connaissance du risque obtenue grâce à l'analyse de risque et de prendre également en considération les obligations contractuelles, légales et réglementaires de l'entité.
+
+Les risques estimés sont ordonnés selon leur "importance" en se basant sur les décisions prises lors de la définition du contexte de l'analyse des risques.
 
 <table class="tg">
   <tr>
@@ -210,24 +216,26 @@ The estimated risks are prioritised in order of importance, based on the decisio
 </table>
 
 
-## Risk treatment
-This final stage suggests the measures to be put in place. For this, the security measures need to be organised depending on:
+## Traitement du risque
 
-* the measures to be considered;
-* the order of importance and priorities.
+Cette dernière étape suggère les mesures à mettre en place. Pour cela, il faut organiser les mesures de sécurité selon :
 
-The whole system is based on the “Return on Security Investment” calculation – the income obtained from the implementation of risk reduction solutions. These calculations are based on the previously calculated ALE (“Annualised Loss Expectancy”) and on the calculation of costs incurred to implement the solution.
+* les mesures à considérer ;
+* l’ordre d’importance et les priorités.
 
-The risk analysis method ends with the choice of treatment. The analysis must still be implemented and the methods applied. However, it does help with the implementation of an action plan.
 
-There are 4 risk treatment options:
+Tout le système se base sur le calcul des "Return On Security Investment" c'est-à-dire sur l’économie abtenue par la mise en place de solutions de réduction des risques. Les calculs sont basés sur les ALE ("Annualised Loss Expectancy") calculées au préalable et aussi sur le calcul des coûts de mise en place de la solution.
 
-1. “Risk reduction”, which consists of reducing the risk by choosing the appropriate security objectives and measures (See: [Sectoral risk analysis – risk treatment]({% link _services/diagnostic_fr.markdown %}));
-2. “Risk conservation”, which consists of accepting current risks without taking further action;
-3. “Risk refusal”, which consists of giving up the activity or domain at the source of the risk;
-4. “Risk transfer” to a third party, by means of insurance coverage, for example.
+La méthode d'analyse de risques s'arrête au choix du traitement, il reste encore à mettre en place l'analyse et appliquer ces derniers. En revanche elle aide à la mise en place d’un plan d’action.
 
-Any resulting residual risk must be approved by the management board of the entity concerned.
+Le processus de traitement du risque comporte 4 options de traitement :
+
+1. la « Réduction du risque » qui consiste à réduire le risque en sélectionnant des objectifs et mesures de sécurité adéquats (Voir : [Analyse sectorielle des risques - traitement du risque]({% link _services/diagnostic_fr.markdown %}));
+2. la « Conservation du risque » qui consiste à accepter les risques actuels sans actions complémentaires ;
+3. le « Refus du risque » qui consiste à abandonner l'activité ou le domaine d'origine du risque ;
+4. le « Transfert du risque » vers un tiers, par le biais d'une assurance par exemple.
+
+Le risque résiduel ainsi obtenu doit être validé par la direction de l’entité concernée.
 
 <table class="tg">
   <tr>
@@ -311,23 +319,29 @@ Any resulting residual risk must be approved by the management board of the enti
 </table>
 
 
-## Risk acceptance
-Risk acceptance is the approval given by the management board of choices made during the risk treatment. The management board therefore agrees to the treatment plan, as well as to the residual risks.
+## Acceptation du risque
 
-## Information sharing
-This is a continuous process that allows for the exchange and sharing of information on the risks between the decision-makers and the stakeholders. The purpose of risk communication is to:
+L'acceptation du risque est l'approbation par la direction des choix effectués lors du traitement du risque. La direction accepte donc le plan de traitement ainsi que les risques résiduels.
 
-* reduce misunderstandings with decision-makers
-* improve coordination for incident response
-* share the results of the risk assessment and present the treatment plan
-* gain new knowledge about security
-* improve security awareness
 
-## Monitoring and re-examination
-This process consists of monitoring and re-examining elements of the risk:
+## Partage des informations
 
-* asset values and categories
-* impacts, [threats]({% link _knowhow/glossary/Threat_fr.markdown %}), vulnerabilities, likelihoods of occurrence
-* external elements (legal or environmental context)
-* modification of the risk assessment approach (impact, assessment, risk acceptance criteria)
+C'est un processus continu qui permet d'échanger et de partager les informations sur les risques entre les décideurs et les autres parties prenantes. La communication du risque a pour objectif de :
+
+* réduire les incompréhensions avec les décisionnaires
+* améliorer la coordination pour répondre aux incidents
+* partager les résultats de l'évaluation des risques et présenter le plan de traitement
+* obtenir de nouvelles connaissances en matière de sécurité
+* améliorer la sensibilisation à la sécurité
+
+
+
+## Surveillance et réexamen
+
+Ce processus consiste en la surveillance et le réexamen des éléments du risque :
+
+* valeur et catégories des actifs
+* impacts, [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}), vulnérabilités, probabilités d'occurrence
+* éléments externes (contexte légal, environnemental)
+* modification de l'approche d'appréciation du risque (critères d'impact, d'évaluation, d'acceptation des risques)
 * etc.
