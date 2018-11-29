@@ -11,8 +11,6 @@ ref: glossarycryptography
 lang: en
 ---
 
-> Check to verify the completeness of this article.
-
 ## History
 Humans have always tried to keep certain information or data secret or, failing this, to restrict access to certain people. One of the oldest examples of cryptographic use comes from Julius Caesar.
 
@@ -99,7 +97,7 @@ The sender and recipient no longer need to share secret keys via a secure transm
 
 Public key encryption is a technological revolution offering every citizen the opportunity to use robust cryptography. Indeed, symmetric cryptography was previously the only method for the transmission of secret information. The costs of the transmission and secure distribution of keys had limited its use to institutions with sufficient means, such as governments and banks.
 
-## Examples of public key cryptography
+### Examples of public key cryptography
 Elgamal (from the name of its inventor, Taher Elgamal), RSA (from the names of its inventors, Ron Rivest, Adi Shamir and Leonard Adleman), Diffie-Hellman (also named after its inventors) and DSA, the digital signature algorithm (developed by David Kravitz), are examples of public key cryptography systems.
 
 A practical example of public key cryptography is OpenPGP for email encryption or TLS (https) for web communications encryption; TLS uses public-key cryptography for key exchange and then symmetric cryptography for encryption of communication.
