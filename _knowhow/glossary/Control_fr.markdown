@@ -125,7 +125,7 @@ The security policy should contain the following documents:
 
 1. Reporting information security events
 2. Incident management and improvements information security
-3. Analysis of non-fulfilment of obligations
+3. Analysis of non-fulfillment of obligations
 
 #### Section 10. Managing business continuity
 
