@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Cybercrime"
+title:  "Cybercriminalité"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,80 +10,156 @@ toc: true
 ref: glossarycybercrime
 lang: fr
 ---
-## In brief
-Cybercrime is commonly defined as any unlawful action against the integrity of a specific computer site or perpetrated using a computing device. This definition is based on the use of computing resources. Indeed, the definition applies whether the computer is used by the criminal to perpetrate an offence or a conventional crime (scam, threat ... etc) or the computer is the target of the criminal (theft, fraudulent use or destruction of data ... etc).
+En quelques mots
+----------------
+La cybercriminalité se définit communément comme toute action illicite
+visant l’intégrité d’un site informatique déterminé, ou bien menée à
+l’aide d’un outil informatique. Cette définition se décline selon
+l’utilisation faite du médium informatique. En effet, soit ce dernier
+est utilisé par le criminel comme outil d’un délit ou d’un crime
+conventionnel (escroquerie, menace…etc), soit l’ordinateur est la
+cible-même visée par le criminel (vol, utilisation frauduleuse ou encore
+destruction de données…etc).
 
-## Conventional attacks
-This type of attack uses technologies associated with information and communication networks as a medium. Generally, the goal is to take advantage of the credulity of users to acquire confidential information from them and then use it unlawfully.
 
-There are all sorts of conventional offences and their number is constantly increasing. The classic examples are:
+Attaque de type conventionnel
+-----------------------------
+Ce type d’attaque utilise comme support, les technologies associées aux
+réseaux d’information et de communication. Généralement, le but est de
+profiter de la crédulité des utilisateurs pour leur soustraire des
+informations confidentielles et s'en servir ensuite de manière illégale.
 
-* extortion;
-* credit card fraud;
-* various punishable "revenge" type threats;
-* commercial fraud;
-* breach of trust and miscellaneous scams;
-* corruption of minors;
-* identity theft.
+Il existe toute sorte d’infractions dites conventionnelles, et leur
+nombre augmente continuellement. Les plus classiques étant :
 
-These are "traditional" crimes and offences transposed to digital information and communication networks.
+* extorsions de fond;
+* fraude liée à la carte de crédit;
+* menaces répréhensibles diverses, de type «vengeance»;
+* fraude commerciale;
+* abus de confiance et escroqueries diverses;
+* détournements de mineurs;
+* usurpation d'identités.
 
-These attacks are essentially motivated by greed (the search for any type of gain, financial or material) or immoral, unhealthy and improper behaviours (such as paedophilia, prostitution rings, racism, revisionism. etc.).
+Il s’agit en effet de l’ensemble des crimes et délits « traditionnels »
+qui se transpose sur les réseaux numériques d’information et de
+communication.
 
-## Technological attacks
-This type of attack has changed significantly since its advent; it essentially exploits the many vulnerabilities of computer resources. The most common attacks are:
+Ces attaques sont essentiellement motivées par la cupidité (la recherche
+d’un gain quel qu’il soit : financier ou encore matériel) ou des
+comportements immoraux, malsains et maladifs (telle que la pédophilie,
+les réseaux de prostitution, le racisme, révisionnisme, etc.).
 
-* the installation of spy programs,
-* the installation of pirate programs,
-* intrusions,
-* miscellaneous damage,
-* destruction of sites,
-* information theft,
-* denials of service on websites,
-* rebound from victim computer sites, etc.
 
-A technological attack can be based on one or a combination of several of the following reasons:
+Attaque de type technologique
+-----------------------------
+Ce type d’[attaque](https://www.cases.lu/fr/attaque-informatique.html) a
+fortement évolué depuis son apparition ; elle exploite essentiellement
+les nombreuses
+[vulnérabilités](https://www.cases.lu/fr/vulnerabilites.html) de l'outil
+informatique. Les attaques les plus répandues sont :
 
-* strategic (theft of classified sensitive information),
-* ideological (conversion of predominant thoughts or current of ideas into unlawful actions),
-* terrorism (destabilising an established order),
-* greed (financial or material gain),
-* entertainment (for fun or sport),
-* vengeance (reaction to any kind of frustration).
+* l'installation de programmes espions;
+* l'installation de programmes pirates;
+* les intrusions;
+* les détériorations diverses;
+* les destruction de sites;
+* le vol d’informations;
+* les dénis de service sur des sites;
+* le rebond à partir de sites informatiques victimes, etc.
 
-They either target confidentiality, integrity or the availability of a computer system (or a combination of all three).
+Une attaque de type technologique peut être fondée par l'une, ou la
+combinaison de plusieurs des motivations suivantes :
 
-To deploy malware, the hacker typically focuses on one of the following alternatives:
+* stratégiques (vol d'informations sensibles classifiées);
+* idéologiques (transformation de pensées prédominantes ou de courant
+  d’idées en actes illicites);
+* terroristes (visant à déstabiliser un ordre établi);
+* cupide (recherche d’un gain financier ou matériel);
+* ludique (pour s'amuser ou par loisir);
+* vengeur (réaction à une frustration quelconque).
 
-## Opportunistic attack
-Opportunistic attacks are attacks not directly targeting particular people or organisations, but where the goal is to cause as many casualties as possible, whatever they may be. Most people and organisations are vulnerable to this threat.
+Elles visent soit la confidentialité, l’intégrité ou encore la
+disponibilité d’un système informatique (voire une combinaison des
+trois).
 
-Here are some common steps for this type of attack:
+Pour déployer des logiciels malveillants, le [pirate
+informatique](https://www.cases.lu/fr/cybercriminels.html) se focalise
+généralement sur une des alternatives suivantes:
 
-### The creation or purchase of malicious software
 
-Malware is a tool that gives the attacker absolute control over the computers of his/her victims. It is, therefore, the cornerstone of many opportunistic attacks.
+Attaque opportuniste
+--------------------
+Les attaques opportunistes sont des attaques qui ne sont pas directement
+dirigées vers des gens ou organisations en particulier, mais dont le but
+est d'obtenir autant de victimes que possible quelles qu'elles soient.
+La plupart des gens et organisations sont soumis à cette menace.
 
-### Sending or renting a SPAM service
-Reaching a large number of victims requires good distribution. Whether for a scam or in order to infect computers a wide audience must be reached. Sending emails or SPAM on social networks can be a very good method.
+Voici quelques étapes courantes de ce genre d'attaques:
 
-### Creating malicious sites and infecting existing sites
+### La création ou l'achat d'un logiciel malveillant
+Un [logiciel
+malveillant](https://www.cases.lu/fr/logiciels-malveillants.html) donne
+à l'attaquant un outil de contrôle absolu sur les ordinateurs de ses
+victimes. De ce fait il constitue la pierre angulaire de beaucoup
+d'attaques opportunistes.
 
-A web presence is important not only for legitimate organisations, but also for cybercriminals. Creation of phishing sites, advertisements, scams, pages containing an exploit that will infect the computers of Internet users ...
+### L'envoi ou location d'un service de SPAM
 
-## Targeted attack
-Targeted attacks can be very difficult to counteract. It all depends on the energy and time deployed by the criminal group. In general, a well-organised, targeted attack is likely to succeed when the attacker focuses exclusively on the victim.
+Atteindre une large population de victimes ne se fait pas sans une bonne
+distribution. Que se soit pour une arnaque ou pour l'infection
+d'ordinateurs il faut pouvoir atteindre un large public. L'envoi
+d'e-mails ou le
+[SPAM](https://www.cases.lu/fr/spam-les-courriers-indesirables.html) sur
+réseaux sociaux peut-être une très bonne méthode.
 
-These attacks can take place in different stages. Below you will find some important steps involved in this type of attack.
+### La création de sites malicieux et l'infection de sites existants
 
-### Information harvesting
-Before attacking a particular target, the hacker generally assesses any information that might help him/her map the targeted organisation or individual (snapshot). A list of telephone numbers or emails posted on the Internet can be the key to attacking an organisation.
+Avoir une présence sur la toile n'est pas seulement important pour les
+organismes légitimes mais aussi pour les cybercriminels. Création de
+[sites](https://www.cases.lu/fr/sites-web-malicieux.html) de phishing,
+publicités, arnaques, pages contenant un exploit qui infectera les
+ordinateur des internautes, etc.
 
-### Network scanning
-Sometimes hackers test the target systems to see if they are active and determine if there are any vulnerabilities. This can trigger alarms and often does not give convincing results; it is therefore reserved for certain specific fields of application only.
 
-### Social engineering
-Often, attacking computer systems is impossible because they are highly protected. In the case of social engineering, rather than using a technical flaw of the system, the perpetrator will exploit the credulity of a human being. The perpetrator will, for example, pretend to be someone else related to the user in order to gain access to information such as a password. This scenario has become common practice; hackers often use psychological pressure on an individual or invoke urgency, to quickly obtain the desired information.
+Attaque ciblée
+--------------
+Les attaques ciblées peuvent être très difficiles à contrecarrer. Tout
+dépend de l'énergie et temps déployés par le groupe de malfaiteurs. En
+général une attaque ciblée bien organisée a de grandes chances de
+réussir quand l'attaquant se concentre exclusivement sur sa victime.
 
-### Mailtrap
-Often the perpetrator will attempt an attack by mailtrap, for example containing a "Trojan horse" in any program, which may allow the perpetrator, once activated by the user, to take remote control of the victim's computer.
+Ces attaques peuvent se dérouler en différentes étapes. Ci-dessous vous
+trouverez certaines étapes importantes de ce type d'attaque.
+
+### La récolte d'informations
+Avant d'attaquer une cible particulière, le pirate procède généralement
+à un relevé de toute information pouvant mener à une cartographie
+(photographie détaillée) de l'organisation ou de l'individu qu'il vise.
+Une liste de numéros de téléphones ou d'e-mails publiée sur Internet
+peut être décisive dans l'attaque d'une organisation.
+
+### Le balayage du réseau
+Parfois les pirates testent les systèmes cibles pour vérifier s'ils sont
+actifs, et déterminer s'il présentent des failles. Cette opération peut
+déclencher des alarmes et ne donne souvent pas de résultats probants; de
+ce fait elle est réservée à certains champs d'application bien précis
+uniquement.
+
+### L'ingénierie sociale
+Souvent l'attaque sur les systèmes informatiques sera impossible car
+trop protégés. Dans le cas de l'ingénierie sociale ('social
+engineering'), plutôt que d'utiliser une faille technique du système, le
+malfaiteur utilisera plutôt la crédulité de l'être humain. Il tentera
+par exemple de se faire passer pour quelqu'un d'autre, en relation avec
+l'utilisateur, afin d’avoir accès à des informations tel qu’un mot de
+passe par exemple. Ce scénario est devenu une pratique courante ; les
+pirates agissent souvent par pression psychologique sur un individu, ou
+en invoquent l’urgence, pour obtenir rapidement les renseignements
+souhaités.
+
+### Le fichier piégé
+Souvent le malfaiteur tentera une attaque par e-mail piégé, contenant
+par exemple un cheval de
+Troie dans un programme quelconque, qui pourra lui permettre, une fois
+activé par l'utilisateur, de prendre contrôle à distance sur
+l'ordinateur de la victime.
