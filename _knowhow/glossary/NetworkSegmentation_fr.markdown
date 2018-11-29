@@ -145,7 +145,7 @@ Cas d’une très petite entreprise. La segmentation se résume à
 l’utilisation d’un routeur NAT pour séparer le réseau interne
 d’Internet.
 
-![Réseau petit](img/little-network.png)
+![Réseau petit](/assets/img/knowhow/glossary/little-network.png)
 
 
 ### Réseau de taille moyenne
@@ -153,7 +153,7 @@ d’Internet.
 Cas d’une entreprise moyenne avec un serveur de fichiers  et de mails.
 Un seul firewall s’occupe de la segmentation du réseau.
 
-![Réseau moyen](img/medium-network.png)
+![Réseau moyen](/assets/img/knowhow/glossary/medium-network.png)
 
 ### Réseau de grande taille
 
@@ -161,4 +161,4 @@ Cas d’une grande entreprise avec réseau pour externes et un sous réseau
 isolé en DMZ (zone orange dans laquelle les serveurs ne peuvent pas
 communiquer entre eux).
 
-![Réseau grand](img/big-network.png)
+![Réseau grand](/assets/img/knowhow/glossary/big-network.png)
