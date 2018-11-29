@@ -11,7 +11,7 @@ ref: glossaryconfidentiality
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 
 Assurer le caractère confidentiel des données, c'est garantir que seul les personnes autorisées puissent accéder à ces informations. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) visant à garantir la confidentialité essayent donc de défendre l'accès à des informations par des personnes non autorisées. Ces mesures doivent prévenir la perte de confidentialité intentionnelle et non-intentionnelle. (Voir aussi la [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}))
 

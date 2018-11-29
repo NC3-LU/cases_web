@@ -11,7 +11,7 @@ ref: glossarybasiccriteriaforra
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 Lors de la définition du contexte dans lequel s'effectuera la gestion des risques, il s'agira d'établir des critères de base, qui serviront aussi bien à analyser les risques de l'organisme, que de proposer les solutions de traitements.
 
 ## Les menaces

@@ -11,7 +11,7 @@ ref: glossaryintegrity
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 
 Le critère d'intégrité est l'assurance qu' une information ne peut être modifiée que par des personnes ou des processus autorisés et selon une procédure établie. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) voulant garantir le critère d'intégrité doivent donc veiller à ce qu'aucune personne ne puisse changer des informations sans permission ou de façon erronée. (Voir aussi la [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}))
 

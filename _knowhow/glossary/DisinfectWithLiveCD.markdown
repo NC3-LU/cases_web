@@ -41,23 +41,3 @@ Dans le cas d’une détection de logiciels malveillants, l’antivirus vous pro
 
 ## Précautions à prendre
 Vu que les antivirus sur live CD n'utilisent pas le système d'exploitation de base de l'ordinateur, il est possible que celui-ci devienne inutilisable après détection et effaçage d'un logiciel malveillant profondément ancré. Gardez donc votre disque d'installation de votre système d'exploitation à portée de main et faites régulièrement des [sauvegardes]({% link _knowhow/glossary/DataBackups.markdown %}).
-
-## Exemples de systèmes live d'antivirus
-
-- [avast!](https://forum.avast.com/index.php?board=6.0)
-
-- [Avira](https://www.avira.com/en/download/product/avira-rescue-system)
-
-- [AVG](https://www.avg.com/en-us/rescue-cd-business-edition)
-
-- [Bitdefender](https://forum.bitdefender.com/index.php?/topic/16602-using-the-bitdefender-rescue-cd/)
-
-- [F-Secure](https://www.f-secure.com/en/web/home_global/support-tools)
-
-- [Kaspersky](https://forum.kaspersky.com/index.php?/forum/159-kaspersky-rescue-disk/)
-
-- [Microsoft](https://support.microsoft.com/fr-fr/help/17466/windows-defender-offline-help-protect-my-pc)
-
-- [opendiagnostics-livecd](https://sourceforge.net/projects/opendiagnostics/)
-
-- [Panda](https://www.pandasecurity.com/mediacenter/?ref=mc_research)

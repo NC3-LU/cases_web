@@ -11,7 +11,7 @@ ref: glossaryemail
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 Le courrier électronique est une forme très populaire de communication sur Internet. À la base il consiste dans le transfert de texte en clair entre différents ordinateurs sur Internet. Le courrier électronique ou e-mail n'est donc pas adapté à l'envoi de données confidentielles. Néanmoins, certaines techniques de [chiffrement]({% link _knowhow/glossary/Cryptography_fr.markdown %}), comme [OpenPGP](https://www.openpgp.org/), permettent d'assurer un haut degré de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}).
 
 ## Les risques associés

@@ -11,8 +11,6 @@ ref: glossarycomputerhacks
 lang: fr
 ---
 
-> Check to verify the completeness of this article.
-
 ## Illegal access to a system
 Illegally accessing a system involves intentionally and fraudulently entering and remaining in an automated data processing or transmission system, for example:
 
