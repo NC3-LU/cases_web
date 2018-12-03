@@ -7,17 +7,25 @@ layout: default
   with a bullet before the name
 {% endcomment %}
 
+
+{% assign currentlang = page.lang %}
+{% if currentlang == blank or currentlang == empty or currentlang == nil %}
+  {% assign currentlang = site.default_lang %}
+{% endif %}
+
+
+
 <div class="blocantiscroll col-md-2">
   <h2>Glossary</h2>
   <ol class="test">
 
-
-    {% for page in site.knowhow %}
-    {% if page.url contains "glossary" %}
+    {% assign glossarylist = site.knowhow | where: "lang", currentlang %}
+    {% for spage in glossarylist %}
+    {% if spage.url contains "glossary" %}
 
     <li style="list-style: none;">
-      <a href="{{page.url | relative_url}}" alt="{{ page.title | escape }}">
-        <h6 class="list-select">&#9657; {{ page.title }}</h6>
+      <a href="{{ page.url | relative_url }}" alt="{{ page.title | escape }}">
+        <h6 class="list-select">&#9657; {{ spage.title }}</h6>
       </a>
     </li>
     {% endif %}
@@ -32,7 +40,7 @@ layout: default
 <div class="col-md-8">
  <div class="row-fluid row-fluid--padding">
    {% include menus/language-selector.html %}
-	 <h1>{{ page.title }}</h1>
+	 <h1>{{ spage.title }}</h1>
   <div>
     {{ content | inject_anchors }}
   </div>
@@ -45,7 +53,7 @@ layout: default
 {% comment %} TOC on the right {% endcomment %}
 <div class="blocantiscroll col-md-2">
 
-  {% if page.layout == "article" %}
+  {% if spage.layout == "article" %}
   <h2>Table of Content</h2>
   {{content | toc_only}}
   {% endif %}
