@@ -24,7 +24,7 @@ layout: default
     {% if spage.url contains "glossary" %}
 
     <li style="list-style: none;">
-      <a href="{{ page.url | relative_url }}" alt="{{ page.title | escape }}">
+      <a href="{{ spage.url | relative_url }}" alt="{{ spage.title | escape }}">
         <h6 class="list-select">&#9657; {{ spage.title }}</h6>
       </a>
     </li>
@@ -40,7 +40,7 @@ layout: default
 <div class="col-md-8">
  <div class="row-fluid row-fluid--padding">
    {% include menus/language-selector.html %}
-	 <h1>{{ spage.title }}</h1>
+	 <h1>{{ page.title }}</h1>
   <div>
     {{ content | inject_anchors }}
   </div>
