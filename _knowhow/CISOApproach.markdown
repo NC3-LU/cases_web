@@ -31,7 +31,7 @@ The implementation of a charter must be accompanied by a presentation to employe
 
 ## Security policy
 
-<img class = "img-border" src = "/ assets / img / services / polsec-circl.jpg" style = "float: right; width: 445px;" />
+<img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float: right; width: 445px;" />
 After the identification of the major risks for the organization ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %})), the management can, with a view to continuous improvement, go beyond 'a simple security charter. It will put in place a real policy as well as specific procedures.
 
 The implementation of a security policy, even rudimentary, will allow management to begin the organization of security. It will be defined in formal procedures, the obligations and responsibilities of each, as well as processes related to the security of information.
