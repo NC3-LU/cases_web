@@ -40,11 +40,12 @@ collections:
 pagination:
   enabled: true
   per_page: 4
-  permalink: '/articles-list/page:num/'
   title: ':title - page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+paginate_path: '/articles-list/page:num/'
 
 default_lang: en
 languages: ["en", "fr", "de"]
