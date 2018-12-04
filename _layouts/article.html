@@ -25,7 +25,11 @@ layout: default
 
     <li style="list-style: none;">
       <a href="{{ spage.url | relative_url }}" alt="{{ spage.title | escape }}">
+      {% if page.url == spage.url %}
+        <h6 class="list-select selected-item">&#9657; {{ spage.title }}</h6>
+      {% else %}
         <h6 class="list-select">&#9657; {{ spage.title }}</h6>
+      {% endif %}
       </a>
     </li>
     {% endif %}
