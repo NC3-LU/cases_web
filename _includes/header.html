@@ -49,6 +49,7 @@
                     <li><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
                   {% endif %}
                 {% endfor %}
+                <li><a href="{% link _knowhow/glossary/AntiVirus.markdown %}">Glossary</a></li>
               </ul>
             </li>
 
@@ -56,8 +57,8 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="/articles-list/index.html">Articles</a></li>
-                <li><a href="{% link publications.md  %}">In depth Articles</a></li>
-                <li><a href="{% link downloads.md  %}">Media</a></li>
+                <li><a href="{% link publications.md %}">In depth Articles</a></li>
+                <li><a href="{% link downloads.md %}">Media</a></li>
               </ul>
             </li>
 

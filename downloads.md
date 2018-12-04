@@ -21,8 +21,8 @@ This is the media page, where you can download logos and documents about CASES a
 
 The description of the MONARC method:
 
-* [[FR] MONARC]({% link assets/files/CASES_Monarc2016FR-web.pdf %})
-* [[EN] MONARC]({% link assets/files/CASES_Monarc2016EN-web.pdf %})
+* [MONARC]({% link assets/files/CASES_Monarc2016FR-web.pdf %}) ![French Flag](/assets/img/flags/fr.png)
+* [MONARC]({% link assets/files/CASES_Monarc2016EN-web.pdf %}) ![English Flag](/assets/img/flags/en.png)
 
 MONARC method guide:
 
