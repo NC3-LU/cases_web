@@ -29,7 +29,7 @@ This type of theft is less well known and at first glance may appear less dramat
 
 The theft of magnetic storage media (tapes, hard drives), optical storage media such as CDs (Compact Discs), DVDs (Digital Versatile Discs) or electronics such as USB sticks (Universal Serial Bus), used for the purposes of security copies, main storage or backups, is very common and enables the theft of large quantities of data.
 
-#####Mobile phones
+##### Mobile phones
 All the synchronisation functionalities between “GSM” and IT solutions clearly indicates that these items should be considered as part of the data processing chain.
 
 ## What are the impacts?
