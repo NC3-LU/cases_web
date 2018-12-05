@@ -49,7 +49,7 @@ Within an organisation, the following are required:
 * You should set up a specialised service to analyse suspicious or doubtful files. The IT department or an external expert can open the files in a specialised environment.
 * If infection is suspected, scan your computer with an antivirus program on a live CD
 * Since some malicious code (worms) exploits technical vulnerabilities, you should always apply [patches]({% link _knowhow/glossary/Patches.markdown %}) and updates to your operating system and any applications used on the system in question.
-* Since some malicious code (worms) uses automated mechanisms to spread itself, [the network should be partitioned]({% link _knowhow/glossary/NetworkSegmentation.markdown %})using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
+* Since some malicious code (worms) uses automated mechanisms to spread itself, [the network should be partitioned]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
 
 ## Security policy
 Write and apply the following sectoral policies:

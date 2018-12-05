@@ -150,33 +150,20 @@ Rédigez et faites appliquer les politiques sectorielles suivantes:
       * [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
 -   [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
     -   [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
-    -   [Gestion des droits
-        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=2&WCE_section_265_1=2#597)
-    -   [Utilisation de réseaux
-        externes](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=4&WCE_section_265_1=4#599)
-    -   [Connexion de
-        l’extérieur](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=5&WCE_section_265_1=5#600)
-    -   [Séparation de
-        réseaux](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=6&WCE_section_265_1=6#601)
--   [Gestion des incidents liés à la
-    sécurité](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html)
-    -   [Signalement des événements liés à la sécurité de
-        l’information](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html&WCE_section_523_1=1#802)
-    -   [Gestion des incidents et des améliorations de la sécurité de
-        l’information](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html&WCE_section_523_1=1#803)
-    -   [Analyse des manquements avec
-        obligations](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html&WCE_section_523_1=1#804)
--   [Gestion de la continuité de
-    l’entreprise](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html)
-    -   [La continuité de
-        fonctionnement](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html&WCE_section_287_1=1&WCE_section_287_1=1#605)
+    -   [Gestion des droits d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=2&WCE_section_265_1=2#597)
+    -   [Utilisation de réseaux externes](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=4&WCE_section_265_1=4#599)
+    -   [Connexion de l’extérieur](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=5&WCE_section_265_1=5#600)
+    -   [Séparation de réseaux](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=6&WCE_section_265_1=6#601)
+-   [Gestion des incidents liés à la sécurité](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html)
+    -   [Signalement des événements liés à la sécurité de l’information](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html&WCE_section_523_1=1#802)
+    -   [Gestion des incidents et des améliorations de la sécurité de l’information](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html&WCE_section_523_1=1#803)
+    -   [Analyse des manquements avec obligations](https://www.cases.lu/fr/polsec-gestion-des-incidents-de-securite.html&WCE_section_523_1=1#804)
+-   [Gestion de la continuité de l’entreprise](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html)
+    -   [La continuité de fonctionnement](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html&WCE_section_287_1=1&WCE_section_287_1=1#605)
 -   [Conformité](https://www.cases.lu/fr/polsec-conformite.html)
-    -   [Propriété
-        intellectuelle](https://www.cases.lu/fr/polsec-conformite.html&WCE_section_291_1=2&WCE_section_291_1=2#607)
-    -   [Protection des données
-        opérationnelles](https://www.cases.lu/fr/polsec-conformite.html&WCE_section_291_1=3&WCE_section_291_1=3#608)
-    -   [Protection des données à caractère
-        personnel](https://www.cases.lu/fr/polsec-conformite.html&WCE_section_291_1=4&WCE_section_291_1=4#609)
+    -   [Propriété intellectuelle](https://www.cases.lu/fr/polsec-conformite.html&WCE_section_291_1=2&WCE_section_291_1=2#607)
+    -   [Protection des données opérationnelles](https://www.cases.lu/fr/polsec-conformite.html&WCE_section_291_1=3&WCE_section_291_1=3#608)
+    -   [Protection des données à caractère personnel](https://www.cases.lu/fr/polsec-conformite.html&WCE_section_291_1=4&WCE_section_291_1=4#609)
 
 
 Les différents types d'antivirus
@@ -246,8 +233,7 @@ La plupart des logiciels antivirus opèrent selon deux méthodes :
     codes malicieux qui ont déjà réussi à infecter le système. Le scan
     sera d'autant plus efficace si le code malicieux est inactif, par
     exemple lors de l'utilisation d'un système d'exploitation dit
-    **'live' (**[antivirus sur
-    live-cd](https://www.cases.lu/fr/faire-un-scan-de-son-ordinateur-a-laide-dun-live-cd.html)**)**.
+    **'live' (**[antivirus sur live-cd](https://www.cases.lu/fr/faire-un-scan-de-son-ordinateur-a-laide-dun-live-cd.html)**)**.
 
 Les logiciels antivirus inspectent donc en permanence tous les fichiers
 qui sont traités par l'ordinateur, c'est-à-dire au moment de leur
