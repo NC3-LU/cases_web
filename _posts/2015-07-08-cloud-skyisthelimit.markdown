@@ -8,7 +8,7 @@ short: "56% des entreprises estiment que le cloud leur a permis d’augmenter le
 toc: true
 group: post
 ref: articles20150708cloud
-lang: en
+lang: fr
 ---
 Le cloud computing connaît depuis quelques années une croissance exponentielle. Pour beaucoup, vivre sans cloud est même devenu inimaginable. La question n’est plus « to be or not to be » in the cloud, mais plutôt comment, jusqu’où et pour quelles fonctions. L’époque du cloud comme simple solution de stockage est révolue: les solutions cloud d’aujourd’hui permettent non seulement de stocker des données, mais également des applications et des services en ligne qui permettent d’assurer des fonctions vitales de l’entreprise (CRM, comptabilité, gestion de projet…).
 
