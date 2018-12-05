@@ -14,7 +14,7 @@ lang: en
 ## In brief
 
 Securing information is far from being a technical issue for an organization. Indeed, technical activities are only one aspect of an approach that, in order to be successful, must cover the activities of the company as a whole.
-Before putting in place procedures or technical measures to increase the safety of an organization, it is important to carry out a risk analysis ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %}) ) and write a security policy.
+Before putting in place procedures or technical measures to increase the safety of an organization, it is important to carry out a risk analysis ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %})) and write a security policy.
 
 The security policy is used to formalize and coordinate all organizational and technical security procedures of the organization.
 Writing a security policy is a tedious task. We do not advise small businesses to approach them, and instead recommend moving forward with a view to continuous improvement, a short and concise document at a time, to gradually develop the sectoral procedures and policies that they have in place. Not needed anymore.
