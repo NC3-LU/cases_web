@@ -563,7 +563,7 @@ Template Name: cases.lu
 	transition: all 0.3s;
   }
   .menu li a:hover, .menu li:hover > a {
-  	color: #ffff1a;
+  	color: #FFD500;
 	-webkit-transition: ease 0.3s;
 	-o-transition: ease 0.3s;
 	-moz-transition: ease 0.3s;
