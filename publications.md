@@ -1,8 +1,8 @@
 ---
 layout: publication-list
-title: Publications
-menutitle: 
-permalink: /publications/
+title: In depth articles
+menutitle:
+permalink: /indeptharticle/
 categories: iso
 toc: true
 ---
