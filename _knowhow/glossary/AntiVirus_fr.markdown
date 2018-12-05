@@ -233,7 +233,7 @@ La plupart des logiciels antivirus opèrent selon deux méthodes :
     codes malicieux qui ont déjà réussi à infecter le système. Le scan
     sera d'autant plus efficace si le code malicieux est inactif, par
     exemple lors de l'utilisation d'un système d'exploitation dit
-    **'live' (**[antivirus sur live-cd](https://www.cases.lu/fr/faire-un-scan-de-son-ordinateur-a-laide-dun-live-cd.html)**)**.
+    **'live' antivirus sur live-cd**.
 
 Les logiciels antivirus inspectent donc en permanence tous les fichiers
 qui sont traités par l'ordinateur, c'est-à-dire au moment de leur
