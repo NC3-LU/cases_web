@@ -9,8 +9,9 @@ categories: knowhow
 toc: true
 ref: glossaryinternetandcopyright
 lang: fr
+comments: pictures
 ---
-> pictures
+
 
 
 ## In brief
