@@ -52,7 +52,7 @@ It is important to adapt the storage technology to the degree of data sensitivit
 
 In order to avoid the storage infrastructure becoming quickly saturated and all the associated problems, it is necessary to implement a file archiving policy on suitable devices.
 
-It is advisable to equip servers with **RAID]** (Redundant Array of Independent/Inexpensive Disks) technology which distributes the storage of data over several hard drives. If one of the RAID hard drives is lost, the IT system is able to reconstruct the missing data. There are different levels of RAID configurations, which are discussed in a separate sheet.
+It is advisable to equip servers with **RAID** (Redundant Array of Independent/Inexpensive Disks) technology which distributes the storage of data over several hard drives. If one of the RAID hard drives is lost, the IT system is able to reconstruct the missing data. There are different levels of RAID configurations, which are discussed in a separate sheet.
 
 The implementation of a SAN (Storage Area Network) cabled storage network may also prove useful for large infrastructures or the deployment of a second production or backup site.
 
