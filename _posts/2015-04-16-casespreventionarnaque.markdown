@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CASES participe au mois de prévention de l’arnaque"
-date:   2015-05-16 10:00:00 +0100
+date:   2015-04-16 10:00:00 +0100
 categories: newservices
 isVisible: True
 short: "L’utilisation d’Internet et des réseaux sociaux par les cambrioleurs n’est plus seulement un bon scénario pour un film (The Bling Ring). C’est devenu une réalité établie et reconnue par les professionnels de l’intrusion"
