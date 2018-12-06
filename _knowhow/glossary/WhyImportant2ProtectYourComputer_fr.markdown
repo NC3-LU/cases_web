@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Why is it important to protect your computer?"
+title:  "Pourquoi est-il important de protéger son ordinateur?"
 menutitle:
 logo:
 date:   2017-11-06 00:00:00 +0100

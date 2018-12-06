@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Removable devices"
+title:  "Supports amovibles"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,23 +11,23 @@ ref: glossaryremovabledevices
 lang: fr
 ---
 
-## In brief
-Removable storage media are data storage media which, as their name would indicate, can be transferred from one computer to another. They will typically be optical discs, such as CDs or DVDs, but they can also be external hard drives, memory sticks and more. Because of their portability, these storage media can represent a security breach for your network.
+## En quelques mots
+Les supports amovibles sont des supports de données, qui, comme leur nom l'indique, peuvent être transférés d'un ordinateur à un autre. Ce sont typiquement les disques optiques, comme CD ou DVD, mais aussi les disques durs externes, les memory-sticks ou autres. Du fait de leur portabilité, ces supports peuvent représenter une brèche dans la sécurité de votre réseau.
 
-## Introduction of malicious software (malware)
-Some [malware]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) specialises in spreading itself by USB stick or external hard drive. Generally speaking, it uses Windows “autorun”. This automatically executes an application when the stick or hard drive is connected.
+## Introduction de logiciels malveillants
+Certains [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) sont spécialisés dans la propagation par stick usb ou disque dur externe. En général la facilité «autorun» de Windows est utilisée ; celle-ci permet d'exécuter automatiquement une application lors de l'introduction du stick ou disque dur.
 
-Although Microsoft changed the default behaviour when it released a patch, meaning that the “autorun” should no longer be activated by default, it is recommended to take care when using memory sticks:
+Bien que Microsoft ait lors d'un patch changé le comportement par défaut et que la fonction «autorun» ne devrait plus être activé par défaut, il est conseillé de rester sur ces gardes en manipulant ces memory sticks :
 
-* pay particular attention to computers you use with these sticks or drives; a publicly-accessible computer which is often used with different sticks has much more chance of being infected, and therefore infect your own memory stick;
-* sticks are often handed out as a gift at events – you should always check them on a computer without the “autorun” function before using them;
-* be especially careful about any sticks that you find – they may have been lost on purpose;
-* use a dedicated workstation to scan removable storage media before using them within your organisation;
-* if possible, block optical disc readers and USB ports on workstations (it is possible to do so using your operating system software);
-* ensure your staff are aware of the dangers of removable storage media.
+* prenez garde particulièrement aux ordinateurs sur lesquels vous branchez vos sticks ou disques ; un ordinateur de présentation qui accueille souvent des stick étrangers a beaucoup de chances d'être infecté et par là même d'infecter votre stick ;
+* les sticks sont souvent utilisés comme cadeau à des multiples événements, il faut donc absolument les contrôler sur un ordinateur sans la fonction «autorun» avant de les utiliser;
+* prenez garde en particulier aux sticks trouvés, qui auraient pu avoir été perdus à dessein;
+* prévoyez un poste dédié au scan de supports amovibles avant utilisation au sein de votre organisation;
+* si possible bloquez les lecteurs de disques optiques ainsi que les prises USB sur les postes de travail (il est possible de le faire au niveau logiciel);
+* sensibilisez votre personnel aux dangers des supports amovibles.
 
-## Information leak
-The theft of files or information can be facilitated by the use of removable storage media. Make sure you block USB ports and optical readers on your workstations. This will not prevent leaks over the Internet, so it would also be of use to consider DLP – Data Leakage Prevention.
+## Fuite d'informations
+Le vol de fichiers ou d'informations peut être facilité par l'utilisation de supports amovibles. Veillez donc à bloquer les prises USB et les lecteurs optiques de vos postes de travail. Cela n'empêchera pas les fuites par Internet, il est donc utile de penser aussi à un système de maîtrise des fuites d'information (DLP - Data Leakage Prevention).
 
-## Destruction of hardware
-It is sometimes possible to find this type of storage media lying around. Sometimes, simple human curiosity drives us to collect these tools together and to look at what's inside. Or if we are in a rush, we might be tempted to take the first storage media that we come across. But that risks ending badly. Some USB keys can easily transform themselves into “USB Killers” – a tool causing a powerful electrical discharge when inserted into a machine. You should therefore draw up an IT charter or internal instructions stating that the hardware used must be familiar to the person using it.
+## Destruction de matériel
+Il est parfois possible de trouver ce genre de supports dans la nature. Parfois, la simple curiosité humaine nous pousse à ramasser ces outils, et à regarder ce qu'il y a dedans. Ou encore, dans l'urgence, nous pouvons prendre le premier support que nous trouvons. Mais cela pourrait mal se finir. Certaines clés USB peuvent être facilement transformées en "USB Killers", un outil provoquant une puissante décharge électrique dès lors qu'elle est insérée dans une machine. Veillez donc à indiquer, dans une charte informatique ou des consignes internes, que le matériel utilisé doit-être connu de la personne.

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Web filter – Proxy"
+title:  "Filtre web - Proxy"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,48 +10,48 @@ toc: true
 ref: glossarywebfilterproxy
 lang: fr
 ---
-## In brief
-A large number of websites, both legal and illegal, that can be freely accessed online have content that is malicious, inappropriate, prohibited or bad for productivity. Accessing [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) may result in the installation of [malicious codes]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) without the user’s knowledge. The organisation may also be held [liable]({% link _knowhow/glossary/Impact_fr.markdown %}) for access to prohibited or illegal content.
+## En quelques mots
+Bon nombre de sites web (licites et illicites) librement accessibles sur l'Internet proposent des contenus malicieux, inappropriés, prohibés ou nuisibles à la productivité. L'accès à des [sites malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) peut avoir comme conséquence l'installation de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) à l'insu de utilisateur. Quant à l'accès à des contenus prohibés ou illégaux, il peut engendrer la [responsabilité légale]({% link _knowhow/glossary/Impact_fr.markdown %})  
 
-To prevent employees accessing such websites, the organisation can install a web filter as a means of protection.
+Pour prévenir l'accessibilité des employés à de tels sites, l'organisme peut installer un filtre web comme moyen de protection.
 
-In technical terms, these filters are called “web proxies” and can take several forms. The best-known free proxies are “squid and squidguard”, “DansGuardian” and “HAVP”, which can be found in a large number of free or paid firewall products.
+Techniquement parlant ces filtres sont appelés «proxy web» et peuvent se présenter sous plusieurs formes. Les proxy libres les plus connus sont «squid et squidguard», «DansGuardian» ou encore «HAVP» qui se retrouvent dans un grand nombre de produits firewall libres ou commerciaux.
 
-## How it works
-A web filter analyses all communications (content and/or recipients) to and from the Internet to detect exchanges with sites hosting malicious, inappropriate or prohibited content. This filter is not to be confused with the browser’s [phishing filter]({% link _knowhow/glossary/Phishing_fr.markdown %}), because unlike the latter, which is installed in the user’s browser, the web filter runs on a dedicated server and cannot be easily circumnavigated by the user.
+## Fonctionnement
+Un filtre web analyse toutes les communications (contenus et/ou destinataires) vers et depuis l'Internet pour détecter des échanges avec des sites hébergeant des contenus malicieux, inappropriés ou prohibés. Ce filtre ne doit pas être confondu avec le [filtre phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}), du navigateur, car contrairement à ce dernier qui est installé dans le navigateur de l'utilisateur, le filtre web tourne sur un serveur dédié et ne peut pas être facilement contourné par l'utilisateur.
 
-## URL analysis
-A web filter that analyses URLs has a database that links URLs with content categories. These databases are managed by specialised companies who associate the websites with various categories, such as pornography, gaming, gambling, and so on.
+### Analyse des URL
+Un filtre web qui analyse les URL dispose d'une base de données qui associe des URL avec des catégories de contenus. Ces bases de données sont gérées par des sociétés spécialisées qui associent les sites à différentes catégories, comme notamment les sites pornographiques, de jeux, de jeux d'argent et ainsi de suite.
 
-Once a new website has been discovered, it is categorised and, if necessary, added to the database. This type of filter does not prevent access to brand new websites that haven’t yet been categorised or access to websites that have only recently become malicious.
+Dès qu'un nouveau site est découvert, il est catégorisé et, si besoin, ajouté à la base de données. Ce type de filtrage ne protège pas contre l'accès à des sites tout neufs, non encore catégorisés, respectivement l'accès à des sites récemment devenus malicieux.
 
-The organisation can nevertheless filter different content categories, such as pornography, gambling, social networks, etc.
+L'organisme peut néanmoins filtrer différentes catégories de contenus, tels que les sites pornographiques, jeux d'argent, réseaux sociaux ...
 
-### Content analysis
-Some web filters are able to analyse the content of a website a user wants to visit. Based on a list of key words, the filter allocates a category to the websites visited and either displays or doesn’t display the requested content. This filter is useful for preventing access to recent content for which the URL analysis wouldn’t have worked, but can also generate a lot of false positives.
+### Analyse de contenus
+Certains filtres web sont capables d'analyser le contenu d'un site web qu'un utilisateur souhaite visiter. Sur base d'une liste de mots clés, le filtre attribue une catégorie aux sites visités, et affiche ou n'affiche pas le contenu demandé. Ce filtre est efficace pour protéger contre les contenus récents pour lesquels l'analyse par URL n'aurait pas marché, mais peut produire beaucoup de faux positifs.
 
-### Malicious content analysis
-Some filters contain antivirus programs and can analyse the content of websites visited and block access to potentially [malicious software]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}).
+### Analyse de contenus malicieux
+Certains filtres contiennent des antivirus et peuvent analyser le contenu des sites visités et bloquer l'accès à d'éventuels [logiciels malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}).
 
-### Image analysis
-Some web filters can analyse the requested images. The filter selects the images on the website visited and allocates them to a category before displaying or not displaying the content.
+### Analyse d'images
+Certains filtres web sont capables d'analyser les images demandées. Le filtre sélectionne les images du site visité et les attribue selon certaines catégories avant d'en afficher le contenu ou non.
 
-## Security policy
-Draw up and enforce the following sectoral policies:
+## Politique de sécurité
+Rédigez et faites appliquer les politiques sectorielles suivantes :
 
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
-  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
-  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
-  * [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-  * **[Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)**
-  * [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+  * [La réponse aux incidents et disfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+  * [Courrier électronique]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+  * **[Utilisation des réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)**
+  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+  * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)

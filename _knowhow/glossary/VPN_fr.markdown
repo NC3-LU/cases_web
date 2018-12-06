@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Virtual Private Networks (VPNs)"
+title:  "VPN : Les réseaux privés virtuels"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,62 +11,62 @@ ref: glossaryvpn
 lang: fr
 ---
 
-## In brief
-The growth in Internet usage has given rise to new ways of working such as working from home, the exchange of classified information between different subsidiaries of the same company, and even viewing the websites and IT systems of suppliers or clients. As a consequence of this, a genuine security issue relating to these new methods of working is starting to emerge. 
+## En quelques mots
+La croissance de l’utilisation d’Internet donne lieu à de nouveaux modes de travail tels que le télétravail, l’échange d’informations privilégiées entre différentes filiales d’une entreprise, ou encore la consultation de sites Web et des systèmes informatiques de ses fournisseurs ou clients. En conséquence, une réelle problématique de sécurité liée à ces nouveaux modes de travail est en train d’émerger.
 
-“Virtual Private Networks” (VPNs) can provide an answer to some of these issues, and they are coming into increasing usage. The purpose of this article is to show the different types of VPN in existence, and also to detail a few user scenarios.
- 
-## Explanations
-A virtual private network is a means of communication which ensures secure data transfer over public or shared networks (such as cable distribution and even ADSL). A VPN is, in fact, a communications network which uses the same security parameters as a private network. Its main features are:
+Les « Virtual Private Networks » (VPN) peuvent répondre à certains de ces problèmes et sont de plus en plus utilisés. L’objet de cette fiche est de présenter les différents types de VPN existant, mais aussi d’en proposer quelques scénarios d’utilisation.
 
-* data confidentiality: encryption guarantees that the content of data transmitted can only be known to the parties exchanging the information. Because of this, any third party intercepting VPN traffic will not be able to determine its content;
-* data integrity: cryptographic methods employed ensure that the data received by the recipient over a VPN is identical to the data sent by the sender;
-* authentication of VPN users: it is important to know who is taking part in procedures to avoid security issues relating to identity theft and therefore illicit access to private networks.
+## Explications
+Un Réseau Privé Virtuel (anglais : Virtual Private Network, VPN) est un moyen de communication assurant la sécurité des transferts de données sur des réseaux publics ou partagés (comme la télédistribution ou encore l’ADSL). Un VPN est, en fait, un réseau de communication avec les mêmes paramètres de sécurité qu’un réseau privé. Ses principales caractéristiques sont :
 
-VPN is a technology enabling a logical extension of a network or a sub-network of the organisation through the addition of workstations or sub-networks outside its physical boundaries. More specifically, employees working from home will be virtually acting within the internal network of the organisation, or between two remote sites or even a world apart, and sharing the same network.
+* confidentialité des données : le chiffrement assure que le contenu des données transmises n’est connu que des parties qui échangent l’information. De ce fait, un tiers interceptant le trafic du VPN n’aura pas la possibilité d’en déterminer la teneur;
+* intégrité des données : les méthodes cryptographiques employées assurent que les données reçues au travers du VPN par le destinataire sont identiques à celles envoyées par l’expéditeur ;
+* authentification des utilisateurs du VPN : il est important de savoir quels sont ceux qui participent au processus afin d’éviter les problèmes de sécurité liés à l’usurpation d’identité et par la même à l’accès illicite aux réseaux privés.
 
-## Threats encountered
-The Internet provides no guarantees over the confidentiality or the integrity of data circulating over the web. For example, if you send an email, it is entirely possible that a third party could intercept it, read it and even alter some of the content.
+Le VPN est une technologie permettant l'extension logique du réseau, ou d'un sous-réseau, de l'organisation par l'ajout de postes ou sous-réseaux se trouvant à l'extérieur des limites physiques de celle-ci. Concrètement les employés travaillant de chez eux seront virtuellement dans le réseau interne de l'organisme ou deux sites distants, voire aux antipodes l'un de l'autre, pourront partager le même réseau.
 
-This is clearly totally unacceptable, especially with regard to sensitive connections such as transactions with clients or partners or remote access to a company’s classified information (on a file server, for example).
 
-The best means to counter such threats is currently the use of a VPN.
+## Menaces contrées
+L’Internet ne donne aucune garantie sur la confidentialité ou l’intégrité des données qui y circulent. Par exemple, si vous envoyez un e-mail, il est tout à fait possible qu’une tierce personne l’intercepte, le regarde et change même son contenu.
 
-## Recommendations
-There are many different VPN protocols available and choosing the right one is not a simple matter. It is important to find out about the strength of the cryptographic algorithms being used. For example, the PPTP protocol – the protocol traditionally used in Windows infrastructures – is known to be no longer reliable because the authentication data can be stolen by third parties.
+Ceci n’est en aucun cas acceptable et encore moins en ce qui concerne les connexions d’ordre sensible comme des transactions avec des clients ou partenaires ou dans le cas d’accès à distance aux informations internes d’une entreprise (sur un serveur de fichiers par exemple).
 
-In general, the easiest thing to do is to use the type of VPN offered with the firewall solution of your organisation.
+A l’heure actuelle, le meilleur moyen pour contrer ces menaces est bien l’utilisation d’un VPN.
 
-## Security policy
-Draft and enforce the following sectoral policies:
+## Recommandations
+Il existe un grand nombre de protocoles VPN différents et le choix de ceux-ci n'est pas trivial. Il est important de se renseigner sur la robustesse des algorithmes de cryptographie employés. Par exemple le protocole PPTP, le protocole utilisé traditionnellement dans les infrastructures Windows, est connu pour ne plus être fiable car les données d'authentification peuvent être volées par des tiers.
+En général le plus facile sera d'utiliser le type de VPN proposé dans la solution firewall de votre organisme.
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter )
-  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [Separation of development and production environments]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#separation-of-environments)
-  * [External management of resources]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#outsourcing-of-resource-management)
-  * [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy %})
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
-  * [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
-  * [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
-  * [Login procedure]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
-* [Development and maintenance of systems]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
-  * [Use of encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
-* [Management of security incidents](% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
-  * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
-  * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
-  * [Analysis of non-fulfilment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#analysis-of-non-fulfilment-of-obligations)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property})
-  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
+## Politique de sécurité
+Rédigez et faites respecter les politiques sectorielles suivantes:
+
+* [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+  * [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter )
+  * [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
+  * [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [Séparation des environnements de développement et de production]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#separation-of-environments)
+  * [Gestion de ressources par des externes]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#outsourcing-of-resource-management)
+  * [Protection contre les logiciels malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#protection-against-malware)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy %})
+  * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks)
+  * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#external-connections)
+  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+  * [Procédure de connexion]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#connection-procedures)
+* [Développement et maintenance des systèmes]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %})
+  * [Utilisation de l’encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption)
+* [Gestion des incidents liés à la sécurité](% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %})
+  * [Signalement des événements liés à la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#reporting-information-security-events)
+  * [Gestion des incidents et des améliorations de la sécurité de l’information]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#incident-management-and-improvements-information-security)
+  * [Analyse des manquements avec obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents_fr.markdown %}#analysis-of-non-fulfilment-of-obligations)
+* [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property})
+  * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+  * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)  
