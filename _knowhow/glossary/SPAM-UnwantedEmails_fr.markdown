@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Spam – unwanted emails"
+title:  "Spam - les courriers indésirables"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,68 +11,68 @@ ref: glossaryspamemails
 lang: fr
 ---
 
-## In brief
-This term first appeared on the Internet in what was known as Usenet, where it was used to mean news articles sent in bulk to different newsgroups. They were often advertising messages that had nothing to do with the newsgroups in question.
+## En quelques mots
+Ce terme a fait son apparition dans l'Internet, au niveau de l'Usenet, où il désignait des articles de news, envoyés en masse à différents newsgroups. Il s'agissait le plus souvent de messages publicitaires qui n'avaient rien à voir avec les newsgroups concernés.
 
-This type of advertising was often sent by email. The term spam also ended up encompassing unsolicited bulk emails. Technically, it would be fairer to refer to UBE (Unsolicited Bulk email) or UCE (Unsolicited Commercial email).
+Ce genre de publicité étant le plus souvent véhiculé par e-mail, le terme de spam ou de pourriel a fini par désigner également les e-mails non sollicités en masse. Techniquement, il serait plus juste de parler de UBE (Unsolicited Bulk E-Mail) ou de UCE (Unsolicited Commercial E-Mail).
 
-There is no official definition of the word “spam”. Originally this word referred to a brand of tinned meat product. It was Monty Python who constantly repeated the word in one of their famous comedy sketches, introducing a concept of unpleasantness to spam.
+Il n'existe pas de définition officielle du mot « spam ». Le mot est, à l'origine, une marque anglaise de charcuterie vendu en conserve. Ce sont les Monty Pythons qui, dans un de leurs fameux sketchs où ils répétaient sans cesse le mot « spam » dans une conversation, ont introduit la notion de désagrément.
 
-Today, the word “spam” is commonly used to mean unsolicited [emails]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) sent in bulk to many recipients. People find this type of email annoying.
+Aujourd'hui, le mot « spam » est communément utilisé pour caractériser un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) non sollicité envoyé en masse à une multitude de destinataires. Ce courrier provoquera donc une gêne pour les destinataires.
 
-Such emails cost practically nothing to send. However, they can be very expensive for the recipients, in terms of connection costs and the volume of data transferred. This is a real waste of bandwidth and storage space for network administrators and email servers, and a huge waste of time for the recipients of spam (individuals and companies) in downloading, sorting and deleting spam received, with the added risk of mistakenly deleting an email that is not spam.
+Ces courriers ne coûtent pratiquement rien pour l’expéditeur. Par contre, ils peuvent coûter très cher aux destinataires, en terme de coût de connexion et de volume de transferts de données. On peut parler d’un véritable gaspillage de bande passante et d’espace de stockage pour les administrateurs de réseaux et de serveurs de messagerie mais aussi les destinataires des spams (particuliers ou entreprises) dans le temps passé et perdu à télécharger, trier et éliminer les spams reçus avec le risque d'éliminer par erreur un courrier qui n'est pas un spam.
 
-## Who does this spamming?
-Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) and the distribution of [malware]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}).
+## Qui pratique le spamming?
+Le spamming est pratiqué par des criminels et est à ce titre une activité illégale. Il s'agit de l'envoi de publicité pour des produits illicites, d'arnaques, de  [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}) ou d'envoi de [ logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}).
 
-Spam should not be confused with advertising emails which are, contrary to spam, regulated through:
+À ce titre il ne faut pas confondre le spam et les courriers commerciaux qui sont, contrairement au spam, régis par les règles de :
 
-* opting in: you agree to receive this type of emails and you sign up to a mailing list or you accept the special conditions on a website;
-* opting out: the sender must provide a way to unsubscribe from the email service.
+* opt-in : vous acceptez de recevoir ce genre d'e-mails et l'avez fait savoir  vous inscrivant dans une mailing list ou en acceptant des conditions spéciales sur un site ;
+* opt-out : l'expéditeur doit mettre à disposition un moyen de se désabonner du service de courriers.
 
-## How can I be a victim of spam?
-The only thing you need to become a potential victim of spam is your email address.
+## Comment se fait-il que je sois visctime de spam?
+Le seul élément nécessaire pour faire de vous une victime potentielle de pourriels est votre adresse électronique (E-mail).
 
-#### Methods of collecting email addresses
-Spammers have numerous ways to collect your email address on the Internet (in forums, on websites, in discussion groups, etc.), using software (known as “robots”) crawling different pages and storing any email addresses they find as they go along.
+#### Méthodes de récupération d´adresse E-Mail
+Les spammeurs disposent de plusieurs moyens pour récupérer votre adresse électronique sur Internet (dans les forums, sur les sites Internet, dans les groupes de discussion, etc.), grâce à des logiciels (appelés «robots» ) parcourant les différentes pages et stockant au passage dans une base de données toutes les adresses E-mail y figurant.
 
-Bill Gates receives 4 million emails a day, most of which are spam, but only 10 make their way into his inbox. The rest are filtered by anti-spam solutions. (source: BBC News – 18 Nov. 2004)
+Pour l'anecdote, Bill Gates reçoit 4 millions d'e-mail par jour dont la majorité sont des spams mais seulement 10 parviennent effectivement dans sa inbox, tous les autres étant filtrés par des solutions anti-spams. (source : BBC News – 18 nov. 2004)
 
-* Your email address was sold
+* Votre adresse E-Mail a été vendue
 
-By selling on subscriber lists to a third party, which itself sells it on again, etc, your Internet service provider enables the distribution of multiple copies of your address over the Internet. Please note: it is legal for it to do so if you agreed for your email address to be distributed.
+En revendant sa liste d’abonnés à un tiers, qui lui-même l’a revendue à un autre, etc., votre fournisseur d’accès Internet a permis la diffusion de votre adresse en de nombreux exemplaires sur Internet. Attention, l’opération est légale si vous avez accepté que votre adresse soit diffusée.
 
-* You published it on the Internet
+* Vous l’avez publiée sur Internet
 
-Do you display your email address on your personal website? Did you enter your address on web discussion forums or in newsgroups? Be aware that software can be used to automatically harvest published email addresses. In all these cases, your email address is likely to be targeted.
+Vous avez affiché votre adresse électronique sur votre page personnelle? Vous avez laissé votre adresse sur des forums de discussion sur le Web ou dans les newsgroups? Sachez que des logiciels permettent de récolter automatiquement les adresses e-mail publiées. Dans tous ces cas vous êtes suscecible d'intégrer un fichier d'adresse.
 
-* You communicated your email address on a website
+* Vous avez communiqué votre adresse à un site web
 
-By placing an order on an electronic commerce website, by subscribing to services over a website; if the web service used is not secure, it risks having its entire database stolen – not just email addresses, but potentially also VISA card numbers.
+En passant une commande sur un site de commerce électronique, en souscrivant à des services via un site web; si le service web utilisé n'est pas sûr il risque de se faire voler toutes sa base de données, non-seulement d'adresses mails mais potentiellement aussi de numéros de cartes VISA.
 
-* Your address was generated by chance
+* Votre adresse a été générée au hasard
 
-If you make a list of the commonest surnames and first names and another list of ISPs, using all possible combinations (firstname.surname, surname.firstname, firstname, etc..), you can generate hundreds of thousands of email addresses with a strong chance that they exist! And this is what some spammers do.
+Prenez d'un côté les listes des noms et prénoms les plus courants, de l'autre celle de fournisseurs d'accès connus, en utilisant toutes les combinaisons possibles (prenom.nom, nom.prenom, nprenom, etc.), vous pouvez générer des centaines de milliers d'adresses e-mail, qui ont de fortes chances d'exister! Et c'est ce que font certains spammeurs.
 
-#### Example of spam
+#### Exemple de Spam
 
 <img class="txtcenter img-border" src="{{ "/assets/img/spam.gif" | relative_url }}" alt="{{ site.title | escape }}" />
 
-## How can we protect ourselves?
+## Comment se protéger?
 
-#### First and foremost, do not reply to a spam email.
-Spammers generally use false sending email addresses. It is therefore completely pointless to respond. Also, if the sender address is correct, all you will be doing is confirming the validity of your email address and you will only end up receiving more spam.
+#### Surtout ne pas répondre à un message spam.
+Les spammeurs utilisent généralement de fausses adresses d'envoi. Il est donc totalement inutile de répondre. De plus, si l’adresse de l’émetteur est correcte, vous ne feriez que renseigner cet émetteur sur la validité de votre adresse mail et recevoir plus de spams encore.
 
-#### The best solution remains prevention.
+#### La meilleure solution reste la prévention.
 
-* Never publicly use the email address given to you by your ISP or your company. Keep it for a limited circle of friends or colleagues that you can trust.
-* Check that your email address will not be distributed without your explicit agreement. Some service providers may automatically register you in a web directory.
-* If at all possible, avoid having your email address published on forums or websites.
-* Create one or more “dustbin addresses” that you only use to register on things or identify yourself on websites which are not necessarily to be trusted in terms of privacy.
-* If you have any doubts, enter a false address or mask your address using Spam Safe Notation, for example.
+* N’utilisez jamais publiquement l'adresse email confiée par votre fournisseur d'accès ou votre entreprise, réservez-la à un cercle restreint d'amis ou des collègues en lesquels vous avez toute confiance.
+* Vérifiez que votre adresse email ne sera pas diffusée sans votre accord explicite. Certains fournisseurs d'accès ou prestataires peuvent automatiquement vous inscrire dans un annuaire web.
+* Evitez au maximum la publication de votre adresse email sur des forums ou des sites Internet.
+* Créez une ou plusieurs «adresses poubelles» servant uniquement à vous inscrire ou vous identifier sur les sites jugés non dignes de confiance.
+* En cas de doute, saisissez une fausse adresse ou maquillez votre véritable adresse en utilisant par exemple la Spam Safe Notation .
 
-#### Use antispam software
-There are three antispam tools capable of identifying and, where necessary, deleting unwanted messages based on changing rules. We can generally distinguish between two families of antispam software:
+#### Utilisation d´un logiciel Anti-spam
+Il existe des dispositifs anti-spam permettant de repérer et, le cas échéant, de supprimer les messages indésirables sur la base de règles évoluées. On distingue généralement deux familles de logiciels anti-spam :
 
-* Client side antispam tools, placed on the email client. These are usually systems with filters which identify spam mails based on predefined or learnt rules. (Junk email in Outlook 2003)
-* Server side antispam tools enable email filtering before delivering it to recipients. This type of tool is far superior, as it stops unsolicited mails upstream and avoids networks and mailboxes getting clogged up with spam messages.
+* Les dispositifs anti-spam côté client, situés au niveau du client de messagerie. Il s'agit généralement de systèmes possédant des filtres permettant d'identifier les spams, sur la base de règles prédéfinies ou d'un apprentissage. (Junk E-mail dans Outlook 2003)
+* Les dispositifs anti-spam côté serveur, permettant un filtrage du courrier avant remise aux destinataires. Ce type de dispositif est de loin le meilleur, car il permet de stopper le courrier non sollicité en amont et d’éviter l'engorgement des réseaux et des boîtes aux lettres des internautes.
