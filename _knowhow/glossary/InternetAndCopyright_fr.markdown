@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Internet and copyright"
+title:  "Internet et droits d'auteurs"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
