@@ -10,41 +10,42 @@ toc: true
 ref: glossaryphishing
 lang: fr
 ---
-## In brief
-Phishing, or Fishing, is a technique employed by computer hackers to get personal information for the purpose of committing identity fraud. The technique consists of making the victim believe they are communicating with a trusted third-party – bank, administration, etc. – in order to get them to disclose personal information: password, credit card number, date of birth, etc. It is a form of IT attack that relies on [social engineering]({% link _knowhow/glossary/Phishing_fr.markdown %}). It may be perpetrated by email, on fraudulent websites or by other electronic means.
+## En quelques mots
+Le phishing, ou hameçonnage, ou, plus rarement filoutage, est une technique utilisée par des pirates informatiques pour obtenir des renseignements personnels dans le but de perpétrer une usurpation d'identité. La technique consiste à faire croire à la victime qu'elle s'adresse à un tiers de confiance — banque, administration, etc. — afin de lui soutirer des renseignements personnels : mot de passe, numéro de carte de crédit, date de naissance, etc. C'est une forme d'attaque informatique reposant sur [l'ingénierie sociale]({% link _knowhow/glossary/Phishing_fr.markdown %}). Elle peut se faire par courrier électronique, par des sites webs falsifiés ou par d'autres moyens électroniques.
 
-Generally speaking, IT criminals use phishing to steal money. The most common targets are online banking services, Internet service providers and auction websites such as eBay and PayPal. Phishing proponents usually send emails to a large number of potential victims.
+Les criminels informatiques utilisent généralement le phishing pour voler de l'argent. Les cibles les plus courantes sont les services bancaires en ligne, les fournisseurs d'accès à Internet et les sites de ventes aux enchères tels qu'eBay et PayPal. Les adeptes du phishing envoient habituellement des courriels à un grand nombre de victimes potentielles.
 
-## How to recognise phishing
-A phishing email can usually be recognised by the following tell-tale signs:
+## Comment reconnaître le phishing
 
-* the email does not address you by name
-* the email incites you to act quickly
-* the email contains a link you have to click on
+Un phish (courrier électronique utilisé dans une attaque phishing) peut généralement être reconnu via les indices suivants :
 
-If you’ve received an email that includes one of these clues, you can simply ignore it. Do not click on the suggested link. If you have doubts regarding the authenticity of the message, you can also open your browser and enter the address of the site you wish to visit yourself.
+* le courrier électronique s'adresse à vous de manière impersonnelle
+* le courrier électronique suggère de réagir rapidement
+* le courrier électronique contient un lien qu'il faut suivre
 
-## Behavioural measures
-The most important behavioural measure consists of ignoring suggested links in [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email), or visiting websites you are not familiar with.
+Si un de ces indices s'applique au courrier électronique reçu, il convient de l'ignorer. Refuser de suivre le lien proposé. Si vous avez des doutes sur la véracité du message, vous pouvez également ouvrir vous-même votre navigateur et entrer l'adresse du site que vous voulez visiter.
+Mesures comportementales
 
-## Organisational practices
-In France, Internet users are invited to report their own (bad) experiences to the National Police’s monitoring unit or to send them links to any websites they suspect are illegal.
+La mesure comportementale la plus importante consiste à ignorer les liens proposés dans des [courriers électroniques]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email), ou se trouvant sur des sites que vous ne connaissez pas.
 
-There are charitable organisations that help Internet users protect themselves against this type of fraud:
+## Mesures organisationnelles
+
+En France, les internautes sont invités à communiquer avec la cellule de veille de la police nationale pour témoigner de leurs propres (mauvaises) expériences ou de leur envoyer des liens conduisant à des sites qu'ils jugent contraires aux lois.
+Il existe des associations à but non lucratif qui aident les internautes à se protéger contre ce genre de fraudes :
 
 * [PhishTank](https://www.phishtank.com)
 * [Phishing Initiative](https://phishing-initiative.fr/contrib)
 * [APWG](https://apwg.org)
 
-## Technical measures
-The following technical measures can be implemented:
+## Mesures techniques
+Les mesures techniques suivantes peuvent être mises en place :
 
-* SPAM filter in your email client
-  * Phishing attacks are normally large-scale attacks. It is therefore likely that your email client recognises it as spam and marks it accordingly.
-* Phishing filter in your browser
-  * Modern browsers are capable of identifying phishing websites. Turn on this filter so your browser can alert you against this type of attack:
-  * [Google Chrome and browser safety](https://support.google.com/chrome/answer/114836?hl=fr&ref_topic=7437824)
-  * [Mozilla Firefox phishing filter](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
-  * [Microsoft Smart Screen](https://www.microsoft.com/en-us/security/default.aspx)
-* Use the Web of Trust ([WOT]({% link _knowhow/glossary/WOT_fr.markdown %})) add-on
-* Use a [web filter]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %}) (proxy)
+* Filtre SPAM dans votre client courrier électronique
+  * Les attaques de type phishing sont généralement des attaques de grande envergure. Il est donc probable que votre client courrier électronique reconnaisse qu'il s'agit d'un spam et le marque en fonction.
+* Filtre Phishing dans votre navigateur
+  * Les navigateurs modernes peuvent identifier des sites de phishing. Activez ce filtre pour que votre navigateur vous mette en garde contre de telles attaques :
+  * [Google Chrome et sécurité du navigateur](https://support.google.com/chrome/answer/114836?hl=fr&ref_topic=7437824)
+  * [Phishing filtre de mozilla firefox](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+  * [Smart screen de Microsoft](https://www.microsoft.com/en-us/security/default.aspx)
+* Utilisez l'ajout ([Web of Trust - WOT]({% link _knowhow/glossary/WOT_fr.markdown %}))
+* Utilisez un [filtre web]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %}) (proxy)
