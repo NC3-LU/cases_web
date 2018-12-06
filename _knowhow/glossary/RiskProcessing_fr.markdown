@@ -11,91 +11,89 @@ ref: glossaryriskprocessing
 lang: fr
 ---
 
-## In brief
-A company that seeks to protect itself will try to deal with any risks ([threat]({% link _knowhow/glossary/Threat_fr.markdown %}) – [vulnerability]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) – [impact]({% link _knowhow/glossary/Impact_fr.markdown %})) confronting it. To do this, the company could work along fairly formal lines:
+## En quelques mots
+Une entreprise qui veut se protéger va essayer de traiter les risques ([menace]({% link _knowhow/glossary/Threat_fr.markdown %}) – [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) – [impact]({% link _knowhow/glossary/Impact_fr.markdown %})) auxquels elle est confrontée. Pour ce faire l'entreprise peut procéder de plusieurs façons plus ou moins formelles:
 
-* formal risk management process, catering for the important and vital assets of the company
-* the application of best practices for the various types of assets, without carrying out a formal risk analysis
-* analysis of the most widespread threats for certain types of assets and the application of appropriate measures
-* analysis of the most feared impacts and application of the measures necessary to prevent them
-* analysis of the most easily exploitable vulnerabilities and implementation of measures to reduce them
+* processus formel de gestion des risques, en partant des actifs importants et vitaux de l'entreprise
+* application des bonnes pratiques pour les différents types d'actifs sans pour autant procéder à une analyse de risques formelle
+* analyse des menaces les plus répandues pour certains types d'actifs et application des mesures appropriées
+* analyse des impacts les plus redoutés et application des mesures nécessaires pour les prévenir
+* analyse des vulnérabilités les plus facilement exploitables et mise en place des mesures pour les réduire
 
-It is still recommended to use a formal risk management strategy. But given that this strategy is fairly complex, a company may well plan to proceed using a less formal method, mainly based on “quick wins” or experience and best practices.
+Il est toujours recommandé de procéder via l'approche formelle de gestion des risques. Mais vu que cette approche est assez complexe, une entreprise peut aussi bien envisager de procéder via une méthode moins formelle, plutôt basée sur des "quick wins" respectivement des expériences ou bonnes pratiques.
 
-For dealing with risk, a company will usually have the following options:
+En tant que traitement du risque, une entreprise a généralement les options suivantes:
 
-* lowering risk by applying measures
-* avoiding risk by stopping the process in question
-* transfer of risk to another entity (outsourcing)
-* upholding risk (no treatment is economically desirable)
+* réduction du risque en appliquant des mesures
+* évitement du risque en cessant le processus en question
+* transfert du risque vers une autre entité (externalisation)
+* maintien du risque (aucun traitement n'est économiquement souhaitable)
 
-## Risk management strategy
-Risk management is the best way to deal with risks. Without the right tools, this strategy is unfortunately outside the scope of most organisations, for reasons of cost and complexity.
+## Approche par gestion des risques
+La gestion des risques est la meilleure façon de traiter les risques. Cette approche est malheureusement, sans bons outils, hors de portée de la plupart des organisation, pour des raisons de coût et de complexité.
+Avant d'entamer ce chemin d'excellence, de nombreuses entreprises préféreront choisir une approche plus pragmatique.
 
-Before setting off on this road to excellence, a lot of companies prefer to opt for a more pragmatic strategy.
+## Approche par bonnes pratiques
+Une entreprise, qui se décide à ne pas procéder à la méthode par gestion des risques peut tout de même atteindre un haut niveau de sécurité si elle adopte les bonnes pratiques liées aux différents types d'actifs. Cette approche n'est cependant pas suffisante si l'entreprise a des besoins très spécifiques en termes de sécurité.
 
-## Best practices strategy
-A company which has decided not to proceed with the risk management method can achieve a high level of security at any time if it adopts best practices relating to the various types of assets. This strategy, however, is not enough if the company has very specific needs in terms of security.
+De plus, elle peut être pénalisante au niveau des coûts pour des entreprises avec un besoin de sécurité faible, car elle propose la mise en place de bonnes pratiques, sans tenir compte des vrais besoins de l'entreprise.
 
-It could also prove disadvantageous in terms of costs for companies with low security requirements, as it proposes the introduction of best practices without taking into account the true needs of the company.
+L'adoption des bonnes pratiques dans les domaines suivants est préconisée:
 
-The adoption of best practices is recommended in the following fields:
-
-* best practices relating to the protection of company data; how to classify data, backups, transfer, transportation and definitive destruction
-* best practices relating to the protection of company machines; [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %}), [laptops]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %}), [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %}), [mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %}), [web servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
-* best practices relating to the protection of networks; [fixed networks]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %}), [wifi networks]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}), remote working
-* [best practices relating to employee and/or client awareness and training]({% link _services/trainings_fr.markdown %})
-* [best practices relating to the organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-* [best practices relating to physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-* [best practices relating to social networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams_fr.markdown %})
-* [best practices relating to business trips]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %})
+* bonnes pratiques liées à la protection des données de l'entreprise; la façon de les classifier, la sauvegarde, le transfert, le transport ainsi que la destruction définitive
+* bonnes pratiques liées à la protection des machines de l'entreprise; [ordinateurs]({% link _publications/recommendationsecuring/SecuringFixedWorkstation_fr.markdown %}), [ordinateurs portable]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %}), [serveurs fichiers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer_fr.markdown %}), [serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer_fr.markdown %}), [serveurs web]({% link _publications/recommendationsecuring/Recommendations4securingWebServer_fr.markdown %})
+* bonnes pratiques liées à la protection des réseaux; [réseaux fixes]({% link _publications/recommendationsecuring/SecuringFixedNetwork_fr.markdown %}), [réseaux wifi]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %}), télétravail
+* [bonnes pratiques liées à la sensibilisation et la formations des employés et/ou clients]({% link _services/trainings_fr.markdown %})
+* [bonnes pratiques liées à l'organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+* [bonnes pratiques liées à la sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+* [bonnes pratiques liées aux réseaux sociaux]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams_fr.markdown %})
+* [bonnes pratiques liées aux voyages de service]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips_fr.markdown %})
 
 The adoption of best practices in the following fields is also advisable:
 
-* best practices: [email]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
-* best practices: [malware]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
-* best practices: [e-banking, e-commerce]({% link _knowhow/bestpractices/OnlineBankingECommerce-BestPractices_fr.markdown %})
-* Security [checklist for web applications in PHP]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications_fr.markdown %})
+* bonnes pratiques: [courriers électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %})
+* bonnes pratiques: [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
+* bonnes pratiques: [e-banking e-commerce]({% link _knowhow/bestpractices/OnlineBankingECommerce-BestPractices_fr.markdown %})
+* [Checklist sécurité pour les applications web en PHP]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications_fr.markdown %})
 
-## Non-exhaustive strategies
-To deal with risks, a company may therefore decide to implement a [risk management]({% link _publications/WhyManageRisks_fr.markdown %}) process and implement best practices for the different types of assets.
+## Approches non-exhaustives
+Pour traiter les risques, une entreprise peut donc décider de mettre en place un processus de [gestion des risques]({% link _publications/WhyManageRisks_fr.markdown %}) respectivement implémenter les bonnes pratiques pour les différents types d'actifs.
+Chaque entreprise peut, parallèlement à ces approches plus ou moins exhaustives qui se concentrent toutes sur la protection des différents actifs importants et vitaux de l'entreprise, entamer une réflexion en partant des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) et [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}). Cette approche n'est pas exhaustive et ne doit pas être considérée comme suffisante puisqu'elle ne se concentre pas sur les actifs importants ou vitaux de l'entreprise.
 
-Alongside these more or less exhaustive strategies, which all focus on the protection of different important and vital assets of the company, each company could start thinking about [threats]({% link _knowhow/glossary/Threat_fr.markdown %}) and [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}). This approach is not exhaustive and should not be deemed to be sufficient, as it does not focus on the important or vital assets of the company.
+## Analyse des menaces
+L'analyse des menaces peut être considérée comme une approche optionnelle qui autorise à analyser de façon plus détaillée certaines menaces, respectivement de vérifier si l'on n'a oublié aucune menace dans l'approche gestion des risques respectivement dans l'approche basée sur les bonnes pratiques.
 
-## Threat analysis
-A threat analysis can be treated as an optional approach enabling a more detailed study of certain threats, and ensures that no threat has been overlooked in the risk management strategy or the strategy based on best practices.
+Voir: [Check list des mesures de sécurité pour PME]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList_fr.markdown %})
 
-See: [Check list of security measures for SMEs]({% link _knowhow/bestpractices/SecurityMeasures4SME-CheckList_fr.markdown %})
+* [L'infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
+* [Le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})
+* [Le matériel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
+* [Les ressources humaines face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+* [Le côté légal]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})
 
-* Threats to [infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %})
-* Threats to [software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %})
-* Threats to [hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %})
-* Threats to [human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
-* [Legal aspects]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %})
+Les menaces les plus répandues sont:
 
-The most widespread threats are:
-
-* [malicious software (malware)]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
-* [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
-* [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})
+* [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
+* [sites malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
+* [ingénierie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})
 * [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %})
-* [theft](-)
-* [breakdowns](-)
+* [vol](-)
+* [pannes](-)
 
-## Analysis of vulnerabilities
+## Analyse des vulnérabilités
 
-The analysis of [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) is nothing more than an optional process running alongside the treatment of risks through the implementation of a risk management process or the implementation of best practices.
+L'analyse des [vulnerabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) n'est rien d'autre qu'une démarche optionelle, parallèle au traitement des risques par la mise en place d'un processus de gestion des risques respectivement par l'implémentation des bonnes pratiques.
 
-Without going into too much detail, we can list four types of vulnerabilities that should be addressed. By implementing security measures, we aim to lower these vulnerabilities and therefore reduce risks.
+Sans trop aller dans le détail, on peut lister quatre types de vulnérabilités qu'il faut adresser. En mettant en place des mesures de sécurité, on vise à réduire ces vulnérabilités et donc à réduire les risques.
 
-* [Human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities)<br />
-  Fear, curiosity, libido, greed and pity are examples of human vulnerabilities. These vulnerabilities can be easily exploited on people who are ill-advised or unaware of the issues.
+* [Les vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities)<br />
+  La peur, la curiosité, la libido, la cupidité, la pitié sont des exemples de vulnérabilités humaines. Ces vulnérabilités sont facilement exploitables sur des personnes non avisées ou non sensibilisées.
 
-* [Organisational vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#organisational-vulnerabilities)<br />
-  Without decent organisation, security measures cannot be effective or efficient. A charter, or even a security policy should be introduced.
+* [les vulnérabilités organisationnelles]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#organisational-vulnerabilities)<br />
+  Sans bonne organisation, les mesures de sécurité ne pourront pas être efficaces ou efficientes. Il est nécessaire de mettre en place une charte ou même une politique de sécurité.
 
-* [Technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities)<br />
-  There are many technical vulnerabilities. Errors in the operating system, software, missing or erroneous firewall rules, etc. Security measures must be introduced in order to mitigate these technical vulnerabilities.
+* [les vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#technical-vulnerabilities)<br />
+  Nombreuses sont les vulnérabilités techniques. Erreurs dans le système d'exploitation, les logiciels, règles firewall manquantes ou erronées, ... Il est nécessaire de mettre en place des mesures de sécurité palliant ces vulnérabilités techniques.
 
-* [Physical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#physical-vulnerabilities)<br />
-  In terms of physical security, many companies have a lot of weaknesses that it is important to eliminate.
+* [les vulnérabilités physiques]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#physical-vulnerabilities)<br />
+  Au niveau de la sécurité physique, de nombreuses entreprises ont de nombreuses défaillances, qu'il est important d'éliminer.
