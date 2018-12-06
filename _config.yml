@@ -25,7 +25,6 @@ github_username:  cases-lu
 markdown: kramdown
 #theme: minima
 plugins:
-  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-toc
 
@@ -36,15 +35,6 @@ collections:
     output: true
   knowhow:
     output: true
-
-pagination:
-  enabled: true
-  per_page: 4
-  permalink: '/articles-list/page:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
 
 default_lang: en
 languages: ["en", "fr", "de"]

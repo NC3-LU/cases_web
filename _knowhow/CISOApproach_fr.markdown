@@ -31,7 +31,7 @@ La mise en place d'une charte doit absolument être accompagnée d'une présenta
 
 ## Politique de sécurité
 
-<img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float:right; width: 445px;" />
+<img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float: right; width: 445px;" />
 Après l'identificaton des risques majeurs pour l'organisme ([gestion des risques]({% link _knowhow/bestpractices/RiskManagement_fr.markdown %})), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
 
 La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définies dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.

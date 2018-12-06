@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Social engineering"
+title:  "Ingénierie sociale"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,49 +10,49 @@ toc: true
 ref: glossarysocialengeneering
 lang: fr
 ---
-## In brief
-Social engineering is a technique that aims to access [confidential]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) information or certain [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) by manipulating people who have direct or indirect access to it. One example of social engineering is [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}).
+## En quelques mots
+L'ingénierie sociale ("social engineering") est une technique qui vise à accéder à des informations [confidentielles]({% link _knowhow/glossary/Confidentiality_fr.markdown %}) ou à certains [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) par la manipulation de personnes qui y ont accès directement ou indirectement. Le [phishing]({% link _knowhow/glossary/Phishing_fr.markdown %})(hameçonage) est un exemple d'ingénierie sociale.
 
-Social engineering doesn't just apply to the IT domain, it can also occur in daily life and, in particular, at the workplace. As soon assets of a certain interest are at stake, attacks like this type may appear.
+L'ingénierie sociale ne s’applique pas seulement au domaine de l’informatique, elle peut survenir dans la vie de tous les jours et plus particulièrement sur le lieu de travail. A partir du moment où des actifs ayant un certain intérêt sont en jeu, des attaques de ce type peuvent apparaître.
 
-The human factor is the focal point of social engineering attack techniques. In essence, it is the intelligent manipulation of our natural propensity to trust. Relationships based on unearned trust are developed in a calculated way, most often through simple conversation, and are then exploited to gain as much profit from the situation as possible.
+Le facteur humain est le point central des techniques d’attaque rencontrées dans l'ingénierie sociale. En essence il s'agit de la manipulation intelligente de notre propension naturelle à faire confiance. Des relations de confiance ne reposant sur rien de concret sont mises en place de manière calculée, mais le plus souvent par simple discussion, et exploitées par la suite pour tirer un maximum de profit de la situation.
 
-Social engineering can take place over the phone, by [email]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) , through social networking or, of course, in the physical presence of the attacker.
+L'ingénierie sociale peut se faire via téléphone, [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) , via des réseaux sociaux et bien sûr en présence physique de l'attaquant.
 
-## How does it work?
-Social engineering techniques exploit certain [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities) and vulnerabilities in the targeted entity’s organisation. In fact, it’s human nature to want to help others and trust people who are polite and friendly, even if they’re total strangers. It all depends on the situation and the way in which the wrongdoer(s) present(s) themselves to us. Very often, a simple request asked in a direct manner by the attacker may be all it takes to get the victim to respond sincerely.
+## Comment ça marche?
+Les techniques d'ingénierie sociale exploitent certaines [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}#human-vulnerabilities)  et des vulnérabilités liées à l'organisation au sein de l'entité visée. Il est en effet dans la nature humaine de vouloir aider son prochain et d’accorder sa confiance aux personnes polies et d'un abord sympathique, même s'il s'agit de parfaits inconnus. Tout dépend de la situation et de la manière utilisée par le ou les malfaiteur(s) pour se présenter à nous. Bien souvent même, une simple demande, posée de façon directe par l'agresseur, peut suffire à inciter la victime de répondre sincèrement.
 
-The aim of the attack is to make a person do something that they wouldn’t normally do; the attacker’s motivation being to obtain information that they cannot normally access. In an increasingly digitalised world, this very often (but not always) comes down to obtaining authentication information.
+L’attaque vise à faire exécuter à une personne une action qu’elle n’aurait pas faite en temps normal ; la motivation de l’attaquant étant d’obtenir une information qu’il ne contrôle pas. Dans un monde de plus en plus informatisé, ceci se résume le plus souvent (mais ne se limite pas), à l’obtention de données d’authentification.
 
-An [attacker]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) may, for example, initially try to establish a relationship of trust with a member of staff with whom they will spend a certain amount of time trying to uncover information about the targeted company. It is therefore not uncommon to meet attackers with an in-depth knowledge of the jargon employed by the company’s business line and the procedures it has put in place. This makes it easier to make internal contacts and to place requests which may otherwise appear suspicious.
+Un [attaquant]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) peut, par exemple, tenter en premier lieu d’établir une relation de confiance avec un membre du personnel avec qui il va passer un certain temps à rechercher des informations sur l’entreprise visée. Il n’est donc pas rare de rencontrer des attaquants ayant une connaissance approfondie du jargon employé dans le métier de l’entreprise et des procédures mises en place par celle-ci. Ceci facilite les prises de contact en interne et permet de faire passer plus aisément des requêtes qui, sinon, auraient pu paraître suspectes.
 
-From the employee’s point of view, they are presented with a person who seems to be aware of internal procedures and who uses the same jargon. In a large company where it is difficult to know everybody, the employee has no reason to be suspicious and often ends up cooperating. Thinking they are doing their job correctly, they have no reason to refuse to help a person who they believe to be a colleague.
+Du point de vue de l’employé, celui-ci se trouve face à une personne qui semble avertie des procédures internes et utilisant un jargon commun. Dans une grande entreprise où il est difficile de connaître tout le monde, l’employé n’a pas de raison d’être soupçonneux et finit souvent par coopérer. Pensant peut-être bien faire son travail, il n’a pas de raison de refuser son aide à ce qu’il pense être un collègue.
 
-Very often, the victim only realises they have been tricked after the fact, once the attacker has already left the premises without leaving a trace, but in possession of precious information.
+Bien souvent, la victime se rend compte de la supercherie après l’action, à un moment où l’attaquant a déjà quitté les lieux sans laisser de traces, mais avec de précieuses informations en sa possession.
 
-Other strategies are also possible, notably with regard to picking up clues that lead to information. The attacker may present themself as an investigator looking into the business of the targeted person or entity. In particular, they may ask a serious of innocuous questions, amongst which is hiding one to which the answer is of particular interest to the attacker.
+D’autres approches sont également possibles, notamment en ce qui concerne la manière de récupérer des indices menant à des informations. L’attaquant peut se présenter comme chargé d’enquêter sur le domaine d’activité de la personne ou de l'entité ciblée. Il peut notamment poser toute une série de questions anodines parmi lesquelles se cache celle dont la réponse l’intéresse tout particulièrement.
 
-The attacker may also adopt a completely different strategy, for example, by putting their victim at an impasse and presenting themselves as the only person who can solve their problem. In the majority of cases, the victim will cooperate and will respond without batting an eyelid at the attacker’s specific questions.
+L’attaquant peut aussi adopter une stratégie tout à fait différente, en mettant par exemple sa victime dans une impasse et se présenter ensuite comme celui qui peut résoudre la situation. Dans la plupart des cas, la victime se montrera coopérative et répondra sans broncher aux questions précises de l’attaquant.
 
-## Protective measures
+## Mesures de protection
 
-### Behavioural measures
+### Mesures comportementales
 
-* Before going on a business trip, read through [the Ministry of the Economy and Foreign Trade’s be-safe programme](https://www.tradeandinvest.lu/invest-in-luxembourg)
-* Do not reveal internal information about your work or company on social networks
-* Do not respond to illicit requests for information (whether in person or by telephone)
-* Any information, even seemingly insignificant, must be considered important and therefore protected.
-* You should also be vigilant regarding seemingly harmless Internet surveys and quizzes.
-* Alarm bells should ring if a person you don’t know becomes very curious. Even if the questions do not directly relate to confidential information.
-* Do not click on unsolicited or suspicious-looking links in emails or on social networks. If in doubt, contact the (supposed) sender to check if the email is legitimate (see also [email – best practice]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}), [malware: best practice]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}).
-* Never share your Internet or computer login details or [password]({% link _knowhow/glossary/Password_fr.markdown %}) with anyone, even if the request seems very credible. Your company’s IT department does not need them and will never ask you for them. The same applies to banks, online shops or any other services that might ask you for information via email.
-* Never carry out orders for a stranger, whether by telephone, email or direct contact if these orders concern sensitive information.
-* If in doubt, check the identity of your phone or computer contact. On the telephone, you could, for example, ask your correspondent for their telephone number and call them back once you’ve verified it. This preventative measure is a good way to tell if your correspondent actually does have authorised access to the telephone line they’re calling you from.
-* If in doubt, do not make impulsive decisions. Take some time to reflect, so that you free yourself from the aggressor's pressure. Don’t worry about asking an unknown correspondent to call you back the following day. Doing so will give you chance to consider the situation carefully and resolve the issue calmly.
-* Always log off web sites and other pages online using the button provided for this purpose. If you don’t log out manually, the session may remain open and make it easier for the attackers to gain access.
-* Never open an email attachment from an unknown or suspect sender. The same goes for suspicious files on websites. Attachments like these may contain Trojans that give an attacker access to all of the files and data stored on your computer (See also: [email – best practice]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}), [malware: best practice]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %})).
-* Never leave paper documents containing sensitive information in plain view. Likewise for documents thrown in the bin. Make any documents you no longer need illegible.
+* Avant de préparer un voyage de service, consultez le [programme be-safe du Ministère de l'Économie et du Commerce extérieur](https://www.tradeandinvest.lu/invest-in-luxembourg)
+* Dans vos réseaux sociaux, ne révélez pas d'informations internes concernant votre travail ou entreprise
+* Ne répondez pas à des demandes illicites d'informations (que ce soit en présence physique, par téléphone
+* Toute information, même paraissant insignifiante, doit être considérée comme importante et donc protégée.
+* Soyez également vigilant quant aux sondages et quiz semblant anodins sur Internet.
+* Soyez prudent dès qu'une personne que vous ne connaissez pas devient trop curieuse. Même si les questions ne se rapportent pas directement à des informations confidentielles.
+* Ne cliquez pas sur les liens dans les e-mails ou les réseaux sociaux, que vous n'avez pas attendu ou que vous trouvez douteux. En cas de doute, contactez l'expéditeur (supposé) et renseignez-vous sur la légitimité de l'e-mail (Voir aussi : [e-mail - bonnes pratiques]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}), [logiciels malveillants: bonnes pratiques]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}).
+* Ne divulguez à personne vos identifiants ni votre [mot de passe]({% link _knowhow/glossary/Password_fr.markdown %}) pour l'accès à Internet et les systèmes informatiques, même si la demande semble très crédible. Le département informatique de votre société n'en a pas besoin et ne vous les demandera jamais. Il est de même pour les banques, les boutiques en ligne ou autres services qui vous demanderaient des informations par e-mail.
+* N'exécutez jamais des commandes qu'une personne inconnue vous demande de faire, que ce soit par téléphone, e-mail ou en contact direct si ces commandes concernent des informations sensibles.
+* En cas de doute, vérifiez l'identité de votre correspondant téléphonique ou informatique. Au téléphone, vous pourriez p.ex. demander le numéro de téléphone à votre correspondant et le rappeler après avoir vérifié son numéro. Cette mesure de prévention permet de savoir si votre correspondant dispose en effet d'un accès autorisé à la connexion téléphonique à partir de laquelle il vous a appelé.
+* En cas de situation douteuse, ne prenez pas de décisions impulsives. Gagnez du temps pour réfléchir, vous vous dégagez ainsi de la pression de l'agresseur. Sans mauvaise conscience, dites à un correspondant inconnu de vous rappeler le lendemain, vous aurez ainsi le temps de bien réfléchir et de résoudre le problème en toute tranquillité.
+* Déconnectez-vous toujours des sites Web et d'autres pages en ligne à l'aide du bouton prévu à cet effet. Si vous ne vous déconnectez pas manuellement d'une page, la session peut rester ouverte et donc facile d'accès aux agresseurs.
+* N'ouvrez jamais un fichier joint à un e-mail d'un expéditeur inconnu ou douteux. Il est de même pour les fichiers des sites Web suspects. De telles pièces jointes peuvent contenir des chevaux de Troie qui permettent à un agresseur d'avoir accès à tous les fichiers et données sauvegardés sur votre ordinateur (Voir aussi : [e-mail - bonnes pratiques]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}), [logiciels malveillants: bonnes pratiques]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %})).
+* Ne laissez jamais trainer des documents en papier contenant des informations sensibles à la vue de tous. Il est de même pour les documents dans la poubelle. Rendez illisibles les documents dont vous n'avez plus besoin.
 
-## Further information
-* [Detailed article on social engineering]({% link _publications/SocialEngineering_fr.markdown %})
-* [SMEs: Threats to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})
+## Lire aussi
+* [Article détaillé sur l'ingénierie sociale]({% link _publications/SocialEngineering_fr.markdown %})
+* [PME: Les ressources humaines faces aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %})

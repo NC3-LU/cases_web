@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Vulnerabilities"
+title:  "Vulnérabilités"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,40 +10,38 @@ toc: true
 ref: glossaryvulnerabilities
 lang: fr
 ---
-Vulnerabilities are all the flaws in corporate [assets]({% link _knowhow/glossary/Assets_fr.markdown %}) that could be exploited by [threats]({% link _knowhow/glossary/Threat_fr.markdown %}), with the aim of compromising them. This exploitation can cause significant [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}). New vulnerabilities are regularly discovered.
+Par vulnérabilités on entend toutes les failles des [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) de l'entreprise qui peuvent être exploitées par des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %}), dans le but de les compromettre. Une telle exploitation peut causer des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}). importants. De nouvelles vulnérabilités sont découvertes régulièrement.
 
-It is possible to gather vulnerabilities together into a number of families.
+Il est possible de les regrouper en plusieurs familles.
 
-## Human vulnerabilities
-Human vulnerabilities essentially derive from feelings, behaviours and instincts that have helped humans survive since time immemorial. Unfortunately, these behaviours are so intrinsically linked to human nature that they are very often exploited in various [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) type scams and attacks. Because of this, we talk about vulnerabilities within the context of data security. (SMEs: [See [Threats to people]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}))
+## Vulnérabilités humaines
+Les vulnérabilités humaines sont à la base des sentiments, comportements et instincts qui ont depuis la nuit des temps aidé l'humanité à survivre. Malheureusement ces comportements sont si intrinsèquement liés à la nature humaine qu'ils sont très souvent exploités dans différentes arnaques ou attaques type [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}) De ce fait nous parlons de vulnérabilités dans le contexte de la sécurité de l'information. (PME: Voir [les humains faces aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}))
 
-Among these vulnerabilities are:
-
-* fear (often exploited by threats such as scareware)
-* pity
-* curiosity
-* libido
-* greed (often exploited by threats such as fake lotteries and Nigerian 419 scams)
+Parmi ces vulnérabilités on compte notamment:
+* la peur (souvent exploitée par des menaces comme notamment le scareware)
+* la pitié
+* la curiosité
+* la libido
+* la cupidité (souvent exploité par des menaces comme les fausses loteries ou encore les nigériens)
 * ...
 
-## Technical vulnerabilities
-This family of vulnerabilities by far the most fluid  – it includes all vulnerabilities relating to the use of technology or solutions (hardware, software). Many people actively seek out vulnerabilities, and new flaws appear on a daily basis. (SMEs: see [Threats to hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) and [Threats to software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}))
+## Vulnérabilités au niveau technique
+Cette famille de vulnérabilités est de loin la plus mouvante, en effet, elle comprend toutes les vulnérabilités liées à l'utilisation de technologies ou solutions (hardware, software). Beaucoup de personnes sont actives dans la recherche des vulnérabilités et ainsi de nouvelles failles apparaissent quotidiennement. (PME voir [le matériel faces aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}) et [le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}))
 
-These would include:
+On peut nommer:
 
-* the presence of vulnerabilities in operating systems or software that could be exploited by [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), simply by visiting [malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %});
-* the interoperability of IT and communications systems: to enable easy communications between different systems, additional layers of communication are often implemented, which can lead to the appearance of fresh vulnerabilities;
-* the complexity of rules on [firewalls]({% link _knowhow/glossary/Firewall_fr.markdown %}) and routers: the introduction of filtering and access rules, on request, make it difficult to gain a comprehensive view of this aspect.
+* présence de vulnérabilités au niveau des logiciels ou du système d'exploitation pouvant être exploités par des [logiciels malveillants]({% link _knowhow/bestpractices/MaliciousSoftwareBP_fr.markdown %}), par exemple simplement en visitant des [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %});
+* interopérabilité des systèmes d'information et de communication : afin de permettre une communication aisée entre différents systèmes, des couches de communication supplémentaires sont souvent mises en place, qui peuvent entraîner l'apparition de nouvelles vulnérabilités;
+* complexité des règles sur les [pare-feux]({% link _knowhow/glossary/Firewall_fr.markdown %})     et routeurs : la mise en place de filtrages et règles d'accès, à la demande, rend la vue d'ensemble difficile.
 
-## Physical vulnerabilities
-This family includes all vulnerabilities relating to unforeseeable events such as breakdowns, accidents or even intentional damage to hardware.
+## Vulnérabilités au niveau physique
+Cette famille comprend toutes les vulnérabilités liées aux événements imprévisibles comme les pannes, les accidents ou encore les atteintes intentionnelles aux matériels.
 
-It is in response to this family of vulnerabilities that we will analyse all the physical characteristics of a company, including access to the building, computer rooms and equipment, and we will also talk about a “Continuity Plan”. (SMEs: see [Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}))
+C'est en réponse à cette famille de vulnérabilités que l'on analysera toutes les caractéristiques physiques de l'entreprise comme notamment les accès au bâtiment, les salles et équipements informatiques et que l'on parlera également de «Plan de Continuité». (PME: voir [l'infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}))
 
-These would include:
-
-* non-redundancy: be it for reasons relating to computer systems, software or physical conditions (temperature, current, etc.), the unavailability of a server or a database can lead to a service breakdown;
-* lack of access control to physical elements: access to buildings, to computer rooms, connections or other elements should be limited so as to avoid any intentional or unintentional actions which could cause the total loss of the computer room or connections;
-* poor preservation of backup storage media: backup storage media is often stored in the computer room, which renders them useless in the event of an incident;
-* poor management of resources: resources must be correctly sized and closely monitored;
-* absence of cable management: the absence of cable documentation can lead to unwanted disconnections, or even resources being made available on public networks.
+On peut nommer:
+* non-redondance : que ce soit pour des raisons liées aux systèmes d'informations, logiciels ou conditions physiques (température, courant,...) l'indisponibilité d'un serveur ou d'une base de données peut entraîner la rupture de services;
+* manque de contrôle d'accès aux éléments physiques : l'accès au bâtiment, aux salles informatiques, connectiques ou autres doit être limité de manière à éviter des manipulations (in)volontaires, mais pouvant causer la perte globale de la salle informatique ou de la connectique;
+* mauvaise conservation de supports de sauvegarde : les supports de sauvegarde sont souvent stockés dans la salle informatique ce qui les rend inopérants en cas de sinistre;
+* mauvaise gestion des ressources : les ressources doivent être dimensionnées de façon correcte et doivent être surveillées de près;
+* absence de gestion du câblage : l'absence de documentation du câblage peut entraîner des déconnexions intempestives voire la mise à disposition de ressources sur des réseaux publics.

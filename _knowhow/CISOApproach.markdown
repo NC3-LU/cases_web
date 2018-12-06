@@ -14,7 +14,7 @@ lang: en
 ## In brief
 
 Securing information is far from being a technical issue for an organization. Indeed, technical activities are only one aspect of an approach that, in order to be successful, must cover the activities of the company as a whole.
-Before putting in place procedures or technical measures to increase the safety of an organization, it is important to carry out a risk analysis ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %}) ) and write a security policy.
+Before putting in place procedures or technical measures to increase the safety of an organization, it is important to carry out a risk analysis ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %})) and write a security policy.
 
 The security policy is used to formalize and coordinate all organizational and technical security procedures of the organization.
 Writing a security policy is a tedious task. We do not advise small businesses to approach them, and instead recommend moving forward with a view to continuous improvement, a short and concise document at a time, to gradually develop the sectoral procedures and policies that they have in place. Not needed anymore.
@@ -31,7 +31,7 @@ The implementation of a charter must be accompanied by a presentation to employe
 
 ## Security policy
 
-<img class = "img-border" src = "/ assets / img / services / polsec-circl.jpg" style = "float: right; width: 445px;" />
+<img class="img-border" src="/assets/img/services/polsec-circl.jpg" style="float: right; width: 445px;" />
 After the identification of the major risks for the organization ([risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %})), the management can, with a view to continuous improvement, go beyond 'a simple security charter. It will put in place a real policy as well as specific procedures.
 
 The implementation of a security policy, even rudimentary, will allow management to begin the organization of security. It will be defined in formal procedures, the obligations and responsibilities of each, as well as processes related to the security of information.

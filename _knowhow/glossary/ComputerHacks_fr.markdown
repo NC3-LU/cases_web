@@ -9,6 +9,7 @@ categories: knowhow
 toc: true
 ref: glossarycomputerhacks
 lang: fr
+comments: Check to verify the completeness of this article.
 ---
 
 ## Illegal access to a system

@@ -1,24 +1,37 @@
 ---
 layout: articlesmall
 title: Media
-menutitle: 
+menutitle:
 permalink: /media/
 toc: true
 ---
 
 
 
-<h6 class="txtleft">This is the download page, where you can download the files (usually in PDF).</h6>
+This is the media page, where you can download logos and documents about CASES and the services (usually in PDF).
 
-<h4 class="title-border-left">MONARC</h4>
 
-* [[FR] MONARC]({% link assets/files/CASES_Monarc2016FR-web.pdf %})
-* [[EN] MONARC]({% link assets/files/CASES_Monarc2016EN-web.pdf %})
+#### Logos
 
-<h4 class="title-border-left">Diagnostic</h4>
+* [CASES Logos]({% link /assets/files/media/logos.zip %})
+* [Service Logos]({% link /assets/files/media/servicelogos.zip %})
 
-<h4 class="title-border-left">Startup Kit</h4>
 
-<h4 class="title-border-left">Trainings</h4>
+#### MONARC
 
-<h4 class="title-border-left">Charter Help</h4>
+The description of the MONARC method:
+
+* [MONARC]({% link assets/files/CASES_Monarc2016FR-web.pdf %}) ![French Flag](/assets/img/flags/fr.png)
+* [MONARC]({% link assets/files/CASES_Monarc2016EN-web.pdf %}) ![English Flag](/assets/img/flags/en.png)
+
+MONARC method guide:
+
+* [Method guide](https://www.monarc.lu/assets/files/guides/method-guide.pdf)
+
+for more documents about MONARC: [MONARC Documentation](https://www.monarc.lu/documentation/)
+
+#### About CASES
+
+Here is a shord description about what CASES is and what it stands for:
+
+* coming soon

@@ -263,6 +263,7 @@ html {
 
     /***************************************************/
 
+<<<<<<< HEAD
     html, body {
         font-family: Helvetica,Arial,sans-serif
         font-weight: 400;
@@ -713,3 +714,439 @@ html {
             line-height: auto; /* Vertically center the text there */
         }
         /*end FOOTER*/
+=======
+	html, body {
+		font-family: Helvetica,Arial,sans-serif
+		font-weight: 400;
+		font-size: 100%;
+	}
+	h1 {
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	h3 {
+		color: #565656;
+		font-size: 22px;
+		font-weight: 400;
+		margin: 20px 0;
+		text-transform: uppercase;
+	}
+	h4 {
+		font-size: 24px;
+	}
+	h5 {
+		font-size: 20px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Lato', tahoma, sans-serif;
+		font-weight: 400;
+		color: #565656;
+	}
+	a btn btn-link {
+		color: rgb(0,114,184);
+	}
+	p {
+		word-wrap: normal;
+		padding: 5px;
+	}
+	a:hover {
+		color: #0087e0;
+		text-decoration: none;
+	}
+
+	a:focus {
+		text-decoration: none;
+		outline: 0;
+	}
+	hr {
+		margin: 0;
+	}
+	ul,ol:not(.test) {
+		margin-left: 35px;
+	}
+
+
+
+	/******Bullet of the list, except for the navbar******/
+
+	li:not(.navbar) { display : list-item;
+		list-style-image : url(/assets/img/list-4.png);
+	}
+
+	/********TOC with geometric bullet********************/
+	.toc-entry.toc-h3 {
+		list-style: none;
+	}
+
+	.toc-entry.toc-h3:before {
+		content: "\25B8  ";
+	}
+
+	.toc-entry.toc-h4 {
+		list-style: none;
+	}
+
+	.toc-entry.toc-h4:before {
+		content: "\25B9  ";
+	}
+
+		/*****Bullets of the pagination in articles***********/
+
+		nav > ul > .page-item {
+			list-style: none;
+			display: inline;
+		}
+
+		/*****************************************************/
+		.classification {
+			width: 100%;
+		}
+		.classification--small {
+			width: 50%;
+		}
+		.classification th, td {
+			border: solid 1px #999999;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+		.classification th {
+			background-color: #BBBBBB;
+			text-align: center;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.classification td {
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+		.classification--small td {
+			text-align: center;
+		}
+
+		.menuwithpic {
+			height: 72px;
+			padding: 4px;
+		}
+		.menulogo {
+			width: 64px;
+			vertical-align: middle;
+		}
+		.contact-left-col-item {
+			padding: 7px 0 0 20px;
+		}
+		.section-header-line {
+			margin-top: 40px;
+			border: 0;
+			border-bottom: 1px solid rgb(0,114,184);
+			width: 100%;
+		}
+		.row-top-delimiter {
+			border-top: 1px solid rgb(0,114,184);
+		}
+		.menubarpadding{
+			padding-bottom: 5px;
+			margin-top: 25px;
+			margin-bottom: 0px;
+			background-color: #ffffff;
+		}
+		.row-fluid--padding {
+			padding: 5px 0 5px 5px;
+		}
+		.col--height {
+			height: 30px;
+		}
+
+		.well--blue {
+			padding:0;
+			margin:0;
+			background-image: none;
+			background-color: rgb(0,114,184);
+			border-color: #0066B2;
+			color: white;
+		}
+
+		.well--bluee {
+			background-image: none;
+			background-color: rgb(0,114,184);
+			border-color: #0066B2;
+			color: white;
+			border-radius: 20px;
+			margin-top: 3%;
+		}
+
+		.well--bluee > h2{color: white;}
+
+
+		.well--blue-padding {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.well--blue-margin {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.well--blue-outline {
+			background-image: none;
+			background-color: white;
+			border-color: #0066B2;
+		}
+		.well--blue h2 {
+			color: white;
+		}
+		.menu-align-bottom {
+			margin-top: 48px;
+		}
+
+		.section-nav {
+			padding: 10px 30px;
+			background-color: #FFF;
+			margin: 5px 0;
+		}
+
+		.txtright{
+			text-align: right;
+		}
+		.txtleft{
+			text-align: left;
+		}
+		.txtcenter{
+			text-align: center;
+		}
+
+		.font-boldcap {
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+
+		.zone-archive .content-text{
+			padding-left: 0px;
+		}
+
+
+
+/**************************Navbar*************************************************/
+		/* Dropdown menu background color*/
+
+
+
+		.nav-navbar > ul > .dropdown {     background-color: #ffffff;  }
+		.nav-navbar > ul > .dropdown:hover {color: #ffffff; border-bottom: 2px solid black;	background-color: rgb(0,114,184); }
+
+		/* Dropdown menu font color*/
+
+		.nav-navbar > ul > .dropdown a{   color: #555555;  }
+
+		/*Menu font color*/
+
+		.navbar-right > li > a{	color: #FFFFFF;	font-size: 120%; 	}
+
+		.navbar-right > li >a:hover{color: #ffffff; border-bottom: 2px solid black;
+			background-color: rgb(0,114,184); }
+
+		/*Header text font */
+
+		.navbar-header > div > p{text-align: center; margin: 30px 0 0 30px;}
+
+
+/********************************************************************************/
+		/*--------------------------------------------------------------------------------*/
+		/*	Body/Main */
+		/*--------------------------------------------------------------------------------*/
+		.container {
+			padding: 0;
+		}
+
+		/*----Border around images-------------------------------------------------------*/
+
+		.img-border{border: 2px solid rgb(0,114,184);}
+
+		/*-------------------------------------------------------------------------------*/
+
+
+		/*----Headline for every pages---------------------------------------------------------------*/
+		.thecontent h2, .thecontent h3 {color: rgb(0,114,184); border-bottom: 1px solid rgb(0,114,184);}
+
+
+  /*--------------------------------------------------------------------------------*/
+  /*	Navigation */
+  /*--------------------------------------------------------------------------------*/
+  .full {
+  	padding: 0;
+  }
+  .main-nav {
+  	padding: 0;
+  	text-align: center;
+  }
+  nav {
+  	display: block;
+  	float: none;
+  	/*margin-right: 20px;*/
+  }
+  .menu {
+  	display: block;
+  	margin: 45px 0 0 30px;
+  	padding: 0;
+  }
+  .menu li {
+  	display: inline-block;
+  	position: relative;
+  	z-index: 100;
+  	/*padding: 0 10px;*/
+  	padding: 0 5px 5px 0;
+  }
+  .menu li:first-child {
+  	/*padding-left: 30px;*/
+  }
+  .menu li:last-child {
+  	padding-right: 0;
+  }
+  .menu li a {
+  	font-size: 20px;
+  	display: block;
+  	padding: 15px 5px;
+  	color: #ffffff;
+  	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+  .menu li a:hover, .menu li:hover > a {
+  	color: #FFD500;
+	-webkit-transition: ease 0.3s;
+	-o-transition: ease 0.3s;
+	-moz-transition: ease 0.3s;
+	transition: ease 0.3s;
+  }
+  .menu ul {
+  	display: none;
+  	margin: 0;
+  	padding: 0;
+  	width: 250px;
+  	position: absolute;
+  	top: 89%;
+  	left: 0px;
+  	background: #ffffff;
+  	border-bottom: 3px solid #dcdcdc;
+  	border-top: 1px solid #0066B2;
+  }
+  .menu ul li {
+  	display: block;
+  	float: none;
+  	background: none;
+  	margin: 0;
+  	padding: 0;
+  }
+  .menu ul li:first-child {
+  	padding-left: 0;
+  }
+  .menu ul li a {
+  	font-size: 13px;
+  	font-weight: normal;
+  	display: block;
+  	color: #797979;
+  	background: #ffffff;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	text-align: left;
+  }
+  .menu ul li a:hover, .menu ul li:hover > a {
+  	background: #efefef;
+  	border-bottom: none;
+  	color: #0066B2;
+  }
+  .menu li:hover > ul {
+  	display: block;
+  }
+  .menu ul ul {
+  	left: 149px;
+  	top: 0px;
+  }
+
+  /*--------------------------------------------------------------------------------*/
+  /*	Slider HOME */
+  /*--------------------------------------------------------------------------------*/
+  * {
+  	margin: 0;
+  	padding: 0;
+  	-webkit-font-smoothing: antialiased;
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  }
+  ::selection {
+  	background: #bfa57c;
+  	color: #fff;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  	display: block;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  	display: block;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after, q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+
+  /*--------------------------------------------------------------------------------*/
+  /*	CONTACT */
+  /*--------------------------------------------------------------------------------*/
+  iframe {
+  	height: 650px;
+  	width: 100%;
+  }
+
+  /*--------------------------------------------------------------------------------*/
+  /*	FOOTER */
+  /*--------------------------------------------------------------------------------*/
+
+  .footer-credits {
+		display: table-cell;
+		vertical-align: middle;
+		margin-left: auto;
+		margin-right: auto;
+  	font-size: 13px;
+  	color: #FFFFFF;
+		height: 56px;
+		width: 100%;
+		/*border: 1px solid #ffffff;*/
+  }
+  .footer-credits a {
+  	color: #FFFFFF;
+  }
+  .footer-credits a:hover {
+  	color: #FFD500;
+  }
+
+  .footer-credits ul{
+  	display: block;
+  	padding: 0;
+  }
+
+  .footer-credits ul li{
+  	display: inline-block;
+  	padding: 0 5px;
+		height: 32px;
+		vertical-align: middle;
+  }
+
+	.footerlink{
+		margin-top: 10px;
+		padding-top: 10px;
+		padding-bottom: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
+  }
+  /*end FOOTER*/
+>>>>>>> master

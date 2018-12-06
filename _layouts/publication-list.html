@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-{% assign pagelist = site.publications %}
+
+
+{% assign currentlang = page.lang %}
+{% if currentlang == blank or currentlang == empty or currentlang == nil %}
+  {% assign currentlang = site.default_lang %}
+{% endif %}
+
+{% assign pagelist = site.publications | sort: 'title' | where: 'lang', currentlang %}
 
 {% assign list-cat = "iso, securing"|split: ", "|compact %}
 
@@ -11,7 +18,7 @@ layout: default
 {% assign listlen = list-cat.size | minus: 1 %}
 
 {% assign group_cat = 1 %}
-{% assign menutitle = "Publications"  %}
+{% assign menutitle = "In depth articles"  %}
 
 {% include menus/filemenu.html %}
 

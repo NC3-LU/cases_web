@@ -33,17 +33,17 @@ Après le recueil des preuves, la victime peut envisager d'entamer des suites ju
 
 Pour porter plainte, il suffit que la victime se déplace dans un commissariat de police, ou qu'elle adresse un courrier au procureur d’État l'informant du lieu où l’infraction a été commise.
 
->Pour l’arrondissement judiciaire de Luxembourg (cantons de Luxembourg, Capellen, Esch, Grevenmacher, Mersch et Remich):
-    State Prosecutor
-    Palais de Justice de Luxembourg
-    B.P.15
-    L-2010 Luxembourg
+>Pour l’arrondissement judiciaire de Luxembourg (cantons de Luxembourg, Capellen, Esch, Grevenmacher, Mersch et Remich):<br />
+    State Prosecutor<br />
+    Palais de Justice de Luxembourg<br />
+    B.P.15<br />
+    L-2010 Luxembourg<br />
 
->Pour l’arrondissement judiciaire de Diekirch (cantons de Diekirch, Clervaux, Echternach, Re-dange, Vianden et Wiltz):
-    State Prosecutor
-    Tribunal d’Arrondissement de Diekirch
-    B.P. 164
-    L-9202 Diekirch
+>Pour l’arrondissement judiciaire de Diekirch (cantons de Diekirch, Clervaux, Echternach, Re-dange, Vianden et Wiltz):<br />
+    State Prosecutor<br />
+    Tribunal d’Arrondissement de Diekirch<br />
+    B.P. 164<br />
+    L-9202 Diekirch<br />
 
 ## Rédiger une plainte
 

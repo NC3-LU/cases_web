@@ -29,17 +29,17 @@ After collecting evidence, the victim may consider taking legal action. S/he has
 ## Making a complaint
 To make a complaint, it is sufficient for the victim to go to a police station or to send a letter to the state prosecutor informing the latter of the place where the offence was committed.
 
->For the court district of Luxembourg (cantons of Luxembourg, Capellen, Esch, Grevenmacher, Mersch and Remich):
-    State Prosecutor
-    Palais de Justice de Luxembourg
-    B.P.15
-    L-2010 Luxembourg
+>For the court district of Luxembourg (cantons of Luxembourg, Capellen, Esch, Grevenmacher, Mersch and Remich):<br />
+    State Prosecutor<br />
+    Palais de Justice de Luxembourg<br />
+    B.P.15<br />
+    L-2010 Luxembourg<br />
 
->For the court district of Diekirch (cantons of Diekirch, Clervaux, Echternach, Redange, Vianden and Wiltz):
-    State Prosecutor
-    Tribunal d’Arrondissement de Diekirch
-    B.P. 164
-    L-9202 Diekirch
+>For the court district of Diekirch (cantons of Diekirch, Clervaux, Echternach, Redange, Vianden and Wiltz):<br />
+    State Prosecutor<br />
+    Tribunal d’Arrondissement de Diekirch<br />
+    B.P. 164<br />
+    L-9202 Diekirch<br />
 
 ## Drafting a complaint
 The complaint must:
