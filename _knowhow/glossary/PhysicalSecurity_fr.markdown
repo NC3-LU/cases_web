@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Securing a fixed workstation"
+title:  "Sécurité physique"
 menutitle:
 logo:
 date:   2017-11-06 00:00:00 +0100
@@ -10,368 +10,370 @@ toc: true
 ref: glossaryphysicalsecurity
 lang: fr
 ---
-## In brief
+## En quelques mots
 
-Physical security is intended to work towards the exploitation of IT equipment under optimal conditions in order to benefit from the best possible performance for the longest possible amount of time.
+La sécurité physique vise à favoriser l'exploitation des équipements informatiques dans des conditions fonctionnelles optimales, de manière à bénéficier d'un maximum de performances durant un maximum de temps.
 
-When talking about measures or demonstrations, the difference between preventive actions and protective actions should be highlighted.
+Quand on parle de mesures ou parades, il faut faire la différence entre les actions préventives et les actions protectrices de celles-ci.
 
-* The aim of preventive measures is to avoid an incident.
-* The aim of protective measures is to protect property in the event of an incident.
+* Les mesures de prévention ont pour but d'éviter un sinistre.
+* Les mesures de protection ont pour but de protéger le patrimoine en cas de sinistre.
 
-It would be foolhardy to believe that preventive measures could prevent all incidents. Even if such remediation measures are implemented, it is recommended that other protective measures should be implemented.
+Il serait illusoire de penser que les mesures préventives empêchent tout sinistre. Même dans le cas de mise en place de ce type de parade, il est conseillé de déployer également des mesures de protection.
 
-The scope of the protective measures that are necessary is inversely proportional to the protective measures already implemented.
+L'ampleur des moyens de protection nécessaires est inversement proportionnelle aux moyens de prévention mis en place.
 
-## Computer/IT room
-For various reasons relating to the type of equipment, its operating equipment, its criticality, noise and heat produced, etc, it is prudent to use dedicated IT/computer rooms separated from the working areas used by employees.
+## Le local informatique
+Pour différentes raisons liées à la nature des équipements, à leurs conditions de fonctionnement, à leur criticité, au bruit ou à la chaleur dégagée, etc., il est judicieux de mettre en place des locaux informatiques dédiés, séparés des surfaces de travail utilisées par les employés.
 
-There are different types of IT/computer room:
+On peut distinguer différents types de locaux informatiques, tels que :
 
-#### “Data centre” computer/IT rooms
-Rooms such as this usually hold specialist equipment necessary for the provision of IT resources. They hold servers, large-scale computers, [backup]({% link _knowhow/glossary/DataBackups_fr.markdown %}) and data restore solutions, storage bays, etc.
+#### La salle informatique de type "data center"
+Cette salle héberge généralement tous les équipements spécialisés, nécessaires à la fourniture des ressources informatiques. On y trouve les serveurs, gros calculateurs, solutions de [sauvegarde]({% link _knowhow/glossary/DataBackups_fr.markdown %}) et de restauration des données, baies de stockage, etc..
 
-In most medium-sized companies, such rooms also contain critical network elements (exchanges, routers, etc.) and access points and equipment used to connect the company to the outside world (telephone switchboard, Internet access, etc.).
+Dans la plupart des sociétés de taille moyenne, cette salle contient également les éléments critiques du réseau(commutateurs, routeurs,...) ainsi que les points d'accès et équipements servant à connecter la société vers le monde extérieur (central téléphonique, accès à l'Internet,...).
 
-In most large structures, there are various specialised rooms, known as the network room, telephony room and connections room.
+Dans de plus grandes infrastructures, on trouve différentes salles spécialisées, appelées salle réseau, salle téléphonie et salle connectique.
 
-In the largest computer centres, it is even possible to make the distinction between “dead” rooms, which host equipment which requires very little human intervention (processors, storage, etc.) and “live” rooms, hosting equipment which requires frequent human intervention (backup automation, etc.).
+Au niveau des très gros centres de calcul, on fait même la distinction entre la salle «morte» où se trouvent les équipements n'exigeant que très peu d'interventions humaines (processeurs, stockage,...) et la salle «vive» où se trouvent les équipements nécessitant des interventions humaines fréquentes (robot de sauvegarde,...).
 
-#### Upper floor connection room
-There are often rooms on upper floors used to connect equipment on that floor to the wiring leading to the main IT/computer room. These rooms usually include patch panels and floor switches.
+#### La salle connectique d'étage
+Au niveau des étages, on trouve habituellement des locaux servant à connecter les équipements de l'étage sur le tronc commun de câblage menant à la salle informatique. Ces salles contiennent ordinairement des panneaux de brassage ainsi que des commutateurs d'étage.
 
-These rooms and their connections are usually designed with maximum redundancy in order to prevent disruption to the fullest possible extent.
+Ces locaux et la connectique sont normalement conçus avec une redondance maximale, de manière à prévenir au maximum des ruptures éventuelles.
 
-Given the criticality of this equipment, these rooms are deemed to be IT/computer rooms and are therefore subject to the same design and monitoring requirements.
+Etant donné la criticité de ces équipements, ces locaux sont considérés comme des locaux informatiques et sont donc soumis aux mêmes exigences de conception et de surveillance.
 
-## Protection against incidents
-The prevention and protection measures detailed in this document are not intended to be exhaustive, or even obligatory in all cases. The choice of applying prevention and protection measures should come as a result of studies including a risk analysis, combined with a budgetary assessment and suitable remediation measures.
+## Protection contre les incidents
+Les mesures de prévention et de protection décrites dans ce document n'ont pas l'ambition d'être exhaustives, ni d'être obligatoires dans tous les cas de figure. Le choix d'application des mesures de prévention et de protection doivent résulter d'une étude incluant une analyse de risques, confrontée à une évaluation budgétaire des parades adaptées.
 
-To ensure the effectiveness of all the proposed prevention and protection measures, they must all be included in an organisational and procedural strategy.
+Pour assurer l'efficacité de toutes les mesures de prévention et de protection proposées, il est indispensable de les inclure dans le cadre d'une approche organisationnelle et procédurale.
 
-The following aspects are the subject of this chapter:
+Les aspects suivants font l'objet de ce chapitre :
 
-* Water damage,
-* Fire damage (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire))
-* damage relating to electricity (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption), [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)),
-* Air-conditioning faults,
-* Telecommunications incidents (SMEs: see [Denial of service attacks and Distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service), [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption), [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications), [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability), [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)),
-* Physical intrusions (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery), [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)),
-* Electrostatic phenomena,
-* Inaccessibility of the IT/computer centre.
+* Dégâts des eaux,
+* Dégâts du feu (PME : voir [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire))
+* dégâts liés à l'électricité (PME : voir [Interruption de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption), [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)),
+* Défauts de climatisation,
+* Incidents de télécommunication (PME : voir [Attaques par déni de service et déni de service distribués]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service), [Interruption de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption), [Transmission des communications sans fil perturbée]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications), [Accès réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability), [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)),
+* Physical intrusions (SMEs: see [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Insertion ou suppression de matériel]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware), [Récupération des supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery), [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)),
+* Phénomènes électrostatiques,
+* Inaccessibilité du centre informatique.
 
-#### Organisational security measures
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
-  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
-  * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
-  * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
-  * [Electrical equipment safety]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety)
+
+#### Mesures organisationnelles de sécurité
+* [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+  * [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+  * [Accès par des tiers et sous-traitance]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#third-party-access-and-outsourcing)
+* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %})
+  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information)
+  * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions)
+* [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+  * [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+  * [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter)
+  * [Sécurité électrique des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety)
   * [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#maintenance)
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
-  * [Disposal or reuse of equipment]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)
-  * [Clean desk]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
-* [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
-  * [Intellectual property]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
-  * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
-  * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
+  * [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+  * [Mise au rebut ou ré-utilisation des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#disposal-and-reuse-of-equipment)
+  * [Bureaux en ordre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#tidy-office-policy)
+* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+  * [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+  * [Sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
+* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+  * [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+  * [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management)
+* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+* [Conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %})
+  * [Propriété intellectuelle]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#intellectual-property)
+  * [Protection des données opérationnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#protection-of-operational-data)
+  * [Protection des données à caractère personnel]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection)
 
-## Water damage
+## Le dégât des eaux
 
-#### Incidents
-This type of incident can arise for various reasons, including:
+#### Les incidents
+Ce type d'incidents peut avoir des origines diverses telles que :
 
-* ruptured domestic water pipes,
-* ruptured refrigeration duct,
-* water ingress from the façade or roof,
-* triggering of fire prevention systems,
-* obstruction of wastewater drainage.
+* rupture de conduite d'eau domestique,
+* rupture de conduite de réfrigération,
+* filtration de façade ou de toiture,
+* déclenchement de systèmes anti-incendie,
+* obstruction des évacuations d'eaux usagées.
 
 >NB:<br />
-This point is all the more critical given that most IT/computer rooms are fitted with false ceilings which prevent the easy detection of an incident. Cable routing between floors also provides an easy route for water to pass, making it easy for water to disperse through all types of “online” rooms.
+Ce point est d'autant plus critique que la plupart des salles informatiques sont équipées de faux-planchers qui empêchent la détection aisée d'un sinistre. De plus, les gainages de câblage entre les étages permettent des évacuations faciles pour l'eau, qui peut ainsi se propager dans toutes les salles de type «connectique».
 
-#### Consequences
-The [consequences]({% link _knowhow/glossary/Impact_fr.markdown %}) will naturally depend on the scope of the incident, but the areas likely to be affected are:
+#### Les conséquences
+Les [conséquences]({% link _knowhow/glossary/Impact_fr.markdown %}) vont évidemment dépendre de l'ampleur du sinistre, mais on peut dire que les domaines susceptibles d'être touchés sont :
 
-* short-circuits leading to equipment service breakdown,
-* electrocution hazards,
-* the operation of certain alarms or other security measures,
-* damage to equipment,
-* corrosion of cables and connectors.
+* divers courts-circuits entraînant la rupture de service des équipements,
+* dangers d'électrocution,
+* fonctionnement de certaines alarmes ou autres sécurités,
+* détérioration des équipements,
+* corrosion des câbles et connecteurs.
 
-#### Countermeasures
-##### Preventive
+#### Les contre-mesures
+##### Prévention
 
-* take care when deciding which room should be used as the IT/computer room, avoiding flooding risks (avoid basements and top floors, etc.),
-* avoid water running through the IT/computer room (position air-conditioning units outside the computer/IT room, etc.),
-* choose routes for cabling carefully, avoiding them crossing or overhanging the computer/IT room.
+* déterminez judicieusement la localisation des locaux informatiques, en évitant les risques d'inondation (évitez les sous-sols, le dernier étage,...),
+* évitez la circulation d'eau dans la salle informatique (placez le groupe de conditionnement d'air à l'extérieur de la salle informatique,...),
+* choisissez les chemins de tuyauterie, en évitant de traverser ou de surplomber la salle informatique.
 
-##### Protective
+##### Protection
 
-* install leak detection systems,
-* raise IT equipment off the floor, use hermetically sealed tubes for the cables,
-* use sealed tubes for power cables (220V) and network cables,
-* compartmentalise the floor in such a way as to contain and direct water towards the drainage systems.
+* mettez en place des systèmes de détection de fuites,
+* surélevez les équipements informatiques,
+* utilisez des tubes hermétiques pour le câblage d'alimentation (220V), ainsi que pour le câblage réseaux,
+* compartimentez le plancher de manière à contenir et diriger l'eau vers des systèmes d'évacuation.
 
-## Fire damage
+## Le dégât du feu
+I
+#### Incident par feu
+Ce type d'incident, qu'il soit d'origine accidentelle ou criminelle, peut conduire à la destruction partielle de la société et plus particulièrement des équipements informatiques.
 
-#### Fire incident
-Be it accidental or criminal, this type of incident can lead to the partial destruction of the company, and more particularly to damage to IT equipment.
+#### Les conséquences
+Les conséquences peuvent être très importantes à tous les niveaux de la société. En ce qui concerne le système informatique, cela peut causer l'indisponibilité de tout ou d'une partie de l'architecture et ce pour une assez longue période. Les dommages sont souvent couplés à des dégâts des eaux causés par les tentatives d'extinction de l'incendie et à des dégâts causés par les fumées.
 
-#### Consequences
-The consequences can be very significant at all levels of the company. With regard to the IT system, this can cause all or part of the architecture to become unavailable for a fairly long period of time. The damage is often paired with water damage caused by attempts to extinguish the fire and with damage caused by smoke.
+Les dégâts habituellement constatés sont de différents types tels que :
 
-There are different types of damage usually experienced in this way, such as:
+* destruction totale ou partielle du centre informatique,
+* destruction totale ou partielle du câblage cuivre et fibre optique,
+* dégâts liés à la pollution par la fumée et par les produits d'extinction,
+* atteintes physiques aux équipements informatiques.
 
-* total or partial destruction of the IT/computer centre,
-* total or partial destruction of the copper and fibre-optic cabling,
-* damage relating to smoke pollution and fire extinguishers,
-* physical damage to IT equipment.
+#### Les contre-mesures
+##### Prévention
 
-#### Countermeasures
-##### Preventive
+* prenez en compte le voisinage des bâtiments,
+* évitez le stockage de produits inflammables dans, ou à proximité des salles informatiques,
+* vérifiez régulièrement les circuits électriques,
+* évitez les chapelets de blocs «multi-prises»,
+* mettez en place des mécanismes de détection de fumée,
+* étudiez les chemins de propagation du feu et mettez en place des équipements de compartimentage (sas, parois anti-feu,...).
 
-* take into account neighbouring buildings,
-* avoid storing flammable products in or near the computer/IT rooms,
-* check the electrical circuits regularly,
-* avoid “multi-socket” plug units,
-* install smoke detection systems,
-* study fire propagation routes and install compartmental separation equipment (airlocks, firebreaks, etc.).
+##### Protection
 
-##### Protective
+* mettez en place de mécanismes d'extinction de feu sur base de produits ne portant pas préjudice au matériel informatique et ne portant pas atteinte au personnel (se renseigner auprès du service des pompiers de la localité),
+* choisissez judicieusement les sorties de secours,
+* faites respecter l'interdiction de fumer,
+* établissez et mettez à l'épreuve un plan catastrophe, incluant un repli de l'informatique vers un centre spécifique,
+* utilisez des armoires ignifugées pour le stockage des supports informatiques (veillez à garder ces armoires fermées).
 
-* introduce fire extinguishing mechanisms using chemicals which do not harm IT hardware and which cannot harm people (refer to your local fire brigade for more information),
-* carefully select the emergency exits,
-* ensure that nobody smokes,
-* draw up and practice a disaster plan, including a fallback to a specific computer centre,
-* use fireproof cabinets to store digital storage media (make sure these cabinets are kept locked).
+PME: voir [incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
 
-SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
+## Les dégâts liés à l'électricité
 
-## Damage relating to electricity
+#### Incidents lié à l'électricité
+Les incidents électriques peuvent se manifester par des perturbations du courant sous forme de surtension, de baisse de tension, voire de coupures de courant. Ce type de coupure peut affecter tout ou partie de la société et peut être d'origine interne ou externe.
 
-#### Incidents relating to electricity
-Electrical incidents can manifest themselves through power disruptions due to over-voltage, drops in voltage, or even power cuts. This type of cut can affect all part of the company and may have internal or external origins.
+Malheureusement, l'apparition et la durée de ces phénomènes sont généralement imprévisibles, à l'exception des cas de coupure annoncées par le fournisseur ou par le service logistique en charge du bâtiment.
 
-Unfortunately, the appearance and duration of these phenomena cannot usually be forecast, with the exception of power cuts announced by the supplier or by the logistics service responsible for the building.
+Une coupure de courant peut être malveillante ou résulter d'une fausse manœuvre, mais aussi être causée par des phénomènes naturels tels que les orages, les tempêtes,...;
 
-A power cut could be malicious or it could result from an unintended action, and also by natural phenomena such as storms, etc;
+#### Les conséquences
+Le risque de dommages dépend de la brutalité de la coupure de courant, car certains équipements sont capables de gérer ce type de phénomènes de manière à clôturer sainement les transactions en cours.
 
-#### Consequences
-The risk of damage depends on the severity of the power cut, as some equipment is capable of managing this type of phenomena so as to properly complete outstanding transactions.
+Les conséquences peuvent être diverses :
 
-The consequences can be many and varied:
+* perte de données,
+* panne d'équipements,
+* risques d'incendie,
+* électrocution du personnel.
 
-* loss of data,
-* equipment breakdown,
-* risk of fire,
-* electrocution of staff.
+##### Remarque
+Il ne faut pas oublier que les équipements de type connectique distribués dans les étages, ainsi que les ordinateurs personnels et périphériques sont également des éléments critiques souvent très sensibles aux coupures de courant.
 
-##### Comments
-Do not forget that online equipment distributed across more than one floor, along with personal computers and peripherals are also critical elements that are often sensitive power cuts. 
+#### Les contre-mesures
 
-#### Countermeasures
+* Prévention
+* installez des paratonnerres,
+* équipez le bâtiment d'un mécanisme évitant les remontées de «foudre»,
+* mettez en place des mesures visant à éviter les blocs «multi-prises»,
+* équipez les éléments critiques de l'informatique d'une double alimentation,
+* veillez à une conception adéquate de l'alimentation électrique (tableaux, puissance,...),
+* veillez à rendre les circuits d'alimentation au niveau du câblage électrique redondants.
 
-* Preventive
-* install lightning rods,
-* fit the building with a mechanism avoiding voltage returns caused by lightning,
-* implement measures aimed at avoiding “multi-socket” plugs,
-* fit critical IT etc. with dual power-supply,
-* keep up to date with designs suited to the electrical power supply (tables, power, etc.),
-* make sure the power circuits have redundant electricity wiring.
+##### Protection
+* utilisez des solutions UPS (Uninterruptible Power Supply) avec logiciel d'alarme dans les salles ne pouvant fournir de circuit de secours,
+* mettez en place des circuits «no break» dans l'ensemble du bâtiment pour y connecter les machines et périphériques sensibles,
+* mettez en place des circuits de secours en cas de rupture (groupe électrogène).
 
-##### Protective
-* use UPS solutions (Uninterruptible Power Supply) with alarm software in rooms that have no emergency circuit breakers,
-* set the circuits to “no break” across the entire building and connect with sensitive machines and peripherals,
-* implement emergency circuits in the event of a breakdown (generator set).
+##### Remarque
+On remarque souvent que le problème de coupure de courant se prolonge lors du re-démarrage. En effet, les équipements, en tentant de redémarrer tous ensemble, créent une surcharge qui fait sauter les fusibles. Il est conseillé de procéder à un re-démarrage séquentiel des équipements.
 
-###### Comments
-The effects of a power cut often continue upon restarting. When attempting to restart everything, there is often an overload that trips the fuses. A sequential restart of equipment should instead be performed.
+PME: voir
 
-SMEs: see
+* [Interruption de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
+* [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
 
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
-* [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
+## Les défauts de canalisation
 
-## Electrical faults
+#### Les incidents liés à un défaut de canalisation
+Les équipements informatiques sont conçus pour travailler dans un environnement spécifique qu'il s'agit de respecter afin d'éviter les incidents suivants :
 
-#### Incidents relating to electrical faults
-Computer equipment is designed to work in specific environments so as to avoid the following incidents:
+* défaut de fonctionnement de l'approvisionnement en eau ou en courant de réseau,
+* panne ou dysfonctionnement du système de réfrigération,
+* effets du rayonnement solaire directe.
 
-* water or network current supply fault,
-* cooling system malfunction or breakdown,
-* effects of direct sunlight.
+#### Les conséquences
+Il faut veiller à respecter les conditions normales de fonctionnement, sous peine de s'exposer à divers dysfonctionnements aléatoires difficiles à diagnostiquer. Toutefois, on peut dire que les conséquences habituelles d'une panne de climatisation sont les suivantes :
 
-#### Consequences
-Normal operating conditions should be respected at all times, otherwise a number of malfunctions could arise that are difficult to diagnose. However, the usual consequences of an air-conditioning breakdown are as follows:
+* nécessité de couper et de redémarrer les équipements de façon cyclique,
+* vieillissement prématuré des composantes informatiques,
+* détérioration des batteries de secours des UPS.
 
-* need to shut down and restart equipment in a cyclical fashion,
-* premature wear to IT components,
-* deterioration of UPS backup batteries. 
+#### Les contre-mesures
+##### Prévention
 
-#### Countermeasures
-##### Preventive
+* mettez en place des mécanismes veillant à limiter le rayonnement solaire direct,
+* installez un système de ventilation redondant, dimensionné de manière à pouvoir suffire aux besoins actuels et futurs,
+* mettez en place une solution de contrôle de la température équipée d'un module d'alerte.
 
-* implement mechanisms to limit direct sunlight,
-* install a backup ventilation system with sufficient capacity to cater for current and future needs,
-* introduce a temperature control solution fitted with an alert module.
+##### Protection
 
-##### Protective
+* installez un mécanisme de contrôle d'accès physique des locaux informatiques,
+* mettez en place une procédure de sauvegarde (pour un usage en mode restreint), permettant d'arrêter les éléments non critiques de votre infrastructure informatique.
 
-* install a physical access control mechanism in IT/computer rooms,
-* implement a backup procedure (for use in restricted mode), enabling the non-critical elements of your IT infrastructure to be shut down. 
+## Les incidents de télécommunication
 
-## Telecommunications incidents
+#### Les incidents
 
-#### Incidents
-
-We can cite the following, among such incidents:
+Parmi ce genre d'incidents, on peut citer les suivants :
 
 * sabotage,
-* breakdown or loss of equipment,
-* signal disruption,
-* breakage of connecting channels,
-* breakdown in a supplier’s service,
-* breakdown of a telephone exchange.
+* panne ou perte d'équipement,
+* perturbation du signal,
+* rupture des canaux de liaison,
+* rupture de service d'un fournisseur,
+* panne d'un central téléphonique.
 
-Ordinarily this heading includes incidents which directly affect physical elements, such as logical intrusions on IT systems. These, however, are not the subject of this section.
+On inclut ordinairement sous ce nom d'autres incidents que ceux touchant directement les éléments physiques, comme les intrusions logiques sur les systèmes informatiques. Ceux-ci ne font pas l'objet de la présente fiche.
 
-#### Consequences
-The impact obviously depends on the usage that is made of the services affected in the critical production chains. The consequences are as follows:
+#### Les conséquences
+L'impact dépend évidemment de l'usage qui est fait des services touchés dans les chaînes de production critiques. Les conséquences sont les suivantes :
 
-* breakdown in the operation of certain software,
-* isolation of the company from the outside world,
-* potential corruption of data,
-* deactivation of certain monitoring mechanisms (video, alarm, etc.). 
+* rupture de fonctionnement de certains logiciels,
+* isolation de la société par rapport au monde extérieur,
+* corruptions éventuelles de données,
+* désactivation de certains mécanismes de surveillance (vidéo, alarme,...).
 
-#### Countermeasures
-##### Preventive
+#### Les contre-mesures
+##### Prévention
 
-* carefully protect the telecommunications rooms,
-* fit sheathing to external connections (shielding, warning, terminals, etc.),
-* separate strong current, weak current and air-conditioning ducts,
-* protect communications equipment (antennae, etc.) against lightning.
+* protégez judicieusement les locaux de télécommunication,
+* appliquez des gaines blindées aux liaisons extérieures (blindage, avertissement, bornes,...),
+* séparez les gainages de courant fort, courant faible et les conduits de climatisation,
+* protégez les équipements de communication (antennes,...) contre la foudre.
 
-##### Protective
+##### Protection
 
-* fit “dual” links with separate access paths, through two central pathways,
-* duplicate any critical equipment and set up load distribution systems,
-* install emergency connections where possible,
-* use more than one operator capable of ensuring transfers in the event of a breakdown in service.  
+* mettez en place de liaisons «doubles» avec chemins d'accès séparés, et au travers de deux centraux différents,
+* doublez tous les équipements critiques et mettez en place des systèmes de répartition des charges,
+* mettez en place des liaisons de secours quand c'est possible,
+* ayez recours à plusieurs opérateurs capables d'assurer le passage, en cas de rupture de service.  
 
-SMEs: see
+PME: voir
 
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
-* [Denial of service attacks and distributed denial of service attacks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)
-* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
-* [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
-* [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)
+* [Interruption de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
+* [Attaques par déni de service et déni de service distribués]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#denial-of-servicedistributed-service)
+* [Transmission des communications sans fil perturbée]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
+* [Accès réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
+* [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment)
 
-## Physical intrusions
+## Les intrusions physiques
 
-#### Incidents
-The entry of unauthorised people in IT/computer rooms (and in the company’s premises) can lead to a number of unwanted situations, including:
+#### Les incidents
+La circulation de personnes non autorisées dans les locaux informatiques (et dans les locaux de la société) peut mener à divers événements non désirés tels que :
 
-* [theft of hardware]({% link _knowhow/glossary/PhysicalTheft_fr.markdown %}),
-* loss of confidentiality,
+* [vol de matériel]({% link _knowhow/glossary/PhysicalTheft_fr.markdown %}),
+* perte de confidentialité,
 * sabotage.
 
-#### Consequences
-The [consequences]({% link _knowhow/glossary/Impact_fr.markdown %}) can be as follows:
+#### Les conséquences
 
-* loss of reputation (credibility damaged in the event of the disclosure of highly confidential information, etc.),
-* direct financial losses (destruction of crucial data, computer systems disabled, etc.),
-* time wasted (attempts to re-establish destroyed data, etc.).
+Les [conséquences]({% link _knowhow/glossary/Impact_fr.markdown %}) peuvent être les suivantes :
 
-#### Countermeasures
-Particularly in this area, it is crucial to frame everything with organisational, procedural and audit measures.
+* perte de réputation (mise en cause de la crédibilité dans le cas de divulgation d'informations hautement confidentielles,...),
+* pertes financières directes (destruction de données cruciales, mise hors service de tout le système informatique,...),
+* perte de temps (efforts pour rétablir les données détruites,...).
 
-##### Preventive
+#### Les contre-mesures
+Dans ce domaine particulièrement, il est indispensable d'encadrer toutes les parades avec des mesures organisationnelles, procédurales et d'audit.
 
-* implement general protection for the building (shielding, “bunker”, etc.) limiting the number of opening elements (windows, doors, etc.),
-* use a movement and intrusion detection service linked to a 24-hour control room,
-* introduce access control (badge, biometrics, etc.) enabling all access to critical areas to be controlled and traced,
-* introduce a visitor identification policy.
+##### Prévention
 
-#### Protective
+* mettez en place une protection générale du bâtiment (blindage, «bunker»,..) avec limitation du nombre d'ouvertures (fenêtres, portes,...),
+* utilisez un service de détection de déplacements et d'intrusions relié à une centrale de contrôle 24h/24h,
+* mettez en place un contrôle d'accès (badge, biométrie,...) permettant de contrôler et de tracer les accès aux locaux critiques,
+* mettez en place une politique d'identification des visiteurs.
 
-* Use anti-theft mechanisms for peripherals and personal or laptop computers,
-* make sure the tidy office policy is being followed – this is a very important measure to counter the risk of data and hardware theft,
-* implement video surveillance.
+#### Protection
 
-##### Comments
-Before implementing these surveillance measures, please seek authorisation from the National Committee for Data Protection ([Commission Nationale pour la Protection des Données](https://cnpd.public.lu/en.html)).
+* utilisez des mécanismes antivol pour les périphériques et les ordinateurs personnels ou portables,
+* veillez au respect d'une politique en matière de rangement de bureau, qui demeure une mesure très importante contre le risque de vol de données ou de matériel,
+* mettez en place un mécanisme de surveillance vidéo.
 
-SMEs: see
+##### Remarque
+Avant d'implémenter ces mesures de surveillance veuillez en demander l'autorisation auprès de la ([Commission Nationale pour la Protection des Données](https://cnpd.public.lu/en.html)).
 
-* [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
-* [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)
-* [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)
-* [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)
+PME: voir
 
-## Electrostatic phenomena
+* [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises)
+* [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#addition-or-removal-of-hardware)
+* [Récupération des supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)
+* [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)
 
-#### Incident
-This section deals with all types of electromagnetic and electrostatic phenomena.
+## Les phénomènes électrostatiques
 
-This issues can originate from a source outside the company, such as weather phenomena, radio waves or miscellaneous electrical devices. The source can also be related to the building.
+#### Les incidents
+Tous les phénomènes électromagnétiques et électrostatiques sont regroupés sous cette appellation.
 
-#### Consequences
-The consequences can be as follows:
+Ces perturbations peuvent provenir d'une source extérieure à la société, dans le cas de phénomènes météo, d'émissions radios ou d'appareillages électriques divers. La source peut également être liée au bâtiment.
 
-* random malfunctions,
-* corruption of data stored on magnetic storage media.
+#### Les conséquences
+Les conséquences peuvent être les suivantes :
 
-##### Comments
-Another phenomenon is the use of radiation emitted by the computer system to intercept data. Such is the case with wireless networks, for example.
+* dysfonctionnements aléatoires,
+* corruptions de données stockées sur des supports magnétiques.
 
-#### Countermeasures
-##### Preventive
+##### Remarque
+Un autre phénomène est l'utilisation des rayonnements émis par le système informatique pour intercepter des données. C'est le cas des réseaux «wireless», par exemple.
 
-* keep IT/computer rooms (processing and connections) away from electrical facilities, lifts/elevators and other sources of electrical disturbance,
-* use fibre optics in vertical links (e.g.: between different floors), in order to limit risks,
-* ground all equipment – not just computer components,
-* take care in the choice of floor covering.
+#### Les contre-mesures
+##### Prévention
 
-##### Protective
-* wear grounding straps when working on any computer architecture.
+* éloignez les locaux informatiques (traitement et connectique) des installations électriques, des ascenseurs et des autres sources de perturbation,
+* utilisez la fibre optique dans les liens verticaux (p.ex. entre les différents étages), de manière à limiter les risques,
+* mettez à terre tous les équipements et non pas uniquement des composantes informatiques,
+* choisissez judicieusement les revêtements des sols.
 
-## Inaccessibility of the IT/computer centre
+##### Protection
+* portez des bracelets de mise à la terre pour toutes les interventions sur l'architecture informatique.
 
-#### Incidents
-Access to the computer/IT centre can be blocked for reasons such as:
+## L'inaccessibilité du centre informatique
 
-* natural disasters and terrorist attacks,
-* legal ruling following an incident,
-* demonstrations, rioting and social movements.
+#### Les incidents
+L'accès au centre informatique peut être bloqué pour plusieurs raisons telles que :
 
-#### Consequences
-There can be a number of different consequences to any loss of accessibility:
+* catastrophe naturelle et attentats,
+* décision judiciaire suite à un sinistre,
+* manifestations, émeutes et mouvements sociaux.
 
-* halt to the operation of a processing centre,
-* changes in the proper operation of equipment – especially sensitive equipment.
+#### Les conséquences
+Les conséquences d'une perte d'accessibilité peuvent être diverses :
 
-#### Countermeasures
-##### Preventive
+* arrêt de fonctionnement du centre de traitement,
+* altération du bon fonctionnement des équipements, spécifiquement des équipements sensibles.
 
-* set up your sites in places with a lower risk of natural disaster,
-* set up protection against any intrusion.
+#### Les contre-mesures
+##### Prévention
 
-##### Protective
+* installez vos sites à des endroits où le risque de catastrophes naturelles est réduit,
+* mettez en oeuvre des protections contre les intrusions.
 
-* set up a secure remote control solution,
-* plan for a backup site.
+##### Protection
+
+* mettez en place une solution de prise de contrôle à distance sécurisée,
+* prévoyez  un site de repli.
