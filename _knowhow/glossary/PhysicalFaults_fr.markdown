@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Physical faults"
+title:  "Pannes physiques"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,76 +10,148 @@ toc: true
 ref: glossaryphysicalfaults
 lang: fr
 ---
-## In brief
-By physical failures we mean the disruption of the service or the faulty operation of one or more physical elements that make up the IT system.
+En quelques mots
+----------------
+On entend par panne physique la rupture de service ou le mauvais
+fonctionnement d'un ou plusieurs éléments physiques constitutifs d'un
+système informatique.
 
-## Possible causes
-There are as many causes as there are elements or layers making up the IT system in question. However, we will try to distinguish between: 
 
-#### Software faults and equipment faults
-There are faults which have a direct effect on a physical element of the system and those which affect the software layer of the physical elements. Most electronic equipment is run by software. Faults in the software layer may make the equipment inoperable or even destroy it.
+Causes possibles
+----------------
+Les causes sont aussi nombreuses que les éléments ou couches qui
+constituent le système informatique en question. Toutefois, on essayera
+de faire la différence entre : 
 
-#### Environment
-In many cases, the inoperability of the IT elements is due to the lack of suitable conditions for them to work correctly. The environment in which the IT equipment is located may be affected by external factors, such as:
+### Pannes logicielles et les pannes de matériel
+Il y a des dysfonctionnement qui résultent directement d'un élément
+physique du système et ceux qui relèvent de la couche logicielle des
+éléments physiques. En effet, la plupart des équipements électroniques
+exercent leur rôle grâce à des logiciels. Le dysfonctionnement des
+couches logicielles peut rendre l'équipement inopérant, voir le
+détruire.
 
-* [Power cuts]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut)
-* Problems with the air conditioning, resulting in overheating
-* [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)
-* [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#service-interruption)
-* [Disrupted transmission of wireless communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#disrupted-transmission-of-wireless-communications)
-* [Network unavailability ]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability)
-* [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers)
+### L'environnement
+Dans de nombreux cas, l'inopérabilité des éléments informatiques est due
+à l'absence de conditions adéquates pour leur bon fonctionnement. En
+effet l'environnement dans lequel se situe le matériel informatique peut
+être affecté par des circonstances extérieures telles que :
 
-The environment may lead to the unavailability of the system, but may also cause physical faults at component level.
+* [Pannes d'alimentation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut)
+* Pannes du système de climatisation, provoquant une surchauffe
+* [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)
+* [Interruption de services]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption)
+* Perturbation de la [transmission des communications sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#disrupted-transmission-of-wireless-communications)
+* Indisponibilité du [réseau]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability)
+* [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers)
 
-## Possible impacts
-The estimation of damage incurred is clearly going to depend on the domains affected by the physical fault or faults, as well as by the ability to deal with any corruption of the data and systems.
+L'environnement peut entraîner une indisponibilité du système, mais peut
+également provoquer des pannes physiques au niveau des éléments
+constitutifs.
 
-#### Loss of equipment
-Equipment which has suffered a fault sometimes needs to be replaced. The direct cost is therefore equivalent to the cost of purchasing and setting up the new equipment.
 
-We strongly advise against the use of hybrid or highly proprietary technologies, the replacement of which may lead to additional costs or an obligation to review the system entirely.
+Impacts possibles
+-----------------
+L'estimation des préjudices subis va évidemment dépendre des domaines
+touchés par la ou les pannes physiques, ainsi que par la faculté de
+faire face aux éventuelles altérations des données et systèmes.
 
-#### Data loss
-If no preventative measures are installed before the disruption to the service, significant damage may be caused by the loss of data.
+### Perte d'équipements
+Une panne peut parfois nécessiter le remplacement de l'équipement
+concerné. Le coût direct équivaut donc à la valeur d'achat et de mise en
+fonction du nouvel équipement.
 
-## Categories
-The classification of physical faults is based on the part of the system that is directly affected and differentiates between:
+Il est vivement conseillé d'éviter l'utilisation de technologies
+hybrides ou hautement propriétaires, dont la nécessité de remplacement
+risque d'engendrer une surcharge financière ou une obligation de revoir
+complètement le système.
 
-#### Faults affecting calculation functions
-This category includes all faults that prevent data from being properly processed by a server or a personal computer. Disruption at this level applies to physical elements such as:
+### Perte de données
+En l'absence de mesure préventive installée avant la rupture de service,
+des préjudices importants peuvent être causés par la perte de données.
 
-* the memory
-* the processor
-* the motherboard
 
-#### Faults affecting storage systems
-This category includes all disruptions that affect access to data, whether in editing or read-only mode.
+Catégories
+----------
+La classification des pannes physiques se base sur la partie du système
+directement concerné et fait une différence entre :
 
-## Vulnerabilities exploited
-In this context, this means events that occur inevitably and which are associated with the fallible nature of an IT system’s components. There are only limited ways of preventing the occurrence of such a breakdown, e.g. correct maintenance of the systems and devices. However, as explained below, measures can be taken to limit the impact caused.
+### Pannes agissant sur les fonctions de calcul
 
-## Preventative measures
-The primary preventative measures aiming to limit physical faults are:
+On inclut dans cette catégorie toutes les pannes qui empêchent le bon
+fonctionnement du traitement des données par un serveur ou un ordinateur
+personnel. Une interruption à ce niveau va agir sur des éléments
+physiques tels que :
 
-#### Setting up an organised IT room
-It is vital that all critical elements of the IT system operate under optimal conditions. This begins with the provision of an IT room, as well as rooms reserved for “connectivity” equipped with services such as “no break” (permanent power supply), UPS systems, air conditioning, a fire detection system, and controlled access. Draft and enforce a Sectoral policy on [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}) – [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter) and [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#rules-within-the-perimeter) and [Electrical equipment safety and Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#electrical-equipment-safety).
+* la mémoire;
+* le processeur;
+* la carte mère.
 
-#### Design of a “fault tolerance” redundant architecture
-When designing an IT architecture, there are ways to protect against physical faults or the like, in such a way as to make any service disruption of one or the other of the components “transparent”.
+### Pannes agissant sur les systèmes de stockage
 
-This redundancy can be implemented at one of the following levels:
+Cette catégorie regroupe toutes les interruptions ayant une conséquence
+sur l'accès aux données, que ce soit en mode écriture ou lecture.
 
-* cabling
-* telecommunications network (HSRP – Hot Standby Router Protocol)
-* server (Clustering)
-* storage (RAID – Redundant Array of Inexpensive/Independent Disks)
 
-#### Ability to respond to incidents
-Set up internal skill sets to respond to incidents. Draft and enforce a Sectoral policy on [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}) – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#training-and-information) and [Responding to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors_fr.markdown %}#response-to-incidents-and-malfunctions).
 
-#### A functional archiving policy
-In order to limit the risk of [loss of data]({% link _knowhow/glossary/DataLoss_fr.markdown %}) as much as possible, the implementation and application of data archiving procedures, both at server level and on personal computers, is strongly recommended. Draft and enforce a Sectoral policy on [Operational and communication aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}) – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups).
+Vulnérabilités exploitées
+-------------------------
+Il s'agit dans ce contexte plutôt d'événements qui surgissent de façon
+inévitable et qui sont liés au caractère faillible des composantes d'un
+système informatique. Les moyens pour prévenir l'apparition d'une panne
+sont restreints, comme par exemple le bon entretien des systèmes et
+machines. Toutefois, comme expliqué ci-dessous, l'on peut prendre des
+mesures pour en restreindre l'impact causé.
 
-#### Choice of standards
-The choice of proprietary solutions, which may initially appear enticing, may become a real “nightmare” when one element or another that is no longer in production needs to be replaced. The risk could run as far as needing to completely review and replace the processing chain should a physical element break down. It is therefore advisable to use standard elements fabricated by a large number of manufacturers wherever possible.
+Mesures préventives
+-------------------
+Les principales mesures préventives visant à limiter l'impact des pannes
+physiques sont :
+
+### Mise en place d'une salle informatique organisée
+Il est indispensable d'offrir des conditions de fonctionnement optimales
+à tous les éléments critiques du système informatique. Cela passe par la
+mise en place d'une salle informatique, ainsi que de salles réservées à
+la "connectique" munis de services tels que "no break" (pas
+d'interruption du courant), onduleurs, climatisation, détection
+d'incendie, et un contrôle des accès. Rédigez et faites respecter une
+Politique de sectorielle liée à la Sécurité physique et environnementale
+- [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
+et [Règles dans le périmètre]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#physical-security-perimeter)
+et [Sécurité électrique des équipements]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
+et [Maintenance]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#electrical-equipment-safety).
+
+### Conception d'une architecture redondante dite "à tolérance de panne"
+Lors de la conception d'une architecture informatique, il y a moyen de
+se prémunir contre les pannes physiques ou assimilées, de manière à
+rendre " transparente" toute rupture de service de l'une ou l'autre des
+composantes.
+
+Cette redondance peut être mise en place au niveau des couches suivantes:
+
+* câblage;
+* réseau (HSRP - Hot Standby Router Protocol) télécommunication;
+* serveur (Clustering);
+* stockage (RAID - Redundant Array of Inexpensive/Independent Disks.
+
+### Capacité de réponse aux incidents
+Mettez en place des compétences internes pour pouvoir répondre à des
+incidents. Rédigez et faites respecter une Politique de sectorielle liée
+aux Aspects humains - [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
+et [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions).
+
+### Une politique d'archivage fonctionnel
+Afin de limiter autant que possible le risque de perte de données, la
+mise en place et le respect des procédures d'archivage des données, tant
+au niveau des serveurs que des ordinateurs personnels, sont vivement
+conseillés. Rédigez et faites respecter une Politique de sectorielle
+liée aux Aspects opérationnels et communications - [Sauvegarde des données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups).
+
+### Choix de standards
+Le choix de solutions propriétaires qui peut paraître alléchant au
+départ, peut devenir un vrai "cauchemar" en cas d'obligation de
+remplacement de l'un ou l'autre élément qui ne serait plus produit. Le
+risque peut aller jusqu'à la nécessité de revoir et remplacer
+complètement la chaîne de traitement en cas de rupture physique d'un
+élément. Il est donc conseillé de recourir le plus possible à des
+éléments standard construits par un grand nombre de fabricants.

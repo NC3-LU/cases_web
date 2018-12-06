@@ -10,30 +10,31 @@ toc: true
 ref: cisomanagingbusinesscontinuity
 lang: fr
 ---
-## Operational continuity
-[The operational continuity of the organisation]({% link _knowhow/glossary/DRP_fr.markdown %}) implies that resources deemed to be important or vital (see [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})) should be in good working order under all circumstances.
+## La continuité de fonctionnement
 
-Depending on their type, these resources may suffer the following damage:
+[La continuité de fonctionnement]({% link _knowhow/glossary/DRP_fr.markdown %}) de "l’organisation" implique que les ressources considérées comme importantes ou vitales (voir [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})) soient en état de marche en toute circonstance.
 
-* [deletion of data]({% link _knowhow/glossary/DataLoss_fr.markdown %});
-* intentional or accidental modification of data;
-* simple or total breakdown of a piece of equipment or software (SMEs: see [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers) and [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups) and [Failure of IT and communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators));
-* complete destruction of one or more pieces of equipment, or even of the entire infrastructure (incident such as a fire) (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)).
+Selon leur type, ces ressources peuvent subir les dommages suivants:
 
-A certain number of rules established in this document (see [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})) are intended to reduce the likelihood of damage. However, it should be remembered that damage can occur and plans should be put in place for this eventuality.
+* [effacement des données]({% link _knowhow/glossary/DataLoss_fr.markdown %});
+* modification intentionnelle ou accidentelle de données;
+* panne simple ou totale d’un équipement ou d’un logiciel (PME: voir [Accès réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability) et [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers) et [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups) et [Equipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment) et [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators));
+* destruction complète d’un équipement ou de plusieurs, voire de l'infrastructure entière (sinistre type incendie) (PME: voir  [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire)).
 
-One of the following scenarios should be chosen for each of the resources indexed in [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}):
+Un certain nombre de règles établies dans le présent document (Voir [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})) ont pour objet de réduire la probabilité d’un endommagement. Néanmoins il faut envisager qu’il puisse se produire et le prévoir.
 
-* nothing planned.
-* this is data: backups – especially off-site backups – are sufficient.
-* an application: backups are sufficient.
-* an application: backups are associated with a maintenance agreement with a qualified supplier which can reinstall and/or reconfigure the application in under XX days,
-* hardware that can be repurchased, delivered and installed in less than XX days.
-* hardware for which a maintenance agreement with the supplier guarantees it being restored to working order within a period of XX days.
-* hardware for which we have backup hardware stored in XX premises.
-* hardware for which we have an agreement with a supplier which guarantees an equivalent replacement being made available within XX hours/days.
-* hardware with equivalent configuration which can be accessed on the XX site.
+Pour chacune des ressources répertoriées en [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}) un des cas de figures suivants doit être choisi:
 
-During the annual review of the list of resources, the question should be asked again to see if the same solution is still applicable and best suited to meet requirements.
+* rien n’est prévu.
+* ce sont des données: les sauvegardes, et notamment celles qui sont sauvegardées à l'extérieur du site sont suffisantes.
+* une application: les sauvegardes sont suffisantes.
+* une application: les sauvegardes sont associées à un contrat de maintenance auprès d’un fournisseur qualifié qui pourrait réinstaller et/ou re-configurer l’application en moins de XX jours,
+* un matériel que l’on peut racheter et se faire livrer et installer en moins de XX jours.
+* un matériel pour lequel un contrat de maintenance avec le fournisseur nous garantit une remise en état dans un délai de XX jours.
+* un matériel pour lequel nous disposons d’un matériel de secours stocké dans le local XX.
+* un matériel pour lequel nous disposons d’un contrat avec un fournisseur qui nous garantit de mettre l’équivalent à disposition en xx heures/jours.
+* un matériel pour lequel nous disposons d’une configuration équivalente qui est accessible sur le site de XX.
 
-Similarly, in the event of the total loss of premises and technological and IT resources, it would be better to plan for business to recommence in other premises within the shortest possible time. Resources which are non-essential, but which the company must have at minimum (e.g.: telephones and PCs) can be obtained from our suppliers within a specified time frame.
+Lors de la révision annuelle de la liste des ressources, il convient de se reposer la question et savoir si la même solution est toujours d'actualité et la mieux adaptée pour répondre aux besoins.
+
+De même, en cas de sinistre total des locaux et des ressources technologiques et d'informations, il vaut mieux avoir prévu que les activités pourraient reprendre dans d'autres locaux, et dans un délai de le plus court possible. Les ressources non essentielles, mais dont il faut disposer au minimum (ex: téléphones et PC), sont obtenues auprès de nos fournisseurs dans un délai connu.

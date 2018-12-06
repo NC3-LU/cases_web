@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Network segmentation"
+title:  "Segmentation réseau"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,53 +10,155 @@ toc: true
 ref: glossarynetsegmentation
 lang: fr
 ---
-## In brief
-Segmenting your network is a useful exercise that not only noticeably improves the security of your infrastructure, but also requires carrying out an inventory, which can be highly useful,and classifying your computer fleet. Segmentation consists of separating groups of computers into sub-sections, separated from one another by the use of well-defined rules.
+En quelques mots
+----------------
+Segmenter son réseau est un exercice utile, qui permet non seulement
+d’améliorer sensiblement la sécurité de votre infrastructure mais oblige
+surtout à effectuer un inventaire bien utile et une classification de
+son parc informatique. La segmentation consiste à séparer les groupes
+d’ordinateurs en sous-ensembles séparés les uns des autres par des
+règles bien définies.
 
-If segmentation is done well, it doesn’t just contain potential threats in pre-determined areas, it also provides additional security tools.
+Une segmentation bien réalisée permet non seulement de contenir les
+menaces éventuelles dans des zones bien définies mais surtout de mettre
+en place des outils de sécurité supplémentaires.
 
-## Red zone – Internet
-Nowadays, the idea of a company IT system that is not connected to the Internet is unthinkable. The red zone is a zone over which we have no control, and this is where most threats come from. This zone should be separated from the rest of the internal network by a firewall or, at the very least, by an NAT router (as is the case for most households in Luxembourg). As a [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) is a computer that acts as filter for communications between the zones, the filtering rules must be defined by the firewall’s operator but, generally speaking, connections initiated on the Internet will at least be blocked.
+Zone rouge - Internet
+---------------------
+De nos jours, il est impensable d’imaginer dans une entreprise un
+système informatique complètement isolé d’Internet. La zone rouge
+correspond à la zone sur laquelle on n’a pas de maîtrise; c’est de là
+que vient une grande partie des menaces. Cette zone est à séparer du
+réseau interne par un firewall ou au moins par un routeur NAT (ce qui
+est le cas dans la plupart des ménages au Luxembourg). Un [firewall]({% link _knowhow/glossary/Firewall_fr.markdown %}) étant
+un ordinateur servant à filtrer les communications entre zones, les
+règles de filtrage doivent être définies par l’opérateur du firewall
+mais, en général, il y aura au moins un blocage des connexions initiées
+sur Internet.
 
-Only the services exposed directly to the Internet must be identified and isolated in the orange zone.
+Les seuls services exposés directement à Internet doivent être
+identifiés et isolés dans la zone dite orange.
 
-## Orange zone – Services exposed to the Internet
-The orange zone is the zone in which the company’s servers that are connected directly to the Internet can be found. Access to this zone must be carefully filtered (with the help of a firewall) to ensure that only services intended for external access are accessible; maintenance services should be protected against direct access from the red zone. No communication established in this zone must be able to enter another zone of the internal network.
 
-Security can be improved with the help of switches that isolate the ports; doing so isolates all the servers from one another, containing the attacks if one server is compromised.
+Zone orange - Les services exposés à l'Internet
+-----------------------------------------------
+La zone orange est la zone dans laquelle se trouvent les serveurs de
+l’entreprise connectés directement à Internet. L’accès à cette zone doit
+soigneusement être filtré (à l’aide d’un firewall) pour s’assurer que
+seuls les services destinés au monde extérieur sont accessibles ; les
+services de maintenance sont à protéger d’un accès direct depuis la zone
+rouge. Aucune communication initiée dans cette zone ne doit pouvoir
+entrer dans une autre zone du réseau interne.
 
-## Green zone – Staff computers
-The green zone is the core of the internal network. This is the zone with the most access, primarily to the Internet, but also with restricted access to the orange zone for server maintenance. In the green zone, it can be useful to have the machines talk to one another so isolating them isn’t always desirable.
+La sécurité peut être améliorée à l’aide de commutateurs permettant
+l’isolation des ports ; ainsi tous les serveurs se retrouvent isolés
+entre eux, ce qui permet de contenir les
+[attaques](https://www.cases.lu/fr/attaque-informatique.html) en cas de
+compromission de serveur.
 
-Often, page filtering and virus detection web proxies are advantageously installed to reduce the risk of danger from the Internet.
+Zone verte - Les ordinateurs du personnel
+-----------------------------------------
+La zone verte constitue le noyau du réseau interne. C’est cette zone qui
+a le plus d’accès, principalement vers Internet, mais aussi de manière
+restreinte vers la zone orange, pour des raisons de maintenance des
+serveurs. En zone verte, le fait que les machines puissent parler entre
+elles peut se révéler utile, une isolation des stations n’est donc pas
+toujours souhaitable.
 
-The green zone can itself be divided into sub-sections. For example, IT team members are the only ones authorised to perform server maintenance in the orange zone. Obviously, therefore, they should be the only ones to have access to the maintenance services for these servers.
+Souvent, des [proxys web](https://www.cases.lu/fr/filtre-web-proxy.html)
+de filtrage de pages et détection de
+[virus](https://www.cases.lu/fr/logiciels-malveillants.html) seront
+avantageusement installés pour amoindrir les dangers issus de
+l’Internet.
 
-Warning! Don’t be deceived by the colour: many attacks can originate from the green zone (dissatisfied employees, external threats that infiltrate the company or infected computers to name just a few); as a result, computers in this area shouldn’t be granted full rights.
+La zone verte peut elle-même encore être séparée en sous-sections. Les
+membres de l’équipe informatique par exemple sont les seuls habilités à
+effectuer la maintenance des serveurs en zone orange. Il est donc
+évident qu’ils devraient être les seuls à avoir accès aux services de
+maintenance de ces serveurs.
 
-## Yellow zone – Internal services
-You should pay particular attention to file servers, intranet server or other services intended for users in the green zone. The aim is to protect them against threats from the green zone while providing the access necessary for these services to be useful. This study must be carried out on a case by case basis. Nevertheless, this zone may be assimilated into an orange zone that provides services in the green zone instead of the red zone.
+Attention ! Ne vous laissez pas tromper par la couleur, beaucoup
+d’attaques peuvent provenir de la zone verte (employés insatisfaits,
+menaces externes qui se seraient infiltrées dans l’entreprise,
+ordinateurs infectés pour ne citer que quelques exemples)  ; de ce fait,
+les ordinateurs de cette zone ne devraient pas avoir tous les droits.
 
-Installing the servers directly in the green zone might be more convenient, but should be avoided due to any possible dangers that might arise.
 
-## Blue zone – Nomads and visitors
-The blue zone gives restricted access (often to the Internet only) to visitors or to the staff’s private devices (iPads or telephones). This is typically the WiFi area. Internal services should only be accessible from this zone by taking certain precautions.
+Zone jaune - Les services internes
+----------------------------------
+Serveurs de fichiers, serveur intranet ou autres services destinés aux
+utilisateurs en zone verte nécessitent une attention particulière. Le
+but est de les protéger des menaces de la zone verte tout en donnant les
+accès nécessaires qui rendent ces services utiles. L’étude doit ici être
+effectuée au cas par cas, néanmoins, cette zone peut être assimilée à
+une zone orange offrant ses services à la zone verte au lieu de la zone
+rouge.
 
-## Practical
-Effective segmentation of the network can only be done using the appropriate tools. Firewalls, switches and, if necessary, WiFi antennae make up the heart of a segmented network, through which it should be possible to get good results even at low cost using free products. Network segmentation is within everyone’s grasp and is very practical for small businesses.
+L’installation de serveurs directement en zone verte, bien que
+confortable, est à éviter en raison des dangers possibles qui en sont
+issus.
 
-## Comments
-As mentioned above, it is important not to consider the green zone a safe zone since this is where a large number of attacks can come from. The balance between ensuring the availability of services and security can be difficult to find, which is why it can’t be properly assessed without prior risk analysis.
+Zone bleue - Les nomades et visiteurs
+-------------------------------------
+La zone bleue permet de donner des accès restreints (souvent uniquement
+à Internet) à des visiteurs ou aux appareils privés du personnel (iPads
+ou téléphones). C’est typiquement la zone du wifi. Les services internes
+ne doivent être accessibles de cette zone qu’en observant certaines
+précautions.
 
-Proper segmentation of the network does not offer total protection and should never be considered as such. You should instead think of it as a necessary tool for the introduction of other security measures, such as intrusion detection systems, filters, antiviruses, etc.
 
-## Examples
+Pratique
+--------
+Une bonne segmentation de réseau ne peut se faire qu’avec les outils
+adéquats. [Firewalls](https://www.cases.lu/fr/pare-feu-firewall.html),
+commutateurs et, le cas échéant, antennes
+[wifi](https://www.cases.lu/fr/securiser-le-reseau-wifi.html)
+constituent le cœur d’un réseau segmenté avec lesquels il est possible
+d’obtenir de bons résultats même à moindre prix en utilisant des
+produits libres. La segmentation de réseau est à la portée de tous et
+déjà très utile pour toute petite entreprise.
 
-### Small network
-Case of a very small business. Segmentation can be limited to the use of an NAT router to separate the internal Internet network.
 
-### Medium-sized network
-Case of a medium-sized company with a file and email server. A single firewall should take care of the network segmentation.
+Remarques
+---------
+Comme évoqué ci-dessus, il est important de ne pas considérer la zone
+verte comme une zone sûre puisque c’est d’elle que viendra une grande
+partie des attaques. L’équilibre entre services à mettre à disposition
+et sécurité peut être difficile à gérer, de fait, celui-ci ne peut pas
+être évalué sans analyse de risques préalable.
 
-### Large-scale network
-Case of a large company with an external network and an isolated DMZ sub-network (orange zone in which the servers are unable to communicate with one another).
+Une bonne segmentation du réseau ne constitue pas une protection absolue
+et ne devrait pas être considérée comme telle, mais plutôt comme outil
+nécessaire à la mise en place d’autres mesures de sécurité comme des
+[systèmes de détection
+d’intrusion](https://www.cases.lu/fr/ids-ips.html),
+[filtrages](https://www.cases.lu/fr/filtre-web-proxy.html),
+[antivirus](https://www.cases.lu/fr/antivirus.html), etc.
+
+
+
+Exemples
+--------
+
+### Petit réseau
+Cas d’une très petite entreprise. La segmentation se résume à
+l’utilisation d’un routeur NAT pour séparer le réseau interne
+d’Internet.
+
+![Réseau petit](/assets/img/knowhow/glossary/little-network.png)
+
+
+### Réseau de taille moyenne
+
+Cas d’une entreprise moyenne avec un serveur de fichiers  et de mails.
+Un seul firewall s’occupe de la segmentation du réseau.
+
+![Réseau moyen](/assets/img/knowhow/glossary/medium-network.png)
+
+### Réseau de grande taille
+
+Cas d’une grande entreprise avec réseau pour externes et un sous réseau
+isolé en DMZ (zone orange dans laquelle les serveurs ne peuvent pas
+communiquer entre eux).
+
+![Réseau grand](/assets/img/knowhow/glossary/big-network.png)

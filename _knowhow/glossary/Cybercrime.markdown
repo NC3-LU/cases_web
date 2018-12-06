@@ -11,12 +11,12 @@ ref: glossarycybercrime
 lang: en
 ---
 ## In brief
-Cybercrime is commonly defined as any unlawful action against the integrity of a specific computer site or perpetrated using a computing device. This definition is based on the use of computing resources. Indeed, the definition applies whether the computer is used by the criminal to perpetrate an offence or a conventional crime (scam, threat ... etc) or the computer is the target of the criminal (theft, fraudulent use or destruction of data ... etc).
+Cybercrime is commonly defined as any unlawful action against the integrity of a specific computer site or perpetrated using a computing device. This definition is based on the use of computing resources. Indeed, the definition applies whether the computer is used by the criminal to perpetrate an offense or a conventional crime (scam, threat, etc.) or the computer is the target of the criminal (theft, fraudulent use or destruction of data, etc.).
 
 ## Conventional attacks
 This type of attack uses technologies associated with information and communication networks as a medium. Generally, the goal is to take advantage of the credulity of users to acquire confidential information from them and then use it unlawfully.
 
-There are all sorts of conventional offences and their number is constantly increasing. The classic examples are:
+There are all sorts of conventional offenses and their number is constantly increasing. The classic examples are:
 
 * extortion;
 * credit card fraud;
@@ -26,9 +26,9 @@ There are all sorts of conventional offences and their number is constantly incr
 * corruption of minors;
 * identity theft.
 
-These are "traditional" crimes and offences transposed to digital information and communication networks.
+These are "traditional" crimes and offenses transposed to digital information and communication networks.
 
-These attacks are essentially motivated by greed (the search for any type of gain, financial or material) or immoral, unhealthy and improper behaviours (such as paedophilia, prostitution rings, racism, revisionism. etc.).
+These attacks are essentially motivated by greed (the search for any type of gain, financial or material) or immoral, unhealthy and improper behaviours (such as pedophilia, prostitution rings, racism, revisionism. etc.).
 
 ## Technological attacks
 This type of attack has changed significantly since its advent; it essentially exploits the many vulnerabilities of computer resources. The most common attacks are:
@@ -61,14 +61,12 @@ Opportunistic attacks are attacks not directly targeting particular people or or
 Here are some common steps for this type of attack:
 
 ### The creation or purchase of malicious software
-
 Malware is a tool that gives the attacker absolute control over the computers of his/her victims. It is, therefore, the cornerstone of many opportunistic attacks.
 
 ### Sending or renting a SPAM service
 Reaching a large number of victims requires good distribution. Whether for a scam or in order to infect computers a wide audience must be reached. Sending emails or SPAM on social networks can be a very good method.
 
 ### Creating malicious sites and infecting existing sites
-
 A web presence is important not only for legitimate organisations, but also for cybercriminals. Creation of phishing sites, advertisements, scams, pages containing an exploit that will infect the computers of Internet users ...
 
 ## Targeted attack

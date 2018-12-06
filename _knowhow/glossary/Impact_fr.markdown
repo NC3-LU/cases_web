@@ -11,7 +11,7 @@ ref: glossaryimpact
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) d'un actif par une [menace]({% link _knowhow/glossary/Threat_fr.markdown %}). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
 
 L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) de l'[actif]({% link _knowhow/glossary/Assets_fr.markdown %}) en termes de confidentialité, intégrité et disponibilité.

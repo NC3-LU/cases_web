@@ -11,7 +11,7 @@ ref: glossaryavailability
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 La 'disponibilité' d'un actif au sein d'une entité,  c'est l'assurance que celui-ci est utilisable en terme de temps et de performance prévue. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) voulant garantir la disponibilité des actifs doivent donc veiller à ce qu'une ressource reste utilisable en termes de capacités et temps prévus. (Voir aussi [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})).
 
 ## Menaces mettant en péril la disponibilité

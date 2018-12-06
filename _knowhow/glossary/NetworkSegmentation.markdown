@@ -55,8 +55,14 @@ Proper segmentation of the network does not offer total protection and should ne
 ### Small network
 Case of a very small business. Segmentation can be limited to the use of an NAT router to separate the internal Internet network.
 
+![Little network](/assets/img/knowhow/glossary/little-network.png)
+
 ### Medium-sized network
 Case of a medium-sized company with a file and email server. A single firewall should take care of the network segmentation.
 
+![Medium network](/assets/img/knowhow/glossary/medium-network.png)
+
 ### Large-scale network
 Case of a large company with an external network and an isolated DMZ sub-network (orange zone in which the servers are unable to communicate with one another).
+
+![Big network](/assets/img/knowhow/glossary/big-network.png)

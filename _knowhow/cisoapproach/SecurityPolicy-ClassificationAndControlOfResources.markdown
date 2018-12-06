@@ -22,7 +22,7 @@ The following elements are considered [resources]({% link _knowhow/glossary/Asse
 
 * computers (PC, laptops, servers, netbooks) and printers;
 * communications equipment (modem, switch, router, PABX, fax, etc.);
-* files and databases (regardless of the device: disks, CD-ROMs, tapes, etc.);
+* files and databases (regardless of the device: disks, USB flash drives, tapes, etc.);
 * applications (software);
 * documents (contracts, procedures, plans, archives, etc.).
 

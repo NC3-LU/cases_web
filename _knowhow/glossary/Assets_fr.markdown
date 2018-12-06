@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Assets"
+title:  "Actifs"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,7 +11,7 @@ ref: glossaryassets
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 Par 'actif', l'on comprend un bien ou un service ayant une certaine valeur pour l'entreprise. Les actifs sont sujets à différentes [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}), susceptibles d'être exploitées par des menaces qui auront des [impacts]({% link _knowhow/glossary/Impact_fr.markdown %}) au niveau de l'entreprise. Pour protéger ses actifs, une entreprise mettra en place des mesures de sécurité. La sélection de ces mesures se fait lors de la phase de [gestion des risques]({% link _knowhow/bestpractices/RiskManagement_fr.markdown %}).
 
 On distingue entre:

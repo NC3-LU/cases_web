@@ -11,7 +11,7 @@ ref: glossaryfirewall
 lang: fr
 ---
 
-## In brief
+## En quelques mots
 Un firewall ou pare-feu est un dispositif physique (matériel) ou logique (logiciel) servant de système de protection pour les ordinateurs. Il peut également servir d'interface entre un ou plusieurs réseaux d’entreprise afin de contrôler et éventuellement bloquer la circulation des données en analysant les informations contenues dans les flux de données (cloisonnement réseau).
 
 Le firewall fonctionne comme filtre et analyseur de trames réseau. Une entreprise qui aurait un serveur de fichiers pour son réseau interne et qui voudrait que celui-ci ne soit pas accessible depuis l'Internet pourrait effectivement utiliser un firewall pour bloquer les communications vers celui-ci.

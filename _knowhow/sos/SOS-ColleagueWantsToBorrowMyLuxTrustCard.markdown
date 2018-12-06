@@ -12,7 +12,7 @@ lang: en
 ---
 
 ## In brief
-It is strongly inadvisable to lend a LuxTrust card to a third party. Users can not only be [authenticated]({% link _knowhow/glossary/Authentication_fr.markdown %}) using this card, but they can also sign documents.
+It is strongly inadvisable to lend a LuxTrust card to a third party. Users can not only be [authenticated]({% link _knowhow/glossary/Authentication.markdown %}) using this card, but they can also sign documents.
 
 Depending on the type of card, signatures can be personal or on behalf of the organisation (professional card).
 
