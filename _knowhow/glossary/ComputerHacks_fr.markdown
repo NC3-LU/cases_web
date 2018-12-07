@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Computer Hacks"
+title:  "Attaque informatique"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -9,45 +9,123 @@ categories: knowhow
 toc: true
 ref: glossarycomputerhacks
 lang: fr
-comments: Check to verify the completeness of this article.
 ---
 
-## Illegal access to a system
-Illegally accessing a system involves intentionally and fraudulently entering and remaining in an automated data processing or transmission system, for example:
+L’accès illégal à un système
+----------------------------
+L’accès illégal à un système est le fait de s’introduire et de se
+maintenir intentionnellement et frauduleusement dans un système de
+traitement ou de transmission automatisé de données, par exemple :
 
-1. by using a computer directly (for example, after infiltrating the premises of a company);
-2. remotely, by infiltrating a closed network or taking control of a machine located in such a network. Such criminal behaviour includes employees using computers provided by their employer to access confidential data unrelated to their duties or to commit offences (for example, using company resources to direct an attack against third parties).
+1.  en utilisant directement un ordinateur (après s’être introduit dans
+    les locaux d’une entreprise par exemple);
 
-*Article 509-1 of the Criminal Code: "Anyone who fraudulently accesses or remains in all or part of an automated data processing or transmission system shall be punished by imprisonment of two months to two years and a fine of 500 to 25,000 euros or one of these two penalties".*
+2.  à distance, en entrant dans un réseau fermé ou prenant le contrôle
+    d’une machine située dans un tel réseau. Cette incrimination vise
+    notamment le fait pour un employé d’utiliser un ordinateur mis à
+    disposition par son employeur pour accéder à des données
+    confidentielles sans relation avec ses fonctions, ou encore pour
+    commettre un délit (par exemple, utiliser les ressources de
+    l’entreprise pour diriger une attaque contre des tiers).
 
-## Editing or deleting data
-Editing or deleting data when hacking a system is an aggravating factor. The minimum penalties incurred are therefore even more severe. These include for example:
+*article 509-1 du Code pénal: « Quiconque, frauduleusement, aura accédé
+ou se sera maintenu dans tout ou partie d’un système de traitement ou de
+transmission automatisé de données sera puni d’un emprisonnement de deux
+mois à deux ans et d’une amende de 500 euros à 25 000 euros ou de l’une
+de ces deux peines ».*
 
-1. computer vandalism, i.e. accessing a system to destroy data; or
-2. students who illegally access their school or university server and change their grades or those of their classmates.
 
-Entering or changing data on a system or changing the way it is processed or transmitted without actually unlawfully accessing the system is also a criminal offence.
-*Article 509-3 of the Criminal Code:
+La modification ou la suppression de données
+--------------------------------------------
+La modification ou la suppression de données lors d’un accès illégal à
+un système constitue une circonstance aggravante. Les peines minimales
+encourues sont donc encore plus importantes. Sont ici visés par exemple:
 
-* *For editing or deleting data during illegal access to a system: "When [...] [the illegal access to the system] results in the deletion or modification of the data held in the system, or a change in the way this system functions, the imprisonment shall be from four months to two years and the fine from 1,250 to 25,000 euros" (Article 509-1 (2) of the Criminal Code).*
-* *For editing or deleting data not involving illegal access to a system: "Anyone who, intentionally and in violation of the rights of others, directly or indirectly, enters data into an automated processing or transmission system or has deleted or changed the data held therein or their processing or transmission methods, shall be punished by imprisonment from three months to three years and a fine of 1,250 to 12,500 euros or one of these two penalties."*
+1.  le vandalisme informatique, c’est-à-dire l’accès à un système en vue
+    d’en détruire les données ; ou encore
 
-## Interference with the operation of a system
-Interference with the operation of a system is also a criminal offence. These include for example:
+2.  l’étudiant qui accède illégalement au serveur de son école ou de son
+    université et change ses notes ou celles de ses camarades.
 
-1. blocking a system using a denial of service attack;
-2. changing how the system operates, to the detriment of performance and results, etc. (e.g. by deliberately and knowingly putting a virus onto the system); or
-3. damaging or destroying a system (hardware and/or software).
+Le fait d’introduire, de modifier les données d’un système ou son mode
+de traitement ou de transmission sans qu’il y ait eu accès illégal au
+système est également passible de sanctions pénales.
 
-*Article 509-2 of the Criminal Code: "Anyone who intentionally and in violation of the rights of others interferes with or damages the operation of an automated data processing or transmission system shall be punished by imprisonment of three months to three years and a fine of 1,250 to 12, 500 euros or one of these two penalties".*
+*article 509- 3 du Code pénal:*
 
-## Attempt
-A successful attack is not the only condition for criminal penalties. Merely attempting to commit the above offences, even if the attempt is successful, is punishable. Script-kiddies and other novice hackers are therefore liable for the same penalties as professional hackers.
-*Article 509-6 of the Criminal Code: "Attempts to perpetrate the crimes provided for by articles 509-1 to 509-5 are punished by the same penalties as the crimes themselves".*
+-   *Pour la modification ou suppression de données lors d’un accès
+    illégal à un système : « Lorsqu’il \[…\] sera résulté \[de l’accès
+    illégal au système\] soit la suppression ou la modification de
+    données contenues dans le système, soit une altération du
+    fonctionnement de ce système, l’emprisonnement sera de quatre mois à
+    deux ans et l’amende de 1 250 euros à 25 000 euros » (article 509-1,
+    alinéa 2 du Code pénal).*
 
-## Computer criminal groups
-Joining forces or agreeing to commit any of the above offences is also punishable, regardless of whether an attack ultimately took place or not. This applies, for example, to those who share resources to perpetrate hacks (computers, network access or even software, scripts or information to carry out a hack) and plan concerted attacks on third parties.
-*Article 509-7 of the Criminal Code: "Anyone participating in an association or in an agreement established for the preparation, realised in one or more material acts, of one or more offences provided for in Articles 509-1 to 509-5, shall be punished by the penalties provided for the offence itself or for the most severely punished offence."*
+-   *Pour la modification ou la suppression de données sans accès
+    illégal à un système : « Quiconque aura, intentionnellement et au
+    mépris des droits d’autrui, directement ou indirectement, introduit
+    des données dans un système de traitement ou de transmission
+    automatisé ou supprimé ou modifié les données qu’il contient ou
+    leurs modes de traitement ou de transmission, sera puni d’un
+    emprisonnement de trois mois à trois ans et d’une amende de 1 250
+    euros à 12 500 euros ou de l’une de ces deux peines ».*
 
-## Find out more
-[Filing a complaint]({% link _knowhow/bestpractices/FilingAComplaint_fr.markdown %})
+
+L'entrave au fonctionnement d’un système
+----------------------------------------
+L'entrave au fonctionnement d’un système est également passible de
+sanctions pénales. Sont ici visés par exemple :
+
+1.  le fait de bloquer un système en organisant une attaque de type déni
+    de service ;
+
+2.  le fait de modifier ou d’altérer le fonctionnement du système et de
+    provoquer ainsi une baisse des performances, une altération des
+    résultats, etc. (par exemple par l’introduction volontaire et
+    consciente d’un virus dans le système) ; ou encore
+
+3.  le fait de détériorer ou de détruire un système (au niveau matériel
+    et/ou logiciel).
+
+*article 509-2 du Code pénal: « Quiconque aura, intentionnellement et au
+mépris des droits d’autrui, entravé ou faussé le fonctionnement d’un
+système de traitement ou de transmission automatisé de données sera puni
+d’un emprisonnement de trois mois à trois ans et d’une amende de 1 250
+euros à 12 500 euros ou de l’une de ces deux peines ».*
+
+
+La tentative
+------------
+Une attaque réussie n'est pas la seule condition pour les sanctions
+pénales. Le simple fait de tenter de commettre les infractions
+ci-dessus, même sans y parvenir, est répréhensible. Les script-kiddies
+et autres hackers débutants encourent donc les mêmes peines que les
+hackers professionnels.
+
+*article 509-6 du Code pénal: « La tentative des délits prévus par les
+articles 509-1 à 509-5 est punie des mêmes peines que le délit
+lui-même ».*
+
+
+L'association de malfaiteurs informatiques
+------------------------------------------
+Le fait pour des personnes de s’associer ou de s’entendre en vue de
+commettre une des infractions ci-dessus est également puni,
+indépendamment du fait qu’une attaque ait finalement eu lieu ou pas.
+C’est le cas par exemple de ceux qui s’échangent des moyens de commettre
+une attaque (un ordinateur, un accès à un réseau ou même des logiciels,
+scripts ou informations permettant de commettre une attaque
+informatique) et planifient une attaque concertée sur un tiers.
+
+*article 509-7 du Code pénal: « Quiconque aura participé à une  
+association formée ou à une entente établie en vue de la préparation,
+concrétisée par un ou plusieurs faits matériels, d’une ou de plusieurs
+infractions prévues par les articles 509-1 à 509-5 sera puni des peines
+prévues pour l’infraction elle-même ou pour l’infraction la plus
+sévèrement réprimée ».*
+
+
+En savoir plus
+--------------
+
+-   [**Dépôt de plainte**](https://www.cases.lu/fr/depot-de-plainte.html)
