@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Data backups"
+title:  "Sauvegarde de données"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,77 +10,211 @@ toc: true
 ref: glossarydatabackups
 lang: fr
 ---
-## In brief
-Backing up data is essential for any IT system. However, digital storage media are only reliable for certain period of time. Just as the stone tablets used in antiquity were subject to the effects of bad weather, natural disasters and wear, any modern IT system is also fallible. For a company, the loss of data can result in a definitive halt to business. If you want to keep your essential data ([availability]({% link _knowhow/glossary/Availability_fr.markdown %})), sooner or later you will have to think about backup strategies for it.
+En quelques mots
+----------------
+La sauvegarde des données est primordiale pour tout système
+d’information. En effet, un support de données n’est fiable que pour une
+certaine durée dans le temps. A l'instar des tablettes de pierre
+utilisées dans l’Antiquité qui étaient sujettes aux intempéries, aux
+catastrophes naturelles et à l’usure, tout système d'information actuel
+est faillible. Pour une entreprise, la perte de données peut se solder
+par l’arrêt définitif de l’activité. Dès lors, si vous souhaitez
+conserver vos données essentielles
+([disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %})), il faudra
+tôt ou tard penser à des stratégies de sauvegarde pour celles-ci.
 
-## Preliminary thoughts
-Before choosing a backup solution, it may be of use to carry out a risk analysis. The main risks facing most people are as follows (threats affecting the availability or integrity of data):
 
-1. loss of data by deletion (human error or malicious software) (SMEs: see [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#human-error-prevention-measures));
-2. loss of data following a hardware fault (defective hard disk, accidental destruction of the storage media) (SMEs: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups), [Hardware damage during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport), [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment), [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators), [Unsuitable software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unsuitable-software-environment));
-3. disaster (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire), water damage);
-4. theft of storage media (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises), [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
+Réflexions préliminaires
+------------------------
+Il peut être intéressant, avant de choisir une solution de sauvegarde,
+de procéder à une analyse des risques. Les principaux risques auxquels
+la plupart des gens sont confrontés sont les suivants
+([menaces]({% link _knowhow/glossary/Threat_fr.markdown %}) mettant en cause la
+[disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %})
+respectivement l'[intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}) des
+données) :
 
-Thinking about the various risks listed above will point you towards the backup strategy to follow. For points 1 and 2 (the most common), it is enough to backup data onto an external hard drive, a network drive or removable storage media. For points 3 and 4 (rare events, but highly destructive), it is essential to have off-site backup.
+1.  perte de données par effacement (erreur humaine ou logiciel
+    malveillant) (PME : voir [Erreur humaine]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures));
+2.  perte de données par défaillance matérielle (disque dur défectueux,
+    destruction accidentelle de support) (PME : voir [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#unusable-backups),
+    [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport),
+    [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment),
+    [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators),
+    [Environnement logiciel inapproprié]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unsuitable-software-environment));
+3.  sinistre (PME : voir
+    [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#fire),
+    dégât des eaux) ;
+4.  vol de support (PME : voir [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#infiltrating-the-premises),
+    [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#aggravated-theft)).
 
-## Choice of storage media
-The issue of choosing backup storage media is at least as important as the choosing the strategy. The most common storage media are:
+Une réflexion sur les différents risques énoncés ci-dessus vous
+indiquera la stratégie de sauvegarde à suivre. Pour les points 1 et 2
+(les plus fréquents) il suffit de faire des sauvegardes sur disque dur
+externe, sur disque réseau ou sur support amovible. Pour les points 3 et
+4 (événements rares mais très destructeurs), une sauvegarde hors site
+devient essentielle.
 
-* removable media (CD, DVD); very inexpensive, but have limited capacity and are quickly destroyed over time; these days it is no longer recommended to make backups using this type of storage media (except in very small volumes).
-* External hard drives; inexpensive, offering higher storage capacities, fairly resistant to damage over time;
-* Flash memories, SSD cards; more expensive than conventional hard disks, very quick, increasingly resistant to damage over time, but their price still makes them impractical for storing large quantities of data;
-* Magnetic tapes; presenting good storage capacities, but expensive and impractical – these are reserved for very large quantities of data;
-* online services (cloud); price, availability and durability depend on the supplier; thanks to current fibre-optic bandwidths, these services are now even accessible to very small businesses.
 
-In any event, storage space will often be a determining factor, along with price and also backup feasibility. This leads us to the concept of organising a data repository.
+Les choix du support
+--------------------
+La question du choix du support de sauvegarde est au moins aussi
+importante que celle de la stratégie. Les plus communs sont les suivants:
 
-## Backup repository and rotation
-The backup frequency will indicate the amount of data lost in the event of an incident. If you back up your data once a week, you stand to lose a maximum of one week’s worth of data. Are you prepared to accept such a loss? Would it be more prudent to increase the backup frequency to once a day, for example? The answer to these questions will depend on each individual case.
+-   supports amovibles (CD, DVD) ; très bon marché, mais de capacité limitée et rapidement
+    détruits avec le temps ; il n'est plus conseillé de nos jours
+    d'effectuer des sauvegardes sur ces support (sauf très petits
+    volumes).
 
-Another problem is if you perform one backup per week and some malware destroys part of your documents one month previously without you realising it, you will lose data despite having a backup policy. This is why it is recommended to keep a record of numerous backups in your repository. As storage space is limited, it is best to choose a backup rotation method, determining which past backups to delete to make way for new backups. In the above example of one backup per week, it would be possible to keep the six last backups and therefore cover more than one month.
+-   les disques durs magnétiques ; bon marché, offrant les capacités de
+    stockage les plus élevées, résistent assez bien à la dégradation au
+    fil du temps ;
 
-A more suitable solution for larger structures would be to make daily backups and keep one week's worth of backups. Keep one backup per week for one month, keep one monthly backup for one year, and so on and so forth.
+-   les mémoires flash, SSD ; plus chères que les disques durs
+    conventionnels, très rapides, résistent de mieux en mieux à la
+    dégradation au fil du temps, mais leur prix les rend encore
+    inutilisables pour stocker de grandes quantités de données ;
 
-The classification level for the backups should correspond to that of the backed up data. If the data is highly confidential, the backups should also be highly confidential.
+-   les bandes magnétiques ; offrant de bonnes capacités de stockage,
+    mais chères et peu pratiques, elles sont réservées à des très
+    grandes quantités de données ;
 
-## Types of backup
-To save space – which in the past was often very expensive – different types of backups are offered by most software in addition to data compression:
+-   services en ligne (cloud) ; prix, disponibilité et
+    pérennité dépendent du fournisseur ; grâce aux débits actuels des
+    lignes par fibre, ces services sont maintenant même accessibles aux
+    très petites entreprises.
 
-#### Full backup
-All data is backed up. This backup takes up the most space, but it is also the safest and the easiest to retrieve, as it contains all the data.
+Dans tous les cas, l’espace de stockage sera souvent le facteur
+déterminant le prix, mais aussi la faisabilité de la sauvegarde. Ceci
+nous amène au concept d’organisation du dépôt de données.
 
-#### Incremental backup
-An incremental backup always follows either a full backup or another incremental backup and only contains files (of any type) that have changed since the last backup. To retrieve all the files, you therefore need to have a series of backups since the last full backup. This type of backup uses up the least space.
 
-#### Differential backup
-A differential backup covers only all the files that have changed since the last full backup. It uses more space than incremental backups, but only the last full backup along with the differential backup are needed to retrieve all the backed up data.
+Dépôt et rotation des sauvegardes
+---------------------------------
+La fréquence de sauvegarde indiquera la quantité de données perdues en
+cas d’incident. Si vous faites une sauvegarde de vos données une fois
+par semaine, vous perdrez au maximum une semaine de données. Êtes-vous
+prêts à accepter cette perte ? Serait-il judicieux d’augmenter la
+fréquence de sauvegarde à une fois par jour par exemple ? La réponse à
+ces questions dépendra de chaque cas.
 
-#### File or system backup
-Your files are important and it is crucial to keep them backed up in the event you lose any data. But have you thought about your system availability? What would happen if your hard disk broke down (or physically broke)? Yes, you would still have your important files in your backup arrangement, but you would have to buy a new disk, reinstall your operating system and finally reinstall all your software before being able to retrieve your photos and documents.
+Un autre problème se pose : si vous faites une sauvegarde unique par
+semaine et qu’un [logiciel
+malveillant](https://www.cases.lu/fr/logiciels-malveillants.html) a
+détruit une partie de vos documents un mois auparavant sans que vous ne
+vous en rendiez compte, vous aurez perdu des données malgré votre
+sauvegarde. De ce fait il est recommandé de garder un historique de
+plusieurs sauvegardes dans votre dépôt. L’espace de stockage étant
+limité, il faudra choisir une méthode de rotation des sauvegardes,
+déterminer quelles sauvegardes passées effacer pour faire de la place
+aux nouvelles. Pour l’exemple précédent d’une sauvegarde par semaine, il
+serait envisageable de garder les six dernières sauvegardes et couvrir
+ainsi plus d’un mois d’historique.\
+Un exemple plus adapté à des plus grandes structures serait de faire une
+sauvegarde quotidienne en gardant une semaine de sauvegardes. Garder une
+sauvegarde par semaine pendant un mois, garder une sauvegarde mensuelle
+pendant un an et ainsi de suite.
 
-To avoid this type of issue, some software enables not only files to be backed up, but also the entire disk. This software uses what we call an “image” of the disk, enabling the entire image to be copied to a new disk in the event of any breakdown, thereby saving a lot of time and effort.
+Le niveau de
+[classification](https://www.cases.lu/fr/classification.html) des
+sauvegardes correspond à celui des données sauvegardées. Si celles-ci
+sont hautement
+[confidentielles](https://www.cases.lu/fr/confidentialite.html), les
+sauvegardes sont aussi hautement confidentielles.
 
-## Comments
 
-* If you opt for a backup system using an online service with a third party company, make sure you check that your data is properly encrypted before sending it to the service provider servers; you should be the only party to hold the encryption key – your supplier should not be able to see your data.
-* The most suitable digital storage media for very small companies from a price, space and durability standpoint are external hard disks or online cloud service backups.
+Types de sauvegarde
+-------------------
+Pour préserver de l’espace - qui dans le passé était souvent très cher -
+en plus de la compression des données, différents types de sauvegardes
+sont proposés par la plupart des logiciels :
 
-## Security policy
-Write and apply the following sectoral policies:
+### La sauvegarde pleine (full backup)
+Toutes les données sont sauvegardées. C’est la sauvegarde qui prend le
+plus d’espace, mais aussi la plus sûre et facile à récupérer car elle
+contient toutes les données.
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
-  * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
-* [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
-  * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
-* [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
-  * [Physical security perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
-  * [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
-* [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
-  * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
-  * [[Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
-  * [Device security during transport]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
-* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
-  * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
-  * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management})
-* [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
-  * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
+### La sauvegarde incrémentale
+Une sauvegarde incrémentale suit toujours, soit une sauvegarde pleine,
+soit une autre sauvegarde incrémentale et ne contient que les fichiers
+qui ont changé depuis la dernière sauvegarde, quel que soit son type.
+Pour récupérer tous les fichiers, il faudra donc disposer de toute la
+série de sauvegardes depuis la dernière sauvegarde pleine. Ce type de
+sauvegarde est celui qui utilise le moins d’espace.
+
+### La sauvegarde différentielle
+La sauvegarde différentielle englobe tous les fichiers ayant changé
+depuis la dernière sauvegarde pleine uniquement. Elle utilisera plus
+d’espace que les sauvegardes incrémentales mais la récupération des
+données complète ne nécessitera que la dernière sauvegarde pleine ainsi
+que la dernière sauvegarde différentielle.
+
+### Sauvegarde des fichiers ou du système
+Vos fichiers sont importants et leur sauvegarde primordiale en cas de
+perte de données. Mais avez-vous également pensé à la disponibilité de
+votre système ? Que se passerait-t-il si votre disque dur venait à avoir
+une panne (voir [pannes
+physiques](https://www.cases.lu/fr/pannes-physiques.html)) ? Vous auriez
+bien tous vos fichiers importants dans votre sauvegarde, mais il
+faudrait acheter un nouveau disque, réinstaller votre système
+d’exploitation et finalement réinstaller aussi tous vos logiciels avant
+de pouvoir récupérer vos photos et documents.
+
+Pour éviter ce type de désagrément certains logiciels permettent une
+sauvegarde non seulement des fichiers mais aussi de tout le disque. Ces
+logiciels font ce qu’on appelle une « image » du disque et permettent en
+cas de panne de prendre un nouveau disque et de recopier toute l’image
+sur celui-ci, rendant la panne moins douloureuse en temps et en efforts.
+
+Remarques
+---------
+
+-   Si vous vous décidez pour une sauvegarde en utilisant un service en
+    ligne d'une entreprise tierce, pensez à vérifier que vos données
+    soient bien chiffrées **avant** l'envoi sur les serveurs du
+    prestataire ; vous devriez être le seul possesseur de la clé de
+    chiffrement, votre fournisseur ne doit pas pouvoir voir vos données.
+
+-   Les supports les plus adaptés pour une utilisation "TPE" (très
+    petite entreprise) du point de vue prix, espace et pérennité sont
+    les disques durs ou la sauvegarde sur service en ligne.
+
+
+
+Politique de sécurité
+---------------------
+
+Rédigez et faites appliquer les politiques sectorielles suivantes:
+
+-   [Organisation de la
+    sécurité](https://www.cases.lu/fr/polsec-organisation-de-la-securite.html)
+
+    -   [Attribution des
+        responsabilités](https://www.cases.lu/fr/polsec-organisation-de-la-securite.html&WCE_section_194_1=1&WCE_section_194_1=1#574)
+-   [Classification et maîtrise des
+    ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html)
+    -   [Classification et responsabilité des
+        ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html&WCE_section_206_1=1&WCE_section_206_1=1#579)
+-   [Sécurité physique et
+    environnementale](https://www.cases.lu/fr/polsec-securite-physique-et-environnementale.html)
+    -   [Périmètre de sécurité
+        physique](https://www.cases.lu/fr/polsec-securite-physique-et-environnementale.html&WCE_section_219_1=1&WCE_section_219_1=1#582)
+    -   [Sécurité des équipements hors des
+        locaux](https://www.cases.lu/fr/polsec-securite-physique-et-environnementale.html&WCE_section_219_1=5&WCE_section_219_1=5#586)
+-   [Aspects opérationnels et
+    communications](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html)
+    -   [Procédures
+        documentées](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html&WCE_section_242_1=1&WCE_section_242_1=1#589)
+    -   [**sauvegarde de données**](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html&WCE_section_242_1=5#593)
+    -   [Sécurité des médias pendant les
+        transports](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html&WCE_section_242_1=6&WCE_section_242_1=6#594)
+-   [Contrôle
+    d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html)
+    -   [Politique de contrôle
+        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=1&WCE_section_265_1=1#596)
+    -   [Gestion des droits
+        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=2&WCE_section_265_1=2#597)
+-   [Gestion de la continuité de
+    l’entreprise](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html)
+    -   [La continuité de
+        fonctionnement](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html&WCE_section_287_1=1&WCE_section_287_1=1#605)

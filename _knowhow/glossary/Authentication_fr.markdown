@@ -14,7 +14,6 @@ lang: fr
 
 En quelques mots
 ----------------
-
 Les êtres humains ont une capacité innée à reconnaître leurs congénères,
 une grande partie de notre société repose sur cela. Ils possèdent un
 système d’identification très évolué et à facteurs multiples tels que

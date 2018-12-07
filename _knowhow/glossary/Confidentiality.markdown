@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Confidentialité"
+title:  "Confidentiality"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -9,6 +9,7 @@ categories: knowhow
 toc: true
 ref: glossaryconfidentiality
 lang: en
+hidden: true
 ---
 
 ## In brief

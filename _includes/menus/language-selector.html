@@ -2,29 +2,37 @@
   <ul>
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %}
+    {% unless post.hidden %}
     <li>
       <a href="{{ post.url }}" class="{{ post.lang }}"><img src="/assets/img/flags/{{ post.lang }}.png"></a>
     </li>
+    {% endunless %}
   {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %}
+    {% unless page.hidden %}
     <li>
       <a href="{{ page.url }}" class="{{ page.lang }}"><img src="/assets/img/flags/{{ page.lang }}.png"></a>
     </li>
+    {% endunless %}
   {% endfor %}
 
   {% assign services=site.services | where:"ref", page.ref | sort: 'lang' %}
   {% for service in services %}
+    {% unless service.hidden %}
     <li>
       <a href="{{ service.url }}" class="{{ service.lang }}"><img src="/assets/img/flags/{{ service.lang }}.png"></a>
     </li>
+    {% endunless %}
   {% endfor %}
   {% assign services=site.knowhow | where:"ref", page.ref | sort: 'lang' %}
   {% for service in services %}
+  {% unless service.hidden %}
     <li>
       <a href="{{ service.url }}" class="{{ service.lang }}"><img src="/assets/img/flags/{{ service.lang }}.png"></a>
     </li>
+    {% endunless %}
   {% endfor %}
   </ul>
 </div>
