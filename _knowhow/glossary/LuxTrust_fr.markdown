@@ -10,30 +10,79 @@ toc: true
 ref: glossaryluxtrust
 lang: fr
 ---
-## In brief
-LuxTrust offers [authentication]({% link _knowhow/glossary/Authentication_fr.markdown %}) and [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures) products. The most frequently used products in the professional domain are the chip card and the signing stick. From a technological point of view, these two products are very similar: a chip integrated into the card or the USB stick contains an authentication certificate and a signature certificate. The chip card requires the use of a card reader, which is not the case for the USB stick.
+En quelques mots
+----------------
+LuxTrust offre des produits
+d'[authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}) et
+de signature électronique. Dans le domaine professionel, les produits
+les plus utilisés dans le domaine professionnel sont la [carte à
+puce](https://www.luxtrust.lu/fr/product_page/30) et le [signing
+stick](https://www.luxtrust.lu/fr/product_page/31). Du point de vue
+technologique, ces deux produits sont très similaires : une puce
+intégrée soit dans la carte, soit dans le stick USB, contient un
+certificat d'authentification et un certificat de signature. L'usage de
+la carte à puce requiert un lecteur de carte, ce qui n'est pas le cas
+pour le stick USB.\
+Selon le type de carte, la signature peut être une [signature
+personnelle](https://www.luxtrust.lu/fr/page/106), c'est-à-dire au nom
+du détenteur de la carte, soit une [signature
+professionnelle](https://www.luxtrust.lu/fr/page/106), c'est-à-dire elle
+est au nom d'un responsable de l'organisation et engage celle-ci.
 
-Depending on the type of card, the signature may be a personal signature, in other words in the cardholder’s name, or it may be a professional signature, which means it’s in the name of one of the organisation’s managers and makes it liable.
 
-## Advantages
-The following security advantages are offered by either the chip card or the signing stick:
+Les avantages
+-------------
+Les avantages en matière de sécurité offerts par la carte à puce,
+respectivement le "signing stick" sont  les suivants :
 
-* The authentication and signature devices cannot be copied;
-* The activation of certificates requires a PIN code to be entered. As the card is automatically blocked after 3 incorrect PIN code attempts, a brute force PIN code attack is impossible, even though the code is composed solely of numbers. To unlock the card, you need the PUK code, which is much more complex than the PIN code;
-* It’s very easy and quick to change the PIN code. It is therefore recommended that you change it immediately if you suspect a third party might have discovered it.
-* You will soon notice if the card or stick has been stolen, especially in a professional environment where the authentication and signature device is used regularly. If necessary, the tool in question can quickly be cancelled or temporarily suspended. Such a cancellation or suspension becomes effective within four hours at most.
+-   Les dispositifs d'authentification et de signature ne peuvent pas
+    être dupliqués ;
+-   L'activation des certificats nécessite l'entrée d'un code PIN. La
+    carte étant automatiquement bloquée après 3 entrées erronées du
+    code, une attaque du code PIN de type "brute force" est impossible,
+    même si celui-ci est uniquement composé de chiffres. Pour débloquer
+    la carte, l'on nécessite le code PUK,  beaucoup plus complexe que le
+    code PIN ;
+-   La modification du code PIN est extrêmement simple et rapide. Ainsi
+    il est recommandé de changer le code dès lors que vous pensez qu'une
+    tierce personne en a pris connaissance.
+-   Le vol de la carte ou du stick se remarquent facilement, notamment
+    dans un contexte professionnel faisant régulièrement usage du
+    dispositif d'authentification et de signature. Le cas échéant,
+    l'outil en question peut rapidement être révoqué ou sa validité être
+    suspendue. Une révocation ou suspension s'effectue dans un délai
+    maximum de quatre heures.
 
-## Security measures
+Mesures de sécurité
+-------------------
 
-### Behavioural security measures
-Make sure you adopt some security measures:
+### Mesures comportementales de sécurité
+Veiller à adopter quelques mesures de sécurité :\
+-   Le dispositif d'authentification LuxTrust est strictement personnel,
+    protégez-le contre toute utilisation illicite, notamment le
+    [vol]({% link _knowhow/glossary/PhysicalTheft_fr.markdown %}).
+-   Refuser de prêter à autrui votre dispositif de signature et
+    d'authentification. Toute personne qui détient votre dispositif
+    d'authentification LuxTrust et qui connaît votre code PIN peut
+    signer des documents électroniques ou avoir accès à vos services en
+    ligne, professionnels ou privés.
+-   En aucun cas n'inscrivez le code PIN sur votre carte LuxTrust.
+-   En cas de vol, faites immédiatement
+    [révoquer](https://www.luxtrust.lu/fr/management/revocation)  votre
+    carte LuxTrust. En cas de doute, vous pouvez  faire
+    [suspendre](https://www.luxtrust.lu/fr/management/suspension) votre
+    dispositif d'authentification et de signature LuxTrust pour une
+    durée de 30 jours. En effet un certificat suspendu peut être
+    réactivé, alors que la révocation de la carte est définitive. La
+    procédure de suspension ou de révocation prenant effet au plus tard
+    4 heures la demande ; passé ce délai votre certificat ne
+    fonctionnera plus ni pour une authentification ni pour une
+    signature.
 
-* The LuxTrust authentication device is strictly personal. Guard against any illicit use, notably theft.
-* Do not lend your authentication and signature device to others. Anybody who is in possession of your LuxTrust authentication device and who knows your PIN code can sign authorised documents or access your online services, both professional or private.
-* Never write your PIN code on your LuxTrust card.
-* In the event of theft, cancel your LuxTrust card immediately. In case of doubt, you can suspend your LuxTrust authentication signature device for 30 days. A suspended certificate can be reactivated, whereas the cancellation of a card is permanent. As the suspension or cancellation of your card takes affect within 4 hours of the request, once this deadline has passed your card with no longer work for authentication or signatures.
-
-### Organisational security measures
-* Draft and enforce a security policy relating to the development and maintenance of the systems – [electronic signature]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures);
-* Draft and enforce a security policy relating to access control – [access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management);
-* Train your staff in the correct use of LuxTrust’s signature and authentication devices.
+### Mesures organisationnelles de sécurité
+-   Rédigez et faites respecter une politique de sécurité relative au
+    développement et à la maintenance des systèmes - [signature électronique]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#electronic-signatures);
+-   Rédigez et faites respecter une politique de sécurité relative au
+    contrôle d'accès - [gestion des droits d'accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management);
+-   Formez votre personnel sur le bon usage des dispositifs de signature
+    et d'authentification LuxTrust.
