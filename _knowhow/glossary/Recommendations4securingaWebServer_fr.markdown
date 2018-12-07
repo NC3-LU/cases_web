@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Recommendations pour sécuriser un serveur Web"
+title:  "Recommandations pour sécuriser un serveur Web"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
