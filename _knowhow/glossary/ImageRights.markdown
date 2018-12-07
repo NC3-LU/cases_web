@@ -11,8 +11,6 @@ ref: glossaryimagerights
 lang: en
 ---
 ## In brief
-The text below reproduces the contents of the BEE SECURE fact sheet on the subject and presents the legal aspects of taking and using images of people captured in public places and at various events. In particular, it emphasises whether and in which cases the authorisation of the subject may be required.
-
 A simple rule in this regard is that authorising the taking of a photo does not include the right to disseminate it.
 
 ## Protection of privacy

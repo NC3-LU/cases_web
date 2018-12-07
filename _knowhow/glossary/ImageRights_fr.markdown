@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Image rights"
+title:  "Droit à l'image"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,53 +10,127 @@ toc: true
 ref: glossaryimagerights
 lang: fr
 ---
-## In brief
-The text below reproduces the contents of the BEE SECURE fact sheet on the subject and presents the legal aspects of taking and using images of people captured in public places and at various events. In particular, it emphasises whether and in which cases the authorisation of the subject may be required.
+En quelques mots
+----------------
+Une règle simple en la matière : autoriser la prise d’une photo n’inclut
+pas de fait, le droit de la diffuser.
 
-A simple rule in this regard is that authorising the taking of a photo does not include the right to disseminate it.
 
-## Protection of privacy
-The right to privacy, a basic principle in terms of image rights, is enshrined in a number of legal texts, including:
+La protection de la vie privée
+------------------------------
+Le droit à la protection de la vie privée, principe de base en matière
+de droit à l’image, est consacré par plusieurs textes,  notamment :
 
-1. Article 8 of the European Convention on Human Rights;
-2. Article 14 (1) of the Law of 8 June 2004 on the Freedom of Expression in the Media, as amended, which provides that everyone has the right to respect for privacy;  
-3. the Law of 11 August 1982 on the protection of privacy, which prohibits any deliberate violation of the privacy of others, "by holding or commissioning the holding, by any device, of images of a person in a location not accessible to the public without the consent of that individual". This law also prohibits the publication of such images.
+1.  l’article 8 de la Convention européenne des droits de l’homme ;
+2.  l’article 14.(1) de la loi du 8 juin 2004 sur la liberté
+    d’expression dans les médias, telle que modifiée, qui dispose que
+    chacun a droit au respect de sa vie privée ;  
+3.  la loi du 11 août 1982 concernant la protection de la vie privée,
+    qui interdit toute atteinte volontaire à l’intimité de la vie privée
+    d’autrui, « en fixant ou en faisant fixer, par un appareil
+    quelconque, les images d’une personne se trouvant dans un lieu non
+    accessible au public, sans le consentement de celle-ci ». Ce texte
+    interdit également la publication de telles images.
 
-It follows from these texts that everyone has the right to object to their image both being taken and published: agreeing to being photographed does not grant authorisation to disseminate photographs in any circumstances.
+Il découle de ces textes que toute personne a le droit de s’opposer à la
+prise mais aussi à la publication de son image : accepter d’être
+photographié ne veut pas dire autoriser la diffusion de la photographie
+dans n’importe quel cadre.
 
-## Images taken in public places
-For practical reasons, it is often impossible to obtain the agreement of all persons appearing in photographs taken in public places.
 
-It is therefore generally accepted that a person may be considered to have given their implicit permission to be photographed simply because they were in a public place. However, the law emphasises that being in a public place, even if it may imply permission to be photographed, does not necessarily constitute consent to the publication of this image. To proceed with such publication, the consent of the person concerned should be obtained.
+Les images prises dans les lieux publics
+----------------------------------------
+Pour des raisons d'ordre pratique, il est souvent impossible d’obtenir
+l’accord de toutes les personnes figurant sur des photographies prises
+dans des lieux publics.
 
-The right to the image of individuals may be in conflict with the generally recognised public right to information.
+Il est donc généralement admis qu’une personne puisse être considérée
+comme ayant donné son autorisation implicite d’être photographiée par le
+seul fait de s’être trouvée dans un lieu public. La doctrine souligne
+cependant que le fait de se trouver dans un lieu public, même s’il peut
+valoir autorisation implicite d’être photographié, ne vaut pas pour
+autant consentement à la publication de cette image. Pour procéder à une
+telle publication, le consentement de la personne concernée devrait être
+obtenu.
 
-Luxembourg case law takes the position that "if it is accepted that the human right to one's private image is total and that everyone can object to the unauthorised publication of their features, there must be an exception when the published image concerns a person involved in a news event of which he or she is the key actor "[Court of Appeal, 6 January 2005].
+Le droit à l’image des individus peut entrer en conflit avec le droit à
+l’information généralement reconnu au public.
 
-## Online dissemination
-As stated, authorising the taking of an image  – explicitly (in writing) or implicitly (e.g. by pausing before a lens) – does not entail authorisation to disseminate. This is even more important today, with the wide use of social media.
+La jurisprudence luxembourgeoise a pris position sur le fait que « s’il
+est admis que le droit de l’homme sur son image privée est total et que
+chacun peut s’opposer à la publication de ses traits sans autorisation,
+il doit être fait exception lorsque l’image publiée concerne une
+personne impliquée dans un événement d’actualité dont elle est l’acteur
+essentiel » \[Cour d’appel, 6 janvier 2005.\].
 
-In general, the use of online services such as Facebook® is subject to the acceptance of a set of conditions of use, stating that the user is responsible for the content provided.
 
-However, often these sites offer dedicated alert services to report offensive or unauthorised content.
+La diffusion en ligne
+---------------------
+Comme précisé, l’autorisation explicite d’une prise d’image (via un
+écrit) ou implicite (via par exemple la prise d’une pause devant un
+objectif) n’inclut en rien une autorisation de diffusion. Cet aspect est
+d’autant plus important à notre époque où les medias sociaux sont
+largement utilisés.
 
-These services can be used to assert image rights.
+En règle générale, l’utilisation des services en ligne comme Facebook®
+est conditionnée à l’acceptation d’un ensemble de conditions
+d’utilisation, précisant que l’utilisateur est responsable du contenu
+qu’il met à disposition.
 
-## Conclusion
-In light of the above, it is strongly recommended that the consent of an individual be obtained before their picture is taken and (especially) photographs of them are published. For minors, in addition to the subject, the consent of their parents or legal representatives must be obtained.
+Pour autant, ces sites proposent la plupart du temps des services
+d’alerte dédiés permettant de signaler un contenu choquant ou non
+autorisé.
 
-An alternative solution is to blur the images so that their subjects cannot be identified.
+Ce sont ces services qui peuvent être utilisés afin de faire valoir son
+droit à l’image.
 
-If the provisions protecting privacy are violated, criminal and/or civil penalties will apply. For example, in criminal cases, violation of the provisions of the Law of 11 August 1982 on the protection of privacy is punishable by imprisonment from eight days to one year and/or a fine of 251 to 5,000 euros.
 
-In civil cases, a violation of respect for privacy or image rights result in an order to pay damages and interest. Finally, even where the consent of the person involved (or their legal representatives) has been obtained, it should be noted that:
+Conclusion
+----------
+Eu égard à ce qui précède, il est fortement conseillé d’obtenir le
+consentement d’une personne avant la prise et (surtout) la publication
+de photographies. Pour les mineurs, en plus du sujet, le consentement
+des représentants légaux tels que les parents doit être obtenu.
 
-1. the publication of the photographs must be limited to articles directly related to the event during which they were taken;
-2. consent must be "specific" (i.e. given for a specific purpose, for example, for a particular event) and cannot be used for other disclosures not originally planned.
+Une solution alternative est de rendre floues les images de manière à ce
+que les personnes soient non-identifiables.
 
-## Example of authorisation
-ANNEX: AUTHORISATION TEMPLATE FOR PHOTOGRAPHING AND PUBLICATION OF IMAGE (S) OF A MINOR
+En cas de violation des dispositions protégeant la vie privée, des
+sanctions pénales et/ou civiles s’appliquent. A titre d’exemple, sur le
+plan pénal, une violation des dispositions de la loi du 11 août 1982
+concernant la protection de la vie privée est punie d’un emprisonnement
+de huit jours à un an et/ou d’une amende de 251 euros à 5.000 euros.
 
-I, _________________________, the father/mother/other legal representative (delete where appropriate) of _________________________ (name and surname of the child), agree that the child can be photographed during the event _________________________ (name of the event) as of _________________________ and that these photographs can be published in the press or for any other non-commercial purpose directly related to the event in question and note that publication does not give right to remuneration.
+Sur le plan civil, une violation du respect de la vie privée ou du droit
+à l’image peut donner lieu notamment à une condamnation à des dommages
+et intérêts. Enfin, même dans le cas où le consentement de la personne
+concernée (ou de représentants légaux) a été obtenu, il convient de
+préciser que :
 
-Signatures – Child: _________________________ – Father / mother / other legal representative: _________________________
+1.  la publication des photographies doit être limitée à des articles en
+    relation directe avec l’événement lors duquel elles ont été prises ;
+2.  le consentement doit être « spécifique » (c’est-à-dire donné pour
+    une finalité précise, par exemple, pour un événement particulier) et
+    ne peut être ensuite utilisé pour d’autres divulgations non prévues
+    initialement.
+
+
+Exemple d'autorisation
+----------------------
+
+ANNEXE : MODÈLE D'AUTORISATION DE PRISE ET DE PUBLICATION D'IMAGE(S)
+D'UN MINEUR
+
+Je, soussigné(e)  _________________________,
+père / mère / autre représentant légal (rayer la mention inutile) de
+ _________________________(nom et prénom de
+l'enfant), donne mon accord pour que l’enfant soit pris en photo lors de
+la manifestation  _________________________(nom
+de l'événement) en date du
+ _________________________ ainsi qu’à la
+publication de ces photographies dans la presse ou dans tout autre but
+non-commercial lié directement à la manifestation en question, et note
+que la publication ne donne pas droit à une rémunération.\
+Signatures - Enfant :  _________________________
+- Père / mère / autre représentant légal :
+ _________________________
