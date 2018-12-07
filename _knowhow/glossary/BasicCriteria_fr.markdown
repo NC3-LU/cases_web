@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Basic criteria for risk analysis"
+title:  "Critères de base pour l'analyse des risques"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
