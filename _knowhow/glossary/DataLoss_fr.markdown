@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Data loss"
+title:  "Perte de données"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,87 +10,200 @@ toc: true
 ref: glossarydataloss
 lang: fr
 ---
-## In brief
-We talk about loss of data when data is deleted or deteriorated in such a way as to make accessing it impossible. This situation may arise following various natural events (catastrophes), technical events (faults) or human actions (theft with destruction, or deliberate or accidental destruction).
+En quelques mots
+----------------
+On parle de *perte de données* lorsque les données sont supprimées ou
+détériorées de manière à en rendre leur accès impossible. Cette
+situation peut se produire suite à divers événements naturels
+(catastrophes), techniques (pannes) ou actions humaines (vol avec
+destruction, destruction volontaire ou involontaire).
 
-We talk about corruption of data when part of the data has been modified, but access to the data itself has not been prevented.
+On parle *d'altération de données* quand une partie des données est
+modifiée sans pour autant rendre 'accès aux données impossible.
 
-Finally, we talk about data theft when a person accesses data which they ordinarily have no right to access, and which they extract fraudulently. Data theft can take place by copying or transferring data, or by printing it out. It may be accompanied by the destruction or corruption of the data.
+Finalement, on parle de *vol de données* quand une personne accède à des
+données auxquelles il n'a normalement pas droit d'accéder, et qu'il les
+soustrait frauduleusement. Le vol de données peut s'effectuer par une
+copie, un transfert des données ou par l'impression de ces dernières. Il
+peut être couplé à des actes de destruction ou d'altération des données.
 
-## Loss of data
-To better understand this phenomenon and the methods of recovery, it is important to distinguish between:
+La perte de données
+-------------------
+Pour mieux comprendre ce phénomène et les moyens de recouvrement, il est
+nécessaire de distinguer  :
 
-### Loss of data due to loss of access to data
-Various physical and logical circumstances may cause a loss of access to data. In the majority of cases, the data is still physically stored on the IT devices. But once they are no longer accessible, we talk about a loss of data. The recovery methods are different from those used to recover damaged or deleted data.
+### La perte de données due à la perte d'accès aux données
+Diverses circonstances physiques ou logiques peuvent provoquer la perte
+d'accès aux données. Dans la majorité des cas, les données sont encore
+physiquement sauvegardées sur les supports informatiques. Mais dès lors
+qu'elles ne sont plus accessibles, on parle de *perte de données*. Les
+méthodes de récupération se distinguent des méthodes utilisées pour
+récupérer des *données détériorées* ou *supprimées*.
 
-### Loss of data due to corruption of data
-During certain fraudulent manipulations carried out by computer hackers on web servers, we see neither the destruction nor the theft of the data, but merely its corruption. The “cracker” can, for example, claim to have simply modified one data value somewhere. In this case, the authentic data is no longer accessible because it has been corrupted. This is equivalent to a loss of data.
+### La perte de données due à l'altération de données
+Lors de certaines manipulations frauduleuses effectuées par des pirates
+informatiques sur des serveurs web, on assiste non pas à la destruction
+ou au vol de données, mais simplement à l'altération de ces dernières.
+En effet, le «cracker» peut, par exemple, annoncer avoir simplement
+modifié une donnée quelque part. Dans ce cas, les données authentiques
+ne sont plus accessibles, car elles ont été altérées. Ce qui équivaut à
+une *perte des données*.
 
-Loss of data due to the corruption of data may also be caused by intentional or accidental illicit actions carried out on databases or files. This type of loss of data is usually more difficult to detect. (The data is still there, but it is incorrect.)
+La perte de données due à *l'altération de données* peut aussi être
+provoquée par des actions volontairement ou involontairement illicites
+sur des bases de données ou des fichiers. Cette forme de perte de
+données est généralement difficilement détectable. (Les données existent
+toujours là, mais elles ne sont incorrectes).
 
-### Loss of data due to theft
-Data theft does not necessarily result in its destruction or corruption. If the data is copied, transferred or printed, the originals remain unchanged. This is, moreover, one of the reasons why it is sometimes difficult to detect this type of loss.
+### La perte de données par vol
+Les vols de données n'entraînent pas nécessairement leur destruction ou
+altération. Si les données sont copiées, transférées ou imprimées, les
+originaux restent inchangés. C'est d'ailleurs une des raisons pour
+lesquelles il est parfois difficile de détecter ce genre de perte.
 
-The impact of confidential data theft (trade secrets, for example) can be significantly greater than a simple loss of data. We also talk about the loss of data confidentiality.
+L'impact d'un vol de données confidentielles (par exemple des secrets de
+fabrication) peut être nettement supérieur à la simple perte de données.
+On parle aussi de perte de confidentialité des données.
 
-### Loss of data/loss of equipment due to theft
-The loss or theft of laptop computers or any other IT device (cassette tape, floppy disk, CD-ROM –Compact Disk Read Only Memory, etc.) often results in the loss of data stored on these computer resources. Users rarely dispose of a saved copy entirely. The theft or loss of IT devices also runs a large risk of loss of data confidentiality.
+### Perte de données/perte d'équipement par vol
 
-### Loss of data due to intentional destruction
+La perte ou le vol d'ordinateurs portables comme de tout support
+informatique (bande magnétique, disquette, CD ROM - Compact Disk Read
+Only Memory, ....) entraîne souvent la perte des données sauvegardées
+sur ces ressources informatiques. En effet, les utilisateurs disposent
+rarement d'une copie de sauvegarde complète. Le vol ou la perte des
+supports informatiques engendre aussi un grand risque de perte de
+confidentialité des données.
 
-When the loss or corruption of data is not the result of a technical phenomenon, but a human attempt, it is important to distinguish between the following actions:
+### La perte de données par destruction volontaire
+Lorsque la perte ou l'altération des données n'est pas le résultat d'un
+phénomène technique, mais bien d'une tentative humaine, il faut faire la
+différence entre les actions :
 
-* malicious intentional (website hacking)
-* non-malicious intentional (deleting a file)
-* intentional (mishandling)
+-   volontaires malveillantes (piratage d'un site web)
+-   volontaires non malveillantes (effacement d'un fichier)
+-   volontaires (mauvaise manipulation)
 
-## Preventative measures
-Based on the analysis of actual cases, we can determine the areas directly affected by loss of data and assess the costs usually associated with this type of phenomenon.
 
-### Storage solution suitable for requirements
-It is important to adapt the storage technology to the degree of data sensitivity, as well as the type of data (office files, databases).
+Mesures préventives
+-------------------
+En se basant sur l'analyse de cas réels, on peut déterminer les zones
+directement concernées en cas de perte de données et évaluer les
+dépenses habituellement liées à ce type de phénomène.
 
-In order to avoid the storage infrastructure becoming quickly saturated and all the associated problems, it is necessary to implement a file archiving policy on suitable devices.
+### Solution de stockage adaptée aux besoins
+Il est important d'adapter la technologie de stockage au degré de
+sensibilité des données ainsi qu'au type de données (fichiers
+bureautiques, bases de données).
 
-It is advisable to equip servers with **RAID** (Redundant Array of Independent/Inexpensive Disks) technology which distributes the storage of data over several hard drives. If one of the RAID hard drives is lost, the IT system is able to reconstruct the missing data. There are different levels of RAID configurations, which are discussed in a separate sheet.
+Afin d'éviter un rapide engorgement de l'infrastructure de stockage et
+tous les problèmes qui y sont directement liés, il est nécessaire de
+mettre en place une politique d'archivage des fichiers sur des supports
+adaptés.
 
-The implementation of a SAN (Storage Area Network) cabled storage network may also prove useful for large infrastructures or the deployment of a second production or backup site.
+Il est conseillé d'équiper les serveurs de la
+technologie RAID (Redundant Array of
+Independent/Inexpensive Disks) qui permet de répartir le stockage des
+données sur plusieurs disques durs. Lors de la perte éventuelle d'un des
+disques durs composant le RAID, le système informatique est capable de
+reconstituer l'information manquante. Il existe différents niveaux de
+configuration RAID, lesquels font l'objet d'une fiche séparée.
 
-### Adequate backup/restoration policies
-Both the technologies and the backup and restoration policies must be adapted depending on the degree of sensitivity, as well as the nature of the data (office files, databases).
+La mise en place d'un réseau filaire de stockage SAN (Storage Area
+Network) peut également s'avérer utile dans le cas de grosses
+infrastructures ou de déploiement d'un second site de production ou de
+repli.
 
-Technologies such as “snap shooting”, of which the aim is to create copies of changes to the database “on the go” during the day, prevent a return to the previous day’s situation and, in doing so, limit the need for any entry or recoding. This onerous and complex technology might be well-suited to a very complex type of use, but it is not necessary for the backup of normal office data.
+### Politiques de sauvegarde/restauration adéquates
+Il faut adapter les technologies ainsi que les politiques de sauvegarde
+et de restauration des données selon le degré de sensibilité, mais aussi
+selon la nature des données (fichiers bureautiques, bases de données).
 
-The implementation of procedures known by everyone, respected and controlled, makes best use of the infrastructure in place, e.g. information given to users regarding the directories to be backed up on a daily basis.
+Des technologies telles que le «snapshooting», dont le but est de
+réaliser des copies des modifications de la base de données et ce «à la
+volée» durant la journée, permettent d'éviter un retour à la situation
+de la veille, limitant de ce fait la saisie ou le ré-encodage
+éventuellement nécessaire. Si cette technique onéreuse et complexe est
+bien adaptée à un type d'utilisation très complexe, elle n'a aucun
+intérêt dans le cadre de la sauvegarde de données bureautiques
+habituelles.
 
-The restoration time is, unfortunately, an underestimated necessity. The majority of IT managers are concerned with how long the backup takes, but are unaware of the restoration capabilities. However, in the event of a disaster, restoration is the critical element. A detailed look at the restoration and network architecture, confirmed by testing it, is still the best way to judge how well a solution meets the requirements.  
+La mise en place de procédures connues de tous, respectées et
+contrôlées, permet d'exploiter au mieux l'infrastructure en place, comme
+par exemple l'information donnée aux utilisateurs quant aux répertoires
+à sauvegarder quotidiennement.
 
-### Respect of correct usage in the IT room
-The implementation of an IT architecture must meet certain environmental requirements. An IT room, a connectivity room, a telecommunications room, etc. must be fitted out in such a way as to ensure the equipment is operating under optimal conditions. This means: an emergency electrical supply or a UPS (Uninterruptible Power Supply), air conditioning and air filtering, static electricity control, a specific system to prevent water and file damage, and controlled access.
+Le délai de restauration est malheureusement un impératif sous-estimé.
+En effet, la plupart des responsables informatiques sont préoccupés par
+la vitesse de sauvegarde mais ignorent la capacité de restauration. Or,
+en cas de sinistre, c'est la restauration qui est critique. Une étude
+détaillée de l'architecture de restauration ainsi que du réseau, validée
+par une mise à l'épreuve, demeure le meilleur moyen de juger de
+l'adéquation de la solution avec les besoins.  
 
-### Comments
-All of these points are covered in a fact sheet on [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}).
+### Respect des bons usages en matière de salle informatique
+La mise en place d'une architecture informatique se doit de répondre à
+certaines exigences en matière environnementale. Une salle informatique,
+une salle de connectique, une salle de télécommunication etc.,
+doivent être équipées de manière à assurer aux équipements des
+conditions optimales de fonctionnement. Cela sous-entend : un circuit
+électrique de secours ou un UPS (Uninterruptible Power Supply), une
+climatisation et un filtrage d'air, un contrôle de l'électricité
+statique, un système spécifique de lutte contre les dégâts des eaux et
+du feu, et un contrôle d'accès.
 
-### Backup location
-IT devices, such as cassette tapes, optical media and others must imperatively be stored in places that meet their requirements in terms of protection against dust, scratches, humidity and other factors that may cause them to deteriorate.
+### Remarque
+L'ensemble de ces points est couvert dans une fiche relative à la
+[sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}).
 
-### Comments
-It is advisable to store backup devices inside a safe, outside of the IT room or even in another building entirely.
+### Lieu de sauvegarde
+Les supports informatiques, tels que les bandes magnétiques, supports
+optiques et autres doivent absolument être stockés dans des endroits
+répondant à leurs exigences en matière de protection contre la
+poussière, les griffes, l'humidité et autres facteurs pouvant les
+dégrader.
 
-### User rights management
-To have the best chance of preventing accidental data deletion, there is the option of limiting user rights on files and critical devices as much as possible.
+### Remarque
+II est conseillé de stocker les supports de sauvegarde dans un
+coffre-fort, en dehors de la salle informatique voire dans un autre
+bâtiment.
 
-### Proactive management of the IT fleet
-The majority of faults relating to the operation of IT equipment are preceded by warning signs. Most equipment comes supplied with software that analyses these signs and alerts the user in case of any issues. This software exists at both server level and on desktop computers (workstations) and laptops. It is advisable to let this software run and to pay attention to its warnings.
+### Gestion des droits des utilisateurs
+Pour assurer au maximum l'effacement involontaire de données il y a lieu
+de limiter au minimum les droits des utilisateurs sur des fichiers et
+supports critiques.
 
-### User training
-An effective solution to avoid mishandling is to train users in how to use their computer and its peripherals correctly, as well as in data and directory management.
+### Gestion proactive du parc informatique
+La majorité des pannes relatives au fonctionnement des équipements
+informatiques ont des signes « avant-coureurs ». La plupart des
+équipements sont fournis avec un logiciel qui analyse ces signes et
+avertit l'utilisateur en cas de doute. Ces logiciels existent tant au
+niveau des serveurs que des ordinateurs (postes de travail) et
+ordinateurs portables. Il est conseillé de laisser agir ce logiciel et
+de tenir compte des ses avertissements.
 
-## Curative measures
-In this section, you will find all recovery measures to be taken after a disaster:
+### Formation des utilisateurs
+Une solution efficace pour éviter les maladresses consiste à former les
+utilisateurs à une manipulation adéquate de la machine et de ses
+périphériques, ainsi qu'à la gestion des données et des répertoires.
 
-## Recovery software or companies
-There are a number of software programs that can recover lost or deleted data from a number of devices. This software is not necessarily expensive, but it does require a certain amount of expertise to use. It is therefore strongly recommended that you contact companies that specialise in this domain. However, you should request a service where payment is only made if the data can be recovered.
 
-## Comments
-Security-conscious people are reminded that it is possible to recover deleted files. Making this sort of recovery impossible is always an option, and it is important to pay attention during the resale of IT equipment. (see [disposal]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %}))
+Mesures curatives
+-----------------
+Sont regroupées sous ce point toutes les mesures de récupération après
+un sinistre :
+
+### Logiciels ou sociétés de récupération
+Il existe de nombreux logiciels capables de récupérer des données
+perdues ou effacées sur différents supports. Ces logiciels ne sont pas
+forcément coûteux mais leur usage demande une certaine maîtrise du
+sujet. Il est donc fortement conseillé de faire appel à des entreprises
+spécialisées dans ce domaine. En revanche exigez un service qui n'est
+payant que quand les données sont récupérables.
+
+### Remarque
+Les personnes sensibles à la sécurité sont interpellées par le fait que
+l'on puisse récupérer des fichiers effacés. Il est toujours possible de
+rendre ce type de récupération inopérant, et il est important d'y prêter
+attention lors de reventes d'équipements informatiques. (voir [mise au
+rebut]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}))
