@@ -14,8 +14,8 @@ En quelques mots
 ----------------
 Les données qui vous appartiennent et que vous manipulez avec votre
 ordinateur ont différents niveaux de
-[confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}). Vous ne
-traitez probablement pas de la même manière les données que vous mettez
+[confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}).
+Vous ne traitez probablement pas de la même manière les données que vous mettez
 sur un réseau social et celles que vous gardez exclusivement sur votre
 disque local. Données clients, données stratégiques de votre entreprise,
 textes, lettres ou e-mails constituent seulement la partie visible de
