@@ -28,7 +28,7 @@
   {% endfor %}
   {% assign services=site.knowhow | where:"ref", page.ref | sort: 'lang' %}
   {% for service in services %}
-  {% unless service.hidden %}
+    {% unless service.hidden %}
     <li>
       <a href="{{ service.url }}" class="{{ service.lang }}"><img src="/assets/img/flags/{{ service.lang }}.png"></a>
     </li>

@@ -40,4 +40,4 @@ WOT permet très rapidement de voir la note obtenue par un site grâce à une si
 - orange : la note est mauvaise
 - rouge : la note est très mauvaise
 
-Ces notes sont indicatives car basées sur des témoignages d’utilisateurs qui peuvent avoir intérêt à noter un site plus ou moins favorablement. Vous pourrez trouver sous ce lien (http://www.mywot.com/fr/support/main) de plus amples informations.
+Ces notes sont indicatives car basées sur des témoignages d’utilisateurs qui peuvent avoir intérêt à noter un site plus ou moins favorablement.
