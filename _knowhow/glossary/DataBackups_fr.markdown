@@ -99,8 +99,7 @@ fréquence de sauvegarde à une fois par jour par exemple ? La réponse à
 ces questions dépendra de chaque cas.
 
 Un autre problème se pose : si vous faites une sauvegarde unique par
-semaine et qu’un [logiciel
-malveillant](https://www.cases.lu/fr/logiciels-malveillants.html) a
+semaine et qu’un [logiciel malveillant]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) a
 détruit une partie de vos documents un mois auparavant sans que vous ne
 vous en rendiez compte, vous aurez perdu des données malgré votre
 sauvegarde. De ce fait il est recommandé de garder un historique de
@@ -115,11 +114,10 @@ sauvegarde quotidienne en gardant une semaine de sauvegardes. Garder une
 sauvegarde par semaine pendant un mois, garder une sauvegarde mensuelle
 pendant un an et ainsi de suite.
 
-Le niveau de
-[classification](https://www.cases.lu/fr/classification.html) des
+Le niveau de classification des
 sauvegardes correspond à celui des données sauvegardées. Si celles-ci
 sont hautement
-[confidentielles](https://www.cases.lu/fr/confidentialite.html), les
+[confidentielles]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), les
 sauvegardes sont aussi hautement confidentielles.
 
 
@@ -153,8 +151,7 @@ que la dernière sauvegarde différentielle.
 Vos fichiers sont importants et leur sauvegarde primordiale en cas de
 perte de données. Mais avez-vous également pensé à la disponibilité de
 votre système ? Que se passerait-t-il si votre disque dur venait à avoir
-une panne (voir [pannes
-physiques](https://www.cases.lu/fr/pannes-physiques.html)) ? Vous auriez
+une panne (voir [pannes physiques]({% link _knowhow/glossary/PhysicalFaults_fr.markdown %})) ? Vous auriez
 bien tous vos fichiers importants dans votre sauvegarde, mais il
 faudrait acheter un nouveau disque, réinstaller votre système
 d’exploitation et finalement réinstaller aussi tous vos logiciels avant
@@ -186,35 +183,19 @@ Politique de sécurité
 
 Rédigez et faites appliquer les politiques sectorielles suivantes:
 
--   [Organisation de la
-    sécurité](https://www.cases.lu/fr/polsec-organisation-de-la-securite.html)
-
-    -   [Attribution des
-        responsabilités](https://www.cases.lu/fr/polsec-organisation-de-la-securite.html&WCE_section_194_1=1&WCE_section_194_1=1#574)
--   [Classification et maîtrise des
-    ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html)
-    -   [Classification et responsabilité des
-        ressources](https://www.cases.lu/fr/polsec-classification-et-maitrise-des-ressources.html&WCE_section_206_1=1&WCE_section_206_1=1#579)
--   [Sécurité physique et
-    environnementale](https://www.cases.lu/fr/polsec-securite-physique-et-environnementale.html)
-    -   [Périmètre de sécurité
-        physique](https://www.cases.lu/fr/polsec-securite-physique-et-environnementale.html&WCE_section_219_1=1&WCE_section_219_1=1#582)
-    -   [Sécurité des équipements hors des
-        locaux](https://www.cases.lu/fr/polsec-securite-physique-et-environnementale.html&WCE_section_219_1=5&WCE_section_219_1=5#586)
--   [Aspects opérationnels et
-    communications](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html)
-    -   [Procédures
-        documentées](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html&WCE_section_242_1=1&WCE_section_242_1=1#589)
-    -   [**sauvegarde de données**](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html&WCE_section_242_1=5#593)
-    -   [Sécurité des médias pendant les
-        transports](https://www.cases.lu/fr/polsec-aspects-operationnels-et-communications.html&WCE_section_242_1=6&WCE_section_242_1=6#594)
--   [Contrôle
-    d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html)
-    -   [Politique de contrôle
-        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=1&WCE_section_265_1=1#596)
-    -   [Gestion des droits
-        d’accès](https://www.cases.lu/fr/polsec-controle-d-acces.html&WCE_section_265_1=2&WCE_section_265_1=2#597)
--   [Gestion de la continuité de
-    l’entreprise](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html)
-    -   [La continuité de
-        fonctionnement](https://www.cases.lu/fr/polsec-gerer-la-continuite-de-l-entreprise.html&WCE_section_287_1=1&WCE_section_287_1=1#605)
+-   [Organisation de la sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %})
+    -   [Attribution des responsabilités]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity_fr.markdown %}#attribution-of-responsibilities)
+-   [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %})
+    -   [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources_fr.markdown %}#classification-and-responsibility-for-resources)
+-   [Sécurité physique et environnementale]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %})
+    -   [Périmètre de sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#physical-security-perimeter)
+    -   [Sécurité des équipements hors des locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security)
+-   [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %})
+    -   [Procédures documentées]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#documentation-of-procedures)
+    -   [sauvegarde de données]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#data-backups)
+    -   [Sécurité des médias pendant les transports]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#device-security-during-transport)
+-   [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %})
+    -   [Politique de contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-control-policy)
+    -   [Gestion des droits d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#access-rights-management})
+-   [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %})
+    -   [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity_fr.markdown %}#operational-continuity)
