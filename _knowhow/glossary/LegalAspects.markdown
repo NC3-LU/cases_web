@@ -21,7 +21,7 @@ The law recognises and punishes:
 
 * the liability of the perpetrator of the attack;
 * the liability of the intermediary of the attack;
-* the responsibility of the victim of the attack; the legal consequence of a breach of the security obligation in relation to personal data processing is punishable by 8 days to 1 year in prison and by a fine from 251 to 125,000 euros.
+* the responsibility of the victim of the attack. The legal consequence of a breach of the security obligation in relation to personal data processing is punishable by 8 days to 1 year in prison and by a fine from 251 to 125,000 euros.
 
 All organisations must implement a security policy based on:
 
@@ -39,7 +39,7 @@ Copyright on original literary and artistic works, which include databases and c
 * patents must be respected;
 * brands, designs and models must be respected;
 
-For any other question, please contact the Office of Intellectual Property.
+For any other question, please contact the [Office of Intellectual Property](https://guichet.public.lu/en/organismes/organismes_entreprises/ministere-economie/propriete-intellectuelle.html).
 
 ## Personal data protection
 All files or databases must be created in accordance with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data. The same applies to processing involving both newly created data and pre-existing data.
