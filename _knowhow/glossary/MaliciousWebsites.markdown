@@ -20,7 +20,7 @@ By exploiting human feelings (social engineering), such as curiosity or even fea
 Various software programs are available to help Internet users to recognise these different forms of attack based on social engineering. For example, there is the browser add-on WOT (Web Of Trust), which warns people when they visit a website with a poor reputation. Users should also pay heed to warnings provided by search engines or their own browser when they warn against viewing a given page.
 
 ## Drive-by-download
-Drive-by-download is a method of infecting computers using malicious code, exploiting the [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities ) of the browser. Users are tricked into downloading malicious code which, unbeknownst to the user, attempts to exploit vulnerabilities in the browser and automatically infect the machine.
+Drive-by-download is a method of infecting computers using malicious code, exploiting the [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities) of the browser. Users are tricked into downloading malicious code which, unbeknownst to the user, attempts to exploit vulnerabilities in the browser and automatically infect the machine.
 
 ## How can you protect yourself against this?
 

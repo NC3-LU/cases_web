@@ -25,7 +25,6 @@ Certains firewall offrent aussi une possibilité [VPN]({% link _knowhow/glossary
 Il existe principalement 2 catégories de firewalls :
 
 * les firewalls personnels protégeant uniquement les stations de travail ou ordinateurs personnels. Ils sont installés directement sur l’ordinateur de l’utilisateur.
-
 * les firewalls d’entreprise installés sur des machines dédiées. Ce type de firewall est souvent placé entre Internet et un réseau d’entreprise afin de protéger ce dernier des différentes menaces d’Internet. Il est également utilisé pour la création de zones démilitarisées (DMZ) pour l’hébergement de serveurs publics. Dans certains cas, il sert même à séparer différentes parties du réseau d’entreprise en périmètres de sécurité différents ([segmentation ou cloisonnement réseau]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})).
 
 ## Mesures comportementales
@@ -35,13 +34,10 @@ Il existe principalement 2 catégories de firewalls :
 ## Mesures organisationnelles
 
 * La gestion du firewall doit suivre des règles strictes. Tout changement de règle doit être documenté.
-
-* L'organisme doit rédiger et faire respecter une politique sectorielle pour le contrôle d'accès
-
-* Rédigez et faites appliquer une politique sectorielle contrôle d'accès - [séparation des réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks)
+* L'organisme doit rédiger et faire respecter une politique sectorielle pour le contrôle d'accès.
+* Rédigez et faites appliquer une politique sectorielle contrôle d'accès - [séparation des réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks).
 
 ## Mesures techniques
 
 * Il faut de façon récurrente tester les règles firewall
-
 * Il faut conserver et analyser les logs (fichier journal) des firewall. Ils sont souvent la seule aide pour identifier des codes malicieux exfiltrant des informations vers certaines destinations.

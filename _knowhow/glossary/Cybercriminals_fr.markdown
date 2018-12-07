@@ -13,7 +13,7 @@ lang: fr
 En quelques mots
 ----------------
 On appelle cybercriminel une personne qui vise soit à
-[attaquer](https://www.cases.lu/fr/attaque-informatique.html)
+[attaquer]({% link _knowhow/glossary/ComputerHacks_fr.markdown %})
 illégalement un système informatique déterminé, soit à perpétrer un
 délit ou crime conventionnel à l’aide d’un outil ou système
 informatique.
@@ -24,8 +24,7 @@ La cybercriminalité autrefois et aujourd'hui
 Ces dix dernières années nous sommes devenus témoins d'une mutation dans
 le monde de la cybercriminalité. Dans les années 1980 et 1990 celle-ci
 était encore à l'état d'artisanat, oeuvre de passionnés d'informatique
-avides de reconnaissance. Les [logiciels
-malveillants](https://www.cases.lu/fr/logiciels-malveillants.html) se
+avides de reconnaissance. Les [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) se
 faisaient voir, faisaient apparaître des animations à l'écran ou
 détruisaient les données sur les ordinateurs infectés.
 
