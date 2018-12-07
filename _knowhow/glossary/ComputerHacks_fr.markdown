@@ -128,4 +128,4 @@ sévèrement réprimée ».*
 En savoir plus
 --------------
 
--   [**Dépôt de plainte**](https://www.cases.lu/fr/depot-de-plainte.html)
+-   [**Dépôt de plainte**]({% link _knowhow/bestpractices/FilingAComplaint_fr.markdown %})
