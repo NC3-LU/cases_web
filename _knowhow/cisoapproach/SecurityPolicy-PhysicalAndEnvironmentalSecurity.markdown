@@ -121,7 +121,7 @@ The electricity power supply for vital equipment must be made safe:
 ## Maintenance
 For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
 
-When a piece of equipment leaves “the organisation” for maintenance, or when [it is discarded]({% link _knowhow/glossary/Discarded.markdown %}), it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
+When a piece of equipment leaves “the organisation” for maintenance, or when it is discarded, it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
 
 See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown %})
 
@@ -180,7 +180,7 @@ The equipment used for processing information off the site of “the organisatio
 * [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
 
 ## Disposal and reuse of equipment
-Any equipment that [is discarded]({% link _knowhow/glossary/Discarded.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
+Any equipment that [is disposed]({% link _knowhow/glossary/Disposal.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
 
 Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
 
@@ -210,7 +210,7 @@ Whichever method is chosen, please be respectful of the environment.
 
 ### Technical measures:
 
-* [Disposal]({% link _knowhow/glossary/Discarded.markdown %})
+* [Disposal]({% link _knowhow/glossary/Disposal.markdown %})
 * [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
 ## Clean desk policy

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Disposal"
+title:  "Mise au rebut"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,101 +10,220 @@ toc: true
 ref: glossarydisposal
 lang: fr
 ---
-## In brief
-Data that belongs to you or which you process using your computer has different levels of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}). You probably don’t treat data you post on [social networks](-) and that which you keep solely on your hard drive in the same way. Customer information, your company’s strategic data, texts, letters or [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects_fr.markdown %}#email) constitute only the visible part of your behaviour on the computer. In addition to that, a certain amount of data is generated as a secondary product during such use: temporary files, browser history, user profiles and saved passwords are just a few examples. You therefore need to bear in mind that when you use a computer, you leave behind a trace, like a snail, of everything you have done.
+En quelques mots
+----------------
+Les données qui vous appartiennent et que vous manipulez avec votre
+ordinateur ont différents niveaux de
+[confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}). Vous ne
+traitez probablement pas de la même manière les données que vous mettez
+sur un réseau social et celles que vous gardez exclusivement sur votre
+disque local. Données clients, données stratégiques de votre entreprise,
+textes, lettres ou e-mails constituent seulement la partie visible de
+votre comportement sur l'ordinateur. Une quantité de données sont par
+ailleurs générées comme produit secondaire lors de cette utilisation :
+fichiers temporaires, historiques de navigation, profils d’utilisateurs,
+mots de passe sauvegardés en sont quelques exemples. Soyez donc
+conscients que lorsque vous utilisez un ordinateur, vous laissez sur
+votre passage, tel un escargot, une empreinte de tout ce que vous
+faites.
 
-If you would like to scrap your computer or pass it on to someone else, it is important [to get rid of these traces]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware_fr.markdown %}) entirely. Simply deleting the files or reformatting the hard drive is not enough. The section below will tell you what you need to know in advance.
+Si vous souhaitez mettre au rebut ou léguer votre ordinateur à quelqu'un
+d'autre, il est important de détruire entièrement ces traces. Un simple
+effacement de fichiers ou reformatage du disque ne suffisent pas. La
+section ci-après vous livre les explications nécessaires pour bien vous
+préparer.
 
-For classified data, such as confidential data, we recommend total physical destruction by a crusher or a demagnetiser. Passing on this equipment to someone else is out of the question.
+Pour les données classifiées comme confidentielles, nous vous conseillons une
+destruction physique par broyeur ou démagnétiseur, il est hors de question de
+léguer de tels équipements.
 
-## Total destruction of your data
+La destruction totale de vos données
+------------------------------------
 
-### Objective
-You want to resell or scrap your PC. The hard drives containing your data are going to fall into unknown hands. You need to delete everything.
+### Objectif
+Vous voulez revendre ou mettre au rebut votre PC. Les disques qui
+contiennent vos données vont tomber dans des mains inconnues. Il vous
+faut tout effacer.
 
-### Procedure to follow
-To effectively delete all the aforementioned data, it is important to use a different system to the one you want to get rid of. You could, for example, remove the drives and connect them to another computer. The easiest way to do this, however, consists of using a “live” system that can restart your computer without using its internal hard drives.
+### Démarche à suivre
+Pour effacer efficacement toutes les données précédemment citées, il est
+important d’utiliser un système indépendant de celui dont vous souhaitez
+vous débarrasser. Vous pourrez par exemple démonter les disques et les
+brancher à un autre ordinateur. La manière la plus simple consiste
+cependant à utiliser un système dit « live » qui peut démarrer votre
+ordinateur sans utiliser ses disques durs internes.
 
-The “Darik’s Boot and Nuke” live system is available free of charge from the following website: [http://www.dban.org/](http://www.dban.org/)
+Le système Live « Darik's Boot And Nuke » est gratuitement mis à
+disposition sur le site suivant : http://www.dban.org/
 
-Please download the file with the “iso” extension. This file resembles a compact disc that is ready to be burned. To use it, you simply need to use burning software. Take care not to burn your CD as a conventional data disk with the image file as the contents, but search for the “burn image” option.
+Veuillez télécharger le fichier avec l’extension « iso ». Ce fichier est
+une image de disque compact prête à être gravée. Pour l’utiliser, il
+suffit de se servir d’un logiciel de gravure. Prenez bien garde de ne
+pas graver votre CD comme disque de données conventionnel avec le
+fichier image comme contenu, mais cherchez plutôt l’option « graver une
+image » ou « burn image » en anglais.
 
-Once the CD has been burned, you’ll need to restart your computer with the CD in the CD ROM drive. On most computers, the disk will be launched at start-up instead of the operating system. If your usual operating system loads instead of “Darik’s Boot and Nuke”, you’ll have to put the CD ROM drive first in the boot order in your BIOS settings. We recommend you use an Internet search to help you set up this configuration.
+Une fois le CD gravé il faudra redémarrer votre ordinateur avec le CD
+dans votre lecteur. Sur la plupart des ordinateurs le disque sera lancé
+au démarrage au lieu du système d’exploitation. Si votre système
+d’exploitation habituel se charge au lieu de « Darik's Boot And Nuke »
+il faudra définir dans votre BIOS le lecteur CD comme premier lecteur de
+démarrage. Nous vous conseillons de faire une recherche sur Internet
+pour vous aider à faire cette configuration.
 
-### Data destruction
-Once this live CD has started up, type autonuke[enter] to delete all your computers’ hard drives. Please note that this will also destroy the memories of any mass storage devices connected to the computer by USB (such as cameras or external hard drives). You will then be able to return to your usual activities. As this process can take a while, make sure you leave your computer on continuously for at least one day.
+### Destruction des données
+Une fois ce live CD démarré, tapez autonuke\[entrée\] pour effacer tous
+les disques sur votre ordinateur. Attention cela effacera aussi les
+mémoires de masse attachées à l’ordinateur par usb (comme les appareils
+photo, ou disques externes). Vous pourrez alors retourner à vos
+activités habituelles car cette opération peut-être très longue,
+prévoyez de laisser l’ordinateur allumé pendant au moins une journée.
 
-**Generally speaking, for magnetic media (conventional hard drives) the “Quick Erase” method should be sufficient. It also has the advantage of being the fastest process.**
+**En général, pour des supports magnétiques (disques durs
+conventionnels) la méthode « Quick Erase » suffit, elle a aussi
+l’avantage d’être la plus rapide.**
 
-**It is important to note that the only method you should use for flash memory (and therefore SSD drives) is the “Quick Erase” method. Other methods could damage this type of drive and wouldn’t be effective as they are best suited to magnetic media.**
+**Précisons ici que la seule méthode que vous devriez utiliser pour la
+mémoire flash (et donc pour des disques SSD) est la méthode « Quick
+Erase ». Les autres méthodes risqueraient d’endommager ce type de
+disques et ne seraient pas plus efficaces, car adaptées à des supports
+magnétiques.**
 
-### After destruction
-Depending on what you plan to do with your computer, you can now reinstall your favourite operating system or get rid of your computer without any concerns.
+### Après la destruction
 
-### Advantages
-Effective process which requires little interaction.
+Selon vos aspirations, vous pouvez maintenant réinstaller votre système
+d’exploitation favori ou vous défaire en toute quiétude de votre
+ordinateur.
 
-### Disadvantages
-Lengthy process. For a company looking to destroy a lot of hard drives, physical destruction will be the fastest (and possibly cheapest) route.
+### Avantages
 
-## Targeted destruction of data
+Opération efficace et qui demande peu d’interactions.
 
-### Objective
-You want to give your PC to someone you trust, perhaps one of your children. The method described above is particularly applicable if you have lost your PC’s re-installation disk and you would like to give them an operational computer. The aim is to delete confidential data while leaving the operating system intact.
+### Désavantages
 
-Nevertheless, the targeted destruction of existing data has some major drawbacks, because not only will traces of your data remain forever, but this method also won’t destroy any malicious software that may have made its way onto your computer and you risk passing on an infected computer to one of your family or friends.
+Opération longue à effectuer. Pour une entreprise désirant détruire
+beaucoup de disques, une destruction physique sera plus rapide (et
+peut-être moins chère).
 
-### Procedure to follow
-In addition to the tools you already have on your computer, we’re going to use the following software: ccleaner – downloadable from [http://www.piriform.com/ccleaner](http://www.piriform.com/ccleaner)
 
-### Data destruction
-All Windows systems come with an *Administrator* account by default. Close your current session ```Start -> Log off```. The Windows Logon screen will appear. Unfortunately, the *Administrator* user account is hidden. You’ll need to press ```CTRL + ALT + DELETE``` to make the classic logon screen appear.
+La destruction ciblée des données
+---------------------------------
 
-This special user is called *Administrator* in the English (and German) version of Windows (or *Administrateur* in French). If you cannot remember the *Administrator* password, we recommend you create a new user with administrator privileges and use this one. The main thing is that you’re not logged on with your usual account.
+### Objectif
+Vous voulez céder votre PC à une personne de confiance, peut-être à l’un
+de vos enfants. La méthode décrite ci-après est particulièrement valable
+si vous avez égaré le disque de réinstallation de votre PC et que vous
+souhaitez céder un ordinateur fonctionnel. Le but est d’effacer les
+données confidentielles tout en laissant le système d’exploitation
+intact.
 
-Right click on My Computer, then select *Manage*:
+La destruction ciblée des données présente néanmoins quelques gros
+inconvénients, car non seulement il restera toujours quelques traces de
+vos données, mais cette méthode ne pourra pas détruire les logiciels
+malveillants, qui pourraient se trouver sur votre ordinateur et vous
+risquez de léguer un ordinateur infecté à l’un de vos proches.
 
-Now select your usual accounts and delete them by pressing the ```DELETE``` key:
+### Démarche à suivre
+Nous allons, en plus des outils déjà présents sur votre ordinateur,
+utiliser le logiciel suivant : ccleaner – téléchargeable sur
+<http://www.piriform.com/ccleaner>
 
-Then delete the personal directory for the deleted accounts which is located at ```C:\Documents and Settings\``` or ```C:\Users\``` for more recent versions of Windows:
+### Destruction des données
+Il existe par défaut un compte « Administrateur » dans tout système
+Windows. Fermez votre session actuelle (démarrer-&gt;Fermer la session).
+Vous vous retrouverez devant un écran d’authentification Windows.
+L’utilisateur « Administrateur » est malheureusement caché : il faut
+donc appuyer sur ```CTRL + ALT + DELETE``` pour faire apparaître la fenêtre
+d’authentification classique.
 
-Next, it is important to uninstall software that you don’t want to pass on, due to user licences for example. It is possible to use Windows’ integrated uninstall features, but ccleaner is noticeably faster. So, launch ccleaner:
+Cet utilisateur spécial s’appelle « Administrateur » dans la version
+française de Windows mais « Administrator » en anglais ou allemand. Si
+vous ne vous souvenez plus du mot de passe « Administrateur » nous vous
+conseillons de créer un nouvel utilisateur ayant les droits
+d’administration et d’utiliser celui-ci. Ce qui importe, c'est que vous
+ne soyez pas authentifié avec votre utilisateur habituel.
 
-Remember to delete any WiFi passwords by going to Control Panel and looking for *Network Connections*. Right click on your network connection:
+Faites alors un click droit sur votre Poste de travail et sélectionnez «
+Gérer ».
 
-Go to *Properties*, then the *Wireless Network* tab
+Sélectionnez maintenant vos comptes habituels et effacez-les en appuyant
+sur la touche \[Delete\].
 
-In Windows 7 and Vista, look for the wireless network manager in Control Panel, where you can select the networks and delete them.
+Puis effacez le répertoire personnel des comptes effacés qui se trouve
+sur ‘C://Documents and Settings/’ ou ’C://Users’ pour des versions de
+Windows plus récentes.
+ 
+Ensuite il est important de désinstaller les logiciels que l’on ne veut
+pas céder, par exemple pour des raisons de licences. Il est possible
+d’utiliser les fonctionnalités de désinstallations intégrées à Windows,
+mais ccleaner est sensiblement plus rapide. Lancez donc ccleaner.
 
-Now remember to delete your restore points. Right click on My Computer, then select *System Properties*:
+Pensez aussi à effacer les mots de passe wifi éventuels en allant dans
+le panneau de configuration cherchez l’icône « Connexions réseau ».
+Sélectionnez votre connexion réseau et faites un click droit.
 
-Then choose the *System Protection* tab and *System Restore* to deactivate this feature. Once you’ve clicked *OK*, your restore points will be deleted.
+Choisissez « Propriétés » puis l’onglet « réseaux sans fil ».
 
-If you want to go even further, clear the virtual memory pagefile, which may contain snippets of compromising memory by going to the *Advanced* tab, click on the *Settings* button in *Performance*, *Advanced* tab, virtual memory. This last stage isn’t very important and you can ignore it if you wish.
+Sous Windows 7 et Vista cherchez dans le panneau de configuration le
+gestionnaire de réseaux sans fil, dans lequel vous pourrez sélectionner
+des réseaux et les effacer.
 
-If you still have data stored in other locations, it is important to delete it now. Select the folders or files to be deleted and hold down the [shift]+[delete] keys to delete them without sending them to the recycle bin. If you have deleted the files the conventional way, just remember to empty the recycle bin.
+Pensez maintenant à effacer vos points de restauration. Faites un click
+droit sur votre poste de travail et sélectionnez « Propriétés ».
 
-Then delete all hidden data using ccleaner:
+Choisissez alors l’onglet « Restauration du système » et désactivez
+cette fonction. Après avoir cliqué sur « Ok » vos points de restauration
+seront effacés.
 
-The default settings should be sufficient given that you’ve deleted the main user profile.
+Si vous souhaitez aller encore plus loin, éliminez le fichier de mémoire
+virtuelle, qui pourrait contenir des bribes de mémoire compromettantes,
+en allant sur l’onglet « Avancé », le bouton « Paramètres » de «
+Performances », onglet « Avancées », mémoire virtuelle. Cette dernière
+étape n’est pas aussi importante et peut être ignorée.
 
-All deleted data can in theory be recovered from the free space on the hard drive. Use ccleaner to clear the free space:
+Si vous avez encore des données à d’autres endroits il est à présent
+important de les effacer. Sélectionnez les dossiers ou fichiers à
+effacer et appuyez sur les touches \[shift\]+\[delete\] pour les effacer
+sans les envoyer par la corbeille. Si vous avez effacé les fichiers de
+manière conventionnelle, pensez juste à vider la corbeille.
 
-### After destruction
-You can now create an account for the new user.
+Effacez alors les données cachées en utilisant ccleaner.
 
-### Advantages
-Process doesn’t require a system re-installation.
+Les configurations par défaut suffisent vu que vous avez effacé le
+profil de l’utilisateur principal.
 
-### Disadvantages
-Process doesn’t guarantee the total destruction of data. Additionally, if the computer has previously been infected by malware, this won’t have been removed from the system.
+Toutes les données effacées sont en théorie récupérables dans l’espace
+libre du disque. Utilisez ccleaner pour effacer l’espace libre.
 
-## Conclusion
-We have given you two ways of removing data from a PC. We strongly recommend you use the first method, which guarantees:
+### Après la destruction
+Vous pouvez maintenant créer le compte du nouvel utilisateur.
 
-1. the total removal of data;
-2. a malware-free system after re-installation.
+### Avantages
+Opération qui ne demande pas une réinstallation du système.
 
-Removal is easier, but takes longer than the second method. On the other hand, of you want to pass on an operational computer, you will need to reinstall the operating system.
+### Désavantages
+Opération qui ne garantit pas la destruction totale des données. De
+plus, en cas d’infection antérieure par un logiciel malveillant, le
+système reste infecté.
 
-A third very effective way is obviously to crush or demagnetise at least your hard drive, if not your computer. This is a very safe solution which is perfect for large volumes and, therefore, for companies. Some companies specialise in the destruction of data, and it is better to pay for them to be destroyed than have them stolen.
+Conclusion
+----------
+Deux méthodes ont été présentées pour effacer les données d’un PC. Il
+est vivement conseillé d’utiliser la première méthode, qui permet de
+garantir :
+
+1.  l’effacement total des données ;
+2.  après une réinstallation, un système exempt de logiciels
+    malveillants.
+
+L’effacement y est plus facile à effectuer, mais plus long que pour la
+deuxième méthode. En revanche, si vous désirez léguer un ordinateur
+fonctionnel, il vous faudra réinstaller le système d’exploitation.
+
+Un troisième moyen très efficace est évidement de procéder à une
+destruction par broyage ou par démagnétiseur, si ce n’est de votre
+ordinateur, du moins de vos disques durs. C’est une solution très sûre,
+parfaite pour les grands volumes et donc pour les entreprises. Certaines
+entreprises sont spécialisées dans la destruction des données, et il
+vaudra toujours mieux payer pour détruire ses données, que se les faire
+voler.

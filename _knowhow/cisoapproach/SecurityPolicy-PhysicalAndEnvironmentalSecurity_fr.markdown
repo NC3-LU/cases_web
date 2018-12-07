@@ -128,7 +128,7 @@ La [sécurité physique]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAn
 
 Pour les ressources classifiées comme importantes ou vitales, un contrat de maintenance doit être conclu avec un délai d’intervention ou de remplacement garanti, compatible avec les besoins de disponibilité de la ressource. (PME: voir [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence) et [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software_fr.markdown %}#unavailability-of-administrators)). La maintenance est un critère important pour optimiser la [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) des [ressources]({% link _knowhow/glossary/Assets_fr.markdown %})
 
-Lorsqu’un équipement quitte "l’organisation" pour maintenance, ou est [mise en rebut]({% link _knowhow/glossary/Discarded_fr.markdown %}), il ne doit pas contenir de données confidentielles. Si tel est le cas, et selon la sensibilité des données, une procédure spécifique doit être décidée (traitement sur place, accompagnement du matériel, destruction du matériel, etc.). (PME: voir [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport) et [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery))
+Lorsqu’un équipement quitte "l’organisation" pour maintenance, ou est [mise en rebut]({% link _knowhow/glossary/Disposal_fr.markdown %}), il ne doit pas contenir de données confidentielles. Si tel est le cas, et selon la sensibilité des données, une procédure spécifique doit être décidée (traitement sur place, accompagnement du matériel, destruction du matériel, etc.). (PME: voir [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#hardware-damaged-during-transport) et [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery))
 
 Voir aussi: [SOS - donner en réparation]({% link _knowhow/sos/SOS-HandoverToRepairs_fr.markdown %})
 
@@ -189,7 +189,7 @@ Les équipements utilisés pour le traitement des informations à l'extérieur d
 
 ## Mise en rebut et réutilisation des équipements
 
-Tout équipement qui est [mise au rebut]({% link _knowhow/glossary/Discarded_fr.markdown %}) ou réutilisé dans un autre contexte doit être vidé de toutes ses données;  les disques doivent être effacés. Le système pourra être réinstallé, le cas échéant. Selon la sensibilité des données sauvegardées, la destruction physique des disques (par broyeur ou démagnétiseur) doit être envisagée. (PME: voir [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)).
+Tout équipement qui est [mise au rebut]({% link _knowhow/glossary/Disposal_fr.markdown %}) ou réutilisé dans un autre contexte doit être vidé de toutes ses données;  les disques doivent être effacés. Le système pourra être réinstallé, le cas échéant. Selon la sensibilité des données sauvegardées, la destruction physique des disques (par broyeur ou démagnétiseur) doit être envisagée. (PME: voir [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#device-recovery)).
 
 L’effacement classique des fichiers est insuffisant car les données resteront présentes sur le disque. Si les compétences internes manquent de connaissances pour le faire, un fournisseur externe peut s'en charger sous la surveillance d’un membre de l’organisation.
 
@@ -219,7 +219,7 @@ Quoi qu'il arrive, soyez respectueux de l'environnement.
 
 ### Mesures techniques:
 
-* [Mise en rebut]({% link _knowhow/glossary/Discarded_fr.markdown %})
+* [Mise en rebut]({% link _knowhow/glossary/Disposal_fr.markdown %})
 * [sécurité physique]({% link _knowhow/glossary/PhysicalSecurity_fr.markdown %})
 
 ## Politique du bureau propre
