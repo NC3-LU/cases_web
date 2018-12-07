@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Legal Aspects"
+title:  "Aspects légaux"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,91 +10,188 @@ toc: true
 ref: glossarylegalaspects
 lang: fr
 ---
-## In brief
-Failure to comply with legislation in the field of information technology can put the organisation in a difficult situation vis-à-vis the law, its customers (brand image) and also in terms of financial consequences (fines) or criminal consequences (personal liability).
+En quelques mots
+----------------
+Le non-respect de la législation dans le domaine des technologies des
+informations peut mettre l'organisation dans une situation délicate
+vis-à-vis de la loi, de ses clients (image de marque) mais aussi avoir
+des conséquences financières (amendes) ou pénales (responsabilité des
+personnes).
 
-The legal aspects and responsibilities and obligations of companies with regard to the [protection of personal data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection) were presented during Internet Security Day 2007 by Maître Cyril Pierre-Beausse on computer crime: Repression and legal risks for companies relating to personal data.
+Les aspects légaux et les responsabilités et obligations des entreprises
+en matière de protection des données personnelles ont été présentés lors
+de l’Internet Security Day 2007 par Maître Cyril Pierre-Beausse sur la
+criminalité informatique : [Répression et risques juridiques pour les entreprises liés aux données personnelles]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#personal-data-protection).
 
-Thus, the law punishes organisations from which information is stolen even more severely than the thieves themselves due to breach of their obligation to protect personal and/or sensitive data.
+Ainsi, la loi punit plus sévèrement encore les organisations qui se font
+voler des informations que les voleurs eux-mêmes sous le prétexte d’un
+manquement dans l’obligation de protection des données personnelles
+et/ou sensibles.
 
-The law recognises and punishes:
+La justice reconnaît et punit :
 
-* the liability of the perpetrator of the attack;
-* the liability of the intermediary of the attack;
-* the responsibility of the victim of the attack; the legal consequence of a breach of the security obligation in relation to personal data processing is punishable by 8 days to 1 year in prison and by a fine from 251 to 125,000 euros.
+-   la responsabilité de l’[auteur de l’attaque]({% link _knowhow/glossary/Cybercriminals_fr.markdown %});
+-   la responsabilité de l’intermédiaire de l’attaque;
+-   la responsabilité de la victime de l’attaque. La
+    [conséquence]({% link _knowhow/glossary/Impact_fr.markdown %}) légale d’un
+    manquement à l'obligation de sécurité en relation avec un traitement
+    de données personnelles est punissable de 8 jours à 1 an de prison
+    et de 251 à 125.000 euros d'amende.
 
-All organisations must implement a security policy based on:
+De fait, toute organisation doit mettre implémenter un niveau de
+sécurité en fonction :
 
-* the risk of invasion of privacy;
-* the state of the art (which implies an obligation to keep itself updated and informed);
-* costs relating to implementation.
+-   du risque d'atteinte à la vie privée;
 
-Draft and enforce a [Sectoral policy on compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation).
+-   de l'état de l'art (ce qui implique une obligation de mise à jour et
+    de se tenir informé);
 
-## Intellectual property
-Copyright on original literary and artistic works, which include databases and computer programs, as defined in the amended Law of 18 April 2001, must be respected. For example, the following basic principles can be cited:
+-   des coûts liés à la mise en oeuvre.
 
-* any reproduction, communication to the public or distribution to the public must be authorised by the author; this also applies to Internet distribution, except where otherwise required by law;
-* software is also protected by copyright and must be respected. Only the holder(s) of these rights can decide what uses of the respective programs are allowed or not, and whether to make them subject to license, free or against payment. The question of respect for copyright is therefore not merely limited to the acquisition of software licences;
-* patents must be respected;
-* brands, designs and models must be respected;
+Rédigez et faites respecter une politique sectorielle liée à la
+[conformité]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance_fr.markdown %}#comply-with-legislation).
 
-For any other question, please contact the Office of Intellectual Property.
+Propriété intellectuelle
+------------------------
+Le respect des [droits d’auteurs]({% link _knowhow/glossary/InternetAndCopyright_fr.markdown %})
+sur les œuvres littéraires et artistiques originales auxquelles sont
+assimilés les bases de données et les programmes d’ordinateur, comme
+défini dans la loi modifiée du 18 avril 2001 s'impose. On peut citer par
+exemple le respect des principes de base suivants :
 
-## Personal data protection
-All files or databases must be created in accordance with the Law of 2 August 2002 on the protection of individuals in respect of the processing of personal data. The same applies to processing involving both newly created data and pre-existing data.
+-   toute reproduction, communication au public ou distribution au
+    public doit être autorisée par l’auteur; ceci s’applique aussi à la
+    diffusion par Internet sauf exceptions légales;
 
-To ensure compliance with this law, the IT manager and the legal officer must obtain the applicable texts from the National Commission for Data Protection (CNPD) and ensure that the structure is suitable, particularly in respect of:
+-   les logiciels sont également protégés par le droit d’auteur lequel
+    doit être respecté. Il incombe au(x) seul(s) titulaires respectifs
+    desdits droits de décider quels utilisations des programmes
+    respectifs sont autorisées ou non, voire soumis à licences gratuites
+    ou onéreuses. La question du respect des droits d’auteurs ne se
+    limite donc pas à la seule acquisition des licences de logiciels ;
 
-* declaration to the CNPD of data and processing;
-* obtaining authorisation from the Commission when required;
-* data quality and the legitimacy of processing;
-* the rights of the individuals involved to receive information and submit objections;
-* potentially discriminatory data (racial, ethnic, political, religious, philosophical, union membership) or health-related data.
+-   il faut respecter les brevets;
 
-It is also important to remember the 10 personal data protection principles:
+-   il faut respecter les marques, dessins et modèles;
 
-### 1. Principle of legitimacy
-Personal data may only be processed if there are sufficiently legitimate grounds to do so.
+Pour toute autre question veuillez vous adresser à
+l'[Office de la propriété
+intellectuelle](https://guichet.public.lu/en/organismes/organismes_entreprises/ministere-economie/propriete-intellectuelle.html).
 
-### 2. Principle of purpose
-The use of personal data must be limited to a purpose that is explicitly specified in advance and must be limited to what is necessary to achieve the purposes expressly defined by the organisation requesting the personal data.
+Protection des données à caractère personnel
+--------------------------------------------
+Toute création de fichier ou de base de données doit être faite dans le
+respect de la loi du 2 août 2002 relative à la protection des personnes
+à l'égard du traitement des données à caractère personnel. Il en est de
+même pour les traitements appliqués à ces données et pour les données
+déjà existantes.
 
-### 3. Principle of necessity and proportionality
-Processing should be limited to data for which there is a direct relationship with the original purpose of the processing.
+Afin de travailler dans le respect de cette loi, le responsable
+informatique et le responsable juridique, après avoir obtenu les textes
+applicables auprès de la Commission Nationale pour la Protection des
+Données doit s'assurer de l'adéquation de la structure, notamment au
+niveau :
 
-### 4. Principle of data accuracy
-On the basis that inaccurate or incomplete information may be harmful to the person to whom it relates, every effort must be made to ensure that processed data is correct and up-to-date, and that the option to rectify or delete it is available.
+-   de la déclaration des données et traitements auprès de la CNPD;
+-   de l'obtention d'une autorisation auprès de la Commission quand elle
+    est nécessaire;
+-   de la qualité des données et de la légitimité des traitements;
+-   des droits d'information et d'opposition des personnes concernées;
+-   des données potentiellement discriminatoires (raciales, ethniques,
+    politiques, religieuses, philosophiques, syndicales) ou relatives à
+    la santé.
 
-### 5. Principle of fairness
-Personal data must be collected, recorded, used and transmitted in good faith and made known to the individuals involved.
+De plus, il est important de garder en mémoire les 10 principes de la
+protection des données personnelles:
 
-### 6. Principle of security and confidentiality
-Personal data must be stored in secure places, on secure equipment.
+### 1. Principe de légitimité
+Le traitement des données personnelles n’est possible que s’il existe
+une raison suffisamment légitime pour le justifier.
 
-### 7. Principle of transparency
-Under the law, individuals may: ask to see a copy of their personal data; request information on why the data are being held; object if the processing is unlawful. Registration of all databases with the National Commission for Data Protection upholds the principle of transparency.
+### 2. Principe de finalité
+L’utilisation des données personnelles doit être limitée à une fin
+explicitement déterminée au préalable et limitée à ce qui est nécessaire
+pour atteindre les buts expressément définis par l’organisation qui
+demande des données personnelles.
 
-### 8. Certain types of particularly sensitive data are subject to enhanced protection
-Processing data revealing opinions or beliefs relating to health and sex life, including genetic data, is prohibited, apart from certain exceptions listed in law
+### 3. Principe de nécessité et de proportionnalité
+Le traitement doit se limiter aux données pour lesquelles il existe un
+rapport direct avec la finalité initiale du traitement.
 
-### 9. Surveillance (audio, video, data) of identifiable persons is strictly limited by law
-Authorisation by the National Commission for Data Protection is required before technical means can be used to monitor people. The personal data thus collected may only be processed in the specific instances set forth in the law.
+### 4. Principe d’exactitude des données
+Sur la base que des informations inexactes ou incomplètes peuvent nuire
+à la personne à laquelle elles se rapportent, tous les efforts doivent
+être faits pour que les données traitées soient correctes et actuelles,
+laissant le choix de les rectifier ou de les effacer.
 
-### 10. The use of data for advertising purposes or for unsolicited sales prospecting is subject to express authorisation
-The use of personal data for commercial purposes may be prohibited at any time. In principle, direct marketing using modern communications media (SMS, email) is prohibited, unless you have expressly agreed to it.
+### 5. Principe de loyauté
+La collecte, l’enregistrement, l’utilisation et la transmission des
+données personnelles doivent se faire de bonne foi et non pas à l’insu
+des personnes.
 
-Deviation from one or more of these principles is punishable by law.
+### 6. Principe de sécurité et de confidentialité
+Les données personnelles doivent être stockées à des endroits et sur du
+matériel sécurisés.
 
-Furthermore, the individuals involved must be fully aware of the collection of their personal information and must give their prior consent to any collection and processing of their personal information.
+### 7. Principe de transparence
+La loi autorise à demander la consultation des données personnelles et
+des finalités de traitement et de s’y opposer si le traitement n’est pas
+conforme à la loi. L’enregistrement de toutes les bases de données
+auprès de la Commission Nationale pour la Protection des Données
+contribue au principe de transparence.
 
-## Image rights
-The right to privacy, a basic principle in terms of image rights, is enshrined in a number of legal texts, including:
+### 8. Certaines données particulièrement sensibles sont soumises à une protection encore renforcée
+Le traitement d’informations faisant apparaître des opinions ou
+convictions qui sont en rapport avec l’état de santé et la vie sexuelle,
+y compris les données génétiques, est interdit, hormis quelques
+exceptions énumérées de façons limitatives par la loi
 
-1. Article 8 of the European Convention on Human Rights;
-2. Article 14(1) of the Law of 8 June 2004 on Freedom of Expression in the Media, as amended, which provides that everyone has the right to privacy;
-3. the Law of 11 August 1982 on the protection of privacy, prohibiting any deliberate violation of the privacy of others, "by holding or commissioning the holding, by any device, of images of a person in a location not accessible to the public without the consent of that individual". This law also prohibits the publication of such images.
+### 9. La surveillance (audio, vidéo, données) de personnes identifiables est strictement limitée par la loi
+Une autorisation de la Commission Nationale pour la Protection des
+Données est nécessaire avant de pouvoir recourir à des moyens techniques
+pour surveiller les personnes. Le traitement des données personnelles
+ainsi recueillies n’est possible que dans des cas de figure bien précis
+énumérés par la loi.
 
-It follows from these texts that everyone has the right to object to their image both being taken and published: agreeing to being photographed does not grant authorisation to disseminate photographs in any circumstances.
+### 10. L’utilisation des données à des fins de publicité ou de démarchage commercial est soumise à une autorisation expresse
 
-It is strongly advised that the consent of an individual be obtained before their picture is taken and (in particular) photographs of them are published. For minors, the consent of their parents or other legal representative must be obtained, as well as the consent of minors who have reached the age of reason.
+À tout moment il est possible d’interdire l’utilisation de ses données
+personnelles à des fins commerciales. Le marketing direct à l’aide des
+moyens de communication modernes (SMS, e-mail…) est en principe interdit
+si vous n’y avez pas marqué votre accord.
+
+Le détournement d’un ou plusieurs de ces principes est puni par la loi.
+
+De plus, la collecte d'informations personnelles doit être clairement
+connue des personnes impliquées et leur autorisation préalable à toute
+collecte et tout traitement d'informations personnelles collectées sur
+eux, doit être donné.
+
+
+Droit à l'image
+---------------
+Le droit à la protection de la vie privée, principe de base en matière
+de [droit à l'image]({% link _knowhow/glossary/ImageRights_fr.markdown %}), est
+consacré par plusieurs textes, notamment :
+
+1. l’article 8 de la Convention européenne des droits de l’homme ;
+2. l’article 14.(1) de la loi du 8 juin 2004 sur la liberté
+d’expression dans les médias, telle que modifiée, qui dispose que chacun
+a droit au respect de sa vie privée ;
+3. la loi du 11 août 1982 concernant la protection de la vie privée,
+qui interdit toute atteinte volontaire à l’intimité de la vie privée
+d’autrui, « en fixant ou en faisant fixer, par un appareil quelconque,
+les images d’une personne se trouvant dans un lieu non accessible au
+public, sans le consentement de celle-ci ». Ce texte interdit également
+la publication de telles images.
+
+Il découle de ces textes que toute personne a le droit de s’opposer à la
+prise mais aussi à la publication de son image : accepter d’être
+photographié ne veut pas dire autoriser la diffusion de la photographie
+dans n’importe quel cadre.
+
+Il est fortement conseillé d’obtenir le consentement d’une personne
+avant sa prise en photo et (surtout) la publication des photographies.
+Pour les mineurs, le consentement des représentants légaux tels que les
+parents doit être obtenu, ainsi que celui des mineurs ayant atteint
+l’âge de raison.

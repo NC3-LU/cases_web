@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Integrity"
+title:  "Intégrité"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100

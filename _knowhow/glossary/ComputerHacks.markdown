@@ -9,7 +9,6 @@ categories: knowhow
 toc: true
 ref: glossarycomputerhacks
 lang: en
-comments: Check to verify the completeness of this article.
 ---
 
 

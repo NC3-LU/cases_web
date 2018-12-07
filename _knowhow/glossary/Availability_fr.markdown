@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Availability"
+title:  "Disponibilité"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100

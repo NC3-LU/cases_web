@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Update softwares with Secunia PSI"
+title:  "Mettre à jour les logiciels sur son ordinateur à l'aide de Secunia PISA"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100

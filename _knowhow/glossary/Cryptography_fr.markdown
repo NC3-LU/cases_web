@@ -11,10 +11,8 @@ ref: glossarycryptography
 lang: fr
 ---
 
-
 Histoire
 --------
-
 Depuis tous les temps, l'être humain cherche à garder secret certaines
 informations ou données, à défaut, à en restreindre l'accès à certaines
 personnes. Un des plus anciens exemples d'utilisation cryptographique

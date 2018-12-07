@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Authentication"
+title:  "Authentification"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,10 +11,8 @@ ref: glossaryauthentication
 lang: fr
 ---
 
-
 En quelques mots
 ----------------
-
 Les êtres humains ont une capacité innée à reconnaître leurs congénères,
 une grande partie de notre société repose sur cela. Ils possèdent un
 système d’identification très évolué et à facteurs multiples tels que

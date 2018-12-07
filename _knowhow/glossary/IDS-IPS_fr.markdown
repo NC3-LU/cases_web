@@ -11,7 +11,29 @@ ref: glossaryidsips
 lang: fr
 ---
 ## The Intrusion Detection System (IDS)
-The Intrusion Detection System, or IDS, plays a special role in IT security. Rather than actively protect the equipment, it works passively, recording network activity and setting off an alarm whenever a suspicious action is detected. This detection may occur using the strategies listed below. However, the complexity of network flows may result in the IDS sounding numerous false alarms, also known as false positives. Therefore, a large amount of post-treatment work needs to be done on the alarm logs to determine which attacks are real and which are false, which can prove tedious. Nevertheless, the IDS can be a very useful tool for identifying risks (threats and vulnerabilities) to which the IT systems may be subject. IDS availability is crucial to the effectiveness of the collected data. The ideal solution is to place it at interconnection points between networks, just like firewalls.
+Le système de détection d’intrusion, ou IDS ("Intrusion Detection System"),
+joue un rôle particulier dans le domaine de la sécurité informatique. En effet,
+plutôt que de protéger activement les équipements, il fonctionne passivement et
+enregistre l’activité réseau pour déclencher une alarme au moment de remarquer
+un mouvement suspect. Cette détection peut se faire selon les approches
+présentées ci-dessus. Cependant, la complexité des flux réseaux peut mener l’IDS
+à déclencher de nombreuses fausses alarmes, également appelées faux-positifs.
+Il y a donc tout un travail de post-traitement des logs d’alerte à effectuer
+pour déceler les véritables attaques des fausses, ce qui peut s’avérer
+fastidieux. Néanmoins, l’IDS peut être un outil très utile pour repérer les
+risques (menaces et vulnérabilités) auxquels les systèmes d'information sont
+assujettis. La disposition de l’IDS est un élément crucial pour  le critère
+d’efficacité des données collectées. L'idéal étant de le placer à des points
+d’interconnexions entre réseaux, à la manière des firewalls.
 
 ## The Intrusion Prevention System (IPS)
-The Intrusion Prevention System, or IPS, has been developed to overcome the two major disadvantages of the IDS, namely its passiveness and the generation of false positives. The IPS doesn't just detect suspicious behaviour, it also blocks it. It uses the same detection system as the IDS and therefore also generates false positives. However, the IPS comes equipped with detection filters and a set of rules that show it how to react correctly: block the network flow, let it through or request human intervention, a bit like a firewall. Once more, to be effective, the IPS must be placed at interconnection points between the networks.
+Le système de protection d'intrusion, ou IPS ("Intrusion prevention system"), a
+été développé pour pallier les deux désavantages majeurs des IDS, à savoir la
+passivité et la création de faux-positifs. En effet, l’IPS a pour fonction non
+seulement de détecter les comportements suspects, mais également de les stopper.
+La détection se fait de la même façon que pour les IDS et génère donc des
+faux-positifs. Cependant, l’IPS est doté de filtres de détection d’un ensemble
+de règles qui vont lui indiquer la façon adéquate à réagir : bloquer le flux
+réseau, le laisser passer ou demander l’intervention humaine ; un peu à la
+manière d’un firewall. Là encore, pour être efficace, l’IPS doit être placé à
+des points d’interconnexion entre les réseaux.

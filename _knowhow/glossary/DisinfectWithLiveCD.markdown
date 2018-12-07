@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Disinfect the machine using a live CD"
+title:  "Disinfect machine with a live CD"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -9,6 +9,7 @@ categories: knowhow
 toc: true
 ref: glossarydisinfectthemachinelivecd
 lang: en
+hidden: true
 ---
 
 ## In brief

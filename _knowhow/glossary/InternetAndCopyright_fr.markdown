@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Internet and copyright"
+title:  "Internet et droits d'auteurs"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -9,31 +9,33 @@ categories: knowhow
 toc: true
 ref: glossaryinternetandcopyright
 lang: fr
-comments: pictures
 ---
 
 
+## En quelques mots
 
-## In brief
-The Internet offers its users endless possibilities. However, just because anything is possible, it doesn’t necessarily mean it is permitted. Indeed, certain online actions may result in copyright infringement. In 2006 in France, for example, several users were given a fine or even suspended prison sentences for having reproduced or distributed protected works, whether films, video games or music files, without the proper authorisation.
+Internet offre à ses utilisateurs des possibilités illimitées. Cependant, tout ce qui est possible n’est pas forcément permis. En effet, certains agissements des internautes peuvent constituer des violations du droit d’auteur ("copyright" en anglais). Ainsi, en France par exemple, plusieurs utilisateurs ont été condamnés en 2006 à une amende, voire à des peines de prison avec sursis, pour avoir commis des actes de reproduction et de diffusion non autorisés d’oeuvres protégées, que ce soit de films, de jeux vidéo ou de fichiers musicaux.
 
-Even though, to date, there have been no such convictions in Luxembourg, it is important to note that Luxembourg’s courts often tend to follow precedent established in French and Belgian courts, due to the fact that, on a number of points, Luxembourg’s laws are almost identical to legislation in these two countries and that there is harmonised Community legislation governing various aspects of copyright. In Luxembourg, the amended Law of 18 April 2001 on copyright, related rights and databases constitutes the statutory benchmark in this matter.
+Même si à ce jour, il n’y a pas encore eu de condamnations au Luxembourg, il est important de savoir que les tribunaux luxembourgeois ont souvent tendance à suivre la jurisprudence des tribunaux français et belges, étant donné que, sur de nombreux points, la loi luxembourgeoise est quasiment identique aux législations de ces deux pays et une législation communautaire harmonisée réglant différents aspects sur le droit d'auteur existe. Au Luxembourg, la loi modifiée du 18 avril 2001 sur les droits d’auteur, les droits voisins et les bases de données constitue la loi de référence en la matière.
 
-## Reproduction of protected works and photographs
-Under the law, the reproduction of copyright-protected works is only lawful with the author’s consent. For example, to legally use reproductions of photographs on a website, the author of these photographs must give their consent. Where the reproduction of photographs or videos of people (famous or not) is concerned, there is also the potential issue of invasion of privacy. This is because all individuals have the exclusive rights to their image and the use thereof, and may oppose its unauthorised distribution. It is therefore illegal to feature a person’s photograph on a website without their consent. This rule also applies to the uploading of videos in which they appear. Certain exceptions exist for famous people during public appearances.
+## Reproduction d'oeuvres protégées et de photos
 
-The right to protection of privacy, a basic principle with regard to image rights, is established by several texts, including:
+Aux termes de la loi, la reproduction d’oeuvres protégées par droit d’auteur n’est licite qu’avec le consentement de l’auteur. Par exemple, pour pouvoir licitement reproduire des photos sur un site web, l’autorisation de l’auteur de ces photos est nécessaire. En ce qui concerne la reproduction de photos ou de vidéos de personnes (qu’il s’agisse de personnes célèbres ou non), se pose également le problème d’une éventuelle atteinte à la vie privée. En effet, toute personne a un droit exclusif sur son image et l’utilisation qui en est faite, et peut s’opposer à une diffusion non autorisée par elle. Il n’est donc pas permis de faire figurer sur un site des photos de personnes sans le consentement de celles-ci. Il en est de même pour le téléchargement de vidéos montrant des personnes. Certaines exceptions peuvent exister pour des personnes de grande notoriété dans des apparitions publiques.
 
-1. article 8 of the European Convention on Human Rights;
-2. article 14 (1) of the amended Law of 8 June 2004 on freedom of expression in the media, which provides that each individual has the right to privacy;
-3. the Law of 11 August 1982 on the protection of privacy, which forbids any voluntary violation of the privacy of others, by uploading or having uploaded, on any device whatsoever, the images of a person in a place not accessible to the public, without their consent. This law also prohibits the publication of such images. In application of these texts, any person has the right to oppose the capturing or publication of their image.
+Le droit à la protection de la vie privée, principe de base en matière de droit à l’image, est consacré par plusieurs textes, notamment :
 
-## Sharing files over the Internet
-Uploading or downloading protected works, including music, films or video games, is only permitted with the author’s consent. The act of saving files onto a computer hard drive is classed as an act of reproduction. In order to avoid illegal downloading, we advise you to visit websites with legal, paid content, where part of the money paid is sent to the authors in exchange for their copyright.
+1. l’article 8 de la Convention européenne des droits de l’homme ;
+2. l’article 14.(1) de la loi du 8 juin 2004 sur la liberté d’expression dans les médias, telle que modifiée, qui dispose que chacun a droit au respect de sa vie privée;
+3. la loi du 11 août 1982 concernant la protection de la vie privée, qui interdit toute atteinte volontaire à l’intimité de la vie privée d’autrui, en fixant ou en faisant fixer, par un appareil quelconque, les images d’une personne se trouvant dans un lieu non accessible au public, sans le consentement de celle-ci. Ce texte interdit également la publication de telles images. Il découle de ces textes que toute personne a le droit de s’opposer à la prise ou la publication de son image.
 
-Some peer-to-peer network users claim that downloading protected works is authorised by law due to a derogation made for private copying. Private copying consists of the right granted to an individual to make copies for personal, non-commercial use and supposes ownership of the original.
+## Le partage de fichiers sur Internet
 
-It is nevertheless worth bearing in mind that there are certain websites on which some artists offer the public, legally and without limit, free access to download and share their music.
+Le téléchargement d’oeuvres protégées, que ce soit le up- ou le downloading, de chansons, de films ou de jeux vidéo, n’est permis qu’avec le consentement de l’auteur. En effet, le fait de graver des oeuvres sur le disque dur d’un ordinateur constitue un acte de reproduction. Afin d’éviter le téléchargement illégal, il est conseillé de s’orienter vers des sites payants licites; une partie de l’argent versé par les utilisateurs est destinée aux auteurs en contrepartie de leurs droits d’auteur.
 
-## Trademark protection
-Where trademark reproduction is concerned, whether it is, for example, a logo (figurative trademark) or a name distinguishing the brand (verbal trademark) (for example, for the Nike brand, the tick is the figurative trademark and “Nike” is the verbal trademark), the Benelux Convention on Intellectual Property applies. This convention first makes reference to the notion of using a sign in business (Article 2.20 points 1.a.-c.). This means that anyone who wishes to reproduce a trademark in business, in other words, for general trade purposes, must request and obtain permission from the license holder, namely the brand owner. From this it can be deduced that the reproduction of a brand on a personal website would not require prior authorisation from the trademark owner, as long as it is not used for commercial purposes. Nevertheless, the use of the brand on the website must not take unfair advantage of the brand’s reputation, nor cause prejudice to it in any way whatsoever.
+Certains utilisateurs des réseaux peer-to-peer prétendent que le téléchargement d’oeuvres protégées serait autorisé par la loi au titre de l’exception dite de copie privée. La copie privée consiste dans la faculté consentie aux particuliers d’effectuer des copies pour un usage personnel et non commercial et suppose la détention de l'original.
+
+Il faut néanmoins savoir que certains sites sur lesquels des artistes offrent au public, de manière légale et illimitée, un libre accès en matière de téléchargement et de partage de leur musique.
+
+## Protection des marques
+
+S’agissant de la reproduction de marques, que ce soit par exemple un signe (marque figurative) ou une dénomination distinguant la marque (marque verbale) (par exemple, pour la marque Nike, le crochet constitue la marque figurative et « Nike » la marque verbale), c’est la Convention Benelux en matière de propriété intellectuelle qui s’applique. Cette convention fait d’abord référence à la notion d’usage dans la vie des affaires (points 1.a.-c.). Cela signifie que toute  personne qui veut reproduire la marque dans la vie des affaires, c’est-à-dire généralement à des fins commerciales, doit demander et obtenir l’autorisation du titulaire, à savoir du propriétaire de la marque. On peut en déduire que la reproduction d’une marque sur un site web personnel ne serait pas assujettie à une autorisation préalable du titulaire de la marque, toujours à condition que cela soit à des fins non commerciales. Néanmoins, l’usage de la marque sur le site ne doit pas tirer indûment profit de la renommée de cette dernière, ni lui porter préjudice de quelque manière que ce soit.

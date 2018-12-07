@@ -78,7 +78,7 @@ Write and apply the following sectoral policies:
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
   * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
-  * [Analysis of non-fulfilment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
+  * [Analysis of non-fulfillment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 * [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
@@ -114,4 +114,4 @@ Most antivirus software operates in two ways:
 * 'Realtime protection' – intercepting malicious codes as soon as they try to infect a machine.
 * Ad hoc scans of the machine to discover any malicious codes that have already managed to infect the system. The scan will be more effective if the malicious code is inactive, for example when using a 'live' operating system (antivirus on live CD).
 
-Antivirus software is therefore constantly inspecting all files processed by the computer, i.e. on entry, during processing
+Antivirus software is therefore constantly inspecting all files processed by the computer, i.e. on entry, during processing.

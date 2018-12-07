@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Defacement"
+title:  "Défiguration"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,32 +10,75 @@ toc: true
 ref: glossarydefacement
 lang: fr
 ---
-## In brief
-Defacement is a form of cybercrime, such as cyber-vandalism or even cyber-terrorism, directed against a website.
+En quelques mots
+----------------
+Une défiguration (en anglais 'defacement') est une forme de
+cyberdélinquance de type cybervandalisme, voire cyberterrorisme, dirigé
+contre un site web.
 
-Defacement is the deliberate destruction, degradation or modification of website data, to inflict maximum damage and/or impact, for fun or for political or ideological reasons. In principle it involves replacing the original page, hence the term defacement.
+La défiguration est une action délibérée de destruction, dégradation ou
+modification de données d'un site web, dans un but de dommages et/ou de
+retentissement maximum, pour des raisons ludiques, politiques ou encore
+idéologiques. En principe elle se manifeste par le remplacement de la
+page originelle, d'où le terme défiguration.
 
-## How does it work?
-Depending on the desired impact, several means can be used to perform this type of attack. They are of varying complexity and scope, depending on the desired impact. The most common include defacement through the exploitation of the [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) of the server or site and what is known as 'semantic' defacement. The former enables you to change the content of a site or home page. In some cases, the hacker can simply delete all content from a site. The latter involves slightly modifying the content of different pages – to change their meaning, usually to slip in different ideas from the original ones. Unlike changing the appearance of the site, this type of defacement is more subtle and difficult for the site manager to detect.
+Comment cela fonctionne-t-il?
+-----------------------------
+Selon l'impact souhaité, plusieurs moyens peuvent servir à accomplir ce
+genre d'[attaque]({% link _knowhow/glossary/ComputerHacks_fr.markdown %}).
+Ils sont de complexité et de portée variable, selon l'impact souhaité.
+Parmi les plus courants, l'on trouve la défiguration par l'exploitation
+des vulnérabilités du serveur ou du site et la défiguration dite
+'sémantique'. La première permet de modifier le contenu d'un site ou de
+la page d'accueil. Dans certains cas, le pirate peut carrément effacer
+tout le contenu d'un site. Quant à la deuxième, elle consiste à modifier
+légèrement le contenu de différentes pages, afin d'en changer le sens,
+généralement pour y glisser des idées différentes de celles d'origine.
+Contrairement à la modification de l'apparence du site, cette
+défiguration est plus subtile et difficile à détecter par le
+gestionnaire du site.
 
-## How can we protect ourselves?
-Basic security measures for web servers.
+Comment se protéger?
+--------------------
+[Mesures de sécurité basiques pour les serveur web]({% link _knowhow/glossary/Recommendations4securingaWebServer_fr.markdown %}).
 
-To protect against defacement and certain types of semantic attack, there are several preventive measures, including:
+Pour se protéger contre une défiguration, voire certaines attaques
+sémantiques, il existe plusieurs mesures préventives, dont :
 
-* the use of an integrity controller or anti-intrusion devices, in particular application [firewalls]({% link _knowhow/glossary/Firewall_fr.markdown %}) that prevent a fault on a web application being exploited;
-* installing [patches]({% link _knowhow/glossary/Patches_fr.markdown %}) on the web server. These can reduce the number of vulnerabilities and thus the likelihood of intrusion on the server;
-* verification and regular monitoring of the website to be protected by trusted persons, inside or outside the organisation. For example, a daily content integrity check.
+-   l'utilisation d'un contrôleur d'intégrité ou de dispositifs
+    [anti-intrusion]({% link _knowhow/glossary/IDS-IPS_fr.markdown %}), en
+    particulier des firewalls applicatif qui éviteront l'exploitation
+    d'une faille sur une application web;
+-   l'installation de
+    [patches]({% link _knowhow/glossary/Patches_fr.markdown %}) sur le
+    serveur web. Ils permettent de réduire le nombre de vulnérabilités
+    et donc de réduire la probabilité d'intrusion sur le serveur;
+-   la vérification et le contrôle régulier par des personnes de
+    confiance, externes ou internes à l'organisation, du site web à
+    protéger. Par exemple, une consultation journalière de l'intégrité
+    du contenu.
 
-With these three preventive measures, the likelihood of website defacement can be reduced.
+*Grâce à ces trois mesures préventives, il est possible pour de réduire
+la probabilité de défiguration d'un site web.*
 
-## Why protect yourself?
-Companies are becoming more and more dependent on information networks. A simple change in the network can cause significant damage at economic, social, logistical, emotional or environmental level.
+Pourquoi se protéger?
+---------------------
+Les entreprises deviennent de plus en plus dépendantes des réseaux de
+l'information. Une simple modification de ceux-ci peut provoquer des
+dommages non négligeables au niveau économique, social, logistique,
+émotionnel ou encore environnemental.\
+En outre comme le grand public est fasciné par tout type d'attaques
+informatiques, les médias leur accordent une large couverture. De fait,
+une défiguration a pour résultat une baisse flagrante de l'image de
+marque de la victime.
 
-Moreover, as the general public is fascinated by all types of computer attacks, the media gives them wide coverage. In fact, defacement results in a sharp decline in the victim's brand image.
-
-> Example PICTURE
-
-In 1999, after the bombing of the Chinese embassy in Belgrade, Chinese attackers posted messages such as "we will not stop attacking until the war stops" on US government websites.
-
-In April 2001, after the mid-air collision between a US spy plane and a Chinese fighter over China and the detention of the American crew in China, groups of hackers on both sides waged an intense war. More than 1,200 American websites – and probably as many sites in China – were defaced.
+En 1999, après le bombardement de l'ambassade chinoise à Belgrade, des
+attaquants chinois ont déposé des messages du type "nous ne cesserons
+d'attaquer jusqu'à ce que la guerre s'arrête" sur des sites web
+gouvernementaux américains.
+ 
+En avril 2001, après la collision au-dessus de la Chine entre un avion
+espion américain et un chasseur chinois, et l'incarcération de
+l'équipage américain en Chine, des groupes de hackers des deux camps ont
+mené une guerre violente. Plus de 1200 sites web américains ont été
+défigurés et probablement autant de sites en Chine.
