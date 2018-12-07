@@ -35,7 +35,7 @@ programme de protection, mais bien un cheval de Troie.
 Plusieurs logiciels peuvent aider les internautes à reconnaître ces
 différentes formes d’attaque basées sur l’ingénierie sociale. Il y a
 p.ex. l’ajout du navigateur
-[WOT]({% link _knowhow/glossary/WOT_fr.markdown %})(Web of Trust), qui
+[WOT]({% link _knowhow/glossary/WOT_fr.markdown %}) (Web of Trust), qui
 met l’internaute en garde lorsque celui-ci visite une page web de pauvre
 réputation. L'utilisateur devrait aussi prendre garde aux alertes émises
 par les moteurs de recherche ou leur propre navigateur quand celles-ci
@@ -56,7 +56,7 @@ Comment se protéger
 -------------------
 ### Mesures comportementales
 
--   Veillez aux attaques de type [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})
+-   Veillez aux attaques de type [social engineering]({% link _knowhow/glossary/SocialEngineering_fr.markdown %}).
 -   Sachez reconnaître les messages de votre propre logiciel anti-virus.
     Beaucoup de sites malicieux leurrent les internautes à télécharger
     un faux logiciel anti-virus en prétendant que la machine de
@@ -67,7 +67,7 @@ Comment se protéger
 ### Mesures techniques
 
 -   Utilisez un filtre de navigation tel que
-    [WOT]({% link _knowhow/glossary/WOT_fr.markdown %})ou activez les
+    [WOT]({% link _knowhow/glossary/WOT_fr.markdown %}) ou activez les
     filtres de vos navigateurs:
     -   [Smart screen de
         Microsoft](http://www.microsoft.com/fr-fr/security/online-privacy/smartscreen.aspx)

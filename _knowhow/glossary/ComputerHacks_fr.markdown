@@ -19,7 +19,6 @@ traitement ou de transmission automatisé de données, par exemple :
 
 1.  en utilisant directement un ordinateur (après s’être introduit dans
     les locaux d’une entreprise par exemple);
-
 2.  à distance, en entrant dans un réseau fermé ou prenant le contrôle
     d’une machine située dans un tel réseau. Cette incrimination vise
     notamment le fait pour un employé d’utiliser un ordinateur mis à
@@ -42,8 +41,7 @@ un système constitue une circonstance aggravante. Les peines minimales
 encourues sont donc encore plus importantes. Sont ici visés par exemple:
 
 1.  le vandalisme informatique, c’est-à-dire l’accès à un système en vue
-    d’en détruire les données ; ou encore
-
+    d’en détruire les données;
 2.  l’étudiant qui accède illégalement au serveur de son école ou de son
     université et change ses notes ou celles de ses camarades.
 
@@ -60,7 +58,6 @@ système est également passible de sanctions pénales.
     fonctionnement de ce système, l’emprisonnement sera de quatre mois à
     deux ans et l’amende de 1 250 euros à 25 000 euros » (article 509-1,
     alinéa 2 du Code pénal).*
-
 -   *Pour la modification ou la suppression de données sans accès
     illégal à un système : « Quiconque aura, intentionnellement et au
     mépris des droits d’autrui, directement ou indirectement, introduit
@@ -78,12 +75,10 @@ sanctions pénales. Sont ici visés par exemple :
 
 1.  le fait de bloquer un système en organisant une attaque de type déni
     de service ;
-
 2.  le fait de modifier ou d’altérer le fonctionnement du système et de
     provoquer ainsi une baisse des performances, une altération des
     résultats, etc. (par exemple par l’introduction volontaire et
     consciente d’un virus dans le système) ; ou encore
-
 3.  le fait de détériorer ou de détruire un système (au niveau matériel
     et/ou logiciel).
 

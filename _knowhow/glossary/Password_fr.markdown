@@ -12,12 +12,12 @@ lang: fr
 ---
 ## En quelques mots
 
-Le mot de passe, élément de base de la sécurité informatique, permet de [s'authentifier]({% link _knowhow/glossary/Authentication_fr.markdown %}) t d'accéder à une ressource ou un service personnel.
+Le mot de passe, élément de base de la sécurité informatique, permet de [s'authentifier]({% link _knowhow/glossary/Authentication_fr.markdown %}) et d'accéder à une ressource ou un service personnel.
 
 Afin de minimiser les risques d'usurpation, mieux vaut le choisir avec le plus grand soin en respectant quelques règles simples.
 
-## 10 signes au minimum
-Un bon mot de passe se compose au minimum de 10 signes. Pour augmenter la complexité du mot de passe, il est recommandé d'utiliser un mélange de chiffres, de lettres majuscules et minuscules, ainsi que des signes de ponctuation par exemple.
+## 10 caractères au minimum
+Un bon mot de passe se compose au minimum de 10 caractères. Pour augmenter la complexité du mot de passe, il est recommandé d'utiliser un mélange de chiffres, de lettres majuscules et minuscules, ainsi que des caractères de ponctuation par exemple.
 
 ## Facile à mémoriser mais difficile à deviner
 Le mot de passe doit être choisi de manière à être mémorisable sans avoir à le noter sur un support externe, tout en étant difficile à deviner par autrui, y inclus une personne vous connaissant bien (voir [Ingénierie sociale]({% link _knowhow/glossary/SocialEngineering_fr.markdown %})).
@@ -29,7 +29,7 @@ Le mot de passe doit être choisi de manière à être mémorisable sans avoir �
 * votre login,
 * une quelconque information liée à votre personne (prénom, date de naissance, etc.).
 
-Un mot de passe fiable est souvent composé d'une phrase anodine. Vous pouvez y ajouter des préfixes, suffixes, ou signes pour en augmenter la complexité. Exemple de mot de passe : ```...:::deux vaches sur le toit:::...```.
+Un mot de passe fiable est souvent composé d'une phrase anodine. Vous pouvez y ajouter des préfixes, suffixes, ou caractères pour en augmenter la complexité. Exemple de mot de passe : ```...:::deux vaches sur le toit:::...```.
 
 En cas de longueur imposée, construisez votre mot de passe en prenant les premières lettres de chaque mot d'une phrase. Cela donne, en utilisant la phrase citée précédemment, pour un mot de passe à 9 caractères :  ```.:dvslt:.```
 
@@ -58,7 +58,7 @@ Les mots de passe servent à [authentifier]({% link _knowhow/glossary/Authentica
 De cette façon, la personne, dont le mot de passe a été révélé ne peut pas être tenue responsable pour les actions faites lors de sons absence. D'autre part il est toujours clair qui a accès à quelles ressources.
 
 ## Vulnérabilités fréquentes
-Une authentification est nécessaire pour tous les accès de type *utilisateur* et *administrateur* aux serveurs et logiciels. Il ne faut pas oublier de tenir compte des accès aux éléments réseau constituant le système informatique, tels que les routeurs, les commutateurs, ... .
+Une authentification est nécessaire pour tous les accès de type *utilisateur* et *administrateur* aux serveurs et logiciels. Il ne faut pas oublier de tenir compte des accès aux éléments réseau constituant le système informatique, tels que les routeurs, les commutateurs, etc.
 
 La solution *identifiant et mot de passe* est toujours la plus répandue. Cette solution courante base l'authentification sur une paire alliant un identifiant fourni par l'administrateur et un mot de passe que l'utilisateur final prendra soin de déterminer. On remarque que cette solution doit faire face à diverses vulnérabilités récurrentes :
 

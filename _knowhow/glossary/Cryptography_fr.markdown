@@ -117,8 +117,6 @@ clé de chiffrement et la clé de déchiffrement sont identiques.
 
 ### Avantages
 
-![](http://cases.dimsonline.com/index-quick.php?dims_op=doc_file_download&docfile_md5id=285461a4c1329d604fc9043d81afac2a)
-
 Le chiffrement symétrique comporte un avantage majeur : sa rapidité. Il
 est particulièrement adapté à la transmission de grandes quantités de
 données.
@@ -176,8 +174,6 @@ fait cette même découverte plusieurs années auparavant, protégée en tant
 que secret militaire.
 
 ### Principe de base
-
-![](http://cases.dimsonline.com/index-quick.php?dims_op=doc_file_download&docfile_md5id=c84774827c2c9ffd28e8d38d8a308265)
 
 La cryptographie à clé publique est un procédé asymétrique utilisant une
 paire de clés pour le chiffrement, soit une clé publique qui chiffre des
