@@ -23,13 +23,17 @@ Template Name: cases.lu
 
 .servicebox {
 	text-align: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
 }
 
 .serviceboxpic {
 	width: 280px;
+}
+
+.miniflags {
+	height: 16px;
 }
 
 /*****Layout of the table in /glossary/BasicCriteria***/
