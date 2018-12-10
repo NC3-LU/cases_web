@@ -30,7 +30,7 @@ MONARC method guide:
 
 for more documents about MONARC: [MONARC Documentation](https://www.monarc.lu/documentation/)
 
-#### About CASES
+#### Our History
 
 Here is a shord description about what CASES is and what it stands for:
 
