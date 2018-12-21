@@ -1,10 +1,10 @@
 ---
 layout: knowhow
-title:  "The CISO Approach"
-menutitle: "The CISO Approach"
+title:  "L'approche RSSI"
+menutitle: "L'approche RSSI"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 00:00:00 +0100
-short: "TODO: TRANSLATE - Renforcez vos défenses. Organisez votre protection."
+short: "Renforcez vos défenses. Organisez votre protection."
 categories: ciso
 toc: true
 main-categ: ciso

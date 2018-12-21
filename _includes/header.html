@@ -1,83 +1,82 @@
-<div class="col-md-12 well--blue">
-  <div class="col-md-2"></div>
+<div class="row well--blue">
+    <div class="col-md-2"></div>
 
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
     {% if page_paths %}
 
-      <div class="col-md-2" style="min-width: 320px;">
-      <div style="padding: 0px 10px;min-width: 320px;">
-        <!-- logo -->
-        <a   href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu-white.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
+    <div class="col-md-2" style="min-width: 320px;">
+        <div style="padding: 0px 10px;min-width: 320px;">
+            <!-- logo -->
+            <a href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu-white.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
         </div>
-      </div>
-
-
-      <div class="col-md-6">
-      <nav>
-        <ul class="menu">
-
-          <div class="navbar-header" style="padding-left: 30px;">
-
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                {% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
-                {% if services == blank or services == empty or services == nil %}
-                  {% assign services=site.services | where:"lang", site.default_lang | sort: 'ref' %}
-                {% endif %}
-                {% for service in services %}
-                  {% if service.menutitle %}
-                    <li class="menuwithpic"><a href="{{ service.url | relative_url }}"><img src="{{ service.logo }}" class="menulogo" /> {{ service.menutitle | escape }}</a></li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
-
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                {% assign knowhows=site.knowhow | where:"lang", page.lang | sort: 'ref' %}
-                {% if knowhows == blank or knowhows == empty or knowhows == nil %}
-                  {% assign knowhows=site.knowhow | where:"lang", site.default_lang | sort: 'ref' %}
-                {% endif %}
-                {% for category in knowhows %}
-                  {% if category.menutitle %}
-                    <li><a href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a></li>
-                  {% endif %}
-                {% endfor %}
-                <li><a href="{% link _knowhow/glossary/AntiVirus.markdown %}">Glossary</a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                {% assign articles = site.posts | sort: date | reverse %}
-                <li><a href="{{ articles.first.url }}">Articles</a></li>
-                <li><a href="{% link publications.md %}">In depth Articles</a></li>
-                <li><a href="{% link downloads.md %}">Media</a></li>
-              </ul>
-            </li>
-
-            {% for path in page_paths %}
-              {% assign my_page = site.pages | where: "path", path | first %}
-              {% if my_page.menutitle %}
-                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.menutitle | escape }}</a></li>
-              {% endif %}
-            {% endfor %}
-
-            <li><a href="{% link contact.md %}">Contact</a></li>
-          </div>
-        </ul>
-
-      </nav>
     </div>
-  {% endif %}
 
-  <div class="col-md-2"> </div>
+    <div class="col-md-6">
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
 
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <div class="dropdown-menu">
+                    {% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
+                    {% if services == blank or services == empty or services == nil %}
+                      {% assign services=site.services | where:"lang", site.default_lang | sort: 'ref' %}
+                    {% endif %}
+                    {% for service in services %}
+                      {% if service.menutitle %}
+                        <a class="dropdown-item menuwithpic" href="{{ service.url | relative_url }}"><img src="{{ service.logo }}" class="menulogo" /> {{ service.menutitle | escape }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
+                  <div class="dropdown-menu">
+                    {% assign knowhows=site.knowhow | where:"lang", page.lang | sort: 'ref' %}
+                    {% if knowhows == blank or knowhows == empty or knowhows == nil %}
+                      {% assign knowhows=site.knowhow | where:"lang", site.default_lang | sort: 'ref' %}
+                    {% endif %}
+                    {% for category in knowhows %}
+                      {% if category.menutitle %}
+                        <a class="dropdown-item" href="{{ category.url | relative_url }}">{{ category.menutitle | escape }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/articles-list/index.html">Articles</a>
+                    <a class="dropdown-item" href="{% link publications.md  %}">In depth Articles</a>
+                    <a class="dropdown-item" href="{% link downloads.md  %}">Media</a>
+                  </div>
+                </li>
+
+                {% for path in page_paths %}
+                  {% assign my_page = site.pages | where: "path", path | first %}
+                  {% if my_page.menutitle %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.menutitle | escape }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% link contact.md %}">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    {% endif %}
+
+
+    <div class="col-md-2"></div>
 </div>
