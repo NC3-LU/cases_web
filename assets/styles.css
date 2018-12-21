@@ -35,10 +35,6 @@ html {
     width: 280px;
 }
 
-.miniflags {
-	height: 16px;
-}
-
 /*****Layout of the table in /glossary/BasicCriteria***/
 .table  {
     border-collapse:collapse;
