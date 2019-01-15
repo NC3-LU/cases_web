@@ -16,9 +16,9 @@ CASES has developed an analysis method to produce a comprehensive risk report on
 ## How?
 CASES optimised risk analysis method (MONARC):
 
-* thoroughly **evaluates** the risks involved;
-* **determines** their level of criticality;
-* **describes** the possible consequences for your organisation;
+* thoroughly **evaluates** the risks involved
+* **determines** their level of criticality
+* **describes** the possible consequences for your organisation
  
 It is based on CASES expertise and regularly updated prior knowledge of the business processes used within your professional organisation.
 
@@ -27,9 +27,9 @@ It is based on CASES expertise and regularly updated prior knowledge of the busi
 #### Stage 1: Context Establishment
 This stage is used to set establish the context of the risk analysis and to produce:
 
-* a trend evaluation;
-* a [threats]({% link _knowhow/glossary/Threat.markdown %}) assessment;
-* the risk management context;
+* a trend evaluation
+* a [threats]({% link _knowhow/glossary/Threat.markdown %}) assessment
+* the risk management context
 * definition of the assessment, acceptance and impact criteria
 
 #### Stage 2: Context Modelling
@@ -50,12 +50,12 @@ MONARC delivers more in-depth results than the CASES Diagnostic.
 
 You will benefit from:
 
-* specific knowledge about your exposure to risk relating to your business processes;
-* recommendations specially tailored to the situation of your organisation;
-* CASES methodologies and tools, based on the ISO 27001 family of information security standards;
-* access to the "my.monarc.lu" platform.
+* specific knowledge about your exposure to risk relating to your business processes
+* recommendations specially tailored to the situation of your organisation
+* CASES methodologies and tools, based on the ISO 27001 family of information security standards
+* access to the "my.monarc.lu" platform
 
-Why wait? Visit the [MONARC website](https://www.monarc.lu) to find out more [or contact us](mailto:services@cases.lu?subject=Monarc).
+Why wait? Visit the [MONARC website](https://www.monarc.lu) to find out more [or contact us](mailto:services@cases.lu?subject=Monarc)!
 
 **Download the complete document:**
 

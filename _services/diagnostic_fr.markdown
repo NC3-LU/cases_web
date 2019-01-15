@@ -14,15 +14,15 @@ Votre organisation traite quotidiennement des données sensibles. En tant que re
 ## Comment?
 Grâce à un questionnaire dédié, les experts CASES :
 
-* **identifient** les vulnérabilités,
-* **évaluent** le niveau de sécurité des systèmes d'information,
-* **émettent** des recommandations.
+* **identifient** les vulnérabilités
+* **évaluent** le niveau de sécurité des systèmes d'information
+* **émettent** des recommandations
 
 Le diagnostic aide à :
 
-* **assurer** la sécurité des données internes et des informations relatives aux clients,
-* **mettre** la structure en conformité avec les lois luxembourgeoises,
-* **préserver** la réputation de l'entreprise.
+* **assurer** la sécurité des données internes et des informations relatives aux clients
+* **mettre** la structure en conformité avec les lois luxembourgeoises
+* **préserver** la réputation de l'entreprise
 
 Le diagnostic vous aidera à la fois en termes techniques et organisationnels. Les questions sont conçues pour couvrir les risques d’information les plus fréquents au Luxembourg.
 Un expert CASES vous rendra visite et vous posera les questions nécessaires tout en vous guidant. C'est une bonne introduction à la procédure d'amélioration continue de la sécurité de l'information dans votre entreprise.
@@ -32,9 +32,9 @@ Un expert CASES vous rendra visite et vous posera les questions nécessaires tou
     Advantages:
 
     <ul>
-        <li>Gratuit et sans engagement.</li>
-        <li>Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables.</li>
+        <li>Gratuit et sans engagement - pour le Luxembourg exclusivement</li>
+        <li>Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables</li>
     </ul>
 
-    <b>N'attendez plus!</b> Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous!</a>.
+    <b>N'attendez plus!</b> Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous!</a>
 </div>

@@ -12,7 +12,7 @@ Le [Start-up Security Kit](http://startup.cases.lu/fr/), développé par les exp
 
 À travers 3 niveaux (**START**, **FIT** and **TOP**) , l’outil comporte quatre catégories de mesures de protection :
 
-* **les bons réflexes;**
-* **la protection du matériel;**
-* **la protection des données;**
+* **les bons réflexes**
+* **la protection du matériel**
+* **la protection des données**
 * **l’organisation**

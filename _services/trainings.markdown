@@ -14,9 +14,9 @@ Information security requires team work. For everybody to be able to make an inf
 
 
 ### How?
-The CASES training catalogue targets different professional audiences.
+The CASES training catalogue targets different professional audiences:
 
-* [Induction in information security]({% link _services/trainings/initiation.markdown %})
+* [Introduction in information security]({% link _services/trainings/initiation.markdown %})
 * [Training for leaders and decision-makers]({% link _services/trainings/directordecisionmakers.markdown %})
 * [Training for executives and managers]({% link _services/trainings/managers.markdown %})
 * [Training for trainers]({% link _services/trainings/trainthetrainer.markdown %})
@@ -25,8 +25,8 @@ The CASES training catalogue targets different professional audiences.
 ### Benefits
 CASES offers **you**:
 
-* productivity gains (less time wasted in "repairing" damage);
-* a positive dynamic in your teams;
-* a service tailored to your business.
+* productivity gains (less time wasted in "repairing" damage)
+* a positive dynamic in your teams
+* a service tailored to your business
 
-**Why wait?** ! [Get in touch!](mailto:info@cases.lu?subject=Formations%20CASES).
+**Why wait?** ! [Get in touch!](mailto:info@cases.lu?subject=Formations%20CASES)

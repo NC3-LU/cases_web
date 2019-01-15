@@ -25,8 +25,8 @@ Le catalogue de formations CASES s'adresse aux différents publics professionnel
 ### Aventages
 Les formations CASES vous apportent :
 
-* des gains de productivité (moins de temps perdu à "réparer" les dégâts);
-* une dynamique positive au sein de vos équipes;
-* une adaptation à votre métier.
+* des gains de productivité (moins de temps perdu à "réparer" les dégâts)
+* une dynamique positive au sein de vos équipes
+* une adaptation à votre métier
 
-**N'hésitez plus** ! [Contactez-nous!](mailto:info@cases.lu?subject=Formations%20CASES).
+**N'hésitez plus** ! [Contactez-nous!](mailto:info@cases.lu?subject=Formations%20CASES)

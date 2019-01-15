@@ -16,9 +16,9 @@ CASES a développé une méthode d’analyse permettant d’établir un rapport 
 ## Comment?
 La méthode optimisée d’analyse des risques CASES (MONARC) :
 
-* **évalue** en profondeur les risques encourus ;
-* **détermine** leur niveau de criticité ;
-* **décrit** les conséquences éventuelles pour votre organisation ;
+* **évalue** en profondeur les risques encourus
+* **détermine** leur niveau de criticité
+* **décrit** les conséquences éventuelles pour votre organisation
  
 Elle se fonde sur l’expertise CASES et sur une connaissance préalable et régulièrement mise à jour
 des processus métiers utilisés au sein de votre structure professionnelle.
@@ -28,10 +28,10 @@ des processus métiers utilisés au sein de votre structure professionnelle.
 #### 1ère Étape: établissement du contexte
 Cette étape permet d'établir le contexte de l'analyse des risques et de réaliser:
 
-* une évaluation des tendances;
-* une évaluation des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %});
-* le contexte de la gestion des risques;
-* la définition des critères d'évaluation, d'acceptation et d'impact.
+* une évaluation des tendances
+* une évaluation des [menaces]({% link _knowhow/glossary/Threat_fr.markdown %})
+* le contexte de la gestion des risques
+* la définition des critères d'évaluation, d'acceptation et d'impact
 
 #### 2ème étape: modélisation du contexte
 Cette étape permet de réaliser
@@ -40,7 +40,7 @@ Cette étape permet de réaliser
 * l'appréciation des impacts
 * la synthèse des actifs et impacts
 
-#### Stage 3: Evaluation and treatment of risks
+#### 3ème étape: Evaluation and treatment of risks
 Cette étape permet de réaliser l'estimation, l'évaluation et le traitement des risques. Elle débouche sur la mise en place d'un plan de gestion des risques.
 
 #### 4ème étape: Suivi et contrôle
@@ -51,12 +51,12 @@ MONARC livre des résultats plus approfondis que le Diagnostic CASES.
 
 Vous bénéficierez :
 
-* de connaissances spécifiques sur l’exposition aux risques liés à vos processus métiers ;
-* de recommandations spécialement adaptées à la situation de votre organisation ;
-* des méthodologies et outils CASES, basés sur la famille des normes ISO 27001 en matière de sécurité de l’information ;
-* de l’accès à la plateforme « my.cases.lu » et aux experts labellisés CASES.
+* de connaissances spécifiques sur l’exposition aux risques liés à vos processus métiers
+* de recommandations spécialement adaptées à la situation de votre organisation
+* des méthodologies et outils CASES, basés sur la famille des normes ISO 27001 en matière de sécurité de l’information
+* de l’accès à la plateforme « my.cases.lu » et aux experts labellisés CASES
 
-Pour plus d'informations: [site MONARC](https://www.monarc.lu) N'hésitez plus! [Contactez-nous!](mailto:services@cases.lu?subject=Monarc).
+Pour plus d'informations: [site MONARC](https://www.monarc.lu) N'hésitez plus! [Contactez-nous!](mailto:services@cases.lu?subject=Monarc)
 
 **Téléchargez la brochure complète:**
 
