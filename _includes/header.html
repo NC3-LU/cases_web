@@ -1,5 +1,4 @@
 <div class="col-md-12 well--blue">
-  <div class="col-md-2"></div>
 
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
@@ -14,7 +13,7 @@
       </div>
 
 
-      <div class="col-md-6">
+      <div class="col-md-9">
       <nav>
         <ul class="menu">
 
@@ -58,7 +57,7 @@
               <ul class="dropdown-menu">
                 {% assign articles = site.posts | sort: date | reverse %}
                 <li><a href="{{ articles.first.url }}">Articles</a></li>
-                <li><a href="{% link publications.md %}">In depth Articles</a></li>
+                <li><a href="{% link publications.md %}">In-depth Articles</a></li>
                 <li><a href="{% link downloads.md %}">Media</a></li>
               </ul>
             </li>
@@ -78,6 +77,5 @@
     </div>
   {% endif %}
 
-  <div class="col-md-2"> </div>
 
 </div>

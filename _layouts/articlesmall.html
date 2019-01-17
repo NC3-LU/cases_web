@@ -6,7 +6,7 @@ layout: default
 {% assign articles = site.posts |sort: 'date' |reverse %}
 
 
-<div class="blocantiscroll col-md-2">
+<div class="blocantiscroll col-md-2" style="padding-left: 20px;">
 {% if page.group contains "post" %}
 <h2>Articles</h2>
   {% for post in articles %}
