@@ -1,7 +1,7 @@
 ---
 layout: virtuallystolen
 title: Virtually Stolen!
-permalink:
+permalink: /vs_de
 lang: de
 ref: virtuallystolen
 ---
