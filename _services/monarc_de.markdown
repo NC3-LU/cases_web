@@ -57,7 +57,7 @@ Sie profitieren von:
 * CASES-Methoden und -Tools auf der Grundlage der ISO 27001-Familie von Informationssicherheitsstandards
 * Zugriff auf die Plattform "my.monarc.lu"
 
-Mehr informationen finden Sie auf der [MONARC website](https://www.monarc.lu). Warten Sie nicht länger! [Kontaktieren Sie uns](mailto:services@cases.lu?subject=Monarc)
+Mehr informationen finden Sie auf der [MONARC website](https://www.monarc.lu). Gerne beantworten wir Ihre Fragen auch persönlich! [Kontaktieren Sie uns](mailto:services@cases.lu?subject=Monarc)
 
 **Herunterladen des Dokuments:**
 

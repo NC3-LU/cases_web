@@ -10,7 +10,7 @@ ref: trainings
 ### Warum?
 Informationssicherheit funktioniert nur als gemeinsame Anstrengung.
 
-CASES bietet Kurse an, in denen Ihren Teams Kenntnisse über Cybersicherheit vermittelt und bewerte Praktiken erlernt werden. Durch diese Kurse werden Ihre Angestellten angeleitet, Erfahrungen auszutauschen, und  das gewonnene Wissen weiterzugeben.
+CASES bietet Kurse an, in denen Ihren Teams Kenntnisse über Cybersicherheit vermittelt und bewährte Praktiken erlernt werden. Durch diese Kurse werden Ihre Angestellten angeleitet, Erfahrungen auszutauschen, und  das gewonnene Wissen weiterzugeben.
 
 
 ### Wie?
@@ -28,4 +28,4 @@ Die Kurse wenden sich an verschiedene Fachpublika:
 * Eine positive Dynamik in Ihren Teams
 * Anpassung an Ihre Geschäftsanforderungen
 
-**Warten Sie nicht länger**! [Nehmen Sie Kontakt auf!](mailto:info@cases.lu?subject=Formations%20CASES)
+**Gerne beantworten wir Ihre Fragen persönlich**! [Nehmen Sie Kontakt auf!](mailto:info@cases.lu?subject=Formations%20CASES)
