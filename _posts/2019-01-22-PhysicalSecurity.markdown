@@ -160,9 +160,11 @@ Garbage cans are often used by spies who are not afraid of getting their hands d
 
 ## Where to start?
 Ensuring optimal protection for your business against all risks may seem like an insurmountable task for some - but we must not give up. On the contrary, we can start with some simple and inexpensive measures that can immediately and significantly reduce our level of risk; or "Quick Wins". For example, we could think about:
+
 * Installing an inverter
 * Setting up a controlled access system with alarm
 * Establishing an access control procedure and visitor log
 * Placing computer locks on desktops ...
 * Increasing employee awareness via training
+
 If you want to better understand your physical security flaws through an initial diagnosis, you can contact us to take advantage of our CASES Diagnosis service.
