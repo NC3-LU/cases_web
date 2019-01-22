@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Physical and environmental security: because threats are not just digital ..."
-date:   2019-01-20 10:00:00 +0100
+date:   2019-01-22 10:00:00 +0100
 categories: physicalsec
 isVisible: True
 short: "Physical Security is an essential part of information security"
@@ -45,45 +45,60 @@ In general, these incidents can have 5 types of impact:
 * Impact on the person: directly impacting a victim in some way
 
 Each risk can have different types of impact. The below table demonstrates these effects by highlighting some examples:
-<table style="margin-left:auto; margin-right:auto;">
+<table class="post-table">
 <tr>
-<th style="width:150px;">Risks</th>
-<th style="width:200px;">Most Likely Impacts</th>
-<th style="width:200px;">Possible Impacts</th></tr>
-<tr><td style="width:150px;">Fire</td>
+<th>Risks</th>
+<th>Most Likely Impacts</th>
+<th>Possible Impacts</th>
+</tr>
+<tr>
+<td>Fire</td>
 <td>Operational Impact<br>
 Financial Impact</td>
-<td>Reputational Impact</td></tr>
-<tr><td>Water damage</td>
+<td>Reputational Impact</td>
+</tr>
+<tr>
+<td>Water damage</td>
 <td>Operational Impact<br>
 Financial Impact</td>
-<td>Reputational Impact</td></tr>
-<tr><td>Electrical failure</td>
+<td>Reputational Impact</td>
+</tr>
+<tr>
+<td>Electrical failure</td>
 <td>Operational Impact</td>
 <td>Financial Impact<br>
-Reputational Impact</td></tr>
-<tr><td>Communications</td>
+Reputational Impact</td>
+</tr>
+<tr>
+<td>Communications</td>
 <td>Operational Impact</td>
-<td>Financial Impact</td></tr>
-<tr><td>Intrusion or Theft</td>
+<td>Financial Impact</td>
+</tr>
+<tr>
+<td>Intrusion or Theft</td>
 <td>Financial Impact<br>
 Personal Impact</td>
 <td>Reputational Impact<br>
-Legal Impact</td></tr>
-<tr><td>Espionage</td>
+Legal Impact</td>
+</tr>
+<tr>
+<td>Espionage</td>
 <td>Operational Impact<br>
 Financial Impact<br>
 Personal Impact</td>
 <td>Reputational Impact<br>
-Legal Impact</td></tr>
-<tr><td>Sabotage</td>
+Legal Impact</td>
+</tr>
+<tr>
+<td>Sabotage</td>
 <td>Operational Impact<br>
 Financial Impact</td>
 <td>Legal Impact<br>
-Reputational Impact</td></tr>
+Reputational Impact</td>
+</tr>
 </table>
 
-Note that one disaster can have several types of simultaneous impacts. For example, if a construction company loses data after a fire, it will experience a financial, operational and legal impact.
+> **Note** that one disaster can have several types of simultaneous impacts. For example, if a construction company loses data after a fire, it could experience a financial, operational and legal impact.
 
 
 
@@ -139,7 +154,7 @@ Sometimes printers located in corridors are used to print sensitive data and man
 
 > **Example**: a law firm with ongoing court cases practicing in commercial litigation. Any leaked information could be used to harm their customers or be used to influence the outcome of cases. Strict physical protection measures must therefore be taken to prevent any form of leakage. For example, customers or service providers need to be met at reception and then escorted to dedicated meeting rooms to prevent these visitors from discovering confidential information.
 
-We must also beware of prying eyes on public transportation, in restaurants and lobbies. You should also be aware that people can watch you through windows. One solution could be to place a privacy screen protector / privacy filter on screens that make reading impossible for anyone who is outside the visual angle of a legitimate user ... Good to know!
+We must also beware of prying eyes on public transportation, in restaurants and lobbies. You should also be aware that people can watch you through windows. One solution could be to place a privacy screen protector / privacy filter on screens that make reading impossible for anyone who is outside the visual angle of a legitimate user... Good to know!
 
 Garbage cans are often used by spies who are not afraid of getting their hands dirty to find the information they are looking for. To remove this opportunity, just send all documents to the shredder to make them unreadable. Beware of digital media that are to be discarded: total destruction is necessary because the simple erasure of data is not always enough to make it disappear completely.
 
