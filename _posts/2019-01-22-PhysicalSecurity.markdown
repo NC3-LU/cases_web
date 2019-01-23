@@ -114,39 +114,52 @@ For all types of risk, the approach should be the same:
 3. Test and evaluate these measures regularly.
 
 To protect against all of these risks, approaches may vary depending on the situation. Below are some basic protective measures which are required for most cases:
-To guard against:
-Protective Measure:
-Electrical failure
-* Electronic protection / controls (inverters…)
-* Redundancy (duplication of machines / circuits)
-Fire
-* Detection and fire protection: smoking ban, disaster plan, fireproof cabinets ...
-* Decentralized back-ups
-* Redundancy (duplication of machines / circuits
-Flooding
-* Location of computer rooms outside risk areas
-* Flood detection system
-* Elevation of computer equipment
-* Use of hermetic tubes for wiring
-* Compartmentalized flooring
-* Decentralized back-ups, dry archives
 
+<table class="post-table">
+<tr>
+<th>To guard against:</th>
+<th>Protective Measure:</th>
+</tr>
+<tr><td>Electrical failure</td>
+<td>
+Electronic protection / controls (inverters…)<br>
+Redundancy (duplication of machines / circuits)</td>
+</tr>
+<tr><td>Fire</td>
+<td>
+Detection and fire protection: smoking ban, disaster plan, fireproof cabinets ...<br>
+Decentralized back-ups<br>
+Redundancy (duplication of machines / circuits</td></tr>
+<tr><td>Flooding</td>
+<td>
+Location of computer rooms outside risk areas<br>
+Flood detection system<br>
+Elevation of computer equipment<br>
+Use of hermetic tubes for wiring<br>
+Compartmentalized flooring<br>
+Decentralized back-ups, dry archives
+</td></tr>
+<tr><td>
 Theft,
 Intrusion,
 Espionage,
+</td><td>
+Restricted physical access<br>
+racking of visitors<br>
+Alarm systems
+</td></tr>
+<tr><td>
+Sabotage</td><td>
+Redundancy (duplication of machines / circuits)<br>
+Decentralized back-ups<br>
+Restricted physical access
+</td>
+</tr>
 
-* Restricted physical access
-* Tracking of visitors
-* Alarm systems
-Sabotage
-* Redundancy (duplication of machines / circuits)
-* Decentralized back-ups
-* Restricted physical access
+<tr><td>Hardware Malfunctions</td>
+<td>Regulation of Temperature (computer rooms)</td></tr>
 
-Hardware Malfunctions
-Regulation of Temperature (computer rooms)
-
-
+</table>
 
 Visitors can pose a significant risk (theft or espionage) if there is insufficient tracking or access control. In recent years, [CASES specific diagnostics](https://www.cases.lu/diagnostic.html) have recorded several failures linked to the reception and tracking of visitors: notably the lack of support or occupancy of the reception area and a lack of access control to sensitive locations.
 
