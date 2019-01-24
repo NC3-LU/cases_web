@@ -9,7 +9,6 @@ categories: knowhow
 toc: true
 ref: glossarycontrol
 lang: fr
-hidden: true
 ---
 ## In brief
 Securing information is far from being a technical issue for an organisation. In fact, technical operations are just one aspect of a process which, to be successful, must include all of the company’s activities as a whole.

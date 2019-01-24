@@ -8,7 +8,6 @@ short:
 categories: knowhow
 ref: glossaryrecomm4securingwebserver
 lang: en
-hidden: true
 ---
 Considérations de base
 ----------------------

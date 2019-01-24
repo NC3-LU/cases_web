@@ -8,7 +8,6 @@ short:
 categories: knowhow
 ref: glossaryrecomm4securingserver
 lang: en
-hidden: true
 ---
 En quelques mots
 ----------------

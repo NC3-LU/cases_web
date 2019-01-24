@@ -9,7 +9,6 @@ categories: knowhow
 toc: true
 ref: glossaryconfidentiality
 lang: en
-hidden: true
 ---
 
 ## In brief

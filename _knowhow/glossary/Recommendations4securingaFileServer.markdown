@@ -8,7 +8,6 @@ short:
 categories: knowhow
 ref: glossaryrecomm4securingfileserver
 lang: en
-hidden: true
 ---
 ## In brief
 A file server is a special server insofar as it is only rarely connected to the Internet, but rather is generally connected to the internal network directly or through a [firewall]({% link _knowhow/glossary/Firewall.markdown %}). It is used as a shared storage location for all company files. and because of this it acts as a link between all computers, facilitating internal communication, and also spreading [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}).

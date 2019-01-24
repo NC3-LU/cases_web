@@ -9,7 +9,6 @@ categories: knowhow
 toc: true
 ref: glossaryassets
 lang: en
-hidden: true
 ---
 
 ## In brief

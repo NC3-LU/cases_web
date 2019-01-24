@@ -9,7 +9,6 @@ categories: knowhow
 toc: true
 ref: glossarythreat
 lang: en
-hidden: true
 ---
 
 Les menaces exploitent des vulnérabilités d'actifs et créent ainsi un impact. Les interactions entre actifs, menaces et vulnérabilités sont analysées lors de la gestion des risques.
