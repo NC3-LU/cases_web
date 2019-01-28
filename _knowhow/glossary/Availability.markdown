@@ -9,6 +9,7 @@ categories: knowhow
 toc: true
 ref: glossaryavailability
 lang: en
+hidden: true
 ---
 
 ## In brief

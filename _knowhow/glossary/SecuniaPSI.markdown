@@ -9,6 +9,7 @@ categories: knowhow
 toc: true
 ref: glossarysecuniapsi
 lang: en
+hidden: true
 ---
 
 ## Pourquoi mettre à jour les logiciels sur son ordinateur

@@ -9,6 +9,7 @@ categories: knowhow
 toc: true
 ref: glossarymaliciouscode
 lang: en
+hidden: true
 ---
 
 ## In brief

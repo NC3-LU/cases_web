@@ -11,6 +11,7 @@ ref: articles20190122physec
 lang: en
 ---
 Companies are not immune to "physical and environmental-based" incidents which can lead to serious consequences for both information systems and society in general: fire, theft, intrusion, water damage, etc., all of these can be executed in a completely "physical" way in order to access computer data.
+
 Two videos from CASES illustrate classical “physical threat” scenarios relevant to a company’s or organization’s information systems and data.
 
 * [In this first case](https://www.youtube.com/watch?v=BEEic3DZIho), it is a so-called maid who manages to attach a "sniffer" device to a computer
