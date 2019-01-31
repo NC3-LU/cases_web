@@ -1,4 +1,7 @@
-{% assign articles = site.posts | sort: date | reverse %}
+{% assign articles = site.posts | where:"lang", page.lang | sort: date | reverse %}
+{% if articles == blank or articles == empty or articles == nil %}
+  {% assign articles = site.posts | where:"lang", site.default_lang | sort: date | reverse %}
+{% endif %}
 <h2><a href="{{ articles.first.url }}">Articles</a> <img src="{% link assets/img/flags/en.png %}" /> <img src="{% link assets/img/flags/fr.png %}" /></h2>
 <a href="/articles-list/index.html">
 <i class="txt-hightlight">This section contains all the articles (short documents or white papers) describing a certain subject that is of current interest to the community.</i>
