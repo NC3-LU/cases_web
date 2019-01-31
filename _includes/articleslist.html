@@ -29,7 +29,12 @@
   {% for post in currentlangarticles %}
     {% if post.lang == currentlang %}
       <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-        <h6 class="list-select">{{ post.title }}</h6>
+        {% if page.url == post.url %}
+          <h6 class="list-select selected-item">{{ post.title }}</h6>
+        {% else %}
+          <h6 class="list-select">{{ post.title }}</h6>
+        {% endif %}
+
       </a>
     {% else %}
       {% assign postref = post.ref | split:'::::::X::::::' %}
