@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Comment discuter de la cybersécurité avec vos employés ? Utilisez le BYOD!"
+title:  "How to discuss cybersecurity with your employees? Use BYOD!"
 date:   2019-02-21 10:00:00 +0100
 categories: byod
 isVisible: True
