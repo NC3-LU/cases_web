@@ -10,11 +10,13 @@ group: post
 ref: articles20190221byod
 lang: fr
 ---
-Dans le domaine de la sécurité, il est bien connu qu’il existe toujours un maillon faible qui est souvent l’utilisateur final. Pendant longtemps, il a été personnifié en cybersécurité par une main innocente qui introduit une clef USB externe à un ordinateur connecté à des données sensibles. Ce temps est loin derrière nous. De nos jours, la consumérisation des produits TIC pousse les employés à utiliser leurs appareils personnels dans un environnement professionnel. La tendance BYOD est désormais une réalité qui pourrait constituer une menace et un avantage en fonction de la manière dont elle est gérée.
+Dans le domaine de la sécurité, il est bien connu qu’il existe toujours un maillon faible qui est souvent l’utilisateur final. Pendant longtemps, il a été personnifié en cybersécurité par une main innocente qui introduit une clef USB externe dans un ordinateur connecté à des données sensibles. Ce temps est loin derrière nous. De nos jours, la consumérisation des produits TIC pousse les employés à utiliser leurs appareils personnels dans un environnement professionnel. La tendance BYOD est désormais une réalité qui pourrait constituer une menace et un avantage en fonction de la manière dont elle est gérée.
 
 > **Mais qu’est-ce que le BYOD au juste ?** Cet acronyme signifiant Bring Your Own Device peut être traduit en français par prenez vos appareils personnels et signifie que les employés d’une entreprise se voient donner l’autorisation de travailler, et donc d’accéder aux données de leur entreprise, avec leurs propres ordinateurs, tablettes ou téléphones portables. Cette tendance s’est normalisée ces dernières années du fait de la baisse du prix des appareils technologiques, de leurs capacités accrues et leur adoption par une frange toujours plus large de la population. De plus les employeurs ainsi que les employés y trouvent leur intérêt malgré des risques évidents en termes de sécurité.
 
-59% des entreprises permettent à leurs employés d’utiliser leurs propres appareils électroniques au travail. Ce chiffre monte à 71% pour les petites entreprises selon une étude TechPro.
+<img src="{% link assets/img/2019/byod_fr.png %}" />
+
+59% des entreprises permettent à leurs employés d’utiliser leurs propres appareils électroniques au travail. Ce chiffre monte à 71% pour les petites entreprises selon une étude de [TechPro](http://www.techproresearch.com/article/research-byod-booming-with-74-using-or-planning-to-use/).
 
 Les avantages directs du BYOD reposent sur le gain de flexibilité et de productivité pour les employés et sur un avantage économique pour les PME, les appareils privés étant souvent plus efficaces que ceux fournis par le service informatique. Considérant que les employés sont souvent plus attentifs lorsqu’il s’agit de leurs données personnelles, l'utilisation du même appareil dans leur vie privée et professionnelle est une incitation à s'impliquer davantage dans l'application de meilleures pratiques en matière de cybersécurité.
 
@@ -39,14 +41,14 @@ Le chiffrement de toutes les données est le meilleur moyen de s’assurer que l
 
 > Le facteur le plus important de toute stratégie de cybersécurité est toujours l’être humain.
 
-## Ils en ont déjà parlé 
+## Ils en ont déjà parlé
 
-Même si les meilleures pratiques et règles sont écrites en lettres d'or, celles-ci ne seront pas appliquées si les employés ne se sentent pas concernés. [Ludivine Martin](https://statistiques.public.lu/catalogue-publications/working-papers-CEPS/2015/05-2015.pdf), chercheuse au LISER (Luxembourg) et au CREM (France), a montré que la mise en place de pratiques de travail innovantes est un facteur important pour la motivation des employés. Il est donc impératif d'indiquer clairement à tous les employés que l'utilisation de périphériques privés dans un environnement professionnel est un avantage associé à des responsabilités spécifiques qui s’appliquent aux deux parties.
+Même si les meilleures pratiques et règles sont écrites en lettres d'or, celles-ci ne seront appliquées que si les employés se sentent concernés. [Ludivine Martin](https://statistiques.public.lu/catalogue-publications/working-papers-CEPS/2015/05-2015.pdf), chercheuse au LISER (Luxembourg) et au CREM (France), a montré que la mise en place de pratiques de travail innovantes est un facteur important pour la motivation des employés. Il est donc impératif d'indiquer clairement à tous les employés que l'utilisation de périphériques privés dans un environnement professionnel est un avantage associé à des responsabilités spécifiques qui s’appliquent aux deux parties.
 
 Le BYOD est une tendance croissante qui a déjà été abordée par CASES dans un article publié en janvier 2014. Depuis cette publication, les avantages et les menaces ont légèrement évolué en raison de la consommation de TIC par les particuliers et l’industrie. Cependant, une fois que le service informatique a élaboré une stratégie claire avec le soutien de la direction de l'entreprise, l'adoption des règles et des meilleures pratiques par les employés est simplifiée. Le BYOD devient alors une occasion d'engager toutes les parties prenantes dans une perspective plus optimiste de la cybersécurité et un moyen de rehausser les normes.
 
 ## La parole donnée à un expert CASES
  Le plus important avec le BYOD c’est de prendre le problème dans sa globalité pour anticiper tous les incidents qui pourraient survenir. Pour se faire, voici quelques astuces :
-*	Organiser régulièrement des [sensibilisations à la sécurité de l’information](https://www.cases.lu/services/trainings.html) abordant, entre autres, ce thème.
+*	Organiser régulièrement des sessions de [sensibilisations à la sécurité de l’information](https://www.cases.lu/services/trainings.html) abordant, entre autres, ce thème.
 *	Définir les types d’information qui sont autorisées sur les appareils personnels en accord avec la classification des données et les réels besoins métiers.
 *	Intégrer le BYOD à l’analyse des risques en ne négligeant pas les applications qui peuvent se révéler être source de fuite d’informations comme les applications « cloud » qui permettent un partage de fichiers rapide.
