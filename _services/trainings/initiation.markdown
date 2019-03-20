@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Induction in information security: cybersecurity for everyone"
+title:  "Introduction to information security: cybersecurity for everyone"
 menutitle:
 logo:
 short:
