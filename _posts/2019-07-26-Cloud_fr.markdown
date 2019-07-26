@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "Tout ce que vous devez savoir avant d’adopter le cloud computing"
+date:   2019-07-26 13:00:00 +0100
+categories: cloud
+isVisible: True
+short: "Tout ce que vous devez savoir avant d’adopter le cloud computing"
+toc: true
+group: post
+ref: articles20190726cloud
+lang: fr
+---
+Le secteur de l’informatique cloud, cloud computing, ou encore informatique en nuage, est en plein essor : les fournisseurs de services cloud devraient engranger 206 milliards de dollars d’ici la fin de l’année, soit une augmentation de 17,5 % par rapport à l’année dernière.
+
+Le cloud computing est déjà une fonctionnalité standard chez la majorité des entreprises, des start-up aux grands groupes ; elle répond à tout ou partie de leurs besoins en termes de systèmes, de services et de stockage. D’ici 2020, 67 % des infrastructures informatiques d’entreprise reposeront sur l’informatique cloud et les serveurs à distance devraient administrer 82 % de la charge de travail.
+
+Si vous souhaitez savoir ce que cela pourrait signifier pour votre entreprise, lisez notre guide de présentation sur les avantages et les inconvénients de l’utilisation d’un service cloud.
+
+### Qu’est-ce que le cloud ?
+
+Pour résumer, le cloud computing signifie avoir un accès à des serveurs distants, généralement détenus par un tiers, sur Internet, pour stocker vos données ou pour apporter de la puissance supplémentaire à votre système informatique.
+
+Même si vous pensez être novice en la matière, il est très probable que vous l’utilisiez déjà régulièrement. En réalité, une personne lambda utilise 36 services  cloud par jour. Par exemple, l’application de discussion vidéo très populaire Skype enregistre tous vos contacts et votre historique de discussion dans le cloud et vous pouvez y accéder quand vous voulez et où que vous soyez.
+
+Pour les entreprises, cela signifie que vous n’avez plus besoin d’acheter du matériel et des logiciels onéreux pour faire fonctionner l’entreprise. Vous pouvez les louer à un fournisseur en ligne pendant la durée qui vous convient. Cela vous permet de réduire de manière drastique les coûts de mise en place et de maintenance, certaines PME éconimisent jusqu’à 40 % sur leurs frais généraux. En outre, c’est rapide et facile : une installation de serveurs prenait des semaines, tandis que la configuration de l’informatique à distance se fait en quelques minutes.
+
+La capacité du cloud à fonctionner en toute transparence avec tous les types d’appareils représente également l’un de ses principaux avantages. Vous pouvez facilement collaborer avec plusieurs utilisateurs situés dans des lieux différents depuis votre smartphone, votre tablette ou votre ordinateur portable : il vous suffit de disposer d’une connexion Internet. Le télétravail devenant de plus en plus courant et la vitesse de l’Internet mobile continuant à augmenter, ce niveau de souplesse sera de plus en plus recherché.
+
+Une fois le service cloud mis en place, vous n’avez plus besoin d’administrer, de maintenir ou de mettre à jour les systèmes d’exploitation ou les équipements, puisque votre fournisseur de services cloud le fait pour vous. Cela peut être un énorme atout dans le contexte de l’évolution extrêmement rapide des technologies. De surcroît, même si les services cloud sont fiables, les fournisseurs proposent une assistance technique 24 heures sur 24 et 7 jours sur 7 en cas d’urgence. Cette démarche est largement plus avantageuse que la plupart des services en interne, puisqu’elle permet de réduire les interruptions et l’impact financier des pannes.
+
+### Solutions en cloud privées
+
+Les services de cloud publics peuvent sembler extrêmement sécurisés, mais il est néanmoins préférable de conserver un certain contrôle. Que se passera-t-il si votre connexion Internet tombe en panne ? Votre personnel sera-t-il en mesure d’accéder aux données nécessaires ?
+
+Si l’administration de toutes vos données sur un cloud privé est trop chère, vous pouvez opter pour une approche hybride de cloud computing. Les services hybrides associent des services de cloud publics, contrôlés par des sociétés tierces, et des services de cloud privés, contrôlés et administrés par vous. Cette approche combinée vous apporte la facilité et la commodité du service de cloud public pour les données ou les tâches non critiques, alors que les informations plus sensibles ou les systèmes critiques restent sur vos serveurs.
+
+### Stockage et sauvegardes
+
+Les solutions de stockage cloud telles que Dropbox sont entrées dans tous les foyers. Ce secteur est devenu concurrentiel à un point tel que de nombreux fournisseurs proposent un stockage illimité à très bas prix. Google Drive, par exemple, propose 15 Go gratuitement. Comme vous ne payez que pour le stockage dont vous avez besoin, vous pouvez facilement l’augmenter ou le réduire sans avoir besoin d’investir dans du matériel neuf.
+
+Le stockage des données locales dans le cloud représente également une mesure de sécurité. Les pertes de données peuvent avoir un impact grave sur votre capacité à fournir des services. Que ces pertes soient provoquées par un disque défectueux, ou par une inondation ou un incendie, le stockage de vos données sur plusieurs sites externes sécurisés par le biais du cloud réduit le risque de pertes de données catastrophiques. Si vous souhaitez sauvegarder des données sur un cloud privé, jetez un coup d’œil aux systèmes tels que Nextcloud ou Seafile. Ils permettent aux utilisateurs de synchroniser et de partager des fichiers en toute sécurité à l’échelle de l’entreprise et d’en conserver le contrôle.
+
+### Sécurité et cyberattaques
+
+Les attaques par déni de service sont un problème courant qui survient lorsque des pirates informatiques tentent de rendre inaccessible un service en inondant les serveurs de requêtes dénuées de sens pour surcharger le système. Les entreprises opérant des clouds ont mis en place des protocoles de sécurité qui surveillent de telles attaques et empêchent qu’un trafic excessif ne fasse planter les serveurs.   
+
+Lors du transfert et de la consultation de données, les services cloud de qualité utilisent un chiffrage puissant pour empêcher les tiers d’espionner les transactions ou de manipuler des données. Vous pouvez également facilement attribuer à des documents ou à des utilisateurs des niveaux d’autorisation différents pour empêcher tout employé mal intentionné de nuire à votre entreprise.
+
+### Réglementation et protection des données
+
+Le cloud computing offre de nombreux avantages, mais il vous appartient de procéder aux contrôles préalables et de comprendre toutes les questions juridiques, de sécurité et de responsabilité.
+
+Le stockage de données dans le cloud signifie que vous les remettez à un tiers. Vous n’en avez plus totalement le contrôle et pourriez avoir besoin d’un plan B. Lisez très attentivement les conditions générales et vérifiez qu’elles sont conformes à votre politique de sécurité interne. Il est également recommandé de conserver certains services sur site ainsi que du personnel technique dans l’éventualité où vous devriez reprendre le contrôle.
+
+Les fournisseurs de services cloud stockent des données dans le monde entier. Le respect de la législation en matière de protection des données, comme le RGPD de l’Union européenne, peut être plus facile si les données sont stockées dans des juridictions adaptées à votre clientèle. En revanche, vous êtes responsable de vérifier l’endroit où vos données sont stockées, y compris les sauvegardes, et de vérifier que vous respectez les lois et les réglementations locales.
+
+Le cloud computing est non seulement plus simple pour la collaboration et le partage de fichiers, mais elle est également facile à mettre en place et à administrer. En outre, elle offre une passerelle vers tous les types de nouvelles technologies dans le domaine de l’intelligence artificielle et d’informatique décentralisée. Avant de vous lancer, pensez néanmoins à vérifier que le prestataire que vous avez choisi respecte la loi et votre politique de sécurité interne pour éviter les mauvaises surprises.
+
+### Summary
+
+Lorsque vous choisissez une solution cloud pour votre entreprise, vous devez vous poser les questions suivantes :
+•	Où les données et les sauvegardes seront-elles stockées ?
+•	Les données seront-elles cryptées ?
+•	Le fournisseur respecte-t-il toutes les lois et politiques de sécurité concernées dans ses conditions générales ?
+•	Quelle part de contrôle devez-vous conserver sur vos données et quelle part souhaitez-vous confier à un tiers ?
