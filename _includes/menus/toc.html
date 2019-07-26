@@ -1,12 +1,12 @@
 <div class="blocantiscroll col-md-2" style="padding-right:20px">
     {% if page.layout == tocname %}
-      {% assign toccontenthtml = content | toc_only %}
+      {% assign toccontenthtml = toc %}
       {% assign toccontent = toccontenthtml | strip_html | strip %}
       {% if toccontent == empty or toccontent == blank or toccontent == nil %}
 
       {% else %}
         <h5>Table of Contents</h5>
-          {{content | toc_only}}
+          {% toc %}
       {% endif %}
     {% endif %}
 </div>

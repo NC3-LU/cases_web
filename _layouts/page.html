@@ -29,6 +29,6 @@ layout: default
 
 <div class="blocantiscroll col-md-2">
 	{% if page.layout == "article" %}
-		{{content | toc_only}}
+		{% toc %}
 	{% endif %}
 </div>

@@ -57,12 +57,12 @@ layout: default
 {% comment %} TOC on the right {% endcomment %}
 <div class="blocantiscroll col-md-2">
 
-    {% assign toccontenthtml = content | toc_only %}
+    {% assign toccontenthtml = toc %}
     {% assign toccontent = toccontenthtml | strip_html | strip %}
     {% if toccontent == empty or toccontent == blank or toccontent == nil %}
 
     {% else %}
       <h2>Table of Contents</h2>
-        {{content | toc_only}}
+        {% toc %}
     {% endif %}
 </div>
