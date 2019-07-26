@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Everything you need to know before joining the cloud"
-date:   2019-07-26 13:00:00 +0100
+date:   2019-07-26 10:00:00 +0100
 categories: cloud
 isVisible: True
 short: "Everything you need to know before joining the cloud"
