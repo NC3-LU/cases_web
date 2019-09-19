@@ -56,9 +56,9 @@ Vous bénéficierez :
 * des méthodologies et outils CASES, basés sur la famille des normes ISO 27001 en matière de sécurité de l’information
 * de l’accès à la plateforme « my.cases.lu » et aux experts labellisés CASES
 
-Pour plus d'informations: [site MONARC](https://www.monarc.lu) N'hésitez plus! [Contactez-nous!](mailto:services@cases.lu?subject=Monarc)
+Pour plus d'informations: [site MONARC](https://www.monarc.lu) N'hésitez plus! [Contactez-nous!](mailto:services@cases.lu?subject=MONARC)
 
 **Téléchargez la brochure complète:**
 
-* [Méthode optimisée d'analyse des risques]({% link assets/docs/CASES_Monarc2016EN-web.pdf %}) (pdf)
-* [Optimised risk analysis Method]({% link assets/docs/CASES_Monarc2016F-web.pdf %}) (pdf)
+* [Méthode optimisée d'analyse des risques]({% link assets/docs/CASES_Monarc2016F-web.pdf %}) (pdf)
+* [Optimised risk analysis Method]({% link assets/docs/CASES_Monarc2016EN-web.pdf %}) (pdf)
