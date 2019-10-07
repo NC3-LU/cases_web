@@ -1,25 +1,22 @@
-<div class="col-md-12 well--blue">
-
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-
-    {% if page_paths %}
-
-      <div class="col-md-2" style="min-width: 320px;">
-      <div style="padding: 0px 10px;min-width: 320px;">
-        <!-- logo -->
-        <a   href="{{ "/" | relative_url }}"><img src="{{ "/assets/img/logo-web-cases.lu-white.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
-        </div>
-      </div>
-
-
-      <div class="col-md-9">
-      <nav>
-        <ul class="menu">
-
-          <div class="navbar-header" style="padding-left: 30px;">
-
-
+<div class="col-md-12 col-sm-12 well--blue">
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
+  {% if page_paths %}
+    <div class="col-md-2 col-sm-2">
+      <a href="{{ '/' | relative_url }}">
+        <img class="img-responsive" src="{{ '/assets/img/logo-web-cases.lu-white.png' | relative_url }}" alt="{{ site.title | escape }}"></img>
+      </a>
+    </div>
+    <div class="col-md-10 col-sm-10">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="menu">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -34,8 +31,6 @@
                 {% endfor %}
               </ul>
             </li>
-
-
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowhow<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -51,7 +46,6 @@
                 <li><a href="{% link _knowhow/glossary/AntiVirus.markdown %}">Glossary</a></li>
               </ul>
             </li>
-
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -73,12 +67,9 @@
             {% endfor %}
 
             <li><a href="{% link contact.md %}">Contact</a></li>
-          </div>
-        </ul>
-
+          </ul>
+        </div>
       </nav>
     </div>
   {% endif %}
-
-
 </div>
