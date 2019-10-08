@@ -4,6 +4,28 @@ Template Name: cases.lu
 */
 
 /*--------------------------------------------------------------------------------*/
+/*	Mobile Element Styling */
+/*--------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+	.page-wrap {
+		display: block;
+	}
+	img {
+		width: 100% !important;
+	}
+	h1 {
+		font-size: 32px !important;
+	}
+	h2 {
+		font-size: 26px !important;
+	}
+	h3 {
+		font-size: 22px !important;
+	}
+}
+
+/*--------------------------------------------------------------------------------*/
 /*	Default Element Styling */
 /*--------------------------------------------------------------------------------*/
 
@@ -43,6 +65,7 @@ Template Name: cases.lu
   display: -webkit-flex;     /* NEW - Chrome */
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
  }
+
  .main-content {
   -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
   -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
@@ -660,6 +683,19 @@ Template Name: cases.lu
 		.container {
 			padding: 0;
 		}
+
+		/*----Left Panel menu-------------------------------------------------------*/
+
+		.left-panel{
+			width: 110%;
+			margin-left: -15px;
+			padding-left: 15px;
+		}
+
+		.left-panel .icon-bar{
+			background-color: #7F7F7F;
+		}
+
 
 		/*----Border around images-------------------------------------------------------*/
 

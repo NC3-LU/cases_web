@@ -13,35 +13,35 @@ layout: default
   {% assign currentlang = site.default_lang %}
 {% endif %}
 
+<div class="col-md-2 col-sm-2 blocantiscroll">
+  <div class="collapse navbar-collapse" id="left-panel" style="padding-left: 20px;">
+    <h2>Glossary</h2>
+    <ol class="test">
 
+      {% assign glossarylist = site.knowhow | where: "lang", currentlang %}
+      {% for spage in glossarylist %}
+      {% if spage.url contains "glossary" %}
 
-<div class="blocantiscroll col-md-2" style="padding-left: 20px;">
-  <h2>Glossary</h2>
-  <ol class="test">
-
-    {% assign glossarylist = site.knowhow | where: "lang", currentlang %}
-    {% for spage in glossarylist %}
-    {% if spage.url contains "glossary" %}
-
-    <li style="list-style: none;">
-      <a href="{{ spage.url | relative_url }}" alt="{{ spage.title | escape }}">
-      {% if page.url == spage.url %}
-        <h6 class="list-select selected-item">&#9657; {{ spage.title }}</h6>
-      {% else %}
-        <h6 class="list-select">&#9657; {{ spage.title }}</h6>
+      <li style="list-style: none;">
+        <a href="{{ spage.url | relative_url }}" alt="{{ spage.title | escape }}">
+        {% if page.url == spage.url %}
+          <h6 class="list-select selected-item">&#9657; {{ spage.title }}</h6>
+        {% else %}
+          <h6 class="list-select">&#9657; {{ spage.title }}</h6>
+        {% endif %}
+        </a>
+      </li>
       {% endif %}
-      </a>
-    </li>
-    {% endif %}
 
-    {% endfor %}
+      {% endfor %}
 
-  </ol>
+    </ol>
+  </div>
 
 </div>
 
 
-<div class="col-md-8">
+<div class="col-md-8 col-sm-8">
  <div class="row-fluid row-fluid--padding">
    {% include menus/language-selector.html %}
 	 <h1>{{ page.title }}</h1>
@@ -55,7 +55,7 @@ layout: default
 
 
 {% comment %} TOC on the right {% endcomment %}
-<div class="blocantiscroll col-md-2">
+<div class="blocantiscroll col-md-2 col-sm-2">
 
     {% assign toccontenthtml = toc %}
     {% assign toccontent = toccontenthtml | strip_html | strip %}

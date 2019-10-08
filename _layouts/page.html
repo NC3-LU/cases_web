@@ -1,21 +1,23 @@
 ---
 layout: default
 ---
-<div class="blocantiscroll col-md-2">
-	<h2>Services</h2>
-	{% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
-	{% for service in services %}
-		{% unless service.group contains "training" %}
+<div class="col-md-2 col-sm-2 blocantiscroll">
+	<div class="collapse navbar-collapse" id="left-panel">
+		<h2>Services</h2>
+		{% assign services=site.services | where:"lang", page.lang | sort: 'ref' %}
+		{% for service in services %}
+			{% unless service.group contains "training" %}
 
-		<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
-			<h6 class="btn-category"><img src="{{ service.logo }}" class="menulogo" | relative_url }}/>{{ service.title }}</h6>
-		</a>
-		{% endunless %}
-	{% endfor %}
+			<a href="{{service.url | relative_url}}" alt="{{ service.title | escape }}">
+				<h6 class="btn-category"><img src="{{ service.logo }}" class="menulogo" | relative_url }}/>{{ service.title }}</h6>
+			</a>
+			{% endunless %}
+		{% endfor %}
 
+	</div>
 </div>
 
-<div class="col-md-8 thecontent">
+<div class="col-md-8 col-sm-8 thecontent">
 	<div class="row-fluid row-fluid--padding">
 		{% include menus/language-selector.html %}
 		<h1>{{ page.title }}</h1>
@@ -27,7 +29,7 @@ layout: default
 
 </div>
 
-<div class="blocantiscroll col-md-2">
+<div class="blocantiscroll col-md-2 col-sm-2">
 	{% if page.layout == "article" %}
 		{% toc %}
 	{% endif %}

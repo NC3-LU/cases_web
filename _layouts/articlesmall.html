@@ -5,16 +5,17 @@ layout: default
 {% assign page_paths = site.header_pages | default: default_paths %}
 {% assign articles = site.posts |sort: 'date' |reverse %}
 
-
-<div class="blocantiscroll col-md-2" style="padding-left: 20px;">
-{% if page.group contains "post" %}
-<h2>Articles</h2>
-  {% for post in articles %}
-  <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-    <h6 class="list-select">{{ post.title }}</h6>
-  </a>
-  {% endfor %}
-  {% endif %}
+<div class="col-md-2 col-sm-2 blocantiscroll">
+  <div class="collapse navbar-collapse" id="left-panel" style="padding-left: 20px;">
+  {% if page.group contains "post" %}
+  <h2>Articles</h2>
+    {% for post in articles %}
+    <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+      <h6 class="list-select">{{ post.title }}</h6>
+    </a>
+    {% endfor %}
+    {% endif %}
+  </div>
 </div>
 
 {% if page.group contains "post" %}
@@ -35,7 +36,7 @@ layout: default
   </div>
 </div>
   {% else %}
-  <div class="col-md-8">
+  <div class="col-md-8 col-sm-8">
 	<div class="row-fluid row-fluid--padding">
 
     <div>
@@ -48,6 +49,6 @@ layout: default
 
 {% endif %}
 
-<div class="col-md-2">
+<div class="col-md-2 col-sm-2">
 
 </div>

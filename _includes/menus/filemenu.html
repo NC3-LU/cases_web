@@ -1,19 +1,21 @@
-<div class="blocantiscroll col-md-2" style="padding: 20px;">
-    <h2>{{ menutitle }}</h2>
-    <ol class="test">
-    {% for i in (0..listlen) %}
-        {% if group_cat == 1 %}
-            {% assign ipage = page %}
-            {% include menus/filemenu-sub.html %}
-        {% else %}
-            {% for ipage in pagelist %}
+<div class="col-md-2 col-sm-2 blocantiscroll">
+  <div class="collapse navbar-collapse" id="left-panel" style="padding: 20px;">
+      <h2>{{ menutitle }}</h2>
+      <ol class="test">
+      {% for i in (0..listlen) %}
+          {% if group_cat == 1 %}
+              {% assign ipage = page %}
+              {% include menus/filemenu-sub.html %}
+          {% else %}
+              {% for ipage in pagelist %}
 
-                {% if ipage.categories contains list-cat[i] and ipage.lang == currentlang %}
-                    {% include menus/filemenu-sub.html %}
+                  {% if ipage.categories contains list-cat[i] and ipage.lang == currentlang %}
+                      {% include menus/filemenu-sub.html %}
 
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endfor %}
-    </ol>
+                  {% endif %}
+              {% endfor %}
+          {% endif %}
+      {% endfor %}
+      </ol>
+  </div>
 </div>

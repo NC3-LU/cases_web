@@ -2,27 +2,27 @@
 {% if articles == blank or articles == empty or articles == nil %}
   {% assign articles = site.posts | where:"lang", site.default_lang | sort: date | reverse %}
 {% endif %}
-<h2><a href="{{ articles.first.url }}">Articles</a> <img src="{% link assets/img/flags/en.png %}" /> <img src="{% link assets/img/flags/fr.png %}" /></h2>
+<h2><a href="{{ articles.first.url }}">Articles</a></h2>
 <a href="/articles-list/index.html">
 <i class="txt-hightlight">This section contains all the articles (short documents or white papers) describing a certain subject that is of current interest to the community.</i>
 </a>
 
-<h2><a href="{% link _knowhow/BestPractices-ProtectingYourself.markdown %}">Best practices</a> <img src="{% link assets/img/flags/en.png %}" /> <img src="{% link assets/img/flags/fr.png %}" /></h2>
+<h2><a href="{% link _knowhow/BestPractices-ProtectingYourself.markdown %}">Best practices</a></h2>
 <a href="{% link _knowhow/BestPractices-ProtectingYourself.markdown %}">
 <i class="txt-hightlight">Being aware of "best practices" helps a long way when protecting against different threats in an ever more online world</i>
 </a>
 
-<h2><a href="{% link publications.md %}">In depth</a> <img src="{% link assets/img/flags/en.png %}" /> <img src="{% link assets/img/flags/fr.png %}" /></h2>
+<h2><a href="{% link publications.md %}">In depth</a></h2>
 <a href="{% link publications.md %}">
 <i class="txt-hightlight">In depth publications unites the documents that are more in depth describing standards and tips for remaining secure in this cyber world.</i>
 </a>
 
-<h2><a href="{% link _knowhow/CISOApproach.markdown %}">The CISO approach</a> <img src="{% link assets/img/flags/en.png %}" /> <img src="{% link assets/img/flags/fr.png %}" /></h2>
+<h2><a href="{% link _knowhow/CISOApproach.markdown %}">The CISO approach</a></h2>
 <a href="{% link _knowhow/CISOApproach.markdown %}">
 <i class="txt-hightlight">Before putting in place procedures or technical measures, it is important to carry out a risk analysis (risk management ) and write a security policy.</i>
 </a>
 
-<h2><a href="{% link _knowhow/sos.markdown %}">S.O.S.</a> <img src="{% link assets/img/flags/en.png %}" /> <img src="{% link assets/img/flags/fr.png %}" /></h2>
+<h2><a href="{% link _knowhow/sos.markdown %}">S.O.S.</a></h2>
 <a href="{% link _knowhow/sos.markdown %}">
 <i class="txt-hightlight">All precautions have been taken but there was an incident still. What to do? This section will introduce the first steps.</i>
 </a>

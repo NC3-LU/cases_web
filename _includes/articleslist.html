@@ -23,27 +23,28 @@
 
 {% endfor %}
 
-
-<div class="blocantiscroll col-md-2" style="padding-left: 20px;">
-  <h2>Articles</h2>
-  {% for post in currentlangarticles %}
-    {% if post.lang == currentlang %}
-      <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-        {% if page.url == post.url %}
-          <h6 class="list-select selected-item">{{ post.title }}</h6>
-        {% else %}
-          <h6 class="list-select">{{ post.title }}</h6>
-        {% endif %}
-
-      </a>
-    {% else %}
-      {% assign postref = post.ref | split:'::::::X::::::' %}
-      {% unless currentlangrefs contains post.ref %}
-        {% assign currentlangrefs = currentlangrefs | concat: postref %}
+<div class="col-md-2 col-sm-2 blocantiscroll">
+  <div class="collapse navbar-collapse" id="left-panel" style="padding-left: 20px;">
+    <h2>Articles</h2>
+    {% for post in currentlangarticles %}
+      {% if post.lang == currentlang %}
         <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-          <h6 class="list-select">{{ post.title }} <img src="/assets/img/flags/{{ post.lang }}.png"></h6>
+          {% if page.url == post.url %}
+            <h6 class="list-select selected-item">{{ post.title }}</h6>
+          {% else %}
+            <h6 class="list-select">{{ post.title }}</h6>
+          {% endif %}
+
         </a>
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+      {% else %}
+        {% assign postref = post.ref | split:'::::::X::::::' %}
+        {% unless currentlangrefs contains post.ref %}
+          {% assign currentlangrefs = currentlangrefs | concat: postref %}
+          <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+            <h6 class="list-select">{{ post.title }}</h6>
+          </a>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
