@@ -18,6 +18,9 @@ Template Name: cases.lu
 	.content{
 		margin-bottom: 200px !important;
 	}
+	.navbar-fixed-bottom {
+		position: relative !important;
+	}
 
 	.menu {
 		margin: unset !important;
