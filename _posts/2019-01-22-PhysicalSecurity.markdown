@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Physical and environmental security: because threats are not just digital ..."
 date:   2019-01-22 10:00:00 +0100
 categories: physicalsec

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – I think my computer is infected"
 menutitle:
 logo:

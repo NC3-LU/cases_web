@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Social Network Scams"
 menutitle:  
 logo:

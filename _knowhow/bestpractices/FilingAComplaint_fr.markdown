@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Dépôt de plainte"
 menutitle:
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Email: good practices"
 menutitle:
 logo:

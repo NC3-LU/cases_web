@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Security Policy – Managing business continuity"
 menutitle:
 logo:

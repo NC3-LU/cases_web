@@ -1,5 +1,6 @@
 ---
 layout: page
+category: "Services"
 title:  "Diagnostic CASES"
 menutitle:  "Diagnostic CASES"
 logo: "/assets/img/services/diagnostic.png"

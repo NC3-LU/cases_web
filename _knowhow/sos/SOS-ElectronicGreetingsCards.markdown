@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Electronic greetings cards"
 menutitle:
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Securing a file server"
 menutitle: "Securing a file server"
 logo:

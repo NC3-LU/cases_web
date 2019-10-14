@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Why pool risk analysis?"
 menutitle:
 logo:

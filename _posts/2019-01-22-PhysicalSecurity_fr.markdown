@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Sécurité physique et environnementale : car les menaces ne sont pas que numériques ..."
 date:   2019-01-22 10:00:00 +0100
 categories: physicalsec

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Arnaques sur les réseaux sociaux"
 menutitle:  
 logo:

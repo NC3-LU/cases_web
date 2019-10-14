@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Scams targeting E-Banking"
 menutitle:
 logo:

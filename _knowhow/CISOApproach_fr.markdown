@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "L'approche RSSI"
 menutitle: "L'approche RSSI"
 logo: "/assets/img/services/trainings.png"

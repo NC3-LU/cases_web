@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Alerte: nouvele vague de Ransomware"
 date:   2015-02-06 10:00:00 +0100
 categories: newservices

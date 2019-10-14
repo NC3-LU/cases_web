@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Sandboxie"
 menutitle: "Sandboxie"
 logo:

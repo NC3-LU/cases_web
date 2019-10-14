@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "La cybersécurité made in Luxembourg se distingue au Maroc et en Tunisie"
 date:   2015-07-02 10:00:00 +0100
 categories: cybersecurity

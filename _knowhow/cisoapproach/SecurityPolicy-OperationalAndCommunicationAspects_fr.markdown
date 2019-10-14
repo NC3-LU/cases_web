@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Security Policy – Operational and communication aspects"
 menutitle:
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Security Policy – System development and maintenance"
 menutitle:
 logo:

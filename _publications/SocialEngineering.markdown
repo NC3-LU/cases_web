@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Social Engineering"
 menutitle: "Social Engineering"
 logo:

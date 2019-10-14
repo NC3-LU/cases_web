@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Security Policy – Security policy"
 menutitle:
 logo:

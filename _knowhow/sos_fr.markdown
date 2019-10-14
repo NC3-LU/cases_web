@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS - Besoin d'aide?"
 menutitle: "SOS - Need help?"
 logo: "/assets/img/services/trainings.png"

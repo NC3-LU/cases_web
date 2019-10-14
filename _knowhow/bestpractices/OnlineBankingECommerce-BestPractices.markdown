@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Online E-Banking/E-Commerce"
 menutitle:
 logo:

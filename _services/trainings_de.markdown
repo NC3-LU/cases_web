@@ -1,5 +1,6 @@
 ---
 layout: page
+category: "Services"
 title:  "Trainings"
 menutitle:  "Trainings"
 logo: "/assets/img/services/trainings.png"

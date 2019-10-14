@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Securing a fixed workstation"
 menutitle: "Securing a fixed workstation"
 logo:

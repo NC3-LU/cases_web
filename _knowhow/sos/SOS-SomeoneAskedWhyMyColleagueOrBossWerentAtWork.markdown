@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Someone asked me why my colleague or my boss weren’t at work!"
 menutitle:
 logo:

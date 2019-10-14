@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Mesures de sécurité pour PME - Les ressources humaines face aux menaces"
 menutitle:
 logo:

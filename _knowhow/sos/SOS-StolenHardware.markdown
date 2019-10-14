@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Stolen hardware"
 menutitle:
 logo:

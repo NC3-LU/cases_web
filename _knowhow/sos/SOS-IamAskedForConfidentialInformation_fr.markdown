@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Quelqu'un me demande des informations confidentielles"
 menutitle:
 logo:

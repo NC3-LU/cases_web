@@ -1,5 +1,6 @@
 ---
 layout: page
+category: "Services"
 title:  "MONARC"
 menutitle:  "MONARC"
 logo: "/assets/img/services/monarc.png"

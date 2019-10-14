@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Cybersecurity4success: l’état aide les entreprises à se protéger"
 date:   2017-01-17 10:00:00 +0100
 categories: Cybersecurity4Success

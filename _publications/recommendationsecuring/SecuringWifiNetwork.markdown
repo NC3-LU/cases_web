@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Securing a wifi network"
 menutitle: "Securing a wifi network"
 logo:

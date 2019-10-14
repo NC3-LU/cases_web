@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "e-banking / e-commerce - bonnes pratiques"
 menutitle:
 logo:

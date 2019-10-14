@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "BYOD un risque et une opportunité en même temps"
 date:   2014-01-13 10:00:00 +0100
 categories: byod

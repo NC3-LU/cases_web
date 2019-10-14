@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Best Practices - Protecting yourself"
 menutitle:  "Best Practices"
 logo: "/assets/img/services/trainings.png"

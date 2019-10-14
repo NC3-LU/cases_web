@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Cloud computing"
 menutitle: "Cloud computing"
 logo:

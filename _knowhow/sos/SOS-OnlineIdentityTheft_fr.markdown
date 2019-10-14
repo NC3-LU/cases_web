@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Usurpation d'identité en ligne"
 menutitle:
 logo:

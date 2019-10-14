@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – A colleague wants to borrow my LuxTrust card!"
 menutitle:
 logo:

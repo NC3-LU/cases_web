@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Cloud: the sky is the limit?"
 date:   2015-07-08 10:00:00 +0100
 categories: gdpr

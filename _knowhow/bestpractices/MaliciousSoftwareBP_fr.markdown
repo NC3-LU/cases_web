@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Logiciels malveillants : bonnes pratiques"
 menutitle:
 logo:

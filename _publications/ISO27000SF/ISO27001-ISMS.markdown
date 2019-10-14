@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "ISO/IEC 27001 – Information security management system"
 menutitle: "ISO/IEC 27001 – Information security management system"
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Reconnaître un email suspect"
 menutitle:
 logo:

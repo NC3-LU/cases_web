@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – One of my colleagues knows my password!"
 menutitle:
 logo:

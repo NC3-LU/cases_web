@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Smartphone Scams"
 menutitle:  
 logo:

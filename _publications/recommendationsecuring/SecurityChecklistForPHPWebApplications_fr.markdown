@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Security checklist for PHP web applications"
 menutitle: "Security checklist for PHP web applications"
 logo:

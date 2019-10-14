@@ -1,5 +1,6 @@
 ---
 layout: page
+category: "Services"
 title:  "Sensibilisations"
 menutitle:  "Sensibilisations"
 logo: "/assets/img/services/trainings.png"

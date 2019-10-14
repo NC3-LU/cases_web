@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Un collègue souhaite emprunter ma carte Luxtrust !"
 menutitle:
 logo:

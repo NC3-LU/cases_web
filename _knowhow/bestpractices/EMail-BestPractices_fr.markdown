@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "E-mail : bonnes pratiques"
 menutitle:
 logo:

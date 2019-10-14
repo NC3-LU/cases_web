@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Scams through downloads"
 menutitle:  
 logo:

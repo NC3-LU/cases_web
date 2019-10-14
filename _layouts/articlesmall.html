@@ -6,7 +6,7 @@ layout: default
 {% assign articles = site.posts |sort: 'date' |reverse %}
 
 <div class="col-md-2 col-sm-2 blocantiscroll">
-  <div class="collapse navbar-collapse" id="left-panel" style="padding-left: 20px;">
+  <div class="collapse navbar-collapse" id="left-panel">
   {% if page.group contains "post" %}
   <h2>Articles</h2>
     {% for post in articles %}

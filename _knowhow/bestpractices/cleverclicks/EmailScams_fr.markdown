@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Arnaques via e-mail"
 menutitle:
 logo:

@@ -2,70 +2,53 @@
 layout: default
 ---
 
-
-<div class="row-spacer"></div>
-
 <div class="col-md-2">
-
 </div>
-
-
-<div class="row-fluid">
-
-	<div class="col-md-4">
+<div class="col-md-8 row-fluid ">
+	<h1>Contact</h1>
+	<div class="col-md-5">
 		<div class="well">
 	    <a href="https://maps.google.com/maps?ll=49.604675,6.135316&z=16&t=m&hl=en-US&gl=LU&mapclient=embed&q=16%20Boulevard%20d%27Avranches%201160%20Luxembourg">
 				<img src="{% link assets/img/map.png %}" style="width: 100%;" />
 			</a>
 	  </div>
   </div>
-
-	<div class="col-md-5">
-
-
-				<div class="container-fluid">
-
-						{{ content }}
-
-						<br /><br />
-
-						{% if page.email %}
-							<div class="row">
-							  <div class="col-md-2 contact-left-col-item">Email:</div>
-								<div class="col-md-10">
-									<a class="btn btn-link" href="mailto:{{ page.email }}"><span class="icon icon--ios-email-outline icon--middle">{% include ios-email-outline.svg %}</span> <span class="icon--middle">{{ page.email }}</span></a>
-								</div>
-							</div>
-						{% endif %}
-						<br />
-						{% if page.twitter %}
-						<div class="row">
-							<div class="col-md-2 contact-left-col-item">Twitter:</div>
-							<div class="col-md-10">
-								<a class="btn btn-link" href="https://twitter.com/{{ page.twitter }}"><span class="icon icon--twitter icon--middle">{% include icon-twitter.svg %}</span> <span class="icon--middle">@{{ page.twitter }}</span></a>
-							</div>
+	<div class="col-md-3">
+		<div class="container-fluid">
+				{{ content }}
+				<br /><br />
+				{% if page.email %}
+					<div class="row">
+					  <div class="col-md-2 contact-left-col-item">Email:</div>
+						<div class="col-md-10">
+							<a class="btn btn-link" href="mailto:{{ page.email }}"><span class="icon icon--ios-email-outline icon--middle">{% include ios-email-outline.svg %}</span> <span class="icon--middle">{{ page.email }}</span></a>
 						</div>
-						{% endif %}
-						<br />
-						{% if page.github %}
-						<div class="row">
-							<div class="col-md-2 contact-left-col-item">Github:</div>
-							<div class="col-md-10">
-							{% for user in page.github %}
-							<div class="row-fluid">
-								<a class="btn btn-link" href="https://github.com/{{ user }}"><span class="icon icon--github icon--middle">{% include icon-github.svg %}</span> <span class="icon--middle">{{ user }}</span></a>
-							</div>
-							{% endfor %}
-							</div>
-						</div>
-						{% endif %}
-
+					</div>
+				{% endif %}
+				<br />
+				{% if page.twitter %}
+				<div class="row">
+					<div class="col-md-2 contact-left-col-item">Twitter:</div>
+					<div class="col-md-10">
+						<a class="btn btn-link" href="https://twitter.com/{{ page.twitter }}"><span class="icon icon--twitter icon--middle">{% include icon-twitter.svg %}</span> <span class="icon--middle">@{{ page.twitter }}</span></a>
+					</div>
 				</div>
+				{% endif %}
+				<br />
+				{% if page.github %}
+				<div class="row">
+					<div class="col-md-2 contact-left-col-item">Github:</div>
+					<div class="col-md-10">
+					{% for user in page.github %}
+					<div class="row-fluid">
+						<a class="btn btn-link" href="https://github.com/{{ user }}"><span class="icon icon--github icon--middle">{% include icon-github.svg %}</span> <span class="icon--middle">{{ user }}</span></a>
+					</div>
+					{% endfor %}
+					</div>
+				</div>
+				{% endif %}
+		</div>
 	</div>
-
-
 </div>
-
 <div class="col-md-2">
-
 </div>

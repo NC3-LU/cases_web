@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "ISO/IEC 27002 Best Practice for Information Management System"
 menutitle: "ISO/IEC 27002 Best Practice for Information Management System"
 logo:

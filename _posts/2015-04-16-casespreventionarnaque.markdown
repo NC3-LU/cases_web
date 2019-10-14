@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "CASES participe au mois de prévention de l’arnaque"
 date:   2015-04-16 10:00:00 +0100
 categories: newservices

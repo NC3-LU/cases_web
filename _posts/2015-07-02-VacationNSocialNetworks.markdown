@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Vacances, réseaux sociaux et Internet : un « big data » pour les cambrioleurs"
 date:   2015-07-02 10:00:00 +0100
 categories: cybersecurity

@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Securing a Fixed Network"
 menutitle: "Securing a Fixed Network"
 logo:

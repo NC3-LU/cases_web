@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Avant de me défaire de mon ancien matériel"
 menutitle:
 logo:

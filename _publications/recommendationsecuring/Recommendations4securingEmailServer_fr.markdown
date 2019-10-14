@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Recommendations for securing an email server"
 menutitle: "Recommendations for securing an email server"
 logo:

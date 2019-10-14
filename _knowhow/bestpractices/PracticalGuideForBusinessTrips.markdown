@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Be Safe: a practical guide for business trips"
 menutitle:
 logo:

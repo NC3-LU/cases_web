@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Cartes de voeux électroniques"
 menutitle:
 logo:

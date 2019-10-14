@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "ISO/IEC 27000 standards"
 menutitle: "ISO/IEC 27000 standards"
 logo:

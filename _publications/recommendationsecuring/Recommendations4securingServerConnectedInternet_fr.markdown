@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Recommendations for Securing a Server Connected to Internet"
 menutitle: "Recommendations for Securing a Server Connected to Internet"
 logo:

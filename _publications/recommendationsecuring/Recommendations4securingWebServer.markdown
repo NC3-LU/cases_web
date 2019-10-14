@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Recommendations for securing a web server"
 menutitle: "Recommendations for securing a web server"
 logo:

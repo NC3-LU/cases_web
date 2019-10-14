@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Check list of security measures for SMEs"
 menutitle:
 logo:

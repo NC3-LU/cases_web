@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – J'ai ouvert la pièce jointe d'un courrier électronique"
 menutitle:
 logo:

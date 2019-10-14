@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Arnaques via les smartphones "
 menutitle:  
 logo:

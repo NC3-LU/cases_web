@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Arnaques à travers les téléchargements"
 menutitle:  
 logo:

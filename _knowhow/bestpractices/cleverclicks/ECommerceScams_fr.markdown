@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Arnaques e-commerce"
 menutitle:
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Mesures de sécurité pour PME - Le logiciel face aux menaces"
 menutitle:
 logo:

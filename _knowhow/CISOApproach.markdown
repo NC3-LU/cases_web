@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "The CISO Approach"
 menutitle: "The CISO Approach"
 logo: "/assets/img/services/trainings.png"

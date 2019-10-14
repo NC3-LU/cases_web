@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "E-Commerce Scams"
 menutitle:
 logo:

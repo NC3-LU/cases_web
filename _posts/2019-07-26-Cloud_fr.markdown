@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Tout ce que vous devez savoir avant d’adopter le cloud computing"
 date:   2019-07-26 10:00:00 +0100
 categories: cloud

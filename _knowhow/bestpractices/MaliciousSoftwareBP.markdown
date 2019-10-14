@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Malicious software: best practice"
 menutitle:
 logo:

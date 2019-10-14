@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Protecting your company"
 menutitle: "Protecting your company"
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Security measures for small and medium-sized enterprises – Legal aspects"
 menutitle:
 logo:

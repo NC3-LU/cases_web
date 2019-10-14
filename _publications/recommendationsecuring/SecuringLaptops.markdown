@@ -1,5 +1,6 @@
 ---
 layout: publication-list
+category: "In depth articles"
 title:  "Securing laptops"
 menutitle: "Securing laptops"
 logo:

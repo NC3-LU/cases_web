@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – What to do before getting rid of my old hardware"
 menutitle:
 logo:

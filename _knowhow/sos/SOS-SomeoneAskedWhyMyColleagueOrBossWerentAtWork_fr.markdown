@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – Quelqu'un me demande la raison d'absence de mon chef !"
 menutitle:
 logo:

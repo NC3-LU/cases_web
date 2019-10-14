@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Règlement général sur la protection des données: privacy and security by design"
 date:   2016-10-19 10:00:00 +0100
 categories: gdpr

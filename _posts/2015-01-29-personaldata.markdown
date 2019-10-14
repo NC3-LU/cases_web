@@ -1,5 +1,6 @@
 ---
 layout: post
+category: "Articles"
 title:  "Données personnelles: une révolution en marche"
 date:   2015-01-29 10:00:00 +0100
 categories: newservices

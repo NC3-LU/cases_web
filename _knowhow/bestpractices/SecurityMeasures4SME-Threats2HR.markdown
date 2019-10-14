@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "Security measures for small and medium-sized enterprises – Threats to human resources"
 menutitle:
 logo:

@@ -1,5 +1,6 @@
 ---
 layout: page
+category: "Services"
 title:  "Startup Kit"
 menutitle:  "Startup Kit"
 logo: "/assets/img/services/startupkit.png"

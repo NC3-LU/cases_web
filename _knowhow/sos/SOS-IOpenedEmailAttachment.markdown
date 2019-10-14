@@ -1,5 +1,6 @@
 ---
 layout: knowhow
+category: "Knowhow"
 title:  "SOS – I opened an email attachment"
 menutitle:
 logo:
