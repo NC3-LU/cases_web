@@ -4,9 +4,7 @@ layout: default
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
 
-
 {% include articleslist.html %}
-
 
 <div class="col-md-8 col-sm-8 thecontent">
   {% include menus/language-selector.html %}
@@ -26,8 +24,6 @@ layout: default
 </div>
 
 
-
-
 <div class="blocantiscroll col-md-2">
 
   {% if page.layout == "post" %}
@@ -36,4 +32,3 @@ layout: default
   {% endif %}
 
 </div>
-</body>

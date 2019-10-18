@@ -23,7 +23,7 @@ Il est donc primordial de protéger correctement son système d’information et
 3. Analyse des risques
 4. Aides publiques (Nouveauté)
 
-Le [Start-up Security Kit]({% link _services/startupkit.markdown %}) est un outil d’évaluation en ligne permettant aux entreprises de faire un check-up rapide de leur niveau de sécurité. L’outil s’adapte aux différents secteurs d’activités au travers d’un questionnaire modulable. Il comporte également une dimension progressive en permettant aux entreprises d’avancer à leur rythme à travers 3 niveaux de protection : « start, fit et top ».
+Le [Start-up Security Kit]({% link _services/Fit4Cybersecurity.markdown %}) est un outil d’évaluation en ligne permettant aux entreprises de faire un check-up rapide de leur niveau de sécurité. L’outil s’adapte aux différents secteurs d’activités au travers d’un questionnaire modulable. Il comporte également une dimension progressive en permettant aux entreprises d’avancer à leur rythme à travers 3 niveaux de protection : « start, fit et top ».
 
 Les entreprises qui veulent progresser davantage et bénéficier d’un regard externe sur leur sécurité, peuvent s’adresser à CASES pour un [diagnostic gratuit]({% link _services/diagnostic.markdown %}).
 
