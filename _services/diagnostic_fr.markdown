@@ -11,6 +11,8 @@ ref: diagnostic
 ## Pourquoi?
 Votre organisation traite quotidiennement des données sensibles. En tant que responsable, vous avez des obligations spécifiques concernant la protection de ces données. Le Diagnostic CASES vous aide à réduire votre exposition aux risques IT.
 
+Afin de vous donner le meilleur résultat et les meilleures recommandations possibles, vous devez d'abord procéder à une auto-évaluation avec l'outil [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity_fr.markdown %}).
+
 
 ## Comment?
 Grâce à un questionnaire dédié, les experts CASES :
@@ -37,5 +39,5 @@ Un expert CASES vous rendra visite et vous posera les questions nécessaires tou
         <li>Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables</li>
     </ul>
 
-    <b>N'attendez plus!</b> Faites votre Diagnostic CASES. <a href="mailto:info@cases.lu?subject=Diagnostic">Contactez-nous!</a>
+    <b>N'attendez plus!</b> Faites votre Fit4Cybersecurtiy et postulez pour votre diagnostic CASES par la suite.
 </div>

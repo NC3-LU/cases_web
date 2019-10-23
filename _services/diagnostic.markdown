@@ -11,6 +11,8 @@ ref: diagnostic
 ## Why?
 Your organisation deals with sensitive data every day. As a data manager, you have specific obligations in relation to data protection. The CASES diagnostic will help you reduce your exposure to IT risks.
 
+In order to give you the best possible result and recommendation, you should first do a self-assessment with the [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity.markdown %}) tool.
+
 
 ## How?
 Using a dedicated questionnaire, CASES's experts will:
@@ -37,5 +39,5 @@ A CASES expert will visit your company and will ask you the necessary questions,
         <li>Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days</li>
     </ul>
 
-    <b>Why wait any longer?</b> Get the CASES diagnostic. <a href="mailto:info@cases.lu?subject=Diagnostic">Get in touch!</a>
+    <b>Why wait any longer?</b> Take your Fit4Cybersecurtiy and then apply for your Diagnostic CASES afterwards.
 </div>
