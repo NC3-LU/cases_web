@@ -12,8 +12,6 @@ ref: practicalguideforbusinesstrips
 lang: en
 ---
 
-> Check to verify the completeness of this article.
-
 ## Introduction
 The protection of intangible capital has become an increasingly important concern for businesses:
 
