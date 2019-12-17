@@ -12,8 +12,6 @@ ref: practicalguideforbusinesstrips
 lang: fr
 ---
 
-> Check to verify the completeness of this article.
-
 ## Introduction
 La protection du capital immatériel est devenue un souci de plus en plus important pour les entreprises :
 
