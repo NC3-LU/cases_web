@@ -36,6 +36,8 @@ Les responsables informatiques doivent s'assurer que les outils sont proprement 
 
 ### La communication et la formation restent des éléments clefs
 
+<iframe width="400" height="225" src="https://www.youtube.com/embed/y3kGDSkcKzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;"></iframe>
+
 L'intérêt du télétravail réside dans la capacité des employés à accomplir pleinement leurs tâches sans rester à leur bureau. Il peut être rassurant pour la direction de définir une politique de sécurité détaillée avec des exigences de sécurité élevées. Cependant, il est plus efficace de se concentrer sur des règles de base pour que celles-ci soient bien comprises par les employés; ceux-ci doivent également comprendre les raisons d'une mesure de sécurité et les conséquences des cyberattaques. Pour ce faire, les employés doivent être [formés](https://www.cases.lu/services/trainings_fr.html) par des professionnels de la sécurité de l'information que ce soient leurs collaborateurs ou des intervenants externes.
 
 Certaines règles complémentaires peuvent également être mises en place. En voici quelques exemples :

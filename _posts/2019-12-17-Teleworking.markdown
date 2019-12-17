@@ -26,6 +26,9 @@ The software used to provide the VPN service must be chosen with utmost care and
 
 ### Devices must be prepared in advance
 
+
+<iframe width="400" height="225" src="https://www.youtube.com/embed/SwnGMgPIblA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right"></iframe>
+
 As always, the endpoints remain a major weak point. The best VPN service is useless if an employee connects to it with an infected computer. Computers of employees must be protected with an up-to-date antivirus. Otherwise, the VPN would be an illusion of security, and would become a secure and trusted channel for ransomware for example...
 
 Before any teleworking by the employee, the IT team, or the person in charge of the security, has to set up the device correctly. The following tasks have to be done:
