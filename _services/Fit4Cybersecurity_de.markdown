@@ -11,7 +11,7 @@ ref: Fit4Cybersecurity
 
 ## was ist es?
 
-Dieses Tool zur Selbstbewertung, das Geschäftsinhabern bei der Umsetzung einer besseren Cybersicherheitsstrategie hilft, wird als [Fit4Cybersecurity](http://startup.cases.lu) bezeichnet, um die Einführung in die Informationssicherheit hervorzuheben. Dies ist auch eine Voraussetzung für die Durchführung von Diagnoseällen: Es ist eine Mindestpunktzahl von 80/100 erforderlich. Der Zweck dieser Einschränkung gibt uns die Möglichkeit, die Empfehlungen während des Diagnostic CASES besser auf Ihre Organisation abzustimmen.
+Dieses Tool zur Selbstbewertung, das Geschäftsinhabern bei der Umsetzung einer besseren Cybersicherheitsstrategie hilft, wird als [Fit4Cybersecurity](http://startup.cases.lu) bezeichnet, um die Einführung in die Informationssicherheit hervorzuheben. Dies ist auch eine Voraussetzung für die Durchführung von Diagnoseällen: Es ist eine Mindestpunktzahl von 65/100 erforderlich. Der Zweck dieser Einschränkung gibt uns die Möglichkeit, die Empfehlungen während des Diagnostic CASES besser auf Ihre Organisation abzustimmen.
 
 Ziel des Selbstbewertungstools [Fit4Cybersecurity](http://startup.cases.lu) ist es, den Reifegrad einer Organisation im Hinblick auf anwendbare bewährte Verfahren im Bereich der Informationssicherheit zu bewerten.
 
