@@ -11,7 +11,7 @@ ref: Fit4Cybersecurity
 
 ## c'est quoi?
 
-Cet outil d'autoévaluation, destiné à aider les chefs d'entreprise à mettre en œuvre une meilleure stratégie en matière de cybersécurité, s'appelle [Fit4Cybersecurity](http://startup.cases.lu) pour mettre en évidence l'introduction à la sécurité de l'information. C'est également une condition préalable à la réalisation d'un Diagnostic CASES: un score minimum de 80/100 est requis. Le but de cette restriction nous donne l’occasion de mieux adapter les recommandations à votre organisation lors du Diagnostic.
+Cet outil d'autoévaluation, destiné à aider les chefs d'entreprise à mettre en œuvre une meilleure stratégie en matière de cybersécurité, s'appelle [Fit4Cybersecurity](http://startup.cases.lu) pour mettre en évidence l'introduction à la sécurité de l'information. C'est également une condition préalable à la réalisation d'un Diagnostic CASES: un score minimum de 65/100 est requis. Le but de cette restriction nous donne l’occasion de mieux adapter les recommandations à votre organisation lors du Diagnostic.
 
 L’outil d’auto-évaluation [Fit4Cybersecurity](http://startup.cases.lu) a pour objectif d’évaluer la maturité d’une organisation en termes de bonnes pratiques applicables en matière de sécurité de l’information.
 
