@@ -11,7 +11,7 @@ ref: Fit4Cybersecurity
 
 ## what is it?
 
-This self-assessment tool, to help business owners implement a better cybersecurity strategy, is named [Fit4Cybersecurity](http://startup.cases.lu) to highlight the introduction to information security. It is also a prerequisite for doing a Diagnostic CASES: a minimum score of 80/100 is required. The purpose for this restriction gives us the opportunity to better tailor the recommendations to your organization during the Diagnostic.
+This self-assessment tool, to help business owners implement a better cybersecurity strategy, is named [Fit4Cybersecurity](http://startup.cases.lu) to highlight the introduction to information security. It is also a prerequisite for doing a Diagnostic CASES: a minimum score of 65/100 is required. The purpose for this restriction gives us the opportunity to better tailor the recommendations to your organization during the Diagnostic.
 
 The objective of the self-assessment tool, [Fit4Cybersecurity](http://startup.cases.lu), is to assess the maturity of an organization in terms of applicable good practices in the field of information security.
 
