@@ -17,7 +17,7 @@ New technologies allow employees to work remotely; from home or on a business tr
 
 ## The human being stays the weakest link... especially abroad
 
-One of the most important aspects to consider is the connection itself. Employees should not connect to free WiFi, especially in train stations and airports. These networks are too often used by attackers to disseminate malicious software, targeting  organisations or companies through their employees.
+One of the most important aspects to consider is the connection itself. Employees should not connect to free WiFi, especially in train stations and airports. These networks are too often used by attackers to disseminate malicious software, targeting organisations or companies through their employees.
 
 No matter where you are outside the company, it is important to use a Virtual Private Network, also called [VPN]({% link _knowhow/glossary/VPN.markdown %}). This tool allows the user to create a direct and secure connection between the device and the company’s internal network, essentially imitating the computer being plugged in the company's network; the data received and sent by the employee is thus protected and access to internal resources can be granted.
 
@@ -39,7 +39,7 @@ Before any teleworking of an employee, the IT team (or the person in charge of t
 <iframe width="400" height="225" src="https://www.youtube.com/embed/SwnGMgPIblA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:400px; height:225px;"></iframe>
 </div>
 
-The interest of teleworking relies on the capacity of employees to accomplish their tasks while not  being at their desks. It might be reassuring for the management to set a detailed security policy with high-security requirements. However, it is more efficient to focus on basic and  well-understood rules by the employees; they have to also understand the reasons of a security measure and the consequences of cyberattacks. To achieve this, the employees have to be [trained]({% link _services/trainings.markdown %}) often  in-house or externally by information security professionals.
+The interest of teleworking relies on the capacity of employees to accomplish their tasks while not being at their desks. It might be reassuring for the management to set a detailed security policy with high-security requirements. However, it is more efficient to focus on basic and well-understood rules by the employees; they have to also understand the reasons of a security measure and the consequences of cyberattacks. To achieve this, the employees have to be [trained]({% link _services/trainings.markdown %}) often in-house or externally by information security professionals.
 
 Additionally, some rules must be set and respected by everyone. Here are some examples:
 
@@ -50,14 +50,14 @@ Additionally, some rules must be set and respected by everyone. Here are some ex
   * and thus deceiving someone is relatively easy. Use the roaming from your phone to have a more secure network and use a VPN.
   * Define responsibilities and rules, so in case a material is stolen or forgotten, it can be assured that the employee notifies their security contact quickly.
   * Everyone has to know that devices must never be left unattended. Anti-theft cables can also be used to decrease that risk.
-  * Remote access software (like Teamviewer) should be used very carefully and only by authorized employees. It  has to be always updated, and only used in case of absolute necessity. -> *precisely: by letting it run constantly to access the computer anytime brings similar risks than opening a backdoor.*
+  * Remote access software (like Teamviewer) should be used very carefully and only by authorized employees. It has to be always updated, and only used in case of absolute necessity. -> *precisely: by letting it run constantly to access the computer anytime brings similar risks than opening a backdoor.*
 
 
 As the teleworking practice grows, it is important to give necessary guidelines for employees. Most of the security problems come from employees who have not been trained enough or do not understand the consequences of their behaviour. It is also possible to minimize the threat of non-compliance by involving employees during the process of creating information security rules and guidelines.
 
 ## CASES Expert Voice
 
-“Teleworking begins to gain popularity with connections becoming increasingly better. Most of the companies are mature enough to have a VPN  to protect their data and communication However, most companies only concentrate on technical matters and forget that the human factor is the weakest link in the security chain. The rules and guidelines should be clearly defined, understood, and signed. In addition, explanation of consequences should be given and employees should be properly prepared for the usage of technology.”
+“Teleworking begins to gain popularity with connections becoming increasingly better. Most of the companies are mature enough to have a VPN to protect their data and communication However, most companies only concentrate on technical matters and forget that the human factor is the weakest link in the security chain. The rules and guidelines should be clearly defined, understood, and signed. In addition, explanation of consequences should be given and employees should be properly prepared for the usage of technology.”
 
 ## Interesting Links :
 
