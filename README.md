@@ -4,7 +4,7 @@ This will include the cases web page based on jekyll
 ## Development Installation
 To install it locally:
 
-First some extra tools need to be installed installed:
+First some extra tools need to be installed:
 
 ```sudo apt-get install build-essential patch ruby-dev zlib1g-dev```
 
