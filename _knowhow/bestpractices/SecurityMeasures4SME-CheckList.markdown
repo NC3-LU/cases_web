@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Check list of security measures for SMEs"
+title:  "A check-list of security measures for SMEs"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -22,7 +22,7 @@ For very small businesses, this risk analysis is not easy to perform. As a resul
 If your organisation fears serious impacts, it is strongly recommended that you proceed with a risk management approach and that you define a **[security policy]({% link _knowhow/glossary/SecurityCharter.markdown %})** and a continuous improvement process. More advice can be found in the article "[Protecting Your Business]({% link _publications/ProtectingYourCompany.markdown %})".
 
 ## Threats to infrastructure
-Infrastructure includes all the essential assets and services on which the information system is based, such as the supply of power, communication or processing services. These services are therefore critical to the operation of the information system and exposed to certain threats (see "[Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})":
+Infrastructure includes all the essential assets and services on which the information system is based, such as the supply of power, communication or processing services. These services are therefore critical to the operation of the information system and exposed to certain threats (see "[Threats to infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})"):
 
 * [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)
 * [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption)
