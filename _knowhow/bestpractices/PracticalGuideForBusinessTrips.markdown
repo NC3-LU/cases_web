@@ -45,7 +45,7 @@ To limit the damage of loss or theft of documents or data, take only the informa
 
 Whenever possible, always keep credit cards, traveller's cheques, passports and other forms of identification in different pockets when travelling.
 
-It is preferable to keep your passport on your person at all times. It is also recommended to make 2 copies of the main page of your passport:
+It is preferable to keep your passport with you at all times. It is also recommended to make 2 copies of the main page of your passport:
 
 * one copy to be taken on your trip, kept separate from your passport;
 * the second copy to be left in the country, with a trusted person.
@@ -72,17 +72,17 @@ You are advised not to announce a business trip on social networks like Facebook
 During your trip, you should apply the following rules:
 
 1. Always **secure data** by avoiding leaving laptops and mobile phones unguarded. Anti-theft cables are recommended for laptops, especially when attending trade shows.
-2. Documents that are no longer needed should be **destroyed**, rather than merely thrown away. This prevents them being recovered by others.
+2. Documents that are no longer needed should be **destroyed**, rather than merely thrown away. This prevents them from being recovered by others.
 3. **Business relationships**: remain alert when sharing information with potential partners and ensure that your contacts can be trusted.
 4. **Mobile phones**: care is needed when sending sensitive information (SMS, emails, photos, documents) by mobile phone, as it can be intercepted. The only way to protect them is to use an [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) system like 'pgp' for emails or 'securetext' for SMS. You should also ensure:
 
 * **that you do not talk about sensitive matters by mobile phone**;
-  * that you use a VoIP client via [VPN]({% link _knowhow/glossary/VPN.markdown %}), if you must have a sensitive conversation.
+  * that you use a VoIP client via [VPN]({% link _knowhow/glossary/VPN.markdown %}), in case you must have a sensitive conversation.
 * that you do not leave your mobile phone **unattended**;
-* if you must leave your mobile unattended, remove the SIM card and memory card and battery and keep them with you.
+* if you must leave your mobile phone unattended, remove the SIM card and memory card and battery and keep them with you.
 
 ### Detect manipulations
-During your trip, you should learn how to detect **manipulations**. Thieves often simply exchange one device for another similar one, so that the theft is not immediately apparent. It is advisable to place a distinctive mark on all equipment. This way any theft will be noticed immediately.
+During your trip, you should learn how to detect **manipulations**. Thieves often simply replace one device with another similar one, so that the theft is not immediately apparent. It is advisable to place a distinctive mark on all equipment. This way any theft will be noticed immediately.
 
 ### Protect confidentiality
 Hotels and taxis offer no guarantees; confidential conversations should be avoided in these places. Equipment or documents containing sensitive data should not be left in hotel safes. Likewise, be aware that communication networks in public places, hotels or business centres are likely to be monitored.
@@ -90,7 +90,7 @@ Hotels and taxis offer no guarantees; confidential conversations should be avoid
 ### How to deal with theft
 If you have to deal with such a situation, immediately list what has been stolen and [file a complaint](/publications/FilingAComplaint.html) with the local police authorities.
 
-Also **inform your employer** and your IT department if computer equipment and/or media containing confidential information have been stolen.
+Also, **inform your employer** and your IT department if computer equipment and/or media containing confidential information have been stolen.
 
 **Contact your insurance company** and declare the theft against you and immediately instruct your bank to cancel your bank cards.
 
