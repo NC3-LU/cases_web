@@ -11,9 +11,9 @@ group: post
 ref: articles20190726cloud
 lang: en
 ---
-Business is booming for the cloud computing industry – public cloud providers are set to earn $206 billion by the end of this year, up 17.5% on last year .
+Business is booming for the cloud computing industry – public cloud providers are set to earn $206 billion by the end of this year, up 17.5% on last year.
 
-The cloud is already a standard feature for most businesses, from start-ups to big corporates, powering all or part of their systems, services and storage needs. By 2020, 67% of business IT infrastructure will be cloud based, with remote servers managing 82% of the workload .
+The cloud is already a standard feature for most businesses, from start-ups to big corporates, powering all or part of their systems, services and storage needs. By 2020, 67% of business IT infrastructure will be cloud based, with remote servers managing 82% of the workload.
 
 If you’re interested in what this could mean for your business, read our introductory guide to the pros and cons of using a cloud service.
 
