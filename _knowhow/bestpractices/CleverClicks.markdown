@@ -10,18 +10,18 @@ toc: true
 ref: cleverclicks
 lang: en
 ---
-Information Technology is an essential element for the commercial activities of entreprises:
+Information Technology is an essential element for the commercial activities of enterprises:
 
-- You receive e-mails from your clients or providers?
-- You download programs or business documents?
-- You buy furnishings/tools etc. on the Internet?
-- You publicise your company on social networks?
-- You use smartphones or other mobile devices?
+- Do you receive e-mails from your clients or providers?
+- Do you download programs or business documents?
+- Do you buy furnishings/tools etc. on the Internet?
+- Do you publicise your company on social networks?
+- Do you use smartphones or other mobile devices?
 - etc.
 
 Perfect! But stay vigilant ...
 
-The article "Clever Clicks for safer business" helps you to adopt best practices for every case in daily activities:
+The article "Clever Clicks for safer business" helps you adopt best practices for every case in daily activities:
 - [Downloads]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads.markdown %})
 - [E-mail]({% link _knowhow/bestpractices/cleverclicks/EmailScams.markdown %})
 - [Social Networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams.markdown %})
