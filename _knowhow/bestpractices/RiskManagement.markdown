@@ -11,14 +11,14 @@ toc: true
 ref: riskmanagement
 lang: en
 ---
-General guidelines regarding risk management as used by CASES are taken from the ISO/IEC 27005 standard, part of the [ISO/IEC 27000]({% link _publications/ISO27000SF.markdown %}) family of standards. [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) governs the implementation of an information security management system which must include a risk management procedure. Risk management is the approach specified in ISO/IEC 27001 which forms the basis of the [security policy]({% link _knowhow/CISOApproach.markdown %}) for the organisation concerned.
+General guidelines regarding risk management used by CASES are taken from the ISO/IEC 27005 standard, part of the [ISO/IEC 27000]({% link _publications/ISO27000SF.markdown %}) family of standards. [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %}) governs the implementation of an information security management system which must include a risk management procedure. Risk management is the approach specified in ISO/IEC 27001 which forms the basis of the [security policy]({% link _knowhow/CISOApproach.markdown %}) for the organisation concerned.
 
 The diagram below outlines the risk management process.
 
 ## Definition of the context
-To produce a risk analysis, it is first important to specify the basic criteria (risk assessment, impact, acceptance of risks, availability of resources, etc.), the objective and the scope of the analysis. The definition of the context notably describes the environment and the subject of the risk management process.
+To produce a risk analysis, first, you need to specify the basic criteria (risk assessment, impact, acceptance of risks, availability of resources, etc.), then you need to define the objective and the scope of the analysis. The definition of the context describes the environment and the subject of the risk management process.
 
-The risk **assessment criteria** notably include:
+The risk **assessment criteria** include:
 
 * the strategic values of the processes
 * [asset]({% link _knowhow/glossary/Assets.markdown %}) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
@@ -26,7 +26,7 @@ The risk **assessment criteria** notably include:
 * the importance of CAI ([confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [availability]({% link _knowhow/glossary/Availability.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}))
 * the expectations of the invested parties and the reputation
 
-So for a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, there are risks that must be avoided at all costs. In others, there are assets that must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
+For a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, some risks must be avoided at all costs. In others, some assets must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
 
 The **[basic criteria]({% link _knowhow/glossary/BasicCriteria.markdown %})** must also be determined:
 
@@ -73,10 +73,10 @@ Risk estimation is comprised of several phases:
 
 1. the choice of methodology
 2. estimation of the [impacts]({% link _knowhow/glossary/Impact.markdown %})
-3. estimation of likelihood of occurrence
-4. estimation of risk level
+3. estimation of the likelihood of occurrence
+4. estimation of the risk level
 
-It involves calculating a value, in other words an approximative level for identified risks, based on the method used (which must guarantee repeatability), by estimating the impacts as well as the likelihood of occurrence. (For example, an approximate impact (qualitative scale) is multiplied by the likelihood of occurrence (qualitative scale) to determine the risk estimation).
+It involves calculating a value, in other words, an approximative level for identified risks, based on the method used (which must guarantee repeatability), by estimating the impacts as well as the likelihood of occurrence. (For example, an approximate impact (qualitative scale) is multiplied by the likelihood of occurrence (qualitative scale) to determine the risk estimation).
 
 
 <table class="tg">
@@ -144,7 +144,7 @@ It involves calculating a value, in other words an approximative level for ident
 
 
 ## Risk assessment
-During this stage, you’ll need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
+During this stage, you will need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
 The estimated risks are prioritised in order of importance, based on the decisions made when defining the context of the risk analysis.
 
 <table class="tg">
@@ -226,7 +226,7 @@ There are 4 risk treatment options:
 1. “Risk reduction”, which consists of reducing the risk by choosing the appropriate security objectives and measures (See: [Sectoral risk analysis – risk treatment]({% link _services/diagnostic.markdown %}));
 2. “Risk conservation”, which consists of accepting current risks without taking further action;
 3. “Risk refusal”, which consists of giving up the activity or domain at the source of the risk;
-4. “Risk transfer” to a third party, by means of insurance coverage, for example.
+4. “Risk transfer” to a third party, using insurance coverage, for example.
 
 Any resulting residual risk must be approved by the management board of the entity concerned.
 
@@ -313,10 +313,10 @@ Any resulting residual risk must be approved by the management board of the enti
 
 
 ## Risk acceptance
-Risk acceptance is the approval given by the management board of choices made during the risk treatment. The management board therefore agrees to the treatment plan, as well as to the residual risks.
+Risk acceptance is the approval given by the management board of choices made during the risk treatment. The management board, therefore, agrees to the treatment plan, as well as to the residual risks.
 
 ## Information sharing
-This is a continuous process that allows for the exchange and sharing of information on the risks between the decision-makers and the stakeholders. The purpose of risk communication is to:
+This is a continuous process that allows the exchange and sharing of information on the risks between the decision-makers and the stakeholders. The purpose of risk communication is to:
 
 * reduce misunderstandings with decision-makers
 * improve coordination for incident response
