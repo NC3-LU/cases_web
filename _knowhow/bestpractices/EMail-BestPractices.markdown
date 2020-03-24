@@ -12,11 +12,11 @@ ref: emailbestpractice
 lang: en
 ---
 ## In brief
-Email is one of the primary forms of private and professional communication. It’s a user-friendly, fast and inexpensive tool. Despite its advantages, there are still some precautions to be taken into consideration when both sending and receiving messages.
+Email is one of the primary forms of private and professional communication. It’s a user-friendly, fast, and inexpensive tool. Despite its advantages, there are still some precautions to be taken into consideration when both sending and receiving messages.
 
-While it is true that sending company emails internally does not carry the same risk of interception when the company has its own internal mail server, it is nevertheless important to remember that the information sent is not just saved on the company’s secure server. It can also be found in the sender and recipient’s mailboxes. Most of the time, these computers are both physically and logically significantly less well protected than the servers – and are therefore more vulnerable to attack – while containing, in some cases, the exact same information, with the same classification levels, as the servers.
+While it is true that sending company emails internally does not carry the same risk of interception when the company has its internal mail server, it is nevertheless important to remember that the information sent is not just saved on the company’s secure server. It can also be found in the sender and recipient’s mailboxes. Most of the time, these computers are both physically and logically significantly less well protected than the servers – and are therefore more vulnerable to attack – while containing, in some cases, the same information, with the same classification levels, as the servers.
 
-Therefore, emails sent within the company are often the source of the inappropriate broadcasting or distribution of confidential or secret information. This information would be more secure if it were stored in a single, protected environment, with information that could be accessed according to classification level.
+Therefore, emails sent within the company are often the source of inappropriate broadcast or distribution of confidential information. This information would be more secure if it were stored in a single, protected environment, with information that could be accessed according to classification level.
 
 The problem with loss of information is also made worse by the use of laptop computers within the company.
 
@@ -27,7 +27,7 @@ Risks related to sending emails
 
 * Loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) as a result of:
   * sending [confidential]({% link _knowhow/glossary/Confidentiality.markdown %}) information by email (interception or [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}));
-  * sending confidential information to the wrong recipient;
+  * sending confidential information to a wrong recipient;
   * adding new recipients during a discussion that previously contained confidential information;
   * due to a recipient in the same company forwarding their emails to an external mailbox to receive ‘push’ notifications on their smartphones;
   * logging in to their mailbox without [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %});
@@ -51,13 +51,13 @@ Risks related to sending emails
 
 ## Behavioural measures
 
-* Make sure you don’t reveal any confidential information when replying to emails. Check the legitimacy of the request and be careful not to divulge too much information when you respond;
-* the majority of [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this isn’t the case, be very careful when you receive an email with an attachment, as this attachment may contain [malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %});
-* ill-intentioned people often try to exploit human [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}), such as curiosity, pity, fear, the lure of rewards, or even libido. If you receive an email that makes allusion to any of these things, it is highly likely it is a malicious email;
+* Make sure you do not reveal any confidential information when replying to emails. Check the legitimacy of the request and be careful not to divulge too much information when you respond;
+* the majority of [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) containing attachments are follow-ups to previous discussions, meaning that they fall within a special context in which the addition of attachments is to be expected. If this is not the case, be very careful when you receive an email with an attachment, as this attachment may contain [malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %});
+* ill-intentioned people often try to exploit human [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}), such as curiosity, pity, fear, the lure of rewards, or even libido. If you receive an email that alludes to any of these things, it is very likely a malicious email;
   * there are many types of malicious emails, including hoaxes, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) emails, spear phishing emails (a highly targeted type of phishing), Nigerian scams, [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}), and [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %});
-* check if the email resembles those you have previously received from the supposed sender. The language used, way of writing, spelling, style, etc. may all be clues. If something seems odd, it’s probably a malicious email;
-* never click on links in emails where you don’t know the sender, or in particular, if there are signs the email may be malicious, as it could be a phishing email or a link towards a fake website;
-* never answer suspicious emails. By answering, you are confirming to the sender that the email address is active.
+* check if the email resembles those you have previously received from the supposed sender. The language used, way of writing, spelling, style, etc. may all be clues. If something seems odd, it is probably a malicious email;
+* never click on links in emails when you do not know the sender, or in particular, if there are signs the email may be malicious, as it could be a phishing email or a link towards a fake website;
+* never answer suspicious emails. By answering, you are confirming to the sender that the email address is valid and active.
 
 ## Organisational practices
 
@@ -99,7 +99,7 @@ Draw up and enforce the following sectoral policies:
 
 * Make sure your [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) software is always up to date. Normally, updates are downloaded automatically;
 * Do not use the same antivirus software on both the email server and on the workstations. This increases the likelihood of discovering malicious software. No antivirus detects more than 80% of existing [malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %});
-* do not work at a workstation when logged on in administrator mode. Malicious codes run on these workstations will inherit your rights and will therefore be able to access and install programs on all of the computer’s accounts;
+* do not work at a workstation when logged on in administrator mode. Malicious codes run on these workstations will inherit your rights and will, therefore, be able to access and install programs on all of the computer’s accounts;
 * activate the [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) filter in your email software;
 * [encrypt]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) the content of your laptop computers;
 * dutifully adhere to the equipment disposal instructions, both for servers and for computers and GSM;
