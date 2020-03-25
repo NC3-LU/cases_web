@@ -14,7 +14,7 @@ lang: en
 ## Manipulation of people
 Social engineering is one of the most frightening techniques used to attack users of an IT system.  [Social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) is based on subtle psychological techniques that get people to share the desired information.  By exploiting human vulnerabilities, e.g. the desire to help a peer or the need to impress a superior, an ill-intentioned person can obtain access to data and confidential systems from an individual.
 
-In order to avoid the involuntary disclosure of information, it is important to make staff aware of the general principles of “social engineering” and teach them the appropriate ways to react and communicate. This means, amongst other things:
+To avoid the involuntary disclosure of information, it is important to make staff aware of the general principles of “social engineering” and teach them the appropriate ways to react and communicate. This means, amongst other things:
 
 * training employees in communication and the protection of the organisation’s image (in particular during email communications, participation in discussion forums, contact with the media, etc.). (Draft and enforce a Sectoral policy on Human factors – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information));
 * making employees aware of good security practices outside the organisation’s perimeter;
@@ -23,9 +23,9 @@ In order to avoid the involuntary disclosure of information, it is important to 
 * checking and tracing long distance calls – or securing telephone servers (PBX).
 
 ## Human error: prevention measures
-There is a large range of human error, going from inadvertently sending an email to the wrong person right up to the accidental deletion of vital company data.
+There is a large range of human errors, going from inadvertently sending an email to the wrong person right up to the accidental deletion of vital company data.
 
-For the best chance at avoiding such errors, it is important to provide:
+The best chance to avoid such errors is to provide:
 
 * adequate staff training. (Draft and enforce a Sectoral policy on Human factors – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information));
 * a reminder of the backup measures for sensitive files. (Draft and enforce a Sectoral policy on Operational and communication aspects – [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups));
@@ -48,14 +48,14 @@ The availability of the information system is linked to the availability of staf
 * keep a record of the employees’ personal telephone number to establish an alert network. (Draft and enforce a Sectoral policy on Human aspects – [Responding to incidents and malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)).
 
 ## The administrator
-An information system administrator, as part of their role as supervisor, has specific access permissions. They can therefore have access to all information stored in the IT system and, in the event of a cyberattack, block access to the information system. As a security measure, it is useful to ensure:
+An information system administrator, as part of their role as a supervisor, has specific access permissions. They can, therefore, have access to all information stored in the IT system and, in the event of a cyberattack, block access to the information system. As a security measure, it is useful to ensure:
 
 * a log of administration operations on sensitive data and the configuration of authorisations;
 * that administrators are made aware of their legal responsibilities (Draft and enforce a Sectoral policy on Human factors – [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information));
 * the implementation of measures linked to the “[administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)” security problem.
 
 ## Spam / Phishing
-[Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) is unsolicited email. This type of advertising email is sent to the owner of the mailbox in the aim of getting them to view a service/product or a website. In the best case scenario, the time wasted and electronic space taken up by this type of email may unnecessarily overload an information system and must, as a result, be fought against. Furthermore, the spam could also contain malicious software and so become a concrete threat to the organisation’s assets.
+[Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) is unsolicited email. This type of advertising email is sent to the owner of the mailbox in the aim of getting them to view a service/product or a website. In the best-case scenario, the time wasted and electronic space taken up by this type of email may unnecessarily overload an information system and must, as a result, be fought against. Furthermore, the spam could also contain malicious software and so become a concrete threat to the organisation’s assets.
 
 [Phishing]({% link _knowhow/glossary/Phishing.markdown %}) is a special social engineering technique that primarily uses emails and aims to obtain personal information (bank account details, in particular) by claiming to be a trusted organisation (e.g. a bank) via a fraudulent website. This type of attack is primarily aimed at individuals, but the company’s vital information may also be targeted.
 
