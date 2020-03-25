@@ -13,11 +13,11 @@ lang: en
 ---
 
 ## In brief
-These days, it is very difficult to tell if a machine is infected. [Cybercriminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) try to use [Trojan horses]({% link _knowhow/glossary/MaliciousCodes.markdown %}#cheval-de-troie) to extract data (spying), or use the computer for larger scale attacks (distributed denial of service), to send [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) or other illicit reasons.
+These days, it is very difficult to tell if a machine is infected. [Cybercriminals]({% link _knowhow/glossary/Cybercriminals.markdown %}) try using [Trojan horses]({% link _knowhow/glossary/MaliciousCodes.markdown %}#cheval-de-troie) to extract data (spying), or use the computer for larger-scale attacks (distributed denial of service), to send [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}) or other illicit reasons.
 
 Some infections have no real aim, and many initial infections only load installation software. In this case, access to the infected computers is sold to the highest bidder, who then uses the installer (Trojan loader) to install the final Trojan horse.
 
-The most common vectors for infection are:
+The most common vectors for infections are:
 
 * [malicious websites]({% link _knowhow/glossary/MaliciousWebsites.markdown %}) (popular websites that have been infected, or malicious websites on which victims are tricked by advertising displayed on the sites or in emails, or links included in [emails]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email));
 * infected attachments;
@@ -41,7 +41,7 @@ If you answered yes to any of these questions, a cybercriminal may well be inter
 Another way to determine whether this is a targeted or opportunistic attack is to look at the methods used by the criminal to infect your device. An impersonal email indicates an opportunistic attack, while an email that refers to you by name looks more like a targeted attack.
 
 ## Victim of an opportunistic attack
-Some cybercriminals try to infect as many machines as possible through opportunistic attacks. These criminals specialise in the “acquisition” of machines and only install software enabling remote access. They often try to distribute their victims by country, categorising individuals and companies, and they sometimes even try to identify the infected victim. (The profiling quality of the infected machines increases their sale price). They go on to sell access to these machines to the highest bidder. This person will then install specialist malware using the remote access software, based on their objectives:
+Some cybercriminals try to infect as many machines as possible through opportunistic attacks. These criminals specialise in the “acquisition” of machines and only install software enabling remote access. They often try to distribute their victims by country, categorising individuals and companies, and they sometimes even try to identify the infected victim. (The profiling quality of the infected machines increases their sale price). They go on to sell access to these machines to the highest bidder. This person will then install special malware using the remote access software, based on their objectives:
 
 * stealing log-in data or other confidential data (e-banking, e-commerce, social networking, emails, etc);
 * using the infected machine to send [spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %});
@@ -49,10 +49,10 @@ Some cybercriminals try to infect as many machines as possible through opportuni
 * using machines to carry out denial of service attacks, as a proxy, to click on links;
 * targeted attacks.
 
-opportunistic attacks are usually quite large scale, with malicious code used to provide remote access – in the best case scenario, this code will only be detected days later by the supplier's [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) software. Generally speaking, the resident anti-virus never detects malware after detection and you need to use a live CD anti-virus for better detection.
+Opportunistic attacks are usually quite a large-scale attempts, with malicious code used to provide remote access – in the best-case scenario, this code will only be detected days later by the supplier's [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) software. Generally speaking, the resident anti-virus never detects malware after detection and you need to use a live CD anti-virus for better detection.
 
 ## Victim of a targeted attack
-As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. [Malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) is specially designed for this type of attack, and in most cases slips through [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) checks. Targeted attacks can be used as a vector for infection:
+As opposed to large-scale, opportunistic attacks, targeted attacks usually focus on a specific victim, often a single person within a targeted organisation. [Malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) is specially designed for this type of attack, and in most cases, it slips through [anti-virus]({% link _knowhow/glossary/AntiVirus.markdown %}) checks. Targeted attacks can be used as a vector for infection:
 
 * buying access to a machine belonging to a specific organisation from a criminal carrying out opportunistic attacks;
 * [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) by email, with infected files (SMEs: see [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing), [Social engineering / Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people));
@@ -63,7 +63,7 @@ As opposed to large-scale, opportunistic attacks, targeted attacks usually focus
 * social engineering by attracting the victim to a [malicious website]({% link _knowhow/glossary/MaliciousWebsites.markdown %});
 * infection of digital hardware left unattended (airports, hotels, conference halls, etc.) (SMEs: see [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises), [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware), [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software), [Use of access reserved for a user by a third party]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#use-of-limited-access-by-a-third-party), [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing), [social engineering / inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people)).
 
-It is very difficult to recognise an attack of this type. These codes make no “noise”, because they do not spread, or they only spread very slowly. They do everything to remain unnoticed so as to extract confidential information for as long as possible.
+It is very difficult to recognise an attack of this type. These codes make no “noise”, because they do not spread, or they only spread very slowly. They do everything to remain unnoticed so as to extract confidential information as long as possible.
 
 Malware activity may eventually be identified in firewall or proxy logs.
 
@@ -71,8 +71,8 @@ Malware activity may eventually be identified in firewall or proxy logs.
 It is often difficult to tell whether a machine is infected, and it is even more difficult to clean it. The effort made and the method chosen need to be sufficient to match the criticality of the machine concerned.
 
 * If it was an opportunistic attack and the machine does not hold any confidential data and is not used for critical operations, such as e-banking, you can try to clean the machine:
-  * your anti-virus probably won’t detect the infection, because if it knew the malicious code used, it would have prevented infection in the first place. Remove the machine from the network and try to [disinfect the machine using a live CD from another anti-virus retailer]({% link _knowhow/glossary/DisinfectWithLiveCD.markdown %}). Even better, wait four or five days before cleaning – recent malicious code slips through the anti-virus net for the first few days, until anti-virus manufacturers catch up and enter it into their anti-virus signature. Please note: disinfection by anti-virus may delete infected system files. The machine therefore risks not working properly after disinfection. The system should then be repaired using an installation disk, or the operating system may need a full reinstall.
-* If you know exactly when your machine was infected and you have backups of your hard disk made from an earlier time, you can try to restore the backup. Don’t forget to reinstall all the necessary updates after the system restore.
+  * your anti-virus probably will not detect the infection because if it had known the malicious code used, it would have prevented the infection in the first place. Remove the machine from the network and try to [disinfect the machine using a live CD from another anti-virus retailer]({% link _knowhow/glossary/DisinfectWithLiveCD.markdown %}). Even better, wait four or five days before cleaning – recent malicious code slips through the anti-virus net for the first few days, until anti-virus manufacturers catch up and enter it into their anti-virus signature. Please note: disinfection by anti-virus may delete infected system files. Therefore, there is a risk that the machine will not work properly after disinfection. The system should then be repaired using an installation disk, or the operating system may need a full reinstall.
+* If you know exactly when your machine was infected and you have backups of your hard disk made from an earlier time, you can try to restore the backup. Do not forget to reinstall all the necessary updates after the system restore.
 * In other cases, we recommend a full reinstallation:
   * backup your data on an external hard drive;
   * format the disk and reinstall from your preferred installation disk (there is a small chance that the partition reset is also infected).
