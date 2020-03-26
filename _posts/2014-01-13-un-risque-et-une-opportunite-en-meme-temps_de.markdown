@@ -24,18 +24,18 @@ Trotz allem hat das BYOD-Prinzip auch seine Vorteile in Bezug auf Produktivität
 
 Die Cisco-Studie belegt, dass Angestellte vor allem aus 3 Gründen auf BYOD zurückgreifen:
 
-1. um produktiver zu sein
-2. um berufliche und persönliche Tätigkeiten unter einen Hut zu bringen
-3. weil sie das Gerät benötigen und von der Firma keines zur Verfügung gestellt bekommen.
+* um produktiver zu sein
+* um berufliche und persönliche Tätigkeiten unter einen Hut zu bringen
+* weil sie das Gerät benötigen und von der Firma keines zur Verfügung gestellt bekommen.
 
 BYOD zu verbieten, um die damit verbundenen Risiken zu vermeiden, ist keine realistische Option. Wenn ein Unternehmen von den Vorteilen von BYOD profitieren will, muss es dies in seiner IT-Strategie und seiner Sicherheitspolitik vorsehen.
 Tatsächlich bringt ein Blick auf die persönlichen Geräte von Mitarbeitern die Gewissheit, dass BYOD und Produktivität Hand in Hand gehen. Die 5 gefragtesten Anwendungen auf privaten Geräten sind demnach:
 
-1. Programme für Kundenbeziehungsmanagement (CRM), Vertrieb oder Datenbanken (48% der Mitarbeiter)
-2. Mitarbeiterportale / Internet (46%)
-3. Messaging (43%)
-4. Social Media (43%)
-5. Synchronisierung und Datenaustausch: (41%)
+* Programme für Kundenbeziehungsmanagement (CRM), Vertrieb oder Datenbanken (48% der Mitarbeiter)
+* Mitarbeiterportale / Internet (46%)
+* Messaging (43%)
+* Social Media (43%)
+* Synchronisierung und Datenaustausch: (41%)
 
 <img src="{% link assets/img/2014/byod_2014.jpg %}" style="float: right;" />
 

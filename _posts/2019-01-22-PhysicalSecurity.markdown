@@ -34,7 +34,6 @@ The first is the well-known case of "Medicoleaks” in 2012, when thousands of m
 
 More recently, several violent floods have done damage in many locations and have affected more than 30 companies located near the Müllerthal. Several of them (including 1 hotel, a garage and some professional offices) lost data due to the water damage done to their IT infrastructure.
 
-
 ## The Impact
 The impact of physical security vulnerabilities can be very high: data can be completely destroyed (in the case of fire or flood), can be used in a malicious way by third parties, or just corrupted.
 
@@ -101,9 +100,6 @@ Reputational Impact</td>
 </table>
 
 > **Note** that one disaster can have several types of simultaneous impacts. For example, if a construction company loses data after a fire, it could experience a financial, operational and legal impact.
-
-
-
 
 ## Prevention and protection
 A company that wishes to prosper must remain open to the outside world. But openness does not mean a “free for all”. First of all, physical security needs to conform to the standards in force concerning both fire and environmental risks. Next, organizations should define sensitive areas (computer room, specific offices ...) which must be protected in a specific way because they shelter vital data or critical infrastructures; a sort of high-level inventory dedicated to security.

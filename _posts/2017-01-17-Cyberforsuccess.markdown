@@ -18,10 +18,11 @@ Certains seraient tentés de croire qu’étant « petits » et peu visibles, il
 Il est donc primordial de protéger correctement son système d’information et les données qui y sont stockées. Le gouvernement luxembourgeois a développé différents outils que les PME peuvent utiliser pour progresser dans ce domaine.
 
 ## VOICI LES 4 MOUSQUETAIRES DE LA CYBERSÉCURITÉ :
-1. Start-up Security Kit
-2. Diagnostic CASES
-3. Analyse des risques
-4. Aides publiques (Nouveauté)
+
+* Start-up Security Kit
+* Diagnostic CASES
+* Analyse des risques
+* Aides publiques (Nouveauté)
 
 Le [Start-up Security Kit]({% link _services/Fit4Cybersecurity.markdown %}) est un outil d’évaluation en ligne permettant aux entreprises de faire un check-up rapide de leur niveau de sécurité. L’outil s’adapte aux différents secteurs d’activités au travers d’un questionnaire modulable. Il comporte également une dimension progressive en permettant aux entreprises d’avancer à leur rythme à travers 3 niveaux de protection : « start, fit et top ».
 

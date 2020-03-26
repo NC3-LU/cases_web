@@ -19,7 +19,7 @@ Phishing is a type of computer attack that results in an attempt of identity the
 *	and it is always asked to open a link or an attached file.
 Although less impressive than more sophisticated attacks such as crypto ransomware, phishing is one of the most common risk vectors. In 2018, the Luxembourg private sector CERT, CIRCL, recorded more than 6 500 phishing attempts, which accounted for **54.9% of all reported incidents**. This trend is particularly related to the simplicity of implementation of phishing campaign, due to low technical and financial needs. The purchase of database containing many email addresses is a frequent service on pirate websites.
 
-### A constantly evolving threat
+## A constantly evolving threat
 **Spear phishing** is a derived form aimed a particular person. This technique requires more resources because the attacker must define his message so that it is directly addressed to the victim, which requires retrieval of information upstream. Spear phishing is particularly used in cases of industrial espionage or attacks targeting particularly wealthy people or those holding very sensitive information. Another declination, considered lower tech, is called **SMiShing**. The malicious intent is similar, but the vector used is the mobile phone or smartphone.
 
 ## It's not just about your email address!
@@ -29,12 +29,12 @@ Like a theft of identity papers, the problem with phishing is to be able to dete
 
 Source: [Verizon Data Breach Investigations Report - 2018](https://www.phishingbox.com/assets/files/images/Verizon-Data-Breach-Investigations-Report-2018.pdf)
 
-### To fight against phishing, bet on men as much as on technology
+## To fight against phishing, bet on men as much as on technology
 In order to prevent threats from the phishing campaign, both the right tools and the right practices must be adopted.
 Among the most accessible tools are [anti-phishing filters](https://www.cases.lu/knowhow/glossary/WebFilterProxy_fr.html), proxy, made available by search engines. These are present in the navigation settings and do not require any special technical skills ([Google Chrome](https://support.google.com/chrome/answer/114836?hl=fr&ref_topic=7437824), [Mozilla Firefox](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work), ...). In order to supplement these filters, other initiatives allow to report phishing attempts and thus to keep the databases of web browsers up to date. At the level of Luxembourg, the [phishing initiative](https://phishing-initiative.lu/contrib/) has collected since the beginning of the year more than 35 000 URLs deemed dangerous. The free tool [Web Of Trust](https://www.mywot.com/) also works via the contributions of its community of users and makes it possible to obtain, or to attribute, a note of trust to the websites visited.
 However, the use of technical means is not an end in itself and Internet users must first and foremost adopt a more cautious attitude towards the messages they receive. Employees must be able to take the time to acquire, develop and practice good reflexes to fight online scams. This may seem like a long time, but one must always take into account possible losses in the case of a successful attack and disastrous consequences for the image of the organization or company. These behaviors can be initiated through training or awareness campaigns, such as this article. CASES offers [training](https://www.cases.lu/services/trainings.html) for all types of professional audiences to raise awareness of these issues. Sources of information such as [phishing.fr](http://phishing.fr) can also allow CISOs, and all employees, to access relevant information that is easily understandable.
 
-### CASES expert voice:
+## CASES expert voice:
 “Phishing is primarily aimed at humans while exploiting our various weaknesses. In addition to the technical tools mentioned above, here are some tips to prevent leakage of information by phishing:
 *	Make users aware of the different phishing methods to identify more easily the traps that have been set for them.
 *	Consider the mails of strangers with extreme caution and attention. If the person is known to us, then it must be contacted by other means of communication in case of suspicion of phishing.

@@ -34,7 +34,6 @@ On se souvient par exemple de l’affaire « Medicoleaks en 2012 », lorsque d
 
 Plus récemment, plusieurs inondations violentes ont fait des dégâts dans de nombreuses localités et ont touché plus de 30 entreprises notamment dans le Müllerthal. Plusieurs d’entre-elles (dont 1 hôtel, 1 garage et quelques professions libérales) ont perdu des données à cause des dégâts subis par leurs infrastructures informatiques.
 
-
 ## Les impacts
 L’impact des failles de sécurité physique peut être très élevé : les données peuvent être complètement détruites (en cas d’incendie ou d’inondation), soit utilisées de manière malveillante par des tiers, soit altérées.
 
@@ -102,9 +101,6 @@ Impact réputation</td>
 </table>
 
 > **Notons** qu’un seul sinistre peut avoir plusieurs types d’impact simultanément. Par exemple, si une entreprise de construction perd des données suite à un incendie, elle aura un impact financier, opérationnel et légal.
-
-
-
 
 ## Prévention et protection
 Une entreprise qui veut prospérer doit rester ouverte sur l’extérieur. Mais ouverture ne signifie pas « auberge espagnole ». En premier lieu, la sécurité physique passe par le respect des normes en vigueur en matière d’incendie et de risques environnementaux. Ensuite, il faudra définir des zones sensibles (salle informatique, certains bureaux…) qui doivent être protégées de manière spécifique, car ils abritent des données vitales ou des infrastructures critiques : une sorte d’inventaire de haut niveau.

@@ -16,13 +16,7 @@ Une vague de ransomware sévit actuellement au Luxembourg. Elle touche les parti
 Ces malwares sont connus sous le nom de "CTB-Locker" ou "Citroni crypto" se diffusent notamment à travers des [spams]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}), sous forme de fichiers attachés (par exemple .zip ou flash).
 Ils ressemblent à ceci:
 
-
 ![Ransomware](assets/img/201610/1347_1.png)
-
-
-
-
-
 
 Ces ransomwares chiffrent les disques durs ou serveurs de leur victimes. Toutes les données qui y sont stockées deviennent dès lors inaccessibles. Les attaquants exigent alors un payement pour livrer la clé de déchiffrement. Les montant demandés vont de 500 à 1000 euros. Des rapports indiquent que ce ransomware a déjà généré des millions de dollars de revenus pour les escrocs.
 

@@ -17,7 +17,7 @@ The cloud is already a standard feature for most businesses, from start-ups to b
 
 If you’re interested in what this could mean for your business, read our introductory guide to the pros and cons of using a cloud service.
 
-### What is cloud computing?
+## What is cloud computing?
 
 In a nutshell, cloud computing means accessing remote servers, typically owned by a third party, over the internet to store your data, or for extra computing power.
 
@@ -29,25 +29,25 @@ Another great advantage is that clouds are designed to work seamlessly with all 
 
 Once up and running, you don’t have to manage, maintain or update operating systems or equipment, it’s all done for you by your cloud provider. As technology moves on so quickly, this can be a big plus. And, although cloud services are reliable, they tend to provide 24/7 tech support for emergencies. This far outstrips most in-house services, reducing downtime and the impact of costly outages.
 
-### Private cloud solutions
+## Private cloud solutions
 
 Public clouds may seem pretty much failsafe, but it’s still preferable to retain some control. What happens if your internet goes down? Will your staff have access to the data they need?
 
 If managing all your data on a private cloud  is too expensive, you could opt for a hybrid cloud approach. Hybrid clouds use a combination of public clouds, which are controlled by third party organisations, and private clouds, which are controlled and managed by you. This combined approach gives you the ease and convenience of the public cloud for non-critical data or tasks, while other more sensitive information or critical systems are kept on servers owned by you.
 
-### Storage and backups
+## Storage and backups
 
 Cloud storage solutions like DropBox have become household names. The industry is now so competitive, many providers offer unlimited storage for a minimal fee. Google Drive, for example, offers 15 GB for free. As you only pay for the storage you need, you can easily scale up or down, without needing to invest in new hardware.
 
 Storing local data in the cloud is also a safety measure. Data loss can have a serious impact on your ability to continue business services. Whether caused by a defective disc, or a flood or fire, storing your data at multiple secure off-site locations via the cloud makes catastrophic data loss less likely. If you want to back up data on a private cloud, have a look at systems like Nextcloud and Seafile. They enable users to securely sync and share files across an organisation while retaining control over the data.
 
-### Security and cyber attacks
+## Security and cyber attacks
 
 A denial of service attack is a common issue caused when hackers try to bring down a service by flooding servers with pointless requests overloading the system. Cloud computing companies have security protocols in place to monitor for such attacks and prevent excessive traffic from crashing servers.   
 
 When transferring and accessing data, good cloud services use powerful encryption to prevent third parties from eavesdropping on transactions or tampering with data. You can also easily assign different documents or users with different clearance levels to prevent malicious employees from harming your business.
 
-### Regulation and data protection
+## Regulation and data protection
 
 The cloud offers lots of advantages, but it’s down to you to do your due diligence and understand any security, liability or legal issues.
 
@@ -57,7 +57,7 @@ Cloud providers store data all over the world. Complying with data protection le
 
 Not only is cloud computing simpler for collaboration and file sharing, it’s easy to set up and manage. Plus it provides a gateway to all kinds of new tech in artificial intelligence and decentralized computation. But before you dive in, remember to check that your chosen provider complies with the law and your internal security policy to avoid any unwelcome surprises.
 
-### Summary
+## Summary
 
 When you are choosing a cloud solution for your company you should ask yourself the following questions:
 *	Where will the data and backups be stored?

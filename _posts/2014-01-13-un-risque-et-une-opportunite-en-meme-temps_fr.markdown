@@ -24,18 +24,18 @@ Néanmoins, le BYOD présente des avantages en termes de productivité, comme l�
 
 Cette étude montre que les employés adoptent le BYOD essentiellement pour 3 raisons :
 
-1. pour être plus productifs ;
-2. pour mener de front des activités personnelles et professionnelles ;
-3. parce qu’ils en ont besoin et que l’entreprise ne leur fournit pas.
+* pour être plus productifs ;
+* pour mener de front des activités personnelles et professionnelles ;
+* parce qu’ils en ont besoin et que l’entreprise ne leur fournit pas.
 
 L’option qui consisterait à bannir ou à ignorer le phénomène BYOD n’est tout simplement plus réaliste. Pour profiter des avantages apportés par le BYOD, l’entreprise doit l’inclure dans sa stratégie IT et dans sa politique de sécurité.
 Le top 5 des applications les plus demandées par les employés est relativement explicite sur le fait que BYOD et productivité peuvent faire bon ménage :
 
-1. CRM et ventes ou bases de données (48% des employés)
-2. Portails employés / Intranet (46%)
-3. Messagerie (43%)
-4. Médias sociaux (43%)
-5. Synchronisation et partage de fichiers (41%)
+* CRM et ventes ou bases de données (48% des employés)
+* Portails employés / Intranet (46%)
+* Messagerie (43%)
+* Médias sociaux (43%)
+* Synchronisation et partage de fichiers (41%)
 
 <img src="{% link assets/img/2014/byod_2014.jpg %}" style="float: right;" />
 
