@@ -19,18 +19,18 @@ Il est donc primordial de protéger correctement son système d’information et
 
 ## VOICI LES 4 MOUSQUETAIRES DE LA CYBERSÉCURITÉ :
 
-* Start-up Security Kit
+* Fit4Cybersecurity
 * Diagnostic CASES
 * Analyse des risques
 * Aides publiques (Nouveauté)
 
-Le [Start-up Security Kit]({% link _services/Fit4Cybersecurity.markdown %}) est un outil d’évaluation en ligne permettant aux entreprises de faire un check-up rapide de leur niveau de sécurité. L’outil s’adapte aux différents secteurs d’activités au travers d’un questionnaire modulable. Il comporte également une dimension progressive en permettant aux entreprises d’avancer à leur rythme à travers 3 niveaux de protection : « start, fit et top ».
+Le [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity.markdown %}) est un outil d’autoévaluation en ligne permettant aux entreprises d'évaluer la maturité d’une organisation en termes de bonnes pratiques applicables en matière de sécurité de l’information.
 
-Les entreprises qui veulent progresser davantage et bénéficier d’un regard externe sur leur sécurité, peuvent s’adresser à CASES pour un [diagnostic gratuit]({% link _services/diagnostic.markdown %}).
+Les entreprises qui veulent progresser davantage et bénéficier d’un regard externe sur leur sécurité, peuvent s’adresser à CASES pour un [diagnostic gratuit]({% link _services/diagnostic.markdown %}) sous condition d'un un score minimum de 65/100 sur le Fit4Cybersecurity.
 
-Ensuite, rien de tel qu’une analyse complète des risques pour pouvoir les gérer d’une manière systématique. CASES propose à ce stade une méthode spécialement dédiée aux PME, qui permet à ses utilisateurs d’économiser beaucoup de temps et d’argent grâce à la capitalisation réalisée sur les analyses de risques antérieures. Cette méthode baptisée [MONARC]({% link _services/monarc.markdown %}) (Méthode Optimisée d’Analyse des Risques CASES) a l’immense avantage de d’abaisser considérablement la barrière d’accès à une analyse de risques complète. Il s’agit d’un outil performant qui s’use uniquement si on ne s’en sert pas.
+Ensuite, rien de tel qu’une analyse complète des risques pour pouvoir les gérer d’une manière systématique. CASES propose à ce stade une méthode qui permet à ses utilisateurs d’économiser beaucoup de temps et d’argent grâce à la capitalisation réalisée sur les analyses de risques antérieures. Cette méthode baptisée [MONARC]({% link _services/monarc.markdown %}) (Méthode Optimisée d’Analyse des Risques CASES) a l’immense avantage de d’abaisser considérablement la barrière d’accès à une analyse de risques complète. Il s’agit d’un outil performant qui s’use uniquement si on ne s’en sert pas.
 
-Enfin, la cerise sur le gâteau est d’ordre financier : les entreprises qui feront appel à des experts en matière de sécurité de l’information pourront recevoir des aides allant jusqu’à 50% des frais. Le conseil ET l’implémentation des mesures de protection sont éligibles à ces aides.
+Enfin, la cerise sur le gâteau est d’ordre financier : les entreprises qui feront appel à des experts en matière de sécurité de l’information pourront recevoir des aides allant jusqu’à 50% des frais. Le conseil et l’implémentation des mesures de protection sont éligibles à ces aides.
 
 Cette aide financière est destinée aux petites et moyennes entreprises (PME) artisanales et commerciales. Celles-ci doivent disposer d’une autorisation d’établissement octroyée par la Direction générale PME et Entrepreneuriat pour des services fournis par des conseillers extérieurs et prestés occasionnellement pour des projets ponctuels. La demande d’aide se fait à l’aide d’un formulaire disponible sur le Guichet entreprises.
 
