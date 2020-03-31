@@ -48,7 +48,7 @@ Dieser Schritt beinhaltet die Einschätzung, Bewertung und Behandlung von Risike
 #### 4. Phase: Weiterverfolgung und Kontrolle
 Dies beinhaltet die Umsetzung des Risikobehandlungsplans.
 
-## VORTEILE
+## Vorteile
 MONARC liefert tiefere Ergebnisse als die CASES Diagnostic.
 
 Sie profitieren von:

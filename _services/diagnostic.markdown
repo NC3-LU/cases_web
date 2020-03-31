@@ -31,13 +31,9 @@ The diagnostic will help you in both technical and organisational terms. The que
 A CASES expert will visit your company and will ask you the necessary questions, while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
 
 
-<div class="well well--blue-outline">
-    Advantages:
+##Advantages:
 
-    <ul>
-        <li>Free, with no commitment – for Luxembourg only</li>
-        <li>Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days</li>
-    </ul>
+* Free, with no commitment – for Luxembourg only
+* Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days
 
-    <b>Why wait any longer?</b> Take your Fit4Cybersecurtiy and then apply for your Diagnostic CASES afterwards.
-</div>
+**Why wait any longer?** Take your Fit4Cybersecurtiy and then apply for your Diagnostic CASES afterwards.

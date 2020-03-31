@@ -30,14 +30,9 @@ Die Diagnostik hilft Ihnen:
 Das Diagnostic hilft Ihnen in technischer und organisatorischer Hinsicht. Die Fragen sollen die häufigsten Informationsrisiken in Luxemburg abdecken.
 Ein CASES-Experte wird Ihr Unternehmen besuchen und Ihnen die notwendigen Fragen stellen, während Sie sich beraten lassen können. Dies ist eine gute Einführung in die kontinuierliche Verbesserung der Informationssicherheit.
 
+## Vorteile
 
-<div class="well well--blue-outline">
-    Vorteile:
+* Kostenfrei und unverbindlich - nur für Luxemburg
+* Schnell durchführbar: Fragebogen wird innerhalb von 2 Stunden beantwortet, der Bericht folgt in den darauffolgenden 5 Werktagen
 
-    <ul>
-        <li>Kostenfrei und unverbindlich - nur für Luxemburg</li>
-        <li>Schnell durchführbar: Fragebogen wird innerhalb von 2 Stunden beantwortet, der Bericht folgt in den darauffolgenden 5 Werktagen</li>
-    </ul>
-
-    <b>Zögern Sie nicht länger!</b> Machen Sie Ihre Fit4Cybersecurtiy und beantragen Sie dann Ihren Diagnostic CASES.
-</div>
+**Zögern Sie nicht länger!** Machen Sie Ihre Fit4Cybersecurtiy und beantragen Sie dann Ihren Diagnostic CASES.

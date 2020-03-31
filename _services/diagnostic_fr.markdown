@@ -31,13 +31,9 @@ Le diagnostic vous aidera à la fois en termes techniques et organisationnels. L
 Un expert CASES vous rendra visite et vous posera les questions nécessaires tout en vous guidant. C'est une bonne introduction à la procédure d'amélioration continue de la sécurité de l'information dans votre entreprise.
 
 
-<div class="well well--blue-outline">
-    Advantages:
+## Advantages:
 
-    <ul>
-        <li>Gratuit et sans engagement - pour le Luxembourg exclusivement</li>
-        <li>Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables</li>
-    </ul>
+* Gratuit et sans engagement - pour le Luxembourg exclusivement
+* Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables
 
-    <b>N'attendez plus!</b> Faites votre Fit4Cybersecurtiy et postulez pour votre diagnostic CASES par la suite.
-</div>
+**N'attendez plus!** Faites votre Fit4Cybersecurtiy et postulez pour votre diagnostic CASES par la suite.

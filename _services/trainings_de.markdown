@@ -23,7 +23,7 @@ Die Kurse wenden sich an verschiedene Fachpublika:
 * [Schulung für Kursleiter]({% link _services/trainings/trainthetrainer_de.markdown %})
 
 
-## VORTEILE:
+## Vorteile
 
 * Produktivitätssteigerungen durch Schadensvorbeugung
 * Eine positive Dynamik in Ihren Teams
