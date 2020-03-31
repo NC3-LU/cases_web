@@ -23,7 +23,7 @@ Le catalogue de formations CASES s'adresse aux différents publics professionnel
 * [Formation des formateurs]({% link _services/trainings/trainthetrainer_fr.markdown %})
 
 
-## Aventages
+## Avantages
 Les formations CASES vous apportent :
 
 * des gains de productivité (moins de temps perdu à "réparer" les dégâts)

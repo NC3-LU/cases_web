@@ -23,7 +23,7 @@ The CASES training catalogue targets different professional audiences:
 * [Training for trainers]({% link _services/trainings/trainthetrainer.markdown %})
 
 
-## Benefits
+## Advantages
 CASES offers **you**:
 
 * productivity gains (less time wasted in "repairing" damage)
