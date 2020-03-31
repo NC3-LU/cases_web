@@ -8,13 +8,13 @@ short: "The CASES Trainings will teach information security knowledge and good p
 lang: de
 ref: trainings
 ---
-### Warum?
+## Warum?
 Informationssicherheit funktioniert nur als gemeinsame Anstrengung.
 
 CASES bietet Kurse an, in denen Ihren Teams Kenntnisse über Cybersicherheit vermittelt und bewährte Praktiken erlernt werden. Durch diese Kurse werden Ihre Angestellten angeleitet, Erfahrungen auszutauschen, und  das gewonnene Wissen weiterzugeben.
 
 
-### Wie?
+## Wie?
 Die Kurse wenden sich an verschiedene Fachpublika:
 
 * [Einführung in die Informationssicherheit]({% link _services/trainings/initiation_de.markdown %})
@@ -23,7 +23,7 @@ Die Kurse wenden sich an verschiedene Fachpublika:
 * [Schulung für Kursleiter]({% link _services/trainings/trainthetrainer_de.markdown %})
 
 
-### VORTEILE:
+## VORTEILE:
 
 * Produktivitätssteigerungen durch Schadensvorbeugung
 * Eine positive Dynamik in Ihren Teams
