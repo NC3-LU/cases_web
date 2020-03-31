@@ -50,7 +50,7 @@ Chaque risque peut avoir différents types d’impact. Ce tableau représente le
 <tr>
 <th>Risques</th>
 <th>Impacts très probables</th>
-<th>mpacts possibles</th>
+<th>Impacts possibles</th>
 </tr>
 <tr>
 <td>Incendie</td>
