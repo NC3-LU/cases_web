@@ -53,7 +53,7 @@ entrer dans une autre zone du réseau interne.
 La sécurité peut être améliorée à l’aide de commutateurs permettant
 l’isolation des ports ; ainsi tous les serveurs se retrouvent isolés
 entre eux, ce qui permet de contenir les
-[attaques](https://www.cases.lu/fr/attaque-informatique.html) en cas de
+[attaques]({% link _knowhow/glossary/ComputerHacks_fr.markdown %}) en cas de
 compromission de serveur.
 
 Zone verte - Les ordinateurs du personnel
@@ -65,9 +65,9 @@ serveurs. En zone verte, le fait que les machines puissent parler entre
 elles peut se révéler utile, une isolation des stations n’est donc pas
 toujours souhaitable.
 
-Souvent, des [proxys web](https://www.cases.lu/fr/filtre-web-proxy.html)
+Souvent, des [proxys web]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %})
 de filtrage de pages et détection de
-[virus](https://www.cases.lu/fr/logiciels-malveillants.html) seront
+[virus]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) seront
 avantageusement installés pour amoindrir les dangers issus de
 l’Internet.
 
@@ -110,9 +110,9 @@ précautions.
 Pratique
 --------
 Une bonne segmentation de réseau ne peut se faire qu’avec les outils
-adéquats. [Firewalls](https://www.cases.lu/fr/pare-feu-firewall.html),
+adéquats. [Firewalls]({% link _knowhow/glossary/Firewall_fr.markdown %}),
 commutateurs et, le cas échéant, antennes
-[wifi](https://www.cases.lu/fr/securiser-le-reseau-wifi.html)
+[wifi]({% link _publications/recommendationsecuring/SecuringWifiNetwork_fr.markdown %})
 constituent le cœur d’un réseau segmenté avec lesquels il est possible
 d’obtenir de bons résultats même à moindre prix en utilisant des
 produits libres. La segmentation de réseau est à la portée de tous et
@@ -130,10 +130,9 @@ et sécurité peut être difficile à gérer, de fait, celui-ci ne peut pas
 Une bonne segmentation du réseau ne constitue pas une protection absolue
 et ne devrait pas être considérée comme telle, mais plutôt comme outil
 nécessaire à la mise en place d’autres mesures de sécurité comme des
-[systèmes de détection
-d’intrusion](https://www.cases.lu/fr/ids-ips.html),
-[filtrages](https://www.cases.lu/fr/filtre-web-proxy.html),
-[antivirus](https://www.cases.lu/fr/antivirus.html), etc.
+[systèmes de détection d’intrusion]({% link _knowhow/glossary/IDS-IPS_fr.markdown %}),
+[filtrages]({% link _knowhow/glossary/WebFilterProxy_fr.markdown %}),
+[antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}), etc.
 
 
 

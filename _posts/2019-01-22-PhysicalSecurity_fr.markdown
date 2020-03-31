@@ -160,7 +160,7 @@ Accès physique restreint
 
 </table>
 
-Le visiteur peut poser un risque important (vol ou espionnage) en cas d’une réception ou de contrôle d’accès insuffisants. Plusieurs défaillances ont été constatées en matière d’accueil des visiteurs lors des [diagnostics CASES](https://www.cases.lu/diagnostic.html) réalisés ces dernières années : notamment le manque d’accompagnement ou d’occupation de réception et l’absence de contrôle d’accès aux locaux sensibles.
+Le visiteur peut poser un risque important (vol ou espionnage) en cas d’une réception ou de contrôle d’accès insuffisants. Plusieurs défaillances ont été constatées en matière d’accueil des visiteurs lors des [diagnostics CASES]({% link _services/diagnostic_fr.markdown %}) réalisés ces dernières années : notamment le manque d’accompagnement ou d’occupation de réception et l’absence de contrôle d’accès aux locaux sensibles.
 
 Des fois, les imprimantes dans les couloirs sont utilisées pour imprimer des données sensibles. Et souvent, les employées n’ont pas directement récupéré les impressions – beaucoup de temps pour lire ou faire des copies.
 

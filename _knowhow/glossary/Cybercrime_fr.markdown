@@ -52,10 +52,9 @@ les réseaux de prostitution, le racisme, révisionnisme, etc.).
 
 Attaque de type technologique
 -----------------------------
-Ce type d’[attaque](https://www.cases.lu/fr/attaque-informatique.html) a
+Ce type d’[attaque]({% link _knowhow/glossary/ComputerHacks_fr.markdown %}) a
 fortement évolué depuis son apparition ; elle exploite essentiellement
-les nombreuses
-[vulnérabilités](https://www.cases.lu/fr/vulnerabilites.html) de l'outil
+les nombreuses [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) de l'outil
 informatique. Les attaques les plus répandues sont :
 
 * l'installation de programmes espions;
@@ -82,9 +81,7 @@ Elles visent soit la confidentialité, l’intégrité ou encore la
 disponibilité d’un système informatique (voire une combinaison des
 trois).
 
-Pour déployer des logiciels malveillants, le [pirate
-informatique](https://www.cases.lu/fr/cybercriminels.html) se focalise
-généralement sur une des alternatives suivantes:
+Pour déployer des logiciels malveillants, le [pirate informatique]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}) se focalise généralement sur une des alternatives suivantes:
 
 
 Attaque opportuniste
@@ -97,8 +94,7 @@ La plupart des gens et organisations sont soumis à cette menace.
 Voici quelques étapes courantes de ce genre d'attaques:
 
 ### La création ou l'achat d'un logiciel malveillant
-Un [logiciel
-malveillant](https://www.cases.lu/fr/logiciels-malveillants.html) donne
+Un [logiciel malveillant]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) donne
 à l'attaquant un outil de contrôle absolu sur les ordinateurs de ses
 victimes. De ce fait il constitue la pierre angulaire de beaucoup
 d'attaques opportunistes.
@@ -109,14 +105,14 @@ Atteindre une large population de victimes ne se fait pas sans une bonne
 distribution. Que se soit pour une arnaque ou pour l'infection
 d'ordinateurs il faut pouvoir atteindre un large public. L'envoi
 d'e-mails ou le
-[SPAM](https://www.cases.lu/fr/spam-les-courriers-indesirables.html) sur
+[SPAM]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}) sur
 réseaux sociaux peut-être une très bonne méthode.
 
 ### La création de sites malicieux et l'infection de sites existants
 
 Avoir une présence sur la toile n'est pas seulement important pour les
 organismes légitimes mais aussi pour les cybercriminels. Création de
-[sites](https://www.cases.lu/fr/sites-web-malicieux.html) de phishing,
+[sites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %}) de phishing,
 publicités, arnaques, pages contenant un exploit qui infectera les
 ordinateur des internautes, etc.
 

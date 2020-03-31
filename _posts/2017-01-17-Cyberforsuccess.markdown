@@ -24,11 +24,11 @@ Il est donc primordial de protéger correctement son système d’information et
 * Analyse des risques
 * Aides publiques (Nouveauté)
 
-Le [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity.markdown %}) est un outil d’autoévaluation en ligne permettant aux entreprises d'évaluer la maturité d’une organisation en termes de bonnes pratiques applicables en matière de sécurité de l’information.
+Le [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity_fr.markdown %}) est un outil d’autoévaluation en ligne permettant aux entreprises d'évaluer la maturité d’une organisation en termes de bonnes pratiques applicables en matière de sécurité de l’information.
 
-Les entreprises qui veulent progresser davantage et bénéficier d’un regard externe sur leur sécurité, peuvent s’adresser à CASES pour un [diagnostic gratuit]({% link _services/diagnostic.markdown %}) sous condition d'un un score minimum de 65/100 sur le Fit4Cybersecurity.
+Les entreprises qui veulent progresser davantage et bénéficier d’un regard externe sur leur sécurité, peuvent s’adresser à CASES pour un [diagnostic gratuit]({% link _services/diagnostic_fr.markdown %}) sous condition d'un un score minimum de 65/100 sur le Fit4Cybersecurity.
 
-Ensuite, rien de tel qu’une analyse complète des risques pour pouvoir les gérer d’une manière systématique. CASES propose à ce stade une méthode qui permet à ses utilisateurs d’économiser beaucoup de temps et d’argent grâce à la capitalisation réalisée sur les analyses de risques antérieures. Cette méthode baptisée [MONARC]({% link _services/monarc.markdown %}) (Méthode Optimisée d’Analyse des Risques CASES) a l’immense avantage de d’abaisser considérablement la barrière d’accès à une analyse de risques complète. Il s’agit d’un outil performant qui s’use uniquement si on ne s’en sert pas.
+Ensuite, rien de tel qu’une analyse complète des risques pour pouvoir les gérer d’une manière systématique. CASES propose à ce stade une méthode qui permet à ses utilisateurs d’économiser beaucoup de temps et d’argent grâce à la capitalisation réalisée sur les analyses de risques antérieures. Cette méthode baptisée [MONARC]({% link _services/monarc_fr.markdown %}) (Méthode Optimisée d’Analyse des Risques CASES) a l’immense avantage de d’abaisser considérablement la barrière d’accès à une analyse de risques complète. Il s’agit d’un outil performant qui s’use uniquement si on ne s’en sert pas.
 
 Enfin, la cerise sur le gâteau est d’ordre financier : les entreprises qui feront appel à des experts en matière de sécurité de l’information pourront recevoir des aides allant jusqu’à 50% des frais. Le conseil et l’implémentation des mesures de protection sont éligibles à ces aides.
 

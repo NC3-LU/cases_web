@@ -159,7 +159,7 @@ Restricted physical access
 
 </table>
 
-Visitors can pose a significant risk (theft or espionage) if there is insufficient tracking or access control. In recent years, [CASES specific diagnostics](https://www.cases.lu/diagnostic.html) have recorded several failures linked to the reception and tracking of visitors: notably the lack of support or occupancy of the reception area and a lack of access control to sensitive locations.
+Visitors can pose a significant risk (theft or espionage) if there is insufficient tracking or access control. In recent years, [CASES specific diagnostics]({% link _services/diagnostic.markdown %}) have recorded several failures linked to the reception and tracking of visitors: notably the lack of support or occupancy of the reception area and a lack of access control to sensitive locations.
 
 Sometimes printers located in corridors are used to print sensitive data and many times employees do not immediately recover their printouts – this leaves a lot of time to read or make copies of sensitive information.
 

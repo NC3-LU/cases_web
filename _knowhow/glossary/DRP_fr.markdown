@@ -44,8 +44,7 @@ Objective – RPO)
 
 Toute entité désirant concevoir un plan de reprise d’activité devra
 initialement définir les buts de sécurité en fonction de ces besoins
-élémentaires ([Voir gestion des
-risques](https://www.cases.lu/fr/gestion-du-risque.html)).
+élémentaires ([Voir gestion des risques]({% link _knowhow/glossary/RiskProcessing_fr.markdown %})).
 
 RTO
 ---
@@ -108,7 +107,7 @@ Les exemples précédents sont variables sur les notions de RPO et de RTO
 et démontrent qu’un plan de secours doit reposer sur différentes
 technologies afin de répondre à une multitude de sinistres.
 
--   [Sauvegardes](https://www.cases.lu/fr/sauvegarde-des-donnees.html),
+-   [Sauvegardes]({% link _knowhow/glossary/DataBackups_fr.markdown %}),
 -   Matériels de remplacement,
 -   Moyens informatiques redondants répondant à une exigence de haute
     disponibilité,
@@ -155,7 +154,7 @@ modéliser les relations salle serveurs - serveurs – stockage – flux –
 applications – bases de données.
 
 ### **3. Classification**
-La [classification](https://www.cases.lu/fr/classification.html)des
+La [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) des
 actifs doit être l’aboutissement d’un processus impliquant les
 responsables métier (commerce, comptabilité, …), le responsable
 informatique et un membre de la direction.
@@ -297,8 +296,7 @@ scénario.
 **Scénario 1 : Exploitation d’une faiblesse wifi par une entité
 malveillante**
 
-=&gt; [L’analyse de
-risques](https://www.cases.lu/fr/gestion-du-risque.html&WCE_section_107_1=1#749)
+=&gt; [L’analyse de risques]({% link _knowhow/glossary/RiskProcessing_fr.markdown %})
 a préalablement détectée une vulnérabilité sur l’infrastructure wifi
 donnant accès au réseau interne. La clé WPA n’a pas été changée depuis 2
 ans, le [mot de passe]({% link _knowhow/glossary/Password_fr.markdown %}) est faible et il est connu de tous le personnel

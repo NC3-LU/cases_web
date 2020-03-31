@@ -50,6 +50,6 @@ The BYOD is a growing trend that has already been addressed by CASES through an 
 
 ## CASES expert voice
 "The most important point with BYOD is to consider the overall situation to anticipate any incidents that may occur. Here are some tips for doing this:
-*	Hold regular  [information security awareness sessions](https://www.cases.lu/services/trainings.html) that cover, among other things, this theme.
+*	Hold regular  [information security awareness sessions]({% link _services/trainings.markdown %}) that cover, among other things, this theme.
 *	Define the types of information allowed on personal devices based on the classification of the data and the actual needs of the business
 *	Integrate BYOD into risk analysis without neglecting applications that can be a source of information leakage, such as cloud applications that enable fast file sharing.”

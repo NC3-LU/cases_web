@@ -50,6 +50,6 @@ Le BYOD est une tendance croissante qui a déjà été abordée par CASES dans u
 
 ## La parole donnée à un expert CASES
  Le plus important avec le BYOD c’est de prendre le problème dans sa globalité pour anticiper tous les incidents qui pourraient survenir. Pour se faire, voici quelques astuces :
-*	Organiser régulièrement des sessions de [sensibilisations à la sécurité de l’information](https://www.cases.lu/services/trainings.html) abordant, entre autres, ce thème.
+*	Organiser régulièrement des sessions de [sensibilisations à la sécurité de l’information]({% link _services/trainings_fr.markdown %}) abordant, entre autres, ce thème.
 *	Définir les types d’information qui sont autorisées sur les appareils personnels en accord avec la classification des données et les réels besoins métiers.
 *	Intégrer le BYOD à l’analyse des risques en ne négligeant pas les applications qui peuvent se révéler être source de fuite d’informations comme les applications « cloud » qui permettent un partage de fichiers rapide.
