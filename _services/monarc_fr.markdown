@@ -47,7 +47,7 @@ Cette étape permet de réaliser l'estimation, l'évaluation et le traitement de
 #### 4ème étape: Suivi et contrôle
 Il s'agit de la mise en oeuvre du plan de traitement des risques.
 
-## Advantages
+## Avantages
 MONARC livre des résultats plus approfondis que le Diagnostic CASES.
 
 Vous bénéficierez :
@@ -55,7 +55,7 @@ Vous bénéficierez :
 * de connaissances spécifiques sur l’exposition aux risques liés à vos processus métiers
 * de recommandations spécialement adaptées à la situation de votre organisation
 * des méthodologies et outils CASES, basés sur la famille des normes ISO 27001 en matière de sécurité de l’information
-* de l’accès à la plateforme « my.cases.lu » et aux experts labellisés CASES
+* de l’accès à la plateforme [my.monarc.lu](https://my.monarc.lu)
 
 Pour plus d'informations: [site MONARC](https://www.monarc.lu) N'hésitez plus! [Contactez-nous!](mailto:services@cases.lu?subject=MONARC)
 

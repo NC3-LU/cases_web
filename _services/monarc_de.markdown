@@ -56,7 +56,7 @@ Sie profitieren von:
 * spezifischen Wissen über Ihre Risikoexposition in Bezug auf Ihre Geschäftsprozesse
 * speziell auf die Situation Ihrer Organisation zugeschnittene Empfehlungen
 * CASES-Methoden und -Tools auf der Grundlage der ISO 27001-Familie von Informationssicherheitsstandards
-* Zugriff auf die Plattform "my.monarc.lu"
+* Zugriff auf die Plattform [my.monarc.lu](https://my.monarc.lu)
 
 Mehr informationen finden Sie auf der [MONARC website](https://www.monarc.lu). Gerne beantworten wir Ihre Fragen auch persönlich! [Kontaktieren Sie uns](mailto:services@cases.lu?subject=MONARC)
 

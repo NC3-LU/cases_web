@@ -54,7 +54,7 @@ You will benefit from:
 * specific knowledge about your exposure to risk relating to your business processes
 * recommendations specially tailored to the situation of your organisation
 * CASES methodologies and tools, based on the ISO 27001 family of information security standards
-* access to the "my.monarc.lu" platform
+* access to the [my.monarc.lu](https://my.monarc.lu) platform
 
 Why wait? Visit the [MONARC website](https://www.monarc.lu) to find out more [or contact us](mailto:services@cases.lu?subject=MONARC)!
 
