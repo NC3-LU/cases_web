@@ -17,15 +17,15 @@ ref: Fit4Cybersecurity
 
 ## Comment ?
 
-Rendez-vous sur https://startup.cases.lu et cliquez sur le bouton « Démarrer » dans la langue de votre choix. Vous devrez ensuite répondre à une série de questions sur la situation et le fonctionnement de votre organisation. Le questionnaire comporte 13 pages et peut facilement être complété en 15 minutes. Au cas où vous auriez besoin de plus de temps pour trouver les réponses aux questions, vous pouvez interrompre le questionnaire grâce à la fonction « Continuer plus tard ». 
+Rendez-vous sur [startup.cases.lu](https://startup.cases.lu) et cliquez sur le bouton « Démarrer » dans la langue de votre choix. Vous devrez ensuite répondre à une série de questions sur la situation et le fonctionnement de votre organisation. Le questionnaire comporte 13 pages et peut facilement être complété en 15 minutes. Au cas où vous auriez besoin de plus de temps pour trouver les réponses aux questions, vous pouvez interrompre le questionnaire grâce à la fonction « Continuer plus tard ».
 
-Vos réponses partielles seront enregistrées et vous pourrez terminer le questionnaire ultérieurement en utilisant l’adresse url fournie lors de l’enregistrement. 
+Vos réponses partielles seront enregistrées et vous pourrez terminer le questionnaire ultérieurement en utilisant l’adresse url fournie lors de l’enregistrement.
 
 ## Avantages
 
-[Fit4Cybersecurity](http://startup.cases.lu) vous permet de faire un premier diagnostic rapide de la situation de votre entreprise face aux risques cyber. Il offre une porte d’entrée simple et rapide vers l’adoption de bonnes pratiques en matière de cybersécurité et la réduction des risques. 
+[Fit4Cybersecurity](http://startup.cases.lu) vous permet de faire un premier diagnostic rapide de la situation de votre entreprise face aux risques cyber. Il offre une porte d’entrée simple et rapide vers l’adoption de bonnes pratiques en matière de cybersécurité et la réduction des risques.
 
-De plus, vous pourrez télécharger un rapport au format Word (docx), reprendre vos résultats à l'aide d'un identifiant ou du lien qui vous est proposé lors du résultat final. 
+De plus, vous pourrez télécharger un rapport au format Word (docx), reprendre vos résultats à l'aide d'un identifiant ou du lien qui vous est proposé lors du résultat final.
 
 Vous pouvez démarrer votre évaluation en cliquant ci-dessous :
 
