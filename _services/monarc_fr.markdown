@@ -41,7 +41,7 @@ Cette étape permet de réaliser
 * l'appréciation des impacts
 * la synthèse des actifs et impacts
 
-#### 3ème étape: Evaluation and treatment of risks
+#### 3ème étape: Évaluation et traitement des risques
 Cette étape permet de réaliser l'estimation, l'évaluation et le traitement des risques. Elle débouche sur la mise en place d'un plan de gestion des risques.
 
 #### 4ème étape: Suivi et contrôle
