@@ -27,11 +27,7 @@ Then, your assessment could be resumed later by using the URL address given when
 
 Besides, you can download a report on Word format (docx), get your results from an ID or by using the link provided during the final result page.
 
-You can start your self-assessment by clicking below:
-
-<a href="http://startup.cases.lu" style="border: 1px solid #000000; background-color: #00AA00; color:#FFFFFF; padding: 15px; margin: auto 0 auto 0;">Let's GO</a>
-
-### Disclamer
+## Disclamer
 
 Results of this auto-assessment cannot in any way be exhaustive. As such, the actual risk assessment or the list of identified risks and vulnerabilities are based on the information provided by the client. The analysis resulting from this assessment can engage only the customer for any omission or error that would be due to third parties or not.
 

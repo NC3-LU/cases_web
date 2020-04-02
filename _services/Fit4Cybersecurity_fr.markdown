@@ -27,11 +27,7 @@ Vos réponses partielles seront enregistrées et vous pourrez terminer le questi
 
 De plus, vous pourrez télécharger un rapport au format Word (docx), reprendre vos résultats à l'aide d'un identifiant ou du lien qui vous est proposé lors du résultat final.
 
-Vous pouvez démarrer votre évaluation en cliquant ci-dessous :
-
-<a href="http://startup.cases.lu" style="border: 1px solid #000000; background-color: #00AA00; color:#FFFFFF; padding: 15px; margin: auto 0 auto 0;">Démarrer</a>
-
-### Disclaimer
+## Disclaimer
 
 Les résultats de l’auto-évaluation ne peuvent en aucun cas être exhaustifs. À ce titre, l’évaluation des risques ou la liste des risques et vulnérabilités identifiés reposent sur les informations fournies par l’utilisateur. L’analyse résultant de cette évaluation ne peut engager que l’utilisateur ou tiers pour toute omission ou erreur.
 
