@@ -27,10 +27,10 @@ Then, your assessment could be resumed later by using the URL address given when
 
 Besides, you can download a report on Word format (docx), get your results from an ID or by using the link provided during the final result page.
 
-## Disclamer
+## Disclaimer
 
 Results of this auto-assessment cannot in any way be exhaustive. As such, the actual risk assessment or the list of identified risks and vulnerabilities are based on the information provided by the client. The analysis resulting from this assessment can engage only the customer for any omission or error that would be due to third parties or not.
 
 The tool, [Fit4Cybersecurity](http://startup.cases.lu) can possibly provide recommendations. It is understood by the client that the recommendations are neither exclusive nor exhaustive.
 
-It should also be noted that the information you have provided to us will be recorded for statistical reasons. Due to the nature of the data, we cannot identify you. Unless you later contact us to do a Diagnostic CASES.
+It should also be noted that the information you have provided to us will be recorded for statistical reasons. Due to the nature of the data, we cannot identify you. Unless you later contact us to do a CASES Diagnostic.

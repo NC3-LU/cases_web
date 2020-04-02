@@ -19,7 +19,7 @@ ref: Fit4Cybersecurity
 
 Rendez-vous sur [startup.cases.lu](https://startup.cases.lu) et cliquez sur le bouton « Démarrer » dans la langue de votre choix. Vous devrez ensuite répondre à une série de questions sur la situation et le fonctionnement de votre organisation. Le questionnaire comporte 13 pages et peut facilement être complété en 15 minutes. Au cas où vous auriez besoin de plus de temps pour trouver les réponses aux questions, vous pouvez interrompre le questionnaire grâce à la fonction « Continuer plus tard ».
 
-Vos réponses partielles seront enregistrées et vous pourrez terminer le questionnaire ultérieurement en utilisant l’adresse url fournie lors de l’enregistrement.
+Vos réponses partielles seront enregistrées et vous pourrez terminer le questionnaire ultérieurement en utilisant l’adresse URL fournie lors de l’enregistrement.
 
 ## Avantages
 
@@ -29,8 +29,8 @@ De plus, vous pourrez télécharger un rapport au format Word (docx), reprendre 
 
 ## Disclaimer
 
-Les résultats de l’auto-évaluation ne peuvent en aucun cas être exhaustifs. À ce titre, l’évaluation des risques ou la liste des risques et vulnérabilités identifiés reposent sur les informations fournies par l’utilisateur. L’analyse résultant de cette évaluation ne peut engager que l’utilisateur ou tiers pour toute omission ou erreur.
+Les résultats de l’autoévaluation ne peuvent en aucun cas être exhaustifs. À ce titre, l’évaluation des risques ou la liste des risques et vulnérabilités identifiés reposent sur les informations fournies par l’utilisateur. L’analyse résultant de cette évaluation ne peut engager que l’utilisateur ou tiers pour toute omission ou erreur.
 
 L’outil [Fit4Cybersecurity](http://startup.cases.lu) peut éventuellement fournir des recommandations. L’utilisateur comprend que les recommandations ne sont ni exclusives ni exhaustives.
 
-Les résultats de l’auto-évaluation ainsi que l’ensemble des données fournies par l’utilisateur sont enregistrés à des fins statistiques. Aucune donnée personnelle n’est enregistrée. Les résultats des tests restent anonymes  sauf sur demande de l’utilisateur, par exemple dans le cadre d’un Diagnostic CASES.
+Les résultats de l’autoévaluation ainsi que l’ensemble des données fournies par l’utilisateur sont enregistrés à des fins statistiques. Aucune donnée personnelle n’est enregistrée. Les résultats des tests restent anonymes  sauf sur demande de l’utilisateur, par exemple dans le cadre d’un Diagnostic CASES.
