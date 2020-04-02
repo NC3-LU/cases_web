@@ -23,7 +23,7 @@ Then, your assessment could be resumed later by using the URL address given when
 
 ## Advantages
 
-[Fit4Cybersecurity](http://startup.cases.lu) is a first and quick diagnostic of the situation of your company to cyber risks. It can be a simple way to get best practices in the world of security information risks or cybersecurity.
+[Fit4Cybersecurity](http://startup.cases.lu) is a first and quick diagnostic of the situation of your company to cyber risks. It can be a simple way to get best practices in the world of information security risks or cybersecurity.
 
 Besides, you can download a report on Word format (docx), get your results from an ID or by using the link provided during the final result page.
 
