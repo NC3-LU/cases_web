@@ -82,7 +82,7 @@ fonction d’un incident. Il a pour objectif de modéliser les notions de
 RPO et de RTO pour montrer leur différence, mais aussi leur
 complémentarité.
 
-![](data/doc-334/20131120/1131_1.png)
+<img src="{% link assets/img/knowhow/glossary/RPO-RTO.png %}" />
 
 
 En fonction de l’importance du sinistre, un plan de reprise doit pouvoir
