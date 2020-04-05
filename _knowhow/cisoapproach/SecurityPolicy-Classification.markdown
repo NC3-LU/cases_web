@@ -13,21 +13,19 @@ lang: en
 ---
 Asset identification and classification are integral to risk management and are key elements of information security management (also called Information Security Management System – ISMS, see [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %})). They define security needs in terms of confidentiality, availability and integrity.
 
-Draft and enforce a sectoral policy on classification and control of resources
-
 ## Classification principles
 
-* The greater the impact of a disclosure, the higher the confidentiality classification will need to be.
+* The greater the impact of disclosure, the higher the confidentiality classification will need to be.
 * The greater the impact of a loss due to the compromise of an asset, the higher the integrity classification will need to be.
 * The longer the impact of a prolonged disruption to legitimate access to the asset, the higher the availability classification will need to be.
 
 ## Importance of classification
-Asset classification is primarily used to perform risk analysis. Such classification requires that the criticality of an asset (= classification level – potential impact) be associated with the associated threats and vulnerabilities.
+Asset classification is primarily used to perform risk analysis. Such classification requires that the criticality of an asset (= classification level – potential impact) is associated with threats and vulnerabilities.
 
-The classification will enable risks to be assessed as objectively as possible and a plan to be established to respond to them. The beneficiary will therefore be able to ensure that major risks are reduced, given the available investment.
+The classification will enable risks to be assessed as objectively as possible and a plan to be established to respond to them. The beneficiary will, therefore, be able to ensure that major risks are reduced, given the available investment.
 
 ## Classification scheme
-Each company has assets that are more or less critical to ensuring that it runs smoothly. These assets include business processes, people, information and of course machines. In order to implement efficient and effective security measures, it is necessary to define a level of protection to be provided for each asset.
+Each company has assets that are more or less critical to ensuring that it runs smoothly. These assets include business processes, people, information and - of course - machines. To implement efficient and effective security measures, it is necessary to define a level of protection to be provided for each asset.
 
 This means it is important to classify assets and determine their criticality in terms of the level of confidentiality, integrity and availability.
 
@@ -71,7 +69,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
     </td>
     <td>
       <strong>Orange</strong><br /><br />
-      Limited distribution, within organization, but only on a ‘need-to-know’ basis.
+      Limited distribution, within the organisation, but only on a ‘need-to-know’ basis.
     </td>
   </tr>
   <tr>
@@ -88,7 +86,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
     </td>
     <td>
       <strong>Green</strong><br /><br />
-      Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community.
+      Community-wide. Circulation, may not be published or posted on the Internet, nor released outside of the community.
     </td>
   </tr>
   <tr>
@@ -116,7 +114,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
       <ol>
         <li>Information where disclosure is not generally harmful.</li>
         <li>Can circulate freely because accessible outside the organisation.</li>
-        <li>Various publications, information content of a website.</li>
+        <li>Various publications, the information content of a website.</li>
         <li>No constraints on use or transmission.</li>
       </ol>
     </td>
@@ -188,7 +186,7 @@ Availability is expressed in terms of estimated time to recover from any failure
     <th>Category</th>
     <th>Category code</th>
     <th>Downtime per year in calendar days</th>
-    <th>owntime per year in working days</th>
+    <th>Downtime per year in working days</th>
   </tr>
   <tr>
     <td>1</td>
@@ -230,6 +228,6 @@ Availability is expressed in terms of estimated time to recover from any failure
     <td>7</td>
     <td>0.1D</td>
     <td>1 hour</td>
-    <td>1 hours</td>
+    <td>1 hour</td>
   </tr>
 </table>
