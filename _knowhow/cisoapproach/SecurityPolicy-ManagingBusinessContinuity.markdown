@@ -37,4 +37,4 @@ One of the following scenarios should be chosen for each of the resources indexe
 
 During the annual review of the list of resources, the question should be asked again to see if the same solution is still applicable and best suited to meet requirements.
 
-Similarly, in the event of the total loss of premises and technological and IT resources, it would be better to plan for business to recommence in other premises within the shortest possible time. Resources which are non-essential, but which the company must have at minimum (e.g.: telephones and PCs) can be obtained from our suppliers within a specified time frame.
+Similarly, in the event of the total loss of premises and technological and IT resources, it would be better to plan for the business to recommence in other premises within the shortest possible time. Resources which are non-essential, but which the company must have at minimum (e.g.: telephones and PCs) can be obtained from our suppliers within a specified time frame.
