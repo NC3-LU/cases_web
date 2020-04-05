@@ -12,7 +12,7 @@ ref: cisooperationalcommunicationaspects
 lang: en
 ---
 ## Documentation of procedures
-All operations concerning the processing of information must be documented. This applies to planned processing (batches), system shut-downs and restarts and data backup procedures.
+All operations concerning the processing of information must be documented. This applies to planned processing (batches), system shut-downs and restarts, and data backup procedures.
 
 In addition to the everyday operations to be carried out, these procedures must specify:
 
@@ -21,9 +21,9 @@ In addition to the everyday operations to be carried out, these procedures must 
 * what to do with the output (listings, print-outs, etc.)
 * ...
 
-The procedures are updated by the IT manager and saved in specific, easily accessible locations. It goes without saying that the employees concerned must know about these procedures and follow them.
+The procedures are updated by the IT manager and saved in specific, easily accessible locations. The employees concerned must know about these procedures and follow them.
 
-The attached section is optional, but important for organisations that use servers. Nevertheless, documenting at least the backup procedures still applies in all other cases.
+The attached section is optional but important for organisations that use servers. Nevertheless, documenting at least the backup procedures still applies in all other cases.
 
 ### Applying security measures to:
 
@@ -37,13 +37,8 @@ The attached section is optional, but important for organisations that use serve
   * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
 
 ## Separation of environments
-It is preferable to separate devices that deal with software development activities or test activities from those on which products in production are installed.
-
-This separation aims to limit the risk of modifications to actual data.
-
-The use of production data located in test environments (which tend to be less well protected) is, in fact, not recommended.
-
-In particular if critical data (from the point of view of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %})), trade secrets or personal data is processed there.
+It is preferable to separate devices that deal with software development activities or test activities from those on which products in relation to production are installed. This separation aims to limit the risk of modifications to actual data. The use of production data located in test environments (which tend to be less well protected) is, in fact, not recommended.
+In particular, if critical data ([confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %})), trade secrets or personal data is processed there.
 
 ### Applying security measures to:
 
@@ -58,19 +53,17 @@ In particular if critical data (from the point of view of [confidentiality]({% l
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
 ## Outsourcing of resource management
-With regard to resources managed by external companies, it is important to first assess the organisation’s critical security points and indicate the specific management measures in the service agreement.
-
-Here, we talk about “outsourcing” or “facilities management”.
+Concerning resources managed by external companies, it is important to first assess the organisation’s critical security points and indicate the specific management measures in the service agreement. Here, we talk about “outsourcing” or “facilities management”.
 
 ### Applying security measures to:
 * Computers and servers that are managed by external companies. In the case of remote management, it is very important to provide specific terms for access controls (see [External connections]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)).
 
 ## Protection against malware
-An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %}), such as, in particular, USB flash drives and emails,
+An attack by a virus or other [malicious software]({% link _knowhow/glossary/MaliciousCodes.markdown %}) is one of the most likely risks for any computer user. They can infiltrate the “organisation” through [removable devices]({% link _knowhow/glossary/RemovableDevices.markdown %}), such as, in particular, USB flash drives and emails.
 
-The “organisation’s” computers and servers must be equipped with [antivirus software]({% link _knowhow/glossary/AntiVirus.markdown %}). The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see [security measures for file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %}) and [security measures for email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})).
+The organisation’s computers and servers must be equipped with [antivirus software]({% link _knowhow/glossary/AntiVirus.markdown %}). The IT manager is responsible for installing these tools on each device and ensuring they are always up to date. This concerns both the users’ workstations and the servers (see [security measures for file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %}) and [security measures for email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})).
 
-On the other hand, a large number of measures must be respected by the users to avoid compromising security. It is prohibited to:
+On the other hand, numerous measures must be respected by users to avoid compromising security. It is prohibited to:
 
 * prevent the antivirus tools from running (deactivating them, reconfiguring them, turning off updates, etc.);
 * install software that has not been approved by the IT manager (SMEs: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software));
@@ -109,7 +102,7 @@ Incoming email verification tools deal not only with viruses, but can also elimi
   * [Management of technical vulnerabilities]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#managing-technical-vulnerabilities)
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
-  * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
+  * [Incident management and improvements of information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
@@ -124,19 +117,19 @@ Incoming email verification tools deal not only with viruses, but can also elimi
 * [Cryptography]({% link _knowhow/glossary/Cryptography.markdown %})
 
 ## Data backups
-It is essential for an organisation to back up their data and their specific, or specifically configured, software. A disaster (fire, flood) or, more commonly, a hard drive problem could easily destroy all of this information. (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire) and [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport)).
+It is essential for an organisation to back up their data and their specific, or specifically configured, software. A disaster (fire, flood) or, more commonly, a hard drive problem could easily destroy all information (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire) and [Failure of IT or communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport)).
 
 In the event of a large disaster, equipment that has been destroyed can usually be replaced; however, it is often impossible to reproduce lost data, which may lead to a company’s closure.
 
-Backing up important or crucial information ([classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) should be done at a regularity compatible with the level of importance of the *organisation’s* activities.
+Backing up important or crucial information ([classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) should be done regularly with respect to the level of importance of the *organisation’s* activities.
 
-The backup cycle can take place at 3 levels, depending on the type of information. A daily backup on a device that is reused weekly (Monday’s backup erases the backup from Monday of the previous week, for example). A weekly backup with a cycle of 4 to 5 weeks. A monthly backup with an annual cycle. The weekly backup can in fact be turned into a monthly backup once a month (the last day of the month). The last annual backup is archived “indefinitely” in case of legal requirements.
+The backup cycle can take place at 3 levels, depending on the type of information. A daily backup on a device that is reused weekly (Monday’s backup erases the backup from Monday of the previous week, for example). A weekly backup with a cycle of 4 to 5 weeks. A monthly backup with an annual cycle. The weekly backup can, in fact, be turned into a monthly backup once a month (the last day of the month). The last annual backup is archived “indefinitely” in case of legal requirements.
 
 The weekly and monthly backups must be stored in a specific location that guarantees the same security conditions as those used in the security perimeter, if possible at a remote location.
 
 Unused devices must be erased or destroyed. This applies to all media, whether digital, paper or otherwise (SMEs: see [Disposal]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#disposal-and-reuse-of-equipment) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)).
 
-Data backups can also be useful in the event of human error (SMEs: see [Human errors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})), in order to restart the IT system from a previously reliable position. A data recovery procedure is necessary in this case and, additionally, it will give you an opportunity to test the procedure. In fact, the procedures should be tested annually.
+Data backups can also be useful in the event of human error (SMEs: see [Human errors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})), to restart the IT system from a previously reliable position. A data recovery procedure is necessary in this case and, additionally, it will allow you to test the procedure. The procedures should be tested annually.
 
 ### Applying security measures to:
 
@@ -192,12 +185,11 @@ When transporting or sending devices containing the “organisation’s” data,
 * [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption)
 
 ## Email
-Email that is transmitted across the Internet can in no way be considered a secure means of communication. This is because the email may be accidentally sent to the wrong recipients, or be edited or read by a third party. As a result, any operation for which the “organisation” is responsible would be better confirmed by an additional means (telephone, letter, fax, etc.). This would prevent recipient error or changes to prices or quantities on orders, for example. ([good email practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}))
-
+Emails that are transmitted across the Internet can in no way be considered a secure means of communication. This is because the email may be accidentally sent to a wrong recipient, or be edited or read by a third party. As a result, any operation for which the “organisation” is responsible would be better confirmed by an additional means (telephone, letter, fax, etc.). This would prevent recipient error or changes to prices or quantities on orders, for example ([good email practices]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})).
 
 Avoid sending confidential information by email. If applicable, use an approved encryption tool with your correspondents.
 
-The “organisation’s” messaging system is intended for professional use. Moderate personal use may be tolerated. The user is held personally responsible in the case of the criminal use of tools. Please note that, in response to traceability restrictions, it is possible that part or all of the messages exchanged by members of the “organisation” will be saved. (SMEs: see [Misuse of organisation’s resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
+The “organisation’s” messaging system is intended for professional use. Moderate personal use may be tolerated. The user is held personally responsible in the case of the criminal use of tools. Please note that, in response to traceability restrictions, it is possible that part or all of the messages exchanged by members of the “organisation” will be saved (SMEs: see [Misuse of the organisation’s resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources)).
 
 ### Applying security measures to:
 
