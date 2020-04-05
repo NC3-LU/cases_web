@@ -12,7 +12,7 @@ ref: cisocompliance
 lang: en
 ---
 ## Comply with legislation
-Non-compliance with information technology legislation may put the *organisation* in a delicate situation ([impacts]({% link _knowhow/glossary/Impact.markdown %})) with regard to its customers (brand image). It can also result in financial (fines) or penal (liability of legal persons) consequences. The *organisation* must therefore respect the law, notably with regard to:
+Non-compliance with information technology legislation may put the *organisation* in a delicate situation ([impacts]({% link _knowhow/glossary/Impact.markdown %})) with regard to its customers (brand image). It can also result in financial (fines) or penal (liability of legal persons) consequences. The *organisation* must, therefore, respect the law with regard to:
 
 * intellectual property and copyright
 * protection of mandatory operational data and personal data. (SMEs: see [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements) and [Lack of traceability of operations]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#lack-of-traceability-of-operations)).
@@ -22,7 +22,7 @@ The *organisation* must also ensure the respect of [copyright]({% link _knowhow/
 
 The IT team is expected to check the requirements for both programs used and data owned by the organisation. In case of doubt, they can consult Luxembourg law at https://meco.gouvernement.lu/fr/le-ministere/domaines-activite/propriete-intellectuelle.html (in French), or contact a legal expert.
 
-The basic principles on this matter are as follows:
+The basic principles in this matter are as follows:
 
 * any reproduction, public broadcasting or distribution must be authorised by the author;
 * this also applies to online distribution;
@@ -68,9 +68,9 @@ Data corresponding to commercial activity must be kept, in one form or another, 
 * [Backups]({% link _publications/ProtectingYourCompany.markdown %}#data-backups)
 
 ## Personal data protection
-Any file or database created must comply with the General Data Protection Regulation (GDPR). The same applies to processing involving both newly created data and pre-existing data. (SMEs: see [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring))
+Any files or databases created must comply with the General Data Protection Regulation (GDPR). The same applies to processing both newly created and pre-existing data (SMEs: see [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring)).
 
-In order to work within the confines of the laws, the IT manager and the legal manager, having obtained the applicable texts from the [National Commission for Data Protection](https://cnpd.public.lu/en.html) (hereinafter the *Commission*) ensure the adequacy of the structure, notably in the following areas:
+In order to work within the confines of the laws, the IT manager and the legal manager, having obtained the applicable texts from the [National Commission for Data Protection](https://cnpd.public.lu/en.html) (hereinafter the *Commission*) ensure the adequacy of the structure in the following areas:
 
 * declaration of data and processing to the Commission;
 * obtaining authorisation from the Commission whenever necessary;
