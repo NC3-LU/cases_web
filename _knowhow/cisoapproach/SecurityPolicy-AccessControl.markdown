@@ -12,21 +12,17 @@ ref: cisoaccesscontrol
 lang: en
 ---
 ## Access control policy
-Access to applications and data (files, databases) that have been [classified]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation”.
+Access to applications and data (files, databases) that have been [classified]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}) as vital or important is reserved to authorised persons and is forbidden to all other persons, whether internal or external to the “organisation.”
 
-The right to access each of these resources is granted by the data manager, as defined in Section 2 “[Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)”. It also sets out the type of access to the information: read-only, editing or deletion rights.
-
-This is the only person who can grant, modify or withdraw access rights to this data.
-
-Access rights are created on a technical level by the IT manager.
+The right to access each of these resources is granted by the data manager, as defined in Section 2 “[Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)”. It also sets out the type of access to the information: read-only, editing or deletion rights. This is the only person who can grant, modify or withdraw access rights to this data. Access rights are created on a technical level by the IT manager.
 
 ### Applying security measures to:
 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
@@ -48,10 +44,10 @@ Access rights are created on a technical level by the IT manager.
 
 ### Technical measures:
 
-* [authentication]({% link _knowhow/glossary/Authentication.markdown %})
+* [Authentication]({% link _knowhow/glossary/Authentication.markdown %})
 
 ## Access rights management
-Before creating a personal account for a user, the IT manager ensures that [the data manager]({{site.url}}) has given their approval for access to the different user groups, drives, directories and applications. S/he also takes this opportunity to review the group members and their rights.
+Before creating a personal account for a user, the IT manager ensures that the [data manager]({{site.url}}) has given their approval for access to the different user groups, drives, directories and applications. S/he also takes this opportunity to review the group members and their rights.
 
 ### Applying security measures to:
 
@@ -59,8 +55,8 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
@@ -79,7 +75,7 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 
 ### Technical measures:
 
-* [authentication]({% link _knowhow/glossary/Authentication.markdown %})
+* [Authentication]({% link _knowhow/glossary/Authentication.markdown %})
 
 ## Password management
 
@@ -88,8 +84,8 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
@@ -105,21 +101,19 @@ Before creating a personal account for a user, the IT manager ensures that [the 
 
 ### Technical measures:
 
-* [authentication]({% link _knowhow/glossary/Authentication.markdown %})
+* [Authentication]({% link _knowhow/glossary/Authentication.markdown %})
 * [passwords]({% link _knowhow/glossary/Password.markdown %})
 
 ## Use of external networks
-Connection to external networks and, in particular, the Internet must take place under the appropriate conditions.
-
-Here are a few possible scenarios:
+Connection to external networks and, in particular, the Internet must take place under the appropriate conditions. Here are a few possible scenarios:
 
 ### Applying security measures for:
 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
@@ -155,7 +149,7 @@ Here are a few possible scenarios:
 * [web filter]({% link _knowhow/glossary/WebFilterProxy.markdown %})
 
 ## External connections
-Connections from external networks to the “organisation’s” systems must be restricted to a need-only basis. On such occasions, this connection is preferably made via [VPN]({% link _knowhow/glossary/VPN.markdown %}).
+Connections from external networks to the “organisation’s” systems must be restricted to a need-only basis. On such occasions, this connection is preferably made via a [VPN]({% link _knowhow/glossary/VPN.markdown %}) connection.
 
 ### Applying security measures to:
 
@@ -168,7 +162,7 @@ Connections from external networks to the “organisation’s” systems must be
 ### Directly associated organisational measures:
 
 * [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
-  - [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+  - [Third-party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
   * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
   * [Response to incidents and security malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
@@ -195,26 +189,22 @@ Connections from external networks to the “organisation’s” systems must be
 
 ## Separation of networks
 
-In the case of more complex networks with different security zones, a firewall is used to separate these different networks.
+In case of more complex networks with different security zones, a firewall is used to separate these different networks.
 
-The [firewall]({% link _knowhow/glossary/Firewall.markdown %}) is configured so that only the authorised flows and users can pass through.
-
-If a device is too sensitive, it is physically and/or logically separated from the rest of the systems.
-
-See also network segmentation
+The [firewall]({% link _knowhow/glossary/Firewall.markdown %}) is configured so that only the authorised flows and users can pass through. If a device is too sensitive, it is to physically and/or logically separated from the rest of the systems.
 
 ### Applying security measures to:
 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingWebServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
 ## Connection procedures
-The home screens of the various systems are configured in such a way as to:
+The home screens of the various systems are configured in such a way to:
 
 * give the least amount of information possible, and preferably nothing about the system, application or “organisation” until the user has been correctly identified;
 * display a message such as “Access forbidden to unauthorised persons”;
