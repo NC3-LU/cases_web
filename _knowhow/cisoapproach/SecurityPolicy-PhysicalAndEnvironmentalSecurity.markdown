@@ -14,7 +14,7 @@ lang: en
 ## Physical security perimeter
 [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %}) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)).
 
-Always be aware of the actual value of a resource (see [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) in order to be able to plan suitable protection.
+Always be aware of the actual value of a resource (see [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) to be able to plan suitable protection.
 
 All the elements listed as important or vital for “the organisation” must be installed in secure premises. These premises constitute the security perimeter.
 
@@ -25,8 +25,8 @@ All the elements listed as important or vital for “the organisation” must be
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [protect the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises)
 
 ### Directly associated organisational measures:
@@ -42,7 +42,6 @@ All the elements listed as important or vital for “the organisation” must be
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
-
 ### Technical measures:
 
 [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
@@ -51,7 +50,7 @@ All the elements listed as important or vital for “the organisation” must be
 
 ### The premises within the security perimeter should be:
 
-* protected against access by unauthorised persons, and therefore especially by persons not from “the organisation”. (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)). Access should be through a single door and authorised by the IT manager,
+* protected against access by unauthorised persons, especially by persons not from “the organisation” (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)). Access should be through a single door and authorised by the IT manager.
 * protected against fire. The doors should be fire doors and fire alarms should be fitted. (SMEs see: [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
 
 ### The following rules should also be respected:
@@ -60,15 +59,15 @@ All the elements listed as important or vital for “the organisation” must be
 * office equipment such as fax machines and photocopiers should be located within a safe area, but not near more crucial elements, so as not to increase the need for people to access the area for more crucial elements,
 * doors and windows should be kept locked, especially outside office hours,
 * access points, especially on the ground floor, should be protected against unwanted entry, either by grills or by an electronic detection system paired with an audio alarm,
-* hazardous or dangerously flammable materials (including cardboard, paper, waste baskets and cleaning products) should not be stored near vital or important elements.
+* hazardous or dangerously flammable materials (including cardboard, paper, wastebaskets and cleaning products) should not be stored near vital or important elements.
 
 ### To be applied in security measures for:
 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
 * [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
-* [internal WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
-* [customer WiFi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
+* [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
+* [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [computers connected to the Internet]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
@@ -87,7 +86,6 @@ All the elements listed as important or vital for “the organisation” must be
   * [Documented procedures]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#documentation-of-procedures)
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
-
 
 ### Technical measures
 Physical security
@@ -120,9 +118,9 @@ The electricity power supply for vital equipment must be made safe:
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 ## Maintenance
-For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements. (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %})
+For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %}).
 
-When a piece of equipment leaves “the organisation” for maintenance, or when it is discarded, it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
+When a piece of equipment leaves “the organisation” for maintenance, or when it is discarded, it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
 
 See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown %})
 
@@ -135,7 +133,7 @@ See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepai
 
 * [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
   * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+  * [Third-party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 * [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
@@ -147,13 +145,12 @@ See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepai
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
 
-
 ### Technical measures
 
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 ## Off-site equipment security
-The equipment used for processing information off the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk. (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft); [Basic security measures for laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}#recommendations))
+The equipment used for processing information away from the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it from being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft); [Basic security measures for laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}#recommendations)).
 
 ### Applying security measures to:
 
@@ -181,7 +178,7 @@ The equipment used for processing information off the site of “the organisatio
 * [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
 
 ## Disposal and reuse of equipment
-Any equipment that [is disposed]({% link _knowhow/glossary/Disposal.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged. (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
+Any equipment that [is disposed]({% link _knowhow/glossary/Disposal.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
 
 Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
 
@@ -217,7 +214,7 @@ Whichever method is chosen, please be respectful of the environment.
 ## Clean desk policy
 Follow a clean desk policy, i.e.:
 
-* tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (USB flash drives, disks, etc), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
+* tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (USB flash drives, disks, etc.), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
 * keep the most important media under lock and key, or even in a fireproof safe;
 * if anyone leaves their PC unused for more than a few minutes, the screensaver should come on. A password should be entered to exit the screensaver and start work again. You are strongly advised not to bypass this step;
 * use a special waste bin or a shredder to destroy sensitive paper documents.
@@ -226,7 +223,7 @@ Follow a clean desk policy, i.e.:
 
 * [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
   * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+  * [Third-party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
 * [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
