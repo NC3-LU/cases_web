@@ -11,9 +11,9 @@ group: post
 ref: articles20190726cloud
 lang: en
 ---
-Business is booming for the cloud computing industry – public cloud providers are set to earn $206 billion by the end of this year, up 17.5% on last year.
+Business is booming for the cloud computing industry – public cloud providers are set to earn $206 billion by the end of this year, 17.5% more than last year.
 
-The cloud is already a standard feature for most businesses, from start-ups to big corporates, powering all or part of their systems, services and storage needs. By 2020, 67% of business IT infrastructure will be cloud based, with remote servers managing 82% of the workload.
+The cloud is already a standard feature for most businesses, from start-ups to big corporates, powering all or part of their systems, services, and storage needs. By 2020, 67% of business IT infrastructure will be cloud-based, with remote servers managing 82% of the workload.
 
 If you’re interested in what this could mean for your business, read our introductory guide to the pros and cons of using a cloud service.
 
@@ -21,23 +21,23 @@ If you’re interested in what this could mean for your business, read our intro
 
 In a nutshell, cloud computing means accessing remote servers, typically owned by a third party, over the internet to store your data, or for extra computing power.
 
-Even if you think you’re a cloud novice, you’re probably already a regular user. In fact, the average person uses 36 cloud-based services every day . The popular video chat app Skype, for example, holds all your contacts and chat history in the cloud, which you can access wherever and whenever you want.
+Even if you think you are a cloud novice, you are probably already a regular user. An average person uses 36 cloud-based services every day. The popular video chat app Skype, for example, holds all your contacts and chat history in the cloud, which you can access wherever and whenever you want.
 
-For companies, this means you no longer have to buy expensive hardware and software to run your business; you can rent it from an online provider for as long as you need. This can save you a great deal on set up and maintenance, with SMEs saving up to 40% on overhead costs . It’s also quick and easy – installing servers used to take weeks; using a cloud, you can set up in minutes.
+For companies, this means you no longer have to buy expensive hardware and software to run your business; you can rent it from an online provider for as long as you need. This can save you a great deal on set up and maintenance, with SMEs saving up to 40% on overhead costs. It is also quick and easy – installing servers used to take weeks; using a cloud, you can set up them in minutes.
 
 Another great advantage is that clouds are designed to work seamlessly with all kinds of devices. You can easily collaborate with multiple users in different locations from your smartphone, laptop or tablet: all you need is an internet connection. As remote working becomes more commonplace and mobile internet speed continues to rise, this level of flexibility will be increasingly sought after.
 
-Once up and running, you don’t have to manage, maintain or update operating systems or equipment, it’s all done for you by your cloud provider. As technology moves on so quickly, this can be a big plus. And, although cloud services are reliable, they tend to provide 24/7 tech support for emergencies. This far outstrips most in-house services, reducing downtime and the impact of costly outages.
+Once up and running, you do not have to manage, maintain, or update operating systems or equipment, it is all done for you by your cloud provider. As technology moves on so quickly, this can be a big plus. And, although cloud services are reliable, they tend to provide 24/7 tech support for emergencies. This far outstrips most in-house services, reducing downtime and the impact of costly outages.
 
 ## Private cloud solutions
 
-Public clouds may seem pretty much failsafe, but it’s still preferable to retain some control. What happens if your internet goes down? Will your staff have access to the data they need?
+Public clouds may seem pretty much failsafe, but it is still preferable to retain some control. What happens if your internet goes down? Will your staff have access to the data they need?
 
-If managing all your data on a private cloud  is too expensive, you could opt for a hybrid cloud approach. Hybrid clouds use a combination of public clouds, which are controlled by third party organisations, and private clouds, which are controlled and managed by you. This combined approach gives you the ease and convenience of the public cloud for non-critical data or tasks, while other more sensitive information or critical systems are kept on servers owned by you.
+If managing all your data on a private cloud  is too expensive, you could opt for a hybrid cloud approach. Hybrid clouds use a combination of public clouds (which are controlled by third party organisations), and private clouds (which are controlled and managed by you.) This combined approach gives you the ease and convenience of the public cloud for non-critical data or tasks, while other more sensitive information or critical systems are kept on servers owned by you.
 
 ## Storage and backups
 
-Cloud storage solutions like DropBox have become household names. The industry is now so competitive, many providers offer unlimited storage for a minimal fee. Google Drive, for example, offers 15 GB for free. As you only pay for the storage you need, you can easily scale up or down, without needing to invest in new hardware.
+Cloud storage solutions like DropBox have become household names. The industry is now so competitive, many providers offer unlimited storage for a minimal fee. Google Drive, for example, offers 15 GB for free. As you only pay for the storage you need, you can easily scale up or down, without the need to invest in new hardware.
 
 Storing local data in the cloud is also a safety measure. Data loss can have a serious impact on your ability to continue business services. Whether caused by a defective disc, or a flood or fire, storing your data at multiple secure off-site locations via the cloud makes catastrophic data loss less likely. If you want to back up data on a private cloud, have a look at systems like Nextcloud and Seafile. They enable users to securely sync and share files across an organisation while retaining control over the data.
 
@@ -49,18 +49,18 @@ When transferring and accessing data, good cloud services use powerful encryptio
 
 ## Regulation and data protection
 
-The cloud offers lots of advantages, but it’s down to you to do your due diligence and understand any security, liability or legal issues.
+The cloud offers lots of advantages, but it is down to you to do your due diligence and understand any security, liability, or legal issues.
 
-Storing data in the cloud means handing it over to a third party. You are not fully in control and might need a plan B. Read the terms and conditions carefully and make sure they are commensurate with your internal security policy. It’s also advisable to retain some on-site services and technical staff in case you need to take back control.
+Storing data in the cloud means handing it over to a third party. You are not fully in control and might need a plan B. Read the terms and conditions carefully and make sure they are commensurate with your internal security policy. It is also advisable to retain some on-site services and technical staff in case you need to take back control.
 
-Cloud providers store data all over the world. Complying with data protection legislation, such as the EU's GDPR, can be made easier by storing data in appropriate jurisdictions for your customer base. On the flip side, it’s your responsibility to check where your data sits, including backups, and ensure you’re in compliance with local laws and regulations.
+Cloud providers store data all over the world. Complying with data protection legislation, such as the EU's GDPR, can be made easier by storing data in appropriate jurisdictions for your customer base. On the flip side, it is your responsibility to check where your data sits, including backups, and ensure you comply with local laws and regulations.
 
-Not only is cloud computing simpler for collaboration and file sharing, it’s easy to set up and manage. Plus it provides a gateway to all kinds of new tech in artificial intelligence and decentralized computation. But before you dive in, remember to check that your chosen provider complies with the law and your internal security policy to avoid any unwelcome surprises.
+Not only is cloud computing simpler for collaboration and file sharing, but is is also easy to set up and manage. Plus, it provides a gateway to all kinds of new tech in artificial intelligence and decentralized computation. But before you dive in, remember to check that your chosen provider complies with the law and your internal security policy to avoid any unwelcome surprises.
 
 ## Summary
 
-When you are choosing a cloud solution for your company you should ask yourself the following questions:
+When you choose a cloud solution for your company, you should ask yourself the following questions:
 *	Where will the data and backups be stored?
 *	Will the data be protected by encryption?
-*	Does the provider comply with all relevant laws and security policies in their term and conditions?
+*	Does the provider comply with all relevant laws and security policies in their terms and conditions?
 *	How much control over your data do you need to retain and how much are you willing to hand over to a third party?
