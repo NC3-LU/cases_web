@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Control"
+title:  "Maîtriser"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -9,132 +9,148 @@ categories: knowhow
 toc: true
 ref: glossarycontrol
 lang: fr
-hidden: true
 ---
-## In brief
-Securing information is far from being a technical issue for an organisation. In fact, technical operations are just one aspect of a process which, to be successful, must include all of the company’s activities as a whole.
+## En quelques mots
 
-Before implementing technical procedures and measures aimed at improving an organisation's security, it is important to first conduct a risk analysis (risk management) and to write up a security policy.
+Sécuriser les informations est loin d'être une question d'ordre technique pour un organisme. En effet les activités techniques représentent seulement un aspect d'une démarche qui, pour réussir, se doit de couvrir les activités de l'entreprise dans son ensemble.
 
-The security policy formalises and coordinates all of the organisation’s security techniques and organisational procedures.
+Avant de mettre en place des procédures ou des mesures techniques visant à augmenter la sécurité d'un organisme, il importe de procéder à une analyse des risques (gestion des risques) et de rédiger une politique de sécurité.
 
-Writing up a security policy is a lengthy task. We don’t advise that small companies tackle it all in one go. It’s better to make gradual progress through continuous improvement, creating a document that is both short and concise, to progressively develop the procedures and sectoral policies that are most needed.
+La politique de sécurité sert à formaliser et à coordonner toutes les démarches organisationnelles et techniques de sécurité de l'organisme.
 
-The governing principle when drafting a security policy consists on the one hand of a set of best practices (ISO/IEC 27001 and ISO/IEC 27002), and, on the other hand, of risk analysis and assessment. All organisations should ensure they implement behavioural, organisational and technical measures where they can be quickly and truly effective.
+La rédaction d'une politique de sécurité est une tâche fastidieuse. Nous déconseillons aux petites entreprises de s'y atteler d'entrée et recommandons plutôt d'avancer dans une optique d'amélioration continue, un document court et concis à la fois, pour développer peu à peu les procédures et politiques sectorielles dont elles ont le plus besoin.
 
-In any case, you should choose an approach that is best suited to the size, and especially the criticality of assets and the maturity of the organisation.
+Le fil rouge pour l'élaboration d'une politique de sécurité consiste d'un côté dans un ensemble de bonnes pratiques (ISO/IEC 27001 et ISO/IEC 27002), et de l'autre dans l'analyse et l'évaluation des risques. En effet, tout organisme doit veiller à mettre en place des mesures comportementales, organisationnelles et techniques là où elles seront rapidement et réellement efficaces.
 
-## Security charter
-The definition and application of a security charter is the first step towards security management. To guarantee its success, it must meet the specific security requirements for the organisation. A risk analysis, even a brief one, must precede this process. Without this analysis, management will not be in a position to determine which assets should be protected as a priority. In order to be able to predict the worst possible outcome, management must identify the most likely threats and the vulnerabilities which are the easiest to exploit.
+Dans tous les cas, il convient de choisir une approche adaptée à la taille respectivement à la criticité des actifs et de la maturité de l'organisme.
 
-The introduction of a charter must imperatively be accompanied by a presentation to the employees who will have to implement the suggested measures on a daily basis. Without this training, there is a risk that the charter will be ignored and will therefore become useless.
 
-## Security policy
-Once the major risks for the organisation have been identified (risk management), management will, with a view to continuous improvement, be able to go beyond a simple security charter. They will introduce an actual policy, as well as specific procedures.
+## Charte de sécurité
 
-With the introduction of even a rudimentary security policy, management will be able to begin organising security. The security policy will define in the formal procedures, the obligations and responsibilities of each individual, as well as the processes related to the security of information.
+La définition et l'application d'une charte de sécurité est le premier pas vers la gestion de la sécurité. Pour garantir son succès, elle doit répondre aux besoins spécifiques de sécurité pour l'organisme. Une analyse de risques, même sommaire, doit donc nécessairement précéder cette démarche. Sans cette analyse, la direction ne pourra pas comprendre quels actifs  protéger en priorité. Afin de pouvoir prévenir les impacts les plus redoutés, la direction doit identifier les menaces les plus probables, ainsi que les vulnérabilités dont l'exploitation est la plus aisée.
 
-At this stage, there is no point in compiling an exhaustive security policy. Making an organisation secure is an ongoing process (Design, Implementation, Assessment/Checks and Improvement), and it is implemented according to security measures, assessed based on the worst possible outcomes, the most likely threats and the largest vulnerabilities.
+La mise en place d'une charte doit absolument être accompagnée d'une présentation aux employés qui devront vivre avec les mesures proposées au quotidien. Sans formation de leur part, toute charte risque d'être ignorée, et donc de perdre son utilité.
 
-#### Design
-This first step aims to correctly determine the scope and context of the future system. It must also be able to identify and assess the risks, in order to develop a management plan. (It cannot, however, replace the risk analysis which must be carried out in advance.)
 
-#### Implementation
-The implementation stage primarily consists of applying the security policy created in the previous stage. Organisational and technical measures are implemented and behavioural measures are applied by the staff.
-#### Assessment and checks
-The assessment systems must have been set out in the security manual. The aim is to ensure that the procedures put in place work as intended.
+## Politique de sécurité
 
-These assessments can take several different forms:
+Après l'identification des risques majeurs pour l'organisme (gestion des risques), la direction pourra, dans une optique d'amélioration continue, aller au-delà d'une simple charte de sécurité. Elle mettra en place une véritable politique ainsi que des procédures spécifiques.
 
-* regular inspections carried out as part of the everyday tasks;
-* automatic checks performed using software tools which can generate reports;
-* comparison with other organisations;
-* performance of planned formal audits (risk assessment);
-* management review.
+La mise en place d'une politique de sécurité, même rudimentaire, permettra à la direction d'entamer l'organisation de la sécurité. Y seront définis dans des procédures formelles, les obligations et responsabilités de chacun, ainsi que les processus liés à la sécurité de l'information.
 
-If the assessments and checks uncover inadequacies in certain procedures, measures must then be taken to correct them.
+Il est à  ce stade inutile de commencer par la réalisation d'une politique de sécurité exhaustive. La mise en sécurité d'un organisme est un processus continu (Conception, Réalisation, Évaluation/Contrôle et Amélioration), mis en place  au gré des mesures de sécurité, évalué en fonction des impacts les plus redoutés, les menaces les plus probables et les vulnérabilités les plus importantes.
 
-#### Improvement
-The actions that were decided upon in the previous step will have to be implemented, either:
+#### Conception
 
-* at the security system level itself, by appointing a (new) manager for all or part of the system, for example;
-* at operational procedure level which will have been determined, such as the implementation of a different (and obviously better suited) data backup procedure;
-* at tool level, with the purchase of an antivirus, for example.
+Cette première étape vise à définir correctement le périmètre et le contexte du futur système. Elle doit également permettre d'identifier et d'évaluer les risques, afin de développer un plan de gestion. (Elle ne peut cependant pas remplacer l'analyse des risques qui doit être effectuée au préalable).
 
-## Contents of the security policy
-The security policy should contain the following documents:
+#### Réalisation
 
-#### Section 1. Security policy
+L'étape de réalisation consiste principalement à appliquer la politique de sécurité créée à l'étape précédente. Les mesures organisationnelles et techniques sont mises en place, les mesures comportementales sont appliquées par le personnel.
 
-1. Management commitment
-2. Review and assessment
+#### Évaluation et contrôle
 
-#### Section 2. Organisation of security
+Les systèmes d’évaluation doivent avoir été décrits dans le manuel de sécurité. L’objectif consiste à s’assurer que les procédures  mises en place fonctionnent comme prévu.
 
-1. Attribution of responsibilities
-2. Authorisation procedure for adding information processing tools
-3. Expert advice
-4. Independent review of information security
-5. Third party access and outsourcing
+Ces évaluations peuvent être de plusieurs types :
+
+* vérifications régulières faites dans le cadre des activités quotidiennes ;
+* contrôles automatiques réalisés avec des outils logiciels permettant de créer des rapports ;
+* comparaison avec les autres organisations ;
+* réalisation d’audits formels planifiés ("risk assessment") ;
+* révision par la direction.
+
+Si les évaluations et les contrôles révèlent des inadéquations de certaines procédures, il faut de suite entreprendre des corrections.
+
+
+#### Amélioration
+
+Les actions qui auront été décidées à l’étape précédente devront être mises en oeuvre, soit :
+
+* au niveau du système de sécurité proprement dit, par exemple en nommant un (nouveau) responsable pour tout ou partie du système ;
+* au niveau des procédures opérationnelles qui en auront été déduites, comme par la mise en oeuvre d’une procédure de sauvegarde de données différente (et évidemment plus adaptée) ;
+* au niveau des outils, par exemple par l’achat d’un outil antivirus.
+
+
+## Contenu de la politique de sécurité
+
+La politique de sécurité devrait contenir les documents suivants :
+
+#### Section 1. Politique de sécurité
+
+1. Engagement de la direction
+2. Revue et évaluation
+
+#### Section 2. Organisation de la sécurité
+
+1.	Attribution des responsabilités
+2.	Procédure d’autorisation pour l’ajout d’outils de traitement de l’information
+3.	Conseils d’un spécialiste
+4.	Revue indépendante de la sécurité de l’information
+5.	Accès par des tiers et sous-traitance
 
 #### Section 3. Classification and monitoring of resources
 
 1. Classification of and responsibility for resources
 
-#### Section 4. Human factors
+#### Section 3. Classification et maîtrise des ressources
 
-1. Security as a mission
-2. Training and information
-3. Response to incidents and security malfunctions
+1.	Classification et responsabilité des ressources
 
-#### Section 5. Physical and environmental security
+#### Section 4. Aspects humains
 
-1. Physical security perimeter
-2. Rules within the perimeter
-3. Electrical equipment safety
-4. Maintenance
-5. Off-site equipment security
-6. Disposal or reuse of the equipment
-7. Clean desk
+1.	La sécurité comme mission
+2.	La formation et l’information
+3.	La réponse aux incidents et dysfonctionnements de sécurité
 
-#### Section 6. Operational and communications aspects
+#### Section 5. Sécurité physique et environnementale
 
-1. Documented procedures
-2. Separation of development and production environments
-3. External management of resources
-4. Protection against malware
-5. Data backups
-6. Device security during transport
-7. Email
+1.	Périmètre de sécurité physique
+2.	Règles dans le périmètre
+3.	Sécurité électrique des équipements
+4.	Maintenance
+5.	Sécurité des équipements hors des locaux
+6.	Mise au rebut ou réutilisation des équipements
+7.	Bureaux en ordre
 
-#### Section 7. Access control
+#### Section 6. Aspects opérationnels et communications
 
-1. Access control policy
-2. Access rights management
-3. Password management
-4. Use of external networks
-5. External connections
-6. Separation of networks
-7. Login procedure
+1.	Procédures documentées
+2.	Séparation des environnements de développement et de production
+3.	Gestion de ressources par des externes
+4.	Protection contre les logiciels malveillants
+5.	Sauvegarde des données
+6.	Sécurité des médias pendant les transports
+7.	Courrier électronique
 
-#### Section 8. Development and maintenance of systems
+#### Section 7. Contrôle d’accès
 
-1. Use of encryption
-2. Electronic signatures
+1.	Politique de contrôle d’accès
+2.	Gestion des droits d’accès
+3.	Gestion des mots de passe
+4.	Utilisation de réseaux externes
+5.	Connexion de l’extérieur
+6.	Séparation de réseaux
+7.	Procédure de connexion
 
-#### Section 9. Management of security incidents
+#### Section 8. Développement et maintenance des systèmes
 
-1. Reporting information security events
-2. Incident management and improvements information security
-3. Analysis of non-fulfillment of obligations
+1.	Utilisation de l’encryption
+2.	La signature électronique
 
-#### Section 10. Managing business continuity
+#### Section 9. Gestion des incidents liés à la sécurité
 
-1. Operational continuity
+1.	Signalement des événements liés à la sécurité de l’information
+2.	Gestion des incidents et des améliorations de la sécurité de l’information
+3.	Analyse des manquements avec obligations
 
-#### Section 11. Compliance
+#### Section 10. Gestion de la continuité de l’entreprise
 
-1. Identification of applicable legislation
-2. Intellectual property
-3. Protection of operational data
-4. Personal data protection
+1.	La continuité de fonctionnement
+
+#### Section 11. Conformité
+
+1.	Identification de la législation applicable
+2.	Propriété intellectuelle
+3.	Protection des données opérationnelles
+4.	Protection des données à caractère personnel
