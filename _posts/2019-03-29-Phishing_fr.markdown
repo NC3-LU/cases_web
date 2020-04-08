@@ -26,7 +26,7 @@ Le **« spear phishing »** ou hameçonnage ciblé est une variante ciblant une 
 ## Cela ne concerne pas juste votre adresse mail !
 À l’instar d’un vol de papiers d’identité, le problème avec le phishing est de pouvoir déceler où s’arrête l’usurpation. Les attaquants ayant récupéré vos informations personnelles, il leur est très aisé de se présenter sous votre identité numérique auprès de différents fournisseurs de service. De plus, les démarches afin de prouver sa réelle identité et reprendre la main sur ces différents comptes sont longues et fastidieuses. Il faut donc régulièrement changer ses mots de passe et ne pas utiliser les mêmes pour différents services.
 
-<img src="{% link assets/img/2019/phishing_fr.png %}" />
+<img src="{% link assets/img/2019/phishing_fr.png %}" style="max-width: 100%;" />
 
 Source: [Verizon Data Breach Investigations Report - 2018](https://www.phishingbox.com/assets/files/images/Verizon-Data-Breach-Investigations-Report-2018.pdf)
 

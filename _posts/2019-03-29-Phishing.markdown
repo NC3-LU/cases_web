@@ -26,7 +26,7 @@ Although less impressive than more sophisticated attacks such as crypto-ransomwa
 ## It's not just about your email address!
 Like a theft of identity papers, the problem with phishing is to be able to detect where the spoofing stops. Since attackers have recovered your personal information, it is very easy for them to present themselves under your digital identity to different service providers. In addition, the steps to prove your true identity and regain control of these different accounts are long and tedious. It is, therefore, necessary to change your passwords regularly and not to use the same for different services.
 
-<img src="{% link assets/img/2019/phishing_en.png %}" />
+<img src="{% link assets/img/2019/phishing_en.png %}" style="max-width: 100%;" />
 
 Source: [Verizon Data Breach Investigations Report - 2018](https://www.phishingbox.com/assets/files/images/Verizon-Data-Breach-Investigations-Report-2018.pdf)
 
