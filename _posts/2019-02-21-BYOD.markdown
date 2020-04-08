@@ -15,7 +15,7 @@ In the field of security, it is well known that there is always a weak link that
 
 > But what is BYOD exactly? This acronym is used for Bring Your Own Device and means that employees of a company are given permission to work, and thus access their company's data, with their own computers, tablets or cell phones. This trend has been normalized in recent years due to the decline in the price of technology devices, their increased capacity and their adoption by a growing segment of the population. In addition, employers and employees find their interest despite obvious risks in terms of safety.
 
-<img src="{% link assets/img/2019/byod_en.png %}" />
+<img src="{% link assets/img/2019/byod_en.png %}" style="max-width: 100%;" />
 
 59% of companies allow their employees to use their own electronic devices at work. This figure rises to 71% for small businesses according to a [TechPro study](http://www.techproresearch.com/article/research-byod-booming-with-74-using-or-planning-to-use/).
 

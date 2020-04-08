@@ -15,7 +15,7 @@ Dans le domaine de la sécurité, il est bien connu qu’il existe toujours un m
 
 > **Mais qu’est-ce que le BYOD au juste ?** Cet acronyme signifiant Bring Your Own Device peut être traduit en français par prenez vos appareils personnels et signifie que les employés d’une entreprise se voient donner l’autorisation de travailler, et donc d’accéder aux données de leur entreprise, avec leurs propres ordinateurs, tablettes ou téléphones portables. Cette tendance s’est normalisée ces dernières années du fait de la baisse du prix des appareils technologiques, de leurs capacités accrues et leur adoption par une frange toujours plus large de la population. De plus les employeurs ainsi que les employés y trouvent leur intérêt malgré des risques évidents en termes de sécurité.
 
-<img src="{% link assets/img/2019/byod_fr.png %}" />
+<img src="{% link assets/img/2019/byod_fr.png %}" style="max-width: 100%;" />
 
 59% des entreprises permettent à leurs employés d’utiliser leurs propres appareils électroniques au travail. Ce chiffre monte à 71% pour les petites entreprises selon une étude de [TechPro](http://www.techproresearch.com/article/research-byod-booming-with-74-using-or-planning-to-use/).
 
