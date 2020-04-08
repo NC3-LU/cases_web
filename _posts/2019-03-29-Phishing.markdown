@@ -38,7 +38,7 @@ However, the use of technical means is not an end in itself and Internet users m
 ## CASES expert voice:
 “Phishing is primarily aimed at humans while exploiting our various weaknesses. In addition to the technical tools mentioned above, here are some tips to prevent leakage of information by phishing:
 *	Make users aware of the different phishing methods to identify more easily the traps that have been set for them.
-*	Consider the mails of strangers with extreme caution and attention. If the person is not known by us, then s/he must be contacted by other means of communication in case of suspicion of phishing.
+*	Consider the mails of strangers with extreme caution and attention. If the person is known to us, then s/he must be contacted by other means of communication in case of suspicion of phishing.
 *	Take a step back to assess the legitimacy of each request.
 *	Never respond to a phishing email, as this would give the information that the email address is valid.
 *	In case of doubt, ask the IT staff to ensure the truthfulness of the email you received.”
