@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-toc
   - jekyll-admin
+  - jekyll-sitemap
 
 collections:
   services:
