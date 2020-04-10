@@ -19,7 +19,7 @@ Information Technology is an essential element for the commercial activities of 
 - Do you use smartphones or other mobile devices?
 - etc.
 
-Perfect! But stay vigilant ...
+Perfect! But stay vigilant...
 
 The article "Clever Clicks for safer business" helps you adopt best practices for every case in daily activities:
 - [Downloads]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads.markdown %})
