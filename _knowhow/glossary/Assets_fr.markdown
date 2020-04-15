@@ -167,7 +167,8 @@ Dispositif permettant aux utilisateurs habilités la saisie, la consultation dif
 * SYS_ITR : Intranet
 Données et services informatiques partagés et privés, qui utilisent les protocoles de communication et les technologies fédératrices (technologie d'Internet par exemple).
 
-* Dispositif de gestion et d’accès à une base de données décrivant le personnel de l’entreprise et leurs caractéristiques.
+* SYS_ANU : Annuaire d'entreprise
+Dispositif de gestion et d’accès à une base de données décrivant le personnel de l’entreprise et leurs caractéristiques.
 
 * SYS_WEB : Portail externe
 Un portail externe est un point d’accès dont un utilisateur se servira pour trouver de l’information ou un service concernant un organisme. Les portails fournissent un grand éventail de ressources et de services.
