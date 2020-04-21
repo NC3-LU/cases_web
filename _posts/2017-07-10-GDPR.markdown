@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "Articles"
-title:  "Risk management: from directive 95/46 to the GDPR"
+title:  "Risk Management: from Directive 95/46 to the GDPR"
 date:   2017-07-10 10:00:00 +0100
 categories: gdpr
 isVisible: True
@@ -11,8 +11,12 @@ group: post
 ref: articles20170710gdpr
 lang: en
 ---
-From 2000 to 2005, the field of information security was in a state of flux with experts waiting to see who would impose the first set of international standards. The English were one step ahead and so the first standards to appear were ISO/IEC 17799 on best practices in information security (established in 2000, this later became ISO/IEC 27002). And then ISO/IEC 27001, which introduced the notion of ISMS (using certification). These were then followed in 2008 by ISO 27005, which supplies the method for risk management. These standards have now become references; they have been fully fleshed out and there is a natural tendency for national standards and methods to converge towards these international standards.
+From 2000 to 2005, the field of information security was in a state of flux with experts waiting to see who would impose the first set of international standards. The English were one step ahead and so the first standards to appear were ISO/IEC 17799 on best practices in information security (established in 2000, this later became ISO/IEC 27002).
 
-The GDPR, or General Data Protection Regulation, comes onto the scene at a time when all these standards have reached maturity, are stable, and widespread throughout Europe...
+Then ISO/IEC 27001 was launched, which introduced the notion of ISMS (using certification). These were then followed in 2008 by ISO 27005, which supplies the method for risk management.
+
+These standards have now become references; they have been fully fleshed out, and there is a natural tendency for national standards and methods to converge towards these international standards.
+
+GDPR (General Data Protection Regulation) came onto scene at a time when all these standards have reached maturity, are stable, and widespread throughout Europe...
 
 For more information concerning the obligations for your organisation, you can read the [brochure from the CNPD](https://cnpd.public.lu/dam-assets/fr/publications/brochures/brochure-rt-st/brochure-rt-st-en.pdf)
