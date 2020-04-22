@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Be Safe: a practical guide for business trips"
+title:  "Be Safe: Practical Guide for Business Trips"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -33,10 +33,10 @@ When going on a business trip, take precautions:
 * [During the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#during-the-trip)
 * [After the trip]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#after-the-trip)
 
-## Before the trip
-Before going on a business trip, we advise you to familiarise yourself with the local social, economic and cultural situation.
+## Before the Trip
+Before going on a business trip, we advise you to familiarise yourself with the local social, economic, and cultural situation.
 
-Travellers may also be exposed to significant physical risks abroad. It is necessary to take precautions. Visit the website of the [Ministry of Foreign Affairs](https://maee.gouvernement.lu/en.html) "Travel Advice" section (safety tips for travellers).
+Travellers may also be exposed to significant physical risks abroad. It is necessary to take precautions. Visit the website of the [Ministry of Foreign Affairs](https://maee.gouvernement.lu/en.html) 'Travel Advice' section (safety tips for travellers).
 
 It can also be useful to familiarise yourself with local legislation and with the entry and exit regulations. This information may be important for staying safe during your trip.
 
@@ -45,13 +45,13 @@ To limit the damage of loss or theft of documents or data, take only the informa
 
 Whenever possible, always keep credit cards, traveller's cheques, passports and other forms of identification in different pockets when travelling.
 
-It is preferable to keep your passport with you at all times. It is also recommended to make 2 copies of the main page of your passport:
+It is preferable to keep your passport with you at all times. It is also recommended to make two copies of the main page of your passport:
 
 * one copy to be taken on your trip, kept separate from your passport;
 * the second copy to be left in the country, with a trusted person.
 
 ### Data
-A "travel" [laptop]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}) is recommended, with a minimal configuration, only holding the data and software required for the trip.
+A 'travel' [laptop]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}) is recommended, with a minimal configuration, only holding the data and software required for the trip.
 
 Before leaving, it is important to **[back up]({% link _knowhow/glossary/DataBackups.markdown %})** your data and delete your internet browsing history, including cookies, photos and videos. You should also use strong [passwords]({% link _knowhow/glossary/Password.markdown %}) with a minimum of 10 characters.
 
@@ -66,41 +66,43 @@ Sensitive information on electronic media must be encrypted.
 > Warning: Some local laws prohibit the use of [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) software or even the importing of encrypted data. Check before you leave.
 
 ### Social networks
-You are advised not to announce a business trip on social networks like Facebook, Twitter or LinkedIn. It would also be very ill-advised to post information such as the reason for the trip, your destination, hotel, schedule, any contacts and accompanying persons on these networks.
+You are advised not to announce a business trip on social networks like Facebook, Twitter or LinkedIn. It is also very ill-advised to post information such as the reason for the trip, your destination, hotel, schedule, any contacts and accompanying persons on these networks.
 
-## During your trip
+## During your Trip
 During your trip, you should apply the following rules:
 
 1. Always **secure data** by avoiding leaving laptops and mobile phones unguarded. Anti-theft cables are recommended for laptops, especially when attending trade shows.
-2. Documents that are no longer needed should be **destroyed**, rather than merely thrown away. This prevents them from being recovered by others.
+2. Documents that are no longer needed should be **destroyed**, rather than merely thrown away. This prevents them from being recovered by unauthorised people.
 3. **Business relationships**: remain alert when sharing information with potential partners and ensure that your contacts can be trusted.
-4. **Mobile phones**: care is needed when sending sensitive information (SMS, emails, photos, documents) by mobile phone, as it can be intercepted. The only way to protect them is to use an [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) system like 'pgp' for emails or 'securetext' for SMS. You should also ensure:
+4. **Mobile phones**: care is needed when sending sensitive information (SMS, emails, photos, documents) by mobile phone, as it can be intercepted. The only way to protect them is to use an [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) system like 'pgp' for emails or 'securetext' for SMS.
 
-* **that you do not talk about sensitive matters by mobile phone**;
-  * that you use a VoIP client via [VPN]({% link _knowhow/glossary/VPN.markdown %}), in case you must have a sensitive conversation.
-* that you do not leave your mobile phone **unattended**;
-* if you must leave your mobile phone unattended, remove the SIM card and memory card and battery and keep them with you.
+You should also ensure the following:
+
+* **Do not talk about sensitive matters by mobile phone.**
+* Use a VoIP client via [VPN]({% link _knowhow/glossary/VPN.markdown %}) in case you must have a confidential conversation.
+* **Do not leave your mobile phone unattended.**
+* If you must leave your mobile phone unattended, remove the SIM card, memory card, battery, and keep them with you.
 
 ### Detect manipulations
-During your trip, you should learn how to detect **manipulations**. Thieves often simply replace one device with another similar one, so that the theft is not immediately apparent. It is advisable to place a distinctive mark on all equipment. This way any theft will be noticed immediately.
+During your trip, you should learn how to detect **manipulations**. Thieves often simply replace one device with a similar one so that the theft is not immediately apparent. It is advisable to place a distinctive mark on all equipment. This way any theft will be noticed immediately.
 
 ### Protect confidentiality
-Hotels and taxis offer no guarantees; confidential conversations should be avoided in these places. Equipment or documents containing sensitive data should not be left in hotel safes. Likewise, be aware that communication networks in public places, hotels or business centres are likely to be monitored.
+Hotels and taxis offer no guarantees: confidential conversations should be avoided in these places. Equipment or documents containing sensitive data should not be left in hotel safes. Likewise, be aware that communication networks in public places, hotels or business centres are likely to be monitored.
 
 ### How to deal with theft
 If you have to deal with such a situation, immediately list what has been stolen and [file a complaint](/publications/FilingAComplaint.html) with the local police authorities.
 
 Also, **inform your employer** and your IT department if computer equipment and/or media containing confidential information have been stolen.
 
-**Contact your insurance company** and declare the theft against you and immediately instruct your bank to cancel your bank cards.
+**Contact your insurance company** and declare the theft against you, and immediately instruct your bank to cancel your bank cards.
 
 **Inform the embassy** or consulate of your country if your passport has been stolen.
 
-## After the trip
+## After the Trip
 Did you adhere to all the security instructions before and during the trip? Well done. On your return, a final check-up is required, along with some precautionary measures:
 
 * start with an inventory of all your data and removable media;
-* report any security-related matter during your trip involving you or one of your colleagues to your management;
-* before logging in to your electronic equipment (computer, USB flash drive, external hard drive, CD/DVD) on your company's internal network, have it checked for any [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) by your IT department.
+* report any security-related matters during your trip involving you or one of your colleagues to your management;
+* before logging into your electronic equipment (computer, USB flash drive, external hard drive, CD/DVD) on your company's internal network, have it checked for any [malware]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}) by your IT department.
 * [Completely wipe]({% link _knowhow/sos/SOS-WhatBeforeGettingRidOldHardware.markdown %}) your trip computer in preparation for your next trip.
 * Change any passwords used during the trip.
