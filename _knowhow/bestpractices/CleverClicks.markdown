@@ -21,7 +21,7 @@ Information Technology is an essential element for the commercial activities of 
 
 Perfect! But stay vigilant...
 
-The article "Clever Clicks for safer business" helps you adopt best practices for every case in daily activities:
+The article 'Clever Clicks for safer business' helps you adopt best practices for every case in daily activities:
 - [Downloads]({% link _knowhow/bestpractices/cleverclicks/ScamsThroughDownloads.markdown %})
 - [E-mail]({% link _knowhow/bestpractices/cleverclicks/EmailScams.markdown %})
 - [Social Networks]({% link _knowhow/bestpractices/cleverclicks/SocialNetworkScams.markdown %})
