@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "Articles"
-title:  "Teleworking: How to secure your employees wherever they are"
+title:  "Teleworking: How to Secure your Employees Wherever They Are"
 date:   2019-12-17 10:00:00 +0100
 categories: teleworking
 isVisible: True
@@ -15,7 +15,7 @@ lang: en
 
 New technologies allow employees to work remotely; from home or on a business trip. Teleworking is a growing habit thanks to the increased use of mobile devices such as tablets, mobile phones, laptops, as well as cloud storage in the professional environment.
 
-## The human being stays the weakest link ... especially abroad
+## The Human Being Stays the Weakest Link ... Especially Abroad
 
 One of the most important aspects to consider is the connection itself. Employees should not connect to free Wi-Fi, especially in train stations and airports. These networks are too often used by attackers to disseminate malicious software, targeting organisations or companies through their employees.
 
@@ -23,7 +23,7 @@ No matter where you are outside the company, it is important to use a Virtual Pr
 
 The software used to provide the VPN service must be chosen with the utmost care and it must be kept up to date and configured carefully. The clients should be authenticated by using asymmetric encryption and not only a login and a password when connecting to the VPN. Prefer to use a well-known, ideally open-source, easily auditable solution, for example, [WireGuard](https://www.wireguard.com). More information about VPN and how to use it can be found on our [YouTube channel](https://www.youtube.com/watch?v=41mgTiRNjQE).
 
-## Devices must be prepared in advance
+## Devices Must be Prepared in Advance
 
 As always, the endpoints remain the major weak points. The best VPN service is useless if an employee connects to it with an infected computer. Computers of employees must be protected with an up-to-date antivirus. Otherwise, the VPN would be an illusion of security, and would become a secure and trusted channel for ransomware.
 
@@ -32,7 +32,7 @@ Before any teleworking of an employee, the IT team (or the person in charge of t
   * Each hard drive that contains confidential data should be encrypted whenever it goes outside the company; *ideally, it should be permanently encrypted if there is a possibility that it leaves the company’s premises at some point in time*.
   * Provide a specific '[travel laptop]({% link _knowhow/bestpractices/PracticalGuideForBusinessTrips.markdown %}#before-the-trip)' for business trips with minimal configuration, files, access and maximal protection possible.
 
-## Communication and training are the keys
+## Communication and Training are the Keys
 
 <div style="float:right; width:400px; height:225px;">
 <iframe width="400" height="225" src="https://www.youtube.com/embed/SwnGMgPIblA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:400px; height:225px;"></iframe>
