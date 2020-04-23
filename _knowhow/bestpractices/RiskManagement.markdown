@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Risk management"
+title:  "Risk Management"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -15,7 +15,7 @@ General guidelines regarding risk management used by CASES are taken from the IS
 
 The diagram below outlines the risk management process.
 
-## Definition of the context
+## Definition of the Context
 To produce a risk analysis, first, you need to specify the basic criteria (risk assessment, impact, acceptance of risks, availability of resources, etc.), then you need to define the objective and the scope of the analysis. The definition of the context describes the environment and the subject of the risk management process.
 
 The risk **assessment criteria** include:
@@ -24,22 +24,23 @@ The risk **assessment criteria** include:
 * [asset]({% link _knowhow/glossary/Assets.markdown %}) [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})
 * legal and contractual requirements
 * the importance of CAI ([confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [availability]({% link _knowhow/glossary/Availability.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}))
-* the expectations of the invested parties and the reputation
+* the expectations of the invested parties and their reputation
 
 For a registration service, for example, the confidentiality criterion is less important than the integrity criterion. In certain business lines, some risks must be avoided at all costs. In others, some assets must be protected at all costs. These contextual values are defined during the assessment phase. They must be applied throughout the whole risk analysis.
 
 The **[basic criteria]({% link _knowhow/glossary/BasicCriteria.markdown %})** must also be determined:
 
 * [Impact]({% link _knowhow/glossary/Impact.markdown %}) criteria:
-  * how to express the degree of damage and the associated costs, how to express damage in terms of reputation or damage caused by legal consequences.
-  * qualitative and quantitative scale
+  * How to express the degree of damage and the associated costs?
+  * How to express damage in terms of reputation or damage caused by legal consequences?
+  * What is the qualitative and quantitative scale?
 * Risk acceptance criteria:
-  * define acceptable levels of risk (potentially different for confidentiality, integrity and availability)
-* Define the objective and the scope of the risk analysis
-  * which assets must be included
-  * what is the scope of the risk analysis
-  * how to deal with risks within the scope
-* Definition of the organisation’s values
+  * Define acceptable levels of risk (potentially different for confidentiality, integrity, and availability).
+* Define the objective and the scope of the risk analysis:
+  * Which assets must be included?
+  * What is the scope of the risk analysis?
+  * How to deal with risks within the scope?
+* Definition of the organisation’s values:
   * business line
   * missions
   * values
@@ -55,8 +56,8 @@ Then, the **organisation** of the risk analysis must be defined:
 * relationships between actors and stakeholders
 * records that need to be kept and are used to document the risk management process
 
-## Risk identification
-The purpose of risk identification is to determine the causes of impacts and understand how, where and why this damage can occur. This is the preparation phase for the risk estimation itself. It proceeds as follows:
+## Risk Identification
+The purpose of risk identification is to determine the causes of impacts and understand how, where, and why this damage can occur. This is the preparation phase for the risk estimation itself. It proceeds as follows:
 
 * Identification of [assets]({% link _knowhow/glossary/Assets.markdown %}):
   * primary assets, such as business line processes and information
@@ -68,7 +69,7 @@ The purpose of risk identification is to determine the causes of impacts and und
 
 As a result, it is possible to draw up a list of assets which require risk management.
 
-## Risk estimation
+## Risk Estimation
 Risk estimation is comprised of several phases:
 
 1. the choice of methodology
@@ -143,7 +144,7 @@ It involves calculating a value, in other words, an approximative level for iden
 </table>
 
 
-## Risk assessment
+## Risk Assessment
 During this stage, you will need to use the knowledge of the risk obtained from the risk analysis, and also take the entity’s contractual, legal and regulatory obligations into consideration.
 The estimated risks are prioritised in order of importance, based on the decisions made when defining the context of the risk analysis.
 
@@ -211,22 +212,22 @@ The estimated risks are prioritised in order of importance, based on the decisio
 </table>
 
 
-## Risk treatment
+## Risk Treatment
 This final stage suggests the measures to be put in place. For this, the security measures need to be organised depending on:
 
 * the measures to be considered;
 * the order of importance and priorities.
 
-The whole system is based on the “Return on Security Investment” calculation – the income obtained from the implementation of risk reduction solutions. These calculations are based on the previously calculated ALE (“Annualised Loss Expectancy”) and on the calculation of costs incurred to implement the solution.
+The whole system is based on the 'Return on Security Investment' calculation – the income obtained from the implementation of risk reduction solutions. These calculations are based on the previously calculated ALE ('Annualised Loss Expectancy') and on the calculation of costs incurred to implement the solution.
 
 The risk analysis method ends with the choice of treatment. The analysis must still be implemented and the methods applied. However, it does help with the implementation of an action plan.
 
-There are 4 risk treatment options:
+There are four risk treatment options:
 
-1. “Risk reduction”, which consists of reducing the risk by choosing the appropriate security objectives and measures (See: [Sectoral risk analysis – risk treatment]({% link _services/diagnostic.markdown %}));
-2. “Risk conservation”, which consists of accepting current risks without taking further action;
-3. “Risk refusal”, which consists of giving up the activity or domain at the source of the risk;
-4. “Risk transfer” to a third party, using insurance coverage, for example.
+1. 'Risk reduction', which consists of reducing the risk by choosing the appropriate security objectives and measures (See: [Sectoral risk analysis – risk treatment]({% link _services/diagnostic.markdown %}));
+2. 'Risk conservation', which consists of accepting current risks without taking further action;
+3. 'Risk refusal', which consists of giving up the activity or domain at the source of the risk;
+4. 'Risk transfer' to a third party, using insurance coverage, for example.
 
 Any resulting residual risk must be approved by the management board of the entity concerned.
 
@@ -312,10 +313,10 @@ Any resulting residual risk must be approved by the management board of the enti
 </table>
 
 
-## Risk acceptance
+## Risk Acceptance
 Risk acceptance is the approval given by the management board of choices made during the risk treatment. The management board, therefore, agrees to the treatment plan, as well as to the residual risks.
 
-## Information sharing
+## Information Sharing
 This is a continuous process that allows the exchange and sharing of information on the risks between the decision-makers and the stakeholders. The purpose of risk communication is to:
 
 * reduce misunderstandings with decision-makers
