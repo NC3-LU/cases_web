@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "SOS – Compromised data"
+title:  "SOS – Compromised Data"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -12,10 +12,10 @@ ref: soscompromiseddata
 lang: en
 ---
 
-If access to your bank account, Facebook or email became compromised and ill-intentioned people can access them, here is what you should do:
+If access to your bank account, Facebook, or email became compromised and ill-intentioned people can access them, here is what you should do:
 
 #### 1. Immediately change the password for the account in question.
-This is the first thing you should do to protect your data. You should do this right away before a criminal has had the chance to access your data and change your [password]({% link _knowhow/glossary/Password.markdown %}) themselves. You should do this on a computer you trust.
+This is the first thing you should do to protect your data. You should do this right away before criminals have the chance to access your data and change your [password]({% link _knowhow/glossary/Password.markdown %}) themselves. You should do this on a computer you trust.
 
 If you are unable to log in to your account immediately to change your password, call your administrator so they can block your account.
 
@@ -33,4 +33,6 @@ You should immediately notify your account administrator so they can block acces
 #### 5. Make a list of the information that is accessible on your account.
 If any information grants access to other accounts, take steps to protect them *(points 1 and 2)*.
 
-If your mailbox has been compromised, check whether any confidential information was stored in it. If so, take suitable measures to protect this information. If necessary, warn any contacts who exchange confidential information with you. Also, look at the password reminder functions for all online services you use which refer to your email address to regenerate a password. Make sure the attacker has not changed other accounts that you access through the compromised account.
+If your mailbox has been compromised, check whether any confidential information was stored in it. If so, take suitable measures to protect this information. If necessary, warn any contacts who exchange confidential information with you.
+
+Also, look at the password reminder functions for all online services you use which refer to your email address to regenerate a password. Make sure the attacker has not changed other accounts that you access through the compromised account.
