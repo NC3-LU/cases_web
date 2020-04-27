@@ -9,70 +9,66 @@ categories: knowhow
 toc: true
 ref: glossaryavailability
 lang: en
-hidden: true
 ---
 
-## In brief
-La 'disponibilité' d'un actif au sein d'une entité,  c'est l'assurance que celui-ci est utilisable en terme de temps et de performance prévue. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}) voulant garantir la disponibilité des actifs doivent donc veiller à ce qu'une ressource reste utilisable en termes de capacités et temps prévus. (Voir aussi [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})).
+## In Brief
+The 'availability' of an asset within an entity is the assurance that it can be used in terms of time and expected performance. [Security measures]({% link _publications/ProtectingYourCompany.markdown %}) intended to guarantee the availability of assets must, therefore, ensure that a resource remains usable in terms of capacity and planned time. (See also [classification]{% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}).)
 
-## Menaces mettant en péril la disponibilité
+## Threats Jeopardising Availability
+Here is a non-exhaustive list of EBIOS threats that can jeopardise the availability of an asset:
 
-Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril la disponibilité d'un actif :
+### **Physical damage**
 
-### **Dommages physiques**
-
-* Incendie (PME: voir [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
-
-* Dégât des eaux
+* Fire (SME: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
+* Water damage
 * Pollution
-* Sinistre majeur
-* Destruction de matériel ou de supports (PME: voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) )
-* Poussière, corrosion, gel
+* Major disaster
+* Destruction of equipment or supports (SME: see [Computer or communication equipment broken down]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) )
+* Dust, corrosion, frost
 
-### **Evenements naturels**
+### **Natural events**
 
-* Phénomène climatique
-* Phénomène sismique
-* Phénomène volcanique
-* Phénomène météorologique
-* Crue
+* Climatic phenomenon
+* Seismic phenomenon
+* Volcanic phenomenon
+* Meteorological phenomenon
+* Raw
 
-### **Perte de services essentiels**
+### **Loss of essential services**
 
-* Défaillance de la climatisation
-* Perte d'alimentation énergétique (PME: voir [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut))
-* Perte des moyens de télécommunication (PME: voir [Accès au réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) et [Interruption des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers))
+* Air conditioning failure
+* Energy Power Loss (SME: see [Power Failure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut))
+* Loss of telecommunication (SME: see [Unavailable network access]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) and [Interruption of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communication) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers))
 
-### **Distribution dues aux radiations**
+### **Distribution due to radiation**
 
-* Rayonnements électromagnétiques
-* Rayonnements thermiques
-* Impulsions électromagnétiques (IEM)
+* Electromagnetic radiation
+* Thermal radiation
+* Electromagnetic pulses (EMI)
 
-### **Compromission d'informations**
+### **Compromise of information**
 
-* Vol de supports ou de documents (PME: voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+* Theft of media or documents (SME: see [Robbery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Penetration in premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+* Theft of equipment (SME: see [Robbery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Penetration in premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
 
-* Vol de matériels (PME: voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+### **Technical failures**
 
-### **Defaillances techniques**
+* Hardware failure (SME: see [Computer or communication equipment broken down]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Damage to equipment during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport))
+* Equipment malfunction (SME: [Insertion or removal of equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardwar}))
+* Information system saturation
+* Software malfunction
+* Attack on the maintainability of the information system (SME: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups) and [Impossible administration]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators) and [Inappropriate software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unsuitable-software-environment))
 
-* Panne matérielle (PME: voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) et [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport))
-* Dysfonctionnement du matériel (PME: [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardwar}))
-* Saturation du système d'information
-* Dysfonctionnement logiciel
-* Atteinte à la maintenabilité du système d'information (PME: voir [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups) et [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators) et [Environnement logiciel inapproprié]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unsuitable-software-environment))
+### **Unauthorised actions**
 
-### **Actions non autorisees**
+* Illegal use of materials (SME: see [Misuse of organisational resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
+* Use of counterfeit or copied software (SME: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) )
+* Illegal data processing (SME: see [Unauthorised processing of personal data - Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) and [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
 
-* Utilisation illicite des matériels (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
-* Utilisation de logiciels contrefaits ou copiés (PME: voir : [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence))
-* Traitement illicite des données (PME: voir [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) et [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
+### **Compromise of functions**
 
-### **Compromission de fonctions**
-
-* Erreur d'utilisation (PME: voir [Erreur humaine]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures))
-* Abus de droits (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
-* Usurpation de droit (PME: voir [Administrateur malveillant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator) et [Utilisation d’un accès réservé à un utilisateur par un tiers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#use-of-limited-access-by-a-third-party))
-* Déni de service (PME: voir [Attaques par déni de service et déni de service distribués]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#denial-of-servicedistributed-service))
-* Atteinte à la disponibilité du personnel (PME: voir [Personnel absent]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#staff-absences))
+* User error (SME: see [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures))
+* Abuse of rights (SME: see [Abuse of organisational resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
+* Usurpation of rights (SME: see [Malicious administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator) and [Use of access reserved for a user by a third party]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#use-of-limited-access-by-a-third-party))
+* Denial of service (SME: see [Attacks by distributed denial of service and denial of service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#denial-of-servicedistributed-service))
+* Impairment of staff availability (SME: see [Absent staff]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#staff-absences))
