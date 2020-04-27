@@ -12,10 +12,9 @@ lang: fr
 ---
 
 ## En quelques mots
-La 'disponibilité' d'un actif au sein d'une entité,  c'est l'assurance que celui-ci est utilisable en terme de temps et de performance prévue. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) voulant garantir la disponibilité des actifs doivent donc veiller à ce qu'une ressource reste utilisable en termes de capacités et temps prévus. (Voir aussi [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})).
+La 'disponibilité' d'un actif au sein d'une entité, c'est l'assurance que celui-ci est utilisable en terme de temps et de performance prévue. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany_fr.markdown %}) voulant garantir la disponibilité des actifs doivent donc veiller à ce qu'une ressource reste utilisable en termes de capacités et temps prévus. (Voir aussi [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %})).
 
 ## Menaces mettant en péril la disponibilité
-
 Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril la disponibilité d'un actif :
 
 ### **Dommages physiques**
@@ -39,7 +38,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 
 * Défaillance de la climatisation
 * Perte d'alimentation énergétique (PME: voir [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#power-cut))
-* Perte des moyens de télécommunication (PME: voir [Accès au réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability) et [Interruption des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers))
+* Perte des moyens de télécommunication (PME: voir [Accès au réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#network-unavailability) et [Interruption des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#interception-of-communication) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure_fr.markdown %}#discontinuity-of-service-providers))
 
 ### **Distribution dues aux radiations**
 
@@ -63,7 +62,7 @@ Voici une liste, non exhaustive, des menaces EBIOS qui peuvent mettre en péril 
 ### **Actions non autorisees**
 
 * Utilisation illicite des matériels (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR_fr.markdown %}#misuse-of-it-resources))
-* Utilisation de logiciels contrefaits ou copiés (PME: voir : [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence))
+* Utilisation de logiciels contrefaits ou copiés (PME: voir [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#invalid-or-non-existent-licence))
 * Traitement illicite des données (PME: voir [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) et [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects_fr.markdown %}#regulatory-requirements))
 
 ### **Compromission de fonctions**
