@@ -9,157 +9,149 @@ categories: knowhow
 toc: true
 ref: glossarybasiccriteriaforra
 lang: en
-hidden: true
 ---
 
-## In brief
-Lors de la définition du contexte dans lequel s'effectuera la gestion des risques, il s'agira d'établir des critères de base, qui serviront aussi bien à analyser les risques de l'organisme, que de proposer les solutions de traitements.
+## In Brief
+When defining the context in which risk management will be carried out, it will be a matter of establishing basic criteria, which will serve both to analyse the risks of the organisation, and of proposing treatment solutions.
 
-## Les menaces
-Un des moyens pour définir les critères de base au niveau des menaces est de définir une échelle de probabilités qui dépendra du contexte dont voici un exemple :
+## The Threats
+One of the ways to define the basic criteria at the threat level is to define a probability scale which will depend on the context, as can be seen in the following example:
 
-Critères de base des menaces:
+Basic threat criteria:
 
 <table class="table">
   <tr>
-    <th class="t-cell">Niveau</th>
-    <th class="t-cell">Commentaire</th>
-    <th class="t-cell">Périodicité</th>
+    <th class="t-cell">Level</th>
+    <th class="t-cell">Comment</th>
+    <th class="t-cell">Periodicity</th>
   </tr>
   <tr>
     <td class="t-cell">1</td>
-    <td class="t-cell">Très improbable : jamais arrivé, nécessité d'un haut niveau d'expertise, ou très coûteux à mettre en oeuvre.</td>
-    <td class="t-cell">> 30 ans</td>
+    <td class="t-cell">Very unlikely: never happened, need for a high level of expertise, or very expensive to implement.</td>
+    <td class="t-cell">> 30 years</td>
   </tr>
   <tr>
     <td class="t-cell">2</td>
-    <td class="t-cell">Improbable : Peut déjà être survenu, phénomène rare ou nécessitée d'un bon niveau d'expertise ou coûteux à mettre en oeuvre.</td>
-    <td class="t-cell">> 10 ans</td>
+    <td class="t-cell">Improbable: may have already occurred, a rare phenomenon or requiring a good level of expertise or costly to implement.</td>
+    <td class="t-cell">> 10 years</td>
   </tr>
   <tr>
     <td class="t-cell">3</td>
-    <td class="t-cell">Peut arriver de temps à autre</td>
-    <td class="t-cell">> 5 ans</td>
+    <td class="t-cell">May happen from time to time</td>
+    <td class="t-cell">> 5 years</td>
   </tr>
   <tr>
     <td class="t-cell">4</td>
-    <td class="t-cell">Très probable facile à mettre en œuvre, pas d'investissement ou d'expertise particulière</td>
-    <td class="t-cell">au moins tous les ans</td>
+    <td class="t-cell">Very easy to implement, no investment or special expertise needed</td>
+    <td class="t-cell">at least every years</td>
   </tr>
 </table>
 
+## The Vulnerabilities
+By defining the basic criteria of vulnerabilities, we determine the ease of exploitation of vulnerabilities by threats.
 
-
-
-## Les vulnérabilités
-
-En définissant les critères de base des vulnérabilités, on détermine l'aisance d'exploitation des vulnérabilités par des menaces.
-
-Critères de base des vulnérabilités:
+Basic criteria for vulnerabilities:
 
 <table class="table">
   <tr>
-    <th class="t-cell">Niveau</th>
-    <th class="t-cell">Commentaire</th>
+    <th class="t-cell">Level</th>
+    <th class="t-cell">Comment</th>
   </tr>
   <tr>
     <td class="t-cell">0</td>
-    <td class="t-cell">Faible vulnérabilité, des mesures efficaces sont en place</td>
+    <td class="t-cell">Low vulnerability, effective measures are in place</td>
   </tr>
   <tr>
     <td class="t-cell">1</td>
-    <td class="t-cell">Vulnérabilité moyenne, des mesures sont en places mais peuvent être insuffisantes</td>
+    <td class="t-cell">Medium vulnerability, measures are in place but may be insufficient</td>
   </tr>
   <tr>
     <td class="t-cell">2</td>
-    <td class="t-cell">Vulnérabilité élevée, pas de mesure de protection efficace en place, ou elles sont mal adaptées</td>
+    <td class="t-cell">High vulnerability, no effective protective measures are in place, or they are poorly adapted</td>
   </tr>
 </table>
 
+## The Impacts
+To define the basic criteria of impacts, we use a categorisation of different levels of impact. These criteria can also be determined according to the security objective, i.e. in relation to confidentiality, integrity, or even in relation to the availability of the assets. See also the criteria for classifying assets with different scales. It is up to the organisation to choose its approach in risk analysis. The greater the maturity of the organisation, the more detailed the scales can be used.
 
-
-## Les impacts
-
-Quant aux critères de base qui définissent les impacts, on se sert des différents niveaux d'impact. Ces critères peuvent aussi être déterminés selon l'objectif de sécurité, c'est à dire par rapport à la confidentialité, à l'intégrité ou encore par rapport à la disponibilité des actifs d'un organisme. Voir aussi les critères de classification des actifs avec des échelles différentes. C'est à l'organisme de choisir son approche dans l'analyse des risques. Plus la maturité de l'organisme sera grande, plus les échelles utilisées pourront être détaillées.
-
-Critères de base pour impacts:
+Basic criteria for impacts:
 
 <table align="center" border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tr><th class="color-table-grey">
-				Niveau</th>
+				Level</th>
 			<th class="color-table-grey">
-				Libellé</th>
+				Wording</th>
 			<th class="color-table-grey">
-				Pertes financières (k€)</th>
+				Financial losses (k€)</th>
 			<th class="color-table-grey">
-				juridique</th>
+				Legal</th>
 			<th class="color-table-grey">
-				Perte sur l'image</th>
+				Image loss</th>
 			<th class="color-table-grey">
-				social, vie privée</th>
+				Social, Privacy</th>
 			<th class="color-table-grey">
-				Commentaire</th>
+				Comment</th>
 		</tr><tr><td>
 				1</td>
 			<td>
-				Impact insignifiant</td>
+				Insignificant impact.</td>
 			<td>
 				&lt; 1</td>
 			<td>
-				Sanctions internes à l’organisation</td>
+				Internal sanctions</td>
 			<td>
-				Plaintes occasionnelles</td>
+				Occasional complaints</td>
 			<td>
-				Divulgation de données personnelles peu sensibles</td>
+				Disclosure of insensitive personal data</td>
 			<td>
-				Engage quelques frais dérisoires, ou ne sera pas remarqué extérieurement</td>
+				Incurs small fees, or will not be noticed externally</td>
 		</tr><tr><td>
 				2</td>
 			<td>
-				Impact mineur</td>
+				Minor impact</td>
 			<td>
 				1 - 10</td>
 			<td>
-				Actions en justice</td>
+				Legal actions</td>
 			<td>
-				Critiques occasionnelles dans les médias</td>
+				Occasional media criticism</td>
 			<td>
-				Atteinte passagère à la réputation</td>
+				Temporary damage to reputation</td>
 			<td>
-				Engage des frais notoires, visible d'un point de vue externe</td>
+				Significant costs, visible from an external point of view</td>
 		</tr><tr><td>
 				3</td>
 			<td>
-				Impact sérieux</td>
+				Serious impact</td>
 			<td>
 				10 - 100</td>
 			<td>
-				Condamnation de l’Autorité</td>
+				Conviction of the Authority</td>
 			<td>
-				Critiques graves dans les médias</td>
+				Serious media criticism</td>
 			<td>
-				Atteinte sérieuse à l’intégrité ou à la réputation</td>
+				Serious damage to integrity or reputation</td>
 			<td>
-				Des frais conséquents sont à engager pour relever la situation</td>
+				Significant costs are incurred to address the situation</td>
 		</tr><tr><td>
 				4</td>
 			<td>
-				Impact vital</td>
+				Vital impact</td>
 			<td>
 				&gt; 100</td>
 			<td>
-				Condamnation internationale de l’Autorité</td>
+				International condemnation of the Authority</td>
 			<td>
-				Altération définitive</td>
+				Final alteration</td>
 			<td>
-				Perte de vie humaine / Atteinte grave à la réputation</td>
+				Loss of human life/Serious damage to reputation</td>
 			<td>
-				Perturbation majeure pour le citoyen, mais il n'y a pas péril à la survie de l'organisme</td>
+				Major disturbance for the citizen, but there is no danger to the survival of the organisation</td>
 		</tr></table>
 
-## Le risque
+## The Risk
 
-Les critères de base du risque :
+Basic risk criteria:
 
 <table style="width:500px;" align="center" border="1" cellpadding="1" cellspacing="1">
 	<tr>
@@ -167,7 +159,7 @@ Les critères de base du risque :
 			&nbsp;
 		</td>
 			<td colspan="7" style="text-align:center;background-color:rgb(204,204,204);">
-				&nbsp;Menace + Vulnérabilité</td>
+				&nbsp;Threat + Vulnerability</td>
 		</tr><tr><td style="background-color:rgb(204,204,204);">
 				&nbsp;</td>
 			<td class="color-table-grey">
@@ -251,8 +243,6 @@ Les critères de base du risque :
 		</tr>
 </table>
 
+Here, we define a significant risk, which value is between 6 and 11 (orange area). These are risks that should be addressed.
 
-Ici nous définissons le risque important comme celui dont la valeur est entre 6 et 11 (zone orange). Ce sont des risques qui devraient être adressés.
-
-Les risques critiques dont la valeur est supérieure à 12 (zone rouge), doivent être adressés.
-S'il s'avère qu'une organisation présente des niveaux d'acceptation de risques différents concernant la confidentialité, l'intégrité ou la disponibilité, elle peut définir pour objectif de sécurité un tableau spécifique et déterminer des seuils différents.
+Critical risks with a value greater than 12 (red zone) must be addressed. If an organisation turns out to have different levels of acceptance of confidentiality, integrity or availability risks, a specific security objective can be defined and different thresholds can be determined.
