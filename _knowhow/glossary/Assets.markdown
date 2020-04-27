@@ -1,174 +1,181 @@
 ---
 layout: article
-title:  "Assets"
-menutitle:
+title: "Assets"
+menutitle:	
 logo:
-date:  2017-11-06 00:00:00 +0100
+date: 2017-11-06 00:00:00 +0100
 short: "Security Measures"
 categories: knowhow
 toc: true
 ref: glossaryassets
 lang: en
-hidden: true
 ---
 
-## In brief
-Par 'actif', l'on comprend un bien ou un service ayant une certaine valeur pour l'entreprise. Les actifs sont sujets à différentes [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}), susceptibles d'être exploitées par des menaces qui auront des [impacts]({% link _knowhow/glossary/Impact.markdown %}) au niveau de l'entreprise. Pour protéger ses actifs, une entreprise mettra en place des mesures de sécurité. La sélection de ces mesures se fait lors de la phase de [gestion des risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}).
+## In Brief
+By ‘Assets’, we mean goods or services which are valuable for the company. Assets have some [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}), which can be exploited by threats that will have [impacts]({% link _knowhow/glossary/Impact.markdown %}) on the company. To protect those assets, the company should take some security measures. These are selected during the [risk management]({% link _knowhow/bestpractices/RiskManagement.markdown %}) phase.
 
-On distingue entre:
+Two types of assets could be distinguished:
 
-* actifs primaires:  processus et informations
+* Primary assets: processes and information
 
-* actifs de support: tous les autres actifs comme notamment les personnes, machines, ...
+* Support assets: all other assets, like people, equipment, etc. 
 
-## Les actifs primaires
-Par actifs primaires, on entend les processus métiers ainsi que les informations de l'organisme. Chaque actif primaire présente une certaine [criticité]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) pour l'organisme. Ainsi il y a des processus métier plus ou moins importants, il y a des processus métier ou l'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) joue un rôle plus important que la [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}) (service du cadastre) et ainsi de suite. Il en est de même pour les informations. Il y a des informations très importantes et moins importantes. Il y a des informations ou la confidentialité est plus importante que la [disponibilité]({% link _knowhow/glossary/Availability.markdown %}).
+## Primary Assets
+Primary assets are business processes as well as information related to the company. Each primary asset has a certain [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) for the company. That is we have some business processes which are more or less important, whereas some other where [integrity]({% link _knowhow/glossary/Integrity.markdown %}) has a more important part than [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) (surveying office), and so on. It pertains to information as well. Some of them are really important, while others are not. Confidentiality is more important than [availability]({% link _knowhow/glossary/Availability.markdown %}) regarding certain pieces of information.
 
-L'[analyse de risques]({% link _knowhow/bestpractices/RiskManagement.markdown %}#risk-estimation) est en faite calculée sur base de la criticité des actifs primaires. Les actifs de support nécessaires à la réalisation ou des processus métier héritent de la criticité des actifs primaires.
+The [risk analysis]({% link _knowhow/bestpractices/RiskManagement.markdown %}#risk-estimation) is calculated with the criticality of primary assets. Support assets which are necessary to achieve business process inherit the criticality assigned to primary assets. 
 
-## Les actifs de support
-EBIOSv2 propose une catégorisation des entités et des actifs de support autour de 7 types:
+## Support Assets
+EBIOSv2 gives us a categorisation of entities and support assets of seven different types:
 
-1. MAT : Matériel
+1. MAT: Hardware
 
-2. LOG : Logiciel
+2. LOG: Software
 
-3. RES : Réseau
+3. RES: Network
 
-4. PER : Personne
+4. PER: Personnel
 
-5. PHY : Site
+5. PHY: Infrastructure
 
-6. ORG : Organisation
+6. ORG: Organisation
 
-7. SYS : Système
+7. SYS: System
 
-## Matériel
-Le type 'matériel' est constitué de l’ensemble des éléments physiques d'un système informatique. (PME: [Voir le matériel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}))
+## Hardware
 
-* MAT_ACT : Support de traitement de données (actif)
-Équipement informatique de traitement automatique de données comprenant les éléments nécessaires à son fonctionnement autonome.
+‘Hardware’ consists of all physical elements of an information system (SME: [See the threats to hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %})).
 
-  * MAT_ACT.1 : Matériel transportable
-Matériels informatiques conçus pour être déplacés manuellement et utilisés en des lieux différents.
+* MAT_ACT: Data Processing Equipment (active)
+Automatic information processing equipment that includes the items it requires to operate independently.
 
-  * MAT_ACT.2 : Matériel fixe
-Matériels informatiques appartenant à l’organisme ou utilisés dans les locaux de l’organisme.
+  * MAT_ACT.1: Transportable Equipment
+Computer equipment designed to be carried by hand and used in different places.
 
-  * MAT_ACT.3 : Périphérique de traitement
-Matériel connecté à un ordinateur par un port de communication (série, parallèle, USB ...) pour la saisie, le transport ou l´émission de données.
+  * MAT_ACT.2: Fixed Equipment
+Computer equipment that belongs to the organisation or used in the organisation’s premises.
 
-* MAT_PAS : Support de données (passif)
-Il s’agit de supports de stockage d'informations ou de fonctions.
+  * MAT_ACT.3: Processing Peripheral
+Equipment connected to a computer via a communication port (serial, parallel link, etc.) for entering, conveying or transmitting data.
 
-  * MAT_PAS.1 : Support électronique
-Supports électroniques connectables à un ordinateur ou à un réseau informatique pour le stockage de données. De petite taille, ils sont susceptibles de contenir de grand volume de données. Ils sont utilisables à partir d’équipement informatique standard.
+* MAT_PAS: Data Medium (passive)
+These are media for storing data or functions.
 
-  * MAT_PAS.2 : Autres supports
-Support statique non électronique contenant des données.
+  * MAT_PAS.1: Electronic Medium
+An information medium that can be connected to a computer or computer network for data storage. Despite their compact size, these media may contain a large amount of data. They can be used with standard computing equipment.
 
-## Logiciel
-Le type 'logiciel' est constitué de l'ensemble des programmes participant au fonctionnement d'un ensemble de traitements de l'information. (PME: [Voir le logiciel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}))
+  * MAT_PAS.2: Other Media
+Static, non-electronic media containing data.
 
-* LOG_OS : Système d’exploitation
-Ce libellé comprend l'ensemble des logiciels d’un ordinateur constituant le socle opérationnel sur lequel vont s’exécuter l’ensemble des autres logiciels (services ou applications). Il comprend un noyau et des fonctions ou services de base. Selon les architectures, un système d’exploitation peut être monolithique ou constitué d’un micro-noyau et d’un ensemble de services systèmes. Le système d’exploitation contient principalement tous les services de gestion du matériel (CPU, mémoire, disques, périphériques et interfaces réseaux), ceux de gestion des tâches ou processus, et ceux de gestion des utilisateurs et de leurs droits.
+## Software
 
-* LOG_SRV : Logiciel de service, maintenance ou administration
-Logiciel qui se caractérise par le fait qu’il complète les services du système d’exploitation et qu’il n'est pas au service direct des utilisateurs ou des applications (même s’il est le plus souvent essentiel ou même indispensable au fonctionnement global du SI).
+‘Software’ consists of all the programs contributing to the operation of a data processing set (SME: [See the threats to software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %})).
 
-* LOG_STD : Progiciel ou logiciel standard
-Les logiciels standards ou progiciels sont de véritables produits commercialisés comme tels (et non des développements uniques ou spécifiques) avec support, version et maintenance. Ils rendent des services « génériques » aux utilisateurs et applications, mais ne sont pas personnalisés ou spécifiques comme des applications métier.
+* LOG_OS: Operating System
+This title includes all the programs of a computer making up the operational base from which all the other programs (services or applications) are run. It includes a kernel and basic functions or services. Depending on the architecture, an operating system may be monolithic or made up of a micro-kernel and a set of system services. The main components of the operating system are the equipment management services (CPU, memory, discs, peripherals and network interfaces), task or process management services, and user and user rights management services.  
 
-* LOG_APP : Application métier
+* LOG_SRV: Service, Maintenance or Administration Software
+Software characterised by the fact that it complements the operating system services and is not directly at the service of the users or applications (even though it is usually essential or even indispensable for the global operation of the information system).
 
-  * LOG_APP .1 : Application métier standard
-Il s’agit de logiciels du marché dont la finalité est de fournir directement aux utilisateurs les services et fonctions qu’ils attendent de leur système d’information dans le cadre de leur métier. Les domaines sont multiples et par définition sans limite.
+* LOG_STD: Package Software or Standard Software
+Standard software or package software is a complete product commercialised with medium, release, and maintenance. They provide ‘generic’ services for users and applications, but are not personalised or specific in the way that business applications are.
 
-  * LOG_APP .2 : Application métier spécifique
-Il s’agit de développements spécifiques (ce qui impacte notablement les aspects de support, maintenance, évolution…) dont la finalité est de fournir directement aux utilisateurs les services et fonctions qu’ils attendent de leur système d’information dans le cadre de leur métier. Les domaines sont multiples et par définition sans limite.
+* LOG_APP: Business Application
 
-## Réseau
-Le type 'réseau' est constitué de l'ensemble des dispositifs de télécommunication permettant l’interconnexion de plusieurs ordinateurs ou composants d’un système d'information physiquement éloignés.
+  * LOG_APP .1: Standard Business Application
+This is commercial software designed to give users direct access to the services and functions they require from their information system in their professional context. There is a very wide, theoretically limitless, range of fields.
 
-* RES_INF : Médium et supports
-Les médiums ou supports de communication et de télécommunication comprennent principalement les caractéristiques physiques et techniques du support (point à point, diffusion) et les protocoles de communication (lien ou réseau – niveau 2 et 3 du modèle OSI à 7 couches).
+  * LOG_APP .2: Specific Business Application
+This is software in which various aspects (primarily support, maintenance, upgrading, etc.) have been specifically developed to give users direct access to the services and functions they require from their information system in their professional context. There is a very wide, theoretically limitless, range of fields.
 
-* RES_REL : Relais passif ou actif
-Ce sous-type comprend tous les dispositifs qui ne sont pas des terminaisons logiques des communications (vision SI), mais des intermédiaires ou relais. Ces relais comportent du matériel mais souvent des logiciels ad-hoc. Ils se caractérisent par les protocoles de communication –réseau– supportés. Ils comportent souvent, en plus du simple relais, des fonctions et services de routage (aiguillage des communications) et/ou de filtrage (filtres dans les routeurs). Ils sont souvent administrables à distance et parfois capables de générer des traces (journaux).
+## Networks
 
-* RES_INT : Interface de communication
-Il s'agit des interfaces de communication des unités de traitement. Elles y sont rattachées, mais se caractérisent par les média et protocoles supportés, par les éventuelles fonctions et capacités de filtrage, de génération de journaux ou d'alerte et par la possibilité et le besoin d’administration à distance.
+‘Network’ consists of all telecommunication devices to interconnect several physically remote computers or components of an information system. 
+
+* RES_INF: Medium and Supports
+Communication and telecommunication media or equipment are characterised mainly by the physical and technical characteristics of the equipment (point-to-point, broadcast) and by the communication protocols (link or network - levels 2 and 3 of the OSI 7-layer model).
+
+* RES_REL: Passive or Active Relay
+This sub-type includes all devices that are not the logical terminations of communications (IS vision), but are intermediate or relay devices. These relays employ ad hoc hardware, and often ad hoc software. They are characterised by the supported network communication protocols. In addition to the basic relay, they often include routing and/or filtering functions and services, employing communication switches and routers with filters. They can often be administrated remotely and are sometimes capable of generating logs.
+
+* RES_INT: Communication Interface
+They are the communication interfaces of the processing units, but characterised by the media and supported protocols. They have installed filtering, log creation or warning generation functions. Also, there is a requirement for the possibility of remote administration.
 
 ## Personnel
-Le type 'personnel' est constitué de l’ensemble des groupes d’individus en relation avec le système d'information. (PME: [Voir le personnel face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}))
 
-* PER_DEC : Décisionnel
-Il s'agit des propriétaires des éléments essentiels (informations et fonctions) ainsi que des responsables hiérarchiques au sein de l'organisation ou d'un projet spécifique.
+‘Personnel’ consists of all the groups of persons involved in the information system (SME: [See the threats to human resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %})).
 
-* PER_UTI : Utilisateurs
-Il s'agit des personnes qui manipulent des éléments sensibles dans le cadre de leur activité et qui ont une responsabilité particulière à cet égard. Elles peuvent disposer de privilèges particuliers d’accès au système d’information pour assurer leurs tâches quotidiennes.
+* PER_DEC: Decision Maker
+Decision makers are the owners of the essential elements (information and functions) and the line managers of the organisation or specific project.
 
-* PER_EXP : Exploitant / Maintenance
-Il s'agit des personnes en charge de l’exploitation et de la maintenance du système d’information. Elles disposent de privilèges particuliers d’accès au système d’information pour assurer leurs tâches quotidiennes.
+* PER_UTI: Users
+Users are the personnel who handle sensitive elements in the context of their activity and who have a special responsibility in this respect. They may have special access rights to the information system to carry out their everyday tasks.
 
-* PER_DEV : Développeur
-Il s'agit des personnes en charge du développement des applications au sein de l’organisme. Ils accèdent à une partie du système d’information avec des privilèges avancés mais n’agissent pas sur les données de production.
+* PER_EXP: Operator/Maintenance
+They are the personnel in change of operating and maintaining the information system. They have special access rights to the information system to carry out their everyday tasks.
+
+* PER_DEV: Developer
+Developers are in charge of developing the organisation’s applications. They have access to part of the information system with high-level rights but do not take any action on the production data.
 
 ## Organisation
-Le type 'organisation' décrit le cadre organisationnel, constitué de l’ensemble des structures de personnel affecté à une tâche et des procédures régissant ces structures.
 
-* ORG_DEP : Organisation dont dépend l’organisme
-Il s’agit d’organisations dont dépend l’organisme étudié, qu’il y soit juridiquement rattaché ou externe. L’organisme étudié est alors contraint en termes de réglementation, de décisions, d’actions voir de remontée d’informations.
+‘Organisation’ describes the organisational framework, consisting of all the personnel structures assigned to a task and the procedures controlling these structures.
 
-* ORG_GEN : Organisation de l’organisme
-Il s’agit des différentes branches de l’organisme rattachées à sa direction, y inclue les activités transversales.
+* ORG_DEP: Higher-Tier Organisation
+These are organisations on which the studied organisation depends. They may be legally affiliated or external. This imposes constraints on the studied organisation in terms of regulations, decisions, actions or reporting of information.
 
-* ORG_PRO : Organisation d'un projet ou d’un système
-Il s’agit de l’organisation de la mise en place d'un projet ou d'un service particulier.
+* ORG_GEN: Structure of the Organisation
+This consists of the various branches of the organisation, including its cross-functional activities, under the control of its management.
 
-* ORG_EXT : Sous-traitant/Fournisseurs/Industriels
-Il 'sagit de l'organisation autour de fournisseurs de services, ou de ressources humaines liées par contrat à l'organisme
+* ORG_PRO: Project or System Organisation
+This concerns the organisation set up for a specific project or service. 
+
+* ORG_EXT: Subcontractors/Suppliers/Manufacturers
+An organisation providing the organisation with a service or resources and bound to it by contract.
 
 ## Site
-Le type 'site' est constitué de l’ensemble des lieux contenant tout ou une partie du système et les moyens physiques nécessaires à son fonctionnement. (PME: [Voir l'infrastructure face aux menaces]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}))
 
-* PHY_LIE : Lieu
-Périmètre, enceinte physique.
+‘Site’ comprises all the places containing the system, or part of the system, and the physical means required for it to operate (SME: [See the threats to the infrastructure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %})).
 
-  * PHY_LIE.1 : Externe
-Il s’agit de tous les lieux dans lesquels les moyens de sécurité de l’organisme ne peuvent être appliqués
+* PHY_LIE: Places
+Perimeters, physical enclosures.
 
-  * PHY_LIE.2 : Locaux
-Ce lieu est délimité par le périmètre de l’organisme directement en contact avec l’extérieur. Il peut s’agir d’un périmètre de protection physique obtenu en installant des barrières physiques, ou en utilisant des moyens de surveillance autour du/des bâtiment(s).
+  * PHY_LIE.1: External environment
+This concerns all the places in which the organisation’s means of security cannot be applied.
 
-  * PHY_LIE.3 : Zone
-Il s’agit d’un périmètre de protection physique offrant un cloisonnement des locaux dans l’organisme. Il est obtenu en créant des barrières physiques autour des infrastructures de traitement de l’information de l’organisme.
+  * PHY_LIE.2: Premises
+This place is bounded by the organisation’s perimeter directly in contact with the outside. This may be a physical protective boundary obtained by creating physical barriers or means of surveillance around buildings.
 
-* PHY_SRV : Service essentiel
-Ensemble de services nécessaires au fonctionnement des matériels dans l’organisme.
+  * PHY_LIE.3: Zone
+A zone is formed by a physical protective boundary forming partitions within the organisation’s premises. It is obtained by creating physical barriers around the organisation’s information processing infrastructures.
 
-  * PHY_SRV.1 : Communication
-Services et équipement de télécommunication fournis par un opérateur.
+* PHY_SRV: Essential Service
+All the services required for the organisation’s equipment to operate. 
 
-  * PHY_SRV.2 : Énergie
-Services et moyens (sources et câblage) nécessaires à l’alimentation du matériel informatique et périphérique.
+  * PHY_SRV.1: Communication
+Telecommunication services and equipment provided by an operator.
 
-  * PHY_SRV.3 : Refroidissement /pollution
-Services et moyens (matériel, conduite) de refroidissement et de purification de l’air.
+  * PHY_SRV.2: Power
+Services and means (sources and wiring) required for providing power to information technology equipment and peripherals.
 
-## Système
-Le type 'système' est constitué de l’ensemble des installations spécifiques liées aux technologies de l’information, dans un environnement opérationnel, et avec un objectif particulier. Il est composé de diverses entités appartenant aux autres types décrits ci-avant.
+  * PHY_SRV.3: Cooling/Pollution
+Services and means (equipment, control) for cooling and purifying the air.
 
-* SYS_INT : Dispositif d’accès Internet
-Dispositif composé de l’interconnexion entre le réseau de l’organisme et le réseau Internet et offrant les services d’accès depuis ou vers l’Internet.
+## System
 
-* SYS_MES : Messagerie
-Dispositif permettant aux utilisateurs habilités la saisie, la consultation différée et la transmission, sur des ordinateurs connectés en réseau, de documents informatisés ou messages électroniques.
+‘System’ consists of all specific facilities linked to information technologies, with a specific objective and operational environment. It is composed of various entities belonging to other types described above.
 
-* SYS_ITR : Intranet
-Données et services informatiques partagés et privés, qui utilisent les protocoles de communication et les technologies fédératrices (technologie d'Internet par exemple).
+* SYS_INT: Internet Access Device
+A device that dials the interconnection between the organisation’s network and the Internet network and provides access services to or from the Internet.
 
-* Dispositif de gestion et d’accès à une base de données décrivant le personnel de l’entreprise et leurs caractéristiques.
+* SYS_MES: Electronic Messaging
+A device allowing authorised users to type, query and send computerised documents or electronic messages from or to computers connected to the network.
 
-* SYS_WEB : Portail externe
-Un portail externe est un point d’accès dont un utilisateur se servira pour trouver de l’information ou un service concernant un organisme. Les portails fournissent un grand éventail de ressources et de services.
+* SYS_ITR: Intranet
+Shared and private data and information services, using communication protocols and core technologies (Internet technology for example).
+
+* SYS_ANU: Company directory
+A device for managing and accessing a database describing the company’s personnel and their characteristics.
+
+* SYS_WEB: External Portal
+An external portal is a point of access that a user will find or use when he looks for information or a service provided by the organisation. Portals provide a wide range of resources and services.
