@@ -9,39 +9,39 @@ categories: knowhow
 toc: true
 ref: glossaryconfidentiality
 lang: en
-hidden: true
 ---
 
-## In brief
+## In Brief
+Ensuring the confidentiality of the data means ensuring that only authorised persons can access to that particular information. [Security measures]({% link _publications/ProtectingYourCompany.markdown %}) to guarantee confidentiality and to protect access to information against unauthorised persons. These measures must prevent intentional and unintentional loss of confidentiality (See also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})).
 
-Assurer le caractère confidentiel des données, c'est garantir que seul les personnes autorisées puissent accéder à ces informations. [Les mesures de sécurité]({% link _publications/ProtectingYourCompany.markdown %}) visant à garantir la confidentialité essayent donc de défendre l'accès à des informations par des personnes non autorisées. Ces mesures doivent prévenir la perte de confidentialité intentionnelle et non-intentionnelle. (Voir aussi la [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}))
+## Threats menacing confidentiality
+Here is a non-exhaustive list of [threats]({% link _knowhow/glossary/Threat.markdown %}) that can jeopardise the confidentiality of an asset:
 
-## Menaces mettant en péril la confidentialité
+* **Compromise of information**
+  * Interception of compromising false signals
+  * Remote spying (SME: see [Interception of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) and [Spam/Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing) and [Measures against malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
+  * Passive listening (SME: see [Listening to wireless networks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#wireless-network-tapping))
+  * Theft of media or documents (SME: see [Robbery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Penetration in premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+  * Theft of equipment (SME: see [Robbery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Penetration in premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+  * Recovery of recycled or discarded media (SME: see [Recovery of media]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
+  * Disclosure (SME: see [Social engineering/Inadequate communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people))
+  * Equipment trapping
+  * Software trapping (SME see: [Measures against malicious codes]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
+  * Geolocation
 
-Voici une liste, non exhaustive, des [menaces]({% link _knowhow/glossary/Threat.markdown %}) qui peuvent mettre en péril la confidentialité d'un actif:
+* **Technical failures**
+  * Hardware failure (SME: see [Computer or communication equipment broken down]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Damage to equipment during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport))
+  * Equipment malfunction (SME: [Insertion or removal of equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware))
+  * Software malfunction
 
-* **Compromission d'informations**
-  * Interceptions de signaux parasites compromettants
-  * Espionnage à distance (PME: voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Spam / Phishing]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#spam--phishing) et [Mesures contre les codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
-  * Écoute passive (PME voir: [Écoute des réseaux sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#wireless-network-tapping) )
-  * Vol de supports ou de documents (PME: voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
-  * Vol de matériels (PME: voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
-  * Récupération de supports recyclés ou mis au rebut (PME: voir [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
-  * Divulgation (PME: voir [Social engineering / Communication inadéquate]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#manipulation-of-people))
-  * Piégeage du matériel
-  * Piégeage du logiciel (PME voir: [Mesures contre les codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
-  * Géolocalisation
-* **Defaillances techniques**
-  * Panne matérielle (PME: voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) et [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport))
-  * Dysfonctionnement du matériel (PME: [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware))
-  * Dysfonctionnement logiciel
-* **ACTIONS NON AUTORISÉES**
-  * Utilisation illicite des matériels (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
-  * Copie frauduleuse de logiciels (PME: voir : [Utilisation de logiciels non approuvés]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}\use-of-unapproved-software) et [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence)
-  * Utilisation de logiciels contrefaits ou copiés (PME: voir : [Licence non valide ou inexistante]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence))
-  * Altération de données
-  * Traitement illicite des données (PME: voir [Traitement non autorisé de données personnelles - Surveillance des employés]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) et [Exigences réglementaires]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
-* **COMPROMISSION DE FONCTIONS**
-  * Erreur d'utilisation (PME: voir [Erreur humaine]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures))
-  * Abus de droits (PME: voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
-  * Usurpation de droit (PME: voir [Administrateur malveillant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator) et [Utilisation d’un accès réservé à un utilisateur par un tiers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#use-of-limited-access-by-a-third-party))
+* **Unauthorised Actions**
+  * Illegal use of materials (SME: see [Misuse of organisational resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
+  * Fraudulent copying of software (SME: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}\use-of-unapproved-software) and [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence))
+  * Use of counterfeit or copied software (SME: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence))
+  * Data corruption
+  * Illegal data processing (SME: see [Unauthorised processing of personal data – Employee monitoring]{% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) and [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
+
+* **Compromise of Functions**
+  * User error (SME: see [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures))
+  * Abuse of rights (SME: see [Abuse of organisational resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
+  * Usurpation of rights (SME: see [Malicious administrator]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator and [Use of access reserved for a user by a third party]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#use-of-limited-access-by-a-third-party)).
