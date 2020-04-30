@@ -9,36 +9,37 @@ categories: knowhow
 toc: true
 ref: glossarydisinfectthemachinelivecd
 lang: en
-hidden: true
 ---
 
-## In brief
-Un système d'exploitation live est un système d'exploitation qui peut être démarré depuis un CD et qui se charge complètement en mémoire, sans modifier de manière permanente l'ordinateur.
+## In Brief
+A live operating system is an operating system that can be started from a CD and loads completely into memory, without permanently modifying the computer.
 
-Ce systèmes permet de faire des analyses de l'ordinateur, sans que le système principal ne soit démarré. Il se prête donc parfaitement aux analyses d'antivirus ou autre opérations d'analyse criminalistique.
+This system makes it possible to carry out analyses of the computer, without the main system being started. Therefore, it can perfectly be used to antivirus analyses or other forensic analysis operations.
 
-## Pourquoi l'utiliser?
-Il est biensûr très important de posséder un [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) fonctionnel et mis à jour, qui puisse agir comme une première ligne de défense contre les [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes.markdown %}). Malheureusement, l’installation d’un tel antivirus n’est pas une garantie absolue de sécurité. En effet, pour distinguer les programmes malveillants des programmes inoffensifs, les antivirus dépendent de signatures (empreintes des virus) que les créateurs d’antivirus mettent à disposition régulièrement sous forme de mises à jour. Parfois les virus peuvent être plus rapides et se nicher dans les systèmes d’exploitation avant que l’antivirus ne puisse les détecter. Comme certains possèdent des systèmes d’évasion, ils peuvent rester indétectés, même après le téléchargement de la signature adéquate. C'est pour cette raison qu'il est important de pouvoir analyser un système à un moment où tous ses éléments sont en veille (hors fonctionnement du système d'exploitation), et particulièrement les programmes malveillants éventuels.
+## Why Use It?
+It is, of course, very important to have a functional and updated [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}), which can act as the first line of defence against [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}). Unfortunately, the installation of such antivirus is not an absolute guarantee of security. In order to distinguish malicious programs from harmless programs, antiviruses depend on signatures (virus fingerprints) that antivirus creators regularly make available in the form of updates. 
 
-Certains systèmes d'exploitation existent sous une forme spéciale dite « Live », avec un disque compact permettant le démarrage d’un ordinateur sans installation préalable et n’effectuant aucun changement sur l’ordinateur utilisé.
+Sometimes viruses can be faster and nestle in operating systems before an antivirus can detect them. Since some malware can escape systems, they can remain undetected, even after downloading the appropriate signature. Therefore, it is important to be able to analyse a system at a time when all of its elements are in standby (excluding the operating system), and in particular, possible malicious programs.
 
-Des fabricants d’antivirus ont profité de ces systèmes d’exploitation éphémères pour créer des systèmes de détections de logiciels malveillants. Le système se charge sur votre ordinateur, charge l’antivirus et analyse vos disques durs tout en gardant votre système d’exploitation installé dormant, rendant ainsi la détection de [virus]({% link _knowhow/glossary/MaliciousCodes.markdown %}#virus), [vers]({% link _knowhow/glossary/MaliciousCodes.markdown %}#vers), [chevaux de Troie]({% link _knowhow/glossary/MaliciousCodes.markdown %}#cheval-de-troie) et plus particulièrement de rootkits plus aisée.
+Some operating systems exist in a special form known as ‘Live’, with a compact disc allowing the starting of a computer without prior installation and making no change on the computer used.
 
-## Où le trouver?
-Dans les références de cet article vous trouverez quelques exemples de systèmes d'analyse de [code malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %}). En général il s'agit de fichiers "image" à télécharger. Ces fichiers "image" doivent être gravés de manière spéciale sur CD ou DVD ; cherchez l'option "graver une image" dans votre logiciel de gravure.
+Antivirus manufacturers have taken advantage of these fleeting operating systems to create malware detection systems. The system loads onto your computer, then it loads the antivirus and scans your hard drives while keeping your installed operating system dormant, thus making detection of [viruses]({% link _knowhow/glossary/MaliciousCodes.markdown %}#virus), [worms]({% link _knowhow/glossary/MaliciousCodes.markdown %}#vers), [Trojans]({% link _knowhow/glossary/MaliciousCodes.markdown %}#cheval-de-troie) and more particularly rootkits easier.
 
-## Comment s'en servir?
-La plupart des ordinateurs sont configurés pour démarrer depuis le lecteur CD ou les sticks USB. Il suffira donc d'introduire le CD gravé (voire le stick) dans l'ordinateur et de le redémarrer. Si vous ne voyez pas l'écran de démarrage du live CD, mais que votre système d’exploitation habituel démarre, votre BIOS (système d'exploitation basique de l'ordinateur) n’est pas configuré pour démarrer sur CD. Ce réglage dépend de votre ordinateur et nous ne pouvons malheureusement que vous donner des pistes pour faire les réglages nécessaires :
+## Where to Find It?
+In the references of this article, you will find some examples of [malicious code]({% link _knowhow/glossary/MaliciousCodes.markdown %}) analysis systems. In general, these are ‘image’ files to download. These ‘image’ files must be burned in a special way on CD or DVD; look for the ‘burn image’ option in your burning software.
 
-Au début du démarrage appuyez sur la touche « Del », « F12 » ou « Esc » (si cette action ne marche pas, renseignez-vous auprès de votre fabriquant d'ordinateur). Cela ouvrira soit un menu de sélection du média de démarrage, soit le menu de configuration du BIOS de votre machine.
+## How to Use It?
+Most computers are configured to boot from the CD player or USB sticks. It will, therefore, suffice to insert the burned CD (or even the stick) into the computer and to restart it. If you do not see the boot screen of the live CD, but your usual operating system starts, your BIOS (basic computer operating system) is not configured to boot from CD. This setting depends on your computer and unfortunately, we can only give you some leads to make the necessary settings:
 
-Si le menu de configuration du BIOS de votre machine est ouvert par cette action, sélectionnez l’option qui définit le lecteur CD comme média de démarrage prioritaire avant le disque dur.
+At start-up, press the ‘Del’, ’F12’ or ‘Esc’ key (if this action does not work, ask your computer manufacturer). This will open either a boot media selection menu or your machine’s BIOS setup menu.
 
-Pendant le démarrage, une mise à jour des signatures des virus sera tentée. Pour cela il faut que l’ordinateur ait un accès direct à internet. Sachez que le wifi ne marchera pas la plupart du temps, pensez donc à utiliser un câble réseau pour la durée de la procédure.
+If the BIOS setup menu of your machine is opened by this action, select the option that sets the CD drive as the priority boot media before the hard drive.
 
-Après un temps d’attente plus ou moins long (sachez être patient, en effet le lecteur CD est beaucoup plus lent qu’un disque dur), l’analyse du système sera lancée automatiquement.
+During start-up, an update of the virus signatures will be attempted. For this, the computer must have direct access to the Internet. Be aware that Wi-Fi will not work most of the time, so consider using a network cable for the duration of the procedure.
 
-Dans le cas d’une détection de logiciels malveillants, l’antivirus vous proposera certains modes d’action. Nous vous conseillons alors d’effacer les virus éventuels. Quand vous aurez fini, faites un clic droit sur le fond d’écran et cliquez sur l’option « Exit », comme illustré ci-dessus. Le système s’éteindra et éjectera le disque compact. N’oubliez pas de l’enlever pour redémarrer normalement votre système d’exploitation habituel.
+After some waiting time (be patient, the CD player is much slower than a hard drive), the system analysis will be launched automatically.
 
-## Précautions à prendre
-Vu que les antivirus sur live CD n'utilisent pas le système d'exploitation de base de l'ordinateur, il est possible que celui-ci devienne inutilisable après détection et effaçage d'un logiciel malveillant profondément ancré. Gardez donc votre disque d'installation de votre système d'exploitation à portée de main et faites régulièrement des [sauvegardes]({% link _knowhow/glossary/DataBackups.markdown %}).
+In the case of malware detection, the antivirus will offer you certain modes of action. We advise you to delete any viruses. When you are done, right-click on the wallpaper and click on the ‘Exit’ option, as shown above. The system will shut down and eject the compact disc. Do not forget to remove the CD and restart your operating system normally.
+
+## Precautions to Take
+Since antiviruses on live CDs do not use the basic operating system of the computer, it may become unusable after detecting and erasing deeply rooted malware. So keep your operating system installation disc handy and make regular [backups]({% link _knowhow/glossary/DataBackups.markdown %}).
