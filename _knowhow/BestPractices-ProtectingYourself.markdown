@@ -13,7 +13,7 @@ ref: bestpractices
 lang: en
 ---
 ## In Brief
-Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), falsification (loss of [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and even destruction (loss of [availability])({% link _knowhow/glossary/Availability.markdown %})).
+Most companies have [important or vital data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) (relating to manufacturing, customer base, invoicing, accounts, etc.) as well as essential or distinctive work tools that need to be protected against any unwanted disclosure (loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), falsification (loss of [integrity]({% link _knowhow/glossary/Integrity.markdown %})) and even destruction (loss of [availability]({% link _knowhow/glossary/Availability.markdown %})).
 
 Company managers usually only realise the true value of their [assets]({% link _knowhow/glossary/Assets.markdown %}) after a serious incident occurs. It is then often too late to take curative or protective measures.
 
