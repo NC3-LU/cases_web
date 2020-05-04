@@ -14,7 +14,7 @@ lang: fr
 ---
 ## En quelques mots
 
-La grande majorité des entreprises dispose de [données importantes ou vitales]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (données liées à la fabrication, clientèle, facturation, comptabilité,...) ainsi que d'outils de travail indispensables ou distinctifs, qu'il faut protéger contre une divulgation involontaire (perte de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), la falsification (perte d'[integrité]({% link _knowhow/glossary/Integrity_fr.markdown %})) ou encore la destruction (perte de [availability]({% link _knowhow/glossary/Availability_fr.markdown %})).
+La grande majorité des entreprises dispose de [données importantes ou vitales]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (données liées à la fabrication, clientèle, facturation, comptabilité,...) ainsi que d'outils de travail indispensables ou distinctifs, qu'il faut protéger contre une divulgation involontaire (perte de [confidentialité]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), la falsification (perte d'[integrité]({% link _knowhow/glossary/Integrity_fr.markdown %})) ou encore la destruction (perte de [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %})).
 
 Généralement les responsables d’entreprise prennent seulement conscience de la vraie valeur de leurs [actifs]({% link _knowhow/glossary/Assets_fr.markdown %}) après avoir subi un incident grave. Il est alors souvent trop tard pour employer des mesures curatives ou protectrices.
 

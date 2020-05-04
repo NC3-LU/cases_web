@@ -39,7 +39,7 @@ Here is a non-exhaustive list of [threats]({% link _knowhow/glossary/Threat.mark
   * Fraudulent copying of software (SME: see [Use of unapproved software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}\use-of-unapproved-software) and [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence))
   * Use of counterfeit or copied software (SME: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence))
   * Data corruption
-  * Illegal data processing (SME: see [Unauthorised processing of personal data – Employee monitoring]{% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) and [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
+  * Illegal data processing (SME: see [Unauthorised processing of personal data – Employee monitoring]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#unauthorised-processing-of-personal-data--employee-monitoring) and [Regulatory requirements]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#regulatory-requirements))
 
 * **Compromise of Functions**
   * User error (SME: see [Human error]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#human-error-prevention-measures))

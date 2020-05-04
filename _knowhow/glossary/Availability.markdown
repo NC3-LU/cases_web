@@ -12,7 +12,7 @@ lang: en
 ---
 
 ## In Brief
-The 'availability' of an asset within an entity is the assurance that it can be used in terms of time and expected performance. [Security measures]({% link _publications/ProtectingYourCompany.markdown %}) intended to guarantee the availability of assets must, therefore, ensure that a resource remains usable in terms of capacity and planned time. (See also [classification]{% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}).)
+The 'availability' of an asset within an entity is the assurance that it can be used in terms of time and expected performance. [Security measures]({% link _publications/ProtectingYourCompany.markdown %}) intended to guarantee the availability of assets must, therefore, ensure that a resource remains usable in terms of capacity and planned time. (See also [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}).)
 
 ## Threats Jeopardising Availability
 Here is a non-exhaustive list of EBIOS threats that can jeopardise the availability of an asset:
