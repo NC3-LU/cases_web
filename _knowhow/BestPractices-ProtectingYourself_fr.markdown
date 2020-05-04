@@ -2,7 +2,7 @@
 layout: knowhow
 category: "Knowhow"
 title:  "Bonnes Pratiques - Se protéger"
-menutitle:  "Best Practices"
+menutitle:  "Bonnes Pratiques"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
 short: "Apprenez les réflexes qui peuvent vous sauver"

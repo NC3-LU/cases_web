@@ -2,7 +2,7 @@
 layout: knowhow
 category: "Knowhow"
 title:  "SOS - Besoin d'aide?"
-menutitle: "SOS - Need help?"
+menutitle: "SOS - Besoin d'aide?"
 logo: "/assets/img/services/trainings.png"
 date:   2017-11-06 21:47:55 +0100
 short: "TODO: TRANSLATE - Comment réagir en cas d'accident."
