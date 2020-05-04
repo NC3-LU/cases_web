@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "SOS – What to do before getting rid of my old hardware"
+title:  "SOS – What to Do Before Getting Rid of My Old Hardware"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -12,11 +12,11 @@ ref: sosgettingridofhardware
 lang: en
 ---
 
-## In brief
+## In Brief
 Before you get rid of your old hardware, consider the level of criticality of the hardware itself and the data saved on it.
 
 ## Confidentiality
-Hardware that contains secret or confidential [classified]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) data should not be reused by anyone else or in other departments. Storage media that holds such data such should be destroyed either by being crushed or by a degausser.
+Hardware that contains secret or confidential [classified]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) data should not be reused by anyone else or in other departments. Storage media that holds such data should be destroyed either by being crushed or by a degausser.
 
 Hardware that contains limited or internal data can be disposed of. The procedures for disposing of hardware must be followed to the letter. Make sure you remove any company logos from the hardware. You should make it impossible to identify the previous owner. 
 
