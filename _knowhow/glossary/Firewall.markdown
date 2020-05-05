@@ -9,36 +9,31 @@ categories: knowhow
 toc: true
 ref: glossaryfirewall
 lang: en
-hidden: true
 ---
 
-## In brief
-Un firewall ou pare-feu est un dispositif physique (matériel) ou logique (logiciel) servant de système de protection pour les ordinateurs. Il peut également servir d'interface entre un ou plusieurs réseaux d’entreprise afin de contrôler et éventuellement bloquer la circulation des données en analysant les informations contenues dans les flux de données (cloisonnement réseau).
+## In Brief
+A firewall is a physical (hardware) or logical (software) device that serves as a protection system for computers. It can also serve as an interface between one or more corporate networks to control and possibly block the flow of data by analysing the information contained in the data flows (network partitioning).
 
-Le firewall fonctionne comme filtre et analyseur de trames réseau. Une entreprise qui aurait un serveur de fichiers pour son réseau interne et qui voudrait que celui-ci ne soit pas accessible depuis l'Internet pourrait effectivement utiliser un firewall pour bloquer les communications vers celui-ci.
+A firewall functions as a network frame filter and analyser. A company that has a file server for its internal network and wants it to be inaccessible from the Internet could effectively use a firewall to block communications to it.
 
-Il permet donc d'une part de bloquer des attaques ou connexions suspectes pouvant provenir de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %}) comme notamment les virus, vers ou chevaux de Troie. D’un autre côté, un firewall sert dans de nombreux cas également à éviter la fuite non contrôlée d’informations vers l’extérieur.
+It allows, on the one hand, to block suspicious attacks or connections which can come from [malicious codes]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %}) like viruses, worms or Trojans. On the other hand, a firewall is also used in many cases to prevent uncontrolled information leakage to the outside.
 
-Souvent le produit firewall contient aussi d'autres outils de sécurité comme un [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) ou un proxy et permet ainsi non seulement de bloquer les connexions non désirées mais aussi de vérifier de manière automatique le contenu des communications et de bloquer les contenus indésirables.
+Firewall often contain other security tools such as an [antivirus]({% link _knowhow/glossary/AntiVirus_fr.markdown %}) or a proxy and thus allow not only to block unwanted connections but also to automatically check the content of communications and block unwanted content. 
 
-Certains firewall offrent aussi une possibilité [VPN]({% link _knowhow/glossary/VPN.markdown %}).
+Some firewalls also offer a [VPN]({% link _knowhow/glossary/VPN_fr.markdown %}) possibility.
 
-Il existe principalement 2 catégories de firewalls :
+There are mainly two categories of firewalls:
+* personal firewalls protecting only workstations or personal computers. They are installed directly on the user’s computer.
+* corporate firewalls installed on dedicated machines. This type of firewall is often placed between the Internet and a corporate network to protect the latter from various threats from the Internet. It is also used for the creation of demilitarised zones (DMZ) for the hosting of public servers. In some cases, it even serves to separate different parts of the corporate network into different security perimeters ([segmentation or network partitioning]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %})).
 
-* les firewalls personnels protégeant uniquement les stations de travail ou ordinateurs personnels. Ils sont installés directement sur l’ordinateur de l’utilisateur.
-* les firewalls d’entreprise installés sur des machines dédiées. Ce type de firewall est souvent placé entre Internet et un réseau d’entreprise afin de protéger ce dernier des différentes menaces d’Internet. Il est également utilisé pour la création de zones démilitarisées (DMZ) pour l’hébergement de serveurs publics. Dans certains cas, il sert même à séparer différentes parties du réseau d’entreprise en périmètres de sécurité différents ([segmentation ou cloisonnement réseau]({% link _knowhow/glossary/NetworkSegmentation.markdown %})).
+## Behavioural Measures
+* A firewall is not absolute protection against attacks from the Internet. Data exfiltration largely depends on the configuration made. Users should remain alert to such attacks.
 
-## Mesures comportementales
+## Organisational Measures
+* Firewall management must follow strict rules. Any rule change must be documented.
+* The organisation must draw up and enforce a sectoral policy for access control.
+* Create and apply an access control - [network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#separation-of-networks) sector policy
 
-* Le firewall n'est pas une protection absolue contre des attaques depuis Internet respectivement des exfiltration des données et dépend en grosse partie de la configuration faite. Les utilisateurs doivent rester vigilants à de telles attaques.
-
-## Mesures organisationnelles
-
-* La gestion du firewall doit suivre des règles strictes. Tout changement de règle doit être documenté.
-* L'organisme doit rédiger et faire respecter une politique sectorielle pour le contrôle d'accès.
-* Rédigez et faites appliquer une politique sectorielle contrôle d'accès - [séparation des réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-
-## Mesures techniques
-
-* Il faut de façon récurrente tester les règles firewall
-* Il faut conserver et analyser les logs (fichier journal) des firewall. Ils sont souvent la seule aide pour identifier des codes malicieux exfiltrant des informations vers certaines destinations.
+## Technical measures
+* You must recurrently test the firewall rules
+* Firewall logs must be kept and analysed. They are often the only help to identify malicious codes that extract information to certain destinations.
