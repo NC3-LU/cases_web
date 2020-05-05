@@ -9,28 +9,27 @@ categories: knowhow
 toc: true
 ref: glossaryemail
 lang: en
-hidden: true
 ---
 
-## In brief
-Le courrier électronique est une forme très populaire de communication sur Internet. À la base il consiste dans le transfert de texte en clair entre différents ordinateurs sur Internet. Le courrier électronique ou e-mail n'est donc pas adapté à l'envoi de données confidentielles. Néanmoins, certaines techniques de [chiffrement]({% link _knowhow/glossary/Cryptography.markdown %}), comme [OpenPGP](https://www.openpgp.org/), permettent d'assurer un haut degré de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}).
+## In Brief
+E-mail is a very popular form of communication. It involves the transfer of plain text between different computers on the Internet. Electronic mail or e-mail is not suitable for sending confidential data. However, certain [encryption]({% link _knowhow/glossary/Cryptography.markdown %}) techniques, such as [OpenPGP](https://www.openpgp.org/), ensure a high degree of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}).
 
-## Les risques associés
-Beaucoup de [risques sont associés à l'utilisation de courriers électroniques]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#risks-related-to-receiving-emails).
+## Associated Risks
+There are many [risks associated with the use of e-mail]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#risks-related-to-receiving-emails).
 
-### Infrastructure
-Il existe différents logiciels couvrant différents rôles dans la transmission d'e-mails sur Internet.
+### INFRASTRUCTURE
+Different software programs cover different roles in transmitting e-mail over the Internet.
 
 ### MUA - MAIL USER AGENT
-Le MUA (Mail User Agent) est le logiciel sur l'ordinateur qui permet d'envoyer des mails. En général il s'agit d'un logiciel installé comme Outlook ou Thunderbird mais peut aussi être une application web. Le MUA transfère un courrier électronique rédigé au MTA.
+The MUA (Mail User Agent) is the software on the computer that allows you to send e-mails. In general, it is an installed software like Outlook or Thunderbird, but it can also be a web application. The MUA forwards an e-mail written to the MTA.
 
 ### MTA - MAIL TRANSFER AGENT
-Le MTA (Mail Transfer Agent), parfois appelé serveur SMTP, s'occupe de recevoir et de renvoyer les courriers électroniques selon certaines règles définies par les administrateurs de ces services. Il peut y avoir un nombre arbitraire de MTA dans le chemin d'un mail; les MTA intermédiaires sont appelés «relays» et deviennent de plus en plus rares de nos jours car traditionnellement souvent utilisés pour du [SPAM]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}).
+The MTA (Mail Transfer Agent), sometimes called the SMTP server, takes care of receiving and resending e-mails according to certain rules defined by the administrators of these services. There can be an arbitrary number of MTAs in the path of an e-mail; intermediate MTAs are called ‘relays’ and are becoming rarer these days because traditionally often used for [SPAM]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}). 
 
-Le MTA de destination transfère le courrier au MDA en vue d'une distribution à l'utilisateur final.
+The destination MTA forwards mail to the MDA for delivery to the end-user.
 
 ### MDA - MAIL DELIVERY AGENT
-Il s'agit ici de services (souvent pop3 ou imap) qui reçoivent le courrier, le stockent et attendent la connexion d'un MUA en vue de la transmission finale du courrier.
+These are services (often POP3 or IMAP) which receive the mail, store it, and wait for the connection of an MUA for the final transmission of the mail.
 
-## Comment se protéger?
-En fonction du besoin de confidentialité de vos communications (voire [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) des données), il convient de suivre certains conseils [comportementaux]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#behavioural-measures), [organisationnels]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#organisational-practices) et [techniques]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#technical-measures) spécifiques à la manipulation des courriers électroniques. Suivez les [recommandations de sécurité pour les serveurs mail]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}).
+## How to Protect Yourself?
+Depending on the need for confidentiality of your communications (or even [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of data), certain [behavioural]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#behavioural-measures), [organisational]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#organisational-practices) and [technical]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}#technical-measures) advice specific to the handling of e-mails should be followed. Follow the [security recommendations for mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %}).
