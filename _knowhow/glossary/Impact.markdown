@@ -9,37 +9,33 @@ categories: knowhow
 toc: true
 ref: glossaryimpact
 lang: en
-hidden: true
 ---
 
-## In brief
-L'impact est la résultante de l'exploitation d'une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities.markdown %}) d'un actif par une [menace]({% link _knowhow/glossary/Threat.markdown %}). Le risque calculé lors de l'[évaluation des risques](-) prend en considération ces trois facteurs.
+## In Brief
+The impact is the result of the exploitation of a [vulnerability]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) of an asset by a [threat]({% link _knowhow/glossary/Threat_fr.markdown %}). The risk calculated during the [risk assessment]({% link _knowhow/bestpractices/RiskManagement_fr.markdown %}) takes these three factors into account.
 
-L'impact se mesure par actif compromis, c'est-à-dire l'impact causé par la perte du critère de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) de l'actif. De l'impact attendu lors d'une telle compromission, on déduit le niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) de l'[actif]({% link _knowhow/glossary/Assets.markdown %}) en termes de confidentialité, intégrité et disponibilité.
+Impact is measured by compromised assets, i.e. the impact caused by the loss of the criterion of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) or [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) of the [asset]({% link _knowhow/glossary/Assets_fr.markdown %}). From the impact expected during such a compromise, we deduce the classification level of the asset in terms of confidentiality, integrity and availability.
+[Protecting your computer is important - there are many reasons]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer_fr.markdown %}).
 
-[Il est important de protéger son ordinateur - les raisons en sont nombreuses]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer.markdown %}).
+However, a distinction must be made between damage and impact. Damage is the result of an event. The impact is the assessment of the harm caused by the damage.
+Examples are as follows:
 
-Il faut cependant distinguer entre dégâts et impacts. Les dégâts sont les résultantes d'un événement. L'impact est l'évaluation des dommages causés par les dégâts.
+* A ‘stand-alone’ server breaks down: the damage is real because the server must be repaired. The impact on assets (e.g. e-mail) is also real since the service is no longer available.
+* A server belonging to a ‘cluster’ breaks down. The damage is still real, but there is no impact on the e-mail service since the other servers continue to operate.
 
-Exemple :
+## Impact Categories
 
-* Un serveur "stand alone" tombe en panne : le dégât est réel, car il faut réparer le serveur. L'impact sur l'actif (p.ex.  les e-mail) est lui-aussi réel, car le service n'est plus disponible.
+### FINANCIAL IMPACT
+Almost all impacts end up being measured at a financial level. However, we group under this title the direct financial impacts, such as the shortfall of an e-commerce solution, in the event of a break with the Internet service. Other financial impacts in this category are embezzlement by software modification, theft of ‘credit card’ data, and others.
 
-* Un serveur appartenant à un "cluster" tombe en panne. Le dégât est toujours bien réel, mais il n'y pas d'impact pour le service e-mail, puisque les autres serveurs continuent à fonctionner.
+### LEGAL IMPACT
+The usage of certain stolen data may lead to legal proceedings on the part of the persons concerned; the loss of this data may also result in non-compliance with certain commercial conditions. Taking control of the computer system to carry out attacks (distributed attacks, spamming, etc.) on other users can be considered as a failure to monitor and lead to a criminal conviction.
 
-## Catégories d'impact
+### IMPACT ON REPUTATION
+Reputation impacts are grouped under this name. With the confidence of customers and suppliers remaining one of the major components of trade, it is obvious that any incident in this area quickly has a financial impact.
 
-### IMPACT FINANCIER
-Presque tous les impacts finissent par se mesurer à un niveau financier. Toutefois, on regroupe sous ce titre les impacts financiers directs, tels que le manque à gagner d'une solution de commerce électronique, en cas de rupture avec le service internet. Sont également inclus dans cette catégorie les détournements d'argent réalisés au moyen de modification de logiciels, vols de données « carte de crédit » et autres.
+### IMPACT ON ‘KNOW-HOW’
+Industrial or commercial espionage, aimed at appropriating the manufacturing secrets, customer files or other private data of a person is included in this category, which is the most difficult to estimate financially. The lack of capacity to exercise one’s profession, following the destruction of IT equipment (fire, flood, etc.), is also included in this category.
 
-### IMPACT JUDICIAIRE
-L'usage qui pourrait être fait de certaines données volées, peut entraîner des poursuites judiciaires de la part des personnes concernées ; la perte de ces données peut également entraîner le non respect de certaines conditions commerciales. La prise de contrôle du système informatique, afin de porter des attaques (attaques distribuées, spamming...) sur d'autres utilisateurs peut être considérée comme un défaut de surveillance et entraîner une condamnation judiciaire.
-
-### IMPACT SUR LA RÉPUTATION
-On regroupe sous cette appellation les impacts relatifs à la réputation. La confiance des clients et des fournisseurs demeurant une des grandes composantes du commerce, il est évident que tout incident dans ce domaine présente rapidement un impact financier.
-
-### IMPACT SUR LE «SAVOIR FAIRE»
-L'espionnage industriel ou commercial, visant à s'approprier les secrets de fabrication, fichiers clients ou autres données privées d'une personne est repris dans cette catégorie, qui est la plus difficile à estimer financièrement. L'absence de capacité à exercer son métier, suite à la destruction des équipements informatiques (incendie, inondation...), est également reprise dans cette catégorie.
-
-### IMPACT SUR LE «TEMPS»
-Le temps, spécifiquement pour une entreprise, est un élément très critique. Le temps perdu, l'utilisateur aurait pu l'investir dans d'autres tâches importantes.
+### IMPACT ON ‘TIME’
+Time, specifically for a business, is a very critical element. The time wasted if a user could have invested it in other important tasks.
