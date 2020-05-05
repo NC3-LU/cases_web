@@ -12,10 +12,10 @@ lang: en
 ---
 
 ## In Brief
-The impact is the result of the exploitation of a [vulnerability]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) of an asset by a [threat]({% link _knowhow/glossary/Threat_fr.markdown %}). The risk calculated during the [risk assessment]({% link _knowhow/bestpractices/RiskManagement_fr.markdown %}) takes these three factors into account.
+The impact is the result of the exploitation of a [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) of an asset by a [threat]({% link _knowhow/glossary/Threat.markdown %}). The risk calculated during the [risk assessment]({% link _knowhow/bestpractices/RiskManagement.markdown %}) takes these three factors into account.
 
-Impact is measured by compromised assets, i.e. the impact caused by the loss of the criterion of [confidentiality]({% link _knowhow/glossary/Confidentiality_fr.markdown %}), [integrity]({% link _knowhow/glossary/Integrity_fr.markdown %}) or [availability]({% link _knowhow/glossary/Availability_fr.markdown %}) of the [asset]({% link _knowhow/glossary/Assets_fr.markdown %}). From the impact expected during such a compromise, we deduce the classification level of the asset in terms of confidentiality, integrity and availability.
-[Protecting your computer is important - there are many reasons]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer_fr.markdown %}).
+Impact is measured by compromised assets, i.e. the impact caused by the loss of the criterion of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}) or [availability]({% link _knowhow/glossary/Availability.markdown %}) of the [asset]({% link _knowhow/glossary/Assets.markdown %}). From the impact expected during such a compromise, we deduce the classification level of the asset in terms of confidentiality, integrity and availability.
+[Protecting your computer is important - there are many reasons]({% link _knowhow/glossary/WhyImportant2ProtectYourComputer.markdown %}).
 
 However, a distinction must be made between damage and impact. Damage is the result of an event. The impact is the assessment of the harm caused by the damage.
 Examples are as follows:
