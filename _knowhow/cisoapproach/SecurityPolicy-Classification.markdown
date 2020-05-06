@@ -13,24 +13,24 @@ lang: en
 ---
 Asset identification and classification are integral to risk management and are key elements of information security management (also called Information Security Management System – ISMS, see [ISO/IEC 27001]({% link _publications/ISO27000SF/ISO27001-ISMS.markdown %})). They define security needs in terms of confidentiality, availability and integrity.
 
-## Classification principles
+## Classification Principles
 
 * The greater the impact of disclosure, the higher the confidentiality classification will need to be.
 * The greater the impact of a loss due to the compromise of an asset, the higher the integrity classification will need to be.
 * The longer the impact of a prolonged disruption to legitimate access to the asset, the higher the availability classification will need to be.
 
-## Importance of classification
+## Importance of Classification
 Asset classification is primarily used to perform risk analysis. Such classification requires that the criticality of an asset (= classification level – potential impact) is associated with threats and vulnerabilities.
 
 The classification will enable risks to be assessed as objectively as possible and a plan to be established to respond to them. The beneficiary will, therefore, be able to ensure that major risks are reduced, given the available investment.
 
-## Classification scheme
+## Classification Scheme
 Each company has assets that are more or less critical to ensuring that it runs smoothly. These assets include business processes, people, information and - of course - machines. To implement efficient and effective security measures, it is necessary to define a level of protection to be provided for each asset.
 
 This means it is important to classify assets and determine their criticality in terms of the level of confidentiality, integrity and availability.
 
 ## Confidentiality
-The following diagram shows the official abbreviation, the name, and a description of the confidentiality classes. It also refers to the classes of the "Traffic Light protocol" schema, defined by the English administration NISCC. These classes define distribution rules for information used to protect critical infrastructure.
+The following diagram shows the official abbreviation, the name, and a description of the confidentiality classes. It also refers to the classes of the 'Traffic Light protocol' schema, defined by the English administration, NISCC. These classes define distribution rules for information used to protect critical infrastructure.
 
 <table class="classification">
   <tr>
@@ -86,7 +86,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
     </td>
     <td>
       <strong>Green</strong><br /><br />
-      Community-wide. Circulation, may not be published or posted on the Internet, nor released outside of the community.
+      Community-wide. Circulation may not be published or posted on the Internet, nor released outside of the community.
     </td>
   </tr>
   <tr>
@@ -103,7 +103,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
     </td>
     <td>
       <strong>Green</strong><br /><br />
-      Community wide. Circulation, may not be published or posted on the Internet, nor released outside of the community.
+      Community-wide. Circulation may not be published or posted on the Internet, nor released outside of the community.
     </td>
   </tr>
   <tr>
@@ -145,7 +145,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
     <ol>
       <li>Modification could result in significant losses to the organisation or might enable the person making the change to enrich themselves significantly.</li>
       <li>Regular (very frequent) formal control procedures are implemented (approximately once a week to once a month maximum).</li>
-      <li>"DHL" mail, EDM system, configuration of servers or storage elements, telephone lines.</li>
+      <li>'DHL' mail, EDM system, configuration of servers or storage elements, telephone lines.</li>
       <li>Use of signature, safe.</li>
     </ol>
     </td>
@@ -157,9 +157,9 @@ The following diagram shows the official abbreviation, the name, and a descripti
     <td>
       <ol>
         <li>Modification could lead to inefficiencies or significant recovery costs.</li>
-        <li>Regular formal control procedures are often implemented. (about every 3 months).</li>
+        <li>Regular formal control procedures are often implemented (about every three months).</li>
         <li>Registered mail, encrypted email, configuration of client computers (PC, laptop, PDA, etc.).</li>
-        <li>Limitation of Access rights.</li>
+        <li>Limitation of access rights.</li>
       </ol>
     </td>
   </tr>
@@ -170,8 +170,8 @@ The following diagram shows the official abbreviation, the name, and a descripti
     <td>
       <ol>
         <li>There are no security requirements in addition to confidentiality protection.</li>
-        <li>Regular control procedures are often implemented. (about every 6 months to 1 year).</li>
-        <li>Internal mail, email, Internet browsing, etc.).</li>
+        <li>Regular control procedures are often implemented (about every six months to one year).</li>
+        <li>Internal mail, email, Internet browsing, etc.</li>
         <li>No constraints on use or transmission.</li>
       </ol>
     </td>
@@ -179,7 +179,7 @@ The following diagram shows the official abbreviation, the name, and a descripti
 </table>
 
 ## Availability
-Availability is expressed in terms of estimated time to recover from any failure.
+Availability is expressed in terms of an estimated time to recover from any failure.
 
 <table class="classification classification--small">
   <tr>
