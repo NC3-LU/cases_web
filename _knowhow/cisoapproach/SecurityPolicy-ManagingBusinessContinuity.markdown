@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Security Policy – Managing business continuity"
+title:  "Security Policy – Managing Business Continuity"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,24 +11,24 @@ toc: true
 ref: cisomanagingbusinesscontinuity
 lang: en
 ---
-## Operational continuity
+## Operational Continuity
 [The operational continuity of the organisation]({% link _knowhow/glossary/DRP.markdown %}) implies that resources deemed to be important or vital (see [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})) should be in good working order under all circumstances.
 
 Depending on their type, these resources may suffer the following damage:
 
-* [deletion of data]({% link _knowhow/glossary/DataLoss.markdown %});
+* [Deletion of Data]({% link _knowhow/glossary/DataLoss.markdown %});
 * intentional or accidental modification of data;
-* simple or total breakdown of a piece of equipment or software (SMEs: see [Network access unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers) and [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups) and [Failure of IT and communications equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators));
-* complete destruction of one or more pieces of equipment, or even of the entire infrastructure (incident such as a fire) (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)).
+* simple or total breakdown of a piece of equipment or software (SMEs: see [Network Access Unavailable]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) and [Power Cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut) and [Discontinuity of Service Providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers) and [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups) and [Failure of IT and Communications Equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Administration Impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators));
+* destruction of one or more pieces of equipment, or even of the entire infrastructure (incident such as a fire) (SMEs: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire)).
 
-A certain number of rules established in this document (see [physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})) are intended to reduce the likelihood of damage. However, it should be remembered that damage can occur and plans should be put in place for this eventuality.
+A certain number of rules established in this document (see [Physical Security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})) are intended to reduce the likelihood of damage. However, it should be remembered that damage can occur and plans should be put in place for this eventuality.
 
-One of the following scenarios should be chosen for each of the resources indexed in [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}):
+One of the following scenarios should be chosen for each of the resources indexed in [Classification and Control of Resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}):
 
 * nothing planned.
-* this is data: backups – especially off-site backups – are sufficient.
-* an application: backups are sufficient.
-* an application: backups are associated with a maintenance agreement with a qualified supplier which can reinstall and/or reconfigure the application in under XX days,
+* data: backups – especially off-site backups – are sufficient.
+* application: backups are sufficient.
+* application: backups are associated with a maintenance agreement with a qualified supplier which can reinstall and/or reconfigure the application in under XX days,
 * hardware that can be repurchased, delivered and installed in less than XX days.
 * hardware for which a maintenance agreement with the supplier guarantees it being restored to working order within a period of XX days.
 * hardware for which we have backup hardware stored in XX premises.
@@ -37,4 +37,4 @@ One of the following scenarios should be chosen for each of the resources indexe
 
 During the annual review of the list of resources, the question should be asked again to see if the same solution is still applicable and best suited to meet requirements.
 
-Similarly, in the event of the total loss of premises and technological and IT resources, it would be better to plan for the business to recommence in other premises within the shortest possible time. Resources which are non-essential, but which the company must have at minimum (e.g.: telephones and PCs) can be obtained from our suppliers within a specified time frame.
+Similarly, in the event of the total loss of premises and technological and IT resources, it would be better to plan for the business to recommence in other premises within the shortest possible time. Resources which are non-essential, but which the company must have at minimum (e.g.: telephones and PCs) can be obtained from the suppliers within a specified time frame.
