@@ -1,7 +1,7 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Security Policy – Physical and environmental security"
+title:  "Security Policy – Physical and Environmental Security"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,25 +11,25 @@ toc: true
 ref: cisophysiscalenvironmentalsecurity
 lang: en
 ---
-## Physical security perimeter
-[Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %}) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)).
+## Physical Security Perimeter
+[Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %}) relating to the organisation is the first security aspect to be implemented. What would be the point of setting up password protection and sophisticated software if anyone could physically access an essential resource to steal, modify or destroy it? (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft))
 
 Always be aware of the actual value of a resource (see [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %})) to be able to plan suitable protection.
 
-All the elements listed as important or vital for “the organisation” must be installed in secure premises. These premises constitute the security perimeter.
+All the elements listed as important or vital for the organisation must be installed in secure premises. These premises constitute the security perimeter.
 
-### Applying security measures to:
+### Applying Security Measures To:
 
 * [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [E-mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringFixedNetwork.markdown %})
 * [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
 * [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
 * [protect the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises)
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
 * [Physical and environmental security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
   * [Rules within the perimeter]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#rules-within-the-perimeter)
@@ -42,18 +42,18 @@ All the elements listed as important or vital for “the organisation” must be
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
-### Technical measures:
+### Technical Measures:
 
 [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
-## Rules within the perimeter
+## Rules Within the Perimeter
 
-### The premises within the security perimeter should be:
+### The Premises Within the Security Perimeter Should Be:
 
-* protected against access by unauthorised persons, especially by persons not from “the organisation” (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)). Access should be through a single door and authorised by the IT manager.
-* protected against fire. The doors should be fire doors and fire alarms should be fitted. (SMEs see: [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
+* protected against access by unauthorised persons, especially by persons not from the organisation (SMEs see: [Infiltrating the premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises) and [Insertion or removal of hardware]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery) and [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft)). Access should be through a single door and authorised by the IT manager.
+* protected against fire. The doors should be fire doors, and fire alarms should be fitted. (SMEs see: [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
 
-### The following rules should also be respected:
+### The Following Rules Should Also be Respected:
 
 * keys should under no circumstances be accessible to the public.
 * office equipment such as fax machines and photocopiers should be located within a safe area, but not near more crucial elements, so as not to increase the need for people to access the area for more crucial elements,
@@ -61,10 +61,10 @@ All the elements listed as important or vital for “the organisation” must be
 * access points, especially on the ground floor, should be protected against unwanted entry, either by grills or by an electronic detection system paired with an audio alarm,
 * hazardous or dangerously flammable materials (including cardboard, paper, wastebaskets and cleaning products) should not be stored near vital or important elements.
 
-### To be applied in security measures for:
+### To be Applied in Security Measures for:
 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [E-mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 * [fixed network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %})
 * [internal Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-employees)
 * [customer Wi-Fi network]({% link _publications/recommendationsecuring/SecuringWifiNetwork.markdown %}#wifi-for-visitorsexternal-users)
@@ -72,7 +72,7 @@ All the elements listed as important or vital for “the organisation” must be
 * [laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
@@ -87,22 +87,22 @@ All the elements listed as important or vital for “the organisation” must be
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
 
-### Technical measures
+### Technical Measures
 Physical security
 
-## Electrical equipment safety
+## Electrical Equipment Safety
 The electricity power supply for vital equipment must be made safe:
 
-* by a power supply for 2 different sources (2 fuses on 2 circuits) where equipment has 2 power supplies (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers));
+* by a power supply for two different sources (two fuses on two circuits) where equipment has two power supplies (SMEs: see [Service interruption]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#service-interruption) and [Power cut]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers));
 * by an uninterrupted power unit which ensures a supply of electricity during brief power cuts for a sufficient length of time to fully power off the equipment;
 * by a backup generator.
 
-### To be applied in security measures for:
+### To be Applied in Security Measures for:
 
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [E-mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
@@ -114,24 +114,24 @@ The electricity power supply for vital equipment must be made safe:
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
-### Technical measures
+### Technical Measures
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
 ## Maintenance
 For resources classified as important or vital, a maintenance agreement with a guaranteed intervention or replacement period should be signed, compatible with the resource availability requirements (SMEs: see [Invalid or non-existent licence]({% link _knowhow/bestpractices/SecurityMeasures4SME-LegalAspects.markdown %}#invalid-or-non-existent-licence) and [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unavailability-of-administrators)). Maintenance is an important criterion in optimising the [availability]({% link _knowhow/glossary/Availability.markdown %}) of [resources]({% link _knowhow/glossary/Assets.markdown %}).
 
-When a piece of equipment leaves “the organisation” for maintenance, or when it is discarded, it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
+When a piece of equipment leaves the organisation for maintenance, or when it is discarded, it should not contain confidential data. If it does contain confidential data, a specific procedure should be decided upon (processing in-house, someone goes with the equipment, destruction of the hardware, etc.) based on the sensitivity of the data in question (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport) and [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
 
 See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepairs.markdown %})
 
-### To be applied in security measures for:
+### To be Applied in Security Measures for:
 
-* [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [File servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
+* [E-mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
+* [Organisation of Security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
   * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
   * [Third-party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
@@ -145,18 +145,18 @@ See also: [SOS – handover to repairs]({% link _knowhow/sos/SOS-HandoverToRepai
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
 
-### Technical measures
+### Technical Measures
 
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 
-## Off-site equipment security
-The equipment used for processing information away from the site of “the organisation” (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it from being swapped. Authorisation must be granted by the head of equipment in “the organisation” before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft); [Basic security measures for laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}#recommendations)).
+## Off-Site Equipment Security
+The equipment used for processing information away from the site of the organisation (at home, in a hotel, at a client's) such as laptops or telephone, is subject to similar security procedures. However, users should be particularly attentive to the risk of theft and keep the hardware in their sight at all times. A specific insurance policy should be taken out for this type of equipment. Hardware should be marked, to prevent it from being swapped. Authorisation must be granted by the head of equipment in the organisation before any hardware leaves the premises. This person may or may not provide for the use of data encryption tools on the hard disk (SMEs: see [Hardware damaged during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport); [Aggravated theft]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft); [Basic security measures for laptop computers]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}#recommendations)).
 
-### Applying security measures to:
+### Applying Security Measures to:
 
 * [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
@@ -172,26 +172,26 @@ The equipment used for processing information away from the site of “the organ
   * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
-### Technical measures:
+### Technical Measures:
 
 * [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
 * [Prevent physical theft]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#tidy-office-policy)
 
-## Disposal and reuse of equipment
+## Disposal and Reuse of Equipment
 Any equipment that [is disposed]({% link _knowhow/glossary/Disposal.markdown %}) or reused in another context must have all its data removed; the disks should be wiped. The system can be reinstalled, where necessary. Depending on the sensitivity of the data saved on disk, the physical destruction of disks (in a crusher or a degausser) should be envisaged (SMEs: see [Device recovery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery)).
 
 Traditional file deletion is not enough, as data will remain present on the disk. If in-house capabilities are not sufficient to do this, an external supplier can be entrusted with the task, under the careful monitoring of a member of the organisation.
 
 Whichever method is chosen, please be respectful of the environment.
 
-### Applying security measures to:
+### Applying Security Measures to:
 
 * [computers]({% link _publications/recommendationsecuring/SecuringFixedWorkstation.markdown %})
 * [laptops]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %})
 * [file servers]({% link _publications/recommendationsecuring/Recommendations4securingFileServer.markdown %})
-* [email servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
+* [E-mail servers]({% link _publications/recommendationsecuring/Recommendations4securingEmailServer.markdown %})
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
   * [Classification of and responsibility for resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
@@ -206,12 +206,12 @@ Whichever method is chosen, please be respectful of the environment.
   * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
-### Technical measures:
+### Technical Measures:
 
 * [Disposal]({% link _knowhow/glossary/Disposal.markdown %})
 * [Physical security]({% link _knowhow/glossary/PhysicalSecurity.markdown %})
 
-## Clean desk policy
+## Clean Desk Policy
 Follow a clean desk policy, i.e.:
 
 * tidy away papers and [removable data storage media]({% link _knowhow/glossary/RemovableDevices.markdown %}) (USB flash drives, disks, etc.), keeping them out of sight. Remove your documents from the printer, fax or photocopiers;
@@ -219,9 +219,9 @@ Follow a clean desk policy, i.e.:
 * if anyone leaves their PC unused for more than a few minutes, the screensaver should come on. A password should be entered to exit the screensaver and start work again. You are strongly advised not to bypass this step;
 * use a special waste bin or a shredder to destroy sensitive paper documents.
 
-### Directly associated organisational measures:
+### Directly Associated Organisational Measures:
 
-* [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
+* [Organisation of Security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
   * [Attribution of responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
   * [Third-party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Classification and monitoring of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
@@ -236,6 +236,6 @@ Follow a clean desk policy, i.e.:
   * [Protection of operational data]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#protection-of-operational-data)
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
-### Technical measures:
+### Technical Measures:
 
 [Physical security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %})
