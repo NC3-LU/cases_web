@@ -74,7 +74,7 @@ The security policy should contain the following documents:
 1. [Management Commitment]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#management-commitment)
 2. [Review and Evaluation]({% link _knowhow/cisoapproach/SecurityPolicy-SecurityPolicy.markdown %}#review-and-assessment)
 
-#### [Section 2. Security Organisation]({% link _knowhow/cisoapproach/SecurityPolicy-organisationOfSecurity.markdown %})
+#### [Section 2. Security Organisation]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
 
 1. [Assignment of Responsibilities]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#attribution-of-responsibilities)
 2. [Authorisation Procedure for Adding Information Processing Tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#authoring-the-addition-of-tools)
