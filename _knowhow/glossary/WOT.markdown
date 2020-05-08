@@ -9,36 +9,35 @@ categories: knowhow
 toc: true
 ref: glossaryWOT
 lang: en
-hidden: true
 ---
 
-## In brief
-WOT signifie 'Web of Trust' que l'on peut traduire par "Internet/Toile de confiance". C'est un module gratuit et complémentaire développé par WOT Services Ltd, en partenariat avec de nombreux sites connus et spécialisés dans la sécurité, tel que Panda Security et que l’on installe simplement sur son navigateur Internet.
+## In Brief
+WOT means ‘Web of Trust’ which can be translated as ‘Internet/Trusted web’. It is a free and complementary module developed by WOT Services Ltd, in partnership with many known and specialised sites in security, such as Panda Security and which you simply install on your Internet browser.
 
-L’objectif principal de WOT est de mettre à disposition des internautes, des notes et une classification des sites Internet visités par l'utilisateur, ainsi qu'un avertissement lorsqu’il y a un risque, sur les sites concernés de :
+The main objective of WOT is to provide Internet users with notes and classification of the websites visited by the user, as well as a warning when there is a risk, on the websites concerned:
 
-- fraudes en ligne ([phishing]({% link _knowhow/glossary/Phishing.markdown %}))
-- [sites web malicieux]({% link _knowhow/glossary/MaliciousWebsites.markdown %})
-- **usurpation d'identité**
-- présence de [codes malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %})
-- [courriers électroniques]({% link _knowhow/glossary/Email.markdown %}) indésirables ([Spam]({% link _knowhow/glossary/SPAM-UnwantedEmails.markdown %}))
-- sites de vente en ligne / e-commerce non fiables
+•	online fraud ([phishing]({% link _knowhow/glossary/Phishing_fr.markdown %}))
+•	[malicious websites]({% link _knowhow/glossary/MaliciousWebsites_fr.markdown %})
+•	**identity theft**
+•	presence of [malicious codes]({% link _knowhow/glossary/MaliciousCodes_fr.markdown %})
+•	unwanted [e-mail]({% link _knowhow/glossary/Email_fr.markdown %}) ([spam]({% link _knowhow/glossary/SPAM-UnwantedEmails_fr.markdown %}))
+•	unreliable online sales/e-commerce sites
 
-## Mode de fonctionnement
-La manière la plus simple d'utiliser WOT est un module qui s’installe sur un navigateur, dont par exemple **Microsoft Internet Explorer**, **Google Chrome** ou **Mozilla Firefox**. Il existe des versions en plusieurs langues.
+## Operating Mode
+The simplest way to use WOT is a module that installs on a browser, including for example **Microsoft Internet Explorer**, **Google Chrome**, or **Mozilla Firefox**. There are versions in several languages.
 
-Il est aussi possible de consulter ponctuellement pour certains sites la classification WOT en introduisant l'adresse sur https://www.mywot.com/  sans pour cela avoir besoin d'installer l'extension.
+It is also possible to consult the WOT classification for certain sites by entering the address on https://www.mywot.com/ without having to install the extension.
 
-Une fois installé, le module vous permet de noter les sites visités suivant plusieurs critères : crédibilité, confidentialité, etc. De même, à tout moment il est possible de voir les notes données par d’autres internautes, ce qui permet de se faire une idée sur un site encore inconnu.
+Once installed, the module allows you to rate the sites visited according to several criteria: credibility, confidentiality, etc. Similarly, at any time it is possible to see the ratings given by other Internet users, which allows you to get an idea on a site still unknown.
 
-WOT fonctionne sur un système collaboratif : ce sont les internautes qui notent un site Internet et leurs évaluations sont utilisées par WOT pour classifier un site comme potentiellement malveillant ou au contraire, de confiance. Mais attention, puisque toutes les évaluations sont faites par les utilisateurs, les résultats peuvent parfois être biaisés : un développeur d’un site notera son site comme très bon dans tous les domaines ! Ceci est toutefois nuancé par le fait que WOT impose un nombre minimal de votes distincts pour un site Internet donné avant de communiquer sa classification.
+WOT works on a collaborative system: on Internet users who rate a website, and their evaluations are used by WOT to classify a site as potentially malicious or, on the contrary, trusted. But keep in mind: since all assessments are made by users, the results can sometimes be biased: a site developer will rate his site as very good in all areas! This is, however, qualified by the fact that WOT requires a minimum number of separate votes for a given website before communicating its classification.
 
-WOT permet très rapidement de voir la note obtenue par un site grâce à une simple icône que nous appellerons « icône de notation ». Celle‐ci représente un petit rond qui peut arborer différentes couleurs :
+WOT allows you to quickly see the score obtained by a site thanks to a simple icon that we will call ‘rating icon’. This represents a small circle which can display different colours:
+•	dark green: the rating is excellent
+•	light green: the rating is good
+•	yellow: the rating is doubtful
+•	orange: the rating is bad
+•	red: the rating is very bad.
 
-- vert foncé : la note est excellente
-- vert clair : la note est bonne
-- jaune : la note est douteuse
-- orange : la note est mauvaise
-- rouge : la note est très mauvaise
+These ratings are indicative because they are based on testimonials from users who may have an interest in rating a site more or less favourably.
 
-Ces notes sont indicatives car basées sur des témoignages d’utilisateurs qui peuvent avoir intérêt à noter un site plus ou moins favorablement.
