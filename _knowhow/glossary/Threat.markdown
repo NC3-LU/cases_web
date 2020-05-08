@@ -9,207 +9,193 @@ categories: knowhow
 toc: true
 ref: glossarythreat
 lang: en
-hidden: true
 ---
 
-Les menaces exploitent des vulnérabilités d'actifs et créent ainsi un impact. Les interactions entre actifs, menaces et vulnérabilités sont analysées lors de la gestion des risques.
+Threats exploit asset vulnerabilities and create impact. The interactions between assets, threats, and vulnerabilities are analysed during risk management. 
 
-Il est impossible pour un organisme d'exclure totalement l'existence de menaces. En matière de sécurité on s'applique donc généralement à
+It is impossible for an organisation to completely exclude the existence of threats. In terms of security, we therefore generally apply EBIOSv2.
 
 ## EBIOSv2
-EBIOS : Expression des Besoins et Identification des Objectifs de Sécurité.
+EBIOS: Expression of Needs and Identification of Security Objectives (Expression des Besoins et Identification des Objectifs de Sécurité).
 
-## Les menaces par groupes
-EBIOSv2[1] propose une liste d'Agents Menaçants (e.g. menaces) génériques :
+## Threats by Groups
+EBIOSv2 [1] offers a list of generic Threatening Agents (e.g. threats):
 
-### **DOMMAGES PHYSIQUES**
-
-* Incendie (PME : voir [Incendie]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
-* Dégât des eaux
+### **PHYSICAL DAMAGE**
+* Fire (SME: see [Fire]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#fire))
+* Water damage
 * Pollution
-* Sinistre majeur
-* Destruction de matériel ou de supports (PME : voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment))
-* Poussière, corrosion, gel
+* Major disaster
+* Destruction of equipment or supports (SME: see [Computer or communication equipment broken down]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment))
+* Dust, corrosion, frost
 
-### **ÉVÉNEMENTS NATURELS**
+### **NATURAL EVENTS**
+* Climatic phenomenon
+* Seismic phenomenon
+* Volcanic phenomenon
+* Meteorological phenomenon
+* Flood
 
-* Phénomène climatique
-* Phénomène sismique
-* Phénomène volcanique
-* Phénomène météorologique
-* Crue
+### **LOSS OF ESSENTIAL SERVICES**
+* Air conditioning failure
+* Energy Power Loss (SME: see [Power Failure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut))
+* Loss of telecommunication (SME: see [Unavailable network access]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability), [Interruption of communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) and [Discontinuity of service providers]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers))
 
-### **PERTE DE SERVICES ESSENTIELS**
+### **DISTRIBUTION DUE TO RADIATION**
+* Electromagnetic radiation
+* Thermal radiation
+* Electromagnetic pulses (EMI)
 
-* Défaillance de la climatisation
-* Perte d'alimentation énergétique (PME : voir [Panne de courant]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#power-cut))
-* Perte des moyens de télécommunication (PME : voir [Accès au réseau indisponible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#network-unavailability) et [Interruption des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Discontinuité des fournisseurs de service]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#discontinuity-of-service-providers))
+### **COMPROMISING INFORMATION**
+* Interception of compromising spurious signals
+* Remote spying (SME: see [Interception of communication]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) and [Spam/Phishing and Measures against malicious code]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
+* Passive listening (SME: see [Listening to wireless networks]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#wireless-network-tapping))
+* Theft of media or documents (SME: see [Robbery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Penetration in premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+* Theft of equipment (SME: see [Robbery]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) and [Penetration in premises]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
+* Recovery of recycled or discarded media (SME: see [Recovery of media]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
+* Disclosure (SME: see [Social engineering/Inadequate communication]({% link _knowhow/glossary/SocialEngineering.markdown %}))
+* Information without guarantee of origin
+* Equipment trapping
+* Software trapping (SME: see [Measures against malicious codes]({% link _knowhow/glossary/MaliciousCodes.markdown %}))
+* Geolocation
 
-### **DISTRIBUTION DUES AUX RADIATIONS**
+### **TECHNICAL FAILURES**
+* Hardware failure (SME: see [Computer or communication equipment broken down]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) and [Damage to equipment during transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport)))
+* Equipment malfunction (SME: [Insertion or removal of equipment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware))
+* Information system saturation
+* Software malfunction
+* Attack on the maintainability of the information system (SME: see [Unusable backups]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups), [Impossible administration]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator) and [Inappropriate software environment]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unsuitable-software-environment))
 
-* Rayonnements électromagnétiques
-* Rayonnements thermiques
-* Impulsions électromagnétiques (IEM)
+### **UNAUTHORISED ACTIONS**
+* Illegal use of equipment (SME: see [Abuse of organisation resources]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
+* Fraudulent copying of software (SME: see [Use of unauthorised software]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software))
 
-### **COMPROMISSION D'INFORMATIONS**
+## Threat Qualification
+EBIOSv2 threats can be classified according to:
 
-* Interceptions de signaux parasites compromettant
-* Espionnage à distance (PME : voir [Interception des communications]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#interception-of-communications) et [Spam / Phishing]({% link _knowhow/glossary/Phishing.markdown %}) et [Mesures contre les codes malicieux]({% link _knowhow/bestpractices/MaliciousSoftwareBP.markdown %}))
-* Écoute passive (PME voir : [Écoute des réseaux sans fil]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#wireless-network-tapping) )
-* Vol de supports ou de documents (PME : voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
-* Vol de matériels (PME : voir [Vol caractérisé]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#aggravated-theft) et [Pénétration dans les locaux]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Infrastructure.markdown %}#infiltrating-the-premises))
-* Récupération de supports recyclés ou mis au rebut (PME : voir [Récupération de supports]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#device-recovery))
-* Divulgation (PME : voir [Social engineering / Communication inadéquate]({% link _knowhow/glossary/SocialEngineering.markdown %}))
-* Information sans garantie de l'origine
-* Piégeage du matériel
-* Piégeage du logiciel (PME voir : [Mesures contre les codes malicieux]({% link _knowhow/glossary/MaliciousCodes.markdown %}))
-* Géolocalisation
+### **THEIR ORIGIN**
+* E: Environmental - all incidents that are not caused by human actions
+* D: Deliberate - for all deliberate actions targeting assets
+* A: Accidental - used for all human actions that can accidentally damage assets
 
-### **DÉFAILLANCES TECHNIQUES**
+### **THEIR ATTACK**
+* D: Availability
+* I: Integrity
+* C: Confidentiality
 
-* Panne matérielle (PME : voir [Équipement informatique ou de communication en panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment) et [Endommagement du matériel pendant le transport]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#hardware-damaged-during-transport))
-* Dysfonctionnement du matériel (PME : [Insertion ou suppression de matériels]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#addition-or-removal-of-hardware))
-* Saturation du système d'information
-* Dysfonctionnement logiciel
-* Atteinte à la maintenabilité du système d'information (PME : voir [Sauvegardes inutilisables]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#unusable-backups) et [Administration impossible]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#the-administrator) et [Environnement logiciel inapproprié]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#unsuitable-software-environment))
+### **THEIR TYPE**
+* N: Natural
+* H: Human
+* E: Environmental
 
-### **ACTIONS NON AUTORISÉES**
+## Vulnerabilities/Threats/Assets Link
+This section refers to the generic vulnerabilities of the EBIOS v2 document - Section 4 - Tools (Assessment). 
 
-* Utilisation illicite du matériel (PME : voir [Utilisation abusive des ressources de l’organisation]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2HR.markdown %}#misuse-of-it-resources))
-* Copie frauduleuse de logiciels (PME : voir [Utilisation d'un logiciel non autorise]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Software.markdown %}#use-of-unapproved-software)
+We can identify:
 
-## Qualification des menaces
-Les menaces EBIOSv2 peuvent être qualifiées selon :
+## Security Goals
+Section 2 Generic security objectives of the EBIOS v2 document - Section 5 - Tools (Processing) [4] proposes for each of the 7 types of high-level entities/[assets]({% link _knowhow/glossary/Assets.markdown %}) a list of generic security objectives effectively addressing the identified generic [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) previously.
 
-### **LEUR ORIGINE**
-
-* E : Environnementale - tous les incidents qui ne sont pas causés par des actions humaines
-* D : Délibérée - pour toutes les actions délibérées visant les actifs
-* A : Accidentelle - utilisé pour toutes les actions humaines qui peuvent accidentellement endommager des actifs
-
-### **LEUR ATTEINTE À LA**
-
-* D: Disponibilité
-* I: Intégrité
-* C: Confidentialité
-
-### **LEUR TYPE**
-
-* N: Naturel
-* H: Humain
-* E: Environnemental
-
-## Lien Vulnérabilités / Menaces / Actifs
-Cette section fait référence aux vulnérabilités génériques du document EBIOS v2 – Section 4 – Outillage (Appréciation)
-
-On peut identifier :
-
-## Objectifs de sécurité
-La section 2 Objectifs de sécurité génériques du document EBIOS v2 – Section 5 – Outillage (Traitement) [4] propose pour chacun des 7 types d'entités / [actifs]({% link _knowhow/glossary/Assets.markdown %}) haut niveau une liste d'objectifs de sécurité génériques adressant de fait les [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities.markdown %}) génériques identifiées précédemment.
-
-La section 3.2 Exigences issues de l'ISO 17799 du même document EBIOS v2 – Section 5 – Outillage (Traitement)[5] propose des exigences de sécurité en lien avec chacune des clauses de la norme ISO/IEC 17799 : 2000 (et non la version de la norme publiée en 2005 [[ISO/IEC 27002:2005]({% link _publications/ISO27000SF.markdown %})).
+Section 3.2 Requirements from ISO 17799 of the same EBIOS v2 document - Section 5 - Tools (Processing) [5] proposes safety requirements related to each of the clauses of ISO/IEC 17799: 2000 (and not the version of the standard published in 2005 [ISO/IEC 27002: 2005]({% link _publications/ISO27000SF.markdown %})).
 
 ## EBIOS 2010
-EBIOS 2010[6] propose une présentation différente de la version 2, tant sur le plan de la présentation des menaces que de l'approche globale.
+EBIOS 2010 [6] offers a different presentation from version 2, both in terms of the presentation of threats and the overall approach. 
 
-EBIOS 2010 se divise selon les axes suivants :
+EBIOS 2010 is divided into the following areas:
 
-### **TYPES DE BIENS SUPPORT**
-
-* SYS - Systèmes informatiques et de téléphonie
+### **TYPES OF SUPPORT GOODS**
+* SYS - IT and telephony systems
 * ORG - Organisations
-* LOC - Locaux
+* LOC - Premises
 
 ## IMPACTS
+* Impacts on the operation
+* Human impacts
+* Impacts on property
+* Other impacts
 
-* Impacts sur le fonctionnement
-* Impacts humains
-* Impacts sur les biens
-* Autres impacts
-
-### **SOURCES DE MENACES**
-
-* Sources humaines
-  * Délibéré malveillant
-  * Source (humaine) interne
-		* Capacités faibles
-		* Capacités importantes
-		* Capacités illimitées
-	* Source (humaine) externe
-		* Capacités faibles
-		* Capacités importantes
-		* Capacités illimitées
-  * Accidentel sans intention de nuire
-	* Source (humaine) interne
-		* Capacités faibles
-		* Capacités importantes
-		* Capacités illimitées
-	* Source (humaine) externe
-		* Capacités faibles
-		* Capacités importantes
-		* Capacités illimitées
-	* Sources non humaines
-
-## Les menaces MEHARI par groupe de menace
-* Désastres naturels
-  * Feu
-  * Dommages provoqués par l'eau
-  * Catastrophes naturelles
-* Désastres d’origine industrielle
-  * Feu
-  * Dommages provoqués par l'eau
-  * Désastres industriels
-  * Pollution mécanique
-  * Pollution électromagnétique
-  * Panne d'origine physique ou logique
-  * Coupure de l'alimentation en électricité
-  * Conditions inadéquates de température et/ou humidité
-  * Défaillance des services de communications
-  * Interruption des autres services et des approvisionnements essentiels
-  * Dégradation des supports de stockage de l'information
-  * Émanations électromagnétiques
-* Erreurs et défaillances non intentionnées
-  * Erreurs des utilisateurs
-  * Erreurs de l'administrateur
-  * Erreurs de contrôle (log)
-  * Erreurs de configuration
-  * Déficiences au niveau de l'organisation
-  * Diffusion de software nuisible
-  * Erreurs de ré-acheminement
-  * Erreurs de séquence
-  * Fuites d'information
-  * Altération de l'information
-* Introduction de fausses informations
-  * Dégradation de l'information
-  * Destruction de l'information
-  * Divulgation de l'information
-  * Vulnérabilités des programmes (software)
-  * Erreurs de maintenance / actualisation des programmes (software)
-  * Erreurs de maintenance / actualisation des équipements (hardware)
-  * Effondrement du système provoqué par l'épuisement des ressources
-  * Perte d'équipements
-  * Indisponibilité du personnel
-* Attaques délibérées
-  * Manipulation de la configuration
-  * Supplantation de l'identité de l'utilisateur
-  * Abus de privilèges d'accès
-  * Utilisation non prévue
-  * Diffusion de software nuisible
-  * Ré-acheminement des messages
-  * Altération de séquence
-  * Accès non autorisé
-  * Analyse du trafic
-  * Répudiation
-  * Interception d'information (écoute)
-  * Modification de l'information
-  * Introduction de fausses informations
-  * Corruption de l'information
-  * Divulgation de l'information
-  * Manipulation des programmes
-  * Refus de service
-  * Vol d'équipements
-  * Attaque destructive
-  * Occupation ennemie
-  * Indisponibilité du personnel
-  * Extorsion
-  * Ingénierie sociale
+### **SOURCES OF THREATS**
+* Human sources
+  * Malicious deliberate
+	* Internal (human) source 
+		* Weak capacities
+		* Important capacities
+		* Unlimited capacities
+	* External (human) source
+		* Low capacities
+		* Important capacities
+		* Unlimited capacities
+  * Accidental without intention to harm
+	* Internal (human) source
+		* Low capacities
+		* Important capacities
+		* Unlimited capacities
+	* External (human) source
+		* Low capacities
+		* Important capacities
+		* Unlimited capacities
+	* Non-human sources
+	
+## MEHARI Threats by Threat Group
+* Natural disasters
+  * Fire
+  * Water damage
+  * Natural disasters
+* Industrial disasters
+  * Fire
+  * Water damage
+  * Industrial disasters
+  * Mechanical pollution
+  * Electromagnetic pollution
+  * Physical or logical failure
+  * Power cut
+  * Inadequate temperature and/or humidity conditions
+  * Communication services failure
+  * Interruption of other essential services and supplies
+  * Degradation of information storage media
+  * Electromagnetic emanations
+* Unintended errors and failures
+  * User errors
+  * Administrator errors
+  * Control errors (log)
+  * Configuration errors
+  * Organizational deficiencies
+  * Diffusion of harmful software
+  * Redirection errors
+  * Sequence errors
+  * Information leaks
+  * Information alteration
+* Introduction of false information
+  * Information degradation
+  * Information destruction
+  * Disclosure of information
+  * Program vulnerabilities (software)
+  * Maintenance/program update errors (software)
+  * Equipment maintenance/updating errors
+  * System collapse caused by resource depletion
+  * Loss of equipment
+  * Staff unavailability
+* Deliberate attacks
+  * Configuration manipulation
+  * Beating user identity
+  * Abuse of access privileges
+  * Unintended use
+  * Diffusion of harmful software
+  * Message redirection
+  * Sequence alteration
+  * Unauthorised access
+  * Traffic analysis
+  * Repudiation
+  * Information interception (listening)
+  * Modification of information
+  * Introduction of false information
+  * Information corruption
+  * Disclosure of information
+  * Program manipulation
+  * Refusal of service
+  * Theft of equipment
+  * Destructive attack
+  * Enemy occupation
+  * Staff unavailability
+  * Extortion
+  * Social engineering
