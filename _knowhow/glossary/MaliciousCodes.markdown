@@ -9,91 +9,88 @@ categories: knowhow
 toc: true
 ref: glossarymaliciouscode
 lang: en
-hidden: true
 ---
 
-## In brief
-Les logiciels malveillants ou codes malicieux sont des logiciels qui infectent la machine d'un utilisateur à son insu. L'[impact]({% link _knowhow/glossary/Impact.markdown %}) de l'infection peut être multiple, comme notamment la perte de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}), d'[intégrité]({% link _knowhow/glossary/Integrity.markdown %}) ou de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}) des actifs d'une entité. Une infection par codes malicieux ne se remarque pas toujours, parfois elle est même très difficile à détecter.
+## In Brief
 
-L'infection peut avoir lieu en incitant la victime par des méthodes d'[ingénierie sociale]({% link _knowhow/glossary/SocialEngineering.markdown %}) (social engineering) par exemple, à ouvrir un fichier annexé à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}), à ouvrir un fichier se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %}) ou simplement à motiver la victime à visiter une [page web malicieuse]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
+Malware or malicious code is software that infects a user’s machine without their knowledge. The [impact]({% link _knowhow/glossary/Impact.markdown %}) of infection can be multiple, such as the loss of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}) or [availability]({% link _knowhow/glossary/Availability.markdown %}) of an entity’s assets. A malicious code infection is not always noticeable, sometimes it is even very difficult to detect.
 
-Les codes malicieux peuvent avoir différents [impacts]({% link _knowhow/glossary/Impact.markdown %}). Ils présentent une [menace]({% link _knowhow/glossary/Threat.markdown %}) considérable et peuvent selon le type soit exploiter des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) soit des [vulnérabilités techniques]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities).
+The infection can take place by inciting the victim by methods of [social engineering]({% link _knowhow/glossary/SocialEngineering.markdown %}) for example, to open a file annexed to an [electronic mail]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}), to open a file being on a [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}), or simply to motivate the victim to visit a [malicious web page]({% link _knowhow/glossary/MaliciousWebsites.markdown %}).
 
-## Les virus
-Un virus est un logiciel, ou une partie de logiciel qui, pour pouvoir se propager, s'attache à tout type de fichier ou autre logiciel dans le but d'infecter la machine concernée, ainsi que d'autres, à l'insu des utilisateurs.
+Malicious codes can have different [impacts]({% link _knowhow/glossary/Impact.markdown %}). They present a considerable [threat]({% link _knowhow/glossary/Threat.markdown %}) and can, depending on the type, either exploit [human]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) or [technical vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#technical-vulnerabilities).
 
-Un virus s'active en général dès qu'une personne ouvre le fichier (attaché à un [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) ou se trouvant sur un [support amovible]({% link _knowhow/glossary/RemovableDevices.markdown %})) ou exécute le logiciel hébergeant le virus. En conséquence, le créateur du virus essayera d'inciter la victime potentielle à ouvrir le fichier infecté en exploitant des [vulnérabilités humaines.]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities)
+## Viruses
+A virus is a software, or a part of software which, in order to be able to spread, attaches itself to any type of file or other software with the aim of infecting the machine concerned, as well as others, without the knowledge of users.
 
-Dès qu'un virus a été lancé, il va essayer deux choses :
+A virus is generally activated as soon as a person opens the file (attached to an [e-mail]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) or located on a [removable medium]({% link _knowhow/glossary/RemovableDevices.markdown %})) or runs the software hosting the virus. As a result, the virus creator will try to trick the potential victim into opening the infected file by exploiting [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities).
 
-1. lancer son payload, c'est-à-dire ses fonctionnalités malicieuses;
+As soon as a virus has been launched, it will try two things:
 
-2. essayer de se propager en utilisant des canaux de distribution comme le réseau de l'entreprise, les courriers électroniques ou encore les supports amovibles.
+1.	launch its payload, that is to say, its malicious functionality;
 
-Il est donc vivement conseillé d'ignorer les fichiers joints provenant de personnes qui nous sont inconnues, ou des contenus dans des mails ou sur des supports informatiques qui suscitent notre méfiance.
+2.	try to spread using distribution channels such as the corporate network, e-mail or removable media.
 
-## Les vers
-Contrairement au virus, un ver n'a pas besoin de l'intervention humaine pour infecter une machine. Il dispose d'un « moteur » (automatisme) qui lui permet dans un premier temps de délivrer et d'exécuter automatiquement son code malicieux -
+It is, therefore, strongly advised to ignore attached files from people who are unknown to us or content in emails or on computer media that cause our distrust.
 
-Morris worm - Le Morris Worm du nom de son créateur « Robert Morris » a été un des premiers vers (1988) à se propager rapidement sur Internet et à infecter un grand nombre de machines.
+## Worms
+Unlike the virus, a worm does not need human intervention to infect a machine. It has an ‘engine’ (automation) which initially allows it to automatically deliver and execute its malicious code.
 
-## Cheval de Troie
-Le terme 'cheval de Troie' apparaît dans la mythologie grecque, notamment dans l'Iliade de Homer qui raconte l'histoire des Grecs décidés à envahir la ville de Troie. Se servant d'une ruse pour assaillir cette ville bien protégée, ils firent construire un grand cheval de bois et l'envoyèrent à Troie en guise de cadeau et de signe de paix. Le peuple de Troie apprécia ce geste et emmena le cheval dans la ville. Pendant la nuit quelques soldats grecs, abrités à l'intérieur du cheval en bois, sortirent de leur cachette et ouvrirent les portes de la ville au reste de l'armée, qui s'en empara.
+The Morris Worm named after its creator (Robert Morris) was one of the first worms (1988) to spread quickly on the Internet and to infect a large number of machines.
 
-Par analogie un cheval de Troie est un logiciel espion installé sur une machine dans le but d'ouvrir une porte dérobée à l'[attaquant]({% link _knowhow/glossary/Cybercriminals.markdown %}). A la différence d'un virus ou d'un ver, un cheval de Troie n'a pas vocation à se reproduire ou à se propager. Mais tout comme les virus, les chevaux de Troie se cachent dans des fichiers anodins et exploitent souvent des [vulnérabilités humaines]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) pour être lancés.
+## Trojan Horse
+The term ‘Trojan horse’ appears in Greek mythology, especially in Homer’s Iliad which tells the story of the Greeks who decided to invade the city of Troy. Using a ruse to assault this well-protected city, they built a large wooden horse and sent it to Troy as a gift and a sign of peace. The people of Troy appreciated this gesture and took the horse into the city. During the night some Greek soldiers, sheltered inside the wooden horse, emerged from their hiding place and opened the gates of the city to the rest of the army, which seized it.
 
-En général, le cheval de Troie sert à créer et à maintenir un accès permanent non-autorisé sur une machine, lorsque cette dernière est connectée à Internet. Le nombre de « trojans » est aussi impressionnant que la variété des actions qu'ils permettent aux attaquants sur les ordinateurs cibles.
+By analogy, a Trojan horse is spyware installed on a machine to open a back door to the [attacker]({% link _knowhow/glossary/Cybercriminals.markdown %}). Unlike a virus or a worm, a Trojan horse is not intended to reproduce or spread. But like viruses, Trojans hide in harmless files and often exploit [human vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}#human-vulnerabilities) to get launched.
 
-Certains ouvrent simplement un accès à des fichiers de la machine, d'autres permettent une véritable interaction avec la machine infectée depuis Internet ou un réseau local.
+In general, the Trojan is used to create and maintain permanent unauthorised access to a machine, when the latter is connected to the Internet. The number of ‘trojans’ is as impressive as the variety of actions they allow attackers on target computers.
 
-## Les spyware
-Un spyware est un logiciel espion. C'est un programme conçu dans le but de collecter sans autorisation des données personnelles sur les utilisateurs, et de les envoyer à son concepteur, ou à un tiers, via Internet ou tout autre réseau informatique. Les spywares ont pour objectif primaire d’espionner le comportement de l’internaute et de transmettre les informations collectées aux créateurs et éditeurs de logiciels afin d’alimenter une gigantesque base de données.
+Some simply open access to machine files, others allow real interaction with the infected machine from the Internet or a local network.
 
-Un spyware « s’attrape » en général en naviguant sur Internet, ainsi qu'en téléchargeant des logiciels.
+## Spyware
+Spyware is a program designed to collect personal data on users without authorisation, and sending them to its designer, or a third party, via the Internet or any other computer network. The primary objective of spyware is to spy on the behaviour of the Internet user and to transmit the information collected to the creators and software editors to feed a gigantic database. 
 
-Il existent différents types de spyware :
+Spyware is usually ‘caught’ by browsing the Internet, as well as by downloading software. 
 
-### **LES SPYWARES COMMERCIAUX**
-Les spywares commerciaux collectent des données sur leurs utilisateurs et interagissent de manière visible avec eux, en gérant l'affichage de bannières publicitaires ciblées, en déclenchant l'apparition de fenêtres pop-up, voire en modifiant le contenu des sites web visités afin d'y ajouter par exemple des liens commerciaux. Ce sont les spywares les plus courants. Leur existence est généralement mentionnée dans la licence d'utilisation du logiciel concerné, mais souvent de manière ambiguë et/ou dans une langue étrangère, ce qui fait que l'utilisateur n'est pas clairement informé.
+There are different types of spyware:
 
-### **LES MOUCHARDS**
-Les mouchards collectent également des données sur leurs utilisateurs, mais le font dans la plus totale discrétion. La surveillance et la réutilisation éventuelle des données collectées se font à l'insu des utilisateurs, généralement dans un but de collecter des statistiques, des informations de marketing, de débogage ou de maintenance technique, voire de cyber-surveillance. L'existence de ces mouchards est délibérément cachée aux utilisateurs.
+### **COMMERCIAL SPYWARES**
+Commercial spyware collects data and interacts visibly with their users, by managing the display of targeted advertising banners, by triggering the appearance of pop-ups, or even by modifying the content of the websites visited to add commercial links, for example. These are the most common spyware. Their existence is generally mentioned in the licence to use the software concerned, but often in an ambiguous manner and/or in a foreign language, which means that the user is not clearly informed.
 
-### **LE SPYWARE INTÉGRÉ**
-Le spyware intégré (ou interne) est un programme exécutable inclus dans le code source d'un logiciel ayant une fonction propre, pour lui donner la possibilité de collecter et de transmettre des informations par Internet. Ces spywares sont téléchargeables séparément ou sont proposés à l'installation en même temps que d'autres programmes gratuits, eux-mêmes généralement des spywares, grâce à des accords entre éditeurs de logiciels.
+### **COOKIES**
+Cookies also collect data about their users but do so with the utmost discretion. The monitoring and possible reuse of the data collected are done without the knowledge of the users, generally, for the purpose of collecting statistics, marketing information, debugging or technical maintenance, or even cyber-surveillance. The existence of these cookies is deliberately hidden from users.
 
-### **LE SPYWARE EXTERNALISÉ**
-Le spyware externalisé est une application autonome dialoguant avec le logiciel principal qui lui est associé, et dont la seule fonction est de se charger de la "relation client" : collecte et transmission d'informations, affichage de bannières publicitaires, etc. Ces spywares sont conçus par des régies publicitaires ou des sociétés spécialisées.
+### **THE INTEGRATED SPYWARE**
+Integrated (or internal) spyware is an executable program included in the source code of the software with its own function, to give it the possibility of collecting and transmitting information over the Internet. This spyware can be downloaded separately or are offered for installation at the same time as other free programs, themselves usually spyware, thanks to agreements between software publishers.
 
-## Comment se protéger?
+### **THE OUTSOURCED SPYWARE**
+Outsourced spyware is a standalone application that dialogues with the main software associated with it, and whose sole function is to take care of the ‘customer relationship’: collection and transmission of information, display of advertising banners, etc. This spyware is designed by advertising agencies or specialised companies.
 
-### **MESURES COMPORTEMENTALES**
+## How to Protect Yourself?
 
-* Il est indispensable de suivre les conseils comportementaux liés aux courriers électroniques, les conseils par rapport à la manipulation de supports amovibles et ceux concernant les sites web malicieux. Respectez les bonnes pratiques par rapport aux logiciels malveillants.
+### **BEHAVIOURAL MEASURES**
+* It is essential to follow behavioural advice related to e-mail, advice on handling removable media and those concerning malicious websites. Follow good practices concerning malware.
 
-### **MESURES ORGANISATIONNELLES**
+### **ORGANISATIONAL MEASURES**
+The organisation must draft and enforce several sectoral policies:
+* [Classification and control of resources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
+  * [Resource classification and responsibility]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
+* [Human aspects]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
+  * [Security as a mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
+  * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
+  * [Response to security incidents and malfunctions]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
+* [Operational aspects and communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
+  * [Protection against malicious code]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
+  * [E-mail]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
+* [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
+  * [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
+  * [Connection from the outside]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
+  * [Network separation]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
+* [Business continuity management]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
+  * [Continuity of operation]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 
-L'organisme doit rédiger et faire respecter plusieurs politiques sectorielles :
+### **TECHNICAL MEASURES**
+The use of [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) can help against infection by malicious codes. 
 
-* [Classification et maîtrise des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %})
-  * [Classification et responsabilité des ressources]({% link _knowhow/cisoapproach/SecurityPolicy-ClassificationAndControlOfResources.markdown %}#classification-and-responsibility-for-resources)
-* [Aspects humains]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
-  * [La sécurité comme mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
-  * [La formation et l’information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
-  * [La réponse aux incidents et dysfonctionnements de sécurité]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#response-to-incidents-and-malfunctions)
-* [Aspects opérationnels et communications]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
-  * [Protection contre les codes malveillants]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
-  * [Courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %})
-* [Contrôle d’accès]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
-  * [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks)
-  * [Connexion de l’extérieur]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#external-connections)
-  * [Séparation de réseaux]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
-* [Gestion de la continuité de l’entreprise]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
-  * [La continuité de fonctionnement]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
+[Network segmentation]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) using a [firewall]({% link _knowhow/glossary/Firewall.markdown %}) can protect against infection by malicious code type ‘worms’ and against data extraction by Trojans. 
 
-### **MESURES TECHNIQUES**
-L'utilisation d'un [antivirus]({% link _knowhow/glossary/AntiVirus.markdown %}) peut aider contre l'infection par des codes malicieux.
-
-La [segmentation de réseaux]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) à l'aide d'un [firewall]({% link _knowhow/glossary/Firewall.markdown %}) peut protéger contre l'infection par des codes malicieux de type 'vers', ainsi que contre l'extraction de données par des chevaux de Troie.
-
-La mise à jour des [correctifs (patch)]({% link _knowhow/glossary/Patches.markdown %}) de toutes les applications, ainsi que du système d'exploitation peut aider contre l'infection par des codes malicieux de type 'vers'.
+Updating the [patches]({% link _knowhow/glossary/Patches.markdown %}) of all applications, as well as the operating system, can help fight against infection by malicious ‘worm’ codes.
