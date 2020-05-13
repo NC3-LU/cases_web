@@ -8,7 +8,6 @@ short:
 categories: knowhow
 ref: glossaryrecomm4securingserver
 lang: en
-hidden: true
 ---
 In Brief
 --------
@@ -30,4 +29,3 @@ Security Measures
 11.	It is strongly recommended to **secure physical access to the server** only to those entitled. Write and enforce a Sector Policy for Physical and Environmental Security.
 12.	If the server is discarded, it is strongly recommended that you physically destroy the hard disks (using a shredder or demagnetiser). Write and enforce a physical and environmental security sector policy.
 13.	Document the most important manipulations on the server (backup, shutdown, startup…). Write and enforce a Sector Policy on Operational Aspects and Communications.
-
