@@ -28,12 +28,12 @@ The diagnostic can help to:
 * **protect** the company's reputation
 
 The diagnostic will help you in both technical and organisational terms. The questions are devised to cover the most frequent information risks in Luxembourg.
-A CASES expert will visit your company and will ask you the necessary questions, while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
+A CASES expert will visit your company and will ask you the necessary questions while providing you with guidance. This is a good introduction to the information security continuous improvement procedure.
 
 
 ## Advantages
 
 * Free, with no commitment – for Luxembourg only
-* Rapid process; questionnaire takes 2 hours; diagnostic delivered within 5 working days
+* Rapid process; questionnaire takes two hours; diagnostic delivered within five working days
 
-**Why wait any longer?** Take your Fit4Cybersecurtiy and then apply for your Diagnostic CASES afterwards.
+**Why wait any longer?** Take your Fit4Cybersecurtiy and apply for your Diagnostic CASES afterwards.
