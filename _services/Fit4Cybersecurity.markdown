@@ -13,7 +13,7 @@ ref: Fit4Cybersecurity
 
 [Fit4Cybersecurity](http://startup.cases.lu) is a self-assessment tool, to help business owners evaluate their security maturity and to enhance their cyber risk protection.
 
-[Fit4Cybersecurity](http://startup.cases.lu) is mainly the first step of a more complete assessment which can help you enhance your security maturity. If you meet a score of 65/100, a [CASES Diagnostic](https://www.cases.lu/services/diagnostic.html) could be done for free by one of our Cybersecurity experts.
+[Fit4Cybersecurity](http://startup.cases.lu) is mainly the first step of a more complete assessment which can help you enhance your security maturity. If you meet a score of 65/100, a [CASES Diagnostic]({% link _services/diagnostic.markdown %}) could be done for free by one of our Cybersecurity experts.
 
 ## How?
 

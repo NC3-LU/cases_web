@@ -36,4 +36,4 @@ Un expert CASES vous rendra visite et vous posera les questions nécessaires tou
 * Gratuit et sans engagement - pour le Luxembourg exclusivement
 * Rapide à réaliser : questionnaire réalisé en 2 heures ; diagnostic délivré dans les 5 jours ouvrables
 
-**N'attendez plus!** Faites votre Fit4Cybersecurtiy et postulez pour votre diagnostic CASES par la suite.
+**N'attendez plus!** Faites votre [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity_fr.markdown %}) et postulez pour votre diagnostic CASES par la suite.

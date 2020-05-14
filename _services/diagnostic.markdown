@@ -36,4 +36,4 @@ A CASES expert will visit your company and will ask you the necessary questions 
 * Free, with no commitment – for Luxembourg only
 * Rapid process; questionnaire takes two hours; diagnostic delivered within five working days
 
-**Why wait any longer?** Take your Fit4Cybersecurtiy and apply for your Diagnostic CASES afterwards.
+**Why wait any longer?** Take your [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity.markdown %}) and apply for your Diagnostic CASES afterwards.

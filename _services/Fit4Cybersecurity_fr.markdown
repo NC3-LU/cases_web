@@ -13,7 +13,7 @@ ref: Fit4Cybersecurity
 
 [Fit4Cybersecurity](http://startup.cases.lu) est un outil d’autoévaluation destiné aux entreprises qui souhaitent évaluer leur niveau de sécurité afin d’améliorer leur protection contre les risques cyber.
 
-[Fit4Cybersecurity](http://startup.cases.lu) est également la première étape d’une évaluation plus complète qui vous permettra d’améliorer significativement votre niveau de sécurité : en effet, si vous obtenez un score minimum de 65/100, vous aurez la possibilité de demander un [Diagnostic CASES](https://www.cases.lu/services/diagnostic_fr.html) qui sera effectué gratuitement par un de nos experts en Cybersécurité.
+[Fit4Cybersecurity](http://startup.cases.lu) est également la première étape d’une évaluation plus complète qui vous permettra d’améliorer significativement votre niveau de sécurité : en effet, si vous obtenez un score minimum de 65/100, vous aurez la possibilité de demander un [Diagnostic CASES]({% link _services/diagnostic_fr.markdown %}) qui sera effectué gratuitement par un de nos experts en Cybersécurité.
 
 ## Comment ?
 

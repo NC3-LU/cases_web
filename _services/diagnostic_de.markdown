@@ -35,4 +35,4 @@ Ein CASES-Experte wird Ihr Unternehmen besuchen und Ihnen die notwendigen Fragen
 * Kostenfrei und unverbindlich - nur für Luxemburg
 * Schnell durchführbar: Fragebogen wird innerhalb von 2 Stunden beantwortet, der Bericht folgt in den darauffolgenden 5 Werktagen
 
-**Zögern Sie nicht länger!** Machen Sie Ihre Fit4Cybersecurtiy und beantragen Sie dann Ihren Diagnostic CASES.
+**Zögern Sie nicht länger!** Machen Sie Ihre [Fit4Cybersecurity]({% link _services/Fit4Cybersecurity_de.markdown %}) und beantragen Sie dann Ihren Diagnostic CASES.
