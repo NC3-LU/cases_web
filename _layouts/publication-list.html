@@ -22,32 +22,22 @@ layout: default
 
 {% include menus/filemenu.html %}
 
-
-
-
 <div class="col-md-8">
   {% if site.publications %}
   <div class="row-fluid row-fluid--padding thecontent">
     <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
-
-
-
   {% else %}
   <div class="row-fluid row-fluid--padding">
-
   </div>
   {% endif %}
 </div>
 
 
-{% if page.title == "Publications" %}
-  <div class="col-md-2"></div>
-
-{% else %}
-
-  {% assign tocname="publication-list" %}
-  {% include menus/toc.html %}
-
-{% endif %}
+<div class="blocantiscroll col-md-2">
+  {% if page.layout == "publication-list" %}
+    <h2>Table of Content</h2>
+    {% toc %}
+  {% endif %}
+</div>
