@@ -57,4 +57,4 @@ ISO/IEC 27000 2009 aims to provide terms and definitions, as well as an introduc
 **ISO/IEC 27007**: Auditor guidelines. This standard is used as a specific guide for ISMS audits, notably in support of ISO 27006.
 
 ## Literature
-BILLOIS, G., HUMBERT, J-P., MAYER, N. ISO 2700x: a standards family for security governance. MISC(30). Sélestat Cedex – France: Les Éditions Diamond. File: [GBI-JPH-NMA MISC30.pdf](-)
+BILLOIS, G., HUMBERT, J-P., MAYER, N. ISO 2700x: a standards family for security governance. MISC(30). Sélestat Cedex – France: Les Éditions Diamond. File: [GBI-JPH-NMA MISC30.pdf](https://portail-qualite.public.lu/dam-assets/fr/publications/confiance-numerique/etudes-nationales/Pub-GBI-JPH-NMA_MISC30/GBI-JPH-NMA_MISC30.pdf)
