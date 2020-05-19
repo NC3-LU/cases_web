@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: whypoolrisksanalysis
 lang: fr
+hidden: true
 ---
 [Risk analysis]({% link _publications/WhyManageRisks.markdown %}) consists of identifying the attack scenarios which would cause the most serious impacts, and putting forward a treatment to reduce their consequences.
 

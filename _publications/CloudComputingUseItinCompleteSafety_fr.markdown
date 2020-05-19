@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: cloudcomputinguseitincompletesafety
 lang: fr
+hidden: true
 ---
 ## In brief
 Cloud computing covers different ways for companies to outsource their IT resources and access them through a network.

@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: securinglaptops
 lang: fr
+hidden: true
 ---
 ## In brief
 Laptops are special computers in that they can not only be transported outside the company, but they can also connect to other networks, some of which may have little protection, such as hotel networks.

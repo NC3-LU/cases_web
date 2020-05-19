@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: cloudcomputinguseitincompletesafety
 lang: en
+hidden: true
 ---
 <style>
 table {

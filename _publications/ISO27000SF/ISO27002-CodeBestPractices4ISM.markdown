@@ -10,6 +10,7 @@ categories: iso
 toc: true
 ref: iso27002-codebestpractices4ism
 lang: en
+hidden: true
 ---
 ## In Brief
 The ISO/IEC 27001 standard describes a process approach for the implementation of an ISMS (Information Security Management System). Although it sets the objective to be obtained, it does not specify exactly how to go about it. The ISO 27002 standard presents a series of concrete specifications that cover both technical and organisational aspects.

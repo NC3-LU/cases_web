@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: whymanagerisks
 lang: fr
+hidden: true
 ---
 <!-- <div style="border: 1px solid #000000; padding: 10px;"> -->
 

@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: securingfixedworkstation
 lang: fr
+hidden: true
 ---
 ## In brief
 

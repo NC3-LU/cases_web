@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: recommendations4securingfileserver
 lang: fr
+hidden: true
 ---
 
 ## In brief

@@ -10,6 +10,7 @@ categories: securing
 toc: true
 ref: iso27002-codebestpractices4ism
 lang: fr
+hidden: true
 ---
 ## In brief
 Mail servers are special servers in the sense that at least part of a mail server has to be connected to the Internet and it is sent a huge number of messages, not all of which will necessarily be benign. As explained in the article on emails, this server can be separated into one or two parts, where at least the MTA part (Mail Transfer Agent) must be connected to the Internet. Because of this, it is also recommended to follow the general [recommendations for servers connected to the Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet.markdown %}).
