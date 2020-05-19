@@ -22,9 +22,10 @@ layout: default
 
 {% include menus/filemenu.html %}
 
-<div class="col-md-8">
+<div class="col-md-8 col-sm-8">
   {% if site.publications %}
   <div class="row-fluid row-fluid--padding thecontent">
+    {% include menus/language-selector.html %}
     <h1>{{ page.title }}</h1>
     {{ content }}
   </div>

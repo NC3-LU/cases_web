@@ -26,6 +26,7 @@
     </li>
     {% endunless %}
   {% endfor %}
+
   {% assign services=site.knowhow | where:"ref", page.ref | sort: 'lang' %}
   {% for service in services %}
     {% unless service.hidden %}
@@ -34,5 +35,15 @@
     </li>
     {% endunless %}
   {% endfor %}
+
+  {% assign publications=site.publications | where:"ref", page.ref | sort: 'lang' %}
+  {% for publication in publications %}
+    {% unless publication.hidden %}
+    <li>
+      <a href="{{ publication.url }}" class="{{ publication.lang }}"><img src="/assets/img/flags/{{ publication.lang }}.svg"></a>
+    </li>
+    {% endunless %}
+  {% endfor %}
+
   </ul>
 </div>
