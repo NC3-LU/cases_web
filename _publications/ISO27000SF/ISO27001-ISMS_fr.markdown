@@ -1,27 +1,27 @@
 ---
 layout: publication-list
 category: "In depth articles"
-title:  "ISO/IEC 27001 – Information security management system"
-menutitle: "ISO/IEC 27001 – Information security management system"
+title:  "ISO/IEC 27001 – ISOIEC 27001 - Système de management de la sécurité de l'information"
+menutitle: "ISO/IEC 27001 – Système de management de la sécurité de l'information"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "What is ISO-IEC 27001?"
+short: "Qu'est-ce que l'ISO-IEC 27001?"
 categories: iso
 toc: true
 ref: iso27001-isms
 lang: fr
 hidden: true
 ---
-## In brief
-The ISO 27001 standard encourages the adoption of a process approach to the implementation, operation, monitoring, re-examination, updating and improvement of a company’s information security management system. Annex A of the standard is [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %}).
+## En quelques mots
+La norme ISO 27001 encourage l’adoption d’une approche processus pour la mise en œuvre, le fonctionnement, la surveillance et le réexamen, la mise à jour et l’amélioration du système de management de la sécurité de l’information d'une entreprise. L'annexe A de la norme est l'[ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %}).
 
-The company must identify and manage a number of activities to ensure it is operating efficiently. Any activity involving the use of resources in such a way as to transform input elements into output elements may be considered as a process.
+L'entreprise doit identifier et gérer de nombreuses activités de manière à fonctionner efficacement. Toute activité utilisant des ressources est gérée de manière à permettre la transformation d’éléments d’entrée en éléments de sortie, peut être considérée comme processus.
 
-“The process approach” is the name given to the application of a process system within a company, as well as the identification, interactions and management of these processes.
+« L’approche processus » désigne l’application d’un système de processus au sein de l'entreprise, ainsi que l’identification, les interactions et le management de ces processus.
 
-The process approach for information security management system given in the standard highlights the importance of:
+L’approche processus pour le management de la sécurité du système d’information présentée dans la norme souligne l’importance de :
 
-1. understanding the requirements relating to the security of the company’s information and the necessity of introducing a security policy and objectives;
-2. implementing and using security-related risk management measures in the context of the global risks related to the organisation’s activity;
-3. monitoring and re-examining the ISMS’s performances;
-4. continuously upgrading the system based on objective measurements.
+1. la compréhension des exigences relatives à la sécurité de l’information de l'entreprise et la nécessité de mettre en place une politique et des objectifs en matière de sécurité;
+2. la mise en œuvre et l’exploitation des mesures de gestion des risques liés à la sécurité dans le contexte des risques globaux liés à l’activité de l'organisation;
+3. la surveillance et le réexamen des performances de l’ISMS;
+4. l’amélioration continue du système sur base de mesures objectives.
