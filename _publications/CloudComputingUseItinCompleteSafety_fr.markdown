@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 category: "In depth articles"
-title:  "Cloud computing"
+title:  "Cloud computing  les clés pour en profiter en toute sécurité"
 menutitle: "Cloud computing"
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -10,154 +10,134 @@ categories: securing
 toc: true
 ref: cloudcomputinguseitincompletesafety
 lang: fr
-hidden: true
 ---
-<style>
-table {
-    width:100%;
-}
-th {
-  border: 1px solid #999999;
-  text-align: center;
-  background-color: #BBBBBB
-}
-th,td {
-  padding: 8px;
-}
-</style>
+## En quelques mots
+Le cloud computing recouvre différents moyens mis à disposition des entreprises pour externaliser leurs ressources informatiques et y accéder au travers d’un réseau.
+Généralement ces services, surtout s’ils sont gérés par un organisme tiers, sont hébergés dans des centres de calculs sur lesquels l’utilisateur à peu d’emprise.
 
-## In brief
-Cloud computing covers different ways for companies to outsource their IT resources and access them through a network.
-Generally these services, especially if they are managed by a third party, are hosted in data centres over which the user has little control.
+Originellement le cloud computing décrit une grappe de serveurs partageant leurs tâches. Il s’agit donc de mutualiser des ressources qui sont généralement sous-utilisées. Chaque utilisateur n’utilise généralement qu’une petite partie de la puissance globale, mais peut bénéficier à certains moments de la pleine capacité d’une ressource partagée. Cette technologie permet d’adapter, sans grand investissement, les besoins informatiques d’une entreprise avec souplesse.
 
-Originally cloud computing described a cluster of servers sharing their tasks. It therefore involves pooling resources that are generally under-utilised. Each user typically uses only a fraction of total capacity but may at times benefit from the full capacity of a shared resource. This technology makes it possible to adapt, without major investment, the IT needs of a company flexibly.
+Les infrastructures des sites de commerce électronique sont un bon exemple de cloud computing. Elles connaissent souvent un gros pic d’utilisation aux alentours de Noël. Mais le reste de l’année, beaucoup moins de ressources sont nécessaires. Pour faire face au « pic de Noël », les sites de commerce électronique ont tout intérêt à louer des capacités supplémentaires uniquement pour cette période, sans avoir à financer des machines surdimensionnées toute l’année. S’il opte toutefois pour cette dernière solution, il pourra également devenir **fournisseur** de services « cloud ».
 
-The infrastructure of e-commerce sites is a good example of cloud computing. They often experience a spike in use around Christmas. But for the rest of the year, far fewer resources are needed. To cope with the 'Christmas peak', e-commerce sites have a major incentive to lease their additional capacity for that period only, so that they do not have to finance oversized machines all year round. If they opt for the latter solution, they can also become cloud service **providers**.
+Ce n’est pas un hasard si l’un des plus grands acteurs dans le domaine du cloud computing est Amazon, qui a décidé de louer et étendre son infrastructure à des tiers.
 
-It is no coincidence that one of the biggest players cloud in computing is Amazon, which decided to lease and extend its infrastructure to third parties.
+## Types de cloud
+Dans le domaine du cloud computing on rencontre généralement plusieurs types d’offres :
 
-## Types of cloud
-Cloud computing generally involves the provision of several types of service:
+**IaaS**: Infrastructure as a Service : Le fournisseur (cloud provider) met à disposition une infrastructure, c’est-à-dire des moyens de communication, un nombre prédéfini de processeurs, de mémoire vive et d’espace de stockage. Le client doit lui-même installer et gérer ses systèmes d’exploitation et applications. En cas de besoin, l’application peut demander un plus grand débit, plus de processeurs, une plus grande mémoire vive ou encore plus d’espace de stockage. Le client a donc l’avantage de disposer d’une infrastructure qui peut réagir de façon dynamique à des pics de besoin, sans pour autant financer cette infrastructure sur toute l’année. Généralement le client ne paye que ce dont il a besoin, le fameux « pay as you go ».
 
-**IaaS**: Infrastructure as a Service: The cloud provider provides an infrastructure, i.e. a means of communication, a predefined number of processors, RAM and storage space. The customer must install and manage its own operating systems and applications. If required, the application can request more speed, processors, RAM or storage space. The customer therefore has the advantage of an infrastructure that can react dynamically to peak needs without funding the infrastructure year-round. Generally the customer only pays for what is needed – the famous "pay as you go".
+**PaaS**: Plateform as a Service : Le cloud provider met, tout comme dans le modèle IaaS, à disposition du client l’infrastructure et y ajoute la couche système d’exploitation, et environnement de production comme notamment des serveurs web, serveur de base de données et ainsi de suite. Dans ce cas de figure, le client n’a besoin que de déposer son application dans l’infrastructure, le reste est géré par le cloud provider.
 
-**PaaS**: Platform as a Service: As in the IaaS model, the cloud provider makes the infrastructure available to the customer and adds the operating system layer and a production environment such as web servers, database server and so on. In this case, the customer only needs to set up its application on the infrastructure because everything else is managed by the cloud provider.
+**SaaS**: Software as a service : Le cloud provider met à disposition du client l’application que celui-ci utilise. Le client n’a donc plus besoin de gérer quoi que ce soit. Il ne se concentre plus que sur l’utilisation de l’application mise à disposition.
 
-**SaaS**: Software as a service: The cloud provider supplies the customer with the application to be used. The customer therefore does not need to manage anything and can focus on just using the application provided.
+## La législation
+Il n’y a pas de cadre législatif propre au Cloud Computing en Europe ou au Luxembourg. Comme vu en introduction, le Cloud Computing est une convergence de plusieurs services en ligne existants par ailleurs. Ces services sont eux-mêmes pour la plupart couverts par des particularités législatives propres (e-commerce, protection des données à caractère personnelles, archivage, …), et le Cloud Computing se retrouve donc à l’intersection d’une multitude de réglementations et de lois.
 
-## Distinctive features of the cloud
- 
-### Legislation
-There is no specific legislative framework for cloud computing in Europe or Luxembourg. As noted in the introduction, Cloud Computing is a convergence of several online services existing elsewhere. These services themselves are for the most part covered by specific legislative aspects (e-commerce, personal data protection, archiving, etc.), so Cloud Computing is at the confluence of a host of regulations and laws.
+Les obligations qui peuvent exister au Luxembourg pour certains secteurs d’activités, comme le secteur financier, restent bien évidemment d’actualité dans le cadre du Cloud Computing. Plus largement, l’ensemble de la [législation applicable à la protection des données à caractères personnelles]({% link _knowhow/glossary/LegalAspects.markdown %}#personal-data-protection) reste d’actualité pour les entreprises cherchant à reposer sur une solution de Cloud Computing. En sous-traitant une partie ou l’intégralité d’une infrastructure informatique de stockage ou de traitement de données, toute entreprise reste responsable de l’intégrité et de l’usage qui est fait de ces données. Les entreprises souhaitant migrer vers des solutions de Cloud Computing auront donc tout intérêt à lire avec la plus extrême attention les contrats associés (dont les SLAs, pour Service Level Agreements) à la prestation de Cloud qu’elles auront choisi. En particulier, la localisation géographique des lieux de stockage de données est un élément fondamental car ces lieux de stockage peuvent être établis dans des pays ne respectant pas les obligations européennes et/ou Luxembourgeoises.
 
-Obviously, any obligations existing in Luxembourg for certain industries, such as the financial sector, remain relevant to Cloud Computing. More generally, all [legislation applicable to personal data protection]({% link _knowhow/glossary/LegalAspects.markdown %}#personal-data-protection) remains valid for companies seeking to rely on a cloud computing solution. When outsourcing part or all of its data storage or data processing infrastructure, a company remains responsible for the integrity and use of the same data. Companies wishing to migrate to the cloud are therefore recommended to read the contracts (including SLAs) for the cloud service they have chosen with the utmost care. In particular, the geographical location of the data storage sites is a key element, as these storage sites may be set up in countries that do not comply with European and/or Luxembourg obligations.
+Enfin, la [propriété intellectuelle]({% link _knowhow/glossary/LegalAspects_fr.markdown %}#intellectual-property) est un point qui mérite d’être mentionné. Que ce soit pour respecter des engagements de confidentialité pris envers des tiers ou le secret de méthodes développées au sein de l’entreprise, sous-traiter son activité informatique signifie potentiellement s’exposer à des risques en matière de respect et de contrôle de la confidentialité des données. Des solutions techniques comme le chiffrement existent et sont présentées plus en avant dans ce document. Elles ne doivent surtout pas être sous-estimées.
 
-Finally, [intellectual property]({% link _knowhow/glossary/LegalAspects.markdown %}#intellectual-property) should be mentioned. Whether it is to comply with confidentiality commitments to third parties or the secrecy of methods developed within the company, subcontracting IT activity potentially means exposing the company to risks in terms of confidentiality compliance and monitoring. There are technical solutions such as encryption, which are discussed later in this document. They should not be underestimated.
+## La sécurité des données
 
-### Data security
+### Transmission des données :
+Il faut vérifier si les données transmises vers le cloud sont protégées contre toute perte de confidentialité. Il est donc nécessaire qu’une ligne chiffrée soit utilisée ([SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb_fr.markdown %})) ou que les données soient [chiffrées]({% link _knowhow/glossary/Cryptography_fr.markdown %}) avant d’être transférées vers le cloud.
 
-#### Data transmission
-It should be confirmed that data sent to the cloud is protected against any loss of confidentiality. An encrypted connection ([SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %})) must therefore be used or data must be [encrypted]({% link _knowhow/glossary/Cryptography.markdown %}) before being transferred to the cloud.
+Les protocoles de transmission utilisés lors des [backups]({% link _knowhow/glossary/DataBackups_fr.markdown %}) gèrent généralement assez bien la [disponibilité]({% link _knowhow/glossary/Availability_fr.markdown %}) des données ainsi que leur [intégrité]({% link _knowhow/glossary/Integrity_fr.markdown %}). Les données ne sont pas changées ou perdues lors de la transmission. Par contre si l’on utilise le cloud comme plate-forme collaborative, et si on édite les documents via des applications web, des pertes de connectivité peuvent mener à des pertes de données.
 
-The transmission protocols used for backups generally manage data availability and integrity very well. The data is not changed or lost during transmission. Conversely, if the cloud is used as a collaborative platform and if documents are edited using web applications, loss of connectivity can lead to data losses.
+### Stockage des données :
+Dans le cloud, vous n’êtes pas forcément la seule personne qui peut accéder à vos données. Si vous louez les services d’un fournisseur, ce dernier a aussi accès à vos données puisqu’il doit gérer l’infrastructure. En cas de problèmes, d’erreurs de manipulation ou d’exploitation de [vulnérabilités]({% link _knowhow/glossary/Vulnerabilities_fr.markdown %}) par des personnes malintentionnées, il se peut même que d’autres personnes aient accès à vos données. De tels cas ont déjà eu lieu chez des fournisseurs de stockage en ligne.
 
-#### Data storage
-In the cloud, you are not necessarily the only person who can access your data. If you hire the services of a provider, the provider also has access to your data because it has to manage the infrastructure. In the event of problems, mishandling or the exploitation of vulnerabilities by malicious individuals, others may also have access to your data. Such cases have already occurred at online storage providers.
+Certains fournisseurs offrent le chiffrement, mais il est parfois difficile de déterminer si vous restez la seule personne à pouvoir déchiffrer vos données. Ne vous laissez pas éblouir par des termes alambiqués et assurez-vous d’être le seul à détenir les clés de chiffrement.
 
-Some providers offer encryption, but at times it is difficult to determine if you're the only person who can decrypt your data. Do not be dazzled by over-complicated terms – just make sure you are the only one holding the encryption keys.
+Si ce n’était pas le cas, il sera préférable de ne faire confiance à personne et de chiffrer vos données sur vos postes locaux avant de les envoyer sur le cloud. Mais tout dépend de votre utilisation : si vous stockez des données non-confidentielles et voulez profiter de capacités de recherche dans le texte, il vous faudra renoncer au chiffrement.
 
-Otherwise, it is preferable not to trust anybody else and encrypt your data on your local workstations before sending it to the cloud. But this all depends on how you use the data: if you store non-confidential data and you want to take advantage of search capabilities in the text, you will need unencrypted data.
+Lorsque plusieurs personnes doivent travailler sur des documents stockés sur un cloud, il peut être utile de partager des [passwords]({% link _knowhow/glossary/Password.markdown %}) entre plusieurs personnes ou plusieurs machines. Pour ce faire, on peut recourir à une base de données de mots de passe. Cette dernière doit alors être correctement protégée par chiffrement pour éviter de retrouver ses mots de passe sur les pages de recherche des moteurs de recherche.
 
-When several people need to work on documents stored on the cloud, sharing passwords between people or machines may be useful. This can be done using a database of [passwords]({% link _knowhow/glossary/Password.markdown %}). The passwords database must be properly protected using encryption to avoid the passwords appearing on search engine results pages.
+### Accès aux données :
+En fonction du niveau de [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) des données stockées dans le cloud, il faut vérifier qu’aucune personne non autorisée ne puisse y accéder, les effacer, les modifier ou les divulguer. Il faut donc vérifier que les mécanismes d’authentification sont adéquats:
 
-#### Data access
-Based on the [classification]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) level of data stored in the cloud, it must be confirmed that no authorised person is able to access, delete, edit or divulge the data. The suitability of authentication mechanisms must, therefore, be confirmed:
+* Identifiant et mot de passe : il faut choisir des mots de passe forts et bien les protéger. Il est conseillé de les changer régulièrement. Pour des données non critiques.
+* Strong [Authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}):
+  * par identifiant, mot de passe et mot de passe à usage unique envoyé par sms ou généré sur un smartphone,
+  * par identifiant, mot de passe et mot de passe à usage unique généré par un objet dédié (token),
+  * par identifiant, mot de passe et mot de passe et certificat (carte à puce, certificat client) ou clé logicielle.
 
-* Username and password: strong passwords must be chosen and properly protected. It is advisable to change them regularly. For non-critical data.
-* Strong [authentication]({% link _knowhow/glossary/Authentication.markdown %}):
-  * username, password and one-time password sent by SMS or generated on a smartphone,
-  * username, password and one-time password generated by a dedicated device (token),
-  * username, password and password and certificate (smart card, customer certificate) or software key.
+### Destruction des données
+À la fin du contrat respectivement lorsque vous voulez effacer les anciens back-up, il est important de veiller à ce que vos données soient détruites et ne soient plus accessibles à des personnes non autorisées. La meilleure façon de garantir cela est de nouveau de chiffrer vos données.
 
-#### Data destruction
-At the end of the contract when you want to delete old backups, it is important to ensure that your data is destroyed and no longer accessible to unauthorised persons. The best way to guarantee this is to encrypt the data again.
+## La disponibilité
+Certains fournisseurs garantissent un niveau spécifique de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}), d’autres par contre ne prennent aucun engagement précis, sauf celui du « meilleur effort »..
 
-### Availability
-Some providers guarantee a specific level of [availability]({% link _knowhow/glossary/Availability.markdown %}), while others do not make any specific commitment, except "best effort".
+Ainsi un fournisseur qui offre un niveau de disponibilité de 98,5%, peut tomber en panne 5,5 jours par an (même 5,5 jours consécutifs) sans pour autant violer les contrats. Faites à tout prix ce calcul pour déterminer si vous pouvez survivre à une telle [panne]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware_fr.markdown %}#failure-of-it-or-communications-equipment). Bien entendu, une disponibilité plus élevée vous coûtera plus cher qu’une disponibilité moyenne ou basse.  Les très bons centres garantissent jusqu’à 99,99% de disponibilité (moins d’une heure de non disponibilité par année).
 
-So, a provider offering availability of 98.5% can have 5.5 days' downtime a year (including 5.5 consecutive days) without violating the contracts. It is essential to perform this calculation to assess whether or not you can survive such a [failure]({% link _knowhow/bestpractices/SecurityMeasures4SME-Threats2Hardware.markdown %}#failure-of-it-or-communications-equipment). Of course, higher availability costs more than average or low availability.  The best data centres guarantee up to 99.99% availability (less than one hour of downtime a year).
+La disponibilité des solutions cloud est aussi conditionnée par la connectivité. Une perte de connectivité au niveau de votre entreprise, de votre fournisseur d’accès à Internet ou de votre fournisseur de cloud rend ces services indisponibles. Des attaques de type DDOS (distributed denial of service) peuvent aussi mettre en péril toute une infrastructure cloud et vous affecter si un des clients de votre fournisseur en devient la cible.
 
-The availability of cloud solutions is also conditioned by connectivity. A loss of connectivity at your company, ISP or cloud provider renders these services unavailable. Distributed denial of service (DDOS) attacks can also jeopardise an entire cloud infrastructure and affect you if one of your provider's customers becomes the target.
+La disponibilité d'un [actif]({% link _knowhow/glossary/Assets_fr.markdown %}) au sein d'une entité est définie par l'assurance que celui-ci est utilisable en termes de temps et de performance prévue. Pensez aussi au temps qu’il vous faut pour récupérer les sauvegardes depuis un service en ligne. Cette durée peut devenir très longue, voire prohibitive, à cause du débit réduit qui vous est alloué.
 
-The availability of an [asset]({% link _knowhow/glossary/Assets.markdown %}) within an entity is defined by the assurance that it is usable in terms of time and expected performance. Also think about the time needed to retrieve backups from an online service. This time-scale can become very long, even prohibitive, because of the lower speed allocated to you.
+## La connectivité
 
-### Connectivity
+### Le débit
+La plupart des services cloud assurent un certain débit de données à leurs clients. Il faut absolument que les entreprises vérifient que ces débits suffisent à l’utilisation qui en sera faite.
 
-#### Speed
-Most cloud services guarantee a data speed to their customers. It is imperative that companies check that these speeds are sufficient for the use that will be made of them.
+Il est ainsi important de vérifier pour un service de sauvegarde le débit du flux montant et de calculer combien de temps la sauvegarde va durer. D’un côté nous avons le débit proposé par votre fournisseur d’accès, de l’autre le débit proposé par votre fournisseur de cloud : le goulot d’étranglement sera forcément défini par la  valeur la plus petite:
 
-For a backup service, it is therefore vital to check the upstream speed and calculate how long the backup will take. On one side we have the bitrate offered by your ISP, on the other the bitrate offered by your cloud provider: the bottleneck will necessarily be defined by the smaller of these values:
-
-
-
-|Backup volume | Upstream speed (ISP) | Bandwidth (cloud provider) | Duration|
+| Volume de sauvegarde | Débit montant côté ISP | Bande passante côté cloud provider | Durée |
 |:----:|:--------:|:--------:|:----------------------------------------:|
-| 5 GB | 2.5 Mb/s | 2 Mb/s   | 5000*8/2 = 20,000 seconds (5.5 hours)    |
-| 5 GB | 2.5 Mb/s | 2.5 Mb/s | 5000*8/2.5 = 16,000 seconds (4.4 hours)  |
-| 5 GB | 5 Mb/s   | 10 Mb/s  | 5000*8/5 = 8000 seconds (2.2 hours)      |
+| 5 GB | 2.5 Mb/s | 2 Mb/s | 5.000\*8/2 = 20.000 secondes (ou 5,5 heures) |
+| 5 GB | 2.5 Mb/s | 2.5 Mb/s | 5.000\*8/2.5 = 16.000 secondes (4,4 heures) |
+| 5 GB | 5 Mb/s | 10 Mb/s | 5.000\*8/5 = 8.000 secondes (2,2 heures) |
 
-#### The amount of data transferred
-Some cloud providers charge by the amount of data transferred. Check if this model is suitable for your needs.
+### Le volume de données transférées
+Certains fournisseurs de cloud facturent le volume de données transférées. Vérifiez si ce modèle convient à votre besoin.
 
-### The most used services
+## La sauvegarde
+[Backups]({% link _knowhow/glossary/DataBackups_fr.markdown %) ne doit pas être confondu avec la conservation. En effet, au Luxembourg il existe depuis peu une loi sur les PSDC, les prestataires de service de dématérialisation et de conservation, les prestataires de services dans le domaine de l’archivage électronique.
 
-#### Backups
-[Backups]({{site.url}}/knowhow/glossary/DataBackups.html) should not be confused with storage. Indeed, Luxembourg recently enacted a law on PSDCs, Digitisation and Archiving Service Providers, service providers in the field of electronic archiving.
+La sauvegarde dans le cloud n’est rien d’autre que la délocalisation des données de sauvegarde dans un autre centre de calcul. Il faut donc nécessairement vérifier la sécurité des données lors de leur transmission, stockage et finalement destruction en cas de cessation des contrats, effacement par les utilisateurs ou faillite du cloud provider.
 
-Cloud backups are nothing more than the relocation of backed up data to another data centre. It is therefore necessary to check the security of the data during transmission, storage and, finally, destruction in the event of contract termination, deletion by users or bankruptcy of the cloud provider.
+La sauvegarde peut durer toute la nuit, sans gêner la production. La restauration des données doit, elle, se faire aussi rapidement que possible. Veillez donc à disposer d’un débit suffisant pour pouvoir télécharger les données dans un délai raisonnable. Pour garder ce délai court, veillez à choisir une bonne stratégie de sauvegarde qui consiste à stocker localement les données et de garder les données dans le cloud pour les sinistres comme les incendies.
 
-A backup can take all night, without disrupting production. Data must be restored as quickly as possible. So, make sure you have sufficient bitrate to download the data in a reasonable amount of time. To keep this time short, be sure to choose a good backup strategy involving local data storage and keeping data in the cloud for disasters like fire.
+## Synchronisation
+La synchronisation de différents outils de travail est un besoin récurrent. Au lieu d’envoyer des documents par [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) non sécurisé, ou de manipuler des [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}), il est préférable de synchroniser ces données via un service central accessible par tous.
 
-#### Synchronisation
-The synchronisation of different work tools is a recurring need. Instead of sending documents by unsecured [email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) or using [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}), it is best to synchronise the data using a central service accessible to all.
+Beaucoup de services existent qui offrent ces formes de collaboration respectivement de synchronisation. Le débit nécessaire ainsi que le volume de données échangés sont généralement plus réduits que pour les services de [sauvegarde]({% link _knowhow/glossary/DataBackups_fr.markdown %}).
 
-There are many services offering these forms of collaboration for synchronisation. The required bitrate and the amount of data exchanged are generally lower than for [backup]({% link _knowhow/glossary/DataBackups.markdown %}) services.
+Les documents sont ainsi toujours [disponibles]({% link _knowhow/glossary/Availability_fr.markdown %}) sur les différents outils de travail synchronisés, car une copie complète se retrouve sur toutes les plateformes. Une perte de disponibilité du service cloud ne résulte donc pas dans la perte de toutes les données, mais dans la perte de la possibilité de synchroniser. Une synchronisation manuelle via des courriers électroniques sécurisés ou des supports amovibles est toujours possible.
 
-Documents are thus always [available]({% link _knowhow/glossary/Availability.markdown %}) on the various synchronised work tools, because a complete copy is found on all platforms. Loss of availability of the cloud service does not result in all the data being lost, but in loss of the synchronisation option. Manual synchronisation via secure email or removable media is always possible.
+Les besoins de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}) sont par contre bien réels puisqu’il s’agit généralement de données actuelles, qui pourraient susciter l’intérêt de concurrents ou autres [personnes malintentionnées]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}). Un [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) lors de leur transmission et lors du stockage sur le serveur cloud s’imposent. Il est préférable que les clients soient les seuls à détenir les clés de chiffrement pour prévenir tout accès illicite via le cloud.
 
-[Confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) needs are, however, very real since this generally involves current data, which could attract the interest of competitors or other [malicious individuals]({% link _knowhow/glossary/Cybercriminals.markdown %}). [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) during transmission and storage on the cloud server is required. It is preferable for customers only to hold encryption keys to prevent unauthorised access through the cloud.
+## Plate-forme collaborative
+La collaboration de plusieurs personnes sur les mêmes documents se fait généralement via un serveur de fichier ou un serveur similaire au sein d’une entreprise.
 
-#### Collaborative platform
-When several people collaborate on the same documents, it is usually via a file server or a similar server within a company.
+Si l’entreprise ne veut pas entretenir un serveur de fichiers, ou si plusieurs personnes de différentes entreprises doivent collaborer, sans avoir accès à un même serveur de fichier, il est possible d’utiliser des plateformes de collaboration en ligne.
 
-If the company does not want to maintain a file server or if several people from different companies, without access to the same file server, need to collaborate, online collaboration platforms can be used.
+Toutes les personnes d’un même projet ont accès même espace de projet et peuvent travailler sur les documents communs. Pour ce faire, ils ont deux possibilités :
 
-Everybody working on the same project has access to the same project space and can work on shared documents. There are two ways to do this:
+* télécharger le document depuis le serveur cloud sur l’outil de travail et le remettent après avoir fini. Dans ce cas il est possible d’utiliser un [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) qui est contrôlé par les clients et inconnu par l’opérateur du cloud.
+* utiliser les outils en ligne fournis pour traiter les documents. Dans ce cas l’utilisation de moyens cryptographiques par les clients n’est pas possible. Cette façon de travailler ne garantit donc pas un niveau élevé de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}).
 
-* by downloading the document from the cloud server to the work tool and returning once the work is finished. In this case it is possible to use [encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) controlled by the customers and unknown to the cloud operator.
-* by using online tools provided for document processing. In this case the use of encryption resources by customers is not possible. This way of working, therefore, does not guarantee a high level of [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}).
+La collaboration sur plateforme cloud peut aussi poser un risque de [disponibilité]({% link _knowhow/glossary/Availability.markdown %}). Si le cloud n’est pas accessible, les documents de travail ne sont plus disponibles. En cas de désastre dans le cloud ou en cas de faillite, il y a un risque de perdre toutes les données. Il est donc très important de prévoir à temps des solutions de [sauvegarde]({% link _knowhow/glossary/DataBackups.markdown %}) hors cloud, dans les locaux d’un des partenaires.
 
-Collaboration on a cloud platform can also pose a risk of [availability]({% link _knowhow/glossary/Availability.markdown %}). If the cloud is not accessible, the work documents are no longer available. If there is disaster in the cloud or during a downtime, there is a risk that all data will be lost. It is therefore vital to provide timely [backup]({% link _knowhow/glossary/DataBackups.markdown %}) solutions outside the cloud, at the premises of one of the partners.
+La gestion des droits d’accès entre les ayants droits pose souvent un problème. Vérifiez la granularité de l’octroi de droits lors du choix du fournisseur.
 
-Managing access rights between rights holders can often be a problem. Check the granularity of the rights granted when choosing the supplier.
+Ces plateformes de collaboration offrent aussi d’autres avantages comme des calendriers, boîtes de messageries ou autres applications utiles.
 
-These collaboration platforms also offer other benefits such as calendars, mailboxes or other useful applications.
+Souvent il n’est pas possible de vérifier des logs d’accès aux données.
 
-Often it is not possible to check data access logs.
+## Autres services
+On pense évidemment aux services en ligne comme l’hébergement des sites web ou des boîtes de messageries, mais il est même possible d’aller jusqu’à la virtualisation de l’environnement de travail complet. Il existe en effet des fournisseurs de bureaux virtuels auxquels on accède au travers d’un navigateur commun.
 
-#### Other services
-These include online services such as hosting of web sites or mailboxes, but it is also possible to go as far as virtualising the entire work environment. Some providers of virtual desktops can be accessed through a common browser.
+La cloud offre des possibilités énormes et transforme l’outil informatique en service que l’on peut louer au besoin, donnant ainsi la possibilité même aux petites entreprises d’avoir accès à des technologies réservées jusqu’ici uniquement aux grandes entreprises.
 
-The cloud offers tremendous opportunities and transforms IT into a service that can be rented according to need, thus making it possible for even small businesses to access technologies hitherto restricted to large businesses.
+Toutes ces possibilités ont naturellement un prix et il est primordial de bien évaluer la valeur de ses données pour pouvoir mettre en place les mesures de sécurité adéquates.
 
-All these options obviously have a price and it is essential to evaluate the value of your data properly to ensure that the appropriate security measures are put in place.
+## Résumé
 
-#### Summary
-
-|Service | Authentication| Encryption| Availability | Bitrate |
+| Service | [Authentification]({% link _knowhow/glossary/Authentication_fr.markdown %}) | [Chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) | [Disponibilité]({% link _knowhow/glossary/Availability.markdown %}) | Débit |
 |----|----|----|----|----|
-| **Non-critical [data backups]({% link _knowhow/glossary/DataBackups.markdown %})** | Strong [password]({% link _knowhow/glossary/Password.markdown %}) | SSL connection | Medium to strong | According to data volume and backup frequency |
-| **Critical data backups** | 2-factor authentication / strong authentication | SSL connection AND data encryption | Strong, especially if the data is urgent | High, if rapid data recovery is required |
-| **Synchronisation** | According to the criticality of the data (see Backups) | According to the [criticality]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}) of the data (see Backups) | Low or Medium | According to the volume of data to be  synchronised |
-| **File sharing** | According to the criticality of the data (see [Backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups})) | SSL connection <br> Shared key encryption if the data is critical | Medium to strong | According to the number of users and the volume of files to be shared |
-| **Collaborative work** | According to the criticality of the data (see [Backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups})) | SSL connection | Strong, to avoid data loss. Provide for local backups? | High, to allow simultaneous access to multiple users |
+|**[Sauvegarde]({% link _knowhow/glossary/DataBackups.markdown %}) de données non critiques** | [Mot de passe]({% link _knowhow/glossary/Password.markdown %}) fort | Connexion SSL | Moyenne à forte | Selon le volume des données et la fréquence des sauvegardes |
+| **Sauvegarde de données critiques** | Authentification à 2 facteurs / Authentification forte | Connexion SSL<br />**ET** chiffrement des données | Forte, surtout si les données ont un caractère urgent | Elevé, si la restauration des données doit être rapide |
+| **Synchronisation** | [Selon criticité des données]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (cf. Sauvegarde) | [Selon criticité des données]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (cf. Sauvegarde) | Faible ou Moyenne | Selon le volume des données à synchroniser |
+| **Partage de fichiers** | [Selon criticité des données]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (cf. Sauvegarde) | Connexion SSL<br />Chiffrement à clé partagée si les données sont critiques | Moyenne-Forte | Selon le nombre d’utilisateurs et le volume de fichiers à partager |
+| **Travail collaboratif** | [Selon criticité des données]({% link _knowhow/cisoapproach/SecurityPolicy-Classification_fr.markdown %}) (cf. Sauvegarde) | Connexion SSL | Forte, pour éviter toute perte de donnée. Prévoir des sauvegardes en local ? | Elevé, pour permettre un accès simultané à plusieurs utilisateurs |
+
