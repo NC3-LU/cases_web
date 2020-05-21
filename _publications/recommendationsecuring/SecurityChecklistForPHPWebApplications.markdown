@@ -1,7 +1,7 @@
 ---
 layout: publication-list
 category: "In depth articles"
-title:  "Security checklist for PHP web applications"
+title:  "Security Checklist for PHP Web Applications"
 menutitle: "Security checklist for PHP web applications"
 logo:
 date:   2017-11-06 00:00:00 +0100
@@ -12,11 +12,11 @@ ref: securitychecklistforphpwebapplications
 lang: en
 hidden: true
 ---
-## In brief
+## In Brief
 
-A short checklist outlining the most common vulnerabilities of web applications and applicable PHP solutions and best practices. Although focused on PHP, this checklist can be extended to all programming languages.
+The below is a short checklist outlining the most common vulnerabilities of web applications and applicable PHP solutions and best practices. Although focused on PHP, this checklist can be extended to all programming languages.
 
-## Validation of inputs
+## Validation of Inputs
 Advice:
 
 * during development the configuration ```error_reporting = E_ALL``` (without removing the ```E_NOTICE```) is used to recognise uninitialised variables; in production, errors should not be displayed in the web interface;
@@ -30,11 +30,11 @@ Advice:
 * check the content of uploaded files. Images must be checked with the ```getimagesize()``` function, which returns *false* when the file is not of this type. Think also about the fileinfo extension;
 * do not accept serialised objects as input.
 
-In general it is advisable to use the concept of a whitelist for many cases of validation.
+In general, it is advisable to use the concept of a whitelist for many cases of validation.
 
 An extra layer of protection or protection of an already existing application can be provided by adding "PHP Input Filter" and "PHPIDS" or "mod_security" if you use Apache
 
-## SQL injection
+## SQL Injection
 Using raw SQL queries by concatenating variables to the query string is bad practice that can easily lead to unwanted SQL injection.
 
 Advice:
@@ -44,7 +44,7 @@ Advice:
 * If concatenation cannot be avoided, it is imperative to escape the variables using functions of the type "(real_) escape_string". For mysql, for example, find out about the ```mysql_real_escape_string``` function. It is useful to add that the PHP manual advises against using this function, but it can be useful for quick securing of an old application.
 * Avoid at all costs automatic techniques such as ```magic_quotes``` and/or generic ```add_slashes```. Each database will react differently to these escape methods.
 
-## Cross-site scripting (XSS)
+## Cross-Site Scripting (XSS)
 Consists of the use of javascript as input to be executed during display. This is a very common and dangerous vulnerability, although it is easy to avoid in many cases.
 You will find a fairly complete list of possible attacks on [the OWASP website](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet).
 
@@ -54,7 +54,7 @@ You will find a fairly complete list of possible attacks on [the OWASP website](
 
 In general, a generic display function must be written and used during any display.
 
-## Code injection
+## Code Injection
 Injection of malicious code that will be executed by the application.
 
 * avoid using variables in the ```include``` or ```require``` instructions. If it cannot be avoided, the use of whitelist filters is important;
@@ -62,14 +62,14 @@ Injection of malicious code that will be executed by the application.
 * in php.ini, set ```allow_url_fopen``` to ```off``` if the function is not required.
 * avoid variables in ```preg_replace``` type functions.
 
-## Injection of instructions
+## Injection of Instructions
 Some functions can be used to run system instructions.
 
 * avoid variables in instructions such as ```shell_exec```, ```exec```, ```system```, ```passthru```, ```popen```;
 * if they cannot be avoided, the ```escapeshellarg()``` and ```escapeshellcmd()``` functions must be used;
 * use whitelists and the ```basename``` function in filenames.
 
-## Session security
+## Session Security
 By stealing the session identifier, other users' sessions can be used. See "firesheep", for example.
 
 * avoid using the session identifier in the URL because another site could steal the identifier by checking the "referer" or might even set your session identifier (imagine a link to a site such as ```link?PHPSESSID=123```). So set ```use_only_cookies``` to ```1``` or ```On``` in ```php.ini```;
@@ -82,7 +82,7 @@ Involves the use of the open session in another browser tab by a malicious web p
 
 To protect non-form functionalities, case-by-case analysis is required.
 
-## Best practices for storing user passwords in the database
+## Best Practices for Storing User Passwords in the Database
 Passwords must be stored in the database in hashed form. To do this, it is important, above all, not to use *md5* or *sha1* type algorithms, for which there are "rainbow tables", which can be used to obtain the password quickly from the hash.
 
 In addition, specifically to avoid the use of *rainbow tables*, and to hide identical hashes from the same password, it is important to use a salt. This salt will be determined randomly and concatenated to the password before hashing. The salt and the hash will therefore be stored in the database.
@@ -107,14 +107,14 @@ The function above becomes:
 $hash = password_hash(hash_hmac(‘sha512’, ‘secret password’, $saltsecretconfig), PASSWORD_BCRYPT, ['cost'=>$cost]); // from PHP 5.5
 ```
 
-## Use of countermeasures
+## Use of Countermeasures
 
 In general, a web application will be scanned with an automatic tool by an attacker before compromise. It is therefore possible to place cyber traps or other "tar pits" on the application. A practical example called "weblabyrinth" can be downloaded from http://www.mayhemiclabs.com/content/new-tool-weblabyrinth. But useless scripts containing "sleep" functions or other false authentications can already perform this function.
 
 ## Webroot! = Approot
 Placing libraries and other scripts in places that cannot be accessed directly from the Internet is a definite advantage. It means that libraries with vulnerabilities cannot be exploited directly.
 
-## Denial of service
+## Denial of Service
 It is not possible to defend entirely against denial of service type attacks. However, it is possible to optimise applications so that they respond better. Although this is beyond the scope of this document, the following are some concepts that can be explored:
 
 * use "foreach" only for associative arrays and generally avoid any unbounded iteration on data from databases;
