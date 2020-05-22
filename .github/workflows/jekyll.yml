@@ -17,7 +17,13 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /usr/gem/ && chmod 777 /srv/jekyll && bundle install --clean --path /tmp/bundleInstall && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "
+        chmod -R 777 /usr/gem/ &&
+        chmod 777 /srv/jekyll &&
+        bundle config set clean 'true' &&
+        bundle config set path '/tmp/gemsInstalled' &&
+        bundle install &&
+        jekyll build --future"
 
     - run: mkdir -p artifact
     - run: cp -R ${{ github.workspace }}/_site artifact/
