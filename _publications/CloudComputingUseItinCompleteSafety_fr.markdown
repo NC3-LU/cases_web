@@ -91,7 +91,7 @@ Il est ainsi important de vérifier pour un service de sauvegarde le débit du f
 Certains fournisseurs de cloud facturent le volume de données transférées. Vérifiez si ce modèle convient à votre besoin.
 
 ## La sauvegarde
-[Backups]({% link _knowhow/glossary/DataBackups_fr.markdown %) ne doit pas être confondu avec la conservation. En effet, au Luxembourg il existe depuis peu une loi sur les PSDC, les prestataires de service de dématérialisation et de conservation, les prestataires de services dans le domaine de l’archivage électronique.
+[Backups]({% link _knowhow/glossary/DataBackups_fr.markdown %}) ne doit pas être confondu avec la conservation. En effet, au Luxembourg il existe depuis peu une loi sur les PSDC, les prestataires de service de dématérialisation et de conservation, les prestataires de services dans le domaine de l’archivage électronique.
 
 La sauvegarde dans le cloud n’est rien d’autre que la délocalisation des données de sauvegarde dans un autre centre de calcul. Il faut donc nécessairement vérifier la sécurité des données lors de leur transmission, stockage et finalement destruction en cas de cessation des contrats, effacement par les utilisateurs ou faillite du cloud provider.
 
