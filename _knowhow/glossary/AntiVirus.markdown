@@ -10,29 +10,29 @@ toc: true
 ref: glossaryantivirus
 lang: en
 ---
-## In brief
+## In Brief
 
 Antivirus is software for the identification and blocking of
 [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
 It does this using two key resources:
 
-* Based on the "signatures" of malicious code: as soon as a new malicious code is discovered, it is analysed by antivirus companies. They establish an identification and eradication protocol for the code in question. They then pass this information on to the software of their customers. Completely new malicious codes are constantly changing or are only used for highly targeted attacks and to escape detection. Accordingly, antiviruses are like safety belts: they protect but they can't guarantee 100% safety.
-* Based on the "behaviour" of malicious codes: antiviruses identify malicious codes based on the operations that they try to perform (heuristic approach)
+* Based on the 'signatures' of malicious codes: as soon as a new malicious code is discovered, it is analysed by antivirus companies. They establish an identification and eradication protocol for the code in question. They then pass this information on to the software of their customers. Completely new malicious codes are constantly changing or are only used for highly targeted attacks and to escape detection. Accordingly, antiviruses are like safety belts: they protect but they can't guarantee 100% safety.
+* Based on the 'behaviour' of malicious codes: antiviruses identify malicious codes based on the operations they try to perform (heuristic approach).
 
 Antivirus programs are essential for the protection of computers, smartphones, tablets and servers against malicious codes that are more and more numerous and widespread.
 
 No system is invulnerable to malicious code attacks, particularly because machines cannot tell the difference between malicious and legitimate code.
 
-## Additional measures
+## Additional Measures
 
-### Behavioural measures
+### Behavioural Measures
 
-* Users who detect suspicious files should not open them, whether they arrive by [email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) or on [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}).
+* Users who detect suspicious files should not open them whether they arrive by [e-mail]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email) or on [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}).
 * If a file needs to be opened and it is believed to contain non-confidential data, the user can upload it to the [virustotal](https://virustotal.com/#/home/upload) site, which will analyse the file for free using a wide range of software.
-* It is also sensible to wait 3 or 4 days before opening it. In fact, if it is new [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}), this wait will be needed to enable the production of the antivirus software to detect the code, analyse it and update the antivirus signature databases.
+* It is also sensible to wait three or four days before opening it. In fact, if it is new [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}), this wait will be needed to enable the production of the antivirus software to detect the code, analyse it and update the antivirus signature databases.
 
-### Organisational practices
+### Organisational Practices
 
 Within an organisation, the following are required:
 
@@ -41,22 +41,22 @@ Within an organisation, the following are required:
 * a contact person for the odd case where a user opens a file or clicks a link;
 * drafting and compliance with [security policies]({% link _knowhow/glossary/AntiVirus.markdown %}]#security-policy);
 
-### Technical measures
+### Technical Measures
 
 * Antivirus software must be updated several times a day to ensure that signature databases remain up to date.
 * Antivirus programs installed on user workstations and different servers should be different to increase the chances of detection of a malicious code.
 * When new malicious code is detected by a security expert, antivirus software publishers require a certain amount of time (1 to 4 days) to analyse the code and update their signature databases.
 * You should set up a specialised service to analyse suspicious or doubtful files. The IT department or an external expert can open the files in a specialised environment.
-* If infection is suspected, scan your computer with an antivirus program on a live CD
-* Since some malicious code (worms) exploits technical vulnerabilities, you should always apply [patches]({% link _knowhow/glossary/Patches.markdown %}) and updates to your operating system and any applications used on the system in question.
-* Since some malicious code (worms) uses automated mechanisms to spread itself, [the network should be partitioned]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
+* If an infection is suspected, scan your computer with an antivirus program on a live CD.
+* Since some malicious codes (worms) exploit technical vulnerabilities, you should always apply [patches]({% link _knowhow/glossary/Patches.markdown %}) and updates to your operating system and any applications used on the system in question.
+* Since some malicious code (worms) use automated mechanisms to spread themselves, [the network should be partitioned]({% link _knowhow/glossary/NetworkSegmentation.markdown %})  using a firewall and computers should be protected with firewalls. These systems can also help prevent data exfiltration by Trojan horses.
 
-## Security policy
+## Security Policy
 Write and apply the following sectoral policies:
 
 * [Organisation of security]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %})
   * [Authorisation procedure for adding information processing tools]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#authorising-the-addition-of-tools)
-  * [Third party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
+  * [Third-party access and outsourcing]({% link _knowhow/cisoapproach/SecurityPolicy-OrganizationOfSecurity.markdown %}#third-party-access-and-outsourcing)
 * [Human factors]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %})
   * [Security as a mission]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#security-as-a-mission)
   * [Training and information]({% link _knowhow/cisoapproach/SecurityPolicy-HumanFactors.markdown %}#training-and-information)
@@ -68,7 +68,7 @@ Write and apply the following sectoral policies:
 * [Operational and communications aspects]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %})
   * [Protection against malware]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#protection-against-malware)
   * [Data backups]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#data-backups)
-  * [Email]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
+  * [E-mail]({% link _knowhow/cisoapproach/SecurityPolicy-OperationalAndCommunicationAspects.markdown %}#email)
 * [Access control]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %})
   * [Access control policy]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-control-policy)
   * [Access rights management]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#access-rights-management)
@@ -77,8 +77,8 @@ Write and apply the following sectoral policies:
   * [Separation of networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#separation-of-networks)
 * [Management of security incidents]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %})
   * [Reporting information security events]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#reporting-information-security-events)
-  * [Incident management and improvements information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
-  * [Analysis of non-fulfillment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
+  * [Incident management and improvements in information security]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#incident-management-and-improvements-information-security)
+  * [Analysis of non-fulfilment of obligations]({% link _knowhow/cisoapproach/SecurityPolicy-ManagementOfSecurityIncidents.markdown %}#analysis-of-non-fulfilment-of-obligations)
 * [Managing business continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %})
   * [Operational continuity]({% link _knowhow/cisoapproach/SecurityPolicy-ManagingBusinessContinuity.markdown %}#operational-continuity)
 * [Compliance]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %})
@@ -87,31 +87,31 @@ Write and apply the following sectoral policies:
   * [Personal data protection]({% link _knowhow/cisoapproach/SecurityPolicy-Compliance.markdown %}#personal-data-protection)
 
 
-## Different types of antivirus
+## Different Types of Antivirus
 
-### Solutions for computers
+### Solutions for Computers
 
-Antivirus is important software protection that should be installed on each machine, regardless of operating system. There are many antivirus solutions available, but note that none is able to detect every form of malware. It is, therefore, essential to implement **good behavioural practice for email and for the use of removable media**.
+Antivirus is an important software protection that should be installed on each machine, regardless of operating systems. There are many antivirus solutions available, but none can detect every form of malware. It is, therefore, essential to implement **good behavioural practice for e-mail and the use of removable media**.
 
-### Solutions offered by your Internet Service Provider (ISP)
-The solutions offered by your Internet Service Provider (ISP) can be used to scan emails and traffic between your computer and the website you are browsing.
+### Solutions Offered by Your Internet Service Provider (ISP)
+The solutions offered by your Internet Service Provider (ISP) can be used to scan e-mails and traffic between your computer and the website you are browsing.
 
 Although these solutions have undeniable advantages, they also have significant limitations:
 
-* inability to scan encrypted content, such as when you visit a website in [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %}) mode or if you receive encrypted email;
+* inability to scan encrypted content, such as when you visit a website in [SSL]({% link _knowhow/glossary/SSLTLS-EncryptionTechnologiesOnWeb.markdown %}) mode or if you receive an encrypted e-mail;
 * inability to scan files you transfer from removable media such as DVDs, CDs, external hard drives, or USB drives;
-* inability to scan your system to find malicious code that would have infected your computer before it was listed by the antivirus;
+* inability to scan your system to find malicious codes that would have infected your computer before it was listed by the antivirus;
 * you cannot choose the antivirus program and do not know if the solution is constantly updated.
 
 Subscribing to your ISP's solutions is certainly useful, but does not replace local solutions installed directly on computers or servers.
 
-### Server solutions
-Antivirus solutions for servers are more or less the same as for desktops. The difference is that the server antivirus programs have certain specialisations. For example, it is standard to monitor all email traffic through a mail server or to check client downloads through a proxy server.
+### Server Solutions
+Antivirus solutions for servers are more or less the same as for desktops. The difference is that the server antivirus programs have certain specialisations. For example, it is standard to monitor all e-mail traffic through a mail server or to check client downloads through a proxy server.
 
-## Operating modes
+## Operating Modes
 Most antivirus software operates in two ways:
 
 * 'Realtime protection' – intercepting malicious codes as soon as they try to infect a machine.
-* Ad hoc scans of the machine to discover any malicious codes that have already managed to infect the system. The scan will be more effective if the malicious code is inactive, for example when using a 'live' operating system (antivirus on live CD).
+* Ad hoc scans of the machine to discover any malicious codes that have already managed to infect the system. The scan will be more effective if the malicious code is inactive, for example when using a 'live' operating system (antivirus on a live CD).
 
-Antivirus software is therefore constantly inspecting all files processed by the computer, i.e. on entry, during processing.
+Antivirus software is, therefore, constantly inspecting all files processed by the computer, i.e. on entry and during processing.
