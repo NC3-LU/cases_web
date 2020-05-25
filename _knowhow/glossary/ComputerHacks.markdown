@@ -42,7 +42,7 @@ Interference with the operation of a system is also a criminal offence. These in
 *Article 509-2 of the Criminal Code: 'Anyone who intentionally and in violation of the rights of others interferes with or damages the operation of an automated data processing or transmission system shall be punished by imprisonment of three months to three years and a fine of 1,250 to 12, 500 euros or one of these two penalties.'*
 
 ## Attempt
-A successful attack is not the only condition for criminal penalties. Merely attempting to commit the above offences, even if the attempt is successful, is punishable. Script-kiddies and other novice hackers are therefore liable for the same penalties as professional hackers.
+A successful attack is not the only condition for criminal penalties. Merely attempting to commit the above offences, even if the attempt is unsuccessful, is punishable. Script-kiddies and other novice hackers are therefore liable for the same penalties as professional hackers.
 *Article 509-6 of the Criminal Code: 'Attempts to perpetrate the crimes provided for by articles 509-1 to 509-5 are punished by the same penalties as the crimes themselves.'*
 
 ## Computer Criminal Groups
