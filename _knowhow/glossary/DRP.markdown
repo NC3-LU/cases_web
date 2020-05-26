@@ -10,15 +10,15 @@ toc: true
 ref: glossarydrp
 lang: en
 ---
-## In brief
-The purpose of a Disaster Recovery Plan (DRP) aims to plan for the timely re-establishment of an IT infrastructure. It aims to enable the operational recovery of services in the event of a disaster.
+## In Brief
+The purpose of a Disaster Recovery Plan (DRP) is to plan for the timely re-establishment of an IT infrastructure. It aims to enable the operational recovery of services in the event of a disaster.
 
 A disaster recovery plan differs from a business continuity plan.
 
 * A disaster recovery plan is characterised by its technical approach to restoration following an IT disaster.
-* A business continuity plan is a generic and above all a strategic document, which plans and details the types of actions for managing a disaster or a serious incident.
+* A business continuity plan is a generic and strategic document, which plans and details the types of actions for managing a disaster or a serious incident.
 
-A disaster recovery plan must allow a switchover to an "alternative" IT infrastructure dedicated to the survival of the business or activity.
+A disaster recovery plan must allow a switchover to an 'alternative' IT infrastructure dedicated to the survival of the business or activity.
 
 Disaster recovery plans are designed and updated according to business needs.
 
@@ -41,13 +41,13 @@ This downtime takes account of:
 * The time required to implement the disaster recovery plan,
   * Network configuration,
   * Data restoration,
-  * Quality control and service level control (in degraded or fully functional mode).
+  * Quality control and service-level control (in degraded or fully functional mode).
 
 ## RPO
 The RPO defines the maximum amount of data that can be lost as a result of a computer disaster. This value is the difference between the last backup and the incident. It is expressed in most cases in minutes / hours.
 
-## Incident diagram
-The diagram below shows service level changes according to incident. It aims to model the concepts of RPO and RTO to show how they differ, but also how they are complementary.
+## Incident Diagram
+The diagram below shows service-level changes according to the incident. It aims to model the concepts of RPO and RTO to show how they differ, but also how they are complementary.
 
 <img src="{% link assets/img/knowhow/glossary/RPO-RTO.png %}" />
 
@@ -71,9 +71,9 @@ The above examples are variable in terms of the RPO and RTO concepts and demonst
 
 Overall, the implementation of a recovery plan is based on 12 key points.
 
-## 12 key points for a successful DRP
+## 12 Key Points for a Successful DRP
 
-### 1. Inventory of IT assets
+### 1. Inventory of IT Assets
 Any asset that is part of the infrastructure’s IT system must be clearly identified and listed in a Configuration Management DataBase (CMDB).
 
 * Connectivity and network: routers, switches, racks, etc.
@@ -82,23 +82,23 @@ Any asset that is part of the infrastructure’s IT system must be clearly ident
 * Server rooms, backup storage rooms, etc.
 * ...
 
-It is essential that the database is kept up to date. We recommend adding a field that allows you to enter the date on which the equipment was first used to identify wear and tear and obsolescence.
+The database must be kept up to date. We recommend adding a field that allows you to enter the date on which the equipment was first used to identify wear and tear and obsolescence.
 
-### 2. Inventory and mapping of data and applications
-Each database and each application must be clearly identified in a database shared with the IT assets database to show the relationships between physical assets and logical assets.
+### 2. Inventory and Mapping of Data and Applications
+Each database and each application must be clearly identified in a database, shared with the IT assets database, to show the relationships between physical assets and logical assets.
 
-At any given time, this database should allow you to answer the following question: “Which application is hosted on which server?” At this stage, it is just as important to map the IT infrastructure to model the links between server rooms and servers – storage – flows – applications – databases.
+At any given time, this database should allow you to answer the following question: 'Which application is hosted on which server?' At this stage, it is just as important to map the IT infrastructure to model the links between server rooms and servers – storage – flows – applications – databases.
 
 ### 3. Classification
-The classification of assets  entails a process involving business line managers (trade, accounting, etc.), the IT manager and a member of the management board.
+The classification of assets  entails a process involving business line managers (trade, accounting, etc.), the IT manager, and a member of the management board.
 
-The aim is to determine which applications are necessary for the optimal running of the “company”. We recommend using the following value scale:
+The aim is to determine which applications are necessary for the optimal running of the 'company'. We recommend using the following value scale:
 
 * **Vital application**:
   * The permanent loss of this application and the associated data would force the company to cease trading or would cause very serious difficulties.
   * The temporary loss of this application and the associated data would result in a significant operating loss.
 * **Critical application**:
-  * The permanent loss of this application and the associated data would result in a short or long-term loss of service and part of the workforce would have to be laid off.
+  * The permanent loss of this application and the associated data would result in a short- or long-term loss of service and part of the workforce would have to be laid off.
   * The temporary loss of this application and the associated data would result in a minor operating loss.
 * **Standard application**:
   * The permanent loss of this application and the associated data would have a negligible impact on the company’s activity.
@@ -106,21 +106,21 @@ The aim is to determine which applications are necessary for the optimal running
 
 Once each application has been classified, the IT manager must attribute the same classification level to each IT resource. In the case of shared resources, the most critical classification will always take priority.
 
-Thanks to this classification, the IT manager is able to prepare the disaster recovery plan in accordance with the business priorities.
+Thanks to this classification, the IT manager can prepare the disaster recovery plan following the business priorities.
 
-### 4. Analysis of vital business-related needs / prioritisation / risks
+### 4. Analysis of Vital Business-related Needs / Prioritisation / Risks
 Based on the inventories and asset classifications, the IT manager draws up a document establishing the rules of priority for restarting services.
 
 This document must be approved by a member of the management board.
 
-For its part, the board of directors must appoint an expert to handle any risks to which the “company” is exposed (risk analysis).
+For its part, the board of directors must appoint an expert to handle any risks to which the 'company' is exposed (risk analysis).
 
 The success criteria for stage 4 is exhaustive knowledge of the company’s IT environment and the risks to which it is exposed.
 
-### 5. Establishing RPO/RTO thresholds
+### 5. Establishing RPO/RTO Thresholds
 Once the previous step has been validated, the IT manager, along with the business line managers and a member of the management board, all meet to determine the RPOs and RTOs.
 
-This is an important stage, because they look at the IT system’s ability to resolve a disaster in accordance with the company’s needs and risks.
+This is an important stage because they look at the IT system’s ability to resolve a disaster in accordance with the company’s needs and risks.
 
 **Expected objectives**:
 * The business line managers and the member of the management board must:
@@ -128,10 +128,10 @@ This is an important stage, because they look at the IT system’s ability to re
   * Set the maximum acceptable Return Time on Objective (RTO) assuming a disaster affecting the whole company. At this point, the use of downgraded mode should also be discussed.
   * Set the maximum acceptable Recovery Point Objective (RPO)
 * The IT manager must:
-  * Compare their view to that of the business in order to provide better explanations and find a compromise with regard to disaster recovery capabilities.
+  * Compare their view to that of the business to provide better explanations and find a compromise about disaster recovery capabilities.
   * Negotiate with the management board to obtain the technical and financial resources to meet the business’s requirements.
 
-### 6. Study of technical and financial solutions
+### 6. Study of Technical and Financial Solutions
 Based on the results of the negotiations in stage 5, the IT manager must consider and suggest technical solutions that meet the business’s requirements.
 
 The IT manager’s work must focus on two issues:
@@ -149,36 +149,36 @@ Insofar as investments must be made to develop or maintain the disaster recovery
 Once this stage has been approved, the IT manager implements the technical solutions specific to the disaster recovery plan.
 
 ### 8. Implementation
-Depending on the budget, resources and objectives, the IT manager initiates the implementation of the technical solutions, taking into account the deadlines set by the management board members. A schedule providing the deadlines must have received prior approval from the management board and IT manager.
+Depending on the budget, resources and objectives, the IT manager initiates the implementation of the technical solutions, considering the deadlines set by the management board members. A schedule providing the deadlines must have received prior approval from the management board and IT manager.
 
-### 9. Drafting of the procedures
+### 9. Drafting of the Procedures
 Once all of the technical solutions are up and running, those in charge of their maintenance must write up technical implementation procedures. These must be tested by a third party.
 
 For security reasons, these procedures must not be stored in the same physical environment. They must be safeguarded against any modifications or alterations and protected in such a way that they can only be accessed by those who need to read them.
 
-### 10. Drafting of the DRP and activation conditions
-The IT manager, who is the de facto manager of disaster recovery plan maintenance, must ensure that the technical procedures are protected, available and up to date.
+### 10. Drafting of the DRP and Activation Conditions
+The IT manager, who is the de facto manager of the disaster recovery plan maintenance, must ensure that the technical procedures are protected, available, and up to date.
 
 At the end of the process, they start drafting the disaster recovery plan based on various scenarios and taking care to include, for each situation, the activation conditions and the related technical processes.
 
-In concrete terms, a scenario stages a risk to which the “company” has been exposed and presents the solution to resolve the situation in accordance with the RPOs and RTOs.
+In concrete terms, a scenario stages a risk to which the 'company' has been exposed and presents the solution to resolve the situation under the RPOs and RTOs.
 
-A scenario must be put together “simply”. Here are two examples of a scenario:
+A scenario must be put together 'simply'. Here are two examples of a scenario:
 
-**Scenario 1: Exploitation of a WiFi weakness by a malicious entity**
-=>Risk analysis has previously detected a vulnerability in the WiFi infrastructure that gives access to the internal network. The WPA key has not been changed for 2 years, the “[password]({% link _knowhow/glossary/Password.markdown %})” is weak and it is known by all staff members, including “persons” who no longer work for the company.
+**Scenario 1: Exploitation of a Wi-Fi weakness by a malicious entity**
+=>Risk analysis has previously detected a vulnerability in the Wi-Fi infrastructure that gives access to the internal network. The WPA key has not been changed for two years, the '[password]({% link _knowhow/glossary/Password.markdown %})' is weak and it is known by all staff members, including 'person' who no longer work for the company.
 
 **General theme**: A hacker is hired by competitors to corrupt customer data.
 
 *The attack*:
 
-A hacker, motivated by financial gain, has the IT resources and expert knowledge required to exploit the technical vulnerabilities of the IT network. More specifically, they take advantage of the poorly protected WiFi connection and corrupt the server on which the customers’ financial data is hosted, affecting the integrity of the data. They voluntarily change the customers’ financial information (debits/credits/pending transactions).
+A hacker, motivated by financial gain, has the IT resources and expert knowledge required to exploit the technical vulnerabilities of the IT network. More specifically, they take advantage of the poorly protected Wi-Fi connection and corrupt the server on which the customers’ financial data is hosted, affecting the integrity of the data. They voluntarily change the customers’ financial information (debits/credits/pending transactions).
 
 Key ingredients in this scenario:
 
-* Sources of the [threat]({% link _knowhow/glossary/Threat.markdown %}): A competitor uses an underhand tactic to corrupt their “rival”’s IT systems.
-* Threat: A hacker breaks into the network via a WiFi connection to corrupt data. The hacker has the means and the skills.
-* Vulnerabilities exploited: Poorly protected WiFi (weak and widely-known WPA key).
+* Sources of the [threat]({% link _knowhow/glossary/Threat.markdown %}): A competitor uses an underhand tactic to corrupt their rival’s IT systems.
+* Threat: A hacker breaks into the network via a Wi-Fi connection to corrupt data. The hacker has the means and skills.
+* Vulnerabilities exploited: Poorly protected Wi-Fi (weak and widely-known WPA key).
 * IT system affected: Network + server.
 * End elements affected: Customers’ financial data (Debits and Credits).
 * Hacker’s desired outcome: Cause a loss of integrity.
@@ -196,11 +196,11 @@ Elements to test:
 Countermeasures / technical solutions to be tested:
 
 * Sensitive data and network surveillance system.
-* Is an alert generated in the event of:
-* use of the WiFi outside of normal working hours,
+
+Is an alert generated in the event of:
+* use of the Wi-Fi outside of normal working hours,
 * consultation of customer data outside of normal working hours, etc.
-* ...
-* All means of restoration enabling the recovery of data in accordance with the RPO.
+* All means of restoration enabling the recovery of data by the RPO.
 * ...
 
 **Scenario 2: Major fire in the server room**
@@ -242,5 +242,5 @@ The disaster recovery plan must be tested regularly. Using the document describi
 
 A report must be written at the end of each exercise. This report is sent to the management board and details both the positive and negative points of the disaster recovery test. In conclusion, the IT manager suggests improvements or recommendations if the RPO and RTO cannot be met.
 
-### 12. DRP and procedure updates
+### 12. DRP and Procedure Updates
 The IT manager is responsible for ensuring that the disaster recovery plan and procedures are up to date. In the event of a major change to the IT infrastructure, the twelve key points cycle needs to be restarted.
