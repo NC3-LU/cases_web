@@ -49,7 +49,7 @@ The RPO defines the maximum amount of data that can be lost as a result of a com
 ## Incident Diagram
 The diagram below shows service-level changes according to the incident. It aims to model the concepts of RPO and RTO to show how they differ, but also how they are complementary.
 
-<img src="{% link assets/img/knowhow/glossary/RPO-RTO.png %}" />
+<img src="{% link assets/img/knowhow/glossary/RPO-RTO_en.png %}" />
 
 Depending on the size of the disaster, a recovery plan must be able to take account of many recovery scenarios, ranging from simple actions to complex mechanisms.
 
