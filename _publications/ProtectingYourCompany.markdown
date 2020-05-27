@@ -10,7 +10,6 @@ categories: securing
 toc: true
 ref: protectingyourcompany
 lang: en
-hidden: true
 ---
 ## Prevent Risks
 The best way to secure your company is to set up [a risk management process]({% link _knowhow/bestpractices/RiskManagement.markdown %}). This will identify protective measures tailored to the company’s situation and values, while simultaneously protecting the most important assets. See: '[Why manage risks?]({% link _publications/WhyManageRisks.markdown %})” and '[Why pool risk analysis?]({% link _publications/WhyPoolRisksAnalysis.markdown %})'

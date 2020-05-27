@@ -10,7 +10,6 @@ categories: securing
 toc: true
 ref: sandboxie
 lang: en
-hidden: true
 ---
 ## Why Try Out a Web Browser in a Protected Space?
 There is a well-known maxim repeated in security circles: 'There is an unlimited number of security vulnerabilities for a given security device, system, or program, most of which will never be discovered.' Roger G. Johnston. Indeed, the more applications are analysed, the more experts appear to find vulnerabilities in it. Because of this, it is useful to consider your browser – the main program used to access web content – as an open door to all types of attacks or an access point for a lot of malicious programs. This is where the idea of testing out critical applications in a 'sandbox' came from. This is so they cause no damage to the rest of the system. A simple way of doing this is to use a free program called 'Sandboxie'. This utility can be downloaded from [http://www.sandboxie.com](http://www.sandboxie.com). After thirty days, the free version displays a window advertising the paid version. The utility is not a typical shareware program, but rather a free version, which can be used for private purposes after this period.
