@@ -108,16 +108,16 @@ For a backup service, it is therefore vital to check the upstream speed and calc
 #### The amount of data transferred
 Some cloud providers charge by the amount of data transferred. Check if this model is suitable for your needs.
 
-### The most used services
+## The most used services
 
-#### Backups
+### Backups
 [Backups]({{site.url}}/knowhow/glossary/DataBackups.html) should not be confused with storage. Indeed, Luxembourg recently enacted a law on PSDCs, Digitisation and Archiving Service Providers, service providers in the field of electronic archiving.
 
 Cloud backups are nothing more than the relocation of backed up data to another data centre. It is therefore necessary to check the security of the data during transmission, storage and, finally, destruction in the event of contract termination, deletion by users or bankruptcy of the cloud provider.
 
 A backup can take all night, without disrupting production. Data must be restored as quickly as possible. So, make sure you have sufficient bitrate to download the data in a reasonable amount of time. To keep this time short, be sure to choose a good backup strategy involving local data storage and keeping data in the cloud for disasters like fire.
 
-#### Synchronisation
+### Synchronisation
 The synchronisation of different work tools is a recurring need. Instead of sending documents by unsecured [email]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) or using [removable media]({% link _knowhow/glossary/RemovableDevices.markdown %}), it is best to synchronise the data using a central service accessible to all.
 
 There are many services offering these forms of collaboration for synchronisation. The required bitrate and the amount of data exchanged are generally lower than for [backup]({% link _knowhow/glossary/DataBackups.markdown %}) services.
@@ -126,7 +126,7 @@ Documents are thus always [available]({% link _knowhow/glossary/Availability.mar
 
 [Confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}) needs are, however, very real since this generally involves current data, which could attract the interest of competitors or other [malicious individuals]({% link _knowhow/glossary/Cybercriminals.markdown %}). [Encryption]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance.markdown %}#encryption) during transmission and storage on the cloud server is required. It is preferable for customers only to hold encryption keys to prevent unauthorised access through the cloud.
 
-#### Collaborative platform
+### Collaborative platform
 When several people collaborate on the same documents, it is usually via a file server or a similar server within a company.
 
 If the company does not want to maintain a file server or if several people from different companies, without access to the same file server, need to collaborate, online collaboration platforms can be used.
@@ -144,14 +144,14 @@ These collaboration platforms also offer other benefits such as calendars, mailb
 
 Often it is not possible to check data access logs.
 
-#### Other services
+### Other services
 These include online services such as hosting of web sites or mailboxes, but it is also possible to go as far as virtualising the entire work environment. Some providers of virtual desktops can be accessed through a common browser.
 
 The cloud offers tremendous opportunities and transforms IT into a service that can be rented according to need, thus making it possible for even small businesses to access technologies hitherto restricted to large businesses.
 
 All these options obviously have a price and it is essential to evaluate the value of your data properly to ensure that the appropriate security measures are put in place.
 
-#### Summary
+### Summary
 
 |Service | Authentication| Encryption| Availability | Bitrate |
 |----|----|----|----|----|

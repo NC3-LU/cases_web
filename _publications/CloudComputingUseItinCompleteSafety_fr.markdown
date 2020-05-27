@@ -106,16 +106,16 @@ Il est ainsi important de vérifier pour un service de sauvegarde le débit du f
 #### Le volume de données transférées
 Certains fournisseurs de cloud facturent le volume de données transférées. Vérifiez si ce modèle convient à votre besoin.
 
-### Les services les plus demandés
+## Les services les plus demandés
 
-#### La sauvegarde
+### La sauvegarde
 [Backups]({% link _knowhow/glossary/DataBackups_fr.markdown %}) ne doit pas être confondu avec la conservation. En effet, au Luxembourg il existe depuis peu une loi sur les PSDC, les prestataires de service de dématérialisation et de conservation, les prestataires de services dans le domaine de l’archivage électronique.
 
 La sauvegarde dans le cloud n’est rien d’autre que la délocalisation des données de sauvegarde dans un autre centre de calcul. Il faut donc nécessairement vérifier la sécurité des données lors de leur transmission, stockage et finalement destruction en cas de cessation des contrats, effacement par les utilisateurs ou faillite du cloud provider.
 
 La sauvegarde peut durer toute la nuit, sans gêner la production. La restauration des données doit, elle, se faire aussi rapidement que possible. Veillez donc à disposer d’un débit suffisant pour pouvoir télécharger les données dans un délai raisonnable. Pour garder ce délai court, veillez à choisir une bonne stratégie de sauvegarde qui consiste à stocker localement les données et de garder les données dans le cloud pour les sinistres comme les incendies.
 
-#### Synchronisation
+### Synchronisation
 La synchronisation de différents outils de travail est un besoin récurrent. Au lieu d’envoyer des documents par [courrier électronique]({% link _knowhow/bestpractices/EMail-BestPractices_fr.markdown %}) non sécurisé, ou de manipuler des [supports amovibles]({% link _knowhow/glossary/RemovableDevices_fr.markdown %}), il est préférable de synchroniser ces données via un service central accessible par tous.
 
 Beaucoup de services existent qui offrent ces formes de collaboration respectivement de synchronisation. Le débit nécessaire ainsi que le volume de données échangés sont généralement plus réduits que pour les services de [sauvegarde]({% link _knowhow/glossary/DataBackups_fr.markdown %}).
@@ -124,7 +124,7 @@ Les documents sont ainsi toujours [disponibles]({% link _knowhow/glossary/Availa
 
 Les besoins de [confidentialité]({% link _knowhow/glossary/Confidentiality.markdown %}) sont par contre bien réels puisqu’il s’agit généralement de données actuelles, qui pourraient susciter l’intérêt de concurrents ou autres [personnes malintentionnées]({% link _knowhow/glossary/Cybercriminals_fr.markdown %}). Un [chiffrement]({% link _knowhow/cisoapproach/SecurityPolicy-SystemDevelopmentAndMaintenance_fr.markdown %}#encryption) lors de leur transmission et lors du stockage sur le serveur cloud s’imposent. Il est préférable que les clients soient les seuls à détenir les clés de chiffrement pour prévenir tout accès illicite via le cloud.
 
-#### Plate-forme collaborative
+### Plate-forme collaborative
 La collaboration de plusieurs personnes sur les mêmes documents se fait généralement via un serveur de fichier ou un serveur similaire au sein d’une entreprise.
 
 Si l’entreprise ne veut pas entretenir un serveur de fichiers, ou si plusieurs personnes de différentes entreprises doivent collaborer, sans avoir accès à un même serveur de fichier, il est possible d’utiliser des plateformes de collaboration en ligne.
@@ -142,14 +142,14 @@ Ces plateformes de collaboration offrent aussi d’autres avantages comme des ca
 
 Souvent il n’est pas possible de vérifier des logs d’accès aux données.
 
-#### Autres services
+### Autres services
 On pense évidemment aux services en ligne comme l’hébergement des sites web ou des boîtes de messageries, mais il est même possible d’aller jusqu’à la virtualisation de l’environnement de travail complet. Il existe en effet des fournisseurs de bureaux virtuels auxquels on accède au travers d’un navigateur commun.
 
 La cloud offre des possibilités énormes et transforme l’outil informatique en service que l’on peut louer au besoin, donnant ainsi la possibilité même aux petites entreprises d’avoir accès à des technologies réservées jusqu’ici uniquement aux grandes entreprises.
 
 Toutes ces possibilités ont naturellement un prix et il est primordial de bien évaluer la valeur de ses données pour pouvoir mettre en place les mesures de sécurité adéquates.
 
-#### Résumé
+### Résumé
 
 | Service | Authentification| Chiffrement | Disponibilité | Débit |
 |----|----|----|----|----|
