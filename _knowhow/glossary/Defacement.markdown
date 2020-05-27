@@ -34,8 +34,6 @@ Companies are becoming more and more dependent on information networks. A simple
 
 Moreover, as the general public is fascinated by all types of computer attacks, the media gives them wide coverage. In fact, defacement results in a sharp decline in the victim's brand image.
 
-> Example PICTURE
-
 In 1999, after the bombing of the Chinese embassy in Belgrade, Chinese attackers posted messages such as 'we will not stop attacking until the war stops' on US government websites.
 
 In April 2001, after the mid-air collision between a US spy plane and a Chinese fighter over China and the detention of the American crew in China, groups of hackers on both sides waged an intense war. More than 1,200 American websites – and probably as many sites in China – were defaced.
