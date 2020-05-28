@@ -10,47 +10,43 @@ categories: securing
 toc: true
 ref: whymanagerisks
 lang: fr
-hidden: true
 ---
-<!-- <div style="border: 1px solid #000000; padding: 10px;"> -->
+[Impact]({% link _knowhow/glossary/Impact.markdown %}) : conséquence négative qui survient lorsqu’une [menace]({% link _knowhow/glossary/Threat.markdown %}) exploite une [vulnérabilité]({% link _knowhow/glossary/Vulnerabilities.markdown %})d’un **actif**.
 
-[Impact]({% link _knowhow/glossary/Impact.markdown %}): negative consequence arising from a [threat]({% link _knowhow/glossary/Threat.markdown %}) exploiting a [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) of an asset.<br /><br />
-[Asset]({% link _knowhow/glossary/Assets.markdown %}): any element representing value for an organisation/company
+[**Asset**]({% link _knowhow/glossary/Assets.markdown %}) : tout élément représentant de la valeur pour l’organisation / l’entreprise.
 
-<!-- </div> -->
+De façon générale, la sécurité vise à réduire le nombre ainsi que l’envergure des impacts :
 
-Generally speaking, security aims to reduce both the number and the scope of these impacts:
+* financiers
+* juridiques
+* sur la réputation
+* sur le temps (perdu)
+* sur le savoir-faire
+* sur la santé
 
-* financial
-* legal
-* on reputation
-* on time (lost)
-* on expertise
-* on health
+La plupart des impacts, à l’exception des impacts financiers, ne peuvent être couverts par aucune assurance. Il faut donc nécessairement les empêcher de survenir, respectivement **atténuer leurs conséquences** en réduisant les vulnérabilités des différents actifs. Cette réduction des vulnérabilités reste souvent difficile et peut engendrer des coûts substantiels, surtout si l’on doit créer des redondances. Par contre, il est impossible d’agir sur les menaces car elles ne sont pas sous le contrôle de l’organisme.
 
-Most impacts, except for financial impacts, cannot be covered by any form of insurance. They therefore need to be prevented from arising in the first place, respectively **mitigating their consequences** by reducing the vulnerabilities of the various assets. This reduction of vulnerabilities is often difficult to achieve and may incur substantial costs, especially if you have to create redundancies. However, it is not possible to act on threats, as they are beyond the control of the organisation.
+Puisqu’il ne sera **pas possible**, en tout cas pas tout de suite possible, **d’adresser toutes les vulnérabilités**, il est préférable d’adresser les vulnérabilités dont l’exploitation peut mener vers des impacts importants ou même critiques. Une notion de **priorité** et de «road map» doit être introduite.
 
-As it is **not possible**, or at least not immediately possible, **to address all vulnerabilities**, it is preferable to address vulnerabilities whose exploitation could lead to significant or even critical impacts. We need to introduce the concept of **priorities** and a “road map”.
+La norme ISO/IEC 27005 ([gestion des risques]({% link _publications/WhyManageRisks.markdown %})) propose une approche méthodologique visant à identifier les risques existants, à les estimer, à les évaluer et finalement à proposer des traitements. La norme propose quatre types de traitement :
 
-Standard ISO/IEC 27005 ([risk management]({% link _publications/WhyManageRisks.markdown %})) puts forward a methodological strategy aimed at identifying existing risks, quantifying them, assessing them and ultimately proposing a way to deal with them. The standard proposes four types of treatment:
+* la **réduction**, en implémentant des mesures identifiées dans l’ISO/IEC 27002,
+* le **transfert** du risque vers un spécialiste (sous-traitance),
+* l’**acceptation** du risque
+* le **refus** qui bien sûr engendre l’arrêt de l’activité en question.
 
-* **reduction**, by implementing the measures identified in ISO/IEC 27002,
-* **transferring** the risk to a specialist (sub-contracting),
-* **accepting** the risk
-* **rejection** which obviously involves stopping the activity in question.
+Avec cette méthode il est possible d’identifier les différents risques auxquels une organisation est confrontée. Pour chaque processus métier et information, les actifs de support nécessaires à leur traitement sont analysés d’un point de vue menaces, vulnérabilités et impacts. **Pour chaque actif** on énumère donc les différentes menaces et vulnérabilités existantes. On retient les couples menaces-vulnérabilités réalistes aussi appelés «**attack scenarios**» et on calcule le risque en fonction de l’importance de l’actif (importance pour le processus primaire respectivement valeur de l’actif).
 
-Using this method, it is possible to identify the various risks faced by an organisation. For each professional and information process, the support assets necessary for their treatment are analysed from a threat, vulnerabilities and impacts standpoint. **For each asset** the various existing threats and vulnerabilities are listed. Realistic threat-vulnerability pairings, also known as “**attack scenarios**” are retained, and calculate the risk is then calculated based on the importance of the asset (importance for the primary process with respect to the value of the asset).
+L’évaluation du risque est un calcul basé sur :
 
-The risk assessment is a calculation based on:
+* la probabilité de la menace,
+* l’aisance d’exploitation de la vulnérabilité (en tenant compte des mesures de sécurité existantes)
+* l’envergure de l’impact (estimation du risque).
 
-* the probability of the threat,
-* the ease of exploiting the vulnerability (taking into account existing security measures)
-* the scope of the impact (risk estimate).
+Lors de l’évaluation du risque, on trie les différents risques selon leur importance.
 
-When assessing risk, we sort through the various risks based on their significance.
+Finalement on propose **des traitements** pour chaque élément sortant de l’évaluation des risques ayant un **niveau de risque inacceptable**.
 
-Finally, **treatments** for each element are proposed arising from the assessment of risks presenting an **unacceptable level of risk**.
+Cette approche peut sembler ardue, mais elle représente &nbsp;le seul moyen de prioriser les investissements en sécurité. Ceux-ci seront efficaces car adaptés aux scénarios d’attaque les plus «prometteurs».
 
-This strategy may seem arduous, but it is the only way to prioritise investments safely. The effectiveness of these strategies lies in the fact that they are adapted to the most “promising” attack scenarios.
-
-Why invest millions investing in fire protection when the main threat comes from water?
+En effet pourquoi investir des millions dans le combat du feu si la menace principale est l’eau ?
