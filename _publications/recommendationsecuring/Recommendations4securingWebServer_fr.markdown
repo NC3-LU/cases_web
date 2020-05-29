@@ -1,8 +1,8 @@
 ---
 layout: publication-list
 category: "In depth articles"
-title:  "Recommendations for securing a web server"
-menutitle: "Recommendations for securing a web server"
+title:  "Recommandations pour sécuriser un serveur web"
+menutitle: "Recommandations pour sécuriser un serveur web"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Security measures for securing a web server"
@@ -10,19 +10,18 @@ categories: securing
 toc: true
 ref: recommendations4securingwebserver
 lang: fr
-hidden: true
 ---
-## Basic considerations
-A web server is a server that is constantly connected to the Internet. It is therefore advisable to follow the [recommendations to secure servers connected to the Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet.markdown %}).
+## Considérations de base
+Un serveur web est un serveur connecté en permanence à l'Internet. Il est donc conseillé de suivre les [recommandations pour sécuriser les serveurs connectés à l'Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet_fr.markdown %}).
 
-## Security measures
+## Mesures de sécurité
 
-1. Web servers have the specific function of serving web applications on the Internet. The security level for these applications is often little known or not known at all. It is therefore important to prevent, or to limit the scope of, damage if they are compromised:
-  1. ensure your applications have the maximum possible security by carrying out penetration tests beforehand;
-  2. install an application firewall such as Microsoft Forefront, Modsecurity or Naxsi for IIS, Apache and Nginx respectively;
-  3. limit the web server application rights – if possible hold it in a restricted execution area;
-  4. remember to apply your [developers’ best practice]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications.markdown %}).
-2. Some web applications enable downloads of any kind of file onto the server. It is important to test files downloaded in this way using anti-virus software.
-3. If you are using databases on the server itself, consider restricting access to local users.
-4. Think about installing modules protecting against denial of service.
-5. Check your log files regularly for anomalies.
+* Les serveurs web ont la particularité de servir des applications web sur l'Internet. Souvent le niveau de sécurité de ces applications est peu ou pas connue. Il est donc important d'empêcher, voire de limiter l'étendue des dégâts en cas de compromission :
+    - veillez à ce que vos applications aient un degré de sécurité maximal en effectuant des tests de pénétration au préalable ;
+    - installez un parefeu applicatif comme Microsoft Forefront, Modsecurity ou Naxsi pour IIS, Apache et Nginx respectivement ;
+    - limitez les droits de l'application serveur web, si possible contenez la dans un espace d'exécution restreint ;
+    - pensez à faire appliquer des [règles de bonne pratique]({% link _publications/recommendationsecuring/SecurityChecklistForPHPWebApplications_fr.markdown %}) à vos développeurs.
+* Certaines applications web permettent de télécharger sur le serveur des fichiers de n'importe quel type. Il est important de tester les fichiers ainsi téléchargés avec un antivirus.
+* En cas d'utilisation de bases de données sur le serveur même, pensez à restreindre son accès aux utilisateurs locaux.
+* Pensez à l'installation de modules protégeant des dénis de service.
+* Vérifiez vos fichiers journal régulièrement pour découvrir toute anomalie.
