@@ -10,7 +10,6 @@ categories: securing
 toc: true
 ref: recommendations4securingserverconnectedinternet
 lang: en
-hidden: true
 ---
 ## In Brief
 Security measures are behavioural, organisational or technical measures seeking to ensure the [confidentiality]({% link _knowhow/glossary/Confidentiality.markdown %}), [integrity]({% link _knowhow/glossary/Integrity.markdown %}) and [availability]({% link _knowhow/glossary/Availability.markdown %}) of an [asset]({% link _knowhow/glossary/Assets.markdown %}). Security measures seek to reduce the [vulnerabilities]({% link _knowhow/glossary/Vulnerabilities.markdown %}) exploited by [threats]({% link _knowhow/glossary/Threat.markdown %}) and thereby lower the [impacts.]({% link _knowhow/glossary/Impact.markdown %}) They are defined during the risk treatment phase in the [risk management process]({% link _knowhow/bestpractices/RiskManagement.markdown %}).

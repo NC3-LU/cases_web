@@ -10,10 +10,7 @@ categories: securing
 toc: true
 ref: socialengineering
 lang: en
-hidden: true
 ---
-
-
 ## How Criminals Take Advantage of Your Kindness
 It is two in the morning. The telephone rings: it is a member of your company's IT department. He warns you that a computer [virus]({% link _knowhow/glossary/MaliciousCodes.markdown %}) has infected the computers in your office and has destroyed the documents of all employees. He urgently needs your username and [password]({% link _knowhow/glossary/Password.markdown %}) to save your documents to a safe place. You are still half asleep when you look at the screen of your phone: the call is actually coming from your company's number and the caller's name seems familiar. He also mentions an important project you are working on that only a few insiders are aware of. Do you provide your supposed colleague with the information? After all, it seems urgent and you certainly don't want to be responsible for a huge data leak (see: [protect your data)]({% link _publications/ProtectingYourCompany.markdown %}#protecting-data). How would your colleagues react if they received the same call?
 

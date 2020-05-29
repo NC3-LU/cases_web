@@ -10,14 +10,9 @@ categories: securing
 toc: true
 ref: whymanagerisks
 lang: en
-hidden: true
 ---
-<!-- <div style="border: 1px solid #000000; padding: 10px;"> -->
-
 [Impact]({% link _knowhow/glossary/Impact.markdown %}): negative consequence arising from a [threat]({% link _knowhow/glossary/Threat.markdown %}) exploiting a [vulnerability]({% link _knowhow/glossary/Vulnerabilities.markdown %}) of an asset.<br /><br />
 [Asset]({% link _knowhow/glossary/Assets.markdown %}): any element representing value for an organisation/company.
-
-<!-- </div> -->
 
 Generally speaking, security aims to reduce both the number and the scope of these impacts:
 

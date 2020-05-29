@@ -10,7 +10,6 @@ categories: iso
 toc: true
 ref: iso27001-isms
 lang: fr
-hidden: true
 ---
 ## En quelques mots
 La norme ISO 27001 encourage l’adoption d’une approche processus pour la mise en œuvre, le fonctionnement, la surveillance et le réexamen, la mise à jour et l’amélioration du système de management de la sécurité de l’information d'une entreprise. L'annexe A de la norme est l'[ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %}).

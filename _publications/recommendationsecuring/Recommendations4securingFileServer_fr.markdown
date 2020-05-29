@@ -11,7 +11,6 @@ toc: true
 ref: recommendations4securingfileserver
 lang: fr
 ---
-
 ## En quelques mots
 Un serveur de fichiers est un serveur spécial dans le sens que celui-ci n'est que rarement connecté à l'Internet mais est en général directement ou au travers d'un firewall connecté au réseau interne. Il sert de lieu de stockage commun à tous les fichiers de l'entreprise et fait de ce fait office de lien entre tous les ordinateurs, facilitant la communication en interne mais aussi la propagation de [logiciels malveillants]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 Malgré le fait que ce serveur ne soit pas connecté à l'Internet en général il est important de suivre les mêmes recommandations que pour un [serveur connecté à l'Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet.markdown %}).

@@ -10,7 +10,6 @@ categories: iso
 toc: true
 ref: iso27002-codebestpractices4ism
 lang: fr
-hidden: true
 ---
 ## En quelques mots
 La norme ISO/IEC 27001 décrit une approche processus pour la mise en place d’un SMSI  (système de management de la sécurité du système d'information). Mais si elle fixe l’objectif à atteindre, elle ne précise pas comment, concrètement, il convient de le réaliser. La norme ISO 27002 présente une série de préconisations concrètes, abordant des aspects tant techniques qu’organisationnels.

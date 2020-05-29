@@ -10,7 +10,6 @@ categories: iso
 toc: true
 ref: iso27001-isms
 lang: en
-hidden: true
 ---
 ## In Brief
 The ISO 27001 standard encourages the adoption of a process approach to the implementation, operation, monitoring, re-examination, updating and improvement of a company’s information security management system. Annex A of the standard is [ISO/IEC 27002]({% link _publications/ISO27000SF/ISO27002-CodeBestPractices4ISM.markdown %}).

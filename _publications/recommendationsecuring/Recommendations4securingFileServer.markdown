@@ -11,7 +11,6 @@ toc: true
 ref: recommendations4securingfileserver
 lang: en
 ---
-
 ## In brief
 A file server is a special server in the sense that it is only rarely connected to the Internet; instead, it is generally directly or through a firewall connected to the internal network. It serves as a common storage location for all of the company's files and acts as a link between all computers, facilitating internal communication, but also the spread of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 Although this server is not connected to the Internet in general, it is important to follow the same recommendations as described in the document [server connected to the Internet]({% link _publications/recommendationsecuring/Recommendations4securingServerConnectedInternet.markdown %}).
