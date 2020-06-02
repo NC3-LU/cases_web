@@ -1,8 +1,8 @@
 ---
 layout: publication-list
 category: "In depth articles"
-title:  "Securing laptops"
-menutitle: "Securing laptops"
+title:  "Sécuriser les laptops"
+menutitle: "Sécuriser les laptops"
 logo:
 date:  2017-11-06 00:00:00 +0100
 short: "Recommendations"
@@ -10,24 +10,23 @@ categories: securing
 toc: true
 ref: securinglaptops
 lang: fr
-hidden: true
 ---
-## In brief
-Laptops are special computers in that they can not only be transported outside the company, but they can also connect to other networks, some of which may have little protection, such as hotel networks.
+## En quelques mots
+Les laptops sont des ordinateurs spéciaux dans le sens qu'ils peuvent non-seulement être transportés hors de l'entreprise mais aussi se brancher sur d'autres réseaux, parfois peu protégés comme des réseaux dans les hôtels.
 
-Given that they can be transported outside the security perimeter of the company, they are subject to the risk of loss, [theft]({% link _knowhow/glossary/PhysicalTheft.markdown %}) or [accidental destruction]({% link _knowhow/glossary/PhysicalFaults.markdown %}).
+Vu qu'ils peuvent en plus être transportés hors du périmètre de sécurité de l'entreprise ils sont soumis à des risques de perte, [vol]({% link _knowhow/glossary/PhysicalTheft_fr.markdown %}) ou [destruction]({% link _knowhow/glossary/PhysicalFaults_fr.markdown %}).
 
-Generally speaking, laptops should considered as computers outside the company.
+En général il faudrait considérer les laptops comme des ordnateurs externes à l'entreprise.
 
-The recommendations given below are provided solely for portable computers. It is strongly advised that the general recommendations for [fixed workstations]({% link _publications/recommendationsecuring/SecuringLaptops.markdown %}) are also followed.
+Les recommandations ci-dessous sont des recommandations prévues uniquement pour les ordinateurs portables, il est fortement conseillé de suivre aussi les recommandations générales pour [postes fixes]({% link _publications/recommendationsecuring/SecuringLaptops_fr.markdown %}) are also followed.
 
 ## Recommendations
 
-1. It is strongly recommended to encrypt the hard disk of a portable computer which holds sensitive information to prevent any leak of information in the event of theft or loss. In this context, it is recommended to use a strong authentication method (very long password, USB holding an encryption key, etc.) for disk decryption.
-2. It is strongly recommended to only have data **that is absolutely necessary** for the assignment for which it is intended on the portable computer. This data must necessarily be encrypted to prevent any loss of confidentiality in the event of theft (e.g.: with truecrypt encryption).
-3. It is strongly recommended to fit an **anti-theft cable** to the computer. This cable should be used whenever the portable computer is used outside the organisation.
-4. It is strongly recommended to **customise the look** of your portable computer so that it can be quickly identified in the event that it is taken by deception. Draft and enforce a Sectoral policy on Physical and environmental security within your organisation – [Off-site equipment security]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity.markdown %}#off-site-equipment-security).
-5. It is strongly recommended NOT to use unencrypted **WiFi networks**. Any traffic can be recorded and analysed over such networks. Draft and enforce a Sectoral policy on access control within your organisation – [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks).
-6. It is strongly advised NOT to connect portable computers directly to the internal company network. Set up a [dedicated sub-network]({% link _knowhow/glossary/NetworkSegmentation.markdown %}) that will filter out potential attacks from infected laptops.
-7. It is strongly recommended not to use **encrypted WiFi networks or encrypted fixed networks** that cannot be absolutely trusted. In such cases, it would be preferable to use mobile telecommunications connections, such as Mobile Hot Spot (tethering). Draft and enforce a Sectoral policy on access control within your organisation – [Use of external networks]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl.markdown %}#use-of-external-networks).
-8. It is strongly recommended to use a **confidentiality filter** if the portable computer is used for work in public locations such as bus and train stations, airports and planes. This is a plastic film placed in front of the screen preventing the screen from being read from a wide angle.
+1. Il est fortement recommandé de chiffrer le disque dur de l'ordinateur portable contenant des informations sensibles pour empêcher la fuite d'informations en cas de vol ou de perte. Dans ce contexte il est recommandé d'utiliser une méthode d'authentification forte (mot de passe très long, stick contenant la clé de chiffrement,...) pour le déchiffrement du disque.
+2. Il est fortement recommandé de ne mettre sur l’ordinateur portable **que les données absolument nécessaires** à réaliser la mission à laquelle il doit servir. Ces données doivent nécessairement être chiffrées pour prévenir la perte de confidentialité en cas de vol (p.ex. avec un chiffrement à l’aide de truecrypt).
+3. Il est fortement recommandé de doter l’ordinateur d’un **câble antivol** . Ce câble doit être utilisé dès que l’ordinateur portable est utilisé à l’extérieur de l’organisme.
+4. Il est fortement recommandé de **personnaliser l'aspect** de votre ordinateur portable pour pouvoir l'identifier rapidement en cas d'un échange malicieux. Rédigez et faites respecter au sein de votre organisme une politique sectorielle pour la Sécurité physique et environnementale - [Sécurité des équipements hors locaux]({% link _knowhow/cisoapproach/SecurityPolicy-PhysicalAndEnvironmentalSecurity_fr.markdown %}#off-site-equipment-security).
+5. Il est fortement déconseillé d’utiliser des **réseaux WiFi**non chiffrés. Sur ces réseaux, tout traffic peut être enregistré et analysé. Rédigez et faites respecter au sein de votre organisme une politique sectorielle sur le Contrôle d'accès - [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks).
+6. Il est fortement déconseillé de connecter les ordinateurs portables directement au réseau interne de l'entreprise. Mettez en place un sous [réseau dédié]({% link _knowhow/glossary/NetworkSegmentation_fr.markdown %}) qui filtrera des attaques potentielles venues de laptops infectés.
+7. Il est fortement déconseillé d’utiliser des **réseaux WiFi chiffrés respectivement des réseaux fixes** dans lesquels on n’a pas une confiance absolue. Mieux vaut utiliser dans ces cas-là son téléphone portable comme Mobile Hot Spot (tethering). Rédigez et faites respecter au sein de votre organisme une politique sectorielle sur le Contrôle d'accès - [Utilisation de réseaux externes]({% link _knowhow/cisoapproach/SecurityPolicy-AccessControl_fr.markdown %}#use-of-external-networks).
+8. Il est fortement conseillé d’utiliser un **filtre de confidentialité** si l’ordinateur portable est utilisé pour travailler dans des lieux publics comme notamment les gares, trains ou aéroports et avions. Il s'agit d'un film plastique à mettre devant l'écran et qui empêche la lecture sur l'écran depuis un angle trop grand.
