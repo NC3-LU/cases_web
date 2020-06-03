@@ -10,15 +10,15 @@ toc: true
 ref: glossarypassword
 lang: en
 ---
-## In brief
+## In Brief
 The password, a basic element of IT security, [authenticates]({% link _knowhow/glossary/Authentication.markdown %}) and grants access to a resource or staff service.
 
 In order to reduce the risk of identity fraud, you should choose your password very carefully and stick to some simple rules.
 
-## At least 10 characters
+## At Least 10 Characters
 A good password contains at least 10 characters. To make the password more complex, it is advisable to use a combination of numbers, capital and lower-case letters, as well as punctuation marks, for example.
 
-## Easy to remember, difficult to guess
+## Easy to Remember, Difficult to Guess
 The chosen password must be memorable without having to be written down, while at the same time being difficult to guess by others, including someone who knows you well (see [Social Engineering]({% link _knowhow/glossary/SocialEngineering.markdown %})).
 
 **Under no circumstances** should you use:
@@ -32,23 +32,23 @@ A weak password is often made up of a simple phrase. You can add prefixes, suffi
 
 If your password needs to be a specific length, create it using the first letters of each word in a sentence. This means that in the example given above, a 9-character password would be:  ```.:tcotr:.```
 
-## Dedicated passwords
+## Dedicated Passwords
 Each password must only be used for a specific access. Use separate passwords for different logins or, in the event of theft (by [phishing]({% link _knowhow/glossary/Phishing.markdown %}) or shoulder surfing), the cybercriminal will have access to several online services.
 
-The more regularly you use your passwords, the easier it will be to remember them. So we recommend you don’t let your browser remember them for you. For infrequently used services, you can always save your passwords in encrypted files created with a program such as *[keepass](https://keepass.info)*, for example.
+The more regularly you use your passwords, the easier it will be to remember them. We recommend not to let your browser remember them for you. For infrequently used services, you can always save your passwords in encrypted files created with a program such as *[keepass](https://keepass.info)*, for example.
 
-## Change passwords regularly
-Changing your passwords regularly is good practice. It’s up to you how often you change them. We think it’s a good idea to allocate one day each year or every two years to changing all your passwords.
+## Change Passwords Regularly
+Changing your passwords regularly is good practice. It is up to you how often you change them. It is a good idea to allocate one day each year or every two years to change all your passwords.
 
-Of course, you should also change them immediately if you think they’ve been compromised or someone else has guessed them.
+Of course, you should also change them immediately if you think they have been compromised or someone else has guessed them.
 
-## Personal use
+## Personal Use
 Password access is attributed to a single user. A password should not be shared by several people and you should never disclose it to anyone, regardless of the circumstances.
 
-Don’t forget that trustworthy organisations will never ask you for your password.
+Do not forget that trustworthy organisations will never ask you for your password.
 
-## Exchanging passwords
-Passwords are used to [authenticate]({% link _knowhow/glossary/Authentication.markdown %}) an individual and grant them access to specific resources. For this reason, it is inadvisable to exchange passwords with colleagues. If, for organisational reasons (special software installed on a single device), it is necessary to give the password to a specific person during a prolonged absence (holidays, illness), we recommend you proceed in the following way:
+## Exchanging Passwords
+Passwords are used to [authenticate]({% link _knowhow/glossary/Authentication.markdown %}) an individual and grant them access to specific resources. For this reason, it is inadvisable to exchange passwords with colleagues. If for organisational reasons (special software installed on a single device), it is necessary to give the password to a specific person during a prolonged absence (holidays, illness), we recommend you proceed in the following way:
 
 1. the password is written on a piece of paper, sealed in a signed envelope and given to the manager.
 2. if an authorised person needs access to the password, the opening of the envelope containing it is documented on paper, noting the name of the person who reads the password, along with the date and time.
@@ -56,53 +56,53 @@ Passwords are used to [authenticate]({% link _knowhow/glossary/Authentication.ma
 
 In this way, the person whose password has been revealed cannot be held responsible for any actions carried out in their absence. Additionally, it is always clear who has access to what resources.
 
-## Frequent vulnerabilities
-Authentication is required for all *user* and *administrator* access to servers and software. It is important not to forget about access to the network elements comprising the IT system, such as routers, switches, etc.
+## Frequent Vulnerabilities
+Authentication is required for all *user* and *administrator* accesses to servers and software. It is important not to forget about access to the network elements comprising the IT system, such as routers, switches, etc.
 
-The *user name and password* solution is the most widely used. This common solution bases authentication on a combination of user name provided by the administrator and a password that the end user will create. It is important to note that this solution has various recurrent vulnerabilities:
+The *user name and password* solution is the most widely used. This common solution bases authentication on a combination of user names provided by the administrator and a password that the end-user will create. It is important to note that this solution has various recurrent vulnerabilities:
 
 ### Accounts with weak or non-existent passwords
-When creating a password, some quality criteria should be respected in order to prevent specialised software from being able to guess it in a short amount of time.
+When creating a password, some quality criteria should be respected to prevent specialised software from being able to guess it in a short amount of time.
 
 ### Accounts installed by default when setting up software
-During the installation of software such as operating systems, accounts are created by default. These accounts use a password known to all experts. These accounts are obviously the first to be targeted by ill-intentioned people. It is therefore necessary to protect this account with a reliable password.
+During the installation of software such as operating systems, accounts are created by default. These accounts use a password known to all experts. These accounts are the first to be targeted by ill-intentioned people. It is, therefore, necessary to protect this account with a reliable password.
 
 ### Passwords that are no longer private
 A password is a confidential element used to identify the user of an account. It falls under the same logic as a PIN code used to withdraw money from ATMs. Unfortunately, it is all too common to see passwords displayed on screens or known by multiple people.
 
 ### Software creating users for internal use
-Some software creates accounts used internally to converse with other parts of the IT system. These login details and their password, often weak or even non-existent, are documented and obviously known to all the experts.
+Some software creates accounts used internally to converse with other parts of the IT system. These login details and their password, often weak or even non-existent, are documented and known to all the experts.
 
-### Unreliable or non-existent password hashing formulae
-Passwords must be saved in the form of the result of an irreversible function, such as the hash function. It is equally important to ensure that a strong hash system is used, in addition to other measures, such as the addition of a salt and stretching
+### Unreliable or non-existent password hashing formulas
+Passwords must be saved in the form of the result of an irreversible function, such as the hash function. It is equally important to ensure that a strong hash system is used, in addition to other measures, such as the addition of salt and stretching.
 
 ### Memorising computer passwords
-Some software, such as the browser, that uses passwords offers users the option of saving their password so they no longer have to enter it every time. Despite the practicalities of this, it is inadvisable for obvious reasons.
+Some software, such as the browser, offers users the option of saving their passwords, so they no longer have to enter it every time. Despite the practicalities of this, it is inadvisable for obvious reasons.
 
 ### System vulnerabilities
-Vulnerabilities in software may allow newcomers to access the system without a password. It is therefore important to keep all software updated and to carry out penetration tests on software developed within the organisation.
+Vulnerabilities in software may allow newcomers to access the system without a password. It is important to keep all software updated and carry out penetration tests on software developed within the organisation.
 
 ### No monitoring or locking in the event of erroneous access attempts
-The occurrence of multiple incorrect password entries for the same account should clearly sound very strong alarm bells for an administration manager.
+The occurrence of multiple incorrect password entries for the same account should sound very strong alarm bells for an administration manager.
 
 While most IT systems allow you to lock an account after a certain number of erroneous attempts, this feature is not often used, which opens the door to the password cracking software described in this document.
 
-## Password cracking
+## Password Cracking
 Authentication mechanisms have long been included in the list of most commonly exploited vulnerabilities.
 
 To perpetrate this type of attack, offenders use specialised decryption software, which relies on two separate technologies:
 
-### “Brute force” or exhaustive password cracking
-In this case, the decryption software is going to try all the different combinations of both hybrid characters and alphanumeric characters. This method is effective, but takes an enormous amount of time to decipher complex chains of characters.
+### 'Brute force' or exhaustive password cracking
+In this case, the decryption software is going to try all the different combinations of both hybrid characters and alphanumeric characters. This method is effective but takes an enormous amount of time to decipher complex chains of characters.
 
 Some of the cracking tools are specially designed for a specific software program, such as Microsoft Word, or others.
 
 It should be noted that even under the best circumstances, this technique cannot be used on passwords of around more than 10 characters.
 
-### Dictionary word attack
-In this case, the decryption software will try all terms from a specific list, also known as a “dictionary”. Often, the software used to carry out this type of attack will also submit transformations to words from this list, e.g. replacing an “e” by a “3”, or adding numbers to the end. This method is much faster than the exhaustive method, but can only discover common passwords.
+### Dictionary Word Attack
+In this case, the decryption software will try all terms from a specific list, also known as a 'dictionary'. Often, the software used to carry out this type of attack will also submit transformations to words from this list, e.g. replacing an 'e' by a '3', or adding numbers to the end. This method is much faster than the exhaustive method, but can only discover common passwords.
 
-## Additional advice
+## Additional Advice
 The advice given below applies to the use of authentication by account/password. These rules will need to be configured by you in the administration software, in such a way as to make them automatically applicable to all accounts created.
 
 ### Control the IT architecture
@@ -111,9 +111,9 @@ It is very important to regularly analyse the logs in order to detect any potent
 Likewise, it is crucial to keep the list of users, their profiles and their IT system rights updated, taking into account the [classification of data]({% link _knowhow/cisoapproach/SecurityPolicy-Classification.markdown %}).
 
 ### Limit accounts
-“Administrator” accounts, which have a lot of permissions, are the [attackers]({% link _knowhow/glossary/Cybercriminals.markdown %})’ preferred target. It is inadvisable to share this account between the whole IT team, but rather to create profiles corresponding to the exact needs of each of the team members.
+'Administrator' accounts, which have a lot of permission, are the [attackers]({% link _knowhow/glossary/Cybercriminals.markdown %})’ preferred target. It is inadvisable to share this account between the whole IT team, but rather to create profiles corresponding to the exact needs of each of the team members.
 
-In the Microsoft Windows platform, it may even be a good idea to limit all the powers of the “administrator” account and to give it a highly complex password. Then all that is needed is to redistribute the tasks to other less visible accounts. By doing so, the potential pirate/cracker will spend their time concentrating on a decoy, since the account won’t allow them to access any information. Unfortunately, this is not possible on the root account on the Unix platform.
+In the Microsoft Windows platform, it may even be a good idea to limit all the powers of the 'administrator' account and to give it a highly complex password. Then all that is needed is to redistribute the tasks to other less visible accounts. By doing so, the potential pirate/cracker will spend their time concentrating on a decoy, since the account will not allow them to access any information. Unfortunately, this is not possible on the root account on the Unix platform.
 
 ### Alternatives
 [More robust authentication solutions]({% link _knowhow/glossary/Authentication.markdown %}#multi-factor-authentication), such as those offered by LuxTrust (based on key public infrastructures) or biometrics are available. The advantage of these solutions is that they do away with the problem of password disclosures or the transmission of critical data on the network. Unfortunately, they can be costly and complex to set up.
