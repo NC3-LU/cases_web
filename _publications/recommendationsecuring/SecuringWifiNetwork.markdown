@@ -10,7 +10,6 @@ categories: securing
 toc: true
 ref: securingwifinetwork
 lang: en
-hidden: true
 ---
 ## In Brief
 Within an entity, a Wi-Fi network can be implemented to enable:
