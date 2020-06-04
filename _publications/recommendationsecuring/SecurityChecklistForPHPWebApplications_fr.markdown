@@ -10,7 +10,6 @@ categories: securing
 toc: true
 ref: securitychecklistforphpwebapplications
 lang: fr
-hidden: true
 ---
 ## En quelques mots
 Petite check-list contenant les vulnérabilités les plus communes des applications web et les solutions et bonnes pratiques applicables en PHP. Bien qu'axée sur le PHP cette checklist peut être étendue à tous les langages de programmation.
