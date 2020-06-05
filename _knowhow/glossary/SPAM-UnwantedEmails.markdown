@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Spam – unwanted emails"
+title:  "Spam – Unwanted E-mails"
 menutitle:
 logo:
 date:  2017-11-06 00:00:00 +0100
@@ -11,68 +11,68 @@ ref: glossaryspamemails
 lang: en
 ---
 
-## In brief
+## In Brief
 This term first appeared on the Internet in what was known as Usenet, where it was used to mean news articles sent in bulk to different newsgroups. They were often advertising messages that had nothing to do with the newsgroups in question.
 
-This type of advertising was often sent by email. The term spam also ended up encompassing unsolicited bulk emails. Technically, it would be fairer to refer to UBE (Unsolicited Bulk email) or UCE (Unsolicited Commercial email).
+This type of advertising was often sent by E-mail. The term spam also ended up encompassing unsolicited bulk E-mails. Technically, it would be fairer to refer to UBE (Unsolicited Bulk E-mail) or UCE (Unsolicited Commercial E-mail).
 
-There is no official definition of the word “spam”. Originally this word referred to a brand of tinned meat product. It was Monty Python who constantly repeated the word in one of their famous comedy sketches, introducing a concept of unpleasantness to spam.
+There is no official definition of the word 'spam'. Originally this word referred to a brand of tinned meat product. It was Monty Python who constantly repeated the word in one of their famous comedy sketches, introducing a concept of unpleasantness to spam.
 
-Today, the word “spam” is commonly used to mean unsolicited [emails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) sent in bulk to many recipients. People find this type of email annoying.
+Today, the word 'spam' is commonly used to mean unsolicited [E-mails]({% link _knowhow/bestpractices/EMail-BestPractices.markdown %}) sent in bulk to many recipients. People find this type of E-mail annoying.
 
-Such emails cost practically nothing to send. However, they can be very expensive for the recipients, in terms of connection costs and the volume of data transferred. This is a real waste of bandwidth and storage space for network administrators and email servers, and a huge waste of time for the recipients of spam (individuals and companies) in downloading, sorting and deleting spam received, with the added risk of mistakenly deleting an email that is not spam.
+Such E-mails cost practically nothing to send. However, they can be very expensive for the recipients, in terms of connection costs and the volume of data transferred. This is a real waste of bandwidth and storage space for network administrators and E-mail servers, and a huge waste of time for the recipients of spam (individuals and companies) in downloading, sorting and deleting spam received, with the added risk of mistakenly deleting an E-mail that is not spam.
 
-## Who does this spamming?
+## Who Does This Spamming?
 Spamming is carried out by criminals and it is an illegal activity. It amounts to sending out advertising for illegal products, fraud, [phishing]({% link _knowhow/glossary/Phishing.markdown %}) and the distribution of [malware]({% link _knowhow/glossary/MaliciousCodes.markdown %}).
 
-Spam should not be confused with advertising emails which are, contrary to spam, regulated through:
+Spam should not be confused with advertising E-mails which are, contrary to spam, regulated through
 
-* opting in: you agree to receive this type of emails and you sign up to a mailing list or you accept the special conditions on a website;
-* opting out: the sender must provide a way to unsubscribe from the email service.
+* opting in: you agree to receive this type of E-mails and you sign up to a mailing list or you accept the special conditions on a website;
+* opting out: the sender must provide a way to unsubscribe from the E-mail service.
 
-## How can I be a victim of spam?
-The only thing you need to become a potential victim of spam is your email address.
+## How Can I Be a Victim of Spam?
+The only thing you need to become a potential victim of spam is your E-mail address.
 
-#### Methods of collecting email addresses
-Spammers have numerous ways to collect your email address on the Internet (in forums, on websites, in discussion groups, etc.), using software (known as “robots”) crawling different pages and storing any email addresses they find as they go along.
+#### Methods of Collecting E-mail Addresses
+Spammers have numerous ways to collect your E-mail address on the Internet (in forums, on websites, in discussion groups, etc.), using software (known as 'robots') crawling different pages and storing any E-mail addresses they find as they go along.
 
-Bill Gates receives 4 million emails a day, most of which are spam, but only 10 make their way into his inbox. The rest are filtered by anti-spam solutions. (source: BBC News – 18 Nov. 2004)
+Bill Gates receives 4 million E-mails a day, most of which are spam, but only 10 make their way into his inbox. The rest are filtered by anti-spam solutions. (source: BBC News – 18 Nov. 2004)
 
-* Your email address was sold
+* Your E-mail address was sold
 
-By selling on subscriber lists to a third party, which itself sells it on again, etc, your Internet service provider enables the distribution of multiple copies of your address over the Internet. Please note: it is legal for it to do so if you agreed for your email address to be distributed.
+By selling on subscriber lists to a third party, which itself sells it on again, etc, your Internet service provider enables the distribution of multiple copies of your address over the Internet. Please note: it is legal for it to do so if you agreed for your E-mail address to be distributed.
 
 * You published it on the Internet
 
-Do you display your email address on your personal website? Did you enter your address on web discussion forums or in newsgroups? Be aware that software can be used to automatically harvest published email addresses. In all these cases, your email address is likely to be targeted.
+Do you display your E-mail address on your personal website? Did you enter your address on web discussion forums or in newsgroups? Be aware that software can be used to automatically harvest published E-mail addresses. In all these cases, your E-mail address is likely to be targeted.
 
-* You communicated your email address on a website
+* You communicated your E-mail address on a website
 
-By placing an order on an electronic commerce website, by subscribing to services over a website; if the web service used is not secure, it risks having its entire database stolen – not just email addresses, but potentially also VISA card numbers.
+By placing an order on an electronic commerce website, by subscribing to services over a website; if the web service used is not secure, it risks having its entire database stolen – not just E-mail addresses, but potentially also VISA card numbers.
 
 * Your address was generated by chance
 
-If you make a list of the commonest surnames and first names and another list of ISPs, using all possible combinations (firstname.surname, surname.firstname, firstname, etc..), you can generate hundreds of thousands of email addresses with a strong chance that they exist! And this is what some spammers do.
+If you make a list of the commonest surnames and first names and another list of ISPs, using all possible combinations (firstname.surname, surname.firstname, firstname, etc.), you can generate hundreds of thousands of E-mail addresses with a strong chance that they exist! And this is what some spammers do.
 
-#### Example of spam
+#### Example of Spam
 
 <img class="txtcenter img-border" src="{{ "/assets/img/spam.gif" | relative_url }}" alt="{{ site.title | escape }}" />
 
-## How can we protect ourselves?
+## How Can We Protect Ourselves?
 
-#### First and foremost, do not reply to a spam email.
-Spammers generally use false sending email addresses. It is therefore completely pointless to respond. Also, if the sender address is correct, all you will be doing is confirming the validity of your email address and you will only end up receiving more spam.
+#### First and foremost, do not reply to a spam E-mail.
+Spammers generally use false sending E-mail addresses. It is therefore completely pointless to respond. Also, if the sender address is correct, all you will be doing is confirming the validity of your E-mail address and you will only end up receiving more spam.
 
 #### The best solution remains prevention.
 
-* Never publicly use the email address given to you by your ISP or your company. Keep it for a limited circle of friends or colleagues that you can trust.
-* Check that your email address will not be distributed without your explicit agreement. Some service providers may automatically register you in a web directory.
-* If at all possible, avoid having your email address published on forums or websites.
-* Create one or more “dustbin addresses” that you only use to register on things or identify yourself on websites which are not necessarily to be trusted in terms of privacy.
+* Never publicly use the E-mail address given to you by your ISP or your company. Keep it for a limited circle of friends or colleagues that you can trust.
+* Check that your E-mail address will not be distributed without your explicit agreement. Some service providers may automatically register you in a web directory.
+* If at all possible, avoid having your E-mail address published on forums or websites.
+* Create one or more 'dustbin addresses' that you only use to register on things or identify yourself on websites which are not necessarily to be trusted in terms of privacy.
 * If you have any doubts, enter a false address or mask your address using Spam Safe Notation, for example.
 
-#### Use antispam software
+#### Use Antispam Software
 There are three antispam tools capable of identifying and, where necessary, deleting unwanted messages based on changing rules. We can generally distinguish between two families of antispam software:
 
-* Client side antispam tools, placed on the email client. These are usually systems with filters which identify spam mails based on predefined or learnt rules. (Junk email in Outlook 2003)
-* Server side antispam tools enable email filtering before delivering it to recipients. This type of tool is far superior, as it stops unsolicited mails upstream and avoids networks and mailboxes getting clogged up with spam messages.
+* Client-side antispam tools placed on the E-mail client. These are usually systems with filters which identify spam mails based on predefined or learnt rules. (Junk E-mail in Outlook 2003)
+* Server-side antispam tools enable E-mail filtering before delivering it to recipients. This type of tool is far superior, as it stops unsolicited mails upstream and avoids networks and mailboxes getting clogged up with spam messages.
