@@ -1,11 +1,11 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Be Safe: a practical guide for business trips"
-menutitle:
+title:  "Be Safe: un guide pratique pour vos déplacements professionnel"
+menutitle: "Be Safe: un guide pratique pour vos déplacements professionnel"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "How to deal with your personal data in a trip?"
+short: "Comment gérer vos données personnelles lors d'un déplacement ?"
 categories: f-bestpract
 toc: true
 ref: practicalguideforbusinesstrips
