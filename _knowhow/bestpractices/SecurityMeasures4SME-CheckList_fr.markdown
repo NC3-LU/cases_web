@@ -1,11 +1,11 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Check list of security measures for SMEs"
-menutitle:
+title:  "Check-list des mesures de sécurité pour les PMEs"
+menutitle: "Check-list des mesures de sécurité pour les PMEs"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short:
+short: "Liste des points de sécurité importants pour une PME"
 categories: f-bestpract
 toc: true
 ref: bestpractchecklist
