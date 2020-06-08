@@ -1,11 +1,11 @@
 ---
 layout: knowhow
 category: "Knowhow"
-title:  "Risk management"
-menutitle:
+title:  "Gestion du risque"
+menutitle: "Gestion du risque"
 logo:
 date:  2017-11-06 00:00:00 +0100
-short: "How is a risk analysis conducted? What are the different criteria? Or how are the risks estimated"
+short: "Comment une analyse de risque est réalisé ? Quels sont les différents critères ? Ou comment sont estimés les risques"
 categories: f-bestpract
 toc: true
 ref: riskmanagement
