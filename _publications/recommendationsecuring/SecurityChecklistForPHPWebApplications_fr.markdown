@@ -25,7 +25,7 @@ Conseils:
 * vérifiez l’existence de différentes entrées à l’aide de ```isset```, comme par exemple ```isset ($ _ GET ['id'])``` ;
 * faites aussi attention à certains champs dans ```$_SERVER``` comme ```$_SERVER ['HTTP_REFERER'];```
 * vu que l’on ne peut pas faire confiance aux navigateurs passez  ```$_FILES ['file'] ['name']``` par la fonction ```basename``` lors d’un upload de fichiers ;  (imaginez ```$_FILES ['file'] ['name'] = '../../../etc/passwd'```)
-* cvérifiez le contenu des fichiers uploadés. Les images devraient être vérifiées avec la fonction ```getimagesize()``` qui renvoie *false* quand le fichier n’est pas de ce type. Pensez aussi à l’extension fileinfo ;
+* vérifiez le contenu des fichiers uploadés. Les images devraient être vérifiées avec la fonction ```getimagesize()``` qui renvoie *false* quand le fichier n’est pas de ce type. Pensez aussi à l’extension fileinfo ;
 * ne pas accepter des objets sérialisés en entrée.
 
 En général il est conseillé d’utiliser le concept de liste blanche pour de nombreux cas de validation.
