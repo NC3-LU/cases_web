@@ -62,7 +62,7 @@ The threat related to personal data (GDPR) is a recent phenomenon, and as such, 
 
 CASES (Cybersecurity Awareness and Security Enhancement Services) has multiple services available to the public. The goal is to give every organisation the necessary tools and information to define their risk maturity and improve it.
 
-1.	**[Fit4Cybersecurity]({% link _services/Fit4Cybersecurity.markdown %})**: a self-assessment tool, to help business owners implement a better cybersecurity strategy. The objective of this free online survey is to assess the maturity of an organization in terms of applicable good practices in the field of information security. It is also a prerequisite for doing Diagnostic CASES: a minimum score of 80/100 is required.
+1.	**[Fit4Cybersecurity]({% link _services/Fit4Cybersecurity.markdown %})**: a self-assessment tool, to help business owners implement a better cybersecurity strategy. The objective of this free online survey is to assess the maturity of an organization in terms of applicable good practices in the field of information security. It is also a prerequisite for doing Diagnostic CASES: a minimum score of 65/100 is required.
 
 2.	**[CASES Diagnostic]({% link _services/diagnostic.markdown %})**: a CASES expert visits your organization (in Luxembourg) and presents a 2-hour-long survey. The expert will identify vulnerabilities, evaluate the level of maturity of the security of your IT infrastructure, and will issue recommendations. A Fit4Cybersecurity is mandatory before accessing our service.
 
