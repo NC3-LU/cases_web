@@ -40,7 +40,7 @@ Over the past years, CASES has been collected a vast amount of data on the most 
 
 ### Evolution of 3 important factors between 2016 and 2019
 
-The below table shows the “Dangerousness Indicator” figures in the percentage of the top 3 factors between 2016 and 2019. The numbers are very “communicative”, especially to the factor of password creation and management. It is very contemplative though that password-related threats are highly the most serious ones according to the CASES Diagnostic.
+The below table shows the “Dangerousness Indicator” figures in the percentage of 3 importants factors between 2016 and 2019. The numbers are very “communicative”, especially to the factor of password creation and management. It is very contemplative though that password-related threats are highly the most serious ones according to the CASES Diagnostic.
 
 <img src="{% link assets/img/2020/TabDiagnosticStats_2.png %}" style="max-width: 100%;" />
 
