@@ -20,7 +20,7 @@ The “unpleasant yield” of the evolution of technology and information system
 
 ### Methods used in the Study
 
-This study summarizes the results of 149 CASES Diagnostics, which have been carried out between 06/2016 and 12/2019. During this period, 774 recommendations were given and 434 of them were considered as urgent to implement, which represents approximately 2.91 urgent recommendations per diagnostic. Throughout the diagnostics, 4768 questions were asked, and only 452 of them were answered which shows that the subject is not well-known.
+This study summarizes the results of 149 CASES Diagnostics, which have been carried out between 06/2016 and 12/2019. During this period, 1774 recommendations were given and 434 of them were considered as urgent to implement, which represents approximately 2.91 urgent recommendations per diagnostic. Throughout the diagnostics, 4768 questions were asked, and only 452 of them were answered which shows that the subject is not well-known.
 
 ### Explanation of used metrics
 
