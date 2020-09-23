@@ -30,17 +30,17 @@ Cette étude compile les résultats de 149 Diagnostics CASES qui ont étés fait
 
 ### Les 10 facteurs de danger les plus importants des dernières années
 
-Dans les années précédentes, CASES a collecté beaucoup de données sur les facteurs de risques les plus importants dans les startups et les PME. Durant ces analyses rapides, différents points et catégories ont été évalués et examinés. Le tableau ci-dessous montre les 10 facteurs de danger les plus importants identifiés par le Diagnostic CASES durant les années précédentes.
+Les années précédentes, CASES a collecté beaucoup de données sur les facteurs de risques les plus importants dans les startups et les PME. Durant ces analyses rapides, différents points et catégories ont été évalués et examinés. Le tableau ci-dessous montre les 10 facteurs de danger les plus importants identifiés par le Diagnostic CASES ces dernières années.
 
 <img src="{% link assets/img/2020/TabDiagnosticStats.png %}" style="max-width: 100%;" />
 			
 **Tableau 1** - *Les 10 indicateurs de dangers les plus importants remarqués par les Diagnostics CASES*
 
-"Création et gestion des mots de passe" comprend la complexité et le type de mot de passe des utilisateurs, alors que la catégorie "Réseaux sans fil" comprend la configuration, la gestion et la protection des réseaux sans fil. "Gestion des sauvegardes" implique la périodicité, la localisation et la restauration des données redondantes. Ce qui se réfère aux "Accords de non-divulgation (NDA)" est les clauses de contrat sur la confidentialité des échanges, tandis que la catégorie "Règles concernant le "Bring Your Own Device"" a pour sujet les différentes pratiques autorisées et/ou interdites en ce qui concerne l'apport et l'usage de matériel personnel dans un contexte professionnel. 
+"Création et gestion des mots de passe" comprend la complexité et le type de mot de passe des utilisateurs, alors que la catégorie "Réseaux sans fil" comprend la configuration, la gestion et la protection des réseaux sans fil. "Gestion des sauvegardes" implique la périodicité, la localisation et la restauration des données redondantes. Ce qui se réfère aux "Accords de non-divulgation (NDA)" est les clauses de contrat sur la confidentialité des échanges, tandis que la catégorie "Règles concernant le "Bring Your Own Device" a pour sujet les différentes pratiques autorisées et/ou interdites en ce qui concerne l'apport et l'usage de matériel personnel dans un contexte professionnel. 
 
 ### Évolution de 3 facteurs importants entre 2016 et 2019
 
-Le tableau ci-dessous montre l'évolution de l'"Indicateur de dangerosité"  de trois facteurs importants différents entre 2016 et 2019. Ces nombres sont particulièrement significatifs, et ce particulièrement dans le domaine de la création et la gestion des mots de passe. Les mots de passe restent une des menaces la plus importante et indétrônée selon l'étude faite sur le Diagnostic CASES.
+Le tableau ci-dessous montre l'évolution de l'"Indicateur de dangerosité"  de trois facteurs importants différents entre 2016 et 2019. Ces nombres sont particulièrement significatifs, et spéciaalement dans le domaine de la création et la gestion des mots de passe. Les mots de passe restent une des menaces les plus importantes et indétrônées selon l'étude faite sur le Diagnostic CASES.
 
 <img src="{% link assets/img/2020/TabDiagnosticStats_2.png %}" style="max-width: 100%;" />
 
@@ -56,7 +56,7 @@ Le graphique ci-dessous démontre le tableau ci-dessus de façon bien plus visue
 
 Les valeurs de la "Gestion des sauvegardes" sont significativement moins importantes avec un indicateur de dangerosité de 68,18%, 75,40%, 65,59% et 57,19% respectivement en 2016, 2017, 2018 et 2019. Si un pic est notable en 2017, il y a eu une légère baisse lors des deux années suivantes. Il est possible d'espérer que cette tendance se poursuive dans le futur. 
 
-La menace liée à la gestion des données personnelles (RGPD) est un phénomène plus récent, et doit donc être traitée avec précaution. La valeur de son indicateur de dangerosité était basse en 2017 (avec un pourcentage de 28,57%). Cependant, cette tendance est à l'opposé de celle de la gestion des sauvegardes. Car cette menace a doublé en 2018 (51,28%) et a continué son ascension en 2019 (58,54%). 
+La menace liée à la gestion des données personnelles (RGPD) est un phénomène plus récent, et doit donc être traitée avec précaution. La valeur de son indicateur de dangerosité était bas en 2017 (avec un pourcentage de 28,57%). Cependant, cette tendance est à l'opposé de celle de la gestion des sauvegardes. Car cette menace a doublé en 2018 (51,28%) et a continué son ascension en 2019 (58,54%). 
 
 ### Comment CASES peut aider ?
 
@@ -66,6 +66,6 @@ CASES (Cybersecurity Awareness and Security Enhancement Services) propose plusie
 
 2.	**[CASES Diagnostic]({% link _services/diagnostic.markdown %})**: Un expert CASES visite votre entreprise (au Luxembourg) et vous pose des questions pendant environ 2 heures. L'expert identifiera les vulnérabilités et évaluera le niveau de votre maturité dans le domaine de la sécurité de l'information, et vous donnera des recommandations pour vous améliorer. Une évaluation Fit4Cybersecurity est obligatoire avant d'accéder à ce service.  
 
-3.	**[Monarc]({% link _services/monarc.markdown %})** (Méthode Optimisée d'aNAlyse de Risques CASES): Un outil et une méthode permettant la réalisation d'évaluation de risque optimisée, précise et répétable. MONARC est une application qui a été et est encore développé par CASES. MONARC vous permet de réaliser une analyse de risque de façon optimisée, en vous permettant d'avoir plusieurs automatisations et outils pour créer et présenter les risques trouvés.
+3.	**[Monarc]({% link _services/monarc.markdown %})** (Méthode Optimisée d'aNAlyse de Risques CASES): Un outil est une méthode permettant la réalisation d'évaluation de risque optimisée, précise et répétable. MONARC est une application qui a été et est encore développé par CASES. MONARC vous permet de réaliser une analyse de risque de façon optimisée, en vous permettant d'avoir plusieurs automatisations et outils pour créer et présenter les risques trouvés.
 
 4.	**[Formations]({% link _services/trainings.markdown %})**: La cybersécurité nécessite comme ciment un bon travail d'équipe. Les formations CASES apportent les connaissances et les réflexes que votre équipe a besoin. S'adaptant pleinement à votre environnement, elles encouragent les utilisateurs à communiquer et à suivre les bonnes pratiques pour lutter plus efficacement contre les cybermenaces.
