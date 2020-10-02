@@ -38,6 +38,8 @@ Les années précédentes, CASES a collecté beaucoup de données sur les facteu
 
 "Création et gestion des mots de passe" comprend la complexité et le type de mot de passe des utilisateurs, alors que la catégorie "Réseaux sans fil" comprend la configuration, la gestion et la protection des réseaux sans fil. "Gestion des sauvegardes" implique la périodicité, la localisation et la restauration des données redondantes. Ce qui se réfère aux "Accords de non-divulgation (NDA)" est les clauses de contrat sur la confidentialité des échanges, tandis que la catégorie "Règles concernant le "Bring Your Own Device" a pour sujet les différentes pratiques autorisées et/ou interdites en ce qui concerne l'apport et l'usage de matériel personnel dans un contexte professionnel. 
 
+Ces facteurs sont des sujets nécessitant une attention particulière. La gestion et la création de mots de passe est un sujet qui est très souvent rappelé, et l'indicateur de dangerosité en montre bien l'importance, que ce soit ceux des utilisateurs comme ceux utilisés pour protéger les réseaux internes. Les règles, les formations et les sauvegardes sont des sujets qui ne doivent pas être négligés. 
+
 ### Évolution de 3 facteurs importants entre 2016 et 2019
 
 Le tableau ci-dessous montre l'évolution de l'"Indicateur de dangerosité"  de trois facteurs importants différents entre 2016 et 2019. Ces nombres sont particulièrement significatifs, et spéciaalement dans le domaine de la création et la gestion des mots de passe. Les mots de passe restent une des menaces les plus importantes et indétrônées selon l'étude faite sur le Diagnostic CASES.
@@ -58,6 +60,22 @@ Les valeurs de la "Gestion des sauvegardes" sont significativement moins importa
 
 La menace liée à la gestion des données personnelles (RGPD) est un phénomène plus récent, et doit donc être traitée avec précaution. La valeur de son indicateur de dangerosité était bas en 2017 (avec un pourcentage de 28,57%). Cependant, cette tendance est à l'opposé de celle de la gestion des sauvegardes. Car cette menace a doublé en 2018 (51,28%) et a continué son ascension en 2019 (58,54%). 
 
+### Conclusion
+
+Si les choix techniques sont les premiers auxquels nous sommes confrontés, les choix organisationnels sont trop souvent oubliés malgré leur meilleure efficacité en termes de maturité de sécurité de l'information. De bonnes pratiques et des règles bien définies sont bien plus efficaces que les moyens techniques, qui restent cependant essentiels. Voici quelques pistes qui peuvent aider sur des points importants en sécurité de l'information : 
+- Mots de passe : 
+	- https://www.cases.lu/knowhow/glossary/Password_fr.
+	- https://www.youtube.com/watch?v=ml5N2U1GDdI
+- Règles de sécurité : 
+	- https://www.cases.lu/knowhow/glossary/SecurityCharter_fr.html
+- Phishing :
+	- https://www.cases.lu/knowhow/glossary/Phishing_fr.html
+	- https://www.youtube.com/watch?v=p6-7vQBqzkQ
+- Sauvegardes : 
+	- https://www.cases.lu/knowhow/glossary/DataBackups_fr.html
+	- https://www.youtube.com/watch?v=RpMOixANNLM
+	- https://www.youtube.com/watch?v=g9Ypgan4rmE
+
 ### Comment CASES peut aider ?
 
 CASES (Cybersecurity Awareness and Security Enhancement Services) propose plusieurs services disponibles pour tous. Le but est de donner à chaque organisation les outils nécessaires pour définir leur maturité en sécurité de l'information, mais aussi pour l'améliorer.
@@ -69,3 +87,5 @@ CASES (Cybersecurity Awareness and Security Enhancement Services) propose plusie
 3.	**[Monarc]({% link _services/monarc.markdown %})** (Méthode Optimisée d'aNAlyse de Risques CASES): Un outil est une méthode permettant la réalisation d'évaluation de risque optimisée, précise et répétable. MONARC est une application qui a été et est encore développé par CASES. MONARC vous permet de réaliser une analyse de risque de façon optimisée, en vous permettant d'avoir plusieurs automatisations et outils pour créer et présenter les risques trouvés.
 
 4.	**[Formations]({% link _services/trainings.markdown %})**: La cybersécurité nécessite comme ciment un bon travail d'équipe. Les formations CASES apportent les connaissances et les réflexes que votre équipe a besoin. S'adaptant pleinement à votre environnement, elles encouragent les utilisateurs à communiquer et à suivre les bonnes pratiques pour lutter plus efficacement contre les cybermenaces.
+
+5. **[TACOS](https://tacos.cases.lu/)** (TrustApp CASES for Obvious Security): Une application de sensibilisation à la cybersécurité. Elle a pour but de former les utilisateurs aux risques de cybersécurité à l'aide d'articles, de vidéos, des trucs et astuces.
