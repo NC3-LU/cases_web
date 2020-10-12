@@ -2,13 +2,13 @@
 layout: post
 category: "Articles"
 title:  "Luxembourgish landscape in information security threat through years"
-date:   2020-09-23 10:00:00 +0100
+date:   2020-10-14 10:00:00 +0100
 categories: statistics
 isVisible: false
 short: "Diagnostic Statistics"
 toc: true
 group: post
-ref: articles20200923stats
+ref: articles20201014stats
 lang: en
 ---
 
@@ -38,6 +38,8 @@ Over the past years, CASES has been collecting a vast amount of data on the most
 
 “Password creation and management” includes length and type of passwords, whereas “Wireless networks” comprise configuration related matters besides password management. “Backup management” involves backup periodicity, location, and restoration of backups. We refer to “Non-Disclosure Agreement” on confidentiality clauses in contracts, while “BYOD” means the accepted practice of employees being allowed to use their own device/s for professional work at their workplace or when working from home.
 
+These factors need special attention. Password creation and management is a subject which is often repeated, and the dangerousness indicator shows why it's important to have some heavy protection for users or local networks. Rules, trainings and backups are importants subjects that shouldn't be ignored. 
+
 ### Evolution of 3 important factors between 2016 and 2019
 
 The below table shows the “Dangerousness Indicator” figures in the percentage of 3 importants factors between 2016 and 2019. The numbers are straight forward, especially concerning the password creation and management. Password-related threats are one of the most serious threats according to the CASES Diagnostic.
@@ -58,6 +60,23 @@ The values of “Backups management” have been significantly lower, with the p
 
 The threat related to personal data (GDPR) is a recent phenomenon, and as such, it should be treated with the utmost attention. The value of its dangerousness indicator was the lowest in 2017 (with a percentage of 28.57%). On the other hand, its trend is somewhat opposite of the one called “Backup management”. Unfortunately, it nearly doubled in 2018 (51.28%), and continued growing in 2019 (58.54%).
 
+### Conclusion
+
+Technical means are often the first the first choices to secure an environement, and orginasational means are often forgot despite the fact it's more effective in information security field. Good practices and well-defined rules are often more effective than technical means, which stay essentials. Here some ideas that can help on importants points in information security:
+
+- Passwords : 
+	- https://www.cases.lu/knowhow/glossary/Password.html
+	- https://www.youtube.com/watch?v=PdWoqcidb4g
+- Security Charter : 
+	- https://www.cases.lu/knowhow/glossary/SecurityCharter.html
+- Phishing :
+	- https://www.cases.lu/knowhow/glossary/Phishing.html
+	- https://www.youtube.com/watch?v=FhsnUiFVv0k
+- Backups : 
+	- https://www.cases.lu/knowhow/glossary/DataBackups.html
+	- https://www.youtube.com/watch?v=LAwJAJI0I5w
+	- https://www.youtube.com/watch?v=RUx1cHbqIIM
+
 ### How can CASES help?
 
 CASES (Cybersecurity Awareness and Security Enhancement Services) has multiple services available to the public. The goal is to give every organisation the necessary tools and information to define their risk maturity and improve it.
@@ -69,3 +88,5 @@ CASES (Cybersecurity Awareness and Security Enhancement Services) has multiple s
 3.	**[Monarc]({% link _services/monarc.markdown %})** (Optimised Risk Analysis Method): a tool and method, allowing optimised, precise, and repeatable risk assessment. Monarc is a software application, which has been and is being developed by CASES. By using Monarc, you will be able to take appropriate measures to enhance information security within your organisation and meet your legal obligations.
 
 4.	**[Training]({% link _services/trainings.markdown %})**: proper cybersecurity needs the foundation of good teamwork. CASES training provides the knowledge and reflexes that your team requires. It is fully adaptable to your specific situation and encourages your staff to communicate better and follow the reflexes to fight against cyber threats more effectively.
+
+5.	**[TACOS](https://tacos.cases.lu/)** (TrustApp CASES for Obvious Security): a cybersecurity awareness application. It can teach user to be aware of cybersecurity risks and attacks with some articles, videos and tips and tricks.
