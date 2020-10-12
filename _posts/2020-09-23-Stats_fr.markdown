@@ -2,13 +2,13 @@
 layout: post
 category: "Articles"
 title:  "Paysage luxembourgeois de la Cybersécurité au cours des dernières années"
-date:   2020-09-23 10:00:00 +0100
+date:   2020-10-14 10:00:00 +0100
 categories: statistics
 isVisible: false
 short: "Statistiques du Diagnostic"
 toc: true
 group: post
-ref: articles20200923stats
+ref: articles20201014stats
 lang: fr
 ---
 
@@ -32,7 +32,7 @@ Cette étude compile les résultats de 149 Diagnostics CASES qui ont étés fait
 
 Les années précédentes, CASES a collecté beaucoup de données sur les facteurs de risques les plus importants dans les startups et les PME. Durant ces analyses rapides, différents points et catégories ont été évalués et examinés. Le tableau ci-dessous montre les 10 facteurs de danger les plus importants identifiés par le Diagnostic CASES ces dernières années.
 
-<img src="{% link assets/img/2020/TabDiagnosticStats.png %}" style="max-width: 100%;" />
+<img src="{% link assets/img/2020/TabDiagnosticStats_fr.png %}" style="max-width: 100%;" />
 			
 **Tableau 1** - *Les 10 indicateurs de dangers les plus importants remarqués par les Diagnostics CASES*
 
@@ -44,13 +44,13 @@ Ces facteurs sont des sujets nécessitant une attention particulière. La gestio
 
 Le tableau ci-dessous montre l'évolution de l'"Indicateur de dangerosité"  de trois facteurs importants différents entre 2016 et 2019. Ces nombres sont particulièrement significatifs, et spéciaalement dans le domaine de la création et la gestion des mots de passe. Les mots de passe restent une des menaces les plus importantes et indétrônées selon l'étude faite sur le Diagnostic CASES.
 
-<img src="{% link assets/img/2020/TabDiagnosticStats_2.png %}" style="max-width: 100%;" />
+<img src="{% link assets/img/2020/TabDiagnosticStats_2_fr.png %}" style="max-width: 100%;" />
 
 **Tableau 2** - *Évolution des facteurs importants entre 2016 et 2019*
 
 Le graphique ci-dessous démontre le tableau ci-dessus de façon bien plus visuelle. L'abscisse représente la période entre 2016 et 2019, alors que l'ordonnée représente l'indicateur de dangerosité. 
 
-<img src="{% link assets/img/2020/GraphDiagnosticStats.png %}" style="max-width: 100%;" />
+<img src="{% link assets/img/2020/GraphDiagnosticStats_fr.png %}" style="max-width: 100%;" />
 
 **Graphique 1** - *Évolution de 3 facteurs importants sur une période de 4 ans*
 
@@ -88,4 +88,4 @@ CASES (Cybersecurity Awareness and Security Enhancement Services) propose plusie
 
 4.	**[Formations]({% link _services/trainings.markdown %})**: La cybersécurité nécessite comme ciment un bon travail d'équipe. Les formations CASES apportent les connaissances et les réflexes que votre équipe a besoin. S'adaptant pleinement à votre environnement, elles encouragent les utilisateurs à communiquer et à suivre les bonnes pratiques pour lutter plus efficacement contre les cybermenaces.
 
-5. **[TACOS](https://tacos.cases.lu/)** (TrustApp CASES for Obvious Security): Une application de sensibilisation à la cybersécurité. Elle a pour but de former les utilisateurs aux risques de cybersécurité à l'aide d'articles, de vidéos, des trucs et astuces.
+5.	**[TACOS](https://tacos.cases.lu/)** (TrustApp CASES for Obvious Security): Une application de sensibilisation à la cybersécurité. Elle a pour but de former les utilisateurs aux risques de cybersécurité à l'aide d'articles, de vidéos, des trucs et astuces.
