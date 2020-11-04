@@ -12,7 +12,7 @@ ref: articles20200923stats
 lang: en
 ---
 
-## Luxembourgish landscape in information security threat through years (from Diagnostic CASES)
+## Luxembourgish landscape in information security threat through the years (from Diagnostic CASES)
 
 ### A Bit of Background History
 
