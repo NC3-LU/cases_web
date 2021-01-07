@@ -42,4 +42,4 @@ Teaching your colleagues is the best way to maintain your knowledge and stay in 
 **DURATION**: One-day training course delivered by a security expert
 
 
-Information requests and bookings at [C3](https://c-3.lu/catalogue/awareness-train-the-trainer/) or via [E-Mail](mailto:services@cases.lu?subject=Formation%20CASES)
+Information requests and bookings at [C3](https://c3.lu/catalogue/awareness-train-the-trainer/) or via [E-Mail](mailto:services@cases.lu?subject=Formation%20CASES)

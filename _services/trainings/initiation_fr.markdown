@@ -44,4 +44,4 @@ Information security within a given organisation depends above all on individual
 
 **DURATION**: 3 hours.
 
-Information requests and bookings can be done through [C3](https://c-3.lu/catalogue/awareness/) or via [E-Mail](mailto:services@cases.lu?subject=Formation%20CASES)
+Information requests and bookings can be done through [C3](https://c3.lu/catalogue/awareness/) or via [E-Mail](mailto:services@cases.lu?subject=Formation%20CASES)
