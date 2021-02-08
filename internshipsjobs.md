@@ -8,4 +8,4 @@ permalink: /jobs/
 
 There are currently no open positions at CASES...
 
-**But** come back soon as we are currently working on great internship oportunities!
+**But** come back soon as we are currently working on great internship opportunities!
