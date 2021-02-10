@@ -107,7 +107,7 @@ Please contact [info@securitymadein.lu](mailto:info@securitymadein.lu?subject=CA
 
 ## Internship #5: MONARC Multi-Language Support and New Visualisations
 
-CASES is one of the main actors of cyber security in Luxembourg and is a young and motivated team with expertise in the field of information security. CASES has developed an optimised risk analysis tool and method: MONARC (Optimised Risk Analysis Method), allowing for a precise and repeatable risk management. With more international users employing MONARC in their day to day work, MONARC needs to support more languages than it does already; also, a requested addition is to have a visualisation that indicates the progress in the implementation of new features in a related .
+CASES is one of the main actors of cyber security in Luxembourg and is a young and motivated team with expertise in the field of information security. CASES has developed an optimised risk analysis tool and method: MONARC (Optimised Risk Analysis Method), allowing for a precise and repeatable risk management. With more international users employing MONARC in their day to day work, MONARC needs to support more languages than it does already; also, a requested addition is to have a visualisation that indicates the progress in the implementation of new features.
 
 #### Job:
 
