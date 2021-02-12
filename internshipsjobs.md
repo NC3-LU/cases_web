@@ -28,7 +28,7 @@ CASES is one of the main actors of cyber security in Luxembourg and is a young a
 
 #### Apply:
 
-Please contact [info@securitymadein.lu](mailto:info@securitymadein.lu?subject=CASES%20Internship%20Nr1%20Application) to apply or get in touch with us.
+Please contact [hr@securitymadein.lu](mailto:hr@securitymadein.lu?subject=CASES%20Internship%20Nr1%20Application) to apply or get in touch with us.
 
 ## Internship #2: Develop new functionalities for MONARC, a risk assessment tool
 
@@ -51,7 +51,7 @@ Take part in the development of MONARC by researching and developing:
 
 #### Apply:
 
-Please contact [info@securitymadein.lu](mailto:info@securitymadein.lu?subject=CASES%20Internship%20Nr2%20Application) to apply or get in touch with us.
+Please contact [hr@securitymadein.lu](mailto:hr@securitymadein.lu?subject=CASES%20Internship%20Nr2%20Application) to apply or get in touch with us.
 
 ## Internship #3: Toolset to improve Privacy and Data Protection
 
@@ -80,7 +80,7 @@ A selection of two or more of the topics above can be extended into an MSc thesi
 
 #### Apply:
 
-Please contact [info@securitymadein.lu](mailto:info@securitymadein.lu?subject=CASES%20Internship%20Nr3%20Application) to apply or get in touch with us.
+Please contact [hr@securitymadein.lu](mailto:hr@securitymadein.lu?subject=CASES%20Internship%20Nr3%20Application) to apply or get in touch with us.
 
 ## Internship #4: Security Assessment in line with the CSA Act
 
@@ -103,7 +103,7 @@ These three topics together can be potentially extended into an MSc thesis (subj
 
 #### Apply:
 
-Please contact [info@securitymadein.lu](mailto:info@securitymadein.lu?subject=CASES%20Internship%20Nr4%20Application) to apply or get in touch with us.
+Please contact [hr@securitymadein.lu](mailto:hr@securitymadein.lu?subject=CASES%20Internship%20Nr4%20Application) to apply or get in touch with us.
 
 ## Internship #5: MONARC Multi-Language Support and New Visualisations
 
@@ -126,4 +126,4 @@ CASES is one of the main actors of cyber security in Luxembourg and is a young a
 
 #### Apply:
 
-Please contact [info@securitymadein.lu](mailto:info@securitymadein.lu?subject=CASES%20Internship%20Nr5%20Application) to apply or get in touch with us.
+Please contact [hr@securitymadein.lu](mailto:hr@securitymadein.lu?subject=CASES%20Internship%20Nr5%20Application) to apply or get in touch with us.
