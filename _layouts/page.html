@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+
+
 <div class="col-md-2 col-sm-2 blocantiscroll">
 	<div class="collapse navbar-collapse" id="left-panel">
 		<h2>Services</h2>
@@ -17,6 +20,7 @@ layout: default
 	</div>
 </div>
 
+
 <div class="col-md-8 col-sm-8 thecontent">
 	<div class="row-fluid row-fluid--padding">
 		{% include menus/language-selector.html %}
@@ -30,5 +34,11 @@ layout: default
 <div class="blocantiscroll col-md-2 col-sm-2">
 	{% if page.layout == "article" %}
 		{% toc %}
+	{% elsif page.specialmenu == "fit4tools" %}
+		<h2>&nbsp;</h2>
+		<div style="width:100%;background-color:#FFFFFF;border-left: 1px solid rgb(0,114,184); padding: 10px 0 10px 10px;">
+		{% include fit4tools.html %}
+		</div>
 	{% endif %}
+
 </div>

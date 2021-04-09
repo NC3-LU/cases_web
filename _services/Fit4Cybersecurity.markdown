@@ -7,13 +7,8 @@ logo: "/assets/img/services/Fit4Cybersecurity.png"
 short: "An service helping entrepreneurs to move towards a better cybersecurity strategy."
 lang: en
 ref: Fit4Cybersecurity
+specialmenu: fit4tools
 ---
-
-<span style="float:right;width=300px; background-color:#FFFFFF;border: 1px solid rgb(0,114,184); border-radius:20px; padding:10px;">
-<a href="https://fit4cybersecurity.cases.lu"><img src="/assets/img/services/Fit4Cybersecurity-Full-en.png" style="height:80px;"/></a><br><br>
-<a href="https://contract.cases.lu"><img src="/assets/img/services/Fit4Contract-Full-en.png" style="height:80px;"/></a><br><br>
-<a href="https://fit4privacy.cases.lu"><img src="/assets/img/services/Fit4Privacy-Full-en.png" style="height:80px;"/></a>
-</span>
 
 **Fit4Cybersecurity** is a service that is containing multiple self-assessment tools. Its main goal is to allow the user to quickly assess their information security maturity in the different areas.
 
