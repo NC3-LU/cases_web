@@ -7,6 +7,7 @@ logo: "/assets/img/services/Fit4Cybersecurity.png"
 short: "An online tool helping entrepreneurs to move towards a better cybersecurity strategy."
 lang: de
 ref: Fit4Cybersecurity
+specialmenu: fit4tools
 ---
 
 ## Warum?
