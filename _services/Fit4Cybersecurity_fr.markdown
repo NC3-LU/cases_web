@@ -18,12 +18,12 @@ specialmenu: fit4tools
 
 En complément, [Fit4Contract](https://contract.cases.lu) vise à aider les chefs d'entreprise à s'assurer que les contrats (déjà signés mais surtout ceux sur le point d'être signés avec des tiers) pour l'acquisition de services TIC couvrent les aspects essentiels de la sécurité de l'information. La raison d'être de [Fit4Contract](https://contract.cases.lu) est que de nombreuses petites organisations non TIC sont souvent insuffisamment préparées à négocier des clauses contractuelles avec les fournisseurs de services TIC.
 
-Et enfin, [Fit4Privacy](https://fit4privacy.cases.lu) est un troisième outil d'auto-évaluation dans l'ensemble, donnant aux propriétaires d'entreprise un bon aperçu initial de leur maturité en matière de confidentialité et de protection des données, aussi requis par le RGPD depuis mai 2018. 
+Et enfin, [Fit4Privacy](https://fit4privacy.cases.lu) est un troisième outil d'auto-évaluation dans l'ensemble, donnant aux propriétaires d'entreprise un bon aperçu initial de leur maturité en matière de confidentialité et de protection des données, aussi requis par le RGPD depuis mai 2018.
 
 
 ## Comment ?
 
-Pour commencer, accédez à l'un des sites [Fit4cybersecurity.cases.lu](https://fit4cybersecurity.cases.lu), [Fit4Contract](https://contract.cases.lu) ou [Fit4Privacy](https://fit4privacy.cases.lu), et cliquez sur le bouton "Démarrer" avec la langue de votre choix pour démarrer l'enquête. Vous aurez d'abord 3 questions liées à votre contexte actuel et les questions de suivi à choix multiples aborderont plus en détail la manière dont votre entreprise gère les différents aspects liés au sujet du questionnaire.
+Pour commencer, accédez à l'un des sites [Fit4cybersecurity](https://fit4cybersecurity.cases.lu), [Fit4Contract](https://contract.cases.lu) ou [Fit4Privacy](https://fit4privacy.cases.lu), et cliquez sur le bouton "Démarrer" avec la langue de votre choix pour démarrer l'enquête. Vous aurez d'abord 3 questions liées à votre contexte actuel et les questions de suivi à choix multiples aborderont plus en détail la manière dont votre entreprise gère les différents aspects liés au sujet du questionnaire.
 
 Toutes les questions ne vous prendront pas plus de 15 minutes, mais si vous devez interrompre votre évaluation, vous pouvez simplement cliquer sur le bouton "Continuer plus tard" et votre évaluation pourra être reprise plus tard en utilisant l'adresse URL indiquée lors de l'enregistrement de vos réponses.
 

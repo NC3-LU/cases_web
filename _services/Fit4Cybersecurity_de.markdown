@@ -10,7 +10,7 @@ ref: Fit4Cybersecurity
 specialmenu: fit4tools
 ---
 
-** Fit4Cybersecurity ** ist ein Dienst, der mehrere Selbstbewertungstools enthält. Das Hauptziel besteht darin, den Benutzern eine schnelle Beurteilung ihrer Informationssicherheitsreife in verschiedenen Bereichen zu ermöglichen, die CASES als kritisch erachtet. Die Verwendung all dieser Selbsteinschätzungstools ist _anonym_ und _kostenlos_. 
+**Fit4Cybersecurity** ist ein Dienst, der mehrere Selbstbewertungstools enthält. Das Hauptziel besteht darin, den Benutzern eine schnelle Beurteilung ihrer Informationssicherheitsreife in verschiedenen Bereichen zu ermöglichen, die CASES als kritisch erachtet. Die Verwendung all dieser Selbsteinschätzungstools ist _anonym_ und _kostenlos_.
 
 ## Warum?
 
@@ -22,7 +22,7 @@ Und schließlich ist [Fit4Privacy](https://fit4privacy.cases.lu) ein drittes Too
 
 ## Wie?
 
-Wechseln Sie zunächst zu [Fit4cybersecurity.cases.lu](https://fit4cybersecurity.cases.lu), [Fit4Contract](https://contract.cases.lu) oder [Fit4Privacy](https://fit4privacy.cases.lu) und klicken Sie auf die Schaltfläche 'Start' mit der von Ihnen gewählten Sprache, um die Umfrage zu starten. Sie haben zunächst drei Fragen zu Ihrem aktuellen Kontext. In den nachfolgenden Multiple-Choice-Fragen wird detaillierter beschrieben, wie Ihr Unternehmen verschiedene Aspekte im Zusammenhang mit dem Thema des Fragebogens verwaltet.
+Wechseln Sie zunächst zu [Fit4cybersecurity](https://fit4cybersecurity.cases.lu), [Fit4Contract](https://contract.cases.lu) oder [Fit4Privacy](https://fit4privacy.cases.lu) und klicken Sie auf die Schaltfläche 'Start' mit der von Ihnen gewählten Sprache, um die Umfrage zu starten. Sie haben zunächst drei Fragen zu Ihrem aktuellen Kontext. In den nachfolgenden Multiple-Choice-Fragen wird detaillierter beschrieben, wie Ihr Unternehmen verschiedene Aspekte im Zusammenhang mit dem Thema des Fragebogens verwaltet.
 
 Alle Fragen dauern nicht länger als 15 Minuten. Wenn Sie jedoch Ihre Bewertung unterbrechen müssen, klicken Sie einfach auf die Schaltfläche "Später fortfahren". Ihre Bewertung kann später unter Verwendung der URL-Adresse fortgesetzt werden, die Sie beim Speichern Ihrer Antworten angegeben haben.
 
@@ -34,7 +34,7 @@ Mit [Fit4Contract](https://contract.cases.lu) können Sie und Ihr Unternehmen fe
 
 [Fit4Privacy](https://fit4privacy.cases.lu) vermittelt einen guten ersten Eindruck davon, wie Ihr Unternehmen mit Datenschutz und Datenschutz umgeht. Sie haben also eine Vorstellung davon, worauf Sie bei der Überprüfung des Datenschutzes und des Datenschutzes Ihres Unternehmens achten müssen.
 
-Nach jeder dieser Selbstbewertungen können Sie einen Bericht im Word-Format (.docx) herunterladen, Ihre Ergebnisse von einer ID abrufen oder den auf der endgültigen Ergebnisseite angegebenen Link verwenden. Auf diese Weise können Sie 1) den Bericht anzeigen und mit anderen Mitgliedern Ihrer Organisation diskutieren und 2) Ihre aktuelle Punktzahl mit derselben in der Vergangenheit mit demselben Tool vergleichen. 
+Nach jeder dieser Selbstbewertungen können Sie einen Bericht im Word-Format (.docx) herunterladen, Ihre Ergebnisse von einer ID abrufen oder den auf der endgültigen Ergebnisseite angegebenen Link verwenden. Auf diese Weise können Sie 1) den Bericht anzeigen und mit anderen Mitgliedern Ihrer Organisation diskutieren und 2) Ihre aktuelle Punktzahl mit derselben in der Vergangenheit mit demselben Tool vergleichen.
 
 
 ## Disclaimer
