@@ -18,8 +18,6 @@ CASES bietet Kurse an, in denen Ihren Teams Kenntnisse über Cybersicherheit ver
 Die Kurse wenden sich an verschiedene Fachpublika:
 
 * [Einführung in die Informationssicherheit]({% link _services/trainings/initiation_de.markdown %})
-* [Schulung für die Direktionsleitung]({% link _services/trainings/directordecisionmakers_de.markdown %})
-* [Schulung für Managers]({% link _services/trainings/managers_de.markdown %})
 * [Schulung für Kursleiter]({% link _services/trainings/trainthetrainer_de.markdown %})
 
 
