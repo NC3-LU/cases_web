@@ -1,13 +1,11 @@
 ---
-layout: legal
+layout: jobs
 title: Internships and Jobs
 menutitle: Internships/Jobs
 permalink: /jobs/
 ---
 
-
 We currently have the following internships available:
-
 
 ## Internship #1: Improve the Knowledge base of MONARC, a risk assessment tool
 
