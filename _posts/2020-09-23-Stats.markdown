@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "Articles"
-title:  "Luxembourgish landscape in information security threat through years"
+title:  "Luxembourgish landscape in information security threat through years (from Diagnostic CASES)"
 date:   2020-09-23 10:00:00 +0100
 categories: statistics
 isVisible: true
@@ -11,8 +11,6 @@ group: post
 ref: articles20200923stats
 lang: en
 ---
-
-## Luxembourgish landscape in information security threat through the years (from Diagnostic CASES)
 
 ### A Bit of Background History
 
@@ -33,12 +31,12 @@ This study summarizes the results of 149 CASES Diagnostics, which have been carr
 Over the past years, CASES has been collecting a vast amount of data on the most important risk factors in startups and SMEs. During such quick assessments, many different categories have been discussed and assessed. The below table shows the top 10 danger factors identified by the CASES Diagnostic over the past couple of years:
 
 <img src="{% link assets/img/2020/TabDiagnosticStats.png %}" style="max-width: 100%;" />
-			
+
 **Table 1** - *The Top 10 Dangerousness Indicators found by CASES Diagnostic*
 
 “Password creation and management” includes length and type of passwords, whereas “Wireless networks” comprise configuration related matters besides password management. “Backup management” involves backup periodicity, location, and restoration of backups. We refer to “Non-Disclosure Agreement” on confidentiality clauses in contracts, while “BYOD” means the accepted practice of employees being allowed to use their own device/s for professional work at their workplace or when working from home.
 
-These factors need special attention. Password creation and management is a subject which is often repeated, and the dangerousness indicator shows why it's important to have some heavy protection for users or local networks. Rules, trainings and backups are importants subjects that shouldn't be ignored. 
+These factors need special attention. Password creation and management is a subject which is often repeated, and the dangerousness indicator shows why it's important to have some heavy protection for users or local networks. Rules, trainings and backups are importants subjects that shouldn't be ignored.
 
 ### Evolution of 3 important factors between 2016 and 2019
 
@@ -48,7 +46,7 @@ The below table shows the “Dangerousness Indicator” figures in the percentag
 
 **Table 2** - *Evolution of important factors throughout 2016-19*
 
-The below line graph represents the above tables visually. The horizontal axis represents the period of 2016-2019, whereas the vertical axis shows the values of the 3 important cybersecurity threats in percentages of the Dangerousness Indicator. 
+The below line graph represents the above tables visually. The horizontal axis represents the period of 2016-2019, whereas the vertical axis shows the values of the 3 important cybersecurity threats in percentages of the Dangerousness Indicator.
 
 <img src="{% link assets/img/2020/GraphDiagnosticStats.png %}" style="max-width: 100%;" />
 
@@ -64,15 +62,15 @@ The threat related to personal data (GDPR) is a recent phenomenon, and as such, 
 
 Technical means are often the first the first choices to secure an environement, and orginasational means are often forgot despite the fact it's more effective in information security field. Good practices and well-defined rules are often more effective than technical means, which stay essentials. Here some ideas that can help on importants points in information security:
 
-- Passwords : 
+- Passwords :
 	- https://www.cases.lu/knowhow/glossary/Password.html
 	- https://www.youtube.com/watch?v=PdWoqcidb4g
-- Security Charter : 
+- Security Charter :
 	- https://www.cases.lu/knowhow/glossary/SecurityCharter.html
 - Phishing :
 	- https://www.cases.lu/knowhow/glossary/Phishing.html
 	- https://www.youtube.com/watch?v=FhsnUiFVv0k
-- Backups : 
+- Backups :
 	- https://www.cases.lu/knowhow/glossary/DataBackups.html
 	- https://www.youtube.com/watch?v=LAwJAJI0I5w
 	- https://www.youtube.com/watch?v=RUx1cHbqIIM

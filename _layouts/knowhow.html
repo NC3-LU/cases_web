@@ -6,19 +6,17 @@ layout: default
 
 {% assign currentlang = page.lang %}
 {% if currentlang == blank or currentlang == empty or currentlang == nil %}
-  {% assign currentlang = site.default_lang %}
+    {% assign currentlang = site.default_lang %}
 {% endif %}
 
 {% assign currentlangknowhow = allknowhow | where: "lang", currentlang %}
 
 {% assign currentlangrefs = currentlangknowhow | map: "ref" %}
 
-
 {% assign pagelist = currentlangknowhow %}
 
-
 {% comment %}
-   assign 0 to i in order to start the string from the beginning
+    assign 0 to i in order to start the string from the beginning
 {% endcomment %}
 
 {% assign list-name = "" %}
@@ -26,7 +24,7 @@ layout: default
 
 
 {% comment %}
-  Layout of the left's TOC
+    Layout of the left's TOC
 {% endcomment %}
 
 {% comment %}
@@ -43,16 +41,16 @@ layout: default
 {% include menus/filemenu.html %}
 
 <div class="col-md-8">
-  <div class="row row-fluid--padding thecontent">
-    {% include menus/language-selector.html %}
-    <h1>{{ page.title }}</h1>
-    <div class="thecontent">
-      {{ content | inject_anchors }}
+    <div class="row row-fluid--padding thecontent">
+        {% include menus/language-selector.html %}
+        <h1>{{ page.title }}</h1>
+        <div class="thecontent">
+            {{ content | inject_anchors }}
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="blocantiscroll col-md-2">
-  <h2>Table of Content</h2>
-  {% toc %}
+    <h2>Table of Content</h2>
+    {% toc %}
 </div>

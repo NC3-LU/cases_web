@@ -1,18 +1,24 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>
+        {% if page.title %}
+            {{ page.title | escape }}
+        {% else %}
+            {{ site.title | escape }}
+        {% endif %}
+    </title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="/assets/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap-theme.min.css">
 
-  <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
-  <link rel="icon" href="{{ "/assets/img/favicon.png" | relative_url }}" type="image/png" />
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+    <link rel="icon" href="{{ "/assets/img/favicon.png" | relative_url }}" type="image/png" />
 
-  <script src="/assets/jquery-3.3.1.min.js"></script>
-  <script src="/assets/bootstrap.min.js"></script>
-  <script src="/assets/jquery.touchSwipe.min.js"></script>
+    <script src="/assets/jquery-3.3.1.min.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
+    <script src="/assets/jquery.touchSwipe.min.js"></script>
 </head>

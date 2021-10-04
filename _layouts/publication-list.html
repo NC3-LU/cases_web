@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 {% assign currentlang = page.lang %}
 {% if currentlang == blank or currentlang == empty or currentlang == nil %}
   {% assign currentlang = site.default_lang %}
@@ -23,22 +22,20 @@ layout: default
 {% include menus/filemenu.html %}
 
 <div class="col-md-8 col-sm-8">
-  {% if site.publications %}
-  <div class="row-fluid row-fluid--padding thecontent">
-    {% include menus/language-selector.html %}
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-  </div>
-  {% else %}
-  <div class="row-fluid row-fluid--padding">
-  </div>
-  {% endif %}
+    {% if site.publications %}
+        <div class="row-fluid row-fluid--padding thecontent">
+            {% include menus/language-selector.html %}
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+        </div>
+    {% else %}
+        <div class="row-fluid row-fluid--padding"></div>
+    {% endif %}
 </div>
 
-
 <div class="blocantiscroll col-md-2">
-  {% if page.layout == "publication-list" %}
-    <h2>Table of Content</h2>
-    {% toc %}
-  {% endif %}
+    {% if page.layout == "publication-list" %}
+        <h2>Table of Content</h2>
+        {% toc %}
+    {% endif %}
 </div>

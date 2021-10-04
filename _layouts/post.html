@@ -7,28 +7,24 @@ layout: default
 {% include articleslist.html %}
 
 <div class="col-md-8 col-sm-8 thecontent">
-  {% include menus/language-selector.html %}
-  <h1>{{ page.title }}</h1>
-  <p class="post-meta">
-    <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      {{ page.date | date: date_format }}
-    </time></i>
+    {% include menus/language-selector.html %}
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">
+    <i class="date-italic">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+        </time>
+    </i>
     {% if page.author %}
-     <span>{{ page.author }}</span>
-  {% endif %}</p>
-
-  <div>
+        <span>{{ page.author }}</span>
+    {% endif %}</p>
     {{ content }}
-  </div>
 </div>
 
-
 <div class="blocantiscroll col-md-2">
-
-  {% if page.layout == "post" %}
-  <h2>Table of Content</h2>
-  {% toc %}
-  {% endif %}
-
+    {% if page.layout == "post" %}
+        <h2>Table of Content</h2>
+        {% toc %}
+    {% endif %}
 </div>

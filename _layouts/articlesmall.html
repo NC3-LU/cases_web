@@ -6,49 +6,40 @@ layout: default
 {% assign articles = site.posts |sort: 'date' |reverse %}
 
 <div class="col-md-2 col-sm-2 blocantiscroll">
-  <div class="collapse navbar-collapse" id="left-panel">
-  {% if page.group contains "post" %}
-  <h2>Articles</h2>
-    {% for post in articles %}
-    <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
-      <h6 class="list-select">{{ post.title }}</h6>
-    </a>
-    {% endfor %}
-    {% endif %}
-  </div>
+    <div class="collapse navbar-collapse" id="left-panel">
+        {% if page.group contains "post" %}
+            <h2>Articles</h2>
+            {% for post in articles %}
+                <a href="{{post.url | relative_url}}" alt="{{ post.title | escape }}">
+                    <h6 class="list-select">{{ post.title }}</h6>
+                </a>
+            {% endfor %}
+        {% endif %}
+    </div>
 </div>
 
 {% if page.group contains "post" %}
-<div class="col-md-8 thecontent">
-  {% include menus/language-selector.html %}
-  <h1>{{ page.title }}</h1>
-	<p class="post-meta">
-    <i class="date-italic"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      {{ page.date | date: date_format }}
-    </time></i>
-    {% if page.author %}
-     <span>{{ page.author }}</span>
-  {% endif %}</p>
-
-  <div>
-    {{ content }}
-  </div>
-</div>
-  {% else %}
-  <div class="col-md-8 col-sm-8">
-	<div class="row-fluid row-fluid--padding">
-
-    <div>
-      {{ content | inject_anchors }}
+    <div class="col-md-8 thecontent">
+        {% include menus/language-selector.html %}
+        <h1>{{ page.title }}</h1>
+    	<p class="post-meta">
+        <i class="date-italic">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                {{ page.date | date: date_format }}
+            </time>
+        </i>
+        {% if page.author %}
+            <span>{{ page.author }}</span>
+        {% endif %}</p>
+        {{ content }}
     </div>
-
-  </div>
-
-</div>
-
+{% else %}
+    <div class="col-md-8 col-sm-8">
+	<div class="row-fluid row-fluid--padding">
+        {{ content | inject_anchors }}
+    </div>
+    </div>
 {% endif %}
 
-<div class="col-md-2 col-sm-2">
-
-</div>
+<div class="col-md-2 col-sm-2"></div>

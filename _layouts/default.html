@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <div class="col-md-12 col-sm-12 content">
-      {% if page.category %}
-        <div class="left-panel">
-          <button type="button" class="navbar-toggle collapsed left-panel-button vertical-align" data-toggle="collapse" data-target="#left-panel">
-            <div>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </div>
-            <h2>{{page.category}}</h2>
-          </button>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        <div class="col-md-12 col-sm-12 content">
+            {% if page.category %}
+                <div class="left-panel">
+                    <button
+                        type="button" 
+                        class="navbar-toggle collapsed left-panel-button vertical-align"
+                        data-toggle="collapse"
+                        data-target="#left-panel">
+                        <div>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </div>
+                        <h2>{{page.category}}</h2>
+                    </button>
+                </div>
+            {% endif %}
+        {{ content }}
         </div>
-      {% endif %}
-    {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
+        {% include footer.html %}
+    </body>
 </html>

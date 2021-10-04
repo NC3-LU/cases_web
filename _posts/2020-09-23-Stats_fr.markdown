@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "Articles"
-title:  "Paysage luxembourgeois de la Cybersécurité au cours des dernières années"
+title:  "Paysage luxembourgeois de la Cybersécurité au cours des dernières années (provenant du Diagnostic CASES)"
 date:   2020-09-23 10:00:00 +0100
 categories: statistics
 isVisible: true
@@ -12,11 +12,9 @@ ref: articles20200923stats
 lang: fr
 ---
 
-## Paysage luxembourgeois de la Cybersécurité au cours des dernières années (provenant du Diagnostic CASES)
-
 ### Contexte historique
 
-Le revers de la médaille de l'évolution des technologies et des systèmes d'information est l'augmentation des cyberattaques, l'intensification des risques et des menaces auxquelles nous devons faire face. De telles menaces sont présentes depuis l'aube de cette nouvelle ère technologique, pourtant leur nature et capacité à causer du tort étaient alors différentes. Les cyberattaques d'aujourd'hui sont plus sophistiquées et destructives que jamais. 
+Le revers de la médaille de l'évolution des technologies et des systèmes d'information est l'augmentation des cyberattaques, l'intensification des risques et des menaces auxquelles nous devons faire face. De telles menaces sont présentes depuis l'aube de cette nouvelle ère technologique, pourtant leur nature et capacité à causer du tort étaient alors différentes. Les cyberattaques d'aujourd'hui sont plus sophistiquées et destructives que jamais.
 
 ###  Méthodes utilisées dans cette étude
 
@@ -25,7 +23,7 @@ Cette étude compile les résultats de 149 Diagnostics CASES qui ont étés fait
 ### Explications des métriques
 
 * __Pourcentage de succès__: 	Une réponse optimisée compte comme 1 succès, alors qu'une réponse basique compte pour 0,5.
-* __Indicateur de dangerosité__: 	Les réponses fragiles combinées avec le coefficient d'importance des menaces du Diagnostic CASES. 
+* __Indicateur de dangerosité__: 	Les réponses fragiles combinées avec le coefficient d'importance des menaces du Diagnostic CASES.
 * __Pourcentage de recommandations__: 	Le pourcentage des recommandations données.
 
 ### Les 10 facteurs de danger les plus importants des dernières années
@@ -33,12 +31,12 @@ Cette étude compile les résultats de 149 Diagnostics CASES qui ont étés fait
 Les années précédentes, CASES a collecté beaucoup de données sur les facteurs de risques les plus importants dans les startups et les PME. Durant ces analyses rapides, différents points et catégories ont été évalués et examinés. Le tableau ci-dessous montre les 10 facteurs de danger les plus importants identifiés par le Diagnostic CASES ces dernières années.
 
 <img src="{% link assets/img/2020/TabDiagnosticStats_fr.png %}" style="max-width: 100%;" />
-			
+
 **Tableau 1** - *Les 10 indicateurs de dangers les plus importants remarqués par les Diagnostics CASES*
 
-"Création et gestion des mots de passe" comprend la complexité et le type de mot de passe des utilisateurs, alors que la catégorie "Réseaux sans fil" comprend la configuration, la gestion et la protection des réseaux sans fil. "Gestion des sauvegardes" implique la périodicité, la localisation et la restauration des données redondantes. Ce qui se réfère aux "Accords de non-divulgation (NDA)" est les clauses de contrat sur la confidentialité des échanges, tandis que la catégorie "Règles concernant le "Bring Your Own Device" a pour sujet les différentes pratiques autorisées et/ou interdites en ce qui concerne l'apport et l'usage de matériel personnel dans un contexte professionnel. 
+"Création et gestion des mots de passe" comprend la complexité et le type de mot de passe des utilisateurs, alors que la catégorie "Réseaux sans fil" comprend la configuration, la gestion et la protection des réseaux sans fil. "Gestion des sauvegardes" implique la périodicité, la localisation et la restauration des données redondantes. Ce qui se réfère aux "Accords de non-divulgation (NDA)" est les clauses de contrat sur la confidentialité des échanges, tandis que la catégorie "Règles concernant le "Bring Your Own Device" a pour sujet les différentes pratiques autorisées et/ou interdites en ce qui concerne l'apport et l'usage de matériel personnel dans un contexte professionnel.
 
-Ces facteurs sont des sujets nécessitant une attention particulière. La gestion et la création de mots de passe est un sujet qui est très souvent rappelé, et l'indicateur de dangerosité en montre bien l'importance, que ce soit ceux des utilisateurs comme ceux utilisés pour protéger les réseaux internes. Les règles, les formations et les sauvegardes sont des sujets qui ne doivent pas être négligés. 
+Ces facteurs sont des sujets nécessitant une attention particulière. La gestion et la création de mots de passe est un sujet qui est très souvent rappelé, et l'indicateur de dangerosité en montre bien l'importance, que ce soit ceux des utilisateurs comme ceux utilisés pour protéger les réseaux internes. Les règles, les formations et les sauvegardes sont des sujets qui ne doivent pas être négligés.
 
 ### Évolution de 3 facteurs importants entre 2016 et 2019
 
@@ -48,30 +46,30 @@ Le tableau ci-dessous montre l'évolution de l'"Indicateur de dangerosité"  de 
 
 **Tableau 2** - *Évolution des facteurs importants entre 2016 et 2019*
 
-Le graphique ci-dessous démontre le tableau ci-dessus de façon bien plus visuelle. L'abscisse représente la période entre 2016 et 2019, alors que l'ordonnée représente l'indicateur de dangerosité. 
+Le graphique ci-dessous démontre le tableau ci-dessus de façon bien plus visuelle. L'abscisse représente la période entre 2016 et 2019, alors que l'ordonnée représente l'indicateur de dangerosité.
 
 <img src="{% link assets/img/2020/GraphDiagnosticStats_fr.png %}" style="max-width: 100%;" />
 
 **Graphique 1** - *Évolution de 3 facteurs importants sur une période de 4 ans*
 
-"Création et gestion des mots de passe" a toujours eu la valeur la plus importante, commençant à 87,12% en 2016, tombant à 75,40% en 2017 avant de grimper en 2018 jusqu'à avoir un indicateur de dangerosité de 95,53% en 2019. 
+"Création et gestion des mots de passe" a toujours eu la valeur la plus importante, commençant à 87,12% en 2016, tombant à 75,40% en 2017 avant de grimper en 2018 jusqu'à avoir un indicateur de dangerosité de 95,53% en 2019.
 
-Les valeurs de la "Gestion des sauvegardes" sont significativement moins importantes avec un indicateur de dangerosité de 68,18%, 75,40%, 65,59% et 57,19% respectivement en 2016, 2017, 2018 et 2019. Si un pic est notable en 2017, il y a eu une légère baisse lors des deux années suivantes. Il est possible d'espérer que cette tendance se poursuive dans le futur. 
+Les valeurs de la "Gestion des sauvegardes" sont significativement moins importantes avec un indicateur de dangerosité de 68,18%, 75,40%, 65,59% et 57,19% respectivement en 2016, 2017, 2018 et 2019. Si un pic est notable en 2017, il y a eu une légère baisse lors des deux années suivantes. Il est possible d'espérer que cette tendance se poursuive dans le futur.
 
-La menace liée à la gestion des données personnelles (RGPD) est un phénomène plus récent, et doit donc être traitée avec précaution. La valeur de son indicateur de dangerosité était bas en 2017 (avec un pourcentage de 28,57%). Cependant, cette tendance est à l'opposé de celle de la gestion des sauvegardes. Car cette menace a doublé en 2018 (51,28%) et a continué son ascension en 2019 (58,54%). 
+La menace liée à la gestion des données personnelles (RGPD) est un phénomène plus récent, et doit donc être traitée avec précaution. La valeur de son indicateur de dangerosité était bas en 2017 (avec un pourcentage de 28,57%). Cependant, cette tendance est à l'opposé de celle de la gestion des sauvegardes. Car cette menace a doublé en 2018 (51,28%) et a continué son ascension en 2019 (58,54%).
 
 ### Conclusion
 
-Si les choix techniques sont les premiers auxquels nous sommes confrontés, les choix organisationnels sont trop souvent oubliés malgré leur meilleure efficacité en termes de maturité de sécurité de l'information. De bonnes pratiques et des règles bien définies sont bien plus efficaces que les moyens techniques, qui restent cependant essentiels. Voici quelques pistes qui peuvent aider sur des points importants en sécurité de l'information : 
-- Mots de passe : 
+Si les choix techniques sont les premiers auxquels nous sommes confrontés, les choix organisationnels sont trop souvent oubliés malgré leur meilleure efficacité en termes de maturité de sécurité de l'information. De bonnes pratiques et des règles bien définies sont bien plus efficaces que les moyens techniques, qui restent cependant essentiels. Voici quelques pistes qui peuvent aider sur des points importants en sécurité de l'information :
+- Mots de passe :
 	- https://www.cases.lu/knowhow/glossary/Password_fr.
 	- https://www.youtube.com/watch?v=ml5N2U1GDdI
-- Règles de sécurité : 
+- Règles de sécurité :
 	- https://www.cases.lu/knowhow/glossary/SecurityCharter_fr.html
 - Phishing :
 	- https://www.cases.lu/knowhow/glossary/Phishing_fr.html
 	- https://www.youtube.com/watch?v=p6-7vQBqzkQ
-- Sauvegardes : 
+- Sauvegardes :
 	- https://www.cases.lu/knowhow/glossary/DataBackups_fr.html
 	- https://www.youtube.com/watch?v=RpMOixANNLM
 	- https://www.youtube.com/watch?v=g9Ypgan4rmE
