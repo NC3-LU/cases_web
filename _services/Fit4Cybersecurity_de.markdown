@@ -18,7 +18,7 @@ specialmenu: fit4tools
 
 Als Ergänzung zu Fit4Cybersecurity ist [Fit4Contract](https://contract.cases.lu) ein ähnliches Tool, dessen Ziel es ist, Geschäftsinhabern dabei zu helfen, sicherzustellen, dass Verträge (bereits unterzeichnet, aber insbesondere mit Dritten unterzeichnet) für die Beschaffung von IKT abgeschlossen werden Die Dienstleistungen decken die wesentlichen Aspekte der Informationssicherheit ab. Die Grundlage von [Fit4Contract](https://contract.cases.lu) ist, dass viele kleine Nicht-IKT-Organisationen häufig nicht ausreichend darauf vorbereitet sind, Vertragsklauseln mit IKT-Dienstleistern auszuhandeln.
 
-Und schließlich ist [Fit4Privacy](https://fit4privacy.cases.lu) ein drittes Tool im Selbstbewertungspaket, um Geschäftsinhabern bei Bedarf einen guten ersten Überblick über ihre Reife in Bezug auf Datenschutz und Privatsphäre zu geben, die unter Anderam auch von der DSGVO seit Mai 2018 verlangt werden.
+Und schließlich ist [Fit4Privacy](https://fit4privacy.cases.lu) ein drittes Tool im Selbstbewertungspaket, entwickelt mit der Beratung von der [CNPD](https://cnpd.public.lu/de.html), um Geschäftsinhabern bei Bedarf einen guten ersten Überblick über ihre Reife in Bezug auf Datenschutz und Privatsphäre zu geben, die unter Anderam auch von der DSGVO seit Mai 2018 verlangt werden.
 
 ## Wie?
 

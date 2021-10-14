@@ -18,7 +18,7 @@ specialmenu: fit4tools
 
 En complément, [Fit4Contract](https://contract.cases.lu) vise à aider les chefs d'entreprise à s'assurer que les contrats (déjà signés mais surtout ceux sur le point d'être signés avec des tiers) pour l'acquisition de services TIC couvrent les aspects essentiels de la sécurité de l'information. La raison d'être de [Fit4Contract](https://contract.cases.lu) est que de nombreuses petites organisations non TIC sont souvent insuffisamment préparées à négocier des clauses contractuelles avec les fournisseurs de services TIC.
 
-Et enfin, [Fit4Privacy](https://fit4privacy.cases.lu) est un troisième outil d'auto-évaluation dans l'ensemble, donnant aux propriétaires d'entreprise un bon aperçu initial de leur maturité en matière de confidentialité et de protection des données, aussi requis par le RGPD depuis mai 2018.
+Et enfin, [Fit4Privacy](https://fit4privacy.cases.lu) est un troisième outil d'auto-évaluation dans l'ensemble, créé avec consultations de la [CNPD](https://cnpd.public.lu/fr.html), donnant aux propriétaires d'entreprise un bon aperçu initial de leur maturité en matière de confidentialité et de protection des données, aussi requis par le RGPD depuis mai 2018.
 
 
 ## Comment ?
